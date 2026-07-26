@@ -1,19 +1,15 @@
 import * as THREE from 'three'
 
-const SILVER = new THREE.Color('#f5f5f7')
-
 /**
- * Distinct particle colors with selection weight — mostly silver/white
- * wireframe with color accents, matching the reference (a flat even split
- * per hue looked too "confetti"). Index 0 is always silver.
+ * Light-theme palette: gray, light blue, blue — matching the site's new
+ * accent scheme instead of the old dark-bg multi-hue confetti mix. Gray
+ * carries most of the weight so the field reads as one coherent shape with
+ * blue accents, not a rainbow.
  */
 export const GROUP_PALETTE: { color: THREE.Color; weight: number }[] = [
-  { color: SILVER, weight: 10 },
-  { color: new THREE.Color('#8052ff'), weight: 1 }, // electric iris
-  { color: new THREE.Color('#ffb829'), weight: 1 }, // saffron spark
-  { color: new THREE.Color('#15846e'), weight: 1 }, // deep verdant / teal
-  { color: new THREE.Color('#e845b8'), weight: 1 }, // magenta
-  { color: new THREE.Color('#3b82f6'), weight: 1 }, // blue
+  { color: new THREE.Color('#64748b'), weight: 5 }, // slate gray
+  { color: new THREE.Color('#0ea5e9'), weight: 2 }, // light blue (sky)
+  { color: new THREE.Color('#2563eb'), weight: 2 }, // blue
 ]
 
 const TOTAL_WEIGHT = GROUP_PALETTE.reduce((sum, entry) => sum + entry.weight, 0)

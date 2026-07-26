@@ -1,7 +1,6 @@
 import * as THREE from 'three'
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js'
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js'
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { GROUP_PALETTE, randomGroupIndex } from './palette'
 import type { PointCloud } from './shapes/types'
@@ -33,9 +32,6 @@ const CAMERA_DISTANCE_DESKTOP = 7.4
 const CAMERA_DISTANCE_STACKED = 12.5
 const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.15, 0.1)
 const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
-const BLOOM_STRENGTH = 0.1
-const BLOOM_RADIUS = 0.2
-const BLOOM_THRESHOLD = 0.78
 // Drag-to-rotate feel: pixels-to-radians sensitivity and per-frame coast decay.
 const DRAG_SENSITIVITY = 0.0038
 const DRAG_DECAY = 0.94
@@ -188,7 +184,7 @@ export class ParticleFieldEngine {
         color: entry.color,
         wireframe: true,
         transparent: true,
-        opacity: 0.62,
+        opacity: 0.82,
         side: THREE.DoubleSide,
       })
       const mesh = new THREE.InstancedMesh(this.geometry, material, Math.max(members.length, 1))
@@ -202,17 +198,10 @@ export class ParticleFieldEngine {
     this.applyLayout(width)
     this.scene.add(this.root)
 
+    // No bloom pass on the light theme — it was tuned to glow against a
+    // black background and doesn't translate to a white one.
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
-    if (!new URLSearchParams(window.location.search).has('noBloom')) {
-      const bloom = new UnrealBloomPass(
-        new THREE.Vector2(width, height),
-        BLOOM_STRENGTH,
-        BLOOM_RADIUS,
-        BLOOM_THRESHOLD,
-      )
-      this.composer.addPass(bloom)
-    }
     this.composer.addPass(new OutputPass())
 
     if (!this.reducedMotion) {
