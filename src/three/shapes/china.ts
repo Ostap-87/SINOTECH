@@ -2,7 +2,6 @@ import * as THREE from 'three'
 import { MeshSurfaceSampler } from 'three/examples/jsm/math/MeshSurfaceSampler.js'
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import chinaOutline from '@/data/china-outline.json'
-import { randomParticleColor } from '../palette'
 import type { PointCloud } from './types'
 
 type Ring = [number, number][]
@@ -63,7 +62,6 @@ export function generateChinaPoints(count: number): PointCloud {
   const sampler = new MeshSurfaceSampler(mesh).build()
 
   const positions = new Float32Array(count * 3)
-  const colors = new Float32Array(count * 3)
   const tmp = new THREE.Vector3()
 
   for (let i = 0; i < count; i++) {
@@ -71,12 +69,7 @@ export function generateChinaPoints(count: number): PointCloud {
     positions[i * 3] = tmp.x
     positions[i * 3 + 1] = tmp.y
     positions[i * 3 + 2] = tmp.z
-
-    const color = randomParticleColor()
-    colors[i * 3] = color.r
-    colors[i * 3 + 1] = color.g
-    colors[i * 3 + 2] = color.b
   }
 
-  return { positions, colors }
+  return { positions }
 }

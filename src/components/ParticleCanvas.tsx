@@ -5,12 +5,15 @@ import { generateShape, type ShapeKey } from '@/three/shapes'
 function getParticleCount(): number {
   const debugCount = new URLSearchParams(window.location.search).get('debugCount')
   if (debugCount) return Number(debugCount)
-  if (typeof window === 'undefined') return 10000
+  // Each particle is now a real 3D polyhedron (InstancedMesh) with its own
+  // per-frame matrix compose, not a flat billboard — meaningfully heavier per
+  // instance than the old point sprites, so counts sit lower than before.
+  if (typeof window === 'undefined') return 5000
   const isSmallScreen = window.innerWidth < 768
   const cores = navigator.hardwareConcurrency ?? 4
-  if (isSmallScreen) return 6000
-  if (cores <= 4) return 12000
-  return 22000
+  if (isSmallScreen) return 2800
+  if (cores <= 4) return 6000
+  return 11000
 }
 
 function prefersReducedMotion(): boolean {

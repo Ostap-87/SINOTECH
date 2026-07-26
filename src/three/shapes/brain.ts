@@ -1,6 +1,5 @@
 import * as THREE from 'three'
 import { createNoise3D } from 'simplex-noise'
-import { randomParticleColor } from '../palette'
 import type { PointCloud } from './types'
 
 const noise3D = createNoise3D()
@@ -51,7 +50,6 @@ function samplePoint(side: 1 | -1, tmp: THREE.Vector3) {
 
 export function generateBrainPoints(count: number): PointCloud {
   const positions = new Float32Array(count * 3)
-  const colors = new Float32Array(count * 3)
   const tmp = new THREE.Vector3()
 
   for (let i = 0; i < count; i++) {
@@ -61,12 +59,7 @@ export function generateBrainPoints(count: number): PointCloud {
     positions[i * 3] = tmp.x
     positions[i * 3 + 1] = tmp.y
     positions[i * 3 + 2] = tmp.z
-
-    const color = randomParticleColor()
-    colors[i * 3] = color.r
-    colors[i * 3 + 1] = color.g
-    colors[i * 3 + 2] = color.b
   }
 
-  return { positions, colors }
+  return { positions }
 }

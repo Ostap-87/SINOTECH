@@ -3,7 +3,7 @@ import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
-import { createTriangleSprite } from './triangleSprite'
+import { GROUP_PALETTE, randomGroupIndex } from './palette'
 import type { PointCloud } from './shapes/types'
 
 const MORPH_DURATION_MS = 3200
@@ -13,14 +13,16 @@ const REPEL_RADIUS = 1.1
 const REPEL_STRENGTH = 0.55
 const DRIFT_AMPLITUDE = 0.035
 const DRIFT_SPEED = 0.6
-const AUTO_ROTATE_SPEED = 0.045 // rad/s
+const AUTO_ROTATE_SPEED = 0.045 // rad/s — paused while the user drags or coasts
 const PARALLAX_MAX = 0.22
-const BASE_POINT_SIZE = 5.4
-const SIZE_JITTER_MIN = 0.55 // fraction of BASE_POINT_SIZE — per-particle size variety reads as detail/depth
+const TETRA_RADIUS = 0.1 // world-space size of one particle's polyhedron
+const SIZE_JITTER_MIN = 0.55
 const SIZE_JITTER_MAX = 1.7
-const HOVER_SIZE_BOOST = 2.2
-const TWINKLE_AMOUNT = 0.22 // per-particle brightness shimmer — reads as fine, alive detail
+const HOVER_SIZE_BOOST = 2.0
+const TWINKLE_AMOUNT = 0.2 // subtle per-particle scale pulse — reads as shimmer/detail
 const TWINKLE_SPEED = 1.1
+const SPIN_SPEED_MIN = 0.25 // rad/s — each polyhedron tumbles on its own axis
+const SPIN_SPEED_MAX = 1.1
 // The shape is large enough to graze the hero copy on purpose (per design
 // direction) — a bigger, bolder silhouette reads as more detailed and more
 // "alive" than a small one floating in empty space. Camera distance is
@@ -31,11 +33,13 @@ const CAMERA_DISTANCE_DESKTOP = 7.4
 const CAMERA_DISTANCE_STACKED = 12.5
 const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.15, 0.1)
 const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
-// Crisp sprite core + a modest, tight bloom — enough glow to feel alive without
-// smearing every particle back into an indistinct blob.
-const BLOOM_STRENGTH = 0.62
-const BLOOM_RADIUS = 0.3
-const BLOOM_THRESHOLD = 0.38
+const BLOOM_STRENGTH = 0.22
+const BLOOM_RADIUS = 0.25
+const BLOOM_THRESHOLD = 0.65
+// Drag-to-rotate feel: pixels-to-radians sensitivity and per-frame coast decay.
+const DRAG_SENSITIVITY = 0.0038
+const DRAG_DECAY = 0.94
+const DRAG_PITCH_LIMIT = 1.1 // radians — keeps the shape from flipping upside down
 
 function easeOutCubic(t: number) {
   return 1 - Math.pow(1 - t, 3)
@@ -58,25 +62,38 @@ export interface ParticleFieldOptions {
   reducedMotion: boolean
 }
 
+/** One InstancedMesh per palette color group — see class doc for why. */
+interface ColorGroup {
+  mesh: THREE.InstancedMesh
+  material: THREE.MeshBasicMaterial
+  /** Global particle index for each local instance slot in this group. */
+  memberIndices: number[]
+}
+
 export class ParticleFieldEngine {
   private renderer: THREE.WebGLRenderer
   private scene = new THREE.Scene()
   private camera: THREE.PerspectiveCamera
   private composer: EffectComposer
-  private points: THREE.Points
-  private geometry: THREE.BufferGeometry
-  private material: THREE.ShaderMaterial
+  private geometry: THREE.TetrahedronGeometry
+  private root = new THREE.Group()
+  private groups: ColorGroup[]
+  /** Global particle index -> {group, localSlot}, for writing matrices per frame. */
+  private groupOfParticle: Uint8Array
+  private localSlotOfParticle: Uint32Array
 
   private count: number
   private reducedMotion: boolean
 
   private prevPositions: Float32Array
   private targetPositions: Float32Array
-  private prevColors: Float32Array
-  private targetColors: Float32Array
+  private currentPositions: Float32Array
   private delays: Float32Array
   private driftSeeds: Float32Array
   private baseSizes: Float32Array
+  private spinAxes: Float32Array
+  private spinSpeeds: Float32Array
+  private spinPhases: Float32Array
 
   private morphStart = performance.now()
   private clock = new THREE.Clock()
@@ -91,6 +108,19 @@ export class ParticleFieldEngine {
   private parallaxTarget = new THREE.Vector2(0, 0)
   private parallaxCurrent = new THREE.Vector2(0, 0)
   private autoRotation = 0
+
+  private isDragging = false
+  private dragLast = new THREE.Vector2()
+  private dragVelocity = new THREE.Vector2()
+  private dragRotation = new THREE.Vector2()
+  private activePointerId: number | null = null
+
+  // Scratch objects reused every frame to avoid per-instance allocation.
+  private scratchPosition = new THREE.Vector3()
+  private scratchQuaternion = new THREE.Quaternion()
+  private scratchAxis = new THREE.Vector3()
+  private scratchScale = new THREE.Vector3()
+  private scratchMatrix = new THREE.Matrix4()
 
   private frameId: number | null = null
   private disposed = false
@@ -110,66 +140,67 @@ export class ParticleFieldEngine {
     this.camera.position.set(0, 0, CAMERA_DISTANCE_DESKTOP)
     this.camera.lookAt(0, 0, 0)
 
-    this.geometry = new THREE.BufferGeometry()
     this.prevPositions = scatterCloud(this.count, SCATTER_RADIUS)
+    this.currentPositions = this.prevPositions.slice()
     this.targetPositions = initial.positions
-    this.prevColors = initial.colors.slice()
-    this.targetColors = initial.colors
 
-    const livePositions = this.prevPositions.slice()
-    const liveColors = this.prevColors.slice()
-    const sizes = new Float32Array(this.count)
     this.driftSeeds = new Float32Array(this.count)
     this.delays = new Float32Array(this.count)
     this.baseSizes = new Float32Array(this.count)
+    this.spinAxes = new Float32Array(this.count * 3)
+    this.spinSpeeds = new Float32Array(this.count)
+    this.spinPhases = new Float32Array(this.count)
+    this.groupOfParticle = new Uint8Array(this.count)
+    this.localSlotOfParticle = new Uint32Array(this.count)
+
+    const memberIndicesByGroup: number[][] = GROUP_PALETTE.map(() => [])
+
     for (let i = 0; i < this.count; i++) {
       this.driftSeeds[i] = Math.random() * Math.PI * 2
       this.delays[i] = Math.random() * STAGGER_SPREAD
       this.baseSizes[i] =
-        BASE_POINT_SIZE * (SIZE_JITTER_MIN + Math.random() * (SIZE_JITTER_MAX - SIZE_JITTER_MIN))
-      sizes[i] = this.baseSizes[i]
+        TETRA_RADIUS * (SIZE_JITTER_MIN + Math.random() * (SIZE_JITTER_MAX - SIZE_JITTER_MIN))
+
+      const theta = Math.acos(2 * Math.random() - 1)
+      const phi = 2 * Math.PI * Math.random()
+      this.spinAxes[i * 3] = Math.sin(theta) * Math.cos(phi)
+      this.spinAxes[i * 3 + 1] = Math.sin(theta) * Math.sin(phi)
+      this.spinAxes[i * 3 + 2] = Math.cos(theta)
+      this.spinSpeeds[i] =
+        (SPIN_SPEED_MIN + Math.random() * (SPIN_SPEED_MAX - SPIN_SPEED_MIN)) * (Math.random() < 0.5 ? -1 : 1)
+      this.spinPhases[i] = Math.random() * Math.PI * 2
+
+      const groupIndex = randomGroupIndex()
+      this.groupOfParticle[i] = groupIndex
+      this.localSlotOfParticle[i] = memberIndicesByGroup[groupIndex].length
+      memberIndicesByGroup[groupIndex].push(i)
     }
 
-    this.geometry.setAttribute('position', new THREE.BufferAttribute(livePositions, 3).setUsage(THREE.DynamicDrawUsage))
-    this.geometry.setAttribute('aColor', new THREE.BufferAttribute(liveColors, 3).setUsage(THREE.DynamicDrawUsage))
-    this.geometry.setAttribute('aSize', new THREE.BufferAttribute(sizes, 1).setUsage(THREE.DynamicDrawUsage))
-
-    this.material = new THREE.ShaderMaterial({
-      uniforms: {
-        uTexture: { value: createTriangleSprite() },
-        uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) },
-        uFocalDistance: { value: CAMERA_DISTANCE_DESKTOP },
-      },
-      vertexShader: /* glsl */ `
-        attribute float aSize;
-        attribute vec3 aColor;
-        uniform float uPixelRatio;
-        uniform float uFocalDistance;
-        varying vec3 vColor;
-        void main() {
-          vColor = aColor;
-          vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
-          gl_PointSize = aSize * uPixelRatio * (uFocalDistance / -mvPosition.z);
-          gl_Position = projectionMatrix * mvPosition;
-        }
-      `,
-      fragmentShader: /* glsl */ `
-        uniform sampler2D uTexture;
-        varying vec3 vColor;
-        void main() {
-          vec4 tex = texture2D(uTexture, gl_PointCoord);
-          if (tex.a < 0.04) discard;
-          gl_FragColor = vec4(vColor, tex.a);
-        }
-      `,
-      transparent: true,
-      depthWrite: false,
-      blending: THREE.AdditiveBlending,
+    // A real 3D wireframe polyhedron per particle — rendered and lit like any
+    // other mesh, not a camera-facing sprite — so it looks right from every
+    // angle as the whole field rotates. Grouped into one InstancedMesh per
+    // palette color (fixed material.color) rather than per-instance vertex
+    // colors, which sidesteps a color-attribute compatibility issue.
+    this.geometry = new THREE.TetrahedronGeometry(1, 0)
+    this.groups = GROUP_PALETTE.map((entry, groupIndex) => {
+      const members = memberIndicesByGroup[groupIndex]
+      const material = new THREE.MeshBasicMaterial({
+        color: entry.color,
+        wireframe: true,
+        transparent: true,
+        opacity: 0.85,
+        side: THREE.DoubleSide,
+      })
+      const mesh = new THREE.InstancedMesh(this.geometry, material, Math.max(members.length, 1))
+      mesh.count = members.length
+      mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
+      mesh.frustumCulled = false
+      this.root.add(mesh)
+      return { mesh, material, memberIndices: members }
     })
 
-    this.points = new THREE.Points(this.geometry, this.material)
     this.applyLayout(width)
-    this.scene.add(this.points)
+    this.scene.add(this.root)
 
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
@@ -185,33 +216,76 @@ export class ParticleFieldEngine {
     this.composer.addPass(new OutputPass())
 
     if (!this.reducedMotion) {
+      canvas.style.cursor = 'grab'
+      canvas.style.touchAction = 'none'
       canvas.addEventListener('pointermove', this.onPointerMove)
       canvas.addEventListener('pointerleave', this.onPointerLeave)
+      canvas.addEventListener('pointerdown', this.onPointerDown)
+      canvas.addEventListener('pointerup', this.onPointerUp)
+      canvas.addEventListener('pointercancel', this.onPointerUp)
     }
 
     this.tick = this.tick.bind(this)
     this.frameId = requestAnimationFrame(this.tick)
   }
 
-  private onPointerMove = (event: PointerEvent) => {
-    const rect = (event.target as HTMLElement).getBoundingClientRect()
+  private updatePointerNDC(event: PointerEvent) {
+    const rect = (event.currentTarget as HTMLElement).getBoundingClientRect()
     this.pointerNDC.x = ((event.clientX - rect.left) / rect.width) * 2 - 1
     this.pointerNDC.y = -((event.clientY - rect.top) / rect.height) * 2 + 1
-    this.parallaxTarget.set(this.pointerNDC.x, this.pointerNDC.y)
     this.hasPointer = true
   }
 
+  private onPointerDown = (event: PointerEvent) => {
+    this.isDragging = true
+    this.activePointerId = event.pointerId
+    this.dragLast.set(event.clientX, event.clientY)
+    this.dragVelocity.set(0, 0)
+    ;(event.currentTarget as HTMLElement).setPointerCapture(event.pointerId)
+    ;(event.currentTarget as HTMLElement).style.cursor = 'grabbing'
+    this.updatePointerNDC(event)
+    this.parallaxTarget.set(this.pointerNDC.x, this.pointerNDC.y)
+  }
+
+  private onPointerMove = (event: PointerEvent) => {
+    this.updatePointerNDC(event)
+    this.parallaxTarget.set(this.pointerNDC.x, this.pointerNDC.y)
+
+    if (this.isDragging && event.pointerId === this.activePointerId) {
+      const dx = event.clientX - this.dragLast.x
+      const dy = event.clientY - this.dragLast.y
+      this.dragLast.set(event.clientX, event.clientY)
+      const yaw = dx * DRAG_SENSITIVITY
+      const pitch = dy * DRAG_SENSITIVITY
+      this.dragRotation.x += yaw
+      this.dragRotation.y = Math.min(
+        Math.max(this.dragRotation.y + pitch, -DRAG_PITCH_LIMIT),
+        DRAG_PITCH_LIMIT,
+      )
+      this.dragVelocity.set(yaw, pitch)
+    }
+  }
+
+  private onPointerUp = (event: PointerEvent) => {
+    if (event.pointerId === this.activePointerId) {
+      this.isDragging = false
+      this.activePointerId = null
+      ;(event.currentTarget as HTMLElement).style.cursor = 'grab'
+    }
+  }
+
   private onPointerLeave = () => {
-    this.hasPointer = false
-    this.parallaxTarget.set(0, 0)
+    if (!this.isDragging) {
+      this.hasPointer = false
+      this.parallaxTarget.set(0, 0)
+    }
   }
 
   setTarget(shape: PointCloud) {
-    const posAttr = this.geometry.getAttribute('position') as THREE.BufferAttribute
-    this.prevPositions = (posAttr.array as Float32Array).slice()
-    this.prevColors = (this.geometry.getAttribute('aColor').array as Float32Array).slice()
+    // Snapshot wherever particles actually are right now (not just the old
+    // target) so switching shapes mid-morph doesn't jump.
+    this.prevPositions = this.currentPositions.slice()
     this.targetPositions = shape.positions
-    this.targetColors = shape.colors
     this.morphStart = performance.now()
   }
 
@@ -220,9 +294,8 @@ export class ParticleFieldEngine {
     const offset = stacked ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
     const distance = stacked ? CAMERA_DISTANCE_STACKED : CAMERA_DISTANCE_DESKTOP
 
-    this.points.position.set(offset.x, offset.y, 0)
+    this.root.position.set(offset.x, offset.y, 0)
     this.camera.position.z = distance
-    this.material.uniforms.uFocalDistance.value = distance
   }
 
   resize(width: number, height: number) {
@@ -245,17 +318,10 @@ export class ParticleFieldEngine {
     if (!this.reducedMotion) {
       this.raycaster.setFromCamera(this.pointerNDC, this.camera)
       this.raycaster.ray.intersectPlane(this.groundPlane, this.mouseWorld)
-      // Repel math below runs in the points group's local space, which is
-      // offset from world space by FRAME_OFFSET_X — translate the cursor in.
-      this.mouseLocal.copy(this.mouseWorld).sub(this.points.position)
+      // Repel math below runs in the root group's local space, which is
+      // offset from world space by the frame offset — translate the cursor in.
+      this.mouseLocal.copy(this.mouseWorld).sub(this.root.position)
     }
-
-    const posAttr = this.geometry.getAttribute('position') as THREE.BufferAttribute
-    const colorAttr = this.geometry.getAttribute('aColor') as THREE.BufferAttribute
-    const sizeAttr = this.geometry.getAttribute('aSize') as THREE.BufferAttribute
-    const positions = posAttr.array as Float32Array
-    const colors = colorAttr.array as Float32Array
-    const sizes = sizeAttr.array as Float32Array
 
     for (let i = 0; i < this.count; i++) {
       const i3 = i * 3
@@ -267,17 +333,9 @@ export class ParticleFieldEngine {
       let x = this.prevPositions[i3] + (this.targetPositions[i3] - this.prevPositions[i3]) * eased
       let y = this.prevPositions[i3 + 1] + (this.targetPositions[i3 + 1] - this.prevPositions[i3 + 1]) * eased
       let z = this.prevPositions[i3 + 2] + (this.targetPositions[i3 + 2] - this.prevPositions[i3 + 2]) * eased
-
-      const r = this.prevColors[i3] + (this.targetColors[i3] - this.prevColors[i3]) * eased
-      const g = this.prevColors[i3 + 1] + (this.targetColors[i3 + 1] - this.prevColors[i3 + 1]) * eased
-      const b = this.prevColors[i3 + 2] + (this.targetColors[i3 + 2] - this.prevColors[i3 + 2]) * eased
-
-      const twinkle = this.reducedMotion
-        ? 1
-        : 1 + TWINKLE_AMOUNT * Math.sin(time * TWINKLE_SPEED + this.driftSeeds[i])
-      colors[i3] = r * twinkle
-      colors[i3 + 1] = g * twinkle
-      colors[i3 + 2] = b * twinkle
+      this.currentPositions[i3] = x
+      this.currentPositions[i3 + 1] = y
+      this.currentPositions[i3 + 2] = z
 
       const baseSize = this.baseSizes[i]
       let size = baseSize
@@ -287,6 +345,9 @@ export class ParticleFieldEngine {
         x += Math.sin(time * DRIFT_SPEED + seed) * DRIFT_AMPLITUDE
         y += Math.cos(time * DRIFT_SPEED * 0.9 + seed) * DRIFT_AMPLITUDE
         z += Math.sin(time * DRIFT_SPEED * 0.7 + seed * 1.3) * DRIFT_AMPLITUDE
+
+        const twinkle = 1 + TWINKLE_AMOUNT * Math.sin(time * TWINKLE_SPEED + seed)
+        size *= twinkle
 
         if (this.hasPointer) {
           const dx = x - this.mouseLocal.x
@@ -299,26 +360,48 @@ export class ParticleFieldEngine {
             x += (dx / dist) * push
             y += (dy / dist) * push
             z += (dz / dist) * push
-            size = baseSize * (1 + (HOVER_SIZE_BOOST - 1) * falloff)
+            size *= 1 + (HOVER_SIZE_BOOST - 1) * falloff
           }
         }
       }
 
-      positions[i3] = x
-      positions[i3 + 1] = y
-      positions[i3 + 2] = z
-      sizes[i] = size
+      this.scratchPosition.set(x, y, z)
+      this.scratchScale.setScalar(size)
+
+      if (this.reducedMotion) {
+        this.scratchQuaternion.identity()
+      } else {
+        this.scratchAxis.set(this.spinAxes[i3], this.spinAxes[i3 + 1], this.spinAxes[i3 + 2])
+        const angle = time * this.spinSpeeds[i] + this.spinPhases[i]
+        this.scratchQuaternion.setFromAxisAngle(this.scratchAxis, angle)
+      }
+
+      this.scratchMatrix.compose(this.scratchPosition, this.scratchQuaternion, this.scratchScale)
+      const group = this.groups[this.groupOfParticle[i]]
+      group.mesh.setMatrixAt(this.localSlotOfParticle[i], this.scratchMatrix)
     }
 
-    posAttr.needsUpdate = true
-    colorAttr.needsUpdate = true
-    sizeAttr.needsUpdate = true
+    for (const group of this.groups) {
+      group.mesh.instanceMatrix.needsUpdate = true
+    }
 
     if (!this.reducedMotion) {
-      this.autoRotation += AUTO_ROTATE_SPEED * delta
+      if (!this.isDragging) {
+        const coasting = Math.abs(this.dragVelocity.x) > 0.00005 || Math.abs(this.dragVelocity.y) > 0.00005
+        if (coasting) {
+          this.dragRotation.x += this.dragVelocity.x
+          this.dragRotation.y = Math.min(
+            Math.max(this.dragRotation.y + this.dragVelocity.y, -DRAG_PITCH_LIMIT),
+            DRAG_PITCH_LIMIT,
+          )
+          this.dragVelocity.multiplyScalar(DRAG_DECAY)
+        } else {
+          this.autoRotation += AUTO_ROTATE_SPEED * delta
+        }
+      }
       this.parallaxCurrent.lerp(this.parallaxTarget, 0.04)
-      this.points.rotation.y = this.autoRotation + this.parallaxCurrent.x * PARALLAX_MAX
-      this.points.rotation.x = this.parallaxCurrent.y * PARALLAX_MAX * 0.5
+      this.root.rotation.y = this.autoRotation + this.parallaxCurrent.x * PARALLAX_MAX + this.dragRotation.x
+      this.root.rotation.x = this.parallaxCurrent.y * PARALLAX_MAX * 0.5 + this.dragRotation.y
     }
 
     this.composer.render()
@@ -328,11 +411,14 @@ export class ParticleFieldEngine {
   dispose() {
     this.disposed = true
     if (this.frameId !== null) cancelAnimationFrame(this.frameId)
-    this.renderer.domElement.removeEventListener('pointermove', this.onPointerMove)
-    this.renderer.domElement.removeEventListener('pointerleave', this.onPointerLeave)
+    const canvas = this.renderer.domElement
+    canvas.removeEventListener('pointermove', this.onPointerMove)
+    canvas.removeEventListener('pointerleave', this.onPointerLeave)
+    canvas.removeEventListener('pointerdown', this.onPointerDown)
+    canvas.removeEventListener('pointerup', this.onPointerUp)
+    canvas.removeEventListener('pointercancel', this.onPointerUp)
     this.geometry.dispose()
-    this.material.dispose()
-    this.material.uniforms.uTexture.value?.dispose()
+    for (const group of this.groups) group.material.dispose()
     this.renderer.dispose()
     this.composer.dispose()
   }
