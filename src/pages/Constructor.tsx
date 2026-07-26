@@ -4,6 +4,8 @@ import { Check, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, getCity, getSector } from '@/data'
 import type { Company } from '@/types/data'
+import { RouteMap } from '@/components/RouteMap'
+import type { RouteMapStop } from '@/components/RouteMap'
 
 type FormatKey = '2' | '5'
 
@@ -109,6 +111,20 @@ export function Constructor() {
 
   const canSubmit = !!config && selectedCompanies.length >= config.min
   const itinerary = config ? buildItinerary(selectedCompanies, config.days) : []
+
+  const routeStops: RouteMapStop[] = itinerary
+    .filter((day) => day.clusters.length > 0)
+    .map((day) => {
+      const primary = day.clusters[0]
+      const city = getCity(primary.cityId)
+      return {
+        key: `day-${day.day}`,
+        day: day.day,
+        cityId: primary.cityId,
+        cityLabel: city ? pick(city, 'name', locale) : primary.cityId,
+        companies: day.clusters.flatMap((cluster) => cluster.companies.map((c) => c.name_en)),
+      }
+    })
 
   return (
     <section className="mx-auto max-w-[1280px] px-6 py-24">
@@ -322,6 +338,8 @@ export function Constructor() {
               ? 'Это предварительная группировка по городам — реальный маршрут и логистику соберёт команда Aura Robotics.'
               : "This is a preliminary city grouping — the Aura Robotics team will assemble the real route and logistics."}
           </p>
+
+          {routeStops.length > 1 && <RouteMap stops={routeStops} className="mt-8 max-w-xl" />}
 
           <ol className="mt-8 space-y-4">
             {itinerary.map((day) => (

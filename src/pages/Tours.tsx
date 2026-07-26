@@ -1,9 +1,25 @@
 import { Link } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
-import { toursData } from '@/data'
+import { toursData, companiesData } from '@/data'
+import { RouteMap } from '@/components/RouteMap'
+import type { RouteMapStop } from '@/components/RouteMap'
 
 function formatRub(amount: number, locale: 'ru' | 'en') {
   return new Intl.NumberFormat(locale === 'ru' ? 'ru-RU' : 'en-US').format(amount) + ' ₽'
+}
+
+function companyName(id: string): string {
+  return companiesData.companies.find((c) => c.id === id)?.name_en ?? id
+}
+
+function buildRouteStops(tour: (typeof toursData.tours)[number], locale: 'ru' | 'en'): RouteMapStop[] {
+  return tour.itinerary.map((day) => ({
+    key: `${tour.tour_id}-${day.day}`,
+    day: day.day,
+    cityId: day.city,
+    cityLabel: locale === 'ru' ? day.city_ru : day.city_en,
+    companies: day.companies.map(companyName),
+  }))
 }
 
 export function Tours() {
@@ -58,6 +74,11 @@ export function Tours() {
               {locale === 'ru' ? 'Вылет' : 'Departure'}: {pick(tour, 'departure', locale)}
             </p>
 
+            <div className="mt-10 max-w-xl">
+              <h3 className="text-lg font-medium">{locale === 'ru' ? 'Маршрут' : 'Route'}</h3>
+              <RouteMap stops={buildRouteStops(tour, locale)} className="mt-4" />
+            </div>
+
             <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.3fr_1fr]">
               <div>
                 <h3 className="text-lg font-medium">{locale === 'ru' ? 'Программа по дням' : 'Day-by-day'}</h3>
@@ -71,7 +92,7 @@ export function Tours() {
                       <p className="mt-1 text-xs text-ash-gray">
                         {locale === 'ru' ? day.area_ru : day.area_en}
                       </p>
-                      <p className="mt-2 text-sm text-silver-mist">{day.companies.join(', ')}</p>
+                      <p className="mt-2 text-sm text-silver-mist">{day.companies.map(companyName).join(', ')}</p>
                       {(day.transfer_ru || day.note_ru) && (
                         <p className="mt-2 text-xs text-electric-iris">
                           {locale === 'ru' ? day.transfer_ru ?? day.note_ru : day.transfer_en ?? day.note_en}
