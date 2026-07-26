@@ -16,7 +16,7 @@ export function Home() {
 
       <div className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24">
         <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-          {locale === 'ru' ? 'Бизнес-делегации в Китай' : 'Business delegations to China'}
+          {locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}
         </p>
         <h1 className="mt-6 max-w-2xl text-[42px] font-normal leading-[1.02] tracking-[-0.04em] sm:text-[56px] lg:text-[64px]">
           {locale === 'ru'
@@ -39,7 +39,9 @@ export function Home() {
         <dl className="mt-16 grid max-w-xl grid-cols-3 gap-8 border-t border-white/10 pt-8 text-sm text-ash-gray">
           <div>
             <dt>{locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}</dt>
-            <dd className="mt-1 text-2xl font-normal text-bone-white">{counts.companies}</dd>
+            <dd className="mt-1 text-2xl font-normal text-bone-white">
+              {Math.floor(counts.companies / 50) * 50}+
+            </dd>
           </div>
           <div>
             <dt>{locale === 'ru' ? 'отраслей' : 'sectors'}</dt>
