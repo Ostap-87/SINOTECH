@@ -1,15 +1,12 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
-import type { ShapeKey } from '@/three/shapes'
 
 export function Home() {
   const { locale } = useLanguage()
   const { counts } = companiesData.meta
   const tour = toursData.tours[0]
-  const [demoShape, setDemoShape] = useState<ShapeKey>('china')
 
   return (
     <section className="mx-auto grid w-full max-w-[1280px] grid-cols-1 items-center gap-12 px-6 py-16 lg:min-h-[80vh] lg:grid-cols-2 lg:gap-8 lg:py-24">
@@ -53,28 +50,8 @@ export function Home() {
         </dl>
       </div>
 
-      <div>
-        <div className="h-[360px] sm:h-[440px] lg:h-[560px]">
-          <ParticleCanvas shape={demoShape} />
-        </div>
-
-        {/* Temporary QA control for Step 2 — replaced by the real industries hover list in Step 4. */}
-        <div className="mt-4 flex justify-center gap-2">
-          {(['china', 'brain'] as ShapeKey[]).map((key) => (
-            <button
-              key={key}
-              type="button"
-              onClick={() => setDemoShape(key)}
-              className={`rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] transition-colors ${
-                demoShape === key
-                  ? 'border-electric-iris text-bone-white'
-                  : 'border-white/15 text-ash-gray hover:text-bone-white'
-              }`}
-            >
-              {key === 'china' ? (locale === 'ru' ? 'Китай' : 'China') : 'AI'}
-            </button>
-          ))}
-        </div>
+      <div className="h-[360px] sm:h-[440px] lg:h-[560px]">
+        <ParticleCanvas shape="china" />
       </div>
     </section>
   )
