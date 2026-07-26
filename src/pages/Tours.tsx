@@ -74,12 +74,12 @@ export function Tours() {
               {locale === 'ru' ? 'Вылет' : 'Departure'}: {pick(tour, 'departure', locale)}
             </p>
 
-            <div className="mt-10 max-w-xl">
-              <h3 className="text-lg font-medium">{locale === 'ru' ? 'Маршрут' : 'Route'}</h3>
-              <RouteMap stops={buildRouteStops(tour, locale)} className="mt-4" />
-            </div>
+            <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2">
+              <div>
+                <h3 className="text-lg font-medium">{locale === 'ru' ? 'Маршрут' : 'Route'}</h3>
+                <RouteMap stops={buildRouteStops(tour, locale)} className="mt-4" />
+              </div>
 
-            <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.3fr_1fr]">
               <div>
                 <h3 className="text-lg font-medium">{locale === 'ru' ? 'Программа по дням' : 'Day-by-day'}</h3>
                 <ol className="mt-4 space-y-4">
@@ -102,57 +102,57 @@ export function Tours() {
                   ))}
                 </ol>
               </div>
+            </div>
 
-              <div className="space-y-6">
-                <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
-                  <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-                    {locale === 'ru' ? 'В программу входит' : "What's included"}
-                  </h3>
-                  <ul className="mt-3 space-y-2 text-sm text-silver-mist">
-                    {tour.includes.map((item) => (
-                      <li key={item.ru} className="flex gap-2">
-                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-electric-iris" />
-                        {locale === 'ru' ? item.ru : item.en}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
-                  <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-                    {pick(tour.pricing, 'total_label', locale)}
-                  </h3>
-                  <ul className="mt-3 space-y-2 text-sm text-silver-mist">
-                    {tour.pricing.items.map((item) => (
-                      <li key={item.n} className="flex items-center justify-between gap-4">
-                        <span>{pick(item, 'title', locale)}</span>
-                        <span className="shrink-0 text-bone-white">{formatRub(item.amount, locale)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="mt-4 flex items-center justify-between border-t border-black/10 pt-4 text-base">
-                    <span className="font-medium">{pick(tour.pricing, 'total_label', locale)}</span>
-                    <span className="font-medium text-bone-white">
-                      {formatRub(tour.pricing.total_excl_flights, locale)}
-                    </span>
-                  </div>
-                  {tour.pricing.extras.map((extra) => (
-                    <p key={extra.title_ru} className="mt-2 text-xs text-ash-gray">
-                      + {pick(extra, 'title', locale)}: {formatRub(extra.amount, locale)} (
-                      {pick(extra, 'note', locale)})
-                    </p>
+            <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">
+              <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
+                <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {locale === 'ru' ? 'В программу входит' : "What's included"}
+                </h3>
+                <ul className="mt-3 space-y-2 text-sm text-silver-mist">
+                  {tour.includes.map((item) => (
+                    <li key={item.ru} className="flex gap-2">
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-electric-iris" />
+                      {locale === 'ru' ? item.ru : item.en}
+                    </li>
                   ))}
-                  <p className="mt-3 text-xs text-ash-gray">{pick(tour.pricing, 'basis', locale)}</p>
-                </div>
+                </ul>
+              </div>
 
-                <Link
-                  to="/contacts"
-                  className="inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
-                >
-                  {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
-                </Link>
+              <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
+                <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {pick(tour.pricing, 'total_label', locale)}
+                </h3>
+                <ul className="mt-3 space-y-2 text-sm text-silver-mist">
+                  {tour.pricing.items.map((item) => (
+                    <li key={item.n} className="flex items-center justify-between gap-4">
+                      <span>{pick(item, 'title', locale)}</span>
+                      <span className="shrink-0 text-bone-white">{formatRub(item.amount, locale)}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-4 flex items-center justify-between border-t border-black/10 pt-4 text-base">
+                  <span className="font-medium">{pick(tour.pricing, 'total_label', locale)}</span>
+                  <span className="font-medium text-bone-white">
+                    {formatRub(tour.pricing.total_excl_flights, locale)}
+                  </span>
+                </div>
+                {tour.pricing.extras.map((extra) => (
+                  <p key={extra.title_ru} className="mt-2 text-xs text-ash-gray">
+                    + {pick(extra, 'title', locale)}: {formatRub(extra.amount, locale)} (
+                    {pick(extra, 'note', locale)})
+                  </p>
+                ))}
+                <p className="mt-3 text-xs text-ash-gray">{pick(tour.pricing, 'basis', locale)}</p>
               </div>
             </div>
+
+            <Link
+              to="/contacts"
+              className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-auto"
+            >
+              {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
+            </Link>
           </article>
         ))}
       </div>

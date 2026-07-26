@@ -6,7 +6,7 @@ import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 
-const EXIT_TRANSITION_MS = 900
+const EXIT_TRANSITION_MS = 2200
 
 export function Home() {
   const { locale } = useLanguage()
@@ -39,8 +39,8 @@ export function Home() {
       </div>
 
       <div
-        className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 transition-opacity duration-700 lg:py-24"
-        style={{ opacity: isLeaving ? 0 : 1 }}
+        className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24"
+        style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${EXIT_TRANSITION_MS}ms ease-in-out` }}
       >
         <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
           {locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}

@@ -150,10 +150,20 @@ export function RouteMap({ stops, className }: RouteMapProps) {
 
   return (
     <div className={className}>
-      <div className="overflow-hidden rounded-2xl border border-black/10 bg-surface/40">
+      <div className="overflow-hidden rounded-2xl border border-black/15 bg-surface/60">
         <svg viewBox={`0 0 ${width} ${height}`} className="h-auto w-full" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <filter id="route-map-glow" x="-150%" y="-150%" width="400%" height="400%">
+              <feGaussianBlur stdDeviation="8" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
+
           {ringPaths.map((d, i) => (
-            <path key={i} d={d} className="fill-black/[0.03] stroke-black/15" strokeWidth={1.2} />
+            <path key={i} d={d} className="fill-black/[0.06] stroke-black/30" strokeWidth={1.8} />
           ))}
 
           {stops.slice(0, currentIndex + 1).map((_, i) => {
@@ -168,6 +178,14 @@ export function RouteMap({ stops, className }: RouteMapProps) {
             const isCurrent = i === currentIndex
             return (
               <g key={stop.key} onClick={() => goTo(i)} className="cursor-pointer">
+                {/* Soft glow halo behind every visited point — reads as "lit up" against the flat map. */}
+                <circle
+                  cx={x}
+                  cy={y}
+                  r={isCurrent ? 16 : 10}
+                  className="fill-electric-iris/35"
+                  filter="url(#route-map-glow)"
+                />
                 {isCurrent && (
                   <circle cx={x} cy={y} r={14} className="fill-none stroke-electric-iris/60">
                     <animate attributeName="r" values="8;18;8" dur="2s" repeatCount="indefinite" />
@@ -177,8 +195,10 @@ export function RouteMap({ stops, className }: RouteMapProps) {
                 <circle
                   cx={x}
                   cy={y}
-                  r={isCurrent ? 7 : 4.5}
-                  className={isCurrent ? 'fill-electric-iris' : 'fill-bone-white/70'}
+                  r={isCurrent ? 7 : 5}
+                  className={isCurrent ? 'fill-electric-iris' : 'fill-electric-iris/70'}
+                  stroke="white"
+                  strokeWidth={1.5}
                 />
               </g>
             )
