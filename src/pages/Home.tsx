@@ -9,12 +9,16 @@ export function Home() {
   const tour = toursData.tours[0]
 
   return (
-    <section className="mx-auto grid w-full max-w-[1280px] grid-cols-1 items-center gap-12 px-6 py-16 lg:min-h-[80vh] lg:grid-cols-2 lg:gap-8 lg:py-24">
-      <div>
+    <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
+      <div className="absolute inset-0">
+        <ParticleCanvas shape="china" />
+      </div>
+
+      <div className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24">
         <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
           {locale === 'ru' ? 'Бизнес-делегации в Китай' : 'Business delegations to China'}
         </p>
-        <h1 className="mt-6 text-[42px] font-normal leading-[1.02] tracking-[-0.04em] sm:text-[56px] lg:text-[64px]">
+        <h1 className="mt-6 max-w-2xl text-[42px] font-normal leading-[1.02] tracking-[-0.04em] sm:text-[56px] lg:text-[64px]">
           {locale === 'ru'
             ? 'Приветствуем, какую индустрию хотели бы изучить?'
             : 'Welcome — which industry would you like to explore?'}
@@ -27,7 +31,7 @@ export function Home() {
 
         <Link
           to="/industries"
-          className="mt-10 inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
+          className="pointer-events-auto mt-10 inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
         >
           {locale === 'ru' ? 'Индустрии' : 'Industries'}
         </Link>
@@ -48,10 +52,6 @@ export function Home() {
             </dd>
           </div>
         </dl>
-      </div>
-
-      <div className="h-[360px] sm:h-[440px] lg:h-[560px]">
-        <ParticleCanvas shape="china" />
       </div>
     </section>
   )

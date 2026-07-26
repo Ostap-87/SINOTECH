@@ -15,15 +15,22 @@ const DRIFT_AMPLITUDE = 0.035
 const DRIFT_SPEED = 0.6
 const AUTO_ROTATE_SPEED = 0.045 // rad/s
 const PARALLAX_MAX = 0.22
-const BASE_POINT_SIZE = 4.5
-const HOVER_SIZE_BOOST = 2.4
+const BASE_POINT_SIZE = 4.2
+const SIZE_JITTER_MIN = 0.6 // fraction of BASE_POINT_SIZE — per-particle size variety reads as detail/depth
+const SIZE_JITTER_MAX = 1.5
+const HOVER_SIZE_BOOST = 2.2
 const CAMERA_DISTANCE = 6.4
-// Kept low and high-threshold on purpose — additive-blended points already glow on
-// their own, and a strong/loose bloom here is what turned the whole field into a
-// single overexposed white blob instead of a readable, detailed shape.
-const BLOOM_STRENGTH = 0.35
-const BLOOM_RADIUS = 0.3
-const BLOOM_THRESHOLD = 0.45
+// Shifts the settled shape away from the left-aligned hero copy so it reads as
+// a full-bleed backdrop rather than a boxed illustration. Below the stacked
+// layout's breakpoint the shape drops beneath the text instead of beside it.
+const STACKED_LAYOUT_BREAKPOINT = 1024
+const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.7, 0)
+const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -1.7)
+// Crisp sprite core + a modest, tight bloom — enough glow to feel alive without
+// smearing every particle back into an indistinct blob.
+const BLOOM_STRENGTH = 0.55
+const BLOOM_RADIUS = 0.28
+const BLOOM_THRESHOLD = 0.42
 
 function easeOutCubic(t: number) {
   return 1 - Math.pow(1 - t, 3)
@@ -64,6 +71,7 @@ export class ParticleFieldEngine {
   private targetColors: Float32Array
   private delays: Float32Array
   private driftSeeds: Float32Array
+  private baseSizes: Float32Array
 
   private morphStart = performance.now()
   private clock = new THREE.Clock()
@@ -72,6 +80,7 @@ export class ParticleFieldEngine {
   private groundPlane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0)
   private pointerNDC = new THREE.Vector2(10, 10) // off-screen until first move
   private mouseWorld = new THREE.Vector3()
+  private mouseLocal = new THREE.Vector3()
   private hasPointer = false
 
   private parallaxTarget = new THREE.Vector2(0, 0)
@@ -104,12 +113,16 @@ export class ParticleFieldEngine {
 
     const livePositions = this.prevPositions.slice()
     const liveColors = this.prevColors.slice()
-    const sizes = new Float32Array(this.count).fill(BASE_POINT_SIZE)
+    const sizes = new Float32Array(this.count)
     this.driftSeeds = new Float32Array(this.count)
     this.delays = new Float32Array(this.count)
+    this.baseSizes = new Float32Array(this.count)
     for (let i = 0; i < this.count; i++) {
       this.driftSeeds[i] = Math.random() * Math.PI * 2
       this.delays[i] = Math.random() * STAGGER_SPREAD
+      this.baseSizes[i] =
+        BASE_POINT_SIZE * (SIZE_JITTER_MIN + Math.random() * (SIZE_JITTER_MAX - SIZE_JITTER_MIN))
+      sizes[i] = this.baseSizes[i]
     }
 
     this.geometry.setAttribute('position', new THREE.BufferAttribute(livePositions, 3).setUsage(THREE.DynamicDrawUsage))
@@ -150,6 +163,7 @@ export class ParticleFieldEngine {
     })
 
     this.points = new THREE.Points(this.geometry, this.material)
+    this.applyFrameOffset(width)
     this.scene.add(this.points)
 
     this.composer = new EffectComposer(this.renderer)
@@ -196,11 +210,17 @@ export class ParticleFieldEngine {
     this.morphStart = performance.now()
   }
 
+  private applyFrameOffset(width: number) {
+    const offset = width < STACKED_LAYOUT_BREAKPOINT ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
+    this.points.position.set(offset.x, offset.y, 0)
+  }
+
   resize(width: number, height: number) {
     this.camera.aspect = width / height
     this.camera.updateProjectionMatrix()
     this.renderer.setSize(width, height, false)
     this.composer.setSize(width, height)
+    this.applyFrameOffset(width)
   }
 
   private tick() {
@@ -215,6 +235,9 @@ export class ParticleFieldEngine {
     if (!this.reducedMotion) {
       this.raycaster.setFromCamera(this.pointerNDC, this.camera)
       this.raycaster.ray.intersectPlane(this.groundPlane, this.mouseWorld)
+      // Repel math below runs in the points group's local space, which is
+      // offset from world space by FRAME_OFFSET_X — translate the cursor in.
+      this.mouseLocal.copy(this.mouseWorld).sub(this.points.position)
     }
 
     const posAttr = this.geometry.getAttribute('position') as THREE.BufferAttribute
@@ -239,7 +262,8 @@ export class ParticleFieldEngine {
       colors[i3 + 1] = this.prevColors[i3 + 1] + (this.targetColors[i3 + 1] - this.prevColors[i3 + 1]) * eased
       colors[i3 + 2] = this.prevColors[i3 + 2] + (this.targetColors[i3 + 2] - this.prevColors[i3 + 2]) * eased
 
-      let size = BASE_POINT_SIZE
+      const baseSize = this.baseSizes[i]
+      let size = baseSize
 
       if (!this.reducedMotion) {
         const seed = this.driftSeeds[i]
@@ -248,9 +272,9 @@ export class ParticleFieldEngine {
         z += Math.sin(time * DRIFT_SPEED * 0.7 + seed * 1.3) * DRIFT_AMPLITUDE
 
         if (this.hasPointer) {
-          const dx = x - this.mouseWorld.x
-          const dy = y - this.mouseWorld.y
-          const dz = z - this.mouseWorld.z
+          const dx = x - this.mouseLocal.x
+          const dy = y - this.mouseLocal.y
+          const dz = z - this.mouseLocal.z
           const dist = Math.sqrt(dx * dx + dy * dy + dz * dz)
           if (dist < REPEL_RADIUS && dist > 0.0001) {
             const falloff = 1 - dist / REPEL_RADIUS
@@ -258,7 +282,7 @@ export class ParticleFieldEngine {
             x += (dx / dist) * push
             y += (dy / dist) * push
             z += (dz / dist) * push
-            size = BASE_POINT_SIZE * (1 + (HOVER_SIZE_BOOST - 1) * falloff)
+            size = baseSize * (1 + (HOVER_SIZE_BOOST - 1) * falloff)
           }
         }
       }

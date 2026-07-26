@@ -1,6 +1,13 @@
 import * as THREE from 'three'
 
-/** A small soft-edged triangle sprite used as the point texture — the Dala particle shape. */
+/**
+ * A crisp, small triangle sprite used as the point texture.
+ *
+ * Only the edge gets a slight blur for anti-aliasing — the previous version
+ * filled the whole sprite with a big soft radial gradient, so every particle
+ * was already a blurry blob before bloom even touched it. Bloom now supplies
+ * the glow around an otherwise sharp, detailed core.
+ */
 export function createTriangleSprite(): THREE.Texture {
   const size = 64
   const canvas = document.createElement('canvas')
@@ -9,20 +16,13 @@ export function createTriangleSprite(): THREE.Texture {
   const ctx = canvas.getContext('2d')!
 
   ctx.clearRect(0, 0, size, size)
-  const cx = size / 2
+  ctx.filter = 'blur(1.4px)'
+  ctx.fillStyle = 'rgba(255,255,255,0.92)'
   ctx.beginPath()
-  ctx.moveTo(cx, size * 0.08)
-  ctx.lineTo(size * 0.92, size * 0.88)
-  ctx.lineTo(size * 0.08, size * 0.88)
+  ctx.moveTo(size * 0.5, size * 0.1)
+  ctx.lineTo(size * 0.88, size * 0.85)
+  ctx.lineTo(size * 0.12, size * 0.85)
   ctx.closePath()
-
-  // Kept deliberately dim — additive blending sums overlapping particles, so a
-  // bright core here plus dense overlap is what was blowing the whole field out to white.
-  const gradient = ctx.createRadialGradient(cx, size * 0.55, 0, cx, size * 0.55, size * 0.55)
-  gradient.addColorStop(0, 'rgba(255,255,255,0.55)')
-  gradient.addColorStop(0.6, 'rgba(255,255,255,0.4)')
-  gradient.addColorStop(1, 'rgba(255,255,255,0)')
-  ctx.fillStyle = gradient
   ctx.fill()
 
   const texture = new THREE.CanvasTexture(canvas)
