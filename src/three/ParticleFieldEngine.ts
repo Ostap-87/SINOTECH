@@ -32,6 +32,14 @@ const CAMERA_DISTANCE_DESKTOP = 7.4
 const CAMERA_DISTANCE_STACKED = 12.5
 const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.15, 0.1)
 const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
+// A short, wide hero (compact page headers on Tours/Constructor/etc.) has a
+// much wider aspect ratio than the tall Home/Industries hero. Camera FOV is
+// fixed vertically, so the same distance/offset tuned for a ~1.9 aspect
+// leaves large empty margins on a ~3+ aspect frame — zoom in and recenter
+// instead of letting the shape shrink relative to the available width.
+const WIDE_ASPECT_THRESHOLD = 2.9
+const CAMERA_DISTANCE_WIDE = 4.3
+const FRAME_OFFSET_WIDE = new THREE.Vector2(0.9, 0)
 // Drag-to-rotate feel: pixels-to-radians sensitivity and per-frame coast decay.
 const DRAG_SENSITIVITY = 0.0038
 const DRAG_DECAY = 0.94
@@ -196,7 +204,7 @@ export class ParticleFieldEngine {
       return { mesh, material, memberIndices: members }
     })
 
-    this.applyLayout(width)
+    this.applyLayout(width, height)
     this.scene.add(this.root)
 
     // No bloom pass on the light theme — it was tuned to glow against a
@@ -289,10 +297,12 @@ export class ParticleFieldEngine {
     this.setTarget({ positions: scatterCloud(this.count, SCATTER_RADIUS * 1.6) }, durationMs)
   }
 
-  private applyLayout(width: number) {
+  private applyLayout(width: number, height: number) {
     const stacked = width < STACKED_LAYOUT_BREAKPOINT
-    const offset = stacked ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
-    const distance = stacked ? CAMERA_DISTANCE_STACKED : CAMERA_DISTANCE_DESKTOP
+    const wide = !stacked && width / height > WIDE_ASPECT_THRESHOLD
+
+    const offset = wide ? FRAME_OFFSET_WIDE : stacked ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
+    const distance = wide ? CAMERA_DISTANCE_WIDE : stacked ? CAMERA_DISTANCE_STACKED : CAMERA_DISTANCE_DESKTOP
 
     this.root.position.set(offset.x, offset.y, 0)
     this.camera.position.z = distance
@@ -303,7 +313,7 @@ export class ParticleFieldEngine {
     this.camera.updateProjectionMatrix()
     this.renderer.setSize(width, height, false)
     this.composer.setSize(width, height)
-    this.applyLayout(width)
+    this.applyLayout(width, height)
   }
 
   private tick() {
