@@ -8,12 +8,12 @@ function getParticleCount(): number {
   // Each particle is now a real 3D polyhedron (InstancedMesh) with its own
   // per-frame matrix compose, not a flat billboard — meaningfully heavier per
   // instance than the old point sprites, so counts sit lower than before.
-  if (typeof window === 'undefined') return 5000
+  if (typeof window === 'undefined') return 3200
   const isSmallScreen = window.innerWidth < 768
   const cores = navigator.hardwareConcurrency ?? 4
-  if (isSmallScreen) return 2800
-  if (cores <= 4) return 6000
-  return 11000
+  if (isSmallScreen) return 1800
+  if (cores <= 4) return 3800
+  return 7000
 }
 
 function prefersReducedMotion(): boolean {

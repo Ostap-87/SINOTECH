@@ -8,7 +8,7 @@ const SILVER = new THREE.Color('#f5f5f7')
  * per hue looked too "confetti"). Index 0 is always silver.
  */
 export const GROUP_PALETTE: { color: THREE.Color; weight: number }[] = [
-  { color: SILVER, weight: 4 },
+  { color: SILVER, weight: 10 },
   { color: new THREE.Color('#8052ff'), weight: 1 }, // electric iris
   { color: new THREE.Color('#ffb829'), weight: 1 }, // saffron spark
   { color: new THREE.Color('#15846e'), weight: 1 }, // deep verdant / teal

@@ -6,23 +6,23 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { GROUP_PALETTE, randomGroupIndex } from './palette'
 import type { PointCloud } from './shapes/types'
 
-const MORPH_DURATION_MS = 3200
+const MORPH_DURATION_MS = 3800
 const SCATTER_RADIUS = 15
 const STAGGER_SPREAD = 0.65
-const REPEL_RADIUS = 1.1
-const REPEL_STRENGTH = 0.55
-const DRIFT_AMPLITUDE = 0.035
-const DRIFT_SPEED = 0.6
-const AUTO_ROTATE_SPEED = 0.045 // rad/s — paused while the user drags or coasts
-const PARALLAX_MAX = 0.22
+const REPEL_RADIUS = 0.95
+const REPEL_STRENGTH = 0.35
+const DRIFT_AMPLITUDE = 0.025
+const DRIFT_SPEED = 0.45
+const AUTO_ROTATE_SPEED = 0.035 // rad/s — paused while the user drags or coasts
+const PARALLAX_MAX = 0.16
 const TETRA_RADIUS = 0.1 // world-space size of one particle's polyhedron
 const SIZE_JITTER_MIN = 0.55
 const SIZE_JITTER_MAX = 1.7
-const HOVER_SIZE_BOOST = 2.0
-const TWINKLE_AMOUNT = 0.2 // subtle per-particle scale pulse — reads as shimmer/detail
-const TWINKLE_SPEED = 1.1
-const SPIN_SPEED_MIN = 0.25 // rad/s — each polyhedron tumbles on its own axis
-const SPIN_SPEED_MAX = 1.1
+const HOVER_SIZE_BOOST = 1.5
+const TWINKLE_AMOUNT = 0.1 // subtle per-particle scale pulse — reads as shimmer/detail
+const TWINKLE_SPEED = 0.8
+const SPIN_SPEED_MIN = 0.12 // rad/s — each polyhedron tumbles gently on its own axis
+const SPIN_SPEED_MAX = 0.45
 // The shape is large enough to graze the hero copy on purpose (per design
 // direction) — a bigger, bolder silhouette reads as more detailed and more
 // "alive" than a small one floating in empty space. Camera distance is
@@ -33,9 +33,9 @@ const CAMERA_DISTANCE_DESKTOP = 7.4
 const CAMERA_DISTANCE_STACKED = 12.5
 const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.15, 0.1)
 const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
-const BLOOM_STRENGTH = 0.22
-const BLOOM_RADIUS = 0.25
-const BLOOM_THRESHOLD = 0.65
+const BLOOM_STRENGTH = 0.1
+const BLOOM_RADIUS = 0.2
+const BLOOM_THRESHOLD = 0.78
 // Drag-to-rotate feel: pixels-to-radians sensitivity and per-frame coast decay.
 const DRAG_SENSITIVITY = 0.0038
 const DRAG_DECAY = 0.94
@@ -188,7 +188,7 @@ export class ParticleFieldEngine {
         color: entry.color,
         wireframe: true,
         transparent: true,
-        opacity: 0.85,
+        opacity: 0.62,
         side: THREE.DoubleSide,
       })
       const mesh = new THREE.InstancedMesh(this.geometry, material, Math.max(members.length, 1))
