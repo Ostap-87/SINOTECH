@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Home } from '@/pages/Home'
 import { Industries } from '@/pages/Industries'
 import { IndustryFork } from '@/pages/IndustryFork'
+import { Constructor } from '@/pages/Constructor'
 import { Tours } from '@/pages/Tours'
 import { Blog } from '@/pages/Blog'
 import { Cases } from '@/pages/Cases'
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/industries/:sector" element={<IndustryFork />} />
+          <Route path="/constructor" element={<Constructor />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/cases" element={<Cases />} />

@@ -72,14 +72,14 @@ export function IndustryFork() {
           </Link>
 
           <Link
-            to="/contacts"
+            to={`/constructor?sector=${sector.code}`}
             className="pointer-events-auto rounded-2xl border border-white/10 bg-surface/60 p-6 transition-colors hover:border-electric-iris/60"
           >
             <h2 className="text-lg font-medium">{locale === 'ru' ? 'Собрать свой' : 'Build your own'}</h2>
             <p className="mt-2 text-sm text-silver-mist">
               {locale === 'ru'
-                ? 'Конструктор тура (2 или 5 дней) в разработке — пока оставьте заявку, и мы соберём программу вручную.'
-                : 'The tour builder (2- or 5-day format) is in development — leave a request and we’ll assemble a program by hand.'}
+                ? 'Выберите формат (2 или 5 дней) и отметьте компании — мы соберём программу на основе вашего списка.'
+                : 'Pick a format (2 or 5 days) and mark companies — we’ll assemble the program from your list.'}
             </p>
           </Link>
         </div>
