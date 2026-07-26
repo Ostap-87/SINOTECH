@@ -34,7 +34,7 @@ export function Tours() {
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
         {locale === 'ru' ? 'Готовые туры' : 'Ready-made tours'}
       </h1>
-      <p className="mt-4 max-w-xl text-lg font-extralight text-silver-mist">
+      <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
         {locale === 'ru'
           ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
           : 'Curated programs for priority niches — route, companies, and logistics already assembled.'}
@@ -42,7 +42,7 @@ export function Tours() {
 
       <div className="mt-16 flex flex-col gap-16">
         {tours.map((tour) => (
-          <article key={tour.tour_id} id={tour.tour_id} className="scroll-mt-24 border-t border-white/10 pt-12">
+          <article key={tour.tour_id} id={tour.tour_id} className="scroll-mt-24 border-t border-black/10 pt-12">
             <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {pick(tour, 'eyebrow', locale)}
             </p>
@@ -84,7 +84,7 @@ export function Tours() {
                 <h3 className="text-lg font-medium">{locale === 'ru' ? 'Программа по дням' : 'Day-by-day'}</h3>
                 <ol className="mt-4 space-y-4">
                   {tour.itinerary.map((day) => (
-                    <li key={day.day} className="rounded-xl border border-white/10 bg-surface/40 p-4">
+                    <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4">
                       <p className="text-sm font-medium text-bone-white">
                         {locale === 'ru' ? 'День' : 'Day'} {day.day} ·{' '}
                         {locale === 'ru' ? day.city_ru : day.city_en} · {day.time}
@@ -104,7 +104,7 @@ export function Tours() {
               </div>
 
               <div className="space-y-6">
-                <div className="rounded-xl border border-white/10 bg-surface/40 p-5">
+                <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
                   <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                     {locale === 'ru' ? 'В программу входит' : "What's included"}
                   </h3>
@@ -118,7 +118,7 @@ export function Tours() {
                   </ul>
                 </div>
 
-                <div className="rounded-xl border border-white/10 bg-surface/40 p-5">
+                <div className="rounded-xl border border-black/10 bg-surface/40 p-5">
                   <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                     {pick(tour.pricing, 'total_label', locale)}
                   </h3>
@@ -130,7 +130,7 @@ export function Tours() {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4 text-base">
+                  <div className="mt-4 flex items-center justify-between border-t border-black/10 pt-4 text-base">
                     <span className="font-medium">{pick(tour.pricing, 'total_label', locale)}</span>
                     <span className="font-medium text-bone-white">
                       {formatRub(tour.pricing.total_excl_flights, locale)}
@@ -147,7 +147,7 @@ export function Tours() {
 
                 <Link
                   to="/contacts"
-                  className="inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
+                  className="inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
                 >
                   {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
                 </Link>

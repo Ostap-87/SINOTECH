@@ -134,7 +134,7 @@ export function Constructor() {
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
         {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
       </h1>
-      <p className="mt-4 max-w-xl text-lg font-extralight text-silver-mist">
+      <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
         {locale === 'ru'
           ? 'Выберите формат, отметьте компании — мы возьмём список за основу и соберём маршрут вручную.'
           : 'Pick a format, mark the companies you want — we take that list and assemble the route by hand.'}
@@ -156,7 +156,7 @@ export function Constructor() {
                 className={`rounded-2xl border p-5 text-left transition-colors ${
                   active
                     ? 'border-electric-iris bg-electric-iris/10'
-                    : 'border-white/10 bg-surface/40 hover:border-white/25'
+                    : 'border-black/10 bg-surface/40 hover:border-black/25'
                 }`}
               >
                 <p className="text-lg font-medium text-bone-white">
@@ -184,7 +184,7 @@ export function Constructor() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder={locale === 'ru' ? 'Поиск по названию' : 'Search by name'}
-                className="rounded-xl border border-white/10 bg-surface/40 px-4 py-2 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
               />
 
               <div className="flex flex-wrap gap-2">
@@ -198,7 +198,7 @@ export function Constructor() {
                       className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
                         active
                           ? 'border-electric-iris bg-electric-iris/15 text-bone-white'
-                          : 'border-white/10 text-ash-gray hover:border-white/25'
+                          : 'border-black/10 text-ash-gray hover:border-black/25'
                       }`}
                     >
                       <span
@@ -215,7 +215,7 @@ export function Constructor() {
               <select
                 value={regionFilter}
                 onChange={(e) => setRegionFilter(e.target.value)}
-                className="w-fit rounded-xl border border-white/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
+                className="w-fit rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
               >
                 <option value="all">{locale === 'ru' ? 'Все регионы' : 'All regions'}</option>
                 {companiesData.regions.map((region) => (
@@ -226,7 +226,7 @@ export function Constructor() {
               </select>
             </div>
 
-            <div className="mt-6 max-h-[640px] overflow-y-auto rounded-2xl border border-white/10">
+            <div className="mt-6 max-h-[640px] overflow-y-auto rounded-2xl border border-black/10">
               {filteredCompanies.length === 0 && (
                 <p className="p-6 text-sm text-ash-gray">
                   {locale === 'ru' ? 'Ничего не найдено.' : 'Nothing found.'}
@@ -240,7 +240,7 @@ export function Constructor() {
                 return (
                   <div
                     key={company.id}
-                    className="flex items-center justify-between gap-4 border-b border-white/5 px-5 py-3 last:border-b-0"
+                    className="flex items-center justify-between gap-4 border-b border-black/5 px-5 py-3 last:border-b-0"
                   >
                     <div className="min-w-0">
                       <p className="truncate text-sm font-medium text-bone-white">{company.name_en}</p>
@@ -255,10 +255,10 @@ export function Constructor() {
                       disabled={atMax}
                       className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-colors ${
                         isSelected
-                          ? 'border-electric-iris bg-electric-iris text-bone-white'
+                          ? 'border-electric-iris bg-electric-iris text-white'
                           : atMax
-                            ? 'cursor-not-allowed border-white/10 text-ash-gray/40'
-                            : 'border-white/15 text-ash-gray hover:border-electric-iris/60 hover:text-bone-white'
+                            ? 'cursor-not-allowed border-black/10 text-ash-gray/40'
+                            : 'border-black/15 text-ash-gray hover:border-electric-iris/60 hover:text-bone-white'
                       }`}
                       aria-label={isSelected ? 'Remove' : 'Add'}
                     >
@@ -274,7 +274,7 @@ export function Constructor() {
             <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {locale === 'ru' ? '3. Ваш список' : '3. Your list'}
             </h2>
-            <div className="mt-4 rounded-2xl border border-white/10 bg-surface/40 p-5">
+            <div className="mt-4 rounded-2xl border border-black/10 bg-surface/40 p-5">
               <p className="text-sm text-silver-mist">
                 {selectedCompanies.length} / {config.max}{' '}
                 {locale === 'ru' ? 'компаний' : 'companies'}
@@ -314,8 +314,8 @@ export function Constructor() {
                 onClick={() => setSubmitted(true)}
                 className={`mt-6 w-full rounded-full px-6 py-3 text-sm font-medium transition-opacity ${
                   canSubmit
-                    ? 'bg-electric-iris text-bone-white hover:opacity-90'
-                    : 'cursor-not-allowed bg-white/10 text-ash-gray'
+                    ? 'bg-electric-iris text-white hover:opacity-90'
+                    : 'cursor-not-allowed bg-black/10 text-ash-gray'
                 }`}
               >
                 {locale === 'ru' ? 'Отправить заявку' : 'Submit request'}
@@ -326,7 +326,7 @@ export function Constructor() {
       )}
 
       {submitted && config && (
-        <div className="mt-16 border-t border-white/10 pt-12">
+        <div className="mt-16 border-t border-black/10 pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Предпросмотр' : 'Preview'}
           </p>
@@ -343,7 +343,7 @@ export function Constructor() {
 
           <ol className="mt-8 space-y-4">
             {itinerary.map((day) => (
-              <li key={day.day} className="rounded-xl border border-white/10 bg-surface/40 p-4">
+              <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4">
                 <p className="text-sm font-medium text-bone-white">
                   {locale === 'ru' ? 'День' : 'Day'} {day.day}
                 </p>
@@ -381,7 +381,7 @@ export function Constructor() {
             </p>
             <Link
               to="/contacts"
-              className="mt-4 inline-flex items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
+              className="mt-4 inline-flex items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               {locale === 'ru' ? 'Перейти в контакты' : 'Go to contacts'}
             </Link>

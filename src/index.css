@@ -1,13 +1,19 @@
 @import 'tailwindcss';
 
 :root {
-  --color-void: #000000; /* холст и фон всех секций */
-  --color-bone-white: #ffffff; /* заголовки, body, иконки */
-  --color-ash-gray: #9a9a9a; /* приглушённый текст навигации, ghost-ссылки */
-  --color-silver-mist: #bdbdbd; /* третичный текст, подписи */
-  --color-electric-iris: #8052ff; /* единственный акцент кнопок/лого */
-  --color-saffron-spark: #ffb829; /* хайлайты, надзаголовки-лейблы */
-  --color-deep-verdant: #15846e; /* градиент лого и глубина частиц */
+  /*
+   * Light theme. Token names are kept from the earlier dark palette so no
+   * className in any component needed to change — only the values did.
+   * "void"/"bone-white" now mean page background / primary ink, not black/white.
+   */
+  --color-void: #ffffff; /* холст и фон всех секций */
+  --color-bone-white: #17171d; /* заголовки, body, иконки — основной текст */
+  --color-ash-gray: #6b6b76; /* приглушённый текст навигации, ghost-ссылки */
+  --color-silver-mist: #45454e; /* текст-подписи, второстепенные абзацы */
+  --color-electric-iris: #6d28d9; /* единственный акцент кнопок/лого */
+  --color-saffron-spark: #b45309; /* хайлайты, надзаголовки-лейблы */
+  --color-deep-verdant: #0f766e; /* вторичный акцент логотипа */
+  --color-surface: #eeeef2; /* фон карточек поверх страницы */
 
   --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --radius-dala: 24px;
@@ -22,12 +28,13 @@
   --color-electric-iris: var(--color-electric-iris);
   --color-saffron-spark: var(--color-saffron-spark);
   --color-deep-verdant: var(--color-deep-verdant);
+  --color-surface: var(--color-surface);
   --font-sans: var(--font-sans);
   --radius-dala: var(--radius-dala);
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 body {
@@ -35,7 +42,7 @@ body {
   background: var(--color-void);
   color: var(--color-bone-white);
   font-family: var(--font-sans);
-  font-weight: 200;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -45,8 +52,8 @@ body {
 h1,
 h2,
 h3 {
-  font-weight: 400;
-  letter-spacing: -0.04em;
+  font-weight: 600;
+  letter-spacing: -0.03em;
   margin: 0;
 }
 

@@ -19,7 +19,7 @@ function LocaleToggle() {
     <button
       type="button"
       onClick={toggleLocale}
-      className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
+      className="rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
     >
       {locale === 'ru' ? 'EN' : 'RU'}
     </button>
@@ -61,14 +61,14 @@ export function Navbar() {
           <Link
             to="/contacts"
             onClick={() => setMobileOpen(false)}
-            className="hidden rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-bone-white transition-opacity hover:opacity-90 sm:inline-block"
+            className="hidden rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:inline-block"
           >
             {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
           </Link>
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-bone-white lg:hidden"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-black/15 text-bone-white lg:hidden"
             aria-expanded={mobileOpen}
             aria-label="Menu"
           >
@@ -78,7 +78,7 @@ export function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-white/10 px-6 pb-8 pt-4 lg:hidden">
+        <div className="border-t border-black/10 px-6 pb-8 pt-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             {NAV_LINKS.map((link) => (
               <NavLink
@@ -102,7 +102,7 @@ export function Navbar() {
           <Link
             to="/contacts"
             onClick={() => setMobileOpen(false)}
-            className="mt-4 inline-block rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-bone-white"
+            className="mt-4 inline-block rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-white"
           >
             {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
           </Link>

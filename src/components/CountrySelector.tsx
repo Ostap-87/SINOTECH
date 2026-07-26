@@ -23,7 +23,7 @@ export function CountrySelector() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 rounded-full border border-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
+        className="flex items-center gap-1.5 rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
         aria-expanded={open}
       >
         {pick(active, 'name', locale)}
@@ -31,7 +31,7 @@ export function CountrySelector() {
       </button>
 
       {open && (
-        <ul className="absolute right-0 top-[calc(100%+8px)] w-56 rounded-[16px] border border-white/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.6)]">
+        <ul className="absolute right-0 top-[calc(100%+8px)] w-56 rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)]">
           {countries.map((country) => (
             <li key={country.code}>
               <button
@@ -40,7 +40,7 @@ export function CountrySelector() {
                 onClick={() => setOpen(false)}
                 className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm ${
                   country.active
-                    ? 'text-bone-white hover:bg-white/5'
+                    ? 'text-bone-white hover:bg-black/5'
                     : 'cursor-not-allowed text-ash-gray/50'
                 }`}
               >

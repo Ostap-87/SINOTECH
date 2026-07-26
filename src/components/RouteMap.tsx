@@ -150,10 +150,10 @@ export function RouteMap({ stops, className }: RouteMapProps) {
 
   return (
     <div className={className}>
-      <div className="overflow-hidden rounded-2xl border border-white/10 bg-surface/40">
+      <div className="overflow-hidden rounded-2xl border border-black/10 bg-surface/40">
         <svg viewBox={`0 0 ${width} ${height}`} className="h-auto w-full" preserveAspectRatio="xMidYMid meet">
           {ringPaths.map((d, i) => (
-            <path key={i} d={d} className="fill-white/[0.03] stroke-white/15" strokeWidth={1.2} />
+            <path key={i} d={d} className="fill-black/[0.03] stroke-black/15" strokeWidth={1.2} />
           ))}
 
           {stops.slice(0, currentIndex + 1).map((_, i) => {
@@ -199,7 +199,7 @@ export function RouteMap({ stops, className }: RouteMapProps) {
             type="button"
             onClick={() => goTo(currentIndex - 1)}
             disabled={currentIndex === 0}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/15 text-ash-gray transition-colors hover:text-bone-white disabled:cursor-not-allowed disabled:opacity-30"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-ash-gray transition-colors hover:text-bone-white disabled:cursor-not-allowed disabled:opacity-30"
             aria-label="Previous day"
           >
             ‹
@@ -211,7 +211,7 @@ export function RouteMap({ stops, className }: RouteMapProps) {
                 setCurrentIndex(0)
                 setPlaying(true)
               }}
-              className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
+              className="rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
             >
               {locale === 'ru' ? 'Заново' : 'Restart'}
             </button>
@@ -219,7 +219,7 @@ export function RouteMap({ stops, className }: RouteMapProps) {
             <button
               type="button"
               onClick={() => setPlaying((p) => !p)}
-              className="rounded-full border border-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
+              className="rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
             >
               {playing ? (locale === 'ru' ? 'Пауза' : 'Pause') : locale === 'ru' ? 'Играть' : 'Play'}
             </button>
@@ -228,7 +228,7 @@ export function RouteMap({ stops, className }: RouteMapProps) {
             type="button"
             onClick={() => goTo(currentIndex + 1)}
             disabled={currentIndex >= stops.length - 1}
-            className="flex h-8 w-8 items-center justify-center rounded-full border border-white/15 text-ash-gray transition-colors hover:text-bone-white disabled:cursor-not-allowed disabled:opacity-30"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-ash-gray transition-colors hover:text-bone-white disabled:cursor-not-allowed disabled:opacity-30"
             aria-label="Next day"
           >
             ›

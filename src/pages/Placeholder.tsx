@@ -22,7 +22,7 @@ export function Placeholder({
         {locale === 'ru' ? title_ru : title_en}
       </h1>
       {(note_ru || note_en) && (
-        <p className="mt-4 max-w-xl text-lg font-extralight text-silver-mist">
+        <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
           {locale === 'ru' ? note_ru : note_en}
         </p>
       )}
