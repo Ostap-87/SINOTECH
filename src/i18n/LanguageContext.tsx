@@ -47,10 +47,7 @@ export function useLanguage() {
 }
 
 /** Pick the localized field from an object carrying `${key}_en` / `${key}_ru` pairs. */
-export function pick<T extends Record<string, unknown>>(
-  obj: T,
-  key: string,
-  locale: Locale,
-): string {
-  return (obj[`${key}_${locale}`] as string) ?? (obj[`${key}_en`] as string) ?? ''
+export function pick<T extends object>(obj: T, key: string, locale: Locale): string {
+  const record = obj as Record<string, unknown>
+  return (record[`${key}_${locale}`] as string) ?? (record[`${key}_en`] as string) ?? ''
 }

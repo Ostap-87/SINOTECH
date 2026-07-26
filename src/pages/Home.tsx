@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { companiesData, toursData } from '@/data'
 
@@ -22,12 +23,12 @@ export function Home() {
           : 'Sinotech Voyage · by Aura Robotics — private visits to the production sites of China’s industry leaders.'}
       </p>
 
-      <button
-        type="button"
+      <Link
+        to="/industries"
         className="mt-10 w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
       >
         {locale === 'ru' ? 'Индустрии' : 'Industries'}
-      </button>
+      </Link>
 
       <dl className="mt-20 grid max-w-xl grid-cols-3 gap-8 border-t border-white/10 pt-8 text-sm text-ash-gray">
         <div>
