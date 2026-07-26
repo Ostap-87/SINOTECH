@@ -1,36 +1,17 @@
-import { useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import type { MouseEvent } from 'react'
+import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
-
-const EXIT_TRANSITION_MS = 2200
+import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 
 export function Home() {
   const { locale } = useLanguage()
   const { counts } = companiesData.meta
   const tour = toursData.tours[0]
-  const navigate = useNavigate()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
-  const [isLeaving, setIsLeaving] = useState(false)
-
-  function handleIndustriesClick(event: MouseEvent<HTMLAnchorElement>) {
-    // Let modified clicks (open in new tab, etc.) behave normally.
-    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
-    event.preventDefault()
-
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (reducedMotion) {
-      navigate('/industries')
-      return
-    }
-
-    setIsLeaving(true)
-    canvasHandleRef.current?.disperse(EXIT_TRANSITION_MS)
-    setTimeout(() => navigate('/industries'), EXIT_TRANSITION_MS)
-  }
+  const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   return (
     <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
@@ -40,7 +21,7 @@ export function Home() {
 
       <div
         className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24"
-        style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${EXIT_TRANSITION_MS}ms ease-in-out` }}
+        style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
       >
         <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
           {locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}
@@ -58,7 +39,7 @@ export function Home() {
 
         <Link
           to="/industries"
-          onClick={handleIndustriesClick}
+          onClick={(event) => goTo('/industries', event)}
           className="pointer-events-auto mt-10 inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
         >
           {locale === 'ru' ? 'Индустрии' : 'Industries'}

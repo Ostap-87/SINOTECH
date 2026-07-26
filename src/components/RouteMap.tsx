@@ -149,9 +149,9 @@ export function RouteMap({ stops, className }: RouteMapProps) {
   }
 
   return (
-    <div className={className}>
-      <div className="overflow-hidden rounded-2xl border border-black/15 bg-surface/60">
-        <svg viewBox={`0 0 ${width} ${height}`} className="h-auto w-full" preserveAspectRatio="xMidYMid meet">
+    <div className={`flex h-full flex-col ${className ?? ''}`}>
+      <div className="flex-1 overflow-hidden rounded-2xl border border-black/15 bg-surface/60">
+        <svg viewBox={`0 0 ${width} ${height}`} className="h-full w-full" preserveAspectRatio="xMidYMid meet">
           <defs>
             <filter id="route-map-glow" x="-150%" y="-150%" width="400%" height="400%">
               <feGaussianBlur stdDeviation="8" result="blur" />

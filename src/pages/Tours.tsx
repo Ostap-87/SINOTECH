@@ -74,10 +74,10 @@ export function Tours() {
               {locale === 'ru' ? 'Вылет' : 'Departure'}: {pick(tour, 'departure', locale)}
             </p>
 
-            <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2">
-              <div>
+            <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-stretch">
+              <div className="flex h-full flex-col">
                 <h3 className="text-lg font-medium">{locale === 'ru' ? 'Маршрут' : 'Route'}</h3>
-                <RouteMap stops={buildRouteStops(tour, locale)} className="mt-4" />
+                <RouteMap stops={buildRouteStops(tour, locale)} className="mt-4 flex-1" />
               </div>
 
               <div>

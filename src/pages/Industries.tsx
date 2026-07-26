@@ -1,31 +1,14 @@
-import { useEffect, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useMemo, useRef } from 'react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
-
-// Fully visible by SCROLL_FADE_END pixels of scroll, invisible at the top —
-// the map assembles into view as you scroll down through the sector list,
-// rather than competing with the hero copy right at the top of the page.
-const SCROLL_FADE_START = 80
-const SCROLL_FADE_END = 480
-const MAX_BACKDROP_OPACITY = 0.4
+import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
+import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 
 export function Industries() {
   const { locale } = useLanguage()
-  const navigate = useNavigate()
-  const [backdropOpacity, setBackdropOpacity] = useState(0)
-
-  useEffect(() => {
-    function onScroll() {
-      const y = window.scrollY
-      const progress = Math.min(1, Math.max(0, (y - SCROLL_FADE_START) / (SCROLL_FADE_END - SCROLL_FADE_START)))
-      setBackdropOpacity(progress * MAX_BACKDROP_OPACITY)
-    }
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
+  const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   const sectorCounts = useMemo(() => {
     const counts = new Map<string, number>()
@@ -37,16 +20,15 @@ export function Industries() {
 
   return (
     <>
-      <div
-        className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300 ease-out"
-        style={{ opacity: backdropOpacity }}
-        aria-hidden="true"
-      >
-        <ParticleCanvas shape="china" />
-      </div>
+      <section className="relative min-h-[480px] overflow-hidden lg:min-h-[560px]">
+        <div className="absolute inset-0">
+          <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        </div>
 
-      <div className="relative z-10">
-        <section className="mx-auto max-w-[1280px] px-6 py-16 lg:py-20">
+        <div
+          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-20"
+          style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
+        >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Каталог' : 'Catalog'}
           </p>
@@ -58,51 +40,49 @@ export function Industries() {
               ? 'Выберите отрасль — и решите, взять готовый тур или собрать свой.'
               : 'Pick a sector, then choose a ready-made tour or build your own.'}
           </p>
-        </section>
+        </div>
+      </section>
 
-        <section className="mx-auto max-w-[1280px] px-6 pb-24">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {companiesData.sectors.map((sector) => {
-              return (
-                <button
-                  key={sector.code}
-                  type="button"
-                  data-sector={sector.code}
-                  onClick={() => navigate(`/industries/${sector.code}`)}
-                  className="group flex items-center justify-between rounded-2xl border border-black/10 bg-surface/70 px-5 py-4 text-left backdrop-blur-sm transition-colors hover:border-electric-iris/60 hover:bg-surface/90"
-                >
-                  <div className="flex items-center gap-3">
-                    <span
-                      className="h-2.5 w-2.5 shrink-0 rounded-full"
-                      style={{ backgroundColor: sector.color }}
-                      aria-hidden="true"
-                    />
-                    <span>
-                      <span className="block text-base font-medium text-bone-white">
-                        {pick(sector, 'label', locale)}
-                      </span>
-                      <span className="mt-0.5 block text-xs text-ash-gray">
-                        {sectorCounts.get(sector.code) ?? 0} {locale === 'ru' ? 'компаний' : 'companies'}
-                      </span>
-                    </span>
-                  </div>
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    className="shrink-0 text-ash-gray transition-transform group-hover:translate-x-1 group-hover:text-electric-iris"
-                  >
-                    <path d="M5 12h14M13 6l6 6-6 6" />
-                  </svg>
-                </button>
-              )
-            })}
-          </div>
-        </section>
-      </div>
+      <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {companiesData.sectors.map((sector) => (
+            <button
+              key={sector.code}
+              type="button"
+              data-sector={sector.code}
+              onClick={() => goTo(`/industries/${sector.code}`)}
+              className="group flex items-center justify-between rounded-2xl border border-black/10 bg-surface/40 px-5 py-4 text-left transition-colors hover:border-electric-iris/60 hover:bg-surface/70"
+            >
+              <div className="flex items-center gap-3">
+                <span
+                  className="h-2.5 w-2.5 shrink-0 rounded-full"
+                  style={{ backgroundColor: sector.color }}
+                  aria-hidden="true"
+                />
+                <span>
+                  <span className="block text-base font-medium text-bone-white">
+                    {pick(sector, 'label', locale)}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-ash-gray">
+                    {sectorCounts.get(sector.code) ?? 0} {locale === 'ru' ? 'компаний' : 'companies'}
+                  </span>
+                </span>
+              </div>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="shrink-0 text-ash-gray transition-transform group-hover:translate-x-1 group-hover:text-electric-iris"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+          ))}
+        </div>
+      </section>
     </>
   )
 }
