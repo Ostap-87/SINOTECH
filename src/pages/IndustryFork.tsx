@@ -4,7 +4,6 @@ import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
-import { shapeKeyForSector } from '@/three/shapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { Placeholder } from './Placeholder'
 
@@ -40,7 +39,7 @@ export function IndustryFork() {
   return (
     <section className="relative min-h-[640px] overflow-hidden">
       <div className="absolute inset-0">
-        <ParticleCanvas ref={canvasHandleRef} shape={shapeKeyForSector(sector.code)} />
+        <ParticleCanvas ref={canvasHandleRef} shape="china" />
       </div>
 
       <div

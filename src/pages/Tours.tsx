@@ -1,8 +1,12 @@
+import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { toursData, companiesData } from '@/data'
 import { RouteMap } from '@/components/RouteMap'
 import type { RouteMapStop } from '@/components/RouteMap'
+import { ParticleCanvas } from '@/components/ParticleCanvas'
+import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
+import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 
 function formatRub(amount: number, locale: 'ru' | 'en') {
   return new Intl.NumberFormat(locale === 'ru' ? 'ru-RU' : 'en-US').format(amount) + ' ₽'
@@ -25,22 +29,36 @@ function buildRouteStops(tour: (typeof toursData.tours)[number], locale: 'ru' | 
 export function Tours() {
   const { locale } = useLanguage()
   const tours = toursData.tours
+  const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
+  const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   return (
-    <section className="mx-auto max-w-[1280px] px-6 py-24">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'Каталог' : 'Catalog'}
-      </p>
-      <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
-        {locale === 'ru' ? 'Готовые туры' : 'Ready-made tours'}
-      </h1>
-      <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
-        {locale === 'ru'
-          ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
-          : 'Curated programs for priority niches — route, companies, and logistics already assembled.'}
-      </p>
+    <>
+      <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
+        <div className="absolute inset-0">
+          <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        </div>
 
-      <div className="mt-16 flex flex-col gap-16">
+        <div
+          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pt-24"
+          style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
+        >
+          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
+            {locale === 'ru' ? 'Каталог' : 'Catalog'}
+          </p>
+          <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
+            {locale === 'ru' ? 'Готовые туры' : 'Ready-made tours'}
+          </h1>
+          <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
+            {locale === 'ru'
+              ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
+              : 'Curated programs for priority niches — route, companies, and logistics already assembled.'}
+          </p>
+        </div>
+      </section>
+
+      <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
+      <div className="flex flex-col gap-16">
         {tours.map((tour) => (
           <article key={tour.tour_id} id={tour.tour_id} className="scroll-mt-24 border-t border-black/10 pt-12">
             <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
@@ -149,13 +167,15 @@ export function Tours() {
 
             <Link
               to="/contacts"
+              onClick={(event) => goTo('/contacts', event)}
               className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-auto"
             >
               {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
             </Link>
           </article>
         ))}
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   )
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Check, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
@@ -6,6 +6,9 @@ import { companiesData, getCity, getSector } from '@/data'
 import type { Company } from '@/types/data'
 import { RouteMap } from '@/components/RouteMap'
 import type { RouteMapStop } from '@/components/RouteMap'
+import { ParticleCanvas } from '@/components/ParticleCanvas'
+import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
+import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 
 type FormatKey = '2' | '5'
 
@@ -57,6 +60,8 @@ export function Constructor() {
   const { locale } = useLanguage()
   const [searchParams] = useSearchParams()
   const initialSector = searchParams.get('sector')
+  const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
+  const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   const [format, setFormat] = useState<FormatKey | null>(null)
   const [selectedIds, setSelectedIds] = useState<string[]>([])
@@ -127,19 +132,31 @@ export function Constructor() {
     })
 
   return (
-    <section className="mx-auto max-w-[1280px] px-6 py-24">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'Конструктор' : 'Constructor'}
-      </p>
-      <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
-        {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
-      </h1>
-      <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
-        {locale === 'ru'
-          ? 'Выберите формат, отметьте компании — мы возьмём список за основу и соберём маршрут вручную.'
-          : 'Pick a format, mark the companies you want — we take that list and assemble the route by hand.'}
-      </p>
+    <>
+      <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
+        <div className="absolute inset-0">
+          <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        </div>
 
+        <div
+          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pt-24"
+          style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
+        >
+          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
+            {locale === 'ru' ? 'Конструктор' : 'Constructor'}
+          </p>
+          <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
+            {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
+          </h1>
+          <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
+            {locale === 'ru'
+              ? 'Выберите формат, отметьте компании — мы возьмём список за основу и соберём маршрут вручную.'
+              : 'Pick a format, mark the companies you want — we take that list and assemble the route by hand.'}
+          </p>
+        </div>
+      </section>
+
+      <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
       <div className="mt-12">
         <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
           {locale === 'ru' ? '1. Формат тура' : '1. Tour format'}
@@ -381,6 +398,7 @@ export function Constructor() {
             </p>
             <Link
               to="/contacts"
+              onClick={(event) => goTo('/contacts', event)}
               className="mt-4 inline-flex items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               {locale === 'ru' ? 'Перейти в контакты' : 'Go to contacts'}
@@ -388,6 +406,7 @@ export function Constructor() {
           </div>
         </div>
       )}
-    </section>
+      </section>
+    </>
   )
 }
