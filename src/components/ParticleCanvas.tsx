@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react'
 import { ParticleFieldEngine } from '@/three/ParticleFieldEngine'
 import { generateShape, type ShapeKey } from '@/three/shapes'
 
@@ -20,10 +20,22 @@ function prefersReducedMotion(): boolean {
   return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 }
 
-export function ParticleCanvas({ shape }: { shape: ShapeKey }) {
+export interface ParticleCanvasHandle {
+  /** Scatters the current shape back apart — see ParticleFieldEngine.disperse(). */
+  disperse: (durationMs?: number) => void
+}
+
+export const ParticleCanvas = forwardRef<ParticleCanvasHandle, { shape: ShapeKey }>(function ParticleCanvas(
+  { shape },
+  ref,
+) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const engineRef = useRef<ParticleFieldEngine | null>(null)
   const countRef = useRef(getParticleCount())
+
+  useImperativeHandle(ref, () => ({
+    disperse: (durationMs?: number) => engineRef.current?.disperse(durationMs),
+  }))
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -56,4 +68,4 @@ export function ParticleCanvas({ shape }: { shape: ShapeKey }) {
   }, [shape])
 
   return <canvas ref={canvasRef} className="h-full w-full" />
-}
+})

@@ -92,6 +92,7 @@ export class ParticleFieldEngine {
   private spinPhases: Float32Array
 
   private morphStart = performance.now()
+  private morphDuration = MORPH_DURATION_MS
   private clock = new THREE.Clock()
 
   private raycaster = new THREE.Raycaster()
@@ -270,12 +271,22 @@ export class ParticleFieldEngine {
     }
   }
 
-  setTarget(shape: PointCloud) {
+  setTarget(shape: PointCloud, durationMs = MORPH_DURATION_MS) {
     // Snapshot wherever particles actually are right now (not just the old
     // target) so switching shapes mid-morph doesn't jump.
     this.prevPositions = this.currentPositions.slice()
     this.targetPositions = shape.positions
     this.morphStart = performance.now()
+    this.morphDuration = durationMs
+  }
+
+  /**
+   * Reverse of the assembly effect — blows the current shape back apart into
+   * a scattered cloud, quickly, for use as an exit transition (e.g. right
+   * before navigating away from a page that shows this shape).
+   */
+  disperse(durationMs = 900) {
+    this.setTarget({ positions: scatterCloud(this.count, SCATTER_RADIUS * 1.6) }, durationMs)
   }
 
   private applyLayout(width: number) {
@@ -301,7 +312,7 @@ export class ParticleFieldEngine {
     const now = performance.now()
     const globalT = this.reducedMotion
       ? 1
-      : Math.min((now - this.morphStart) / MORPH_DURATION_MS, 1)
+      : Math.min((now - this.morphStart) / this.morphDuration, 1)
     const time = this.clock.elapsedTime
 
     if (!this.reducedMotion) {
