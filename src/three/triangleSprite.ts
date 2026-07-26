@@ -16,9 +16,11 @@ export function createTriangleSprite(): THREE.Texture {
   ctx.lineTo(size * 0.08, size * 0.88)
   ctx.closePath()
 
+  // Kept deliberately dim — additive blending sums overlapping particles, so a
+  // bright core here plus dense overlap is what was blowing the whole field out to white.
   const gradient = ctx.createRadialGradient(cx, size * 0.55, 0, cx, size * 0.55, size * 0.55)
-  gradient.addColorStop(0, 'rgba(255,255,255,1)')
-  gradient.addColorStop(0.6, 'rgba(255,255,255,0.9)')
+  gradient.addColorStop(0, 'rgba(255,255,255,0.55)')
+  gradient.addColorStop(0.6, 'rgba(255,255,255,0.4)')
   gradient.addColorStop(1, 'rgba(255,255,255,0)')
   ctx.fillStyle = gradient
   ctx.fill()

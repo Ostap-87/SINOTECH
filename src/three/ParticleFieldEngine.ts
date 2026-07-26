@@ -6,16 +6,24 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { createTriangleSprite } from './triangleSprite'
 import type { PointCloud } from './shapes/types'
 
-const MORPH_DURATION_MS = 1400
+const MORPH_DURATION_MS = 3200
+const SCATTER_RADIUS = 15
+const STAGGER_SPREAD = 0.65
 const REPEL_RADIUS = 1.1
 const REPEL_STRENGTH = 0.55
 const DRIFT_AMPLITUDE = 0.035
 const DRIFT_SPEED = 0.6
 const AUTO_ROTATE_SPEED = 0.045 // rad/s
 const PARALLAX_MAX = 0.22
-const BASE_POINT_SIZE = 5
+const BASE_POINT_SIZE = 4.5
 const HOVER_SIZE_BOOST = 2.4
 const CAMERA_DISTANCE = 6.4
+// Kept low and high-threshold on purpose — additive-blended points already glow on
+// their own, and a strong/loose bloom here is what turned the whole field into a
+// single overexposed white blob instead of a readable, detailed shape.
+const BLOOM_STRENGTH = 0.35
+const BLOOM_RADIUS = 0.3
+const BLOOM_THRESHOLD = 0.45
 
 function easeOutCubic(t: number) {
   return 1 - Math.pow(1 - t, 3)
@@ -89,7 +97,7 @@ export class ParticleFieldEngine {
     this.camera.lookAt(0, 0, 0)
 
     this.geometry = new THREE.BufferGeometry()
-    this.prevPositions = scatterCloud(this.count, 7)
+    this.prevPositions = scatterCloud(this.count, SCATTER_RADIUS)
     this.targetPositions = initial.positions
     this.prevColors = initial.colors.slice()
     this.targetColors = initial.colors
@@ -101,7 +109,7 @@ export class ParticleFieldEngine {
     this.delays = new Float32Array(this.count)
     for (let i = 0; i < this.count; i++) {
       this.driftSeeds[i] = Math.random() * Math.PI * 2
-      this.delays[i] = Math.random() * 0.4
+      this.delays[i] = Math.random() * STAGGER_SPREAD
     }
 
     this.geometry.setAttribute('position', new THREE.BufferAttribute(livePositions, 3).setUsage(THREE.DynamicDrawUsage))
@@ -147,7 +155,12 @@ export class ParticleFieldEngine {
     this.composer = new EffectComposer(this.renderer)
     this.composer.addPass(new RenderPass(this.scene, this.camera))
     if (!new URLSearchParams(window.location.search).has('noBloom')) {
-      const bloom = new UnrealBloomPass(new THREE.Vector2(width, height), 1.05, 0.55, 0.12)
+      const bloom = new UnrealBloomPass(
+        new THREE.Vector2(width, height),
+        BLOOM_STRENGTH,
+        BLOOM_RADIUS,
+        BLOOM_THRESHOLD,
+      )
       this.composer.addPass(bloom)
     }
     this.composer.addPass(new OutputPass())
