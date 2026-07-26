@@ -1,12 +1,140 @@
-import { Placeholder } from './Placeholder'
+import { Link } from 'react-router-dom'
+import { useLanguage, pick } from '@/i18n/LanguageContext'
+import { toursData } from '@/data'
+
+function formatRub(amount: number, locale: 'ru' | 'en') {
+  return new Intl.NumberFormat(locale === 'ru' ? 'ru-RU' : 'en-US').format(amount) + ' ₽'
+}
 
 export function Tours() {
+  const { locale } = useLanguage()
+  const tours = toursData.tours
+
   return (
-    <Placeholder
-      title_ru="Готовые туры"
-      title_en="Ready-made tours"
-      note_ru="Карточка Robotics Expedition появится на Шаге 5."
-      note_en="The Robotics Expedition tour card lands in Step 5."
-    />
+    <section className="mx-auto max-w-[1280px] px-6 py-24">
+      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
+        {locale === 'ru' ? 'Каталог' : 'Catalog'}
+      </p>
+      <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
+        {locale === 'ru' ? 'Готовые туры' : 'Ready-made tours'}
+      </h1>
+      <p className="mt-4 max-w-xl text-lg font-extralight text-silver-mist">
+        {locale === 'ru'
+          ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
+          : 'Curated programs for priority niches — route, companies, and logistics already assembled.'}
+      </p>
+
+      <div className="mt-16 flex flex-col gap-16">
+        {tours.map((tour) => (
+          <article key={tour.tour_id} id={tour.tour_id} className="scroll-mt-24 border-t border-white/10 pt-12">
+            <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {pick(tour, 'eyebrow', locale)}
+            </p>
+            <h2 className="mt-3 text-3xl font-normal tracking-[-0.02em]">{pick(tour, 'title', locale)}</h2>
+            <p className="mt-2 text-sm text-electric-iris">{pick(tour, 'tagline', locale)}</p>
+            <p className="mt-4 max-w-2xl text-silver-mist">{pick(tour, 'positioning', locale)}</p>
+
+            <dl className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
+              <div>
+                <dt className="text-xs uppercase text-ash-gray">{locale === 'ru' ? 'Города' : 'Cities'}</dt>
+                <dd className="mt-1 text-2xl text-bone-white">{tour.stats.cities}</dd>
+              </div>
+              <div>
+                <dt className="text-xs uppercase text-ash-gray">{locale === 'ru' ? 'Дней' : 'Days'}</dt>
+                <dd className="mt-1 text-2xl text-bone-white">{tour.stats.days}</dd>
+              </div>
+              <div>
+                <dt className="text-xs uppercase text-ash-gray">{locale === 'ru' ? 'Компаний' : 'Companies'}</dt>
+                <dd className="mt-1 text-2xl text-bone-white">{tour.stats.companies}</dd>
+              </div>
+              <div>
+                <dt className="text-xs uppercase text-ash-gray">{locale === 'ru' ? 'Перелётов' : 'Flights'}</dt>
+                <dd className="mt-1 text-2xl text-bone-white">{tour.stats.flights}</dd>
+              </div>
+            </dl>
+
+            <p className="mt-6 text-sm text-ash-gray">
+              {locale === 'ru' ? 'Прилёт' : 'Arrival'}: {pick(tour, 'arrival', locale)} ·{' '}
+              {locale === 'ru' ? 'Вылет' : 'Departure'}: {pick(tour, 'departure', locale)}
+            </p>
+
+            <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.3fr_1fr]">
+              <div>
+                <h3 className="text-lg font-medium">{locale === 'ru' ? 'Программа по дням' : 'Day-by-day'}</h3>
+                <ol className="mt-4 space-y-4">
+                  {tour.itinerary.map((day) => (
+                    <li key={day.day} className="rounded-xl border border-white/10 bg-surface/40 p-4">
+                      <p className="text-sm font-medium text-bone-white">
+                        {locale === 'ru' ? 'День' : 'Day'} {day.day} ·{' '}
+                        {locale === 'ru' ? day.city_ru : day.city_en} · {day.time}
+                      </p>
+                      <p className="mt-1 text-xs text-ash-gray">
+                        {locale === 'ru' ? day.area_ru : day.area_en}
+                      </p>
+                      <p className="mt-2 text-sm text-silver-mist">{day.companies.join(', ')}</p>
+                      {(day.transfer_ru || day.note_ru) && (
+                        <p className="mt-2 text-xs text-electric-iris">
+                          {locale === 'ru' ? day.transfer_ru ?? day.note_ru : day.transfer_en ?? day.note_en}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+
+              <div className="space-y-6">
+                <div className="rounded-xl border border-white/10 bg-surface/40 p-5">
+                  <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                    {locale === 'ru' ? 'В программу входит' : "What's included"}
+                  </h3>
+                  <ul className="mt-3 space-y-2 text-sm text-silver-mist">
+                    {tour.includes.map((item) => (
+                      <li key={item.ru} className="flex gap-2">
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-electric-iris" />
+                        {locale === 'ru' ? item.ru : item.en}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="rounded-xl border border-white/10 bg-surface/40 p-5">
+                  <h3 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                    {pick(tour.pricing, 'total_label', locale)}
+                  </h3>
+                  <ul className="mt-3 space-y-2 text-sm text-silver-mist">
+                    {tour.pricing.items.map((item) => (
+                      <li key={item.n} className="flex items-center justify-between gap-4">
+                        <span>{pick(item, 'title', locale)}</span>
+                        <span className="shrink-0 text-bone-white">{formatRub(item.amount, locale)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-4 flex items-center justify-between border-t border-white/10 pt-4 text-base">
+                    <span className="font-medium">{pick(tour.pricing, 'total_label', locale)}</span>
+                    <span className="font-medium text-bone-white">
+                      {formatRub(tour.pricing.total_excl_flights, locale)}
+                    </span>
+                  </div>
+                  {tour.pricing.extras.map((extra) => (
+                    <p key={extra.title_ru} className="mt-2 text-xs text-ash-gray">
+                      + {pick(extra, 'title', locale)}: {formatRub(extra.amount, locale)} (
+                      {pick(extra, 'note', locale)})
+                    </p>
+                  ))}
+                  <p className="mt-3 text-xs text-ash-gray">{pick(tour.pricing, 'basis', locale)}</p>
+                </div>
+
+                <Link
+                  to="/contacts"
+                  className="inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-bone-white transition-opacity hover:opacity-90"
+                >
+                  {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
+                </Link>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
   )
 }
