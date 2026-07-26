@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+:root {
+  --color-void: #000000; /* холст и фон всех секций */
+  --color-bone-white: #ffffff; /* заголовки, body, иконки */
+  --color-ash-gray: #9a9a9a; /* приглушённый текст навигации, ghost-ссылки */
+  --color-silver-mist: #bdbdbd; /* третичный текст, подписи */
+  --color-electric-iris: #8052ff; /* единственный акцент кнопок/лого */
+  --color-saffron-spark: #ffb829; /* хайлайты, надзаголовки-лейблы */
+  --color-deep-verdant: #15846e; /* градиент лого и глубина частиц */
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --radius-dala: 24px;
+  --maxw-dala: 1280px;
+}
+
+@theme inline {
+  --color-void: var(--color-void);
+  --color-bone-white: var(--color-bone-white);
+  --color-ash-gray: var(--color-ash-gray);
+  --color-silver-mist: var(--color-silver-mist);
+  --color-electric-iris: var(--color-electric-iris);
+  --color-saffron-spark: var(--color-saffron-spark);
+  --color-deep-verdant: var(--color-deep-verdant);
+  --font-sans: var(--font-sans);
+  --radius-dala: var(--radius-dala);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-void);
+  color: var(--color-bone-white);
+  font-family: var(--font-sans);
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}

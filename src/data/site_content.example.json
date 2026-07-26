@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "project": "Aura Tech Tours — site content (starter template)",
+    "languages": ["en", "ru"],
+    "note": "Двуязычный контент главной. Кейсы ссылаются на companies.id (type=company) или sectors.code (type=industry). Медиа — ссылки на файлы в сторидже."
+  },
+  "cases": [
+    {
+      "id": "byd-visit-2026-03",
+      "type": "company",
+      "company": "byd",
+      "title_en": "BYD company visit",
+      "title_ru": "Посещение компании BYD",
+      "subtitle_en": "Vertically integrated NEV & Blade battery",
+      "subtitle_ru": "Вертикально интегрированный NEV и батарея Blade",
+      "date": "2026-03-18",
+      "cover": "https://REPLACE/storage/cases/byd/cover.jpg",
+      "summary_en": "A delegation toured BYD's assembly and battery lines. Add the real write-up here.",
+      "summary_ru": "Делегация посетила сборочные и батарейные линии BYD. Здесь — реальное описание визита.",
+      "media": [
+        { "kind": "photo", "url": "https://REPLACE/storage/cases/byd/1.jpg", "caption_en": "Assembly line", "caption_ru": "Сборочная линия" },
+        { "kind": "video", "url": "https://REPLACE/storage/cases/byd/tour.mp4", "thumb": "https://REPLACE/storage/cases/byd/tour-thumb.jpg", "caption_en": "Line walkthrough", "caption_ru": "Обход линии" }
+      ],
+      "testimonial_en": "A rare, well-organised look inside. — Delegation lead",
+      "testimonial_ru": "Редкий, отлично организованный доступ внутрь. — Глава делегации",
+      "author_en": "Delegation lead",
+      "author_ru": "Глава делегации"
+    },
+    {
+      "id": "robotics-industry-tour-2026-04",
+      "type": "industry",
+      "sector": "robotics",
+      "title_en": "Robotics industry tour",
+      "title_ru": "Тур по индустрии роботов",
+      "subtitle_en": "Beijing → Shanghai → Hangzhou → Shenzhen",
+      "subtitle_ru": "Пекин → Шанхай → Ханчжоу → Шэньчжэнь",
+      "date": "2026-04-30",
+      "cover": "https://REPLACE/storage/cases/robotics/cover.jpg",
+      "summary_en": "Five-day route across humanoid, service and lab robotics, drawn from Aura's own supplier base.",
+      "summary_ru": "Пятидневный маршрут по гуманоидной, сервисной и лабораторной робототехнике из собственной базы поставщиков Aura.",
+      "media": [
+        { "kind": "photo", "url": "https://REPLACE/storage/cases/robotics/1.jpg", "caption_en": "Humanoid demo", "caption_ru": "Демо гуманоида" },
+        { "kind": "video", "url": "https://REPLACE/storage/cases/robotics/reel.mp4", "thumb": "https://REPLACE/storage/cases/robotics/reel-thumb.jpg", "caption_en": "Highlights reel", "caption_ru": "Ролик о поездке" }
+      ],
+      "testimonial_en": "",
+      "testimonial_ru": ""
+    }
+  ],
+  "blog": [
+    {
+      "id": "why-benchmarking-china-2026",
+      "slug": "why-benchmarking-china",
+      "title_en": "Why benchmark tours to China work",
+      "title_ru": "Почему работают benchmark-туры в Китай",
+      "cover": "https://REPLACE/storage/blog/benchmarking/cover.jpg",
+      "date": "2026-05-10",
+      "excerpt_en": "What a well-built study tour actually delivers to a delegation.",
+      "excerpt_ru": "Что на самом деле даёт делегации грамотно собранный study-тур.",
+      "body_en": "Full article body in English…",
+      "body_ru": "Полный текст статьи на русском…",
+      "tags": ["benchmarking", "china", "delegations"],
+      "author": "Aura Tech Tours"
+    }
+  ],
+  "contacts": {
+    "company_en": "Shanghai Pinnacle Technology Co., Ltd.",
+    "company_ru": "Shanghai Pinnacle Technology Co., Ltd.",
+    "whatsapp": "+7 985 874 49 58",
+    "telegram": "@ostapdotcenko",
+    "email": "inquairy@aura-robotics.ru",
+    "form": {
+      "title_en": "Get in touch",
+      "title_ru": "Связаться с нами",
+      "fields": ["name", "email", "message", "lang"],
+      "delivery": ["email", "telegram"]
+    }
+  }
+}

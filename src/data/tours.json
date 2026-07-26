@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "project": "Aura Tech Tours — ready-made tours",
+    "note": "Готовые туры. Тур ссылается на companies.id из companies.json. Даты (start_date) проставляются при анонсе. Слой быстро меняется (можно вести через Google Таблицы, см. спецификацию раздел 14).",
+    "languages": ["ru", "en"],
+    "currency": "RUB"
+  },
+  "tours": [
+    {
+      "tour_id": "robotics-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "robotics",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Robotics Expedition",
+      "title_en": "Robotics Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Innovation · Intelligence · Impact",
+      "tagline_en": "Innovation · Intelligence · Impact",
+      "positioning_ru": "Закрытые визиты на производства лидеров робототехники Китая. Прямой доступ к компаниям, куда не попасть самостоятельно.",
+      "positioning_en": "Private visits to the production sites of China's robotics leaders. Direct access to companies you can't reach on your own.",
+      "stats": { "cities": 3, "days": 5, "companies": 12, "flights": 2 },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (Moscow → Beijing)",
+      "departure_ru": "Шэньчжэнь / Гонконг (→ Москва)",
+      "departure_en": "Shenzhen / Hong Kong (→ Moscow)",
+      "route_cities": ["beijing", "shanghai", "shenzhen"],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Хайдянь / PKU Lab",
+          "area_en": "Haidian / PKU Lab",
+          "time": "10:00–12:30",
+          "companies": ["galbot", "robotera"],
+          "transfer_ru": "✈ ~20:00 → Шанхай (SHA)",
+          "transfer_en": "✈ ~20:00 → Shanghai (SHA)"
+        },
+        {
+          "day": 2,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Zhangjiang Hi-Tech Park (Robot Valley)",
+          "area_en": "Zhangjiang Hi-Tech Park (Robot Valley)",
+          "time": "09:30–11:30",
+          "companies": ["agibot", "kepler", "droidup"],
+          "note_ru": "Пудунский кластер — все три в Zhangjiang Robot Valley",
+          "note_en": "Pudong cluster — all three in Zhangjiang Robot Valley"
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Zhangjiang, Пудун",
+          "area_en": "Zhangjiang, Pudong",
+          "time": "10:00–12:00",
+          "companies": ["fourier", "seer-robotics"],
+          "transfer_ru": "✈ ~19:30 (PVG) → Шэньчжэнь",
+          "transfer_en": "✈ ~19:30 (PVG) → Shenzhen"
+        },
+        {
+          "day": 4,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 1",
+          "city_en": "Shenzhen, day 1",
+          "area_ru": "Наньшань (Nanshan Zhiyuan, Xueyuan Ave)",
+          "area_en": "Nanshan (Nanshan Zhiyuan, Xueyuan Ave)",
+          "time": "10:00–12:00",
+          "companies": ["ubtech", "leju-robotics", "limx-dynamics"]
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 2 (финал)",
+          "city_en": "Shenzhen, day 2 (finale)",
+          "area_ru": "Шэньчжэнь",
+          "area_en": "Shenzhen",
+          "time": "10:00–12:00",
+          "companies": ["engineai", "pudu-robotics"],
+          "note_ru": "Завершение экспедиции",
+          "note_en": "End of the expedition"
+        }
+      ],
+      "includes": [
+        { "ru": "Экскурсии по производствам — сборочные линии, цеха и лаборатории лидеров индустрии", "en": "Production tours — assembly lines, workshops and labs of industry leaders" },
+        { "ru": "Демонстрации технологий — живые демо гуманоидов и сервисных роботов", "en": "Technology demos — live demonstrations of humanoid and service robots" },
+        { "ru": "Переговоры с топ-менеджментом — встречи с основателями и руководителями", "en": "Talks with top management — meetings with founders and executives" },
+        { "ru": "Техническая экспертиза — наши инженеры помогают оценить продукт и задать нужные вопросы", "en": "Technical expertise — our engineers help evaluate products and ask the right questions" },
+        { "ru": "Перевод и сопровождение — логистика, переводчики, организация встреч", "en": "Translation and support — logistics, interpreters, meeting arrangements" },
+        { "ru": "Контакты для сделок — прямые выходы на закупки, дистрибуцию и партнёрство", "en": "Deal contacts — direct lines to procurement, distribution and partnership" }
+      ],
+      "advantages": [
+        { "ru": "Минимум переездов — компании сгруппированы по технопаркам внутри городов", "en": "Minimal transfers — companies grouped by tech parks within each city" },
+        { "ru": "Логичная география — север → центр → юг Китая, Пекин · Шанхай · Шэньчжэнь одним движением", "en": "Logical geography — north → centre → south, Beijing · Shanghai · Shenzhen in one sweep" },
+        { "ru": "Максимум топ-компаний — 12 лидеров индустрии за одну поездку", "en": "Maximum of top companies — 12 industry leaders in a single trip" },
+        { "ru": "Баланс времени — плотная, но комфортная программа без спешки и простоев", "en": "Balanced pace — dense but comfortable, no rush and no idle time" }
+      ],
+      "why_vs_self": {
+        "self_ru": ["Заводы не отвечают на «холодные» запросы от незнакомых компаний", "Языковой барьер и разница в деловой культуре", "Хаотичная логистика между городами и хабами", "Недели переписки ради одной встречи"],
+        "self_en": ["Factories ignore cold outreach from unknown companies", "Language barrier and business-culture gap", "Chaotic logistics between cities and hubs", "Weeks of correspondence for a single meeting"],
+        "with_us_ru": ["Подтверждённые визиты к 12 лидерам за одну поездку", "Перевод и техническая экспертиза на каждой встрече", "Продуманная логистика: север → центр → юг Китая", "Готовая программа «под ключ» за 5 дней"],
+        "with_us_en": ["Confirmed visits to 12 leaders in one trip", "Translation and technical expertise at every meeting", "Thought-through logistics: north → centre → south", "Turnkey program in 5 days"]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 суток, отели 5 звёзд × 15 000 руб.", "calc_en": "6 nights, 5-star hotels × 15,000 RUB", "amount": 90000 },
+          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "6 суток (обед / ужин)", "calc_en": "6 days (lunch / dinner)", "amount": 50000 },
+          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "6 суток: автобус по городу, перелёты между городами, такси, встреча / проводы в аэропорту", "calc_en": "6 days: city bus, inter-city flights, taxi, airport transfers", "amount": 50000 },
+          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, лекции, прямые контакты с производителями", "calc_en": "Escort and interpreter services, site visits, lectures, direct contacts with manufacturers", "amount": 310000 }
+        ],
+        "total_excl_flights": 500000,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": [
+          { "title_ru": "Авиабилеты", "title_en": "Flights", "calc_ru": "Москва — Пекин — Шэньчжэнь / Гонконг — Москва", "calc_en": "Moscow — Beijing — Shenzhen / Hong Kong — Moscow", "amount": 80000, "note_ru": "Ориентировочная стоимость", "note_en": "Estimated" }
+        ]
+      },
+      "market_note_ru": "Китай — мировой центр робототехники: ~86% мирового рынка роботов.",
+      "market_note_en": "China is the world's robotics hub: ~86% of the global robot market.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    }
+  ]
+}

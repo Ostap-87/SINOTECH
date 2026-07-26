@@ -1,12 +1,10 @@
-# SinoTech Voyage
+# Sinotech Voyage · by Aura Robotics
 
-Сайт для технологического туризма SinoTech Voyage — платформа для организации и продвижения туров, знакомящих путешественников с технологическими достижениями и индустрией.
+Бенчмаркинг-туры (标杆考察) к лидерам индустрий Китая для бизнес-делегаций. Дизайн-система — **Dala** (чёрный void + фиолетовый акцент), сигнатура — 3D-частицы на three.js, собирающиеся в предмет-символ каждой индустрии.
 
 ## Стек
 
-- [Next.js](https://nextjs.org) (App Router) + TypeScript
-- [Tailwind CSS](https://tailwindcss.com)
-- ESLint
+React + TypeScript + Vite + Tailwind CSS v4 + framer-motion + three.js + react-router-dom + lucide-react.
 
 ## Разработка
 
@@ -15,16 +13,16 @@ npm install
 npm run dev
 ```
 
-Открыть [http://localhost:3000](http://localhost:3000).
+## Данные
 
-## Переменные окружения
+- `src/data/companies.json` — каталог из 373 компаний (17 отраслей, 8 макрорегионов, 47 городов).
+- `src/data/tours.json` — готовые туры (Robotics Expedition).
+- `src/data/site_content.example.json` — кейсы, блог, контакты.
 
-Скопируйте `.env.example` в `.env.local` и заполните значения:
+Типы — `src/types/data.ts`. Загрузка и хелперы — `src/data/index.ts`.
 
-```bash
-cp .env.example .env.local
-```
+## Сборка по шагам
 
-## Деплой
+Проект собирается пошагово по спецификации из стартового пакета (`aura_navigator_spec.md`, `homepage_dala_prompt.md`): Шаг 0 — каркас; Шаг 1 — навбар/футер; Шаг 2 — движок частиц; Шаг 3 — hero; Шаг 4 — индустрии + морфинг; Шаг 5 — маркетинговые секции; Шаг 6 — навигатор/конструктор; Шаг 7 — карта маршрута; Шаг 8 — стоимость и PDF; Шаг 9 — заявка; Шаг 10 — контент и полировка.
 
-Проект деплоится на [Vercel](https://vercel.com). Продакшн-ветка — `master`, для каждого Pull Request автоматически создаётся preview-деплой.
+После каждого шага — показ результата и подтверждение перед следующим.
