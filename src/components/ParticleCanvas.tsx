@@ -5,12 +5,12 @@ import { generateShape, type ShapeKey } from '@/three/shapes'
 function getParticleCount(): number {
   const debugCount = new URLSearchParams(window.location.search).get('debugCount')
   if (debugCount) return Number(debugCount)
-  if (typeof window === 'undefined') return 8000
+  if (typeof window === 'undefined') return 10000
   const isSmallScreen = window.innerWidth < 768
   const cores = navigator.hardwareConcurrency ?? 4
-  if (isSmallScreen) return 4000
-  if (cores <= 4) return 8000
-  return 16000
+  if (isSmallScreen) return 6000
+  if (cores <= 4) return 12000
+  return 22000
 }
 
 function prefersReducedMotion(): boolean {

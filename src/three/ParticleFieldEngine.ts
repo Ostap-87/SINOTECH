@@ -15,22 +15,27 @@ const DRIFT_AMPLITUDE = 0.035
 const DRIFT_SPEED = 0.6
 const AUTO_ROTATE_SPEED = 0.045 // rad/s
 const PARALLAX_MAX = 0.22
-const BASE_POINT_SIZE = 4.2
-const SIZE_JITTER_MIN = 0.6 // fraction of BASE_POINT_SIZE — per-particle size variety reads as detail/depth
-const SIZE_JITTER_MAX = 1.5
+const BASE_POINT_SIZE = 5.4
+const SIZE_JITTER_MIN = 0.55 // fraction of BASE_POINT_SIZE — per-particle size variety reads as detail/depth
+const SIZE_JITTER_MAX = 1.7
 const HOVER_SIZE_BOOST = 2.2
-const CAMERA_DISTANCE = 6.4
-// Shifts the settled shape away from the left-aligned hero copy so it reads as
-// a full-bleed backdrop rather than a boxed illustration. Below the stacked
-// layout's breakpoint the shape drops beneath the text instead of beside it.
+const TWINKLE_AMOUNT = 0.22 // per-particle brightness shimmer — reads as fine, alive detail
+const TWINKLE_SPEED = 1.1
+// The shape is large enough to graze the hero copy on purpose (per design
+// direction) — a bigger, bolder silhouette reads as more detailed and more
+// "alive" than a small one floating in empty space. Camera distance is
+// adapted per layout so the same world-space shape still fits a narrow
+// mobile frustum instead of being cropped.
 const STACKED_LAYOUT_BREAKPOINT = 1024
-const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.7, 0)
-const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -1.7)
+const CAMERA_DISTANCE_DESKTOP = 7.4
+const CAMERA_DISTANCE_STACKED = 12.5
+const FRAME_OFFSET_DESKTOP = new THREE.Vector2(1.15, 0.1)
+const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
 // Crisp sprite core + a modest, tight bloom — enough glow to feel alive without
 // smearing every particle back into an indistinct blob.
-const BLOOM_STRENGTH = 0.55
-const BLOOM_RADIUS = 0.28
-const BLOOM_THRESHOLD = 0.42
+const BLOOM_STRENGTH = 0.62
+const BLOOM_RADIUS = 0.3
+const BLOOM_THRESHOLD = 0.38
 
 function easeOutCubic(t: number) {
   return 1 - Math.pow(1 - t, 3)
@@ -102,7 +107,7 @@ export class ParticleFieldEngine {
     this.renderer.setSize(width, height, false)
 
     this.camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)
-    this.camera.position.set(0, 0, CAMERA_DISTANCE)
+    this.camera.position.set(0, 0, CAMERA_DISTANCE_DESKTOP)
     this.camera.lookAt(0, 0, 0)
 
     this.geometry = new THREE.BufferGeometry()
@@ -133,7 +138,7 @@ export class ParticleFieldEngine {
       uniforms: {
         uTexture: { value: createTriangleSprite() },
         uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) },
-        uFocalDistance: { value: CAMERA_DISTANCE },
+        uFocalDistance: { value: CAMERA_DISTANCE_DESKTOP },
       },
       vertexShader: /* glsl */ `
         attribute float aSize;
@@ -163,7 +168,7 @@ export class ParticleFieldEngine {
     })
 
     this.points = new THREE.Points(this.geometry, this.material)
-    this.applyFrameOffset(width)
+    this.applyLayout(width)
     this.scene.add(this.points)
 
     this.composer = new EffectComposer(this.renderer)
@@ -210,9 +215,14 @@ export class ParticleFieldEngine {
     this.morphStart = performance.now()
   }
 
-  private applyFrameOffset(width: number) {
-    const offset = width < STACKED_LAYOUT_BREAKPOINT ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
+  private applyLayout(width: number) {
+    const stacked = width < STACKED_LAYOUT_BREAKPOINT
+    const offset = stacked ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
+    const distance = stacked ? CAMERA_DISTANCE_STACKED : CAMERA_DISTANCE_DESKTOP
+
     this.points.position.set(offset.x, offset.y, 0)
+    this.camera.position.z = distance
+    this.material.uniforms.uFocalDistance.value = distance
   }
 
   resize(width: number, height: number) {
@@ -220,7 +230,7 @@ export class ParticleFieldEngine {
     this.camera.updateProjectionMatrix()
     this.renderer.setSize(width, height, false)
     this.composer.setSize(width, height)
-    this.applyFrameOffset(width)
+    this.applyLayout(width)
   }
 
   private tick() {
@@ -258,9 +268,16 @@ export class ParticleFieldEngine {
       let y = this.prevPositions[i3 + 1] + (this.targetPositions[i3 + 1] - this.prevPositions[i3 + 1]) * eased
       let z = this.prevPositions[i3 + 2] + (this.targetPositions[i3 + 2] - this.prevPositions[i3 + 2]) * eased
 
-      colors[i3] = this.prevColors[i3] + (this.targetColors[i3] - this.prevColors[i3]) * eased
-      colors[i3 + 1] = this.prevColors[i3 + 1] + (this.targetColors[i3 + 1] - this.prevColors[i3 + 1]) * eased
-      colors[i3 + 2] = this.prevColors[i3 + 2] + (this.targetColors[i3 + 2] - this.prevColors[i3 + 2]) * eased
+      const r = this.prevColors[i3] + (this.targetColors[i3] - this.prevColors[i3]) * eased
+      const g = this.prevColors[i3 + 1] + (this.targetColors[i3 + 1] - this.prevColors[i3 + 1]) * eased
+      const b = this.prevColors[i3 + 2] + (this.targetColors[i3 + 2] - this.prevColors[i3 + 2]) * eased
+
+      const twinkle = this.reducedMotion
+        ? 1
+        : 1 + TWINKLE_AMOUNT * Math.sin(time * TWINKLE_SPEED + this.driftSeeds[i])
+      colors[i3] = r * twinkle
+      colors[i3 + 1] = g * twinkle
+      colors[i3 + 2] = b * twinkle
 
       const baseSize = this.baseSizes[i]
       let size = baseSize

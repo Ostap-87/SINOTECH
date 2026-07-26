@@ -10,7 +10,7 @@ type Polygon = Ring[]
 
 const RINGS = chinaOutline as unknown as Polygon[]
 
-const TARGET_SIZE = 4.4
+const TARGET_SIZE = 6.4
 // Fraction of the final silhouette's footprint used as its extruded thickness —
 // a flat depth (in raw lng/lat degrees) reads as a paper-thin card once rotating in 3D.
 const DEPTH_RATIO = 0.16
