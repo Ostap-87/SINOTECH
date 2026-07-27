@@ -5,7 +5,7 @@ const WORDMARK = 'SINOTECH VOYAGE'
 export function Logo() {
   return (
     <span className="flex items-center gap-2 text-sm font-semibold tracking-[-0.02em] text-bone-white">
-      <LogoMark size={24} />
+      <LogoMark size={48} />
       <span>
         {[...WORDMARK].map((char, i) => (
           <span
