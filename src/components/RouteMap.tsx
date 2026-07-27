@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useImperativeHandle, useMemo, useState } from 'react'
+import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
 import chinaProvinces from '@/data/china-provinces.json'
 import japanProvinces from '@/data/japan-provinces.json'
 import koreaProvinces from '@/data/korea-provinces.json'
@@ -167,6 +167,275 @@ function quadraticPoint(t: number, x1: number, y1: number, cx: number, cy: numbe
   return { x, y, angle: (Math.atan2(dy, dx) * 180) / Math.PI }
 }
 
+// --- Leg-aware camera: zoom to the provinces (or, for a flight, to the two
+// airport points) actually involved in the current day's travel, instead of
+// always showing the whole country at a fixed zoom. ---
+
+type Box = [number, number, number, number] // [x, y, width, height] in the map's projected SVG units
+
+function easeInOutCubic(t: number) {
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
+}
+
+function lerpBox(a: Box, b: Box, t: number): Box {
+  return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, a[2] + (b[2] - a[2]) * t, a[3] + (b[3] - a[3]) * t]
+}
+
+function padBox([x, y, w, h]: Box, pad: number): Box {
+  return [x - pad, y - pad, w + pad * 2, h + pad * 2]
+}
+
+function unionBox(a: Box, b: Box): Box {
+  const x0 = Math.min(a[0], b[0])
+  const y0 = Math.min(a[1], b[1])
+  const x1 = Math.max(a[0] + a[2], b[0] + b[2])
+  const y1 = Math.max(a[1] + a[3], b[1] + b[3])
+  return [x0, y0, x1 - x0, y1 - y0]
+}
+
+function pointBox(x: number, y: number, size: number): Box {
+  return [x - size / 2, y - size / 2, size, size]
+}
+
+/** Ray-casting point-in-ring test, run directly on raw [lng, lat] coordinates. */
+function pointInRing(lng: number, lat: number, ring: [number, number][]): boolean {
+  let inside = false
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i]
+    const [xj, yj] = ring[j]
+    const intersect = yi > lat !== yj > lat && lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi
+    if (intersect) inside = !inside
+  }
+  return inside
+}
+
+function pointInPolygon(lng: number, lat: number, polygon: Polygon): boolean {
+  const [outer, ...holes] = polygon
+  if (!outer || !pointInRing(lng, lat, outer)) return false
+  for (const hole of holes) if (pointInRing(lng, lat, hole)) return false
+  return true
+}
+
+/**
+ * Which province a city sits in — tested geometrically against the real
+ * boundaries rather than a hand-tagged field, so it works for any country's
+ * data without needing a province name pre-recorded per city. Falls back to
+ * nearest-by-centroid for the rare point that lands just outside every
+ * simplified ring (coastline decimation, offshore city marker, etc.).
+ */
+function findProvinceForCity(lng: number, lat: number, provinces: ProvinceEntry[]): ProvinceEntry | undefined {
+  for (const province of provinces) {
+    for (const polygon of province.polygons) {
+      if (pointInPolygon(lng, lat, polygon)) return province
+    }
+  }
+  let best: ProvinceEntry | undefined
+  let bestDist = Infinity
+  for (const province of provinces) {
+    const ring = province.polygons[0]?.[0]
+    if (!ring || ring.length === 0) continue
+    let sx = 0
+    let sy = 0
+    for (const [x, y] of ring) {
+      sx += x
+      sy += y
+    }
+    const dist = Math.hypot(sx / ring.length - lng, sy / ring.length - lat)
+    if (dist < bestDist) {
+      bestDist = dist
+      best = province
+    }
+  }
+  return best
+}
+
+function provinceProjectedBBox(province: ProvinceEntry, project: (lng: number, lat: number) => [number, number]): Box {
+  let minX = Infinity
+  let minY = Infinity
+  let maxX = -Infinity
+  let maxY = -Infinity
+  for (const polygon of province.polygons) {
+    for (const ring of polygon) {
+      for (const [lng, lat] of ring) {
+        const [x, y] = project(lng, lat)
+        if (x < minX) minX = x
+        if (x > maxX) maxX = x
+        if (y < minY) minY = y
+        if (y > maxY) maxY = y
+      }
+    }
+  }
+  return [minX, minY, maxX - minX, maxY - minY]
+}
+
+interface ViewTarget {
+  box: Box
+  transitionMs: number
+  holdMs: number
+  labels: { x: number; y: number; text: string }[]
+}
+
+const FLIGHT_DEPART_MS = 800
+const FLIGHT_DEPART_HOLD_MS = 600
+const FLIGHT_TRANSIT_MS = 700
+// Held long enough that the plane (which starts moving the instant the
+// transit phase begins) finishes its flight while the camera is still on
+// the wide view — otherwise the camera would already be zoomed in on the
+// arrival city before the plane visibly lands.
+const FLIGHT_TRANSIT_HOLD_MS = Math.max(ARC_DRAW_MS - FLIGHT_TRANSIT_MS, 400)
+const FLIGHT_ARRIVE_MS = 800
+const LEG_ZOOM_MS = 1100
+const PROVINCE_PAD_RATIO = 0.35
+const PROVINCE_MIN_PAD = 40
+const CITY_TIGHT_SIZE_RATIO = 0.16
+const CITY_WIDE_PAD_RATIO = 0.55
+
+/**
+ * Builds the camera sequence for the leg arriving at `stops[currentIndex]`,
+ * plus how long the connecting arc should wait before it starts drawing —
+ * for a flight, that's until the departure close-up has landed, so the
+ * plane visibly takes off from a city we've already zoomed to rather than
+ * finishing its flight before the camera has caught up.
+ */
+function buildLegTargets(
+  stops: RouteMapStop[],
+  currentIndex: number,
+  points: [number, number][],
+  provinces: ProvinceEntry[],
+  project: (lng: number, lat: number) => [number, number],
+  fullBox: Box,
+): { targets: ViewTarget[]; arcStartDelayMs: number } {
+  if (currentIndex === 0) {
+    return { targets: [{ box: fullBox, transitionMs: 900, holdMs: Infinity, labels: [] }], arcStartDelayMs: 0 }
+  }
+
+  const prevStop = stops[currentIndex - 1]
+  const stop = stops[currentIndex]
+  const [x1, y1] = points[currentIndex - 1]
+  const [x2, y2] = points[currentIndex]
+  const refSize = Math.max(fullBox[2], fullBox[3])
+
+  if (stop.legMode === 'flight') {
+    const tight = refSize * CITY_TIGHT_SIZE_RATIO
+    const departBox = pointBox(x1, y1, tight)
+    const arriveBox = pointBox(x2, y2, tight)
+    const transitBox = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
+    return {
+      targets: [
+        { box: departBox, transitionMs: FLIGHT_DEPART_MS, holdMs: FLIGHT_DEPART_HOLD_MS, labels: [{ x: x1, y: y1, text: prevStop.cityLabel }] },
+        { box: transitBox, transitionMs: FLIGHT_TRANSIT_MS, holdMs: FLIGHT_TRANSIT_HOLD_MS, labels: [] },
+        { box: arriveBox, transitionMs: FLIGHT_ARRIVE_MS, holdMs: Infinity, labels: [{ x: x2, y: y2, text: stop.cityLabel }] },
+      ],
+      arcStartDelayMs: FLIGHT_DEPART_MS + FLIGHT_DEPART_HOLD_MS,
+    }
+  }
+
+  const cityA = getCity(prevStop.cityId)
+  const cityB = getCity(stop.cityId)
+  const provinceA = cityA && findProvinceForCity(cityA.lng, cityA.lat, provinces)
+  const provinceB = cityB && findProvinceForCity(cityB.lng, cityB.lat, provinces)
+
+  let box: Box
+  if (provinceA && provinceB) {
+    const boxA = provinceProjectedBBox(provinceA, project)
+    const boxB = provinceProjectedBBox(provinceB, project)
+    const merged = unionBox(boxA, boxB)
+    box = padBox(merged, Math.max(Math.max(merged[2], merged[3]) * PROVINCE_PAD_RATIO, PROVINCE_MIN_PAD))
+  } else {
+    box = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
+  }
+
+  const labels = [{ x: x1, y: y1, text: prevStop.cityLabel }]
+  if (stop.cityId !== prevStop.cityId) labels.push({ x: x2, y: y2, text: stop.cityLabel })
+
+  return { targets: [{ box, transitionMs: LEG_ZOOM_MS, holdMs: Infinity, labels }], arcStartDelayMs: 0 }
+}
+
+/** Total time before the sequence settles — used to pace autoplay so it doesn't cut a flight's zoom short. */
+function legSequenceDurationMs(targets: ViewTarget[]): number {
+  let total = 0
+  for (const target of targets) {
+    total += target.transitionMs
+    total += Number.isFinite(target.holdMs) ? target.holdMs : 0
+  }
+  return total
+}
+
+/**
+ * Animates the map's viewBox through a leg's camera sequence (a single pan/
+ * zoom for a train or car leg; departure → transit → arrival for a flight),
+ * starting from wherever the camera currently sits so consecutive legs read
+ * as one continuous move rather than a jump cut.
+ */
+function useLegView(targets: ViewTarget[]) {
+  const initialBoxRef = useRef(targets[0]?.box ?? ([0, 0, 1000, 1000] as Box))
+  const [box, setBox] = useState<Box>(initialBoxRef.current)
+  const [labels, setLabels] = useState(targets[0]?.labels ?? [])
+  const currentBoxRef = useRef(box)
+  currentBoxRef.current = box
+
+  useEffect(() => {
+    let cancelled = false
+    let rafId = 0
+    let timeoutId = 0
+
+    function animateTo(fromBox: Box, target: ViewTarget, onDone: () => void) {
+      const start = performance.now()
+      setLabels(target.labels)
+      function step(now: number) {
+        if (cancelled) return
+        const t = Math.min((now - start) / target.transitionMs, 1)
+        setBox(lerpBox(fromBox, target.box, easeInOutCubic(t)))
+        if (t < 1) rafId = requestAnimationFrame(step)
+        else onDone()
+      }
+      rafId = requestAnimationFrame(step)
+    }
+
+    function runIndex(i: number, fromBox: Box) {
+      if (cancelled || i >= targets.length) return
+      const target = targets[i]
+      animateTo(fromBox, target, () => {
+        if (cancelled) return
+        if (i < targets.length - 1 && Number.isFinite(target.holdMs)) {
+          timeoutId = window.setTimeout(() => runIndex(i + 1, target.box), target.holdMs)
+        }
+      })
+    }
+
+    runIndex(0, currentBoxRef.current)
+
+    return () => {
+      cancelled = true
+      cancelAnimationFrame(rafId)
+      window.clearTimeout(timeoutId)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [targets])
+
+  return { box, labels }
+}
+
+function CityLabel({ x, y, text, boxWidth }: { x: number; y: number; text: string; boxWidth: number }) {
+  const fontSize = Math.max(boxWidth * 0.034, 10)
+  return (
+    <text
+      x={x}
+      y={y - fontSize * 1.3}
+      textAnchor="middle"
+      className="fill-bone-white font-semibold"
+      style={{
+        fontSize,
+        stroke: 'white',
+        strokeWidth: fontSize * 0.28,
+        paintOrder: 'stroke',
+      }}
+    >
+      {text}
+    </text>
+  )
+}
+
 const REGION_REVEAL_DELAY_MS = 700
 const REGION_REVEAL_MS = 900
 
@@ -265,27 +534,36 @@ function AnimatedArc({
   x2,
   y2,
   mode = 'flight',
+  startDelayMs = 0,
 }: {
   x1: number
   y1: number
   x2: number
   y2: number
   mode?: 'flight' | 'train'
+  /** Waits before drawing — for a flight, until the departure close-up has landed. */
+  startDelayMs?: number
 }) {
   const [progress, setProgress] = useState(0)
   const [planeT, setPlaneT] = useState(0)
   useEffect(() => {
-    const startId = requestAnimationFrame(() => setProgress(1))
-    const start = performance.now()
-    let frameId = requestAnimationFrame(function frame(now: number) {
-      const t = Math.min((now - start) / ARC_DRAW_MS, 1)
-      setPlaneT(t)
-      if (t < 1) frameId = requestAnimationFrame(frame)
-    })
+    let startId = 0
+    let frameId = 0
+    const delayId = window.setTimeout(() => {
+      startId = requestAnimationFrame(() => setProgress(1))
+      const start = performance.now()
+      frameId = requestAnimationFrame(function frame(now: number) {
+        const t = Math.min((now - start) / ARC_DRAW_MS, 1)
+        setPlaneT(t)
+        if (t < 1) frameId = requestAnimationFrame(frame)
+      })
+    }, startDelayMs)
     return () => {
+      window.clearTimeout(delayId)
       cancelAnimationFrame(startId)
       cancelAnimationFrame(frameId)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const [cx, cy] = arcControlPoint(x1, y1, x2, y2)
@@ -350,8 +628,27 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
 ) {
   const { locale } = useLanguage()
   const { project, provincePaths, width, height } = useProjection(country)
+  const provinces = PROVINCE_SETS[country]
   const [currentIndex, setCurrentIndex] = useState(0)
   const [playing, setPlaying] = useState(true)
+
+  const points = stops.map((stop) => {
+    const city = getCity(stop.cityId)
+    return city ? project(city.lng, city.lat) : ([width / 2, height / 2] as [number, number])
+  })
+
+  // `stops` is rebuilt fresh (new array reference) on every parent render, so
+  // memoizing on it directly would restart the camera sequence on any
+  // unrelated re-render — this content-based key only changes when the
+  // itinerary, current day, or country actually change.
+  const legSignature = `${country}#${currentIndex}#${stops.map((s) => `${s.cityId}:${s.legMode ?? ''}`).join(',')}`
+  const fullBox = useMemo<Box>(() => [0, 0, width, height], [width, height])
+  const { targets, arcStartDelayMs } = useMemo(
+    () => buildLegTargets(stops, currentIndex, points, provinces, project, fullBox),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [legSignature, fullBox],
+  )
+  const { box: viewBox, labels: viewLabels } = useLegView(targets)
 
   useEffect(() => {
     if (!playing) return
@@ -359,8 +656,11 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
       setPlaying(false)
       return
     }
-    const t = setTimeout(() => setCurrentIndex((i) => Math.min(i + 1, stops.length - 1)), REVEAL_INTERVAL_MS)
+    const nextStop = stops[currentIndex + 1]
+    const delay = nextStop?.legMode === 'flight' ? legSequenceDurationMs(buildLegTargets(stops, currentIndex + 1, points, provinces, project, fullBox).targets) + 600 : REVEAL_INTERVAL_MS
+    const t = setTimeout(() => setCurrentIndex((i) => Math.min(i + 1, stops.length - 1)), delay)
     return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playing, currentIndex, stops.length])
 
   useImperativeHandle(
@@ -378,11 +678,6 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
 
   if (stops.length === 0) return null
 
-  const points = stops.map((stop) => {
-    const city = getCity(stop.cityId)
-    return city ? project(city.lng, city.lat) : ([width / 2, height / 2] as [number, number])
-  })
-
   const current = stops[currentIndex]
 
   function goTo(index: number) {
@@ -393,7 +688,11 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
   return (
     <div className={`flex h-full flex-col ${className ?? ''}`}>
       <div className="flex-1 overflow-hidden rounded-2xl border border-black/15 bg-surface/60">
-        <svg viewBox={`0 0 ${width} ${height}`} className="h-full w-full" preserveAspectRatio="xMidYMid meet">
+        <svg
+          viewBox={`${viewBox[0].toFixed(1)} ${viewBox[1].toFixed(1)} ${viewBox[2].toFixed(1)} ${viewBox[3].toFixed(1)}`}
+          className="h-full w-full"
+          preserveAspectRatio="xMidYMid meet"
+        >
           <defs>
             <filter id="route-map-glow" x="-150%" y="-150%" width="400%" height="400%">
               <feGaussianBlur stdDeviation="8" result="blur" />
@@ -421,8 +720,22 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
             if (i === 0) return null
             const [x1, y1] = points[i - 1]
             const [x2, y2] = points[i]
-            return <AnimatedArc key={`arc-${i}`} x1={x1} y1={y1} x2={x2} y2={y2} mode={stop.legMode} />
+            return (
+              <AnimatedArc
+                key={`arc-${i}`}
+                x1={x1}
+                y1={y1}
+                x2={x2}
+                y2={y2}
+                mode={stop.legMode}
+                startDelayMs={i === currentIndex ? arcStartDelayMs : 0}
+              />
+            )
           })}
+
+          {viewLabels.map((label) => (
+            <CityLabel key={label.text + label.x} x={label.x} y={label.y} text={label.text} boxWidth={viewBox[2]} />
+          ))}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {
             const [x, y] = points[i]
