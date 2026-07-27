@@ -198,6 +198,11 @@ function RegionHighlight({
   )
 }
 
+/**
+ * A small plane glyph flies along the arc as it draws, rather than the
+ * connector reading as an abstract line — this is what signals "flight
+ * between cities" rather than a generic route hop.
+ */
 function AnimatedArc({ d }: { d: string }) {
   const [progress, setProgress] = useState(0)
   useEffect(() => {
@@ -205,18 +210,23 @@ function AnimatedArc({ d }: { d: string }) {
     return () => cancelAnimationFrame(id)
   }, [])
   return (
-    <path
-      d={d}
-      pathLength={1}
-      className="fill-none stroke-electric-iris"
-      strokeWidth={2.2}
-      strokeLinecap="round"
-      style={{
-        strokeDasharray: 1,
-        strokeDashoffset: 1 - progress,
-        transition: `stroke-dashoffset ${ARC_DRAW_MS}ms ease-out`,
-      }}
-    />
+    <g>
+      <path
+        d={d}
+        pathLength={1}
+        className="fill-none stroke-electric-iris"
+        strokeWidth={2.2}
+        strokeLinecap="round"
+        style={{
+          strokeDasharray: 1,
+          strokeDashoffset: 1 - progress,
+          transition: `stroke-dashoffset ${ARC_DRAW_MS}ms ease-out`,
+        }}
+      />
+      <path d="M-7,-3.5 L7,0 L-7,3.5 L-3,0 Z" className="fill-electric-iris stroke-white" strokeWidth={0.6}>
+        <animateMotion dur={`${ARC_DRAW_MS}ms`} path={d} rotate="auto" fill="freeze" begin="0s" />
+      </path>
+    </g>
   )
 }
 

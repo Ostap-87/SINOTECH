@@ -75,7 +75,7 @@ function TourArticle({
   return (
     <article
       id={tour.tour_id}
-      className={`scroll-mt-24 pt-12 ${index > 0 ? 'border-t border-black/10' : ''}`}
+      className={`scroll-mt-24 ${index > 0 ? 'border-t border-black/10 pt-12' : ''}`}
     >
       <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
         {pick(tour, 'eyebrow', locale)}
@@ -205,23 +205,29 @@ export function Tours() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   return (
-    <>
-      <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
-        <div className="absolute inset-0">
-          <ParticleCanvas ref={canvasHandleRef} shape="china" />
-          <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
-            style={{
-              backdropFilter: 'blur(28px)',
-              WebkitBackdropFilter: 'blur(28px)',
-              maskImage: 'linear-gradient(to bottom, transparent, black)',
-              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
-            }}
-          />
-        </div>
-
+    <section className="relative overflow-hidden">
+      <div className="absolute inset-0">
+        <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        {/*
+         * The page is much taller than the hero (many tours stack below it),
+         * so — unlike the short Industries grid — the map can't stay visible
+         * behind all of it without drowning the pricing tables further down.
+         * A plain alpha fade (no blur/mask trick) dissolves it into the page
+         * background over the first stretch of scroll instead, so it still
+         * reads as one continuous space rather than a hard-edged hero box.
+         */}
         <div
-          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pt-24"
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(to bottom, transparent 0%, transparent 14%, var(--color-void) 46%, var(--color-void) 100%)',
+          }}
+        />
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-[1280px] px-6 pt-16 pb-24 lg:pt-20">
+        <div
+          className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
@@ -236,15 +242,13 @@ export function Tours() {
               : 'Curated programs for priority niches — route, companies, and logistics already assembled.'}
           </p>
         </div>
-      </section>
 
-      <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
-      <div className="flex flex-col gap-16">
-        {tours.map((tour, index) => (
-          <TourArticle key={tour.tour_id} tour={tour} index={index} locale={locale} goTo={goTo} />
-        ))}
+        <div className="mt-9 flex flex-col gap-16">
+          {tours.map((tour, index) => (
+            <TourArticle key={tour.tour_id} tour={tour} index={index} locale={locale} goTo={goTo} />
+          ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   )
 }
