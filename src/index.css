@@ -76,3 +76,16 @@ h3 {
 .day-tile:hover {
   animation: day-tile-pulse 1.6s ease-in-out infinite;
 }
+
+@keyframes brand-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.brand-marquee-track {
+  animation: brand-marquee-scroll 38s linear infinite;
+}

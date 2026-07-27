@@ -6,6 +6,7 @@ import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { BrandMarquee } from '@/components/BrandMarquee'
 
 export function Home() {
   const { locale } = useLanguage()
@@ -21,6 +22,7 @@ export function Home() {
   const isChina = countryCode === 'cn'
 
   return (
+    <>
     <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
       <div className="absolute inset-0">
         <ParticleCanvas ref={canvasHandleRef} shape={country.shape} />
@@ -98,5 +100,9 @@ export function Home() {
         )}
       </div>
     </section>
+    <div className="mt-[38px]">
+      <BrandMarquee />
+    </div>
+    </>
   )
 }
