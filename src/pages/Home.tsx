@@ -48,8 +48,8 @@ export function Home() {
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
               {locale === 'ru'
-                ? 'Приветствуем, какую индустрию хотели бы изучить?'
-                : 'Welcome — which industry would you like to explore?'}
+                ? 'А какую индустрию хотели бы изучить Вы?'
+                : 'So which industry would you like to explore?'}
             </h1>
             <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
               {locale === 'ru'
