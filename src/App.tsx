@@ -8,6 +8,8 @@ import { Constructor } from '@/pages/Constructor'
 import { Tours } from '@/pages/Tours'
 import { Blog } from '@/pages/Blog'
 import { Cases } from '@/pages/Cases'
+import { Faq } from '@/pages/Faq'
+import { Consulting } from '@/pages/Consulting'
 import { Contacts } from '@/pages/Contacts'
 
 export default function App() {
@@ -24,6 +26,8 @@ export default function App() {
           <Route path="/tours" element={<Tours />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/cases" element={<Cases />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/consulting" element={<Consulting />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </main>
