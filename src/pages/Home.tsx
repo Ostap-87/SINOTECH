@@ -2,7 +2,6 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
-import { companiesData, toursData } from '@/data'
 import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
@@ -11,8 +10,6 @@ import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 export function Home() {
   const { locale } = useLanguage()
   const { countryCode } = useSelectedCountry()
-  const { counts } = companiesData.meta
-  const tour = toursData.tours[0]
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
@@ -83,25 +80,6 @@ export function Home() {
                 {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
               </Link>
             </div>
-
-            <dl className="mt-16 grid max-w-xl grid-cols-3 gap-8 border-t border-black/10 pt-8 text-sm text-ash-gray">
-              <div>
-                <dt>{locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}</dt>
-                <dd className="mt-1 text-2xl font-semibold text-bone-white">
-                  {Math.floor(counts.companies / 50) * 50}+
-                </dd>
-              </div>
-              <div>
-                <dt>{locale === 'ru' ? 'отраслей' : 'sectors'}</dt>
-                <dd className="mt-1 text-2xl font-semibold text-bone-white">{counts.sectors}</dd>
-              </div>
-              <div>
-                <dt>{locale === 'ru' ? 'готовый тур' : 'ready-made tour'}</dt>
-                <dd className="mt-1 text-2xl font-semibold text-bone-white">
-                  {locale === 'ru' ? tour.title_ru : tour.title_en}
-                </dd>
-              </div>
-            </dl>
           </>
         ) : (
           <>
