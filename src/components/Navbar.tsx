@@ -21,6 +21,12 @@ const RESOURCE_LINKS = [
   { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
 ]
 
+const EXPEDITIONS_LINKS = [
+  { to: '/expeditions', label_ru: 'Готовые экспедиции', label_en: 'Ready expeditions' },
+  { to: '/expeditions/recommended', label_ru: 'Рекомендуемые', label_en: 'Recommended' },
+  { to: '/industries', label_ru: 'Собрать свою программу', label_en: 'Build your own program' },
+]
+
 const ALL_LINKS = [...PRIMARY_LINKS, ...RESOURCE_LINKS]
 
 function navLinkClass({ isActive }: { isActive: boolean }) {
@@ -81,6 +87,59 @@ function ResourcesDropdown() {
   )
 }
 
+function ExpeditionsDropdown() {
+  const { locale } = useLanguage()
+  const location = useLocation()
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+  const isActive = location.pathname.startsWith('/expeditions')
+
+  useEffect(() => {
+    function onClickOutside(event: MouseEvent) {
+      if (ref.current && !ref.current.contains(event.target as Node)) setOpen(false)
+    }
+    document.addEventListener('mousedown', onClickOutside)
+    return () => document.removeEventListener('mousedown', onClickOutside)
+  }, [])
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className={`flex items-center gap-1 text-[13px] font-semibold uppercase tracking-[0.02em] transition-colors ${
+          isActive ? 'text-bone-white' : 'text-ash-gray hover:text-bone-white'
+        }`}
+        aria-expanded={open}
+      >
+        {locale === 'ru' ? 'Экспедиции' : 'Expeditions'}
+        <ChevronDown size={13} className={open ? 'rotate-180 transition-transform' : 'transition-transform'} />
+      </button>
+
+      {open && (
+        <ul className="absolute left-0 top-[calc(100%+12px)] w-56 rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)]">
+          {EXPEDITIONS_LINKS.map((link) => (
+            <li key={link.to}>
+              <NavLink
+                to={link.to}
+                end={link.to === '/expeditions'}
+                onClick={() => setOpen(false)}
+                className={({ isActive: linkActive }) =>
+                  `block px-4 py-2 text-sm font-medium ${
+                    linkActive ? 'text-electric-iris' : 'text-bone-white hover:text-electric-iris'
+                  }`
+                }
+              >
+                {locale === 'ru' ? link.label_ru : link.label_en}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  )
+}
+
 function LocaleToggle() {
   const { locale, toggleLocale } = useLanguage()
   return (
@@ -106,11 +165,15 @@ export function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
-          {PRIMARY_LINKS.map((link) => (
-            <NavLink key={link.to} to={link.to} className={navLinkClass}>
-              {locale === 'ru' ? link.label_ru : link.label_en}
-            </NavLink>
-          ))}
+          {PRIMARY_LINKS.map((link) =>
+            link.to === '/expeditions' ? (
+              <ExpeditionsDropdown key={link.to} />
+            ) : (
+              <NavLink key={link.to} to={link.to} className={navLinkClass}>
+                {locale === 'ru' ? link.label_ru : link.label_en}
+              </NavLink>
+            ),
+          )}
           <ResourcesDropdown />
         </nav>
 
