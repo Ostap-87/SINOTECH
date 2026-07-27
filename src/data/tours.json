@@ -376,6 +376,125 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-beauty-antiage-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Индустрия красоты и anti-age Китая",
+      "title_en": "China's Beauty & Anti-Age Industry",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Pechoin · PROYA · Mao Geping · Yatsen",
+      "tagline_en": "Pechoin · PROYA · Mao Geping · Yatsen",
+      "positioning_ru": "Визиты к десяти лидерам индустрии красоты и anti-age в трёх городах — от наследных травяных брендов до люксового макияжа и R&D новых технологий.",
+      "positioning_en": "Visits to ten leaders of China's beauty and anti-age industry across three cities — from heritage herbal brands to luxury makeup and new-technology R&D.",
+      "stats": { "cities": 3, "days": 5, "nights": 6, "companies": 10, "flights": 1 },
+      "route_strategy": "shanghai-hangzhou-guangzhou",
+      "arrival_ru": "Шанхай (вечерний прилёт, Pudong / Hongqiao)",
+      "arrival_en": "Shanghai (evening arrival, Pudong / Hongqiao)",
+      "departure_ru": "Гуанчжоу (вылет из аэропорта Baiyun)",
+      "departure_en": "Guangzhou (departure from Baiyun airport)",
+      "route_cities": ["shanghai", "hangzhou", "guangzhou"],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Наследие и травяная косметика",
+          "area_en": "Heritage and herbal cosmetics",
+          "time": "10:00–13:00",
+          "companies": ["pechoin", "chando"],
+          "note_ru": "Опционально: R&D-центры (Yatsen Global Innovation R&D, Botanee Shanghai) — по согласованию",
+          "note_en": "Optional: R&D centers (Yatsen Global Innovation R&D, Botanee Shanghai) — subject to confirmation"
+        },
+        {
+          "day": 2,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Премиум-уход и новые бренды",
+          "area_en": "Premium skincare and new brands",
+          "time": "10:00–13:00",
+          "companies": ["linqingxuan", "kans"],
+          "note_ru": "Ночёвка в Шанхае",
+          "note_en": "Overnight in Shanghai"
+        },
+        {
+          "day": 3,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу, день 1",
+          "city_en": "Hangzhou, day 1",
+          "area_ru": "Лидеры рынка и эстетика",
+          "area_en": "Market leaders and aesthetics",
+          "time": "10:00–13:00",
+          "companies": ["proya", "florasis"],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Утром — скоростной поезд Шанхай → Ханчжоу (~1 ч)",
+          "transfer_en": "🚄 Morning — high-speed train Shanghai → Hangzhou (~1h)"
+        },
+        {
+          "day": 4,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу, день 2",
+          "city_en": "Hangzhou, day 2",
+          "area_ru": "Люкс-макияж и наука anti-age",
+          "area_en": "Luxury makeup and anti-age science",
+          "time": "10:00–13:00",
+          "companies": ["mao-geping", "kylin-way"],
+          "transfer_ru": "✈ Вечером — перелёт в Гуанчжоу (~2,5 ч)",
+          "transfer_en": "✈ Evening — flight to Guangzhou (~2.5h)"
+        },
+        {
+          "day": 5,
+          "city": "guangzhou",
+          "city_ru": "Гуанчжоу (финал)",
+          "city_en": "Guangzhou (finale)",
+          "area_ru": "DTC-бьюти и декоративный макияж",
+          "area_en": "DTC beauty and decorative makeup",
+          "time": "10:00–13:00",
+          "companies": ["yatsen", "carslan"],
+          "leg_mode": "flight",
+          "note_ru": "Завершение программы",
+          "note_en": "End of the program"
+        }
+      ],
+      "includes": [
+        { "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы", "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program" },
+        { "ru": "Питание — обед и ужин ежедневно", "en": "Meals — daily lunch and dinner" },
+        { "ru": "Полная навигация — внутренний перелёт, скоростной поезд, трансферы между городами, встреча и проводы в аэропорту", "en": "Full navigation — domestic flight, high-speed train, inter-city transfers, airport pickup and drop-off" },
+        { "ru": "Переговоры с топ-менеджментом десяти брендов — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan", "en": "Talks with top management at ten brands — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan" },
+        { "ru": "Перевод и сопровождение на каждой встрече", "en": "Translation and support at every meeting" },
+        { "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию", "en": "Deal contacts — direct lines to partnership and distribution" }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 ночей, отели 5 звёзд", "calc_en": "6 nights, 5-star hotels", "amount": null },
+          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "5 дней (обед / ужин)", "calc_en": "5 days (lunch / dinner)", "amount": null },
+          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "Внутренний перелёт, скоростной поезд, трансферы, такси, встреча / проводы в аэропорту", "calc_en": "Domestic flight, high-speed train, transfers, taxi, airport transfers", "amount": null },
+          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством", "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership", "amount": null }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Ядро маршрута — коридор Шанхай–Ханчжоу (8 из 10 компаний), где переезды минимальны; Гуанчжоу подключается одним перелётом как южный бьюти-хаб.",
+      "market_note_en": "The route's core is the Shanghai–Hangzhou corridor (8 of 10 companies), with minimal transfers; Guangzhou joins via a single flight as the southern beauty hub.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
