@@ -33,7 +33,7 @@ export function Industries() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-20">
+      <div className="relative z-10 mx-auto max-w-[1280px] px-6 pb-16 pt-[26px] lg:pb-20 lg:pt-[42px]">
         <div
           className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
@@ -46,8 +46,8 @@ export function Industries() {
           </h1>
           <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
             {locale === 'ru'
-              ? 'Выберите отрасль — и решите, взять готовый тур или собрать свой.'
-              : 'Pick a sector, then choose a ready-made tour or build your own.'}
+              ? 'Наш каталог состоит из более чем 350 компаний и 17 отраслей — решайте, взять готовый тур или собрать свой.'
+              : 'Our catalogue holds over 350 companies across 17 sectors — take a ready-made tour or build your own.'}
           </p>
         </div>
 
