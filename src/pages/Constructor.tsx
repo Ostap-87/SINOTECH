@@ -30,31 +30,57 @@ interface DayPlan {
   clusters: CityCluster[]
 }
 
-function buildItinerary(companies: Company[], days: number): DayPlan[] {
-  const byCity = new Map<string, Company[]>()
-  for (const company of companies) {
-    const list = byCity.get(company.city) ?? []
-    list.push(company)
-    byCity.set(company.city, list)
+// Some companies (JD.com, Xiaomi, Baidu, Huawei, Alibaba, Tencent) keep
+// branches in every major hub rather than one fixed office — the catalogue
+// only lists one physical row per real company, so this expands each into a
+// per-branch entry for the constructor (e.g. "Baidu · Shenzhen"), letting a
+// region filter surface the branch that's actually in that region instead
+// of hiding the company entirely because its single listed city sits
+// elsewhere.
+const MULTI_BRANCH_HUBS = ['beijing', 'shanghai', 'hangzhou', 'guangzhou', 'shenzhen']
+const MULTI_BRANCH_COMPANY_IDS = ['baidu', 'alibaba', 'tencent', 'xiaomi', 'jd-com', 'huawei']
+
+function buildBranchCompanies(): Company[] {
+  const out: Company[] = []
+  for (const company of companiesData.companies) {
+    if (!MULTI_BRANCH_COMPANY_IDS.includes(company.id)) {
+      out.push(company)
+      continue
+    }
+    for (const cityId of MULTI_BRANCH_HUBS) {
+      out.push({ ...company, id: `${company.id}__${cityId}`, city: cityId })
+    }
   }
+  return out
+}
 
-  const clusters: CityCluster[] = [...byCity.entries()]
-    .map(([cityId, list]) => ({ cityId, companies: list }))
-    .sort((a, b) => (getCity(b.cityId)?.lat ?? 0) - (getCity(a.cityId)?.lat ?? 0))
+const BRANCH_COMPANIES = buildBranchCompanies()
 
-  const target = Math.max(1, Math.ceil(companies.length / days))
+/** "Baidu" stays "Baidu" for a regular company; a branch entry becomes "Baidu — Shenzhen". */
+function companyDisplayName(company: Company, locale: 'ru' | 'en'): string {
+  const separatorIndex = company.id.indexOf('__')
+  if (separatorIndex === -1) return company.name_en
+  const city = getCity(company.city)
+  return `${company.name_en} — ${city ? pick(city, 'name', locale) : company.city}`
+}
+
+// Distributes companies across days as evenly as possible (e.g. exactly 2+2
+// for the 2-day format's 4 meetings) instead of dumping everything into day
+// one whenever several selected companies share a city — sorting by city
+// latitude first keeps same-city companies adjacent, so a cluster only
+// splits across days when it has to in order to fill every day.
+function buildItinerary(companies: Company[], days: number): DayPlan[] {
+  const sorted = [...companies].sort((a, b) => (getCity(b.city)?.lat ?? 0) - (getCity(a.city)?.lat ?? 0))
+  const target = Math.max(1, Math.ceil(sorted.length / days))
   const plan: DayPlan[] = Array.from({ length: days }, (_, i) => ({ day: i + 1, clusters: [] }))
 
-  let dayIndex = 0
-  let countInDay = 0
-  for (const cluster of clusters) {
-    if (countInDay > 0 && countInDay + cluster.companies.length > target && dayIndex < days - 1) {
-      dayIndex++
-      countInDay = 0
-    }
-    plan[dayIndex].clusters.push(cluster)
-    countInDay += cluster.companies.length
-  }
+  sorted.forEach((company, i) => {
+    const dayIndex = Math.min(Math.floor(i / target), days - 1)
+    const clusters = plan[dayIndex].clusters
+    const existing = clusters.find((c) => c.cityId === company.city)
+    if (existing) existing.companies.push(company)
+    else clusters.push({ cityId: company.city, companies: [company] })
+  })
 
   return plan
 }
@@ -79,13 +105,13 @@ export function Constructor() {
 
   const selectedSet = useMemo(() => new Set(selectedIds), [selectedIds])
   const selectedCompanies = useMemo(
-    () => selectedIds.map((id) => companiesData.companies.find((c) => c.id === id)).filter(Boolean) as Company[],
+    () => selectedIds.map((id) => BRANCH_COMPANIES.find((c) => c.id === id)).filter(Boolean) as Company[],
     [selectedIds],
   )
 
   const filteredCompanies = useMemo(() => {
     const q = search.trim().toLowerCase()
-    return companiesData.companies.filter((company) => {
+    return BRANCH_COMPANIES.filter((company) => {
       if (sectorFilter.size > 0 && !sectorFilter.has(company.sector)) return false
       if (regionFilter !== 'all' && getCity(company.city)?.region !== regionFilter) return false
       if (q && !company.name_en.toLowerCase().includes(q)) return false
@@ -142,7 +168,7 @@ export function Constructor() {
         day: day.day,
         cityId: primary.cityId,
         cityLabel: city ? pick(city, 'name', locale) : primary.cityId,
-        companies: day.clusters.flatMap((cluster) => cluster.companies.map((c) => c.name_en)),
+        companies: day.clusters.flatMap((cluster) => cluster.companies.map((c) => companyDisplayName(c, locale))),
       }
     })
 
@@ -331,7 +357,9 @@ export function Constructor() {
                       className="flex items-center justify-between gap-4 border-b border-black/5 px-5 py-3 last:border-b-0"
                     >
                       <div className="min-w-0">
-                        <p className="truncate text-sm font-medium text-bone-white">{company.name_en}</p>
+                        <p className="truncate text-sm font-medium text-bone-white">
+                          {companyDisplayName(company, locale)}
+                        </p>
                         <p className="mt-0.5 truncate text-xs text-ash-gray">
                           {sector ? pick(sector, 'label', locale) : company.sector} ·{' '}
                           {city ? pick(city, 'name', locale) : company.city}
@@ -383,7 +411,7 @@ export function Constructor() {
                 <ul className="mt-4 space-y-2">
                   {selectedCompanies.map((company) => (
                     <li key={company.id} className="flex items-center justify-between gap-3 text-sm">
-                      <span className="truncate text-bone-white">{company.name_en}</span>
+                      <span className="truncate text-bone-white">{companyDisplayName(company, locale)}</span>
                       <button
                         type="button"
                         onClick={() => toggleCompany(company.id)}
@@ -428,7 +456,7 @@ export function Constructor() {
               : "This is a preliminary city grouping — the Aura Robotics team will assemble the real route and logistics."}
           </p>
 
-          {routeStops.length > 1 && (
+          {routeStops.length > 0 && (
             <RouteMap
               stops={routeStops}
               className="mt-8 max-w-xl"
@@ -455,7 +483,7 @@ export function Constructor() {
                           {city ? pick(city, 'name', locale) : cluster.cityId}
                         </p>
                         <p className="mt-1 text-sm text-silver-mist">
-                          {cluster.companies.map((c) => c.name_en).join(', ')}
+                          {cluster.companies.map((c) => companyDisplayName(c, locale)).join(', ')}
                         </p>
                       </div>
                     )
