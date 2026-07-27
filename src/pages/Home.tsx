@@ -60,13 +60,29 @@ export function Home() {
                 : 'Sinotech Voyage · by Aura Robotics — private visits to the production sites of China’s industry leaders.'}
             </p>
 
-            <Link
-              to="/industries"
-              onClick={(event) => goTo('/industries', event)}
-              className="pointer-events-auto mt-10 inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
-            >
-              {locale === 'ru' ? 'Индустрии' : 'Industries'}
-            </Link>
+            <div className="pointer-events-auto mt-10 flex flex-wrap gap-3">
+              <Link
+                to="/industries"
+                onClick={(event) => goTo('/industries', event)}
+                className="inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+              >
+                {locale === 'ru' ? 'Каталог' : 'Catalogue'}
+              </Link>
+              <Link
+                to="/expeditions"
+                onClick={(event) => goTo('/expeditions', event)}
+                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Готовые программы' : 'Ready-made programs'}
+              </Link>
+              <Link
+                to="/industries"
+                onClick={(event) => goTo('/industries', event)}
+                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
+              </Link>
+            </div>
 
             <dl className="mt-16 grid max-w-xl grid-cols-3 gap-8 border-t border-black/10 pt-8 text-sm text-ash-gray">
               <div>
