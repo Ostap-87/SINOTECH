@@ -6,7 +6,18 @@ import type { PointCloud } from './types'
 type Ring = [number, number][]
 type Polygon = Ring[]
 
-const TARGET_SIZE = 6.4
+// China's own silhouette is wide (~1.8:1) and was tuned to fill the hero's
+// width without ever testing the vertical limit. A tall/narrow country
+// (Japan, Korea) naively scaled to the same single TARGET_SIZE on its
+// longer axis pushed its *height* past what the camera's vertical FOV
+// actually shows — the top of the shape rendered behind the sticky navbar,
+// reading as "cut off and blurred" (the navbar's own backdrop-blur smears
+// whatever's behind it). A "contain" fit against separate width/height caps
+// — scaling by whichever is more restrictive — guarantees neither axis
+// overflows, regardless of aspect ratio; MAX_HEIGHT is deliberately well
+// under the ~6.1 world-unit vertical frustum at the desktop camera distance.
+const MAX_WIDTH = 6.4
+const MAX_HEIGHT = 4.4
 // Fraction of the final silhouette's footprint used as its extruded thickness —
 // a flat depth (in raw lng/lat degrees) reads as a paper-thin card once rotating in 3D.
 const DEPTH_RATIO = 0.16
@@ -26,8 +37,9 @@ function buildMergedGeometry(rings: Polygon[]): THREE.BufferGeometry {
   }
 
   const flatSize = flatBox.getSize(new THREE.Vector2())
-  const scale = TARGET_SIZE / Math.max(flatSize.x, flatSize.y)
-  const rawDepth = (TARGET_SIZE * DEPTH_RATIO) / scale
+  const scale = Math.min(MAX_WIDTH / flatSize.x, MAX_HEIGHT / flatSize.y)
+  const footprint = Math.max(flatSize.x, flatSize.y) * scale
+  const rawDepth = (footprint * DEPTH_RATIO) / scale
 
   const geometries = shapes.map(
     (shape) =>

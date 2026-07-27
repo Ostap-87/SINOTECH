@@ -3,17 +3,9 @@ import { Link, useParams } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
-import type { ShapeKey } from '@/three/shapes'
+import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { Placeholder } from './Placeholder'
-
-const COUNTRY_PREVIEWS: Record<string, { shape: ShapeKey; name_ru: string; name_en: string }> = {
-  jp: { shape: 'japan', name_ru: 'Япония', name_en: 'Japan' },
-  kr: { shape: 'korea', name_ru: 'Корея', name_en: 'Korea' },
-  in: { shape: 'india', name_ru: 'Индия', name_en: 'India' },
-  th: { shape: 'thailand', name_ru: 'Таиланд', name_en: 'Thailand' },
-  my: { shape: 'malaysia', name_ru: 'Малайзия', name_en: 'Malaysia' },
-}
 
 export function CountryPreview() {
   const { locale } = useLanguage()
@@ -21,7 +13,7 @@ export function CountryPreview() {
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
-  const country = code ? COUNTRY_PREVIEWS[code] : undefined
+  const country = code && code !== 'cn' ? COUNTRY_SHAPES[code] : undefined
 
   if (!country) {
     return (

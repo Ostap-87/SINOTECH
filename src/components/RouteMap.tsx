@@ -1,5 +1,11 @@
 import { forwardRef, useEffect, useImperativeHandle, useMemo, useState } from 'react'
 import chinaProvinces from '@/data/china-provinces.json'
+import japanProvinces from '@/data/japan-provinces.json'
+import koreaProvinces from '@/data/korea-provinces.json'
+import indiaProvinces from '@/data/india-provinces.json'
+import thailandProvinces from '@/data/thailand-provinces.json'
+import malaysiaProvinces from '@/data/malaysia-provinces.json'
+import indonesiaProvinces from '@/data/indonesia-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
 
@@ -13,10 +19,14 @@ export interface RouteMapStop {
   legMode?: 'flight' | 'train'
 }
 
+export type RouteMapCountry = 'china' | 'japan' | 'korea' | 'india' | 'thailand' | 'malaysia' | 'indonesia'
+
 interface RouteMapProps {
   stops: RouteMapStop[]
   className?: string
-  /** When set, highlights that region's provinces on the map — see RegionHighlight. */
+  /** Which province-level boundary set to draw — one per country, China by default. */
+  country?: RouteMapCountry
+  /** When set, highlights that region's provinces on the map — China only, see RegionHighlight. */
   regionCode?: string
 }
 
@@ -33,7 +43,19 @@ interface ProvinceEntry {
   polygons: Polygon[]
 }
 
-const PROVINCES = chinaProvinces as unknown as ProvinceEntry[]
+// Every country map is pre-built at province/state/prefecture level (like
+// China's) so a future expedition anywhere just plugs in stops — no new
+// boundary data to source first.
+const PROVINCE_SETS: Record<RouteMapCountry, ProvinceEntry[]> = {
+  china: chinaProvinces as unknown as ProvinceEntry[],
+  japan: japanProvinces as unknown as ProvinceEntry[],
+  korea: koreaProvinces as unknown as ProvinceEntry[],
+  india: indiaProvinces as unknown as ProvinceEntry[],
+  thailand: thailandProvinces as unknown as ProvinceEntry[],
+  malaysia: malaysiaProvinces as unknown as ProvinceEntry[],
+  indonesia: indonesiaProvinces as unknown as ProvinceEntry[],
+}
+
 const REVEAL_INTERVAL_MS = 2600
 const ARC_DRAW_MS = 1900
 
@@ -48,15 +70,14 @@ function polygonToPath(polygon: Polygon, project: (lng: number, lat: number) => 
 
 /**
  * Equirectangular projection with a cosine correction on longitude — cheap
- * and close enough for a stylized route illustration (not for navigation),
- * over China's fairly narrow ~18–53°N latitude band. Built from real
- * province-level boundaries (34 provinces incl. Hong Kong/Macau/Taiwan) —
- * drawing every province's border, rather than just the national outline,
- * is what makes a per-province highlight possible.
+ * and close enough for a stylized route illustration (not for navigation).
+ * Built from real province-level boundaries — drawing every province's
+ * border, rather than just the national outline, is what makes a
+ * per-province highlight possible.
  */
-function buildProjection() {
+function buildProjection(provinces: ProvinceEntry[]) {
   const allPoints: [number, number][] = []
-  for (const province of PROVINCES) {
+  for (const province of provinces) {
     for (const polygon of province.polygons) {
       for (const ring of polygon) {
         for (const point of ring) allPoints.push(point)
@@ -95,7 +116,7 @@ function buildProjection() {
     return [x, y]
   }
 
-  const provincePaths = PROVINCES.map((province) => ({
+  const provincePaths = provinces.map((province) => ({
     nameEn: province.nameEn,
     d: province.polygons.map((polygon) => polygonToPath(polygon, project)).join(' '),
   }))
@@ -103,10 +124,17 @@ function buildProjection() {
   return { project, provincePaths, width, height }
 }
 
-let cachedProjection: ReturnType<typeof buildProjection> | null = null
+const projectionCache = new Map<RouteMapCountry, ReturnType<typeof buildProjection>>()
 
-function useProjection() {
-  return useMemo(() => (cachedProjection ??= buildProjection()), [])
+function useProjection(country: RouteMapCountry) {
+  return useMemo(() => {
+    let cached = projectionCache.get(country)
+    if (!cached) {
+      cached = buildProjection(PROVINCE_SETS[country])
+      projectionCache.set(country, cached)
+    }
+    return cached
+  }, [country])
 }
 
 /**
@@ -142,10 +170,12 @@ const REGION_REVEAL_MS = 900
  */
 function RegionHighlight({
   regionCode,
+  provinces,
   project,
   locale,
 }: {
   regionCode: string
+  provinces: ProvinceEntry[]
   project: (lng: number, lat: number) => [number, number]
   locale: 'ru' | 'en'
 }) {
@@ -160,7 +190,7 @@ function RegionHighlight({
   if (!region || cities.length === 0) return null
 
   const provinceNames = new Set(cities.map((c) => c.province_en))
-  const matchedProvinces = PROVINCES.filter((p) => provinceNames.has(p.nameEn))
+  const matchedProvinces = provinces.filter((p) => provinceNames.has(p.nameEn))
   if (matchedProvinces.length === 0) return null
 
   let minX = Infinity
@@ -305,11 +335,11 @@ function AnimatedArc({
 }
 
 export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function RouteMap(
-  { stops, className, regionCode },
+  { stops, className, country = 'china', regionCode },
   ref,
 ) {
   const { locale } = useLanguage()
-  const { project, provincePaths, width, height } = useProjection()
+  const { project, provincePaths, width, height } = useProjection(country)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [playing, setPlaying] = useState(true)
 
@@ -373,7 +403,9 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
             />
           ))}
 
-          {regionCode && <RegionHighlight regionCode={regionCode} project={project} locale={locale} />}
+          {regionCode && country === 'china' && (
+            <RegionHighlight regionCode={regionCode} provinces={PROVINCE_SETS.china} project={project} locale={locale} />
+          )}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {
             if (i === 0) return null

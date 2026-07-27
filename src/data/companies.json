@@ -63,6 +63,13 @@
       "name_ru": "Корея",
       "active": false,
       "status": "planned"
+    },
+    {
+      "code": "id",
+      "name_en": "Indonesia",
+      "name_ru": "Индонезия",
+      "active": false,
+      "status": "planned"
     }
   ],
   "regions": [
