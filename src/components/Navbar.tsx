@@ -9,7 +9,6 @@ import { CountrySelector } from './CountrySelector'
 // live in the Resources dropdown so adding more sections doesn't widen the
 // bar — this is what keeps the nav compact as it grows.
 const PRIMARY_LINKS = [
-  { to: '/industries', label_ru: 'Индустрии', label_en: 'Industries' },
   { to: '/expeditions', label_ru: 'Экспедиции', label_en: 'Expeditions' },
   { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/contacts', label_ru: 'Контакты', label_en: 'Contacts' },
@@ -19,6 +18,7 @@ const RESOURCE_LINKS = [
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
   { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
   { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
+  { to: '/partners', label_ru: 'Партнеры', label_en: 'Partners' },
 ]
 
 const EXPEDITIONS_LINKS = [

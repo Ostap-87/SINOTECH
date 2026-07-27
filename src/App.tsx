@@ -11,6 +11,7 @@ import { ExpeditionDetail } from '@/pages/ExpeditionDetail'
 import { Blog } from '@/pages/Blog'
 import { Cases } from '@/pages/Cases'
 import { Faq } from '@/pages/Faq'
+import { Partners } from '@/pages/Partners'
 import { Consulting } from '@/pages/Consulting'
 import { Contacts } from '@/pages/Contacts'
 import { CountryPreview } from '@/pages/CountryPreview'
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/cases" element={<Cases />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/partners" element={<Partners />} />
           <Route path="/consulting" element={<Consulting />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/countries/:code" element={<CountryPreview />} />
