@@ -8,7 +8,7 @@
       "zh"
     ],
     "counts": {
-      "companies": 394,
+      "companies": 395,
       "sectors": 17,
       "cities": 47,
       "own_supplier": 38,
@@ -2948,7 +2948,7 @@
       "name_en": "Gree",
       "name_zh": "格力",
       "sector": "electronics",
-      "city": "foshan",
+      "city": "zhuhai",
       "status": "catalog",
       "own_supplier": false,
       "category_en": null,
@@ -6259,6 +6259,20 @@
       "category_ru": null,
       "desc_en": "China's largest automaker by scale — MG and IM Motors brands.",
       "desc_ru": "Крупнейший автоконцерн Китая — бренды MG и IM Motors.",
+      "country": "cn"
+    },
+    {
+      "id": "supor",
+      "name_en": "Supor",
+      "name_zh": "苏泊尔",
+      "sector": "electronics",
+      "city": "hangzhou",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Cookware and small appliances — part of Groupe SEB.",
+      "desc_ru": "Посуда и мелкая бытовая техника — входит в Groupe SEB.",
       "country": "cn"
     }
   ]

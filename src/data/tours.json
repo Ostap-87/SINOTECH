@@ -1012,6 +1012,199 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-appliances-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "electronics",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бытовая техника и умный дом Китая",
+      "title_en": "China's Home Appliances & Smart Home Industry",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Haier · Hisense · Midea · Gree · Skyworth",
+      "tagline_en": "Haier · Hisense · Midea · Gree · Skyworth",
+      "positioning_ru": "Визиты на девять заводов бытовой техники и умного дома в пяти городах — от Циндао, национального инновационного центра отрасли, на севере до Шуньдэ, южного столпа индустрии.",
+      "positioning_en": "Visits to nine home-appliance and smart-home plants across five cities — from Qingdao, the industry's national innovation hub in the north, to Shunde, its southern pillar.",
+      "stats": {
+        "cities": 5,
+        "days": 5,
+        "nights": 6,
+        "companies": 9,
+        "flights": 3
+      },
+      "route_strategy": "beijing-qingdao-hangzhou-foshan-shenzhen",
+      "arrival_ru": "Пекин (вечерний прилёт, Capital / Daxing)",
+      "arrival_en": "Beijing (evening arrival, Capital / Daxing)",
+      "departure_ru": "Шэньчжэнь (вылет из аэропорта Bao'an)",
+      "departure_en": "Shenzhen (departure from Bao'an airport)",
+      "route_cities": [
+        "beijing",
+        "qingdao",
+        "hangzhou",
+        "foshan",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Умный дом и IoT",
+          "area_en": "Smart home and IoT",
+          "time": "10:00–13:00",
+          "companies": [
+            "xiaomi"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Пекин → Циндао (~1,5 ч)",
+          "transfer_en": "✈ Evening — flight Beijing → Qingdao (~1.5h)"
+        },
+        {
+          "day": 2,
+          "city": "qingdao",
+          "city_ru": "Циндао",
+          "city_en": "Qingdao",
+          "area_ru": "Северный столп — Шаньдун",
+          "area_en": "The northern pillar — Shandong",
+          "time": "10:00–13:00",
+          "companies": [
+            "haier",
+            "hisense"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Циндао → Ханчжоу (~2 ч)",
+          "transfer_en": "✈ Evening — flight Qingdao → Hangzhou (~2h)"
+        },
+        {
+          "day": 3,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Кухня и мелкая техника",
+          "area_en": "Kitchen and small appliances",
+          "time": "10:00–13:00",
+          "companies": [
+            "robam",
+            "supor"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Ханчжоу → Гуанчжоу (~2,5 ч); ночёвка в Гуанчжоу",
+          "transfer_en": "✈ Evening — flight Hangzhou → Guangzhou (~2.5h); overnight in Guangzhou"
+        },
+        {
+          "day": 4,
+          "city": "foshan",
+          "city_ru": "Фошань",
+          "city_en": "Foshan",
+          "area_ru": "Южный столп — Шуньдэ",
+          "area_en": "The southern pillar — Shunde",
+          "time": "10:00–13:00",
+          "companies": [
+            "midea",
+            "galanz"
+          ],
+          "note_ru": "~30 мин от Гуанчжоу, оба завода рядом. Ночёвка в Гуанчжоу/Фошане",
+          "note_en": "~30 min from Guangzhou, both plants next to each other. Overnight in Guangzhou/Foshan"
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Чжухай → Шэньчжэнь (финал)",
+          "city_en": "Zhuhai → Shenzhen (finale)",
+          "area_ru": "Кондиционеры и AV-техника",
+          "area_en": "Air conditioners and AV electronics",
+          "time": "10:00–13:00",
+          "companies": [
+            "gree",
+            "skyworth"
+          ],
+          "leg_mode": "train",
+          "note_ru": "🚗 Переезд через мост Гонконг–Чжухай–Макао (~1 ч). Завершение программы",
+          "note_en": "🚗 Transfer via the Hong Kong–Zhuhai–Macao Bridge (~1h). End of the program"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, наземные трансферы (включая мост Гонконг–Чжухай–Макао), встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flights, ground transfers (including the Hong Kong–Zhuhai–Macao Bridge), airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом девяти заводов — Xiaomi, Haier, Hisense, Robam, Supor, Midea, Galanz, Gree, Skyworth",
+          "en": "Talks with top management at nine plants — Xiaomi, Haier, Hisense, Robam, Supor, Midea, Galanz, Gree, Skyworth"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию",
+          "en": "Deal contacts — direct lines to partnership and distribution"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренние перелёты, наземные трансферы, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flights, ground transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Маршрут строго с севера на юг: Циндао и Шуньдэ (Фошань) — два столпа индустрии, в каждом по два флагмана в одном городе, удобные парные дни.",
+      "market_note_en": "The route runs strictly north to south: Qingdao and Shunde (Foshan) are the industry's two pillars, each hosting two flagship brands in one city for convenient paired days.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
