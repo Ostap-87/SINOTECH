@@ -9,4 +9,5 @@ export const COUNTRY_SHAPES: Record<string, { shape: ShapeKey; name_ru: string; 
   th: { shape: 'thailand', name_ru: 'Таиланд', name_en: 'Thailand' },
   my: { shape: 'malaysia', name_ru: 'Малайзия', name_en: 'Malaysia' },
   id: { shape: 'indonesia', name_ru: 'Индонезия', name_en: 'Indonesia' },
+  vn: { shape: 'vietnam', name_ru: 'Вьетнам', name_en: 'Vietnam' },
 }

@@ -70,6 +70,13 @@
       "name_ru": "Индонезия",
       "active": false,
       "status": "planned"
+    },
+    {
+      "code": "vn",
+      "name_en": "Vietnam",
+      "name_ru": "Вьетнам",
+      "active": false,
+      "status": "planned"
     }
   ],
   "regions": [

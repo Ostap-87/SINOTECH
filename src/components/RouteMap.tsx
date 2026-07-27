@@ -6,6 +6,7 @@ import indiaProvinces from '@/data/india-provinces.json'
 import thailandProvinces from '@/data/thailand-provinces.json'
 import malaysiaProvinces from '@/data/malaysia-provinces.json'
 import indonesiaProvinces from '@/data/indonesia-provinces.json'
+import vietnamProvinces from '@/data/vietnam-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
 
@@ -19,7 +20,15 @@ export interface RouteMapStop {
   legMode?: 'flight' | 'train'
 }
 
-export type RouteMapCountry = 'china' | 'japan' | 'korea' | 'india' | 'thailand' | 'malaysia' | 'indonesia'
+export type RouteMapCountry =
+  | 'china'
+  | 'japan'
+  | 'korea'
+  | 'india'
+  | 'thailand'
+  | 'malaysia'
+  | 'indonesia'
+  | 'vietnam'
 
 interface RouteMapProps {
   stops: RouteMapStop[]
@@ -54,6 +63,7 @@ const PROVINCE_SETS: Record<RouteMapCountry, ProvinceEntry[]> = {
   thailand: thailandProvinces as unknown as ProvinceEntry[],
   malaysia: malaysiaProvinces as unknown as ProvinceEntry[],
   indonesia: indonesiaProvinces as unknown as ProvinceEntry[],
+  vietnam: vietnamProvinces as unknown as ProvinceEntry[],
 }
 
 const REVEAL_INTERVAL_MS = 2600
