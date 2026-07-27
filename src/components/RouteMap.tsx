@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import chinaOutline from '@/data/china-outline.json'
-import { getCity } from '@/data'
+import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
 
 export interface RouteMapStop {
@@ -14,6 +14,8 @@ export interface RouteMapStop {
 interface RouteMapProps {
   stops: RouteMapStop[]
   className?: string
+  /** When set, highlights that region's zone on the map — see RegionHighlight. */
+  regionCode?: string
 }
 
 type Ring = [number, number][]
@@ -96,6 +98,77 @@ function arcPath(x1: number, y1: number, x2: number, y2: number): string {
   return `M${x1.toFixed(1)},${y1.toFixed(1)} Q${cx.toFixed(1)},${cy.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`
 }
 
+const REGION_REVEAL_DELAY_MS = 700
+const REGION_REVEAL_MS = 900
+
+/**
+ * Highlights a region's zone on the map — the whole China outline is always
+ * visible from the start, so this fades in a beat later, reading as "here's
+ * the country, and here's where within it" rather than both at once. We
+ * don't have per-province boundary geometry, so the zone is approximated as
+ * an ellipse around that region's cities rather than a traced border.
+ */
+function RegionHighlight({
+  regionCode,
+  project,
+  locale,
+}: {
+  regionCode: string
+  project: (lng: number, lat: number) => [number, number]
+  locale: 'ru' | 'en'
+}) {
+  const [visible, setVisible] = useState(false)
+  useEffect(() => {
+    const t = setTimeout(() => setVisible(true), REGION_REVEAL_DELAY_MS)
+    return () => clearTimeout(t)
+  }, [])
+
+  const region = companiesData.regions.find((r) => r.code === regionCode)
+  const cities = companiesData.cities.filter((c) => c.region === regionCode)
+  if (!region || cities.length === 0) return null
+
+  let minX = Infinity
+  let maxX = -Infinity
+  let minY = Infinity
+  let maxY = -Infinity
+  for (const city of cities) {
+    const [x, y] = project(city.lng, city.lat)
+    if (x < minX) minX = x
+    if (x > maxX) maxX = x
+    if (y < minY) minY = y
+    if (y > maxY) maxY = y
+  }
+
+  const padding = 45
+  const cx = (minX + maxX) / 2
+  const cy = (minY + maxY) / 2
+  const rx = Math.max((maxX - minX) / 2 + padding, 70)
+  const ry = Math.max((maxY - minY) / 2 + padding, 70)
+
+  return (
+    <g style={{ opacity: visible ? 1 : 0, transition: `opacity ${REGION_REVEAL_MS}ms ease-out` }}>
+      <ellipse
+        cx={cx}
+        cy={cy}
+        rx={rx}
+        ry={ry}
+        className="fill-electric-iris/10 stroke-electric-iris/50"
+        strokeWidth={1.8}
+        strokeDasharray="5 5"
+      />
+      <text
+        x={cx}
+        y={Math.max(cy - ry - 14, 20)}
+        textAnchor="middle"
+        className="fill-electric-iris font-semibold uppercase"
+        style={{ fontSize: 20, letterSpacing: '0.04em' }}
+      >
+        {locale === 'ru' ? region.ru : region.en}
+      </text>
+    </g>
+  )
+}
+
 function AnimatedArc({ d }: { d: string }) {
   const [progress, setProgress] = useState(0)
   useEffect(() => {
@@ -118,7 +191,7 @@ function AnimatedArc({ d }: { d: string }) {
   )
 }
 
-export function RouteMap({ stops, className }: RouteMapProps) {
+export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
   const { locale } = useLanguage()
   const { project, ringPaths, width, height } = useProjection()
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -165,6 +238,8 @@ export function RouteMap({ stops, className }: RouteMapProps) {
           {ringPaths.map((d, i) => (
             <path key={i} d={d} className="fill-black/[0.06] stroke-black/30" strokeWidth={1.8} />
           ))}
+
+          {regionCode && <RegionHighlight regionCode={regionCode} project={project} locale={locale} />}
 
           {stops.slice(0, currentIndex + 1).map((_, i) => {
             if (i === 0) return null

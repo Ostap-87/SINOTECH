@@ -12,9 +12,12 @@ import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 
 type FormatKey = '2' | '5'
 
-const FORMAT_CONFIG: Record<FormatKey, { days: number; min: number; max: number }> = {
-  '2': { days: 2, min: 3, max: 6 },
-  '5': { days: 5, min: 8, max: 14 },
+// 2-day trips stay inside one region — the distances between regions make a
+// 2-day multi-region itinerary impractical (too much travel time relative to
+// meeting time), so 4 meetings within a single region is the realistic ceiling.
+const FORMAT_CONFIG: Record<FormatKey, { days: number; min: number; max: number; regionLocked: boolean }> = {
+  '2': { days: 2, min: 4, max: 4, regionLocked: true },
+  '5': { days: 5, min: 8, max: 14, regionLocked: false },
 }
 
 interface CityCluster {
@@ -109,9 +112,21 @@ export function Constructor() {
 
   function chooseFormat(key: FormatKey) {
     setFormat(key)
-    const max = FORMAT_CONFIG[key].max
-    setSelectedIds((prev) => (prev.length > max ? prev.slice(0, max) : prev))
     setSubmitted(false)
+    if (FORMAT_CONFIG[key].regionLocked) {
+      // A fresh region choice is required for a locked format — any prior
+      // selection may span regions that are no longer valid together.
+      setRegionFilter('all')
+      setSelectedIds([])
+    } else {
+      const max = FORMAT_CONFIG[key].max
+      setSelectedIds((prev) => (prev.length > max ? prev.slice(0, max) : prev))
+    }
+  }
+
+  function chooseRegion(code: string) {
+    setRegionFilter(code)
+    if (config?.regionLocked) setSelectedIds([])
   }
 
   const canSubmit = !!config && selectedCompanies.length >= config.min
@@ -180,8 +195,15 @@ export function Constructor() {
                   {cfg.days} {locale === 'ru' ? 'дней' : 'days'}
                 </p>
                 <p className="mt-1 text-sm text-ash-gray">
-                  {cfg.min}–{cfg.max} {locale === 'ru' ? 'компаний' : 'companies'}
+                  {cfg.min === cfg.max
+                    ? `${cfg.min} ${locale === 'ru' ? 'компании' : 'companies'}`
+                    : `${cfg.min}–${cfg.max} ${locale === 'ru' ? 'компаний' : 'companies'}`}
                 </p>
+                {cfg.regionLocked && (
+                  <p className="mt-1 text-xs text-ash-gray">
+                    {locale === 'ru' ? 'в рамках одного региона' : 'within a single region'}
+                  </p>
+                )}
               </button>
             )
           })}
@@ -196,82 +218,122 @@ export function Constructor() {
             </h2>
 
             <div className="mt-4 flex flex-col gap-3">
-              <input
-                type="text"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                placeholder={locale === 'ru' ? 'Поиск по названию' : 'Search by name'}
-                className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
-              />
+              {config.regionLocked && (
+                <div>
+                  <label className="mb-1.5 block text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                    {locale === 'ru' ? 'Регион (обязательно)' : 'Region (required)'}
+                  </label>
+                  <select
+                    value={regionFilter}
+                    onChange={(e) => chooseRegion(e.target.value)}
+                    className="w-fit rounded-xl border border-electric-iris/50 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
+                  >
+                    <option value="all" disabled>
+                      {locale === 'ru' ? 'Выберите регион…' : 'Choose a region…'}
+                    </option>
+                    {companiesData.regions.map((region) => (
+                      <option key={region.code} value={region.code}>
+                        {locale === 'ru' ? region.ru : region.en}
+                      </option>
+                    ))}
+                  </select>
+                  <p className="mt-2 max-w-sm text-xs text-ash-gray">
+                    {locale === 'ru'
+                      ? 'Формат 2 дня работает в рамках одного региона — большие расстояния между регионами съедают время встреч.'
+                      : "The 2-day format stays within one region — long distances between regions eat into meeting time."}
+                  </p>
+                </div>
+              )}
 
-              <div className="flex flex-wrap gap-2">
-                {companiesData.sectors.map((sector) => {
-                  const active = sectorFilter.has(sector.code)
-                  return (
-                    <button
-                      key={sector.code}
-                      type="button"
-                      onClick={() => toggleSector(sector.code)}
-                      className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
-                        active
-                          ? 'border-electric-iris bg-electric-iris/15 text-bone-white'
-                          : 'border-black/10 text-ash-gray hover:border-black/25'
-                      }`}
+              {(!config.regionLocked || regionFilter !== 'all') && (
+                <>
+                  <input
+                    type="text"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    placeholder={locale === 'ru' ? 'Поиск по названию' : 'Search by name'}
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+
+                  <div className="flex flex-wrap gap-2">
+                    {companiesData.sectors.map((sector) => {
+                      const active = sectorFilter.has(sector.code)
+                      return (
+                        <button
+                          key={sector.code}
+                          type="button"
+                          onClick={() => toggleSector(sector.code)}
+                          className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
+                            active
+                              ? 'border-electric-iris bg-electric-iris/15 text-bone-white'
+                              : 'border-black/10 text-ash-gray hover:border-black/25'
+                          }`}
+                        >
+                          <span
+                            className="h-1.5 w-1.5 shrink-0 rounded-full"
+                            style={{ backgroundColor: sector.color }}
+                            aria-hidden="true"
+                          />
+                          {pick(sector, 'label', locale)}
+                        </button>
+                      )
+                    })}
+                  </div>
+
+                  {!config.regionLocked && (
+                    <select
+                      value={regionFilter}
+                      onChange={(e) => setRegionFilter(e.target.value)}
+                      className="w-fit rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
                     >
-                      <span
-                        className="h-1.5 w-1.5 shrink-0 rounded-full"
-                        style={{ backgroundColor: sector.color }}
-                        aria-hidden="true"
-                      />
-                      {pick(sector, 'label', locale)}
-                    </button>
-                  )
-                })}
-              </div>
-
-              <select
-                value={regionFilter}
-                onChange={(e) => setRegionFilter(e.target.value)}
-                className="w-fit rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
-              >
-                <option value="all">{locale === 'ru' ? 'Все регионы' : 'All regions'}</option>
-                {companiesData.regions.map((region) => (
-                  <option key={region.code} value={region.code}>
-                    {locale === 'ru' ? region.ru : region.en}
-                  </option>
-                ))}
-              </select>
+                      <option value="all">{locale === 'ru' ? 'Все регионы' : 'All regions'}</option>
+                      {companiesData.regions.map((region) => (
+                        <option key={region.code} value={region.code}>
+                          {locale === 'ru' ? region.ru : region.en}
+                        </option>
+                      ))}
+                    </select>
+                  )}
+                </>
+              )}
             </div>
 
-            <div className="mt-6 max-h-[640px] overflow-y-auto rounded-2xl border border-black/10">
-              {filteredCompanies.length === 0 && (
-                <p className="p-6 text-sm text-ash-gray">
-                  {locale === 'ru' ? 'Ничего не найдено.' : 'Nothing found.'}
-                </p>
-              )}
-              {filteredCompanies.map((company) => {
-                const city = getCity(company.city)
-                const sector = getSector(company.sector)
-                const isSelected = selectedSet.has(company.id)
-                const atMax = !isSelected && selectedCompanies.length >= config.max
-                return (
-                  <div
-                    key={company.id}
-                    className="flex items-center justify-between gap-4 border-b border-black/5 px-5 py-3 last:border-b-0"
-                  >
-                    <div className="min-w-0">
-                      <p className="truncate text-sm font-medium text-bone-white">{company.name_en}</p>
-                      <p className="mt-0.5 truncate text-xs text-ash-gray">
-                        {sector ? pick(sector, 'label', locale) : company.sector} ·{' '}
-                        {city ? pick(city, 'name', locale) : company.city}
-                      </p>
-                    </div>
-                    <button
-                      type="button"
-                      onClick={() => toggleCompany(company.id)}
-                      disabled={atMax}
-                      className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-colors ${
-                        isSelected
+            {config.regionLocked && regionFilter === 'all' ? (
+              <p className="mt-6 text-sm text-ash-gray">
+                {locale === 'ru'
+                  ? 'Сначала выберите регион, чтобы увидеть компании.'
+                  : 'Choose a region first to see companies.'}
+              </p>
+            ) : (
+              <div className="mt-6 max-h-[640px] overflow-y-auto rounded-2xl border border-black/10">
+                {filteredCompanies.length === 0 && (
+                  <p className="p-6 text-sm text-ash-gray">
+                    {locale === 'ru' ? 'Ничего не найдено.' : 'Nothing found.'}
+                  </p>
+                )}
+                {filteredCompanies.map((company) => {
+                  const city = getCity(company.city)
+                  const sector = getSector(company.sector)
+                  const isSelected = selectedSet.has(company.id)
+                  const atMax = !isSelected && selectedCompanies.length >= config.max
+                  return (
+                    <div
+                      key={company.id}
+                      className="flex items-center justify-between gap-4 border-b border-black/5 px-5 py-3 last:border-b-0"
+                    >
+                      <div className="min-w-0">
+                        <p className="truncate text-sm font-medium text-bone-white">{company.name_en}</p>
+                        <p className="mt-0.5 truncate text-xs text-ash-gray">
+                          {sector ? pick(sector, 'label', locale) : company.sector} ·{' '}
+                          {city ? pick(city, 'name', locale) : company.city}
+                        </p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => toggleCompany(company.id)}
+                        disabled={atMax}
+                        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border transition-colors ${
+                          isSelected
                           ? 'border-electric-iris bg-electric-iris text-white'
                           : atMax
                             ? 'cursor-not-allowed border-black/10 text-ash-gray/40'
@@ -282,9 +344,10 @@ export function Constructor() {
                       {isSelected ? <Check size={14} /> : <Plus size={14} />}
                     </button>
                   </div>
-                )
-              })}
-            </div>
+                  )
+                })}
+              </div>
+            )}
           </div>
 
           <div>
@@ -356,7 +419,13 @@ export function Constructor() {
               : "This is a preliminary city grouping — the Aura Robotics team will assemble the real route and logistics."}
           </p>
 
-          {routeStops.length > 1 && <RouteMap stops={routeStops} className="mt-8 max-w-xl" />}
+          {routeStops.length > 1 && (
+            <RouteMap
+              stops={routeStops}
+              className="mt-8 max-w-xl"
+              regionCode={config?.regionLocked && regionFilter !== 'all' ? regionFilter : undefined}
+            />
+          )}
 
           <ol className="mt-8 space-y-4">
             {itinerary.map((day) => (
