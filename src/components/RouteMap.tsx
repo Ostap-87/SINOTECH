@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import chinaOutline from '@/data/china-outline.json'
+import chinaProvinces from '@/data/china-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
 
@@ -14,27 +14,46 @@ export interface RouteMapStop {
 interface RouteMapProps {
   stops: RouteMapStop[]
   className?: string
-  /** When set, highlights that region's zone on the map — see RegionHighlight. */
+  /** When set, highlights that region's provinces on the map — see RegionHighlight. */
   regionCode?: string
 }
 
 type Ring = [number, number][]
 type Polygon = Ring[]
+interface ProvinceEntry {
+  nameEn: string
+  nameRu: string
+  polygons: Polygon[]
+}
 
-const RINGS = chinaOutline as unknown as Polygon[]
+const PROVINCES = chinaProvinces as unknown as ProvinceEntry[]
 const REVEAL_INTERVAL_MS = 2600
 const ARC_DRAW_MS = 1000
+
+function polygonToPath(polygon: Polygon, project: (lng: number, lat: number) => [number, number]): string {
+  return polygon
+    .map((ring) => {
+      const points = ring.map(([lng, lat]) => project(lng, lat))
+      return points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ') + ' Z'
+    })
+    .join(' ')
+}
 
 /**
  * Equirectangular projection with a cosine correction on longitude — cheap
  * and close enough for a stylized route illustration (not for navigation),
- * over China's fairly narrow ~18–53°N latitude band.
+ * over China's fairly narrow ~18–53°N latitude band. Built from real
+ * province-level boundaries (34 provinces incl. Hong Kong/Macau/Taiwan) —
+ * drawing every province's border, rather than just the national outline,
+ * is what makes a per-province highlight possible.
  */
 function buildProjection() {
   const allPoints: [number, number][] = []
-  for (const polygon of RINGS) {
-    for (const ring of polygon) {
-      for (const point of ring) allPoints.push(point)
+  for (const province of PROVINCES) {
+    for (const polygon of province.polygons) {
+      for (const ring of polygon) {
+        for (const point of ring) allPoints.push(point)
+      }
     }
   }
 
@@ -69,16 +88,12 @@ function buildProjection() {
     return [x, y]
   }
 
-  const ringPaths = RINGS.map((polygon) =>
-    polygon
-      .map((ring) => {
-        const points = ring.map(([lng, lat]) => project(lng, lat))
-        return points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)}`).join(' ') + ' Z'
-      })
-      .join(' '),
-  )
+  const provincePaths = PROVINCES.map((province) => ({
+    nameEn: province.nameEn,
+    d: province.polygons.map((polygon) => polygonToPath(polygon, project)).join(' '),
+  }))
 
-  return { project, ringPaths, width, height }
+  return { project, provincePaths, width, height }
 }
 
 let cachedProjection: ReturnType<typeof buildProjection> | null = null
@@ -102,11 +117,12 @@ const REGION_REVEAL_DELAY_MS = 700
 const REGION_REVEAL_MS = 900
 
 /**
- * Highlights a region's zone on the map — the whole China outline is always
- * visible from the start, so this fades in a beat later, reading as "here's
- * the country, and here's where within it" rather than both at once. We
- * don't have per-province boundary geometry, so the zone is approximated as
- * an ellipse around that region's cities rather than a traced border.
+ * Highlights a region's actual provinces on the map — the whole map is
+ * already visible from the start (every province drawn), so this fades in
+ * a beat later, reading as "here's the country, and here's where within
+ * it" rather than both at once. A region (north/south/etc.) spans several
+ * provinces, so every province with at least one city in that region gets
+ * traced and filled.
  */
 function RegionHighlight({
   regionCode,
@@ -127,38 +143,46 @@ function RegionHighlight({
   const cities = companiesData.cities.filter((c) => c.region === regionCode)
   if (!region || cities.length === 0) return null
 
+  const provinceNames = new Set(cities.map((c) => c.province_en))
+  const matchedProvinces = PROVINCES.filter((p) => provinceNames.has(p.nameEn))
+  if (matchedProvinces.length === 0) return null
+
   let minX = Infinity
   let maxX = -Infinity
   let minY = Infinity
   let maxY = -Infinity
-  for (const city of cities) {
-    const [x, y] = project(city.lng, city.lat)
-    if (x < minX) minX = x
-    if (x > maxX) maxX = x
-    if (y < minY) minY = y
-    if (y > maxY) maxY = y
-  }
+  const provincePaths = matchedProvinces.map((province) => {
+    const d = province.polygons.map((polygon) => polygonToPath(polygon, project)).join(' ')
+    for (const polygon of province.polygons) {
+      for (const ring of polygon) {
+        for (const [lng, lat] of ring) {
+          const [x, y] = project(lng, lat)
+          if (x < minX) minX = x
+          if (x > maxX) maxX = x
+          if (y < minY) minY = y
+          if (y > maxY) maxY = y
+        }
+      }
+    }
+    return d
+  })
 
-  const padding = 45
   const cx = (minX + maxX) / 2
-  const cy = (minY + maxY) / 2
-  const rx = Math.max((maxX - minX) / 2 + padding, 70)
-  const ry = Math.max((maxY - minY) / 2 + padding, 70)
+  const labelY = Math.max(minY - 20, 20)
 
   return (
     <g style={{ opacity: visible ? 1 : 0, transition: `opacity ${REGION_REVEAL_MS}ms ease-out` }}>
-      <ellipse
-        cx={cx}
-        cy={cy}
-        rx={rx}
-        ry={ry}
-        className="fill-electric-iris/10 stroke-electric-iris/50"
-        strokeWidth={1.8}
-        strokeDasharray="5 5"
-      />
+      {provincePaths.map((d, i) => (
+        <path
+          key={i}
+          d={d}
+          className="fill-electric-iris/12 stroke-electric-iris/60"
+          strokeWidth={2}
+        />
+      ))}
       <text
         x={cx}
-        y={Math.max(cy - ry - 14, 20)}
+        y={labelY}
         textAnchor="middle"
         className="fill-electric-iris font-semibold uppercase"
         style={{ fontSize: 20, letterSpacing: '0.04em' }}
@@ -193,7 +217,7 @@ function AnimatedArc({ d }: { d: string }) {
 
 export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
   const { locale } = useLanguage()
-  const { project, ringPaths, width, height } = useProjection()
+  const { project, provincePaths, width, height } = useProjection()
   const [currentIndex, setCurrentIndex] = useState(0)
   const [playing, setPlaying] = useState(true)
 
@@ -235,8 +259,13 @@ export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
             </filter>
           </defs>
 
-          {ringPaths.map((d, i) => (
-            <path key={i} d={d} className="fill-black/[0.06] stroke-black/30" strokeWidth={1.8} />
+          {provincePaths.map((province) => (
+            <path
+              key={province.nameEn}
+              d={province.d}
+              className="fill-black/[0.04] stroke-black/25"
+              strokeWidth={1}
+            />
           ))}
 
           {regionCode && <RegionHighlight regionCode={regionCode} project={project} locale={locale} />}
