@@ -251,6 +251,123 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-tea-coffee-retail-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Новый чайно-кофейный ретейл Китая",
+      "title_en": "China's New Tea & Coffee Retail",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Chagee · Luckin · HeyTea · Nayuki",
+      "tagline_en": "Chagee · Luckin · HeyTea · Nayuki",
+      "positioning_ru": "Визиты к девяти лидерам нового чая и спешелти-кофе в четырёх городах — от штаб-квартир до публичных флагманов.",
+      "positioning_en": "Visits to nine leaders of China's new-tea and specialty-coffee retail across four cities — from headquarters to public flagship stores.",
+      "stats": { "cities": 4, "days": 5, "nights": 6, "companies": 9, "flights": 1 },
+      "route_strategy": "shanghai-xiamen-shenzhen-guangzhou",
+      "arrival_ru": "Шанхай (вечерний прилёт, Pudong / Hongqiao)",
+      "arrival_en": "Shanghai (evening arrival, Pudong / Hongqiao)",
+      "departure_ru": "Гуанчжоу (вылет из аэропорта Baiyun)",
+      "departure_en": "Guangzhou (departure from Baiyun airport)",
+      "route_cities": ["shanghai", "xiamen", "shenzhen", "guangzhou"],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "North Bund и центр Шанхая",
+          "area_en": "North Bund and central Shanghai",
+          "time": "10:00–16:00",
+          "companies": ["chagee", "manner-coffee", "m-stand"],
+          "note_ru": "Блок «Новый премиум-чай и спешелти-кофе»",
+          "note_en": "Block: premium new-tea and specialty coffee"
+        },
+        {
+          "day": 2,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "10:00–13:00",
+          "companies": ["coco-tea", "alittle-tea"],
+          "note_ru": "Ночёвка в Шанхае",
+          "note_en": "Overnight in Shanghai"
+        },
+        {
+          "day": 3,
+          "city": "xiamen",
+          "city_ru": "Сямынь",
+          "city_en": "Xiamen",
+          "area_ru": "Siming District",
+          "area_en": "Siming District",
+          "time": "14:00–16:00",
+          "companies": ["luckin-coffee"],
+          "transfer_ru": "✈ Утром — перелёт Шанхай → Сямынь (~2 ч)",
+          "transfer_en": "✈ Morning — flight Shanghai → Xiamen (~2h)"
+        },
+        {
+          "day": 4,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь",
+          "city_en": "Shenzhen",
+          "area_ru": "Наньшань",
+          "area_en": "Nanshan",
+          "time": "15:00–18:00",
+          "companies": ["heytea", "nayuki"],
+          "transfer_ru": "🚄 Утром — скоростной поезд Сямынь → Шэньчжэнь (~3,5 ч)",
+          "transfer_en": "🚄 Morning — high-speed train Xiamen → Shenzhen (~3.5h)"
+        },
+        {
+          "day": 5,
+          "city": "guangzhou",
+          "city_ru": "Гуанчжоу (финал)",
+          "city_en": "Guangzhou (finale)",
+          "area_ru": "Гуанчжоу",
+          "area_en": "Guangzhou",
+          "time": "10:00–12:00",
+          "companies": ["wang-lao-ji"],
+          "transfer_ru": "🚄 Утром — поезд Шэньчжэнь → Гуанчжоу (~30–40 мин). Завершение программы.",
+          "transfer_en": "🚄 Morning — train Shenzhen → Guangzhou (~30–40 min). End of the program."
+        }
+      ],
+      "includes": [
+        { "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы", "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program" },
+        { "ru": "Питание — обед и ужин ежедневно", "en": "Meals — daily lunch and dinner" },
+        { "ru": "Полная навигация — внутренние перелёты, поезда, трансферы между городами, встреча и проводы в аэропорту", "en": "Full navigation — domestic flights, trains, inter-city transfers, airport pickup and drop-off" },
+        { "ru": "Переговоры с топ-менеджментом девяти брендов — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji", "en": "Talks with top management at nine brands — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji" },
+        { "ru": "Перевод и сопровождение на каждой встрече", "en": "Translation and support at every meeting" },
+        { "ru": "Контакты для сделок — прямые выходы на франчайзинг и дистрибуцию", "en": "Deal contacts — direct lines to franchising and distribution" }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 ночей, отели 5 звёзд", "calc_en": "6 nights, 5-star hotels", "amount": null },
+          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "5 дней (обед / ужин)", "calc_en": "5 days (lunch / dinner)", "amount": null },
+          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "Внутренний перелёт, скоростные поезда, трансферы, такси, встреча / проводы в аэропорту", "calc_en": "Domestic flight, high-speed trains, transfers, taxi, airport transfers", "amount": null },
+          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством", "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership", "amount": null }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Китай — крупнейший в мире рынок чая и один из самых быстрорастущих рынков спешелти-кофе.",
+      "market_note_en": "China is the world's largest tea market and one of the fastest-growing specialty-coffee markets.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
