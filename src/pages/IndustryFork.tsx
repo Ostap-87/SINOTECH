@@ -33,7 +33,7 @@ export function IndustryFork() {
     )
   }
 
-  const readyTourPath = readyTour ? `/tours#${readyTour.tour_id}` : '/tours'
+  const readyTourPath = readyTour ? `/expeditions/${readyTour.tour_id}` : '/expeditions'
   const constructorPath = `/constructor?sector=${sector.code}`
 
   return (
@@ -79,15 +79,15 @@ export function IndustryFork() {
             onClick={(event) => goTo(readyTourPath, event)}
             className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-6 transition-colors hover:border-electric-iris/60"
           >
-            <h2 className="text-lg font-medium">{locale === 'ru' ? 'Готовые туры' : 'Ready-made tours'}</h2>
+            <h2 className="text-lg font-medium">{locale === 'ru' ? 'Экспедиции' : 'Expeditions'}</h2>
             <p className="mt-2 text-sm text-silver-mist">
               {readyTour
                 ? locale === 'ru'
                   ? `Есть готовая программа: «${readyTour.title_ru}»`
                   : `A ready itinerary exists: "${readyTour.title_en}"`
                 : locale === 'ru'
-                  ? 'Для этой отрасли пока нет готовой программы — посмотрите весь каталог туров.'
-                  : "No ready itinerary for this sector yet — browse the full tour catalog."}
+                  ? 'Для этой отрасли пока нет готовой программы — посмотрите весь каталог экспедиций.'
+                  : "No ready itinerary for this sector yet — browse the full expedition catalog."}
             </p>
           </Link>
 

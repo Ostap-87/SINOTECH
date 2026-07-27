@@ -1,11 +1,13 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { Home } from '@/pages/Home'
 import { Industries } from '@/pages/Industries'
 import { IndustryFork } from '@/pages/IndustryFork'
 import { Constructor } from '@/pages/Constructor'
-import { Tours } from '@/pages/Tours'
+import { ExpeditionsReady } from '@/pages/ExpeditionsReady'
+import { ExpeditionsRecommended } from '@/pages/ExpeditionsRecommended'
+import { ExpeditionDetail } from '@/pages/ExpeditionDetail'
 import { Blog } from '@/pages/Blog'
 import { Cases } from '@/pages/Cases'
 import { Faq } from '@/pages/Faq'
@@ -23,7 +25,10 @@ export default function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/industries/:sector" element={<IndustryFork />} />
           <Route path="/constructor" element={<Constructor />} />
-          <Route path="/tours" element={<Tours />} />
+          <Route path="/expeditions" element={<ExpeditionsReady />} />
+          <Route path="/expeditions/recommended" element={<ExpeditionsRecommended />} />
+          <Route path="/expeditions/:tourId" element={<ExpeditionDetail />} />
+          <Route path="/tours" element={<Navigate to="/expeditions" replace />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/cases" element={<Cases />} />
           <Route path="/faq" element={<Faq />} />
