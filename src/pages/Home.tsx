@@ -53,8 +53,8 @@ export function Home() {
             </h1>
             <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
               {locale === 'ru'
-                ? 'Наш каталог состоит из более чем 350 компаний и 17 отраслей — решайте, взять готовый тур или собрать свой.'
-                : 'Our catalogue holds over 350 companies across 17 sectors — take a ready-made tour or build your own.'}
+                ? 'Полезные экспедиции, где ты уже не просто турист, а исследователь и первооткрыватель.'
+                : 'Purposeful expeditions where you’re no longer just a tourist — you’re an explorer and a pioneer.'}
             </p>
 
             <div className="pointer-events-auto mt-10 flex flex-wrap gap-3">
