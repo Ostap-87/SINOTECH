@@ -33,7 +33,7 @@ interface ProvinceEntry {
 
 const PROVINCES = chinaProvinces as unknown as ProvinceEntry[]
 const REVEAL_INTERVAL_MS = 2600
-const ARC_DRAW_MS = 1000
+const ARC_DRAW_MS = 1900
 
 function polygonToPath(polygon: Polygon, project: (lng: number, lat: number) => [number, number]): string {
   return polygon
@@ -255,8 +255,18 @@ function AnimatedArc({ x1, y1, x2, y2 }: { x1: number; y1: number; x2: number; y
           transition: `stroke-dashoffset ${ARC_DRAW_MS}ms ease-out`,
         }}
       />
+      {/*
+       * A proper top-down aircraft silhouette (fuselage + swept wings + tail
+       * fins as separate closed subpaths in one fill) rather than a simple
+       * arrow — big enough that it reads unmistakably as a plane, not a
+       * chevron, even at map scale.
+       */}
       <path
-        d="M-10,-5 L10,0 L-10,5 L-4,0 Z"
+        d="M18,0 L8,-2 L-16,-2 L-18,0 L-16,2 L8,2 Z
+           M2,-1.6 L-11,-14 L-14,-14 L-1,-1.6 Z
+           M2,1.6 L-11,14 L-14,14 L-1,1.6 Z
+           M-11,-1.4 L-16,-7 L-17,-7 L-12,-1.4 Z
+           M-11,1.4 L-16,7 L-17,7 L-12,1.4 Z"
         className="fill-electric-iris"
         style={{ opacity: planeOpacity }}
         transform={`translate(${plane.x.toFixed(1)} ${plane.y.toFixed(1)}) rotate(${plane.angle.toFixed(1)})`}
