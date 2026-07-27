@@ -89,3 +89,18 @@ h3 {
 .brand-marquee-track {
   animation: brand-marquee-scroll 38s linear infinite;
 }
+
+@keyframes logo-letter-shimmer {
+  0%,
+  100% {
+    color: var(--color-ash-gray);
+  }
+  50% {
+    color: var(--color-electric-iris);
+  }
+}
+
+.logo-letter {
+  display: inline-block;
+  animation: logo-letter-shimmer 2.6s ease-in-out infinite;
+}
