@@ -1,17 +1,16 @@
 import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
-import { generateLogoMarkPoints } from '@/three/shapes/logoMark'
 
-// Same wireframe-tetrahedron particle language as the country maps, just a
-// tiny standalone scene — the full ParticleFieldEngine (postprocessing,
-// drag-to-rotate, morph state machine) is overkill for a 20px navbar icon.
-const PARTICLE_COUNT = 90
-const BASE_ROTATE_SPEED = 0.9 // rad/s
-const HOVER_ROTATE_SPEED = 2.6
-const TETRA_RADIUS = 0.16
-// Blue only (no gray) — the wordmark's icon reads as solid blue, unlike the
-// gray-led multi-hue country maps.
-const BLUE_TONES = [0x2563eb, 0x0ea5e9]
+// A solid, semi-transparent square pyramid with a full wireframe overlay
+// (including the base's corner-to-corner diagonals) — the "glass pyramid"
+// look, spinning continuously as a small standalone three.js scene.
+const BASE_RADIUS = 1.05
+const HEIGHT = 1.3
+const TILT_X = -0.32 // radians — tips the pyramid back so the base plane (and its diagonals) is visible
+const ROTATE_SPEED = 0.9 // rad/s
+const HOVER_ROTATE_SPEED = 2.4
+const FILL_COLOR = 0x38bdf8
+const EDGE_COLOR = 0x1e3a8a
 
 function prefersReducedMotion(): boolean {
   return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -26,62 +25,46 @@ export function LogoMark({ size = 20 }: { size?: number }) {
     if (!canvas) return
 
     const reducedMotion = prefersReducedMotion()
-    const cloud = generateLogoMarkPoints(PARTICLE_COUNT)
-    const positions = cloud.positions
-
-    let radius = 0
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
-      const x = positions[i * 3]
-      const y = positions[i * 3 + 1]
-      const z = positions[i * 3 + 2]
-      radius = Math.max(radius, Math.sqrt(x * x + y * y + z * z))
-    }
 
     const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true })
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
     renderer.setSize(size, size, false)
 
     const scene = new THREE.Scene()
-    const fovDeg = 42
+    const fovDeg = 38
     const camera = new THREE.PerspectiveCamera(fovDeg, 1, 0.1, 50)
-    const distance = (radius / Math.sin((fovDeg * Math.PI) / 360)) * 1.4
+    const radius = Math.sqrt(BASE_RADIUS * BASE_RADIUS + (HEIGHT / 2) * (HEIGHT / 2))
+    const distance = (radius / Math.sin((fovDeg * Math.PI) / 360)) * 1.55
     camera.position.set(0, 0, distance)
     camera.lookAt(0, 0, 0)
 
-    const group = new THREE.Group()
-    scene.add(group)
+    const tilt = new THREE.Group()
+    tilt.rotation.x = TILT_X
+    scene.add(tilt)
 
-    const geometry = new THREE.TetrahedronGeometry(1, 0)
-    const material = new THREE.MeshBasicMaterial({
-      wireframe: true,
-      vertexColors: true,
+    const spin = new THREE.Group()
+    tilt.add(spin)
+
+    const geometry = new THREE.CylinderGeometry(0, BASE_RADIUS, HEIGHT, 4)
+
+    const fillMaterial = new THREE.MeshBasicMaterial({
+      color: FILL_COLOR,
       transparent: true,
-      opacity: 0.92,
+      opacity: 0.55,
+      side: THREE.DoubleSide,
     })
-    const mesh = new THREE.InstancedMesh(geometry, material, PARTICLE_COUNT)
-    mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage)
+    spin.add(new THREE.Mesh(geometry, fillMaterial))
 
-    const dummy = new THREE.Object3D()
-    const color = new THREE.Color()
-    for (let i = 0; i < PARTICLE_COUNT; i++) {
-      dummy.position.set(positions[i * 3], positions[i * 3 + 1], positions[i * 3 + 2])
-      dummy.scale.setScalar(TETRA_RADIUS * (0.65 + Math.random() * 0.9))
-      dummy.rotation.set(Math.random() * Math.PI, Math.random() * Math.PI, Math.random() * Math.PI)
-      dummy.updateMatrix()
-      mesh.setMatrixAt(i, dummy.matrix)
-      color.set(BLUE_TONES[i % BLUE_TONES.length])
-      mesh.setColorAt(i, color)
-    }
-    mesh.instanceMatrix.needsUpdate = true
-    if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true
+    const edgeMaterial = new THREE.LineBasicMaterial({ color: EDGE_COLOR })
+    spin.add(new THREE.LineSegments(new THREE.WireframeGeometry(geometry), edgeMaterial))
 
-    group.add(mesh)
     renderer.render(scene, camera)
 
     if (reducedMotion) {
       return () => {
         geometry.dispose()
-        material.dispose()
+        fillMaterial.dispose()
+        edgeMaterial.dispose()
         renderer.dispose()
       }
     }
@@ -98,15 +81,14 @@ export function LogoMark({ size = 20 }: { size?: number }) {
     let disposed = false
     let frameId = 0
     const clock = new THREE.Clock()
-    let speed = BASE_ROTATE_SPEED
+    let speed = ROTATE_SPEED
 
     function tick() {
       if (disposed) return
       const delta = Math.min(clock.getDelta(), 0.05)
-      const targetSpeed = hoveredRef.current ? HOVER_ROTATE_SPEED : BASE_ROTATE_SPEED
+      const targetSpeed = hoveredRef.current ? HOVER_ROTATE_SPEED : ROTATE_SPEED
       speed += (targetSpeed - speed) * Math.min(delta * 4, 1)
-      // Clockwise on screen = decreasing Z rotation.
-      group.rotation.z -= speed * delta
+      spin.rotation.y += speed * delta
       renderer.render(scene, camera)
       frameId = requestAnimationFrame(tick)
     }
@@ -118,7 +100,8 @@ export function LogoMark({ size = 20 }: { size?: number }) {
       canvas.removeEventListener('pointerenter', onEnter)
       canvas.removeEventListener('pointerleave', onLeave)
       geometry.dispose()
-      material.dispose()
+      fillMaterial.dispose()
+      edgeMaterial.dispose()
       renderer.dispose()
     }
   }, [size])
