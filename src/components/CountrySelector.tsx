@@ -7,7 +7,7 @@ import { companiesData } from '@/data'
 // Countries with their own 3D map preview (assembles like the China hero) —
 // browsable even before there's a real catalogue behind them. Every other
 // inactive country stays a plain disabled "Soon" row.
-const COUNTRIES_WITH_PREVIEW = new Set(['jp', 'kr'])
+const COUNTRIES_WITH_PREVIEW = new Set(['jp', 'kr', 'in', 'th', 'my'])
 
 export function CountrySelector() {
   const { locale } = useLanguage()

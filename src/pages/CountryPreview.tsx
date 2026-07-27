@@ -10,6 +10,9 @@ import { Placeholder } from './Placeholder'
 const COUNTRY_PREVIEWS: Record<string, { shape: ShapeKey; name_ru: string; name_en: string }> = {
   jp: { shape: 'japan', name_ru: 'Япония', name_en: 'Japan' },
   kr: { shape: 'korea', name_ru: 'Корея', name_en: 'Korea' },
+  in: { shape: 'india', name_ru: 'Индия', name_en: 'India' },
+  th: { shape: 'thailand', name_ru: 'Таиланд', name_en: 'Thailand' },
+  my: { shape: 'malaysia', name_ru: 'Малайзия', name_en: 'Malaysia' },
 }
 
 export function CountryPreview() {
