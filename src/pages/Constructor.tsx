@@ -151,6 +151,15 @@ export function Constructor() {
       <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
         <div className="absolute inset-0">
           <ParticleCanvas ref={canvasHandleRef} shape="china" />
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
+            style={{
+              backdropFilter: 'blur(28px)',
+              WebkitBackdropFilter: 'blur(28px)',
+              maskImage: 'linear-gradient(to bottom, transparent, black)',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
+            }}
+          />
         </div>
 
         <div

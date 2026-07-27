@@ -17,6 +17,17 @@ export function Home() {
     <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
       <div className="absolute inset-0">
         <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        {/* Dissolves the canvas into a blur toward the bottom instead of a hard clip,
+            so the hero reads as one continuous space with the content below it. */}
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
+          style={{
+            backdropFilter: 'blur(28px)',
+            WebkitBackdropFilter: 'blur(28px)',
+            maskImage: 'linear-gradient(to bottom, transparent, black)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
+          }}
+        />
       </div>
 
       <div

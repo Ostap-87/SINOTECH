@@ -37,6 +37,15 @@ export function Tours() {
       <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
         <div className="absolute inset-0">
           <ParticleCanvas ref={canvasHandleRef} shape="china" />
+          <div
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
+            style={{
+              backdropFilter: 'blur(28px)',
+              WebkitBackdropFilter: 'blur(28px)',
+              maskImage: 'linear-gradient(to bottom, transparent, black)',
+              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
+            }}
+          />
         </div>
 
         <div
@@ -59,8 +68,12 @@ export function Tours() {
 
       <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
       <div className="flex flex-col gap-16">
-        {tours.map((tour) => (
-          <article key={tour.tour_id} id={tour.tour_id} className="scroll-mt-24 border-t border-black/10 pt-12">
+        {tours.map((tour, index) => (
+          <article
+            key={tour.tour_id}
+            id={tour.tour_id}
+            className={`scroll-mt-24 pt-12 ${index > 0 ? 'border-t border-black/10' : ''}`}
+          >
             <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {pick(tour, 'eyebrow', locale)}
             </p>
