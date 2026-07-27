@@ -62,3 +62,17 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+
+@keyframes day-tile-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.015);
+  }
+}
+
+.day-tile:hover {
+  animation: day-tile-pulse 1.6s ease-in-out infinite;
+}

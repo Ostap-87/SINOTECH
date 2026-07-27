@@ -19,23 +19,23 @@ export function Industries() {
   }, [])
 
   return (
-    <>
-      <section className="relative min-h-[480px] overflow-hidden lg:min-h-[560px]">
-        <div className="absolute inset-0">
-          <ParticleCanvas ref={canvasHandleRef} shape="china" />
-          <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
-            style={{
-              backdropFilter: 'blur(28px)',
-              WebkitBackdropFilter: 'blur(28px)',
-              maskImage: 'linear-gradient(to bottom, transparent, black)',
-              WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
-            }}
-          />
-        </div>
-
+    <section className="relative overflow-hidden">
+      <div className="absolute inset-0">
+        <ParticleCanvas ref={canvasHandleRef} shape="china" />
         <div
-          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-20"
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
+          style={{
+            backdropFilter: 'blur(28px)',
+            WebkitBackdropFilter: 'blur(28px)',
+            maskImage: 'linear-gradient(to bottom, transparent, black)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)',
+          }}
+        />
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-20">
+        <div
+          className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
@@ -50,17 +50,15 @@ export function Industries() {
               : 'Pick a sector, then choose a ready-made tour or build your own.'}
           </p>
         </div>
-      </section>
 
-      <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-9 grid grid-cols-1 gap-4 pb-24 sm:grid-cols-2 lg:grid-cols-3">
           {companiesData.sectors.map((sector) => (
             <button
               key={sector.code}
               type="button"
               data-sector={sector.code}
               onClick={() => goTo(`/industries/${sector.code}`)}
-              className="group flex items-center justify-between rounded-2xl border border-black/10 bg-surface/40 px-5 py-4 text-left transition-colors hover:border-electric-iris/60 hover:bg-surface/70"
+              className="group flex items-center justify-between rounded-2xl border border-black/10 bg-surface/70 px-5 py-4 text-left backdrop-blur-sm transition-colors hover:border-electric-iris/60 hover:bg-surface/90"
             >
               <div className="flex items-center gap-3">
                 <span
@@ -91,7 +89,7 @@ export function Industries() {
             </button>
           ))}
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   )
 }

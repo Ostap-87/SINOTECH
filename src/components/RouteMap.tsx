@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { forwardRef, useEffect, useImperativeHandle, useMemo, useState } from 'react'
 import chinaProvinces from '@/data/china-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
@@ -16,6 +16,11 @@ interface RouteMapProps {
   className?: string
   /** When set, highlights that region's provinces on the map — see RegionHighlight. */
   regionCode?: string
+}
+
+export interface RouteMapHandle {
+  /** Jumps the map to the stop matching the given itinerary day, pausing autoplay. */
+  goToDay: (day: number) => void
 }
 
 type Ring = [number, number][]
@@ -215,7 +220,10 @@ function AnimatedArc({ d }: { d: string }) {
   )
 }
 
-export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
+export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function RouteMap(
+  { stops, className, regionCode },
+  ref,
+) {
   const { locale } = useLanguage()
   const { project, provincePaths, width, height } = useProjection()
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -230,6 +238,19 @@ export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
     const t = setTimeout(() => setCurrentIndex((i) => Math.min(i + 1, stops.length - 1)), REVEAL_INTERVAL_MS)
     return () => clearTimeout(t)
   }, [playing, currentIndex, stops.length])
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      goToDay(day: number) {
+        const index = stops.findIndex((stop) => stop.day === day)
+        if (index === -1) return
+        setPlaying(false)
+        setCurrentIndex(index)
+      },
+    }),
+    [stops],
+  )
 
   if (stops.length === 0) return null
 
@@ -361,4 +382,4 @@ export function RouteMap({ stops, className, regionCode }: RouteMapProps) {
       </div>
     </div>
   )
-}
+})
