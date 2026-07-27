@@ -51,6 +51,7 @@
           "area_en": "Zhangjiang Hi-Tech Park (Robot Valley)",
           "time": "09:30–11:30",
           "companies": ["agibot", "kepler", "droidup"],
+          "leg_mode": "flight",
           "note_ru": "Пудунский кластер — все три в Zhangjiang Robot Valley",
           "note_en": "Pudong cluster — all three in Zhangjiang Robot Valley"
         },
@@ -74,7 +75,8 @@
           "area_ru": "Наньшань (Nanshan Zhiyuan, Xueyuan Ave)",
           "area_en": "Nanshan (Nanshan Zhiyuan, Xueyuan Ave)",
           "time": "10:00–12:00",
-          "companies": ["ubtech", "leju-robotics", "limx-dynamics"]
+          "companies": ["ubtech", "leju-robotics", "limx-dynamics"],
+          "leg_mode": "flight"
         },
         {
           "day": 5,
@@ -180,6 +182,7 @@
           "area_en": "Hangzhou",
           "time": "10:00–13:00",
           "companies": ["alibaba", "unitree"],
+          "leg_mode": "flight",
           "transfer_ru": "Вечером переезд в Шанхай (поезд)",
           "transfer_en": "Evening transfer to Shanghai (train)"
         },
@@ -192,6 +195,7 @@
           "area_en": "Shanghai",
           "time": "10:00–13:00",
           "companies": ["meituan", "xiaohongshu-red"],
+          "leg_mode": "train",
           "note_ru": "Ночёвка в Шанхае",
           "note_en": "Overnight in Shanghai"
         },
@@ -204,6 +208,7 @@
           "area_en": "Nanshan",
           "time": "14:00–16:00",
           "companies": ["tencent"],
+          "leg_mode": "flight",
           "transfer_ru": "✈ Утро четверга — перелёт из Шанхая в Шэньчжэнь",
           "transfer_en": "✈ Thursday morning — flight from Shanghai to Shenzhen"
         },
@@ -309,6 +314,7 @@
           "area_en": "Siming District",
           "time": "14:00–16:00",
           "companies": ["luckin-coffee"],
+          "leg_mode": "flight",
           "transfer_ru": "✈ Утром — перелёт Шанхай → Сямынь (~2 ч)",
           "transfer_en": "✈ Morning — flight Shanghai → Xiamen (~2h)"
         },
@@ -321,6 +327,7 @@
           "area_en": "Nanshan",
           "time": "15:00–18:00",
           "companies": ["heytea", "nayuki"],
+          "leg_mode": "train",
           "transfer_ru": "🚄 Утром — скоростной поезд Сямынь → Шэньчжэнь (~3,5 ч)",
           "transfer_en": "🚄 Morning — high-speed train Xiamen → Shenzhen (~3.5h)"
         },
@@ -333,6 +340,7 @@
           "area_en": "Guangzhou",
           "time": "10:00–12:00",
           "companies": ["wang-lao-ji"],
+          "leg_mode": "train",
           "transfer_ru": "🚄 Утром — поезд Шэньчжэнь → Гуанчжоу (~30–40 мин). Завершение программы.",
           "transfer_en": "🚄 Morning — train Shenzhen → Guangzhou (~30–40 min). End of the program."
         }

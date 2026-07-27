@@ -9,6 +9,8 @@ export interface RouteMapStop {
   cityId: string
   cityLabel: string
   companies: string[]
+  /** How this stop was reached from the previous one — picks the arc glyph (plane vs train). Defaults to 'flight'. */
+  legMode?: 'flight' | 'train'
 }
 
 interface RouteMapProps {
@@ -217,7 +219,19 @@ function RegionHighlight({
  * up already "in the past" and jumps straight to its frozen end frame
  * instead of playing, which is exactly what read as "just a dot".
  */
-function AnimatedArc({ x1, y1, x2, y2 }: { x1: number; y1: number; x2: number; y2: number }) {
+function AnimatedArc({
+  x1,
+  y1,
+  x2,
+  y2,
+  mode = 'flight',
+}: {
+  x1: number
+  y1: number
+  x2: number
+  y2: number
+  mode?: 'flight' | 'train'
+}) {
   const [progress, setProgress] = useState(0)
   const [planeT, setPlaneT] = useState(0)
   useEffect(() => {
@@ -256,21 +270,36 @@ function AnimatedArc({ x1, y1, x2, y2 }: { x1: number; y1: number; x2: number; y
         }}
       />
       {/*
-       * A proper top-down aircraft silhouette (fuselage + swept wings + tail
-       * fins as separate closed subpaths in one fill) rather than a simple
-       * arrow — big enough that it reads unmistakably as a plane, not a
-       * chevron, even at map scale.
+       * Plane vs train glyph tracks how this leg is actually travelled — a
+       * train icon on a rail leg keeps users from thinking every connector
+       * on the map is a flight, which is what a plane-only icon implied.
        */}
-      <path
-        d="M18,0 L8,-2 L-16,-2 L-18,0 L-16,2 L8,2 Z
-           M2,-1.6 L-11,-14 L-14,-14 L-1,-1.6 Z
-           M2,1.6 L-11,14 L-14,14 L-1,1.6 Z
-           M-11,-1.4 L-16,-7 L-17,-7 L-12,-1.4 Z
-           M-11,1.4 L-16,7 L-17,7 L-12,1.4 Z"
-        className="fill-electric-iris"
-        style={{ opacity: planeOpacity }}
-        transform={`translate(${plane.x.toFixed(1)} ${plane.y.toFixed(1)}) rotate(${plane.angle.toFixed(1)})`}
-      />
+      {mode === 'train' ? (
+        <path
+          d="M18,0 L8,-6 L-14,-6 Q-17,-6 -17,-3 L-17,3 Q-17,6 -14,6 L8,6 Z
+             M-11,-3 L-11,3 L-7,3 L-7,-3 Z
+             M-4,-3 L-4,3 L0,3 L0,-3 Z
+             M3,-3 L3,3 L7,3 L7,-3 Z"
+          fillRule="evenodd"
+          className="fill-electric-iris"
+          style={{ opacity: planeOpacity }}
+          transform={`translate(${plane.x.toFixed(1)} ${plane.y.toFixed(1)}) rotate(${plane.angle.toFixed(1)})`}
+        />
+      ) : (
+        // A top-down aircraft silhouette (fuselage + swept wings + tail fins
+        // as separate closed subpaths in one fill) rather than a simple
+        // arrow — big enough to read unmistakably as a plane, not a chevron.
+        <path
+          d="M18,0 L8,-2 L-16,-2 L-18,0 L-16,2 L8,2 Z
+             M2,-1.6 L-11,-14 L-14,-14 L-1,-1.6 Z
+             M2,1.6 L-11,14 L-14,14 L-1,1.6 Z
+             M-11,-1.4 L-16,-7 L-17,-7 L-12,-1.4 Z
+             M-11,1.4 L-16,7 L-17,7 L-12,1.4 Z"
+          className="fill-electric-iris"
+          style={{ opacity: planeOpacity }}
+          transform={`translate(${plane.x.toFixed(1)} ${plane.y.toFixed(1)}) rotate(${plane.angle.toFixed(1)})`}
+        />
+      )}
     </g>
   )
 }
@@ -346,11 +375,11 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
 
           {regionCode && <RegionHighlight regionCode={regionCode} project={project} locale={locale} />}
 
-          {stops.slice(0, currentIndex + 1).map((_, i) => {
+          {stops.slice(0, currentIndex + 1).map((stop, i) => {
             if (i === 0) return null
             const [x1, y1] = points[i - 1]
             const [x2, y2] = points[i]
-            return <AnimatedArc key={`arc-${i}`} x1={x1} y1={y1} x2={x2} y2={y2} />
+            return <AnimatedArc key={`arc-${i}`} x1={x1} y1={y1} x2={x2} y2={y2} mode={stop.legMode} />
           })}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {

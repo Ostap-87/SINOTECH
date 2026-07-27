@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Check, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
-import { companiesData, getCity, getSector } from '@/data'
+import { companiesData, getCity, getSector, companyNameZh } from '@/data'
 import type { Company } from '@/types/data'
 import { RouteMap } from '@/components/RouteMap'
 import type { RouteMapStop } from '@/components/RouteMap'
@@ -56,12 +56,12 @@ function buildBranchCompanies(): Company[] {
 
 const BRANCH_COMPANIES = buildBranchCompanies()
 
-/** "Baidu" stays "Baidu" for a regular company; a branch entry becomes "Baidu — Shenzhen". */
+/** "Baidu (百度)" stays as-is for a regular company; a branch entry becomes "Baidu (百度) — Shenzhen". */
 function companyDisplayName(company: Company, locale: 'ru' | 'en'): string {
   const separatorIndex = company.id.indexOf('__')
-  if (separatorIndex === -1) return company.name_en
+  if (separatorIndex === -1) return companyNameZh(company)
   const city = getCity(company.city)
-  return `${company.name_en} — ${city ? pick(city, 'name', locale) : company.city}`
+  return `${companyNameZh(company)} — ${city ? pick(city, 'name', locale) : company.city}`
 }
 
 // Distributes companies across days as evenly as possible (e.g. exactly 2+2

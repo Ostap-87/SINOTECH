@@ -1,7 +1,7 @@
 import companiesRaw from './companies.json'
 import toursRaw from './tours.json'
 import siteContentRaw from './site_content.example.json'
-import type { CompaniesData } from '@/types/data'
+import type { CompaniesData, Company } from '@/types/data'
 
 export const companiesData = companiesRaw as CompaniesData
 export const toursData = toursRaw
@@ -20,4 +20,9 @@ export function getSector(code: string) {
 
 export function companiesBySector(code: string) {
   return companiesData.companies.filter((company) => company.sector === code)
+}
+
+/** English name with the Chinese name alongside it, e.g. "Chagee (霸王茶姬)". */
+export function companyNameZh(company: Pick<Company, 'name_en' | 'name_zh'>): string {
+  return company.name_zh ? `${company.name_en} (${company.name_zh})` : company.name_en
 }

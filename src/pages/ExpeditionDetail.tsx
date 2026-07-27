@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
-import { toursData, companiesData, getSector } from '@/data'
+import { toursData, companiesData, getSector, companyNameZh } from '@/data'
 import { RouteMap } from '@/components/RouteMap'
 import type { RouteMapStop, RouteMapHandle } from '@/components/RouteMap'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
@@ -15,7 +15,8 @@ function formatRub(amount: number | null | undefined, locale: 'ru' | 'en'): stri
 }
 
 function companyName(id: string): string {
-  return companiesData.companies.find((c) => c.id === id)?.name_en ?? id
+  const company = companiesData.companies.find((c) => c.id === id)
+  return company ? companyNameZh(company) : id
 }
 
 function buildRouteStops(tour: (typeof toursData.tours)[number], locale: 'ru' | 'en'): RouteMapStop[] {
@@ -25,6 +26,7 @@ function buildRouteStops(tour: (typeof toursData.tours)[number], locale: 'ru' | 
     cityId: day.city,
     cityLabel: locale === 'ru' ? day.city_ru : day.city_en,
     companies: day.companies.map(companyName),
+    legMode: 'leg_mode' in day ? (day.leg_mode as 'flight' | 'train') : undefined,
   }))
 }
 
@@ -43,11 +45,11 @@ function CompanyChip({ companyId, locale }: { companyId: string; locale: 'ru' | 
       onMouseLeave={() => setHovered(false)}
     >
       <span className="cursor-default text-sm text-silver-mist underline decoration-dotted decoration-ash-gray/60 underline-offset-4 transition-colors hover:text-electric-iris">
-        {company.name_en}
+        {companyNameZh(company)}
       </span>
       {hovered && (
         <span className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-2 w-56 -translate-x-1/2 rounded-xl border border-black/10 bg-void p-3 text-left shadow-[0_20px_40px_rgba(0,0,0,0.15)]">
-          <span className="block text-sm font-medium text-bone-white">{company.name_en}</span>
+          <span className="block text-sm font-medium text-bone-white">{companyNameZh(company)}</span>
           <span className="mt-0.5 block text-xs text-ash-gray">
             {sector ? (locale === 'ru' ? sector.label_ru : sector.label_en) : company.sector}
             {city ? ` · ${locale === 'ru' ? city.name_ru : city.name_en}` : ''}
