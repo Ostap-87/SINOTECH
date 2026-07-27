@@ -1,4 +1,4 @@
-export type CountryCode = 'cn' | 'in' | 'th' | 'my'
+export type CountryCode = 'cn' | 'in' | 'th' | 'my' | 'jp' | 'kr'
 export type CompanyStatus = 'gov' | 'catalog' | 'plan'
 
 export interface Country {

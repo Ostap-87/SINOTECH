@@ -49,6 +49,20 @@
       "name_ru": "Малайзия",
       "active": false,
       "status": "planned"
+    },
+    {
+      "code": "jp",
+      "name_en": "Japan",
+      "name_ru": "Япония",
+      "active": false,
+      "status": "planned"
+    },
+    {
+      "code": "kr",
+      "name_en": "Korea",
+      "name_ru": "Корея",
+      "active": false,
+      "status": "planned"
     }
   ],
   "regions": [

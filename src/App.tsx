@@ -13,6 +13,7 @@ import { Cases } from '@/pages/Cases'
 import { Faq } from '@/pages/Faq'
 import { Consulting } from '@/pages/Consulting'
 import { Contacts } from '@/pages/Contacts'
+import { CountryPreview } from '@/pages/CountryPreview'
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/consulting" element={<Consulting />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/countries/:code" element={<CountryPreview />} />
         </Routes>
       </main>
 
