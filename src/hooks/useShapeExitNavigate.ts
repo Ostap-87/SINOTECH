@@ -3,7 +3,7 @@ import type { RefObject } from 'react'
 import { useNavigate } from 'react-router-dom'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 
-const DEFAULT_DURATION_MS = 2200
+const DEFAULT_DURATION_MS = 2600
 
 interface ClickGuard {
   button?: number

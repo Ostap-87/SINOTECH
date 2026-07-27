@@ -5,7 +5,7 @@ import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js'
 import { GROUP_PALETTE, randomGroupIndex } from './palette'
 import type { PointCloud } from './shapes/types'
 
-const MORPH_DURATION_MS = 3800
+const MORPH_DURATION_MS = 4200
 const SCATTER_RADIUS = 15
 const STAGGER_SPREAD = 0.65
 const REPEL_RADIUS = 0.95
@@ -45,8 +45,12 @@ const DRAG_SENSITIVITY = 0.0038
 const DRAG_DECAY = 0.94
 const DRAG_PITCH_LIMIT = 1.1 // radians — keeps the shape from flipping upside down
 
-function easeOutCubic(t: number) {
-  return 1 - Math.pow(1 - t, 3)
+// ease-in-out rather than ease-out: particles ramp up to speed instead of
+// snapping into motion the instant their delay elapses, which is what read
+// as an abrupt cut during page-to-page morphs — a slow start reads as
+// seamless, a fast one reads as a jump cut.
+function easeInOutCubic(t: number) {
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
 }
 
 function scatterCloud(count: number, radius: number): Float32Array {
@@ -338,7 +342,7 @@ export class ParticleFieldEngine {
       const localT = this.reducedMotion
         ? 1
         : Math.min(Math.max((globalT - this.delays[i]) / (1 - this.delays[i]), 0), 1)
-      const eased = easeOutCubic(localT)
+      const eased = easeInOutCubic(localT)
 
       let x = this.prevPositions[i3] + (this.targetPositions[i3] - this.prevPositions[i3]) * eased
       let y = this.prevPositions[i3 + 1] + (this.targetPositions[i3 + 1] - this.prevPositions[i3 + 1]) * eased

@@ -107,15 +107,24 @@ function useProjection() {
   return useMemo(() => (cachedProjection ??= buildProjection()), [])
 }
 
-function arcPath(x1: number, y1: number, x2: number, y2: number): string {
+/**
+ * Bend the control point toward the top of the map (screen-space up), so
+ * arcs read as gentle flight-path curves rather than straight connectors.
+ */
+function arcControlPoint(x1: number, y1: number, x2: number, y2: number): [number, number] {
   const mx = (x1 + x2) / 2
   const my = (y1 + y2) / 2
   const dist = Math.hypot(x2 - x1, y2 - y1)
-  // Bend the control point toward the top of the map (screen-space up), so
-  // arcs read as gentle flight-path curves rather than straight connectors.
-  const cx = mx
-  const cy = my - dist * 0.18
-  return `M${x1.toFixed(1)},${y1.toFixed(1)} Q${cx.toFixed(1)},${cy.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`
+  return [mx, my - dist * 0.18]
+}
+
+function quadraticPoint(t: number, x1: number, y1: number, cx: number, cy: number, x2: number, y2: number) {
+  const mt = 1 - t
+  const x = mt * mt * x1 + 2 * mt * t * cx + t * t * x2
+  const y = mt * mt * y1 + 2 * mt * t * cy + t * t * y2
+  const dx = 2 * mt * (cx - x1) + 2 * t * (x2 - cx)
+  const dy = 2 * mt * (cy - y1) + 2 * t * (y2 - cy)
+  return { x, y, angle: (Math.atan2(dy, dx) * 180) / Math.PI }
 }
 
 const REGION_REVEAL_DELAY_MS = 700
@@ -201,14 +210,37 @@ function RegionHighlight({
 /**
  * A small plane glyph flies along the arc as it draws, rather than the
  * connector reading as an abstract line — this is what signals "flight
- * between cities" rather than a generic route hop.
+ * between cities" rather than a generic route hop. Driven by
+ * requestAnimationFrame (not SMIL's animateMotion) because SMIL's `begin`
+ * timing is anchored to the document's animation timeline, not to when the
+ * element is inserted — a React-mounted animateMotion with begin="0s" ends
+ * up already "in the past" and jumps straight to its frozen end frame
+ * instead of playing, which is exactly what read as "just a dot".
  */
-function AnimatedArc({ d }: { d: string }) {
+function AnimatedArc({ x1, y1, x2, y2 }: { x1: number; y1: number; x2: number; y2: number }) {
   const [progress, setProgress] = useState(0)
+  const [planeT, setPlaneT] = useState(0)
   useEffect(() => {
-    const id = requestAnimationFrame(() => setProgress(1))
-    return () => cancelAnimationFrame(id)
+    const startId = requestAnimationFrame(() => setProgress(1))
+    const start = performance.now()
+    let frameId = requestAnimationFrame(function frame(now: number) {
+      const t = Math.min((now - start) / ARC_DRAW_MS, 1)
+      setPlaneT(t)
+      if (t < 1) frameId = requestAnimationFrame(frame)
+    })
+    return () => {
+      cancelAnimationFrame(startId)
+      cancelAnimationFrame(frameId)
+    }
   }, [])
+
+  const [cx, cy] = arcControlPoint(x1, y1, x2, y2)
+  const d = `M${x1.toFixed(1)},${y1.toFixed(1)} Q${cx.toFixed(1)},${cy.toFixed(1)} ${x2.toFixed(1)},${y2.toFixed(1)}`
+  const plane = quadraticPoint(planeT, x1, y1, cx, cy, x2, y2)
+  // Faded in just after takeoff and out just before landing, so it never has
+  // to sit "parked" on top of the destination dot once it reaches t=1.
+  const planeOpacity = planeT < 0.12 ? planeT / 0.12 : planeT > 0.8 ? Math.max(0, (1 - planeT) / 0.2) : 1
+
   return (
     <g>
       <path
@@ -223,9 +255,12 @@ function AnimatedArc({ d }: { d: string }) {
           transition: `stroke-dashoffset ${ARC_DRAW_MS}ms ease-out`,
         }}
       />
-      <path d="M-7,-3.5 L7,0 L-7,3.5 L-3,0 Z" className="fill-electric-iris stroke-white" strokeWidth={0.6}>
-        <animateMotion dur={`${ARC_DRAW_MS}ms`} path={d} rotate="auto" fill="freeze" begin="0s" />
-      </path>
+      <path
+        d="M-10,-5 L10,0 L-10,5 L-4,0 Z"
+        className="fill-electric-iris"
+        style={{ opacity: planeOpacity }}
+        transform={`translate(${plane.x.toFixed(1)} ${plane.y.toFixed(1)}) rotate(${plane.angle.toFixed(1)})`}
+      />
     </g>
   )
 }
@@ -305,7 +340,7 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
             if (i === 0) return null
             const [x1, y1] = points[i - 1]
             const [x2, y2] = points[i]
-            return <AnimatedArc key={`arc-${i}`} d={arcPath(x1, y1, x2, y2)} />
+            return <AnimatedArc key={`arc-${i}`} x1={x1} y1={y1} x2={x2} y2={y2} />
           })}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {

@@ -206,21 +206,21 @@ export function Tours() {
 
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0">
+      {/*
+       * Bounded to a hero-sized box (not stretched to the full, much taller
+       * page) so the map keeps the same organic scale as everywhere else —
+       * stretching the canvas over the whole tour list distorted its aspect
+       * ratio and blew the shape up far larger than intended. It still
+       * scrolls away with the page naturally since it's in normal flow, not
+       * fixed/sticky.
+       */}
+      <div className="absolute inset-x-0 top-0 h-[820px] lg:h-[720px]">
         <ParticleCanvas ref={canvasHandleRef} shape="china" />
-        {/*
-         * The page is much taller than the hero (many tours stack below it),
-         * so — unlike the short Industries grid — the map can't stay visible
-         * behind all of it without drowning the pricing tables further down.
-         * A plain alpha fade (no blur/mask trick) dissolves it into the page
-         * background over the first stretch of scroll instead, so it still
-         * reads as one continuous space rather than a hard-edged hero box.
-         */}
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              'linear-gradient(to bottom, transparent 0%, transparent 14%, var(--color-void) 46%, var(--color-void) 100%)',
+              'linear-gradient(to bottom, transparent 0%, transparent 35%, var(--color-void) 92%, var(--color-void) 100%)',
           }}
         />
       </div>
