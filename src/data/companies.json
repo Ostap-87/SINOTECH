@@ -8,7 +8,7 @@
       "zh"
     ],
     "counts": {
-      "companies": 393,
+      "companies": 394,
       "sectors": 17,
       "cities": 47,
       "own_supplier": 38,
@@ -6217,6 +6217,48 @@
       "category_ru": null,
       "desc_en": "Premium yogurt & dairy brand, Shenzhen.",
       "desc_ru": "Премиальная йогуртовая марка, Шэньчжэнь.",
+      "country": "cn"
+    },
+    {
+      "id": "xpeng",
+      "name_en": "Xpeng",
+      "name_zh": "小鹏",
+      "sector": "auto",
+      "city": "guangzhou",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Smart-EV maker with in-house XNGP autonomous driving.",
+      "desc_ru": "Производитель смарт-EV с собственным автопилотом XNGP.",
+      "country": "cn"
+    },
+    {
+      "id": "maextro",
+      "name_en": "Maextro",
+      "name_zh": "尊界",
+      "sector": "auto",
+      "city": "hefei",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Ultra-luxury EV brand by Huawei and JAC — the S800 sedan.",
+      "desc_ru": "Ультра-люксовый EV-бренд Huawei и JAC — седан S800.",
+      "country": "cn"
+    },
+    {
+      "id": "saic",
+      "name_en": "SAIC Motor",
+      "name_zh": "上汽",
+      "sector": "auto",
+      "city": "shanghai",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "China's largest automaker by scale — MG and IM Motors brands.",
+      "desc_ru": "Крупнейший автоконцерн Китая — бренды MG и IM Motors.",
       "country": "cn"
     }
   ]

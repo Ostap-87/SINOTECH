@@ -2,7 +2,10 @@
   "meta": {
     "project": "Aura Tech Tours — ready-made tours",
     "note": "Готовые туры. Тур ссылается на companies.id из companies.json. Даты (start_date) проставляются при анонсе. Слой быстро меняется (можно вести через Google Таблицы, см. спецификацию раздел 14).",
-    "languages": ["ru", "en"],
+    "languages": [
+      "ru",
+      "en"
+    ],
     "currency": "RUB"
   },
   "tours": [
@@ -22,13 +25,23 @@
       "tagline_en": "Innovation · Intelligence · Impact",
       "positioning_ru": "Закрытые визиты на производства лидеров робототехники Китая. Прямой доступ к компаниям, куда не попасть самостоятельно.",
       "positioning_en": "Private visits to the production sites of China's robotics leaders. Direct access to companies you can't reach on your own.",
-      "stats": { "cities": 3, "days": 5, "nights": 6, "companies": 12, "flights": 2 },
+      "stats": {
+        "cities": 3,
+        "days": 5,
+        "nights": 6,
+        "companies": 12,
+        "flights": 2
+      },
       "route_strategy": "north-to-south",
       "arrival_ru": "Пекин (перелёт Москва → Пекин)",
       "arrival_en": "Beijing (Moscow → Beijing)",
       "departure_ru": "Шэньчжэнь / Гонконг (→ Москва)",
       "departure_en": "Shenzhen / Hong Kong (→ Moscow)",
-      "route_cities": ["beijing", "shanghai", "shenzhen"],
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "shenzhen"
+      ],
       "itinerary": [
         {
           "day": 1,
@@ -38,7 +51,10 @@
           "area_ru": "Хайдянь / PKU Lab",
           "area_en": "Haidian / PKU Lab",
           "time": "10:00–12:30",
-          "companies": ["galbot", "robotera"],
+          "companies": [
+            "galbot",
+            "robotera"
+          ],
           "transfer_ru": "✈ ~20:00 → Шанхай (SHA)",
           "transfer_en": "✈ ~20:00 → Shanghai (SHA)"
         },
@@ -50,7 +66,11 @@
           "area_ru": "Zhangjiang Hi-Tech Park (Robot Valley)",
           "area_en": "Zhangjiang Hi-Tech Park (Robot Valley)",
           "time": "09:30–11:30",
-          "companies": ["agibot", "kepler", "droidup"],
+          "companies": [
+            "agibot",
+            "kepler",
+            "droidup"
+          ],
           "leg_mode": "flight",
           "note_ru": "Пудунский кластер — все три в Zhangjiang Robot Valley",
           "note_en": "Pudong cluster — all three in Zhangjiang Robot Valley"
@@ -63,7 +83,10 @@
           "area_ru": "Zhangjiang, Пудун",
           "area_en": "Zhangjiang, Pudong",
           "time": "10:00–12:00",
-          "companies": ["fourier", "seer-robotics"],
+          "companies": [
+            "fourier",
+            "seer-robotics"
+          ],
           "transfer_ru": "✈ ~19:30 (PVG) → Шэньчжэнь",
           "transfer_en": "✈ ~19:30 (PVG) → Shenzhen"
         },
@@ -75,7 +98,11 @@
           "area_ru": "Наньшань (Nanshan Zhiyuan, Xueyuan Ave)",
           "area_en": "Nanshan (Nanshan Zhiyuan, Xueyuan Ave)",
           "time": "10:00–12:00",
-          "companies": ["ubtech", "leju-robotics", "limx-dynamics"],
+          "companies": [
+            "ubtech",
+            "leju-robotics",
+            "limx-dynamics"
+          ],
           "leg_mode": "flight"
         },
         {
@@ -86,46 +113,135 @@
           "area_ru": "Шэньчжэнь",
           "area_en": "Shenzhen",
           "time": "10:00–12:00",
-          "companies": ["engineai", "pudu-robotics"],
+          "companies": [
+            "engineai",
+            "pudu-robotics"
+          ],
           "note_ru": "Завершение экспедиции",
           "note_en": "End of the expedition"
         }
       ],
       "includes": [
-        { "ru": "Экскурсии по производствам — сборочные линии, цеха и лаборатории лидеров индустрии", "en": "Production tours — assembly lines, workshops and labs of industry leaders" },
-        { "ru": "Демонстрации технологий — живые демо гуманоидов и сервисных роботов", "en": "Technology demos — live demonstrations of humanoid and service robots" },
-        { "ru": "Переговоры с топ-менеджментом — встречи с основателями и руководителями", "en": "Talks with top management — meetings with founders and executives" },
-        { "ru": "Техническая экспертиза — наши инженеры помогают оценить продукт и задать нужные вопросы", "en": "Technical expertise — our engineers help evaluate products and ask the right questions" },
-        { "ru": "Перевод и сопровождение — логистика, переводчики, организация встреч", "en": "Translation and support — logistics, interpreters, meeting arrangements" },
-        { "ru": "Контакты для сделок — прямые выходы на закупки, дистрибуцию и партнёрство", "en": "Deal contacts — direct lines to procurement, distribution and partnership" }
+        {
+          "ru": "Экскурсии по производствам — сборочные линии, цеха и лаборатории лидеров индустрии",
+          "en": "Production tours — assembly lines, workshops and labs of industry leaders"
+        },
+        {
+          "ru": "Демонстрации технологий — живые демо гуманоидов и сервисных роботов",
+          "en": "Technology demos — live demonstrations of humanoid and service robots"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом — встречи с основателями и руководителями",
+          "en": "Talks with top management — meetings with founders and executives"
+        },
+        {
+          "ru": "Техническая экспертиза — наши инженеры помогают оценить продукт и задать нужные вопросы",
+          "en": "Technical expertise — our engineers help evaluate products and ask the right questions"
+        },
+        {
+          "ru": "Перевод и сопровождение — логистика, переводчики, организация встреч",
+          "en": "Translation and support — logistics, interpreters, meeting arrangements"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на закупки, дистрибуцию и партнёрство",
+          "en": "Deal contacts — direct lines to procurement, distribution and partnership"
+        }
       ],
       "advantages": [
-        { "ru": "Минимум переездов — компании сгруппированы по технопаркам внутри городов", "en": "Minimal transfers — companies grouped by tech parks within each city" },
-        { "ru": "Логичная география — север → центр → юг Китая, Пекин · Шанхай · Шэньчжэнь одним движением", "en": "Logical geography — north → centre → south, Beijing · Shanghai · Shenzhen in one sweep" },
-        { "ru": "Максимум топ-компаний — 12 лидеров индустрии за одну поездку", "en": "Maximum of top companies — 12 industry leaders in a single trip" },
-        { "ru": "Баланс времени — плотная, но комфортная программа без спешки и простоев", "en": "Balanced pace — dense but comfortable, no rush and no idle time" }
+        {
+          "ru": "Минимум переездов — компании сгруппированы по технопаркам внутри городов",
+          "en": "Minimal transfers — companies grouped by tech parks within each city"
+        },
+        {
+          "ru": "Логичная география — север → центр → юг Китая, Пекин · Шанхай · Шэньчжэнь одним движением",
+          "en": "Logical geography — north → centre → south, Beijing · Shanghai · Shenzhen in one sweep"
+        },
+        {
+          "ru": "Максимум топ-компаний — 12 лидеров индустрии за одну поездку",
+          "en": "Maximum of top companies — 12 industry leaders in a single trip"
+        },
+        {
+          "ru": "Баланс времени — плотная, но комфортная программа без спешки и простоев",
+          "en": "Balanced pace — dense but comfortable, no rush and no idle time"
+        }
       ],
       "why_vs_self": {
-        "self_ru": ["Заводы не отвечают на «холодные» запросы от незнакомых компаний", "Языковой барьер и разница в деловой культуре", "Хаотичная логистика между городами и хабами", "Недели переписки ради одной встречи"],
-        "self_en": ["Factories ignore cold outreach from unknown companies", "Language barrier and business-culture gap", "Chaotic logistics between cities and hubs", "Weeks of correspondence for a single meeting"],
-        "with_us_ru": ["Подтверждённые визиты к 12 лидерам за одну поездку", "Перевод и техническая экспертиза на каждой встрече", "Продуманная логистика: север → центр → юг Китая", "Готовая программа «под ключ» за 5 дней"],
-        "with_us_en": ["Confirmed visits to 12 leaders in one trip", "Translation and technical expertise at every meeting", "Thought-through logistics: north → centre → south", "Turnkey program in 5 days"]
+        "self_ru": [
+          "Заводы не отвечают на «холодные» запросы от незнакомых компаний",
+          "Языковой барьер и разница в деловой культуре",
+          "Хаотичная логистика между городами и хабами",
+          "Недели переписки ради одной встречи"
+        ],
+        "self_en": [
+          "Factories ignore cold outreach from unknown companies",
+          "Language barrier and business-culture gap",
+          "Chaotic logistics between cities and hubs",
+          "Weeks of correspondence for a single meeting"
+        ],
+        "with_us_ru": [
+          "Подтверждённые визиты к 12 лидерам за одну поездку",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Продуманная логистика: север → центр → юг Китая",
+          "Готовая программа «под ключ» за 5 дней"
+        ],
+        "with_us_en": [
+          "Confirmed visits to 12 leaders in one trip",
+          "Translation and technical expertise at every meeting",
+          "Thought-through logistics: north → centre → south",
+          "Turnkey program in 5 days"
+        ]
       },
       "pricing": {
         "currency": "RUB",
         "basis_ru": "на одного участника",
         "basis_en": "per participant",
         "items": [
-          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 суток, отели 5 звёзд × 15 000 руб.", "calc_en": "6 nights, 5-star hotels × 15,000 RUB", "amount": 90000 },
-          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "6 суток (обед / ужин)", "calc_en": "6 days (lunch / dinner)", "amount": 50000 },
-          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "6 суток: автобус по городу, перелёты между городами, такси, встреча / проводы в аэропорту", "calc_en": "6 days: city bus, inter-city flights, taxi, airport transfers", "amount": 50000 },
-          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, лекции, прямые контакты с производителями", "calc_en": "Escort and interpreter services, site visits, lectures, direct contacts with manufacturers", "amount": 310000 }
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 суток, отели 5 звёзд × 15 000 руб.",
+            "calc_en": "6 nights, 5-star hotels × 15,000 RUB",
+            "amount": 90000
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "6 суток (обед / ужин)",
+            "calc_en": "6 days (lunch / dinner)",
+            "amount": 50000
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "6 суток: автобус по городу, перелёты между городами, такси, встреча / проводы в аэропорту",
+            "calc_en": "6 days: city bus, inter-city flights, taxi, airport transfers",
+            "amount": 50000
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, лекции, прямые контакты с производителями",
+            "calc_en": "Escort and interpreter services, site visits, lectures, direct contacts with manufacturers",
+            "amount": 310000
+          }
         ],
         "total_excl_flights": 500000,
         "total_label_ru": "ИТОГО (без авиаперелёта)",
         "total_label_en": "TOTAL (excl. flights)",
         "extras": [
-          { "title_ru": "Авиабилеты", "title_en": "Flights", "calc_ru": "Москва — Пекин — Шэньчжэнь / Гонконг — Москва", "calc_en": "Moscow — Beijing — Shenzhen / Hong Kong — Moscow", "amount": 80000, "note_ru": "Ориентировочная стоимость", "note_en": "Estimated" }
+          {
+            "title_ru": "Авиабилеты",
+            "title_en": "Flights",
+            "calc_ru": "Москва — Пекин — Шэньчжэнь / Гонконг — Москва",
+            "calc_en": "Moscow — Beijing — Shenzhen / Hong Kong — Moscow",
+            "amount": 80000,
+            "note_ru": "Ориентировочная стоимость",
+            "note_en": "Estimated"
+          }
         ]
       },
       "market_note_ru": "Китай — мировой центр робототехники: ~86% мирового рынка роботов.",
@@ -153,13 +269,24 @@
       "tagline_en": "Baidu · Alibaba · Tencent · Huawei",
       "positioning_ru": "Визиты к девяти технологическим гигантам Китая в четырёх городах — от поиска и ИИ до e-commerce, смартфонов и телекома.",
       "positioning_en": "Visits to nine of China's technology giants across four cities — from search and AI to e-commerce, smartphones and telecom.",
-      "stats": { "cities": 4, "days": 5, "nights": 6, "companies": 9, "flights": 2 },
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 9,
+        "flights": 2
+      },
       "route_strategy": "beijing-hangzhou-shanghai-shenzhen",
       "arrival_ru": "Пекин (перелёт Москва → Пекин)",
       "arrival_en": "Beijing (Moscow → Beijing)",
       "departure_ru": "Шэньчжэнь (→ Москва)",
       "departure_en": "Shenzhen (→ Moscow)",
-      "route_cities": ["beijing", "hangzhou", "shanghai", "shenzhen"],
+      "route_cities": [
+        "beijing",
+        "hangzhou",
+        "shanghai",
+        "shenzhen"
+      ],
       "itinerary": [
         {
           "day": 1,
@@ -169,7 +296,10 @@
           "area_ru": "Пекин",
           "area_en": "Beijing",
           "time": "10:00–13:00",
-          "companies": ["baidu", "xiaomi"],
+          "companies": [
+            "baidu",
+            "xiaomi"
+          ],
           "transfer_ru": "✈ Вечером перелёт → Ханчжоу",
           "transfer_en": "✈ Evening flight → Hangzhou"
         },
@@ -181,7 +311,10 @@
           "area_ru": "Ханчжоу",
           "area_en": "Hangzhou",
           "time": "10:00–13:00",
-          "companies": ["alibaba", "unitree"],
+          "companies": [
+            "alibaba",
+            "unitree"
+          ],
           "leg_mode": "flight",
           "transfer_ru": "Вечером переезд в Шанхай (поезд)",
           "transfer_en": "Evening transfer to Shanghai (train)"
@@ -194,7 +327,10 @@
           "area_ru": "Шанхай",
           "area_en": "Shanghai",
           "time": "10:00–13:00",
-          "companies": ["meituan", "xiaohongshu-red"],
+          "companies": [
+            "meituan",
+            "xiaohongshu-red"
+          ],
           "leg_mode": "train",
           "note_ru": "Ночёвка в Шанхае",
           "note_en": "Overnight in Shanghai"
@@ -207,7 +343,9 @@
           "area_ru": "Наньшань",
           "area_en": "Nanshan",
           "time": "14:00–16:00",
-          "companies": ["tencent"],
+          "companies": [
+            "tencent"
+          ],
           "leg_mode": "flight",
           "transfer_ru": "✈ Утро четверга — перелёт из Шанхая в Шэньчжэнь",
           "transfer_en": "✈ Thursday morning — flight from Shanghai to Shenzhen"
@@ -220,28 +358,77 @@
           "area_ru": "Наньшань",
           "area_en": "Nanshan",
           "time": "10:00–13:00",
-          "companies": ["huawei", "ubtech"],
+          "companies": [
+            "huawei",
+            "ubtech"
+          ],
           "note_ru": "Завершение экспедиции",
           "note_en": "End of the expedition"
         }
       ],
       "includes": [
-        { "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы", "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program" },
-        { "ru": "Питание — обед и ужин ежедневно", "en": "Meals — daily lunch and dinner" },
-        { "ru": "Полная навигация — внутренние перелёты, трансферы между городами, встреча и проводы в аэропорту", "en": "Full navigation — domestic flights, inter-city transfers, airport pickup and drop-off" },
-        { "ru": "Переговоры с топ-менеджментом девяти компаний — Baidu, Xiaomi, Alibaba, Unitree, Meituan, RedNote, Tencent, Huawei, UBTech", "en": "Talks with top management at nine companies — Baidu, Xiaomi, Alibaba, Unitree, Meituan, RedNote, Tencent, Huawei, UBTech" },
-        { "ru": "Перевод и сопровождение на каждой встрече", "en": "Translation and support at every meeting" },
-        { "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию", "en": "Deal contacts — direct lines to partnership and distribution" }
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flights, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом девяти компаний — Baidu, Xiaomi, Alibaba, Unitree, Meituan, RedNote, Tencent, Huawei, UBTech",
+          "en": "Talks with top management at nine companies — Baidu, Xiaomi, Alibaba, Unitree, Meituan, RedNote, Tencent, Huawei, UBTech"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию",
+          "en": "Deal contacts — direct lines to partnership and distribution"
+        }
       ],
       "pricing": {
         "currency": "RUB",
         "basis_ru": "на одного участника",
         "basis_en": "per participant",
         "items": [
-          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 ночей, отели 5 звёзд", "calc_en": "6 nights, 5-star hotels", "amount": null },
-          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "5 дней (обед / ужин)", "calc_en": "5 days (lunch / dinner)", "amount": null },
-          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "Внутренние перелёты, трансферы между городами, такси, встреча / проводы в аэропорту", "calc_en": "Domestic flights, inter-city transfers, taxi, airport transfers", "amount": null },
-          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством", "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership", "amount": null }
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренние перелёты, трансферы между городами, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flights, inter-city transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
         ],
         "total_excl_flights": null,
         "total_label_ru": "Стоимость уточняется",
@@ -273,13 +460,24 @@
       "tagline_en": "Chagee · Luckin · HeyTea · Nayuki",
       "positioning_ru": "Визиты к девяти лидерам нового чая и спешелти-кофе в четырёх городах — от штаб-квартир до публичных флагманов.",
       "positioning_en": "Visits to nine leaders of China's new-tea and specialty-coffee retail across four cities — from headquarters to public flagship stores.",
-      "stats": { "cities": 4, "days": 5, "nights": 6, "companies": 9, "flights": 1 },
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 9,
+        "flights": 1
+      },
       "route_strategy": "shanghai-xiamen-shenzhen-guangzhou",
       "arrival_ru": "Шанхай (вечерний прилёт, Pudong / Hongqiao)",
       "arrival_en": "Shanghai (evening arrival, Pudong / Hongqiao)",
       "departure_ru": "Гуанчжоу (вылет из аэропорта Baiyun)",
       "departure_en": "Guangzhou (departure from Baiyun airport)",
-      "route_cities": ["shanghai", "xiamen", "shenzhen", "guangzhou"],
+      "route_cities": [
+        "shanghai",
+        "xiamen",
+        "shenzhen",
+        "guangzhou"
+      ],
       "itinerary": [
         {
           "day": 1,
@@ -289,7 +487,11 @@
           "area_ru": "North Bund и центр Шанхая",
           "area_en": "North Bund and central Shanghai",
           "time": "10:00–16:00",
-          "companies": ["chagee", "manner-coffee", "m-stand"],
+          "companies": [
+            "chagee",
+            "manner-coffee",
+            "m-stand"
+          ],
           "note_ru": "Блок «Новый премиум-чай и спешелти-кофе»",
           "note_en": "Block: premium new-tea and specialty coffee"
         },
@@ -301,7 +503,10 @@
           "area_ru": "Шанхай",
           "area_en": "Shanghai",
           "time": "10:00–13:00",
-          "companies": ["coco-tea", "alittle-tea"],
+          "companies": [
+            "coco-tea",
+            "alittle-tea"
+          ],
           "note_ru": "Ночёвка в Шанхае",
           "note_en": "Overnight in Shanghai"
         },
@@ -313,7 +518,9 @@
           "area_ru": "Siming District",
           "area_en": "Siming District",
           "time": "14:00–16:00",
-          "companies": ["luckin-coffee"],
+          "companies": [
+            "luckin-coffee"
+          ],
           "leg_mode": "flight",
           "transfer_ru": "✈ Утром — перелёт Шанхай → Сямынь (~2 ч)",
           "transfer_en": "✈ Morning — flight Shanghai → Xiamen (~2h)"
@@ -326,7 +533,10 @@
           "area_ru": "Наньшань",
           "area_en": "Nanshan",
           "time": "15:00–18:00",
-          "companies": ["heytea", "nayuki"],
+          "companies": [
+            "heytea",
+            "nayuki"
+          ],
           "leg_mode": "train",
           "transfer_ru": "🚄 Утром — скоростной поезд Сямынь → Шэньчжэнь (~3,5 ч)",
           "transfer_en": "🚄 Morning — high-speed train Xiamen → Shenzhen (~3.5h)"
@@ -339,29 +549,77 @@
           "area_ru": "Гуанчжоу",
           "area_en": "Guangzhou",
           "time": "10:00–12:00",
-          "companies": ["wang-lao-ji"],
+          "companies": [
+            "wang-lao-ji"
+          ],
           "leg_mode": "train",
           "transfer_ru": "🚄 Утром — поезд Шэньчжэнь → Гуанчжоу (~30–40 мин). Завершение программы.",
           "transfer_en": "🚄 Morning — train Shenzhen → Guangzhou (~30–40 min). End of the program."
         }
       ],
       "includes": [
-        { "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы", "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program" },
-        { "ru": "Питание — обед и ужин ежедневно", "en": "Meals — daily lunch and dinner" },
-        { "ru": "Полная навигация — внутренние перелёты, поезда, трансферы между городами, встреча и проводы в аэропорту", "en": "Full navigation — domestic flights, trains, inter-city transfers, airport pickup and drop-off" },
-        { "ru": "Переговоры с топ-менеджментом девяти брендов — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji", "en": "Talks with top management at nine brands — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji" },
-        { "ru": "Перевод и сопровождение на каждой встрече", "en": "Translation and support at every meeting" },
-        { "ru": "Контакты для сделок — прямые выходы на франчайзинг и дистрибуцию", "en": "Deal contacts — direct lines to franchising and distribution" }
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, поезда, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flights, trains, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом девяти брендов — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji",
+          "en": "Talks with top management at nine brands — Chagee, Manner Coffee, M Stand, CoCo, ALittle Tea, Luckin Coffee, HeyTea, Nayuki, Wang Lao Ji"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на франчайзинг и дистрибуцию",
+          "en": "Deal contacts — direct lines to franchising and distribution"
+        }
       ],
       "pricing": {
         "currency": "RUB",
         "basis_ru": "на одного участника",
         "basis_en": "per participant",
         "items": [
-          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 ночей, отели 5 звёзд", "calc_en": "6 nights, 5-star hotels", "amount": null },
-          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "5 дней (обед / ужин)", "calc_en": "5 days (lunch / dinner)", "amount": null },
-          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "Внутренний перелёт, скоростные поезда, трансферы, такси, встреча / проводы в аэропорту", "calc_en": "Domestic flight, high-speed trains, transfers, taxi, airport transfers", "amount": null },
-          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством", "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership", "amount": null }
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренний перелёт, скоростные поезда, трансферы, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flight, high-speed trains, transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
         ],
         "total_excl_flights": null,
         "total_label_ru": "Стоимость уточняется",
@@ -393,13 +651,23 @@
       "tagline_en": "Pechoin · PROYA · Mao Geping · Yatsen",
       "positioning_ru": "Визиты к десяти лидерам индустрии красоты и anti-age в трёх городах — от наследных травяных брендов до люксового макияжа и R&D новых технологий.",
       "positioning_en": "Visits to ten leaders of China's beauty and anti-age industry across three cities — from heritage herbal brands to luxury makeup and new-technology R&D.",
-      "stats": { "cities": 3, "days": 5, "nights": 6, "companies": 10, "flights": 1 },
+      "stats": {
+        "cities": 3,
+        "days": 5,
+        "nights": 6,
+        "companies": 10,
+        "flights": 1
+      },
       "route_strategy": "shanghai-hangzhou-guangzhou",
       "arrival_ru": "Шанхай (вечерний прилёт, Pudong / Hongqiao)",
       "arrival_en": "Shanghai (evening arrival, Pudong / Hongqiao)",
       "departure_ru": "Гуанчжоу (вылет из аэропорта Baiyun)",
       "departure_en": "Guangzhou (departure from Baiyun airport)",
-      "route_cities": ["shanghai", "hangzhou", "guangzhou"],
+      "route_cities": [
+        "shanghai",
+        "hangzhou",
+        "guangzhou"
+      ],
       "itinerary": [
         {
           "day": 1,
@@ -409,7 +677,10 @@
           "area_ru": "Наследие и травяная косметика",
           "area_en": "Heritage and herbal cosmetics",
           "time": "10:00–13:00",
-          "companies": ["pechoin", "chando"],
+          "companies": [
+            "pechoin",
+            "chando"
+          ],
           "note_ru": "Опционально: R&D-центры (Yatsen Global Innovation R&D, Botanee Shanghai) — по согласованию",
           "note_en": "Optional: R&D centers (Yatsen Global Innovation R&D, Botanee Shanghai) — subject to confirmation"
         },
@@ -421,7 +692,10 @@
           "area_ru": "Премиум-уход и новые бренды",
           "area_en": "Premium skincare and new brands",
           "time": "10:00–13:00",
-          "companies": ["linqingxuan", "kans"],
+          "companies": [
+            "linqingxuan",
+            "kans"
+          ],
           "note_ru": "Ночёвка в Шанхае",
           "note_en": "Overnight in Shanghai"
         },
@@ -433,7 +707,10 @@
           "area_ru": "Лидеры рынка и эстетика",
           "area_en": "Market leaders and aesthetics",
           "time": "10:00–13:00",
-          "companies": ["proya", "florasis"],
+          "companies": [
+            "proya",
+            "florasis"
+          ],
           "leg_mode": "train",
           "transfer_ru": "🚄 Утром — скоростной поезд Шанхай → Ханчжоу (~1 ч)",
           "transfer_en": "🚄 Morning — high-speed train Shanghai → Hangzhou (~1h)"
@@ -446,7 +723,10 @@
           "area_ru": "Люкс-макияж и наука anti-age",
           "area_en": "Luxury makeup and anti-age science",
           "time": "10:00–13:00",
-          "companies": ["mao-geping", "kylin-way"],
+          "companies": [
+            "mao-geping",
+            "kylin-way"
+          ],
           "transfer_ru": "✈ Вечером — перелёт в Гуанчжоу (~2,5 ч)",
           "transfer_en": "✈ Evening — flight to Guangzhou (~2.5h)"
         },
@@ -458,29 +738,78 @@
           "area_ru": "DTC-бьюти и декоративный макияж",
           "area_en": "DTC beauty and decorative makeup",
           "time": "10:00–13:00",
-          "companies": ["yatsen", "carslan"],
+          "companies": [
+            "yatsen",
+            "carslan"
+          ],
           "leg_mode": "flight",
           "note_ru": "Завершение программы",
           "note_en": "End of the program"
         }
       ],
       "includes": [
-        { "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы", "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program" },
-        { "ru": "Питание — обед и ужин ежедневно", "en": "Meals — daily lunch and dinner" },
-        { "ru": "Полная навигация — внутренний перелёт, скоростной поезд, трансферы между городами, встреча и проводы в аэропорту", "en": "Full navigation — domestic flight, high-speed train, inter-city transfers, airport pickup and drop-off" },
-        { "ru": "Переговоры с топ-менеджментом десяти брендов — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan", "en": "Talks with top management at ten brands — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan" },
-        { "ru": "Перевод и сопровождение на каждой встрече", "en": "Translation and support at every meeting" },
-        { "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию", "en": "Deal contacts — direct lines to partnership and distribution" }
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренний перелёт, скоростной поезд, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flight, high-speed train, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом десяти брендов — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan",
+          "en": "Talks with top management at ten brands — Pechoin, CHANDO, Linqingxuan, KANS, PROYA, Florasis, Mao Geping, Kylin Way, Yatsen, Carslan"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию",
+          "en": "Deal contacts — direct lines to partnership and distribution"
+        }
       ],
       "pricing": {
         "currency": "RUB",
         "basis_ru": "на одного участника",
         "basis_en": "per participant",
         "items": [
-          { "n": 1, "title_ru": "Проживание", "title_en": "Accommodation", "calc_ru": "6 ночей, отели 5 звёзд", "calc_en": "6 nights, 5-star hotels", "amount": null },
-          { "n": 2, "title_ru": "Организация питания", "title_en": "Meals", "calc_ru": "5 дней (обед / ужин)", "calc_en": "5 days (lunch / dinner)", "amount": null },
-          { "n": 3, "title_ru": "Транспортное сопровождение", "title_en": "Transport", "calc_ru": "Внутренний перелёт, скоростной поезд, трансферы, такси, встреча / проводы в аэропорту", "calc_en": "Domestic flight, high-speed train, transfers, taxi, airport transfers", "amount": null },
-          { "n": 4, "title_ru": "Организационный взнос участника экспедиции", "title_en": "Expedition participation fee", "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством", "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership", "amount": null }
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренний перелёт, скоростной поезд, трансферы, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flight, high-speed train, transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
         ],
         "total_excl_flights": null,
         "total_label_ru": "Стоимость уточняется",
@@ -489,6 +818,194 @@
       },
       "market_note_ru": "Ядро маршрута — коридор Шанхай–Ханчжоу (8 из 10 компаний), где переезды минимальны; Гуанчжоу подключается одним перелётом как южный бьюти-хаб.",
       "market_note_en": "The route's core is the Shanghai–Hangzhou corridor (8 of 10 companies), with minimal transfers; Guangzhou joins via a single flight as the southern beauty hub.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "china-auto-plants-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "auto",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Автопром и электромобили Китая",
+      "title_en": "China's Auto & EV Industry",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Xiaomi · NIO · Maextro · SAIC · GAC Aion · Xpeng",
+      "tagline_en": "Xiaomi · NIO · Maextro · SAIC · GAC Aion · Xpeng",
+      "positioning_ru": "Визиты на шесть автозаводов в четырёх городах — от смартфон-гиганта в автопроме до люксовых EV Huawei и умных заводов юга Китая.",
+      "positioning_en": "Visits to six auto plants across four cities — from a smartphone giant's EV factory to Huawei's ultra-luxury EVs and the smart factories of southern China.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 6,
+        "flights": 2
+      },
+      "route_strategy": "beijing-hefei-shanghai-guangzhou",
+      "arrival_ru": "Пекин (вечерний прилёт, Capital / Daxing)",
+      "arrival_en": "Beijing (evening arrival, Capital / Daxing)",
+      "departure_ru": "Гуанчжоу (вылет из аэропорта Baiyun)",
+      "departure_en": "Guangzhou (departure from Baiyun airport)",
+      "route_cities": [
+        "beijing",
+        "hefei",
+        "shanghai",
+        "guangzhou"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Смартфон-гигант в автопроме",
+          "area_en": "A smartphone giant in the auto industry",
+          "time": "10:00–13:00",
+          "companies": [
+            "xiaomi"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Пекин → Хэфэй (~2 ч)",
+          "transfer_en": "✈ Evening — flight Beijing → Hefei (~2h)"
+        },
+        {
+          "day": 2,
+          "city": "hefei",
+          "city_ru": "Хэфэй, день 1",
+          "city_en": "Hefei, day 1",
+          "area_ru": "Премиум-EV и замена батарей",
+          "area_en": "Premium EVs and battery swap",
+          "time": "10:00–13:00",
+          "companies": [
+            "nio"
+          ],
+          "note_ru": "Ночёвка в Хэфэе",
+          "note_en": "Overnight in Hefei"
+        },
+        {
+          "day": 3,
+          "city": "hefei",
+          "city_ru": "Хэфэй, день 2",
+          "city_en": "Hefei, day 2",
+          "area_ru": "Ультра-люкс и роботизация Huawei",
+          "area_en": "Ultra-luxury and Huawei robotics",
+          "time": "10:00–13:00",
+          "companies": [
+            "maextro"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Утром — скоростной поезд Хэфэй → Шанхай (~2–2,5 ч)",
+          "transfer_en": "🚄 Morning — high-speed train Hefei → Shanghai (~2–2.5h)"
+        },
+        {
+          "day": 4,
+          "city": "shanghai",
+          "city_ru": "Шанхай",
+          "city_en": "Shanghai",
+          "area_ru": "Крупнейший автоконцерн Китая",
+          "area_en": "China's largest automaker",
+          "time": "10:00–13:00",
+          "companies": [
+            "saic"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Шанхай → Гуанчжоу (~2,5 ч)",
+          "transfer_en": "✈ Evening — flight Shanghai → Guangzhou (~2.5h)"
+        },
+        {
+          "day": 5,
+          "city": "guangzhou",
+          "city_ru": "Гуанчжоу (финал)",
+          "city_en": "Guangzhou (finale)",
+          "area_ru": "Смарт-EV и автопилот",
+          "area_en": "Smart EVs and autonomous driving",
+          "time": "10:00–13:00",
+          "companies": [
+            "gac-aion",
+            "xpeng"
+          ],
+          "note_ru": "Завершение программы",
+          "note_en": "End of the program"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, скоростной поезд, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flights, high-speed train, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом шести заводов — Xiaomi, NIO, Maextro/JAC, SAIC, GAC Aion, Xpeng",
+          "en": "Talks with top management at six plants — Xiaomi, NIO, Maextro/JAC, SAIC, GAC Aion, Xpeng"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство и дистрибуцию",
+          "en": "Deal contacts — direct lines to partnership and distribution"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренние перелёты, скоростной поезд, трансферы между городами, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flights, high-speed train, inter-city transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Маршрут строго с севера на юг, без обратных переездов; Хэфэй заложен на 2 дня под один завод — премиальный темп с полноценным туром по производству, R&D и презентацией.",
+      "market_note_en": "The route runs strictly north to south with no backtracking; Hefei gets two days for a single plant — a premium pace with a full production, R&D and presentation tour.",
       "contact": {
         "name_ru": "Остап Доценко",
         "name_en": "Ostap Dotsenko",
