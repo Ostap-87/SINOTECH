@@ -100,7 +100,7 @@ export function Home() {
         )}
       </div>
     </section>
-    <div className="mt-[38px]">
+    <div className="mt-[-57px]">
       <BrandMarquee />
     </div>
     </>
