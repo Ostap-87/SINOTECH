@@ -38,7 +38,7 @@ export function Home() {
       </div>
 
       <div
-        className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24"
+        className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pb-16 pt-[26px] lg:pb-24 lg:pt-[58px]"
         style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
       >
         {isChina ? (
@@ -53,8 +53,8 @@ export function Home() {
             </h1>
             <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
               {locale === 'ru'
-                ? 'Sinotech Voyage · by Aura Robotics — закрытые визиты на производства лидеров индустрии Китая.'
-                : 'Sinotech Voyage · by Aura Robotics — private visits to the production sites of China’s industry leaders.'}
+                ? 'Наш каталог состоит из более чем 350 компаний и 17 отраслей — решайте, взять готовый тур или собрать свой.'
+                : 'Our catalogue holds over 350 companies across 17 sectors — take a ready-made tour or build your own.'}
             </p>
 
             <div className="pointer-events-auto mt-10 flex flex-wrap gap-3">
