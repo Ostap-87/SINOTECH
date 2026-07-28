@@ -67,30 +67,30 @@ export function DatePicker({
   ]
 
   return (
-    <div className="w-fit rounded-2xl border border-black/10 bg-surface/40 p-4">
+    <div className="w-full rounded-2xl border border-black/10 bg-surface/40 p-6">
       <div className="flex items-center justify-between">
         <button
           type="button"
           onClick={() => setViewMonth(new Date(viewMonth.getFullYear(), viewMonth.getMonth() - 1, 1))}
-          className="flex h-7 w-7 items-center justify-center rounded-full text-ash-gray transition-colors hover:bg-black/5 hover:text-bone-white"
+          className="flex h-9 w-9 items-center justify-center rounded-full text-ash-gray transition-colors hover:bg-black/5 hover:text-bone-white"
           aria-label="Previous month"
         >
-          <ChevronLeft size={14} />
+          <ChevronLeft size={18} />
         </button>
-        <p className="text-sm font-medium text-bone-white">
+        <p className="text-base font-medium text-bone-white">
           {monthLabels[viewMonth.getMonth()]} {viewMonth.getFullYear()}
         </p>
         <button
           type="button"
           onClick={() => setViewMonth(new Date(viewMonth.getFullYear(), viewMonth.getMonth() + 1, 1))}
-          className="flex h-7 w-7 items-center justify-center rounded-full text-ash-gray transition-colors hover:bg-black/5 hover:text-bone-white"
+          className="flex h-9 w-9 items-center justify-center rounded-full text-ash-gray transition-colors hover:bg-black/5 hover:text-bone-white"
           aria-label="Next month"
         >
-          <ChevronRight size={14} />
+          <ChevronRight size={18} />
         </button>
       </div>
 
-      <div className="mt-3 grid grid-cols-7 gap-1 text-center text-xs text-ash-gray">
+      <div className="mt-4 grid grid-cols-7 gap-2 text-center text-sm text-ash-gray">
         {weekdayLabels.map((label) => (
           <div key={label} className="py-1">
             {label}
@@ -98,7 +98,7 @@ export function DatePicker({
         ))}
       </div>
 
-      <div className="grid grid-cols-7 gap-1">
+      <div className="grid grid-cols-7 gap-2">
         {cells.map((date, i) => {
           if (!date) return <div key={`blank-${i}`} />
           const disabled = date < today
@@ -111,7 +111,7 @@ export function DatePicker({
               data-date={toDateKey(date)}
               disabled={disabled}
               onClick={() => onChange(date)}
-              className={`flex h-8 w-8 items-center justify-center rounded-full text-sm transition-colors ${
+              className={`flex aspect-square w-full items-center justify-center rounded-full text-base transition-colors ${
                 disabled
                   ? 'cursor-not-allowed text-ash-gray/30'
                   : isStart

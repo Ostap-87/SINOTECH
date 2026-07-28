@@ -338,7 +338,7 @@ export function Constructor() {
         </div>
 
         <div
-          className="pointer-events-none relative z-10 mx-auto min-h-[560px] max-w-2xl px-6 pt-24 pb-16 text-center lg:min-h-[640px]"
+          className="pointer-events-none relative z-10 mx-auto min-h-[560px] max-w-2xl px-6 pt-24 pb-2 text-center lg:min-h-[640px]"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
@@ -395,8 +395,8 @@ export function Constructor() {
 
       <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
       {config && (
-        <RevealSection ref={step2Ref} className="mx-auto mt-16 max-w-4xl scroll-mt-40">
-        <div className="mx-auto max-w-md text-center">
+        <RevealSection ref={step2Ref} className="mx-auto mt-[30px] max-w-4xl scroll-mt-40">
+        <div className="mx-auto max-w-2xl px-6 text-center">
           <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
             {locale === 'ru' ? '1. Выберите дату начала' : '1. Choose a start date'}
           </h2>
@@ -405,7 +405,7 @@ export function Constructor() {
               ? `Программа длится ${config.days} ${config.days === 2 ? 'дня' : 'дней'} — конечная дата рассчитается автоматически.`
               : `The program runs ${config.days} days — the end date is calculated automatically.`}
           </p>
-          <div className="mt-4 flex justify-center">
+          <div className="mt-4">
             <DatePicker value={startDate} onChange={setStartDate} tripDays={config.days} />
           </div>
           {startDate && endDate && (
@@ -415,7 +415,7 @@ export function Constructor() {
           <h2 className="mt-10 text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
             {locale === 'ru' ? '2. Количество человек' : '2. Number of people'}
           </h2>
-          <div className="mx-auto mt-4 flex w-fit items-center gap-4 rounded-2xl border border-black/10 bg-surface/40 px-5 py-3">
+          <div className="mt-4 flex w-full items-center justify-center gap-4 rounded-2xl border border-black/10 bg-surface/40 px-5 py-3">
             <button
               type="button"
               onClick={() => setPeopleCount((n) => Math.max(1, n - 1))}
