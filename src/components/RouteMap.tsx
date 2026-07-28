@@ -351,8 +351,14 @@ function buildLegTargets(
       box = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
     }
 
-    const labels = [{ x: x1, y: y1, text: prevStop.cityLabel }]
-    if (stop.cityId !== prevStop.cityId) labels.push({ x: x2, y: y2, text: stop.cityLabel })
+    // Always label the stop we're actually arriving at — the departure
+    // label only joins it for a genuine inter-city leg; a same-city stop
+    // (e.g. two days running in the same host city) must show its own
+    // label, not the previous day's.
+    const labels =
+      stop.cityId !== prevStop.cityId
+        ? [{ x: x1, y: y1, text: prevStop.cityLabel }, { x: x2, y: y2, text: stop.cityLabel }]
+        : [{ x: x2, y: y2, text: stop.cityLabel }]
 
     targets = [{ box, transitionMs: LEG_ZOOM_MS, holdMs: Infinity, labels }]
   }

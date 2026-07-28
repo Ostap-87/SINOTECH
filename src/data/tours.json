@@ -1205,6 +1205,251 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "shenzhen-moscow-industrial-mission-2026",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "government",
+      "status": "ready",
+      "published": false,
+      "start_date": "2026-09-14",
+      "title_ru": "Индустриально-технологическая миссия «Шэньчжэнь — Москва»",
+      "title_en": "Shenzhen–Moscow Industrial-Technology Mission",
+      "eyebrow_ru": "При поддержке государственных органов Гуандуна и Шэньчжэня",
+      "eyebrow_en": "Backed by Guangdong and Shenzhen government bodies",
+      "tagline_ru": "Двусторонний выход на внешние рынки, взаимная локализация",
+      "tagline_en": "Two-way market access, mutual localisation",
+      "positioning_ru": "Государственная индустриально-технологическая миссия в Шэньчжэне: конференция, визиты на производства и подготовленные B2B-переговоры с 35 китайскими компаниями в биомедицине, модульном строительстве, промышленной робототехнике и ИИ.",
+      "positioning_en": "A government-backed industrial-technology mission in Shenzhen: a conference, factory visits, and prepared B2B talks with 35 Chinese companies across biomedicine, modular construction, industrial robotics and AI.",
+      "stats": {
+        "cities": 1,
+        "days": 7,
+        "nights": 6,
+        "companies": 34,
+        "flights": 0
+      },
+      "route_strategy": "shenzhen",
+      "arrival_ru": "Шэньчжэнь, 14 сентября — прибытие делегации",
+      "arrival_en": "Shenzhen, September 14 — delegation arrival",
+      "departure_ru": "Шэньчжэнь, 20 сентября — отъезд делегации",
+      "departure_en": "Shenzhen, September 20 — delegation departure",
+      "route_cities": [
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 1",
+          "city_en": "Shenzhen, day 1",
+          "area_ru": "Прибытие делегации",
+          "area_en": "Delegation arrival",
+          "time": "14 сентября",
+          "companies": [],
+          "note_ru": "Прибытие российской делегации, размещение, организационный брифинг",
+          "note_en": "Russian delegation arrival, check-in, organisational briefing"
+        },
+        {
+          "day": 2,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 2",
+          "city_en": "Shenzhen, day 2",
+          "area_ru": "Конференция / форум",
+          "area_en": "Conference / forum",
+          "time": "15 сентября",
+          "companies": [],
+          "note_ru": "Официальное открытие, отраслевые сессии, презентация ОЭЗ «Технополис Москва», обсуждение торговли, локализации и совместных проектов",
+          "note_en": "Official opening, industry sessions, presentation of the Technopolis Moscow SEZ, discussion of trade, localisation and joint projects"
+        },
+        {
+          "day": 3,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 3",
+          "city_en": "Shenzhen, day 3",
+          "area_ru": "Посещение производств — роботы, ИИ-ПО, биомедицина",
+          "area_en": "Plant visits — robots, AI software, biomedicine",
+          "time": "16 сентября",
+          "companies": [
+            "ubtech",
+            "intellifusion",
+            "mindray",
+            "orbbec"
+          ],
+          "note_ru": "Визиты на предприятия промышленной робототехники, ИИ-ПО и биомедицины",
+          "note_en": "Visits to industrial robotics, AI software and biomedicine plants"
+        },
+        {
+          "day": 4,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 4",
+          "city_en": "Shenzhen, day 4",
+          "area_ru": "Посещение производств — модульное строительство, биомедицина, инфраструктура",
+          "area_en": "Plant visits — modular construction, biomedicine, infrastructure",
+          "time": "17 сентября",
+          "companies": [
+            "grandland",
+            "china-construction-science",
+            "bgi",
+            "bojiang-robotics"
+          ],
+          "note_ru": "Визиты на предприятия модульного строительства, биомедицины и промышленной инфраструктуры",
+          "note_en": "Visits to modular construction, biomedicine and industrial infrastructure plants"
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 5",
+          "city_en": "Shenzhen, day 5",
+          "area_ru": "B2B-встречи — биомедицина и строительство",
+          "area_en": "B2B meetings — biomedicine and construction",
+          "time": "18 сентября",
+          "companies": [
+            "xtalpi",
+            "edge-medical",
+            "mindray",
+            "bgi",
+            "salubris",
+            "sonoscape",
+            "aosa-pharma",
+            "lifotronic",
+            "antaiwei-biopharma",
+            "grandland",
+            "bauing",
+            "jianyi-decoration",
+            "huajian-holdings",
+            "bojiang-robotics",
+            "zhongtian-jingzhuang",
+            "ruihe-construction",
+            "mingdiao-decoration",
+            "china-construction-science",
+            "changjiang-tunnel"
+          ],
+          "note_ru": "Отраслевые переговоры с китайскими производителями, торговое и проектное сопряжение",
+          "note_en": "Industry talks with Chinese manufacturers, trade and project matchmaking"
+        },
+        {
+          "day": 6,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 6",
+          "city_en": "Shenzhen, day 6",
+          "area_ru": "B2B-встречи — робототехника и ИИ",
+          "area_en": "B2B meetings — robotics and AI",
+          "time": "19 сентября",
+          "companies": [
+            "ubtech",
+            "leadshine",
+            "zhaowei",
+            "hans-laser",
+            "orbbec",
+            "robosense",
+            "chuangjie-zhilian",
+            "topband",
+            "shugu",
+            "rabbitpre",
+            "intellifusion",
+            "insta360",
+            "afirstsoft",
+            "wanjiaan",
+            "smartmore"
+          ],
+          "note_ru": "Продолжение переговоров, фиксация намерений, обсуждение соглашений, закупок, локализации и пилотных проектов",
+          "note_en": "Continued talks, letters of intent, discussion of agreements, procurement, localisation and pilot projects"
+        },
+        {
+          "day": 7,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 7 (финал)",
+          "city_en": "Shenzhen, day 7 (finale)",
+          "area_ru": "Отъезд",
+          "area_en": "Departure",
+          "time": "20 сентября",
+          "companies": [],
+          "note_ru": "Завершение программы, отъезд российской делегации",
+          "note_en": "End of the program, Russian delegation departure"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "7 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "7 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — трансферы, встреча и проводы в аэропорту",
+          "en": "Full navigation — transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Участие в конференции и презентация ОЭЗ «Технополис Москва»",
+          "en": "Conference participation and a Technopolis Moscow SEZ presentation"
+        },
+        {
+          "ru": "Подготовленные B2B-переговоры с 35 китайскими компаниями — биомедицина, модульное строительство, промышленные роботы, ИИ-ПО",
+          "en": "Prepared B2B talks with 35 Chinese companies — biomedicine, modular construction, industrial robots, AI software"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство, закупки и локализацию",
+          "en": "Deal contacts — direct lines to partnership, procurement and localisation"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "7 дней (обед / ужин)",
+            "calc_en": "7 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Трансферы, такси, встреча / проводы в аэропорту",
+            "calc_en": "Transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника миссии",
+            "title_en": "Mission participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, участие в конференции, B2B-переговоры, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, conference participation, B2B meetings, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Государственная миссия при поддержке профильных органов провинции Гуандун и города Шэньчжэнь (состав уточняется) — конференция, два дня визитов на производства и два дня подготовленных B2B-переговоров с полным перечнем из 35 компаний по четырём направлениям.",
+      "market_note_en": "A government mission backed by Guangdong province and Shenzhen city bodies (roster to be confirmed) — a conference, two days of plant visits, and two days of prepared B2B talks with the full 35-company roster across four sectors.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }

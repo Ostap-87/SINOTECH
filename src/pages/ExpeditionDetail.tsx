@@ -180,11 +180,16 @@ export function ExpeditionDetail() {
                       </span>
                     ))}
                   </p>
-                  {(day.transfer_ru || day.note_ru) && (
-                    <p className="mt-2 text-xs text-electric-iris">
-                      {locale === 'ru' ? day.transfer_ru ?? day.note_ru : day.transfer_en ?? day.note_en}
-                    </p>
-                  )}
+                  {(() => {
+                    const d = day as unknown as {
+                      transfer_ru?: string
+                      transfer_en?: string
+                      note_ru?: string
+                      note_en?: string
+                    }
+                    const text = locale === 'ru' ? d.transfer_ru ?? d.note_ru : d.transfer_en ?? d.note_en
+                    return text && <p className="mt-2 text-xs text-electric-iris">{text}</p>
+                  })()}
                 </li>
               ))}
             </ol>
