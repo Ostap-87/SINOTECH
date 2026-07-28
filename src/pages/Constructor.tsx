@@ -395,11 +395,52 @@ export function Constructor() {
 
       <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
       {config && (
-        <RevealSection ref={step2Ref} className="mx-auto mt-16 max-w-4xl scroll-mt-24">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
+        <RevealSection ref={step2Ref} className="mx-auto mt-16 max-w-4xl scroll-mt-40">
+        <div className="mx-auto max-w-md text-center">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+            {locale === 'ru' ? '1. Выберите дату начала' : '1. Choose a start date'}
+          </h2>
+          <p className="mx-auto mt-2 max-w-sm text-xs text-ash-gray">
+            {locale === 'ru'
+              ? `Программа длится ${config.days} ${config.days === 2 ? 'дня' : 'дней'} — конечная дата рассчитается автоматически.`
+              : `The program runs ${config.days} days — the end date is calculated automatically.`}
+          </p>
+          <div className="mt-4 flex justify-center">
+            <DatePicker value={startDate} onChange={setStartDate} tripDays={config.days} />
+          </div>
+          {startDate && endDate && (
+            <p className="mt-3 text-sm text-bone-white">{formatDateRange(startDate, endDate, locale)}</p>
+          )}
+
+          <h2 className="mt-10 text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+            {locale === 'ru' ? '2. Количество человек' : '2. Number of people'}
+          </h2>
+          <div className="mx-auto mt-4 flex w-fit items-center gap-4 rounded-2xl border border-black/10 bg-surface/40 px-5 py-3">
+            <button
+              type="button"
+              onClick={() => setPeopleCount((n) => Math.max(1, n - 1))}
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
+              aria-label="Decrease"
+            >
+              −
+            </button>
+            <span className="w-8 text-center text-lg font-medium text-bone-white">{peopleCount}</span>
+            <button
+              type="button"
+              onClick={() => setPeopleCount((n) => Math.min(50, n + 1))}
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
+              aria-label="Increase"
+            >
+              +
+            </button>
+            <span className="text-sm text-ash-gray">{locale === 'ru' ? 'участников' : 'participants'}</span>
+          </div>
+        </div>
+
+        <div className="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-2">
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-              {locale === 'ru' ? '2. Выберите компании' : '2. Choose companies'}
+              {locale === 'ru' ? '3. Выберите компании' : '3. Choose companies'}
             </h2>
 
             <div className="mt-4 flex flex-col gap-3">
@@ -546,7 +587,7 @@ export function Constructor() {
 
         <div className="mt-10">
           <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-            {locale === 'ru' ? '3. Ваш список' : '3. Your list'}
+            {locale === 'ru' ? '4. Ваш список' : '4. Your list'}
           </h2>
           <div className="mt-4 rounded-2xl border border-black/10 bg-surface/40 p-5">
               <p className="text-sm text-silver-mist">
@@ -652,48 +693,7 @@ export function Constructor() {
           </ol>
 
           {stage === 'details' && (
-            <div className="mt-12 grid grid-cols-1 gap-10 text-left lg:grid-cols-2">
-              <div className="flex flex-col items-center text-center">
-                <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-                  {locale === 'ru' ? '3. Выберите дату начала' : '3. Choose a start date'}
-                </h2>
-                <p className="mt-2 max-w-sm text-xs text-ash-gray">
-                  {locale === 'ru'
-                    ? `Программа длится ${config.days} ${config.days === 2 ? 'дня' : 'дней'} — конечная дата рассчитается автоматически.`
-                    : `The program runs ${config.days} days — the end date is calculated automatically.`}
-                </p>
-                <div className="mt-4">
-                  <DatePicker value={startDate} onChange={setStartDate} tripDays={config.days} />
-                </div>
-                {startDate && endDate && (
-                  <p className="mt-3 text-sm text-bone-white">{formatDateRange(startDate, endDate, locale)}</p>
-                )}
-
-                <h2 className="mt-10 text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-                  {locale === 'ru' ? '4. Количество человек' : '4. Number of people'}
-                </h2>
-                <div className="mt-4 flex w-fit items-center gap-4 rounded-2xl border border-black/10 bg-surface/40 px-5 py-3">
-                  <button
-                    type="button"
-                    onClick={() => setPeopleCount((n) => Math.max(1, n - 1))}
-                    className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
-                    aria-label="Decrease"
-                  >
-                    −
-                  </button>
-                  <span className="w-8 text-center text-lg font-medium text-bone-white">{peopleCount}</span>
-                  <button
-                    type="button"
-                    onClick={() => setPeopleCount((n) => Math.min(50, n + 1))}
-                    className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
-                    aria-label="Increase"
-                  >
-                    +
-                  </button>
-                  <span className="text-sm text-ash-gray">{locale === 'ru' ? 'участников' : 'participants'}</span>
-                </div>
-              </div>
-
+            <div className="mt-12 text-left">
               <div className="mx-auto w-full max-w-sm">
                 <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                   {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
