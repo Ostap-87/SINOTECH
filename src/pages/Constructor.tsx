@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { Check, Plus, X } from 'lucide-react'
+import { Check, Download, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, getCity, getSector, companyNameZh } from '@/data'
 import type { Company } from '@/types/data'
@@ -9,6 +9,9 @@ import type { RouteMapStop } from '@/components/RouteMap'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { DatePicker } from '@/components/DatePicker'
+import { generateRequestPdf } from '@/lib/generateRequestPdf'
+import type { PdfDay } from '@/lib/generateRequestPdf'
 
 type FormatKey = '2' | '5'
 
@@ -64,6 +67,17 @@ function companyDisplayName(company: Company, locale: 'ru' | 'en'): string {
   return `${companyNameZh(company)} — ${city ? pick(city, 'name', locale) : company.city}`
 }
 
+// The generated PDF is set in a Latin/Cyrillic font (jsPDF has no CJK glyphs
+// embedded — that font would be several more megabytes), so PDF text uses
+// the English name only instead of leaving stray empty parentheses where
+// the Chinese name silently failed to render.
+function companyDisplayNamePlain(company: Company, locale: 'ru' | 'en'): string {
+  const separatorIndex = company.id.indexOf('__')
+  if (separatorIndex === -1) return company.name_en
+  const city = getCity(company.city)
+  return `${company.name_en} — ${city ? pick(city, 'name', locale) : company.city}`
+}
+
 // Distributes companies across days as evenly as possible (e.g. exactly 2+2
 // for the 2-day format's 4 meetings) instead of dumping everything into day
 // one whenever several selected companies share a city — sorting by city
@@ -85,6 +99,45 @@ function buildItinerary(companies: Company[], days: number): DayPlan[] {
   return plan
 }
 
+function addDays(date: Date, days: number): Date {
+  const next = new Date(date)
+  next.setDate(next.getDate() + days)
+  return next
+}
+
+function toIsoDate(date: Date): string {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
+
+function formatDate(date: Date, locale: 'ru' | 'en'): string {
+  return date.toLocaleDateString(locale === 'ru' ? 'ru-RU' : 'en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  })
+}
+
+function formatDateRange(start: Date, end: Date, locale: 'ru' | 'en'): string {
+  const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear()
+  const startLabel = start.toLocaleDateString(locale === 'ru' ? 'ru-RU' : 'en-US', {
+    day: 'numeric',
+    month: sameMonth ? undefined : 'long',
+  })
+  return `${startLabel} – ${formatDate(end, locale)}`
+}
+
+interface ContactForm {
+  companyName: string
+  name: string
+  phone: string
+  email: string
+  telegram: string
+}
+
+const EMPTY_CONTACT: ContactForm = { companyName: '', name: '', phone: '', email: '', telegram: '' }
+
+type WizardStage = 'select' | 'details' | 'done'
+
 export function Constructor() {
   const { locale } = useLanguage()
   const [searchParams] = useSearchParams()
@@ -99,7 +152,13 @@ export function Constructor() {
   )
   const [regionFilter, setRegionFilter] = useState<string>('all')
   const [search, setSearch] = useState('')
-  const [submitted, setSubmitted] = useState(false)
+
+  const [stage, setStage] = useState<WizardStage>('select')
+  const [startDate, setStartDate] = useState<Date | null>(null)
+  const [peopleCount, setPeopleCount] = useState(2)
+  const [contact, setContact] = useState<ContactForm>(EMPTY_CONTACT)
+  const [pdfUrl, setPdfUrl] = useState<string | null>(null)
+  const [generating, setGenerating] = useState(false)
 
   const config = format ? FORMAT_CONFIG[format] : null
 
@@ -138,7 +197,7 @@ export function Constructor() {
 
   function chooseFormat(key: FormatKey) {
     setFormat(key)
-    setSubmitted(false)
+    setStage('select')
     if (FORMAT_CONFIG[key].regionLocked) {
       // A fresh region choice is required for a locked format — any prior
       // selection may span regions that are no longer valid together.
@@ -171,6 +230,48 @@ export function Constructor() {
         companies: day.clusters.flatMap((cluster) => cluster.companies.map((c) => companyDisplayName(c, locale))),
       }
     })
+
+  const endDate = startDate && config ? addDays(startDate, config.days - 1) : null
+  const contactValid =
+    contact.companyName.trim().length > 0 &&
+    contact.name.trim().length > 0 &&
+    contact.phone.trim().length > 0 &&
+    /\S+@\S+\.\S+/.test(contact.email.trim())
+  const canFinalize = !!startDate && peopleCount >= 1 && contactValid
+
+  async function handleFinalSubmit() {
+    if (!config || !startDate || !canFinalize || generating) return
+    setGenerating(true)
+    try {
+      const pdfDays: PdfDay[] = itinerary.map((day) => ({
+        dayNumber: day.day,
+        date: formatDate(addDays(startDate, day.day - 1), locale),
+        clusters: day.clusters.map((cluster) => {
+          const city = getCity(cluster.cityId)
+          return {
+            cityLabel: city ? pick(city, 'name', locale) : cluster.cityId,
+            companyLines: cluster.companies.map((c) => companyDisplayNamePlain(c, locale)),
+          }
+        }),
+      }))
+
+      const blob = await generateRequestPdf({
+        locale,
+        tourTitle: locale === 'ru' ? 'Индивидуальная программа' : 'Custom program',
+        tripDays: config.days,
+        dateRangeLabel: formatDateRange(startDate, endDate!, locale),
+        peopleCount,
+        companyLines: selectedCompanies.map((c) => companyDisplayNamePlain(c, locale)),
+        itinerary: pdfDays,
+        contact,
+      })
+      const url = URL.createObjectURL(blob)
+      setPdfUrl(url)
+      setStage('done')
+    } finally {
+      setGenerating(false)
+    }
+  }
 
   return (
     <>
@@ -428,21 +529,21 @@ export function Constructor() {
               <button
                 type="button"
                 disabled={!canSubmit}
-                onClick={() => setSubmitted(true)}
+                onClick={() => setStage('details')}
                 className={`mt-6 w-full rounded-full px-6 py-3 text-sm font-medium transition-opacity ${
                   canSubmit
                     ? 'bg-electric-iris text-white hover:opacity-90'
                     : 'cursor-not-allowed bg-black/10 text-ash-gray'
                 }`}
               >
-                {locale === 'ru' ? 'Отправить заявку' : 'Submit request'}
+                {locale === 'ru' ? 'Далее' : 'Next'}
               </button>
             </div>
           </div>
         </div>
       )}
 
-      {submitted && config && (
+      {(stage === 'details' || stage === 'done') && config && (
         <div className="mt-16 border-t border-black/10 pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Предпросмотр' : 'Preview'}
@@ -469,6 +570,7 @@ export function Constructor() {
               <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4">
                 <p className="text-sm font-medium text-bone-white">
                   {locale === 'ru' ? 'День' : 'Day'} {day.day}
+                  {startDate && ` · ${formatDate(addDays(startDate, day.day - 1), locale)}`}
                 </p>
                 {day.clusters.length === 0 ? (
                   <p className="mt-1 text-xs text-ash-gray">
@@ -493,23 +595,149 @@ export function Constructor() {
             ))}
           </ol>
 
-          <div className="mt-8 rounded-2xl border border-electric-iris/40 bg-electric-iris/10 p-6">
-            <p className="text-sm font-medium text-bone-white">
-              {locale === 'ru' ? 'Заявка получена (демо)' : 'Request received (demo)'}
-            </p>
-            <p className="mt-2 text-sm text-silver-mist">
-              {locale === 'ru'
-                ? 'Форма с реальной отправкой на email и в Telegram появится позже. Пока оставьте контакт напрямую.'
-                : 'The form with real email/Telegram delivery lands later. For now, reach out directly.'}
-            </p>
-            <Link
-              to="/contacts"
-              onClick={(event) => goTo('/contacts', event)}
-              className="mt-4 inline-flex items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
-            >
-              {locale === 'ru' ? 'Перейти в контакты' : 'Go to contacts'}
-            </Link>
-          </div>
+          {stage === 'details' && (
+            <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-2">
+              <div>
+                <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {locale === 'ru' ? '3. Выберите дату начала' : '3. Choose a start date'}
+                </h2>
+                <p className="mt-2 max-w-sm text-xs text-ash-gray">
+                  {locale === 'ru'
+                    ? `Программа длится ${config.days} ${config.days === 2 ? 'дня' : 'дней'} — конечная дата рассчитается автоматически.`
+                    : `The program runs ${config.days} days — the end date is calculated automatically.`}
+                </p>
+                <div className="mt-4">
+                  <DatePicker value={startDate} onChange={setStartDate} tripDays={config.days} />
+                </div>
+                {startDate && endDate && (
+                  <p className="mt-3 text-sm text-bone-white">{formatDateRange(startDate, endDate, locale)}</p>
+                )}
+
+                <h2 className="mt-10 text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {locale === 'ru' ? '4. Количество человек' : '4. Number of people'}
+                </h2>
+                <div className="mt-4 flex w-fit items-center gap-4 rounded-2xl border border-black/10 bg-surface/40 px-5 py-3">
+                  <button
+                    type="button"
+                    onClick={() => setPeopleCount((n) => Math.max(1, n - 1))}
+                    className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
+                    aria-label="Decrease"
+                  >
+                    −
+                  </button>
+                  <span className="w-8 text-center text-lg font-medium text-bone-white">{peopleCount}</span>
+                  <button
+                    type="button"
+                    onClick={() => setPeopleCount((n) => Math.min(50, n + 1))}
+                    className="flex h-8 w-8 items-center justify-center rounded-full border border-black/15 text-bone-white transition-colors hover:border-electric-iris/60"
+                    aria-label="Increase"
+                  >
+                    +
+                  </button>
+                  <span className="text-sm text-ash-gray">{locale === 'ru' ? 'участников' : 'participants'}</span>
+                </div>
+              </div>
+
+              <div>
+                <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
+                </h2>
+                <div className="mt-4 flex flex-col gap-3">
+                  <input
+                    type="text"
+                    value={contact.companyName}
+                    onChange={(e) => setContact((c) => ({ ...c, companyName: e.target.value }))}
+                    placeholder={locale === 'ru' ? 'Название компании' : 'Company name'}
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+                  <input
+                    type="text"
+                    value={contact.name}
+                    onChange={(e) => setContact((c) => ({ ...c, name: e.target.value }))}
+                    placeholder={locale === 'ru' ? 'Имя' : 'Name'}
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+                  <input
+                    type="tel"
+                    value={contact.phone}
+                    onChange={(e) => setContact((c) => ({ ...c, phone: e.target.value }))}
+                    placeholder={locale === 'ru' ? 'Телефон' : 'Phone'}
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+                  <input
+                    type="email"
+                    value={contact.email}
+                    onChange={(e) => setContact((c) => ({ ...c, email: e.target.value }))}
+                    placeholder={locale === 'ru' ? 'Email' : 'Email'}
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+                  <input
+                    type="text"
+                    value={contact.telegram}
+                    onChange={(e) => setContact((c) => ({ ...c, telegram: e.target.value }))}
+                    placeholder="Telegram (@username)"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                  />
+                </div>
+
+                <button
+                  type="button"
+                  disabled={!canFinalize || generating}
+                  onClick={handleFinalSubmit}
+                  className={`mt-6 w-full rounded-full px-6 py-3 text-sm font-medium transition-opacity ${
+                    canFinalize && !generating
+                      ? 'bg-electric-iris text-white hover:opacity-90'
+                      : 'cursor-not-allowed bg-black/10 text-ash-gray'
+                  }`}
+                >
+                  {generating
+                    ? locale === 'ru'
+                      ? 'Формируем PDF…'
+                      : 'Generating PDF…'
+                    : locale === 'ru'
+                      ? 'Отправить заявку'
+                      : 'Submit request'}
+                </button>
+              </div>
+            </div>
+          )}
+
+          {stage === 'done' && (
+            <div className="mt-12 rounded-2xl border border-electric-iris/40 bg-electric-iris/10 p-6">
+              <p className="text-lg font-medium text-bone-white">
+                {locale === 'ru' ? 'Спасибо за заявку!' : 'Thank you for your request!'}
+              </p>
+              <p className="mt-2 max-w-xl text-sm text-silver-mist">
+                {locale === 'ru'
+                  ? 'PDF с программой и вашими данными сформирован — скачайте его ниже.'
+                  : "The program PDF with your details is ready — download it below."}
+              </p>
+              <p className="mt-2 max-w-xl text-xs text-ash-gray">
+                {locale === 'ru'
+                  ? 'Сайт пока статический: автоматическая отправка PDF на почту и сохранение заявки в CRM появятся, когда будет подключён email-сервис — свяжитесь с нами напрямую, чтобы мы получили заявку прямо сейчас.'
+                  : "The site is static for now: automatic emailing of the PDF and saving the request to a CRM will land once an email service is connected — reach out directly so we get your request right away."}
+              </p>
+              <div className="mt-5 flex flex-wrap gap-3">
+                {pdfUrl && (
+                  <a
+                    href={pdfUrl}
+                    download={`sinotech-voyage-request-${startDate ? toIsoDate(startDate) : 'draft'}.pdf`}
+                    className="inline-flex items-center gap-2 rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                  >
+                    <Download size={16} />
+                    {locale === 'ru' ? 'Скачать PDF' : 'Download PDF'}
+                  </a>
+                )}
+                <Link
+                  to="/contacts"
+                  onClick={(event) => goTo('/contacts', event)}
+                  className="inline-flex items-center justify-center rounded-full border border-black/15 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                >
+                  {locale === 'ru' ? 'Перейти в контакты' : 'Go to contacts'}
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
       )}
       </section>
