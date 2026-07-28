@@ -438,21 +438,21 @@ export function Constructor() {
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-2">
-          <div>
+          <div className="min-w-0">
             <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {locale === 'ru' ? '3. Выберите компании' : '3. Choose companies'}
             </h2>
 
-            <div className="mt-4 flex flex-col gap-3">
+            <div className="mt-4 flex min-w-0 flex-col gap-3">
               {config.regionLocked && (
-                <div>
+                <div className="min-w-0">
                   <label className="mb-1.5 block text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
                     {locale === 'ru' ? 'Регион (обязательно)' : 'Region (required)'}
                   </label>
                   <select
                     value={regionFilter}
                     onChange={(e) => chooseRegion(e.target.value)}
-                    className="w-fit rounded-xl border border-electric-iris/50 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
+                    className="w-full min-w-0 rounded-xl border border-electric-iris/50 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
                   >
                     <option value="all" disabled>
                       {locale === 'ru' ? 'Выберите регион…' : 'Choose a region…'}
@@ -510,7 +510,7 @@ export function Constructor() {
                     <select
                       value={regionFilter}
                       onChange={(e) => setRegionFilter(e.target.value)}
-                      className="w-fit rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
+                      className="w-full min-w-0 rounded-xl border border-black/10 bg-surface/40 px-4 py-2 text-sm text-bone-white focus:border-electric-iris/60 focus:outline-none"
                     >
                       <option value="all">{locale === 'ru' ? 'Все регионы' : 'All regions'}</option>
                       {companiesData.regions.map((region) => (
