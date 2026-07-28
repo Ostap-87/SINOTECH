@@ -664,7 +664,7 @@ export function Constructor() {
 
           <ol className="mt-8 space-y-4 text-left">
             {itinerary.map((day) => (
-              <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4">
+              <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4 text-center">
                 <p className="text-sm font-medium text-bone-white">
                   {locale === 'ru' ? 'День' : 'Day'} {day.day}
                   {startDate && ` · ${formatDate(addDays(startDate, day.day - 1), locale)}`}
@@ -694,7 +694,7 @@ export function Constructor() {
 
           {stage === 'details' && (
             <div className="mt-12 text-left">
-              <div className="mx-auto w-full max-w-4xl">
+              <div className="mx-auto w-full max-w-4xl text-center">
                 <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                   {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
                 </h2>
@@ -704,35 +704,35 @@ export function Constructor() {
                     value={contact.companyName}
                     onChange={(e) => setContact((c) => ({ ...c, companyName: e.target.value }))}
                     placeholder={locale === 'ru' ? 'Название компании' : 'Company name'}
-                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-center text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
                   />
                   <input
                     type="text"
                     value={contact.name}
                     onChange={(e) => setContact((c) => ({ ...c, name: e.target.value }))}
                     placeholder={locale === 'ru' ? 'Имя' : 'Name'}
-                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-center text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
                   />
                   <input
                     type="tel"
                     value={contact.phone}
                     onChange={(e) => setContact((c) => ({ ...c, phone: e.target.value }))}
                     placeholder={locale === 'ru' ? 'Телефон' : 'Phone'}
-                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-center text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
                   />
                   <input
                     type="email"
                     value={contact.email}
                     onChange={(e) => setContact((c) => ({ ...c, email: e.target.value }))}
                     placeholder={locale === 'ru' ? 'Email' : 'Email'}
-                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-center text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
                   />
                   <input
                     type="text"
                     value={contact.telegram}
                     onChange={(e) => setContact((c) => ({ ...c, telegram: e.target.value }))}
                     placeholder="Telegram (@username)"
-                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
+                    className="rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-center text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
                   />
                 </div>
 
