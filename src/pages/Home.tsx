@@ -7,6 +7,7 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { BrandMarquee } from '@/components/BrandMarquee'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function Home() {
   const { locale } = useLanguage()
@@ -45,8 +46,10 @@ export function Home() {
       >
         {isChina ? (
           <>
-            <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-              {locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}
+            <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+              <ShimmerText
+                text={locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}
+              />
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
               {locale === 'ru'
@@ -100,7 +103,7 @@ export function Home() {
         )}
       </div>
     </section>
-    <div className="mt-[-57px]">
+    <div className="mt-[-76px]">
       <BrandMarquee />
     </div>
     </>
