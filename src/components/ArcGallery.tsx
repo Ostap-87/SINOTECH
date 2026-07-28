@@ -17,21 +17,21 @@ interface Metrics {
 }
 
 const DESKTOP_METRICS: Metrics = {
-  radius: 340,
+  radius: 640,
   spread: 52,
   edgeScale: 0.16,
-  cardWidth: 150,
-  cardHeight: 200,
-  spacing: 168,
+  cardWidth: 300,
+  cardHeight: 400,
+  spacing: 340,
 }
 
 const MOBILE_METRICS: Metrics = {
-  radius: 170,
-  spread: 44,
+  radius: 230,
+  spread: 40,
   edgeScale: 0.16,
-  cardWidth: 96,
-  cardHeight: 128,
-  spacing: 100,
+  cardWidth: 140,
+  cardHeight: 187,
+  spacing: 160,
 }
 
 function useMetrics(breakpoint = 768): Metrics {
@@ -86,7 +86,7 @@ function cardTransform(index: number, mid: number, step: number, metrics: Metric
  * neighbours dim and shrink slightly — a card-fan interaction, not a
  * traditional slider.
  */
-export function ArcGallery({ items }: { items: ArcGalleryItem[] }) {
+export function ArcGallery({ items, onSelect }: { items: ArcGalleryItem[]; onSelect?: (item: ArcGalleryItem) => void }) {
   const metrics = useMetrics()
   const [assembled, setAssembled] = useState(false)
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
@@ -126,6 +126,7 @@ export function ArcGallery({ items }: { items: ArcGalleryItem[] }) {
             key={item.id}
             onMouseEnter={() => setHoveredIndex(i)}
             onMouseLeave={() => setHoveredIndex(null)}
+            onClick={() => onSelect?.(item)}
             className="absolute left-1/2 top-1/2 cursor-pointer overflow-hidden rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.18)]"
             style={{
               width: metrics.cardWidth,
@@ -140,9 +141,9 @@ export function ArcGallery({ items }: { items: ArcGalleryItem[] }) {
             }}
           >
             <div className="h-full w-full" style={{ background: item.gradient }} />
-            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-8">
-              <p className="text-xs font-semibold leading-tight text-white">{item.title}</p>
-              {item.subtitle && <p className="mt-0.5 text-[11px] leading-tight text-white/75">{item.subtitle}</p>}
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-4 pt-14">
+              <p className="text-base font-semibold leading-tight text-white">{item.title}</p>
+              {item.subtitle && <p className="mt-1 text-sm leading-tight text-white/75">{item.subtitle}</p>}
             </div>
           </div>
         )
