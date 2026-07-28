@@ -1,4 +1,5 @@
-import { useMemo, useRef, useState } from 'react'
+import { forwardRef, useEffect, useMemo, useRef, useState } from 'react'
+import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { Check, Download, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
@@ -138,12 +139,39 @@ const EMPTY_CONTACT: ContactForm = { companyName: '', name: '', phone: '', email
 
 type WizardStage = 'select' | 'details' | 'done'
 
+/** Fades + slides a freshly-mounted step into place instead of having it pop in abruptly. */
+const RevealSection = forwardRef<HTMLDivElement, { children: ReactNode; className?: string }>(
+  function RevealSection({ children, className = '' }, ref) {
+    const [visible, setVisible] = useState(false)
+    useEffect(() => {
+      const id = requestAnimationFrame(() => setVisible(true))
+      return () => cancelAnimationFrame(id)
+    }, [])
+    return (
+      <div
+        ref={ref}
+        className={className}
+        style={{
+          opacity: visible ? 1 : 0,
+          transform: visible ? 'translateY(0)' : 'translateY(18px)',
+          transition: 'opacity 0.6s ease-out, transform 0.6s ease-out',
+        }}
+      >
+        {children}
+      </div>
+    )
+  },
+)
+
 export function Constructor() {
   const { locale } = useLanguage()
   const [searchParams] = useSearchParams()
   const initialSector = searchParams.get('sector')
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  const step2Ref = useRef<HTMLDivElement>(null)
+  const previewRef = useRef<HTMLDivElement>(null)
 
   const [format, setFormat] = useState<FormatKey | null>(null)
   const [selectedIds, setSelectedIds] = useState<string[]>([])
@@ -161,6 +189,26 @@ export function Constructor() {
   const [generating, setGenerating] = useState(false)
 
   const config = format ? FORMAT_CONFIG[format] : null
+
+  // Each step reveals below the last rather than replacing it, so scroll the
+  // newly-mounted section into view instead of leaving the user looking at
+  // an unchanged viewport — a short delay lets the section actually mount
+  // (and, for the format step, the reveal transition start) before scrolling.
+  useEffect(() => {
+    if (!format) return
+    const id = window.setTimeout(() => {
+      step2Ref.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 150)
+    return () => window.clearTimeout(id)
+  }, [format])
+
+  useEffect(() => {
+    if (stage === 'select') return
+    const id = window.setTimeout(() => {
+      previewRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 150)
+    return () => window.clearTimeout(id)
+  }, [stage])
 
   const selectedSet = useMemo(() => new Set(selectedIds), [selectedIds])
   const selectedCompanies = useMemo(
@@ -275,9 +323,9 @@ export function Constructor() {
 
   return (
     <>
-      <section className="relative min-h-[360px] overflow-hidden lg:min-h-[420px]">
+      <section className="relative min-h-[560px] overflow-hidden lg:min-h-[640px]">
         <div className="absolute inset-0">
-          <ParticleCanvas ref={canvasHandleRef} shape="china" />
+          <ParticleCanvas ref={canvasHandleRef} shape="china" layout="centered" />
           <div
             className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
             style={{
@@ -290,16 +338,16 @@ export function Constructor() {
         </div>
 
         <div
-          className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pt-24"
+          className="pointer-events-none relative z-10 mx-auto max-w-2xl px-6 pt-24 text-center"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Конструктор' : 'Constructor'}
           </p>
-          <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
+          <h1 className="mt-6 text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
             {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
           </h1>
-          <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
+          <p className="mx-auto mt-4 max-w-xl text-lg font-normal text-silver-mist">
             {locale === 'ru'
               ? 'Выберите формат, отметьте компании — мы возьмём список за основу и соберём маршрут вручную.'
               : 'Pick a format, mark the companies you want — we take that list and assemble the route by hand.'}
@@ -308,11 +356,11 @@ export function Constructor() {
       </section>
 
       <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
-      <div className="mt-12">
+      <div className="mt-12 mx-auto max-w-2xl text-center">
         <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
           {locale === 'ru' ? '1. Формат тура' : '1. Tour format'}
         </h2>
-        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:max-w-lg">
+        <div className="mx-auto mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
           {(Object.keys(FORMAT_CONFIG) as FormatKey[]).map((key) => {
             const cfg = FORMAT_CONFIG[key]
             const active = format === key
@@ -321,22 +369,22 @@ export function Constructor() {
                 key={key}
                 type="button"
                 onClick={() => chooseFormat(key)}
-                className={`rounded-2xl border p-5 text-left transition-colors ${
+                className={`rounded-2xl border p-8 text-center transition-colors ${
                   active
                     ? 'border-electric-iris bg-electric-iris/10'
                     : 'border-black/10 bg-surface/40 hover:border-black/25'
                 }`}
               >
-                <p className="text-lg font-medium text-bone-white">
+                <p className="text-2xl font-medium text-bone-white">
                   {cfg.days} {locale === 'ru' ? 'дней' : 'days'}
                 </p>
-                <p className="mt-1 text-sm text-ash-gray">
+                <p className="mt-2 text-base text-bone-white">
                   {cfg.min === cfg.max
                     ? `${cfg.min} ${locale === 'ru' ? 'компании' : 'companies'}`
                     : `${cfg.min}–${cfg.max} ${locale === 'ru' ? 'компаний' : 'companies'}`}
                 </p>
                 {cfg.regionLocked && (
-                  <p className="mt-1 text-xs text-ash-gray">
+                  <p className="mt-1 text-sm text-ash-gray">
                     {locale === 'ru' ? 'в рамках одного региона' : 'within a single region'}
                   </p>
                 )}
@@ -347,7 +395,8 @@ export function Constructor() {
       </div>
 
       {config && (
-        <div className="mt-16 grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr]">
+        <RevealSection ref={step2Ref} className="mx-auto mt-16 max-w-4xl scroll-mt-24">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr]">
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {locale === 'ru' ? '2. Выберите компании' : '2. Choose companies'}
@@ -541,17 +590,18 @@ export function Constructor() {
             </div>
           </div>
         </div>
+        </RevealSection>
       )}
 
       {(stage === 'details' || stage === 'done') && config && (
-        <div className="mt-16 border-t border-black/10 pt-12">
+        <RevealSection ref={previewRef} className="mx-auto mt-16 max-w-3xl scroll-mt-24 border-t border-black/10 pt-12 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Предпросмотр' : 'Preview'}
           </p>
           <h2 className="mt-3 text-2xl font-normal tracking-[-0.02em]">
             {locale === 'ru' ? 'Черновой план по дням' : 'Draft day-by-day plan'}
           </h2>
-          <p className="mt-2 max-w-xl text-sm text-silver-mist">
+          <p className="mx-auto mt-2 max-w-xl text-sm text-silver-mist">
             {locale === 'ru'
               ? 'Это предварительная группировка по городам — реальный маршрут и логистику соберёт команда Aura Robotics.'
               : "This is a preliminary city grouping — the Aura Robotics team will assemble the real route and logistics."}
@@ -560,12 +610,12 @@ export function Constructor() {
           {routeStops.length > 0 && (
             <RouteMap
               stops={routeStops}
-              className="mt-8 max-w-xl"
+              className="mx-auto mt-8 max-w-xl"
               regionCode={config?.regionLocked && regionFilter !== 'all' ? regionFilter : undefined}
             />
           )}
 
-          <ol className="mt-8 space-y-4">
+          <ol className="mt-8 space-y-4 text-left">
             {itinerary.map((day) => (
               <li key={day.day} className="rounded-xl border border-black/10 bg-surface/40 p-4">
                 <p className="text-sm font-medium text-bone-white">
@@ -596,8 +646,8 @@ export function Constructor() {
           </ol>
 
           {stage === 'details' && (
-            <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-2">
-              <div>
+            <div className="mt-12 grid grid-cols-1 gap-10 text-left lg:grid-cols-2">
+              <div className="flex flex-col items-center text-center">
                 <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                   {locale === 'ru' ? '3. Выберите дату начала' : '3. Choose a start date'}
                 </h2>
@@ -638,7 +688,7 @@ export function Constructor() {
                 </div>
               </div>
 
-              <div>
+              <div className="mx-auto w-full max-w-sm">
                 <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                   {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
                 </h2>
@@ -703,21 +753,21 @@ export function Constructor() {
           )}
 
           {stage === 'done' && (
-            <div className="mt-12 rounded-2xl border border-electric-iris/40 bg-electric-iris/10 p-6">
+            <div className="mx-auto mt-12 max-w-xl rounded-2xl border border-electric-iris/40 bg-electric-iris/10 p-6">
               <p className="text-lg font-medium text-bone-white">
                 {locale === 'ru' ? 'Спасибо за заявку!' : 'Thank you for your request!'}
               </p>
-              <p className="mt-2 max-w-xl text-sm text-silver-mist">
+              <p className="mt-2 text-sm text-silver-mist">
                 {locale === 'ru'
                   ? 'PDF с программой и вашими данными сформирован — скачайте его ниже.'
                   : "The program PDF with your details is ready — download it below."}
               </p>
-              <p className="mt-2 max-w-xl text-xs text-ash-gray">
+              <p className="mt-2 text-xs text-ash-gray">
                 {locale === 'ru'
                   ? 'Сайт пока статический: автоматическая отправка PDF на почту и сохранение заявки в CRM появятся, когда будет подключён email-сервис — свяжитесь с нами напрямую, чтобы мы получили заявку прямо сейчас.'
                   : "The site is static for now: automatic emailing of the PDF and saving the request to a CRM will land once an email service is connected — reach out directly so we get your request right away."}
               </p>
-              <div className="mt-5 flex flex-wrap gap-3">
+              <div className="mt-5 flex flex-wrap justify-center gap-3">
                 {pdfUrl && (
                   <a
                     href={pdfUrl}
@@ -738,7 +788,7 @@ export function Constructor() {
               </div>
             </div>
           )}
-        </div>
+        </RevealSection>
       )}
       </section>
     </>
