@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
@@ -14,6 +14,23 @@ export function Home() {
   const { countryCode } = useSelectedCountry()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  // The bottom pill row is stretched to match the top row's total width
+  // (measured, since each pill is sized to its own text) so the two rows
+  // read as one aligned block instead of a shorter loose row underneath.
+  const topPillsRef = useRef<HTMLDivElement>(null)
+  const [topPillsWidth, setTopPillsWidth] = useState<number | null>(null)
+
+  useLayoutEffect(() => {
+    const el = topPillsRef.current
+    if (!el) return
+    const observer = new ResizeObserver((entries) => {
+      const width = entries[0]?.contentRect.width
+      if (width) setTopPillsWidth(width)
+    })
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
 
   // Only China has a real catalogue behind it — picking any other country
   // from the selector still swaps the hero's 3D map in place (the same
@@ -62,7 +79,7 @@ export function Home() {
                 : 'Purposeful expeditions where you’re no longer just a tourist — you’re an explorer and a pioneer.'}
             </p>
 
-            <div className="pointer-events-auto mt-10 flex flex-wrap gap-3">
+            <div ref={topPillsRef} className="pointer-events-auto mt-10 flex w-fit flex-wrap gap-3">
               <Link
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
@@ -86,18 +103,21 @@ export function Home() {
               </Link>
             </div>
 
-            <div className="pointer-events-auto mt-3 flex flex-wrap gap-3">
+            <div
+              className="pointer-events-auto mt-3 flex max-w-full gap-3"
+              style={topPillsWidth ? { width: topPillsWidth } : undefined}
+            >
               <Link
                 to="/cases"
                 onClick={(event) => goTo('/cases', event)}
-                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="flex flex-1 items-center justify-center rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Кейсы' : 'Cases'}
               </Link>
               <Link
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
-                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="flex flex-1 items-center justify-center rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
               </Link>
