@@ -296,6 +296,18 @@ const FINAL_STOP_HOLD_MS = 1400
 const FINAL_OVERVIEW_MS = 900
 
 /**
+ * Where the very first leg's plane enters the frame from — just inside the
+ * top-left corner of the full map box, well outside the country's own
+ * silhouette (which is padded away from the edges), so the opening flight
+ * visibly crosses the border into the first city rather than starting from
+ * a point already inside it.
+ */
+function internationalArrivalOrigin(fullBox: Box): [number, number] {
+  const [x, y, w, h] = fullBox
+  return [x + w * 0.05, y + h * 0.1]
+}
+
+/**
  * Builds the camera sequence for the leg arriving at `stops[currentIndex]`,
  * plus how long the connecting arc should wait before it starts drawing —
  * for a flight, that's until the departure close-up has landed, so the
@@ -311,7 +323,13 @@ function buildLegTargets(
   fullBox: Box,
 ): { targets: ViewTarget[]; arcStartDelayMs: number } {
   if (currentIndex === 0) {
-    return { targets: [{ box: fullBox, transitionMs: 900, holdMs: Infinity, labels: [] }], arcStartDelayMs: 0 }
+    const [x0, y0] = points[0]
+    return {
+      targets: [{ box: fullBox, transitionMs: 900, holdMs: Infinity, labels: [{ x: x0, y: y0, text: stops[0].cityLabel }] }],
+      // Waits for the initial overview pan to settle before the
+      // international arrival flight starts crossing the border.
+      arcStartDelayMs: 700,
+    }
   }
 
   const prevStop = stops[currentIndex - 1]
@@ -741,7 +759,24 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
           )}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {
-            if (i === 0) return null
+            if (i === 0) {
+              // The delegation's opening leg — a plane crossing in from
+              // outside the country's own borders to the first stop, not a
+              // hop from a previous city.
+              const [ox, oy] = internationalArrivalOrigin(fullBox)
+              const [x2, y2] = points[0]
+              return (
+                <AnimatedArc
+                  key="arc-arrival"
+                  x1={ox}
+                  y1={oy}
+                  x2={x2}
+                  y2={y2}
+                  mode="flight"
+                  startDelayMs={arcStartDelayMs}
+                />
+              )
+            }
             const [x1, y1] = points[i - 1]
             const [x2, y2] = points[i]
             return (
