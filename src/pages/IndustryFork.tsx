@@ -66,21 +66,23 @@ export function IndustryFork() {
           {locale === 'ru' ? 'Все индустрии' : 'All industries'}
         </Link>
 
-        <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-          {companyCount} {locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}
-        </p>
-        <h1 className="mt-3 max-w-2xl text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
-          {pick(sector, 'label', locale)}
-        </h1>
+        <div className="mx-auto max-w-2xl text-center">
+          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
+            {companyCount} {locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}
+          </p>
+          <h1 className="mt-3 text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
+            {pick(sector, 'label', locale)}
+          </h1>
+        </div>
 
-        <div className="mt-12 grid max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
           <Link
             to={readyTourPath}
             onClick={(event) => goTo(readyTourPath, event)}
-            className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-6 transition-colors hover:border-electric-iris/60"
+            className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-8 text-center transition-colors hover:border-electric-iris/60"
           >
-            <h2 className="text-lg font-medium">{locale === 'ru' ? 'Экспедиции' : 'Expeditions'}</h2>
-            <p className="mt-2 text-sm text-silver-mist">
+            <h2 className="text-xl font-medium">{locale === 'ru' ? 'Экспедиции' : 'Expeditions'}</h2>
+            <p className="mt-3 text-base text-bone-white">
               {readyTour
                 ? locale === 'ru'
                   ? `Есть готовая программа: «${readyTour.title_ru}»`
@@ -94,10 +96,10 @@ export function IndustryFork() {
           <Link
             to={constructorPath}
             onClick={(event) => goTo(constructorPath, event)}
-            className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-6 transition-colors hover:border-electric-iris/60"
+            className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-8 text-center transition-colors hover:border-electric-iris/60"
           >
-            <h2 className="text-lg font-medium">{locale === 'ru' ? 'Собрать свой' : 'Build your own'}</h2>
-            <p className="mt-2 text-sm text-silver-mist">
+            <h2 className="text-xl font-medium">{locale === 'ru' ? 'Собрать свой' : 'Build your own'}</h2>
+            <p className="mt-3 text-base text-bone-white">
               {locale === 'ru'
                 ? 'Выберите формат (2 или 5 дней) и отметьте компании — мы соберём программу на основе вашего списка.'
                 : 'Pick a format (2 or 5 days) and mark companies — we’ll assemble the program from your list.'}
