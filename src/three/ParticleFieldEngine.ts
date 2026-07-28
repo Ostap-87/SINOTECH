@@ -40,6 +40,15 @@ const FRAME_OFFSET_STACKED = new THREE.Vector2(0, -3.1)
 const WIDE_ASPECT_THRESHOLD = 2.9
 const CAMERA_DISTANCE_WIDE = 4.3
 const FRAME_OFFSET_WIDE = new THREE.Vector2(0.9, 0)
+// "Centered" layout — for pages whose copy sits above/below the shape
+// instead of beside it, so the shape has no reason to bleed off to one
+// side. Centered on the frame and pulled in a bit closer (smaller camera
+// distance) than the default layouts, so it fills more of the width
+// instead of leaving empty margins on both sides.
+const CAMERA_DISTANCE_DESKTOP_CENTERED = 6.1
+const CAMERA_DISTANCE_STACKED_CENTERED = 10.5
+const CAMERA_DISTANCE_WIDE_CENTERED = 3.6
+const FRAME_OFFSET_CENTERED = new THREE.Vector2(0, 0)
 // Drag-to-rotate feel: pixels-to-radians sensitivity and per-frame coast decay.
 const DRAG_SENSITIVITY = 0.0038
 const DRAG_DECAY = 0.94
@@ -68,6 +77,8 @@ function scatterCloud(count: number, radius: number): Float32Array {
 
 export interface ParticleFieldOptions {
   reducedMotion: boolean
+  /** 'centered' pulls the shape to the middle of the frame and closer to camera — for heroes whose copy isn't beside it. Defaults to 'default'. */
+  layout?: 'default' | 'centered'
 }
 
 /** One InstancedMesh per palette color group — see class doc for why. */
@@ -92,6 +103,7 @@ export class ParticleFieldEngine {
 
   private count: number
   private reducedMotion: boolean
+  private layout: 'default' | 'centered'
 
   private prevPositions: Float32Array
   private targetPositions: Float32Array
@@ -137,6 +149,7 @@ export class ParticleFieldEngine {
   constructor(canvas: HTMLCanvasElement, initial: PointCloud, options: ParticleFieldOptions) {
     this.count = initial.positions.length / 3
     this.reducedMotion = options.reducedMotion
+    this.layout = options.layout ?? 'default'
 
     const width = canvas.clientWidth || 1
     const height = canvas.clientHeight || 1
@@ -304,9 +317,26 @@ export class ParticleFieldEngine {
   private applyLayout(width: number, height: number) {
     const stacked = width < STACKED_LAYOUT_BREAKPOINT
     const wide = !stacked && width / height > WIDE_ASPECT_THRESHOLD
+    const centered = this.layout === 'centered'
 
-    const offset = wide ? FRAME_OFFSET_WIDE : stacked ? FRAME_OFFSET_STACKED : FRAME_OFFSET_DESKTOP
-    const distance = wide ? CAMERA_DISTANCE_WIDE : stacked ? CAMERA_DISTANCE_STACKED : CAMERA_DISTANCE_DESKTOP
+    const offset = centered
+      ? FRAME_OFFSET_CENTERED
+      : wide
+        ? FRAME_OFFSET_WIDE
+        : stacked
+          ? FRAME_OFFSET_STACKED
+          : FRAME_OFFSET_DESKTOP
+    const distance = centered
+      ? wide
+        ? CAMERA_DISTANCE_WIDE_CENTERED
+        : stacked
+          ? CAMERA_DISTANCE_STACKED_CENTERED
+          : CAMERA_DISTANCE_DESKTOP_CENTERED
+      : wide
+        ? CAMERA_DISTANCE_WIDE
+        : stacked
+          ? CAMERA_DISTANCE_STACKED
+          : CAMERA_DISTANCE_DESKTOP
 
     this.root.position.set(offset.x, offset.y, 0)
     this.camera.position.z = distance

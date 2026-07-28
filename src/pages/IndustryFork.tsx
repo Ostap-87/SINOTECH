@@ -37,9 +37,9 @@ export function IndustryFork() {
   const constructorPath = `/constructor?sector=${sector.code}`
 
   return (
-    <section className="relative min-h-[640px] overflow-hidden">
+    <section className="relative min-h-[720px] overflow-hidden">
       <div className="absolute inset-0">
-        <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        <ParticleCanvas ref={canvasHandleRef} shape="china" layout="centered" />
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
           style={{

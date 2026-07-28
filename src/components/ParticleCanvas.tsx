@@ -25,10 +25,10 @@ export interface ParticleCanvasHandle {
   disperse: (durationMs?: number) => void
 }
 
-export const ParticleCanvas = forwardRef<ParticleCanvasHandle, { shape: ShapeKey }>(function ParticleCanvas(
-  { shape },
-  ref,
-) {
+export const ParticleCanvas = forwardRef<
+  ParticleCanvasHandle,
+  { shape: ShapeKey; layout?: 'default' | 'centered' }
+>(function ParticleCanvas({ shape, layout = 'default' }, ref) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const engineRef = useRef<ParticleFieldEngine | null>(null)
   const countRef = useRef(getParticleCount())
@@ -43,7 +43,7 @@ export const ParticleCanvas = forwardRef<ParticleCanvasHandle, { shape: ShapeKey
 
     const reducedMotion = prefersReducedMotion()
     const initial = generateShape(shape, countRef.current)
-    const engine = new ParticleFieldEngine(canvas, initial, { reducedMotion })
+    const engine = new ParticleFieldEngine(canvas, initial, { reducedMotion, layout })
     engineRef.current = engine
 
     const resizeObserver = new ResizeObserver((entries) => {
