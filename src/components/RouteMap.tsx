@@ -289,6 +289,11 @@ const PROVINCE_PAD_RATIO = 0.35
 const PROVINCE_MIN_PAD = 40
 const CITY_TIGHT_SIZE_RATIO = 0.16
 const CITY_WIDE_PAD_RATIO = 0.55
+// After the last stop's own zoom settles, hold briefly so the arrival still
+// reads, then pull back out to the full route overview instead of leaving
+// the camera parked on the final city forever.
+const FINAL_STOP_HOLD_MS = 1400
+const FINAL_OVERVIEW_MS = 900
 
 /**
  * Builds the camera sequence for the leg arriving at `stops[currentIndex]`,
@@ -314,41 +319,54 @@ function buildLegTargets(
   const [x1, y1] = points[currentIndex - 1]
   const [x2, y2] = points[currentIndex]
   const refSize = Math.max(fullBox[2], fullBox[3])
+  const isFinalStop = currentIndex === stops.length - 1
+
+  let targets: ViewTarget[]
+  let arcStartDelayMs = 0
 
   if (stop.legMode === 'flight') {
     const tight = refSize * CITY_TIGHT_SIZE_RATIO
     const departBox = pointBox(x1, y1, tight)
     const arriveBox = pointBox(x2, y2, tight)
     const transitBox = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
-    return {
-      targets: [
-        { box: departBox, transitionMs: FLIGHT_DEPART_MS, holdMs: FLIGHT_DEPART_HOLD_MS, labels: [{ x: x1, y: y1, text: prevStop.cityLabel }] },
-        { box: transitBox, transitionMs: FLIGHT_TRANSIT_MS, holdMs: FLIGHT_TRANSIT_HOLD_MS, labels: [] },
-        { box: arriveBox, transitionMs: FLIGHT_ARRIVE_MS, holdMs: Infinity, labels: [{ x: x2, y: y2, text: stop.cityLabel }] },
-      ],
-      arcStartDelayMs: FLIGHT_DEPART_MS + FLIGHT_DEPART_HOLD_MS,
-    }
-  }
-
-  const cityA = getCity(prevStop.cityId)
-  const cityB = getCity(stop.cityId)
-  const provinceA = cityA && findProvinceForCity(cityA.lng, cityA.lat, provinces)
-  const provinceB = cityB && findProvinceForCity(cityB.lng, cityB.lat, provinces)
-
-  let box: Box
-  if (provinceA && provinceB) {
-    const boxA = provinceProjectedBBox(provinceA, project)
-    const boxB = provinceProjectedBBox(provinceB, project)
-    const merged = unionBox(boxA, boxB)
-    box = padBox(merged, Math.max(Math.max(merged[2], merged[3]) * PROVINCE_PAD_RATIO, PROVINCE_MIN_PAD))
+    targets = [
+      { box: departBox, transitionMs: FLIGHT_DEPART_MS, holdMs: FLIGHT_DEPART_HOLD_MS, labels: [{ x: x1, y: y1, text: prevStop.cityLabel }] },
+      { box: transitBox, transitionMs: FLIGHT_TRANSIT_MS, holdMs: FLIGHT_TRANSIT_HOLD_MS, labels: [] },
+      { box: arriveBox, transitionMs: FLIGHT_ARRIVE_MS, holdMs: Infinity, labels: [{ x: x2, y: y2, text: stop.cityLabel }] },
+    ]
+    arcStartDelayMs = FLIGHT_DEPART_MS + FLIGHT_DEPART_HOLD_MS
   } else {
-    box = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
+    const cityA = getCity(prevStop.cityId)
+    const cityB = getCity(stop.cityId)
+    const provinceA = cityA && findProvinceForCity(cityA.lng, cityA.lat, provinces)
+    const provinceB = cityB && findProvinceForCity(cityB.lng, cityB.lat, provinces)
+
+    let box: Box
+    if (provinceA && provinceB) {
+      const boxA = provinceProjectedBBox(provinceA, project)
+      const boxB = provinceProjectedBBox(provinceB, project)
+      const merged = unionBox(boxA, boxB)
+      box = padBox(merged, Math.max(Math.max(merged[2], merged[3]) * PROVINCE_PAD_RATIO, PROVINCE_MIN_PAD))
+    } else {
+      box = padBox(unionBox(pointBox(x1, y1, 1), pointBox(x2, y2, 1)), refSize * CITY_WIDE_PAD_RATIO)
+    }
+
+    const labels = [{ x: x1, y: y1, text: prevStop.cityLabel }]
+    if (stop.cityId !== prevStop.cityId) labels.push({ x: x2, y: y2, text: stop.cityLabel })
+
+    targets = [{ box, transitionMs: LEG_ZOOM_MS, holdMs: Infinity, labels }]
   }
 
-  const labels = [{ x: x1, y: y1, text: prevStop.cityLabel }]
-  if (stop.cityId !== prevStop.cityId) labels.push({ x: x2, y: y2, text: stop.cityLabel })
+  if (isFinalStop) {
+    const last = targets[targets.length - 1]
+    targets = [
+      ...targets.slice(0, -1),
+      { ...last, holdMs: FINAL_STOP_HOLD_MS },
+      { box: fullBox, transitionMs: FINAL_OVERVIEW_MS, holdMs: Infinity, labels: [] },
+    ]
+  }
 
-  return { targets: [{ box, transitionMs: LEG_ZOOM_MS, holdMs: Infinity, labels }], arcStartDelayMs: 0 }
+  return { targets, arcStartDelayMs }
 }
 
 /** Total time before the sequence settles — used to pace autoplay so it doesn't cut a flight's zoom short. */
