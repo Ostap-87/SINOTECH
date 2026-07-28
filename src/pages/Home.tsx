@@ -85,6 +85,23 @@ export function Home() {
                 {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
               </Link>
             </div>
+
+            <div className="pointer-events-auto mt-3 flex flex-wrap gap-3">
+              <Link
+                to="/cases"
+                onClick={(event) => goTo('/cases', event)}
+                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Кейсы' : 'Cases'}
+              </Link>
+              <Link
+                to="/expeditions"
+                onClick={(event) => goTo('/expeditions', event)}
+                className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
+              </Link>
+            </div>
           </>
         ) : (
           <>
