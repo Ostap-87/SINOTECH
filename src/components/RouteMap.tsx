@@ -829,7 +829,7 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
         </svg>
       </div>
 
-      <div className="mt-4 flex items-center justify-between gap-4">
+      <div className="mt-4 flex flex-col items-center gap-3 text-center">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'День' : 'Day'} {current.day} · {current.cityLabel}
