@@ -110,16 +110,18 @@ export function Home() {
               <Link
                 to="/cases"
                 onClick={(event) => goTo('/cases', event)}
-                className="flex flex-1 items-center justify-center rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="pill-shimmer flex flex-1 items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
-                {locale === 'ru' ? 'Кейсы' : 'Cases'}
+                <span className="relative z-10">{locale === 'ru' ? 'Кейсы' : 'Cases'}</span>
               </Link>
               <Link
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
-                className="flex flex-1 items-center justify-center rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="pill-shimmer flex flex-1 items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
-                {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
+                <span className="relative z-10">
+                  {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
+                </span>
               </Link>
             </div>
           </>
