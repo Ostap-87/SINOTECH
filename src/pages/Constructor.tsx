@@ -641,7 +641,7 @@ export function Constructor() {
       )}
 
       {(stage === 'details' || stage === 'done') && config && (
-        <RevealSection ref={previewRef} className="mx-auto mt-16 max-w-3xl scroll-mt-24 border-t border-black/10 pt-12 text-center">
+        <RevealSection ref={previewRef} className="mx-auto mt-[38px] max-w-4xl scroll-mt-24 border-t border-black/10 pt-6 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
             {locale === 'ru' ? 'Предпросмотр' : 'Preview'}
           </p>
@@ -657,7 +657,7 @@ export function Constructor() {
           {routeStops.length > 0 && (
             <RouteMap
               stops={routeStops}
-              className="mx-auto mt-8 max-w-xl"
+              className="mx-auto mt-8 w-full"
               regionCode={config?.regionLocked && regionFilter !== 'all' ? regionFilter : undefined}
             />
           )}
@@ -694,7 +694,7 @@ export function Constructor() {
 
           {stage === 'details' && (
             <div className="mt-12 text-left">
-              <div className="mx-auto w-full max-w-sm">
+              <div className="mx-auto w-full max-w-4xl">
                 <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
                   {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
                 </h2>
