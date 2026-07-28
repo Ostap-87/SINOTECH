@@ -323,11 +323,11 @@ export function Constructor() {
 
   return (
     <>
-      <section className="relative min-h-[560px] overflow-hidden lg:min-h-[640px]">
-        <div className="absolute inset-0">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0 min-h-[560px] lg:min-h-[640px]">
           <ParticleCanvas ref={canvasHandleRef} shape="china" layout="centered" />
           <div
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-40"
+            className="pointer-events-none absolute inset-x-0 bottom-0 h-64"
             style={{
               backdropFilter: 'blur(28px)',
               WebkitBackdropFilter: 'blur(28px)',
@@ -338,7 +338,7 @@ export function Constructor() {
         </div>
 
         <div
-          className="pointer-events-none relative z-10 mx-auto max-w-2xl px-6 pt-24 text-center"
+          className="pointer-events-none relative z-10 mx-auto min-h-[560px] max-w-2xl px-6 pt-24 pb-16 text-center lg:min-h-[640px]"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
           <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
@@ -352,51 +352,51 @@ export function Constructor() {
               ? 'Выберите формат, отметьте компании — мы возьмём список за основу и соберём маршрут вручную.'
               : 'Pick a format, mark the companies you want — we take that list and assemble the route by hand.'}
           </p>
+
+          <div className="pointer-events-auto mt-[38px]">
+            <h2 className="inline-block rounded-full bg-void/70 px-4 py-1.5 text-sm font-semibold uppercase tracking-[0.025em] text-bone-white backdrop-blur-sm">
+              {locale === 'ru' ? '1. Формат тура' : '1. Tour format'}
+            </h2>
+            <div className="mx-auto mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {(Object.keys(FORMAT_CONFIG) as FormatKey[]).map((key) => {
+                const cfg = FORMAT_CONFIG[key]
+                const active = format === key
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => chooseFormat(key)}
+                    className={`rounded-2xl border p-8 text-center backdrop-blur-sm transition-colors ${
+                      active
+                        ? 'border-electric-iris bg-void/70 ring-1 ring-electric-iris'
+                        : 'border-black/10 bg-void/60 hover:border-black/25'
+                    }`}
+                  >
+                    <p className="text-2xl font-medium text-bone-white">
+                      {cfg.days} {locale === 'ru' ? 'дней' : 'days'}
+                    </p>
+                    <p className="mt-2 text-base text-bone-white">
+                      {cfg.min === cfg.max
+                        ? `${cfg.min} ${locale === 'ru' ? 'компании' : 'companies'}`
+                        : `${cfg.min}–${cfg.max} ${locale === 'ru' ? 'компаний' : 'companies'}`}
+                    </p>
+                    {cfg.regionLocked && (
+                      <p className="mt-1 text-sm text-ash-gray">
+                        {locale === 'ru' ? 'в рамках одного региона' : 'within a single region'}
+                      </p>
+                    )}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="relative z-10 mx-auto max-w-[1280px] px-6 pb-24">
-      <div className="mt-12 mx-auto max-w-2xl text-center">
-        <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-          {locale === 'ru' ? '1. Формат тура' : '1. Tour format'}
-        </h2>
-        <div className="mx-auto mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {(Object.keys(FORMAT_CONFIG) as FormatKey[]).map((key) => {
-            const cfg = FORMAT_CONFIG[key]
-            const active = format === key
-            return (
-              <button
-                key={key}
-                type="button"
-                onClick={() => chooseFormat(key)}
-                className={`rounded-2xl border p-8 text-center transition-colors ${
-                  active
-                    ? 'border-electric-iris bg-electric-iris/10'
-                    : 'border-black/10 bg-surface/40 hover:border-black/25'
-                }`}
-              >
-                <p className="text-2xl font-medium text-bone-white">
-                  {cfg.days} {locale === 'ru' ? 'дней' : 'days'}
-                </p>
-                <p className="mt-2 text-base text-bone-white">
-                  {cfg.min === cfg.max
-                    ? `${cfg.min} ${locale === 'ru' ? 'компании' : 'companies'}`
-                    : `${cfg.min}–${cfg.max} ${locale === 'ru' ? 'компаний' : 'companies'}`}
-                </p>
-                {cfg.regionLocked && (
-                  <p className="mt-1 text-sm text-ash-gray">
-                    {locale === 'ru' ? 'в рамках одного региона' : 'within a single region'}
-                  </p>
-                )}
-              </button>
-            )
-          })}
-        </div>
-      </div>
-
       {config && (
         <RevealSection ref={step2Ref} className="mx-auto mt-16 max-w-4xl scroll-mt-24">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr]">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
               {locale === 'ru' ? '2. Выберите компании' : '2. Choose companies'}
@@ -482,15 +482,21 @@ export function Constructor() {
                 </>
               )}
             </div>
+          </div>
+
+          <div>
+            <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Список компаний' : 'Company list'}
+            </h2>
 
             {config.regionLocked && regionFilter === 'all' ? (
-              <p className="mt-6 text-sm text-ash-gray">
+              <p className="mt-4 text-sm text-ash-gray">
                 {locale === 'ru'
                   ? 'Сначала выберите регион, чтобы увидеть компании.'
                   : 'Choose a region first to see companies.'}
               </p>
             ) : (
-              <div className="mt-6 max-h-[640px] overflow-y-auto rounded-2xl border border-black/10">
+              <div className="mt-4 max-h-[640px] overflow-y-auto rounded-2xl border border-black/10">
                 {filteredCompanies.length === 0 && (
                   <p className="p-6 text-sm text-ash-gray">
                     {locale === 'ru' ? 'Ничего не найдено.' : 'Nothing found.'}
@@ -536,12 +542,13 @@ export function Constructor() {
               </div>
             )}
           </div>
+        </div>
 
-          <div>
-            <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-              {locale === 'ru' ? '3. Ваш список' : '3. Your list'}
-            </h2>
-            <div className="mt-4 rounded-2xl border border-black/10 bg-surface/40 p-5">
+        <div className="mt-10">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+            {locale === 'ru' ? '3. Ваш список' : '3. Your list'}
+          </h2>
+          <div className="mt-4 rounded-2xl border border-black/10 bg-surface/40 p-5">
               <p className="text-sm text-silver-mist">
                 {selectedCompanies.length} / {config.max}{' '}
                 {locale === 'ru' ? 'компаний' : 'companies'}
@@ -555,7 +562,7 @@ export function Constructor() {
 
               {selectedCompanies.length === 0 ? (
                 <p className="mt-4 text-sm text-ash-gray">
-                  {locale === 'ru' ? 'Пока пусто — добавьте компании слева.' : 'Empty so far — add companies on the left.'}
+                  {locale === 'ru' ? 'Пока пусто — добавьте компании из списка выше.' : 'Empty so far — add companies from the list above.'}
                 </p>
               ) : (
                 <ul className="mt-4 space-y-2">
@@ -587,7 +594,6 @@ export function Constructor() {
               >
                 {locale === 'ru' ? 'Далее' : 'Next'}
               </button>
-            </div>
           </div>
         </div>
         </RevealSection>
