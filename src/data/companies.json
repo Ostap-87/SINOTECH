@@ -6750,6 +6750,62 @@
       "desc_en": "Shanghai Gigafactory, Lingang New Area.",
       "desc_ru": "Гигафабрика Tesla в Шанхае, Lingang New Area.",
       "country": "cn"
+    },
+    {
+      "id": "rt-mart",
+      "name_en": "RT-Mart (Sun Art)",
+      "name_zh": "大润发 / 高鑫",
+      "sector": "consumer",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Hypermarket chain and warehouse-club format, Sun Art HQ.",
+      "desc_ru": "Сеть гипермаркетов и формат склад-клуб, штаб-квартира Sun Art.",
+      "country": "cn"
+    },
+    {
+      "id": "eleme",
+      "name_en": "Ele.me / Taobao Instant",
+      "name_zh": "饿了么 / 淘宝闪购",
+      "sector": "internet",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Instant-retail dispatch and demand-mapping command center.",
+      "desc_ru": "Командный центр мгновенного ритейла: карты спроса, диспетчеризация.",
+      "country": "cn"
+    },
+    {
+      "id": "sams-club",
+      "name_en": "Sam's Club / Walmart China",
+      "name_zh": "山姆 / 沃尔玛中国",
+      "sector": "consumer",
+      "city": "shenzhen",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Premium warehouse club — Member's Mark private label, tasting zones.",
+      "desc_ru": "Премиальный склад-клуб — private label Member's Mark, зоны дегустаций.",
+      "country": "cn"
+    },
+    {
+      "id": "yonghui",
+      "name_en": "Yonghui",
+      "name_zh": "永辉",
+      "sector": "consumer",
+      "city": "shenzhen",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "\"New Yonghui\" reformatted flagship — a before/after retail transformation case.",
+      "desc_ru": "Флагман «нового Yonghui» — кейс трансформации ритейл-формата «до/после».",
+      "country": "cn"
     }
   ]
 }

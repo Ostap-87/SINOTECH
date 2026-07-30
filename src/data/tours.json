@@ -1704,6 +1704,267 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-retail-showrooms-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продуктовый ритейл и мгновенная доставка Китая: тур по флагманским шоурумам",
+      "title_en": "China's Grocery Retail & Instant Delivery: A Flagship Showroom Tour",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "新零售·生鲜·即时零售 · маршрут «Север → Юг» · 6 дней · 9 компаний",
+      "tagline_en": "New retail · fresh · instant retail · North → South route · 6 days · 9 companies",
+      "positioning_ru": "Тур строго по компаниям с эффектными шоурумами, флагманами и корпоративными展厅 — делегация не только слушает, но и видит «вау». Пекин → Шанхай → Ханчжоу → Шэньчжэнь, с фокусом на новый ритейл, свежие продукты и мгновенную доставку.",
+      "positioning_en": "A tour built strictly around companies with effective showrooms, flagships and corporate visitor centers — the delegation doesn't just listen, it sees the \"wow.\" Beijing → Shanghai → Hangzhou → Shenzhen, focused on new retail, fresh grocery and instant delivery.",
+      "stats": {
+        "cities": 4,
+        "days": 6,
+        "nights": 5,
+        "companies": 9,
+        "flights": 1
+      },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин (PEK/PKX) — международный рейс, вход делегации",
+      "arrival_en": "Beijing (PEK/PKX) — international flight, delegation arrival",
+      "departure_ru": "Шэньчжэнь (SZX) — вылет, опционально через Гуанчжоу (ж/д ~35 мин)",
+      "departure_en": "Shenzhen (SZX) — departure, optional Guangzhou add-on (rail ~35 min)",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "hangzhou",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Старт делегации",
+          "area_en": "Delegation start",
+          "time": "день 1",
+          "companies": [],
+          "note_ru": "Прилёт, трансфер, брифинг, приветственный ужин.",
+          "note_en": "Arrival, transfer, briefing, welcome dinner."
+        },
+        {
+          "day": 2,
+          "city": "beijing",
+          "city_ru": "Пекин, день 2",
+          "city_en": "Beijing, day 2",
+          "area_ru": "JD HQ + Meituan — 京东集团总部 / 望京",
+          "area_en": "JD HQ + Meituan — Yizhuang / Wangjing",
+          "time": "10:00–17:00",
+          "companies": [
+            "jd-com",
+            "meituan"
+          ],
+          "transfer_ru": "🚄 Вечером → Шанхай (ВСЖД, ~4,5 ч)",
+          "transfer_en": "🚄 Evening high-speed rail → Shanghai (~4.5 h)",
+          "note_ru": "JD (корпоративный展厅: история JD, автоматизированная логистика, экосистема 7FRESH/外卖) + Meituan (experience-центр: доставка, дарксторы 小象超市, диспетчеризация).",
+          "note_en": "JD (corporate hall: JD's history, automated logistics, the 7FRESH/delivery ecosystem) + Meituan (experience center: delivery, Xiaoxiang Supermarket dark stores, dispatch)."
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Hema flagship + Pinduoduo (офис-визит) — 盒马鲜生 / 拼多多",
+          "area_en": "Hema flagship + Pinduoduo (office visit) — 盒马鲜生 / 拼多多",
+          "time": "10:00–17:00",
+          "companies": [
+            "hema-freshippo",
+            "pinduoduo"
+          ],
+          "note_ru": "★ Hema (盒马鲜生) flagship — new-retail рынок: подвесные конвейеры, аквариумы с морепродуктами, робо-склад, электронные ценники. Pinduoduo/寻梦 — офис-визит по предварительной записи: 多多买菜 (community group-buying) и агро-цепочка C2M.",
+          "note_en": "★ Hema (盒马鲜生) flagship — new-retail grocery: overhead conveyors, live-seafood tanks, a robotic warehouse, electronic price tags. Pinduoduo/Xunmeng — a by-appointment office visit: 多多买菜 community group-buying and its C2M agro supply chain."
+        },
+        {
+          "day": 4,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "RT-Mart / Sun Art + Ele.me — 大润发/高鑫 / 饿了么",
+          "area_en": "RT-Mart / Sun Art + Ele.me — 大润发/高鑫 / 饿了么",
+          "time": "10:00–17:00",
+          "companies": [
+            "rt-mart",
+            "eleme"
+          ],
+          "transfer_ru": "🚄 Вечером → Ханчжоу (ВСЖД, ~1 ч)",
+          "transfer_en": "🚄 Evening high-speed rail → Hangzhou (~1 h)",
+          "note_ru": "RT-Mart/高鑫 — обновлённый гипермаркет и склад-клуб M会员店. Ele.me/淘宝闪购 — командный центр мгновенного ритейла: карты спроса, 30-минутная диспетчеризация (офис-визит).",
+          "note_en": "RT-Mart/Sun Art — a reformatted hypermarket and the M-Club warehouse-club format. Ele.me/Taobao Instant — an instant-retail command center: demand maps, 30-minute dispatch (office visit)."
+        },
+        {
+          "day": 5,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Alibaba Xixi Campus — 阿里巴巴 西溪园区",
+          "area_en": "Alibaba Xixi Campus — 阿里巴巴 西溪园区",
+          "time": "полдня",
+          "companies": [
+            "alibaba"
+          ],
+          "transfer_ru": "✈ Вечером → Шэньчжэнь (~2 ч)",
+          "transfer_en": "✈ Evening flight → Shenzhen (~2 h)",
+          "note_ru": "★★ Культовый кампус Alibaba: архитектура, visitor-центр, стена культуры и истории компании — самый красивый объект тура.",
+          "note_en": "★★ Alibaba's iconic campus: architecture, a visitor center, a wall of company culture and history — the most striking site on the tour."
+        },
+        {
+          "day": 6,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь — финал",
+          "city_en": "Shenzhen — finale",
+          "area_ru": "Sam's Club / Walmart China + Yonghui — 山姆/沃尔玛中国 / 永辉",
+          "area_en": "Sam's Club / Walmart China + Yonghui — 山姆/沃尔玛中国 / 永辉",
+          "time": "10:00–17:00",
+          "companies": [
+            "sams-club",
+            "yonghui"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "★ Sam's Club — премиальный склад-клуб: private label Member's Mark, зоны дегустаций. Yonghui调改-флагман — формат в стиле 胖东来: свежая зона, выкладка, кейс «до/после». Вылет из Шэньчжэня (SZX); опционально — крюк в Гуанчжоу (ж/д ~35 мин).",
+          "note_en": "★ Sam's Club — a premium warehouse club: the Member's Mark private label, tasting zones. Yonghui's reformatted flagship — a \"Pang Dong Lai\"-style format: fresh-produce zone, merchandising, a before/after transformation case. Departure from Shenzhen (SZX); optional Guangzhou add-on (rail ~35 min)."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Только эффектные объекты — шоурумы, флагманы и корпоративные展厅, отобранные специально ради визуального впечатления делегации",
+          "en": "Only high-impact sites — showrooms, flagships and corporate visitor centers, selected specifically for visual impact"
+        },
+        {
+          "ru": "Баланс форматов — от витрин-магазинов (проще доступ) до закрытых корпоративных кампусов (нужна заявка)",
+          "en": "A mix of formats — from storefront flagships (easier access) to closed corporate campuses (requires an application)"
+        },
+        {
+          "ru": "Логичный маршрут север → юг с одним внутренним перелётом и высокоскоростной ж/д между городами",
+          "en": "A logical north-to-south route with one domestic flight and high-speed rail between cities"
+        },
+        {
+          "ru": "Согласование визитов — включая закрытые компании вроде Pinduoduo, куда нужен предварительный внутренний контакт",
+          "en": "Visit coordination — including closed companies like Pinduoduo, which require a pre-arranged internal contact"
+        },
+        {
+          "ru": "Перевод и сопровождение — логистика, переводчики, организация встреч",
+          "en": "Translation and support — logistics, interpreters, meeting arrangements"
+        },
+        {
+          "ru": "Опция расширения — отдельный день-крюк в Хэнань к 胖东来 (Pang Dong Lai), главному эталону отрасли",
+          "en": "Expansion option — a separate day-trip to Henan for Pang Dong Lai, the industry's leading benchmark"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "9 флагманов за одну поездку — от new-retail рынков до складов-клубов и корпоративных кампусов",
+          "en": "9 flagships in a single trip — from new-retail markets to warehouse clubs and corporate campuses"
+        },
+        {
+          "ru": "Осознанный отбор — «тёмные склады» и закрытые операционные центры без визуальной ценности сознательно исключены",
+          "en": "Deliberate curation — dark warehouses and closed operations centers with no visual value are deliberately excluded"
+        },
+        {
+          "ru": "Логичная география — Пекин → Шанхай → Ханчжоу → Шэньчжэнь одним движением, без петель",
+          "en": "Logical geography — Beijing → Shanghai → Hangzhou → Shenzhen in one sweep, no backtracking"
+        },
+        {
+          "ru": "Гибкость — опциональный крюк в Гуанчжоу или отдельный выезд к 胖东来 в Хэнань",
+          "en": "Flexibility — an optional Guangzhou add-on or a separate trip to Pang Dong Lai in Henan"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Часть компаний (Pinduoduo и другие) закрыты для «холодных» визитов без внутреннего контакта",
+          "Риск потратить день на объект без визуальной ценности — тёмный склад или закрытый офис",
+          "Нужно самому разбираться, где шоурум, а где нужна отдельная заявка на корпоративный展厅",
+          "Хаотичная логистика между четырьмя городами и высокоскоростными ж/д стыковками"
+        ],
+        "self_en": [
+          "Some companies (Pinduoduo among them) are closed to cold visits without an internal contact",
+          "Risk of spending a day at a site with no visual value — a dark warehouse or a closed office",
+          "You'd have to figure out yourself which is a showroom and which needs a separate corporate-hall application",
+          "Chaotic logistics across four cities and high-speed-rail connections"
+        ],
+        "with_us_ru": [
+          "Подтверждённый доступ к 9 флагманам, отобранным именно за визуальную выразительность",
+          "Согласованные визиты даже к закрытым компаниям вроде Pinduoduo",
+          "Перевод и сопровождение на каждой встрече",
+          "Продуманная логистика: север → юг, один перелёт, остальное — высокоскоростная ж/д"
+        ],
+        "with_us_en": [
+          "Confirmed access to 9 flagships, selected specifically for visual impact",
+          "Coordinated visits even to closed companies like Pinduoduo",
+          "Translation and support at every meeting",
+          "Thought-through logistics: north → south, one flight, the rest by high-speed rail"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "5 суток, отели 5 звёзд × 15 000 руб.",
+            "calc_en": "5 nights, 5-star hotels × 15,000 RUB",
+            "amount": 75000
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "6 суток (обед / ужин)",
+            "calc_en": "6 days (lunch / dinner)",
+            "amount": 50000
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "6 суток: автобус по городу, высокоскоростная ж/д, 1 внутренний перелёт, такси, встреча / проводы в аэропорту",
+            "calc_en": "6 days: city bus, high-speed rail, 1 domestic flight, taxi, airport transfers",
+            "amount": 55000
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Согласование визитов на 9 площадок (включая закрытые компании), сопровождение и переводчик, прямые контакты с резидентами",
+            "calc_en": "Coordinating visits to 9 sites (including closed companies), escort and interpreter services, direct contacts with residents",
+            "amount": 300000
+          }
+        ],
+        "total_excl_flights": 480000,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": [
+          {
+            "title_ru": "Авиабилеты",
+            "title_en": "Flights",
+            "calc_ru": "Москва — Пекин / Шэньчжэнь (SZX) — Москва",
+            "calc_en": "Moscow — Beijing / Shenzhen (SZX) — Moscow",
+            "amount": 80000,
+            "note_ru": "Ориентировочная стоимость",
+            "note_en": "Estimated"
+          }
+        ]
+      },
+      "market_note_ru": "Отбор — только компании с эффектными шоурумами и кампусами, чтобы делегация не просто слушала, а видела «вау» вживую. «Тёмные склады» (叮咚买菜, 朴朴) и закрытые операционные центры сознательно исключены — визуально смотреть там нечего. Главный отраслевой эталон 胖东来 (Pang Dong Lai) работает только в Хэнани — доступен отдельным днём-крюком по запросу.",
+      "market_note_en": "Selection covers only companies with effective showrooms and campuses, so the delegation doesn't just listen — it sees the \"wow\" firsthand. \"Dark warehouses\" (Dingdong Maicai, Pupu) and closed operations centers are deliberately excluded — there's nothing to see there visually. The industry's leading benchmark, Pang Dong Lai, operates only in Henan — available as a separate day add-on on request.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
