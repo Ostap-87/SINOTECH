@@ -6708,6 +6708,48 @@
       "desc_en": "Industrial AI, machine vision, quality control.",
       "desc_ru": "Промышленный ИИ, машинное зрение, контроль качества.",
       "country": "cn"
+    },
+    {
+      "id": "smic",
+      "name_en": "SMIC",
+      "name_zh": "中芯国际",
+      "sector": "electronics",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "China's largest semiconductor foundry, Zhangjiang Hi-Tech Park.",
+      "desc_ru": "Крупнейший контрактный производитель чипов Китая, Zhangjiang Hi-Tech Park.",
+      "country": "cn"
+    },
+    {
+      "id": "wuxi-apptec",
+      "name_en": "WuXi AppTec",
+      "name_zh": "药明康德",
+      "sector": "medtech",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Global biopharma R&D and manufacturing platform, Zhangjiang Drug Valley.",
+      "desc_ru": "Глобальная R&D- и производственная платформа биофармы, Zhangjiang Drug Valley.",
+      "country": "cn"
+    },
+    {
+      "id": "tesla",
+      "name_en": "Tesla",
+      "name_zh": "特斯拉",
+      "sector": "auto",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Shanghai Gigafactory, Lingang New Area.",
+      "desc_ru": "Гигафабрика Tesla в Шанхае, Lingang New Area.",
+      "country": "cn"
     }
   ]
 }

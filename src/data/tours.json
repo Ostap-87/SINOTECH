@@ -1450,6 +1450,260 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-tech-parks-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "government",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Технопарки и зоны инноваций Китая",
+      "title_en": "China's Tech Parks & Innovation Zones",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "9 технопарков · 3 города · 5 дней / 6 ночей",
+      "tagline_en": "9 tech parks · 3 cities · 5 days / 6 nights",
+      "positioning_ru": "Закрытые визиты в управляющие компании и на площадки флагманских технопарков и зон инноваций Китая — брифинги по экосистеме, встречи с отобранными резидентами и R&D-центрами.",
+      "positioning_en": "Private visits to the management companies and grounds of China's flagship tech parks and innovation zones — ecosystem briefings, meetings with selected residents and R&D centers.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 2
+      },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин, вечер воскресенья (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing, Sunday evening (Moscow → Beijing)",
+      "departure_ru": "Шэньчжэнь (аэропорт Bao'an) → Москва, в субботу",
+      "departure_en": "Shenzhen (Bao'an airport) → Moscow, on Saturday",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Прибытие делегации",
+          "area_en": "Delegation arrival",
+          "time": "воскресенье, вечер",
+          "companies": [],
+          "note_ru": "Вечерний прилёт в Пекин (Capital / Daxing), трансфер и заселение. Брифинг по программе.",
+          "note_en": "Evening arrival in Beijing (Capital / Daxing), transfer and check-in. Programme briefing."
+        },
+        {
+          "day": 2,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Блок «Кремниевая долина Китая» — Zhongguancun",
+          "area_en": "\"China's Silicon Valley\" block — Zhongguancun",
+          "time": "10:00–13:00",
+          "companies": [
+            "baidu",
+            "xiaomi"
+          ],
+          "note_ru": "Zhongguancun (中关村) — первая нацзона высоких технологий и первая демонстрационная зона независимых инноваций Китая. Опция: Future Science City — R&D-штабы, энергетика, науки о жизни.",
+          "note_en": "Zhongguancun (中关村) — China's first national high-tech zone and first demonstration zone for independent innovation. Option: Future Science City — R&D headquarters, energy, life sciences."
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Блок «Долина лекарств и чипов» — Zhangjiang",
+          "area_en": "\"Drug & Chip Valley\" block — Zhangjiang",
+          "time": "10:00–13:00",
+          "companies": [
+            "smic",
+            "wuxi-apptec"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "✈ Утром Пекин → Шанхай, перелёт ~2,5 ч. Zhangjiang («Zhangjiang Drug Valley», 张江高科技园区) — ядро науки и технологий Пудуна: национальные базы по интегральным схемам и биофарме.",
+          "note_en": "✈ Morning flight Beijing → Shanghai, ~2.5 h. Zhangjiang (\"Zhangjiang Drug Valley\", 张江高科技园区) — Pudong's science and technology core: national bases for integrated circuits and biopharma."
+        },
+        {
+          "day": 4,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Блок «Городские и фронтир-зоны» — Caohejing, Lingang",
+          "area_en": "\"Urban & frontier zones\" block — Caohejing, Lingang",
+          "time": "10:00–13:00",
+          "companies": [
+            "tesla",
+            "deepblue-technology"
+          ],
+          "note_ru": "Caohejing (漕河泾) — IT, микроэлектроника, новые материалы. Lingang New Area (临港新片区) — зона свободной торговли: Tesla, интегральные схемы, ИИ, фронтир-индустрии.",
+          "note_en": "Caohejing (漕河泾) — IT, microelectronics, new materials. Lingang New Area (临港新片区) — free-trade zone: Tesla, integrated circuits, AI, frontier industries."
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 1",
+          "city_en": "Shenzhen, day 1",
+          "area_ru": "Блок «Ядро инноваций Наньшань» — Shenzhen Hi-Tech Park",
+          "area_en": "\"Nanshan innovation core\" block — Shenzhen Hi-Tech Park",
+          "time": "10:00–13:00",
+          "companies": [
+            "tencent",
+            "dji",
+            "zte"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "✈ Утром Шанхай → Шэньчжэнь, перелёт ~2,5 ч. Shenzhen Hi-Tech Park (深圳高新区) — 5-е место среди топ-100 парков передового производства мира (2023), одна из 10 пилотных площадок Миннауки мирового класса.",
+          "note_en": "✈ Morning flight Shanghai → Shenzhen, ~2.5 h. Shenzhen Hi-Tech Park (深圳高新区) — ranked 5th among the world's top-100 advanced-manufacturing parks (2023), one of 10 pilot world-class parks under China's Ministry of Science."
+        },
+        {
+          "day": 6,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, день 2 (финал)",
+          "city_en": "Shenzhen, day 2 (finale)",
+          "area_ru": "Блок «Трансграничные зоны Шэньчжэнь–Гонконг» — Qianhai, Hetao",
+          "area_en": "\"Shenzhen–Hong Kong cross-border zones\" block — Qianhai, Hetao",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Qianhai (前海) — финансы, современные услуги, зона Шэньчжэнь–Гонконг (120 км²). Hetao (河套) — площадка «одна страна, две системы» на границе с Гонконгом: ИИ, науки о жизни, полупроводники, робототехника, финтех, льготный налог на прибыль 15%. Завершение программы, вылет в субботу из аэропорта Шэньчжэнь (Bao'an).",
+          "note_en": "Qianhai (前海) — finance, modern services, the Shenzhen–Hong Kong zone (120 km²). Hetao (河套) — a \"one country, two systems\" site on the Hong Kong border: AI, life sciences, semiconductors, robotics, fintech, a preferential 15% profit-tax rate. End of the programme, Saturday departure from Shenzhen (Bao'an) airport."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Брифинги в управляющих компаниях парков — знакомство с экосистемой и администрацией зоны",
+          "en": "Briefings at park management companies — introduction to the zone's ecosystem and administration"
+        },
+        {
+          "ru": "Встречи с резидентами и R&D-центрами — состав отбирается под тему делегации",
+          "en": "Meetings with residents and R&D centers — roster selected around the delegation's brief"
+        },
+        {
+          "ru": "Флагманские якоря в каждом городе — Zhongguancun, Zhangjiang, Shenzhen Hi-Tech Park",
+          "en": "Flagship anchors in every city — Zhongguancun, Zhangjiang, Shenzhen Hi-Tech Park"
+        },
+        {
+          "ru": "Гибкая настройка профиля резидентов — производство, трансграничные истории, финтех",
+          "en": "Flexible resident profile — manufacturing, cross-border stories, fintech"
+        },
+        {
+          "ru": "Перевод и сопровождение — логистика, переводчики, организация встреч",
+          "en": "Translation and support — logistics, interpreters, meeting arrangements"
+        },
+        {
+          "ru": "Прямые контакты — выходы на управляющие компании, резидентов и R&D-центры",
+          "en": "Direct contacts — lines to management companies, residents and R&D centers"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "9 технопарков за одну поездку — максимальный охват инновационной инфраструктуры Китая",
+          "en": "9 tech parks in a single trip — maximum coverage of China's innovation infrastructure"
+        },
+        {
+          "ru": "Логичная география — север → центр → юг, Пекин · Шанхай · Шэньчжэнь одним движением",
+          "en": "Logical geography — north → centre → south, Beijing · Shanghai · Shenzhen in one sweep"
+        },
+        {
+          "ru": "Гибкость под задачу — состав резидентов настраивается под тему делегации",
+          "en": "Flexibility for the brief — the resident roster is tuned to the delegation's theme"
+        },
+        {
+          "ru": "Опции расширения — Future Science City, Guangming Science City, Xili Lake при переходе на 6-дневный формат",
+          "en": "Expansion options — Future Science City, Guangming Science City, Xili Lake on the 6-day format"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Технопарки не отвечают на «холодные» запросы от незнакомых компаний",
+          "Требуется предварительная заявка и согласование состава резидентов — самостоятельно почти невозможно",
+          "Языковой барьер и разница в деловой культуре",
+          "Хаотичная логистика между тремя городами и девятью площадками"
+        ],
+        "self_en": [
+          "Parks ignore cold outreach from unknown companies",
+          "A resident roster needs a formal application and approval — nearly impossible to arrange alone",
+          "Language barrier and business-culture gap",
+          "Chaotic logistics across three cities and nine sites"
+        ],
+        "with_us_ru": [
+          "Подтверждённый доступ к администрациям 9 технопарков за одну поездку",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Продуманная логистика: север → центр → юг Китая, один перелёт на стыковочный день",
+          "Готовая программа «под ключ» за 5 дней"
+        ],
+        "with_us_en": [
+          "Confirmed access to the administrations of 9 tech parks in a single trip",
+          "Translation and technical expertise at every meeting",
+          "Thought-through logistics: north → centre → south, one flight per connecting day",
+          "Turnkey program in 5 days"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 суток, отели 5 звёзд × 15 000 руб.",
+            "calc_en": "6 nights, 5-star hotels × 15,000 RUB",
+            "amount": 90000
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "6 суток (обед / ужин)",
+            "calc_en": "6 days (lunch / dinner)",
+            "amount": 50000
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "6 суток: автобус/метро по городу, 2 внутренних перелёта, такси, встреча / проводы в аэропорту",
+            "calc_en": "6 days: city bus/metro, 2 domestic flights, taxi, airport transfers",
+            "amount": 55000
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Согласование визитов на 9 технопарков, сопровождение и переводчик, брифинги управляющих компаний, прямые контакты с резидентами",
+            "calc_en": "Coordinating visits to 9 tech parks, escort and interpreter services, management-company briefings, direct contacts with residents",
+            "amount": 315000
+          }
+        ],
+        "total_excl_flights": 510000,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": [
+          {
+            "title_ru": "Авиабилеты",
+            "title_en": "Flights",
+            "calc_ru": "Москва — Пекин — Шэньчжэнь (Bao'an) — Москва",
+            "calc_en": "Moscow — Beijing — Shenzhen (Bao'an) — Moscow",
+            "amount": 85000,
+            "note_ru": "Ориентировочная стоимость",
+            "note_en": "Estimated"
+          }
+        ]
+      },
+      "market_note_ru": "Маршрут строго с севера на юг: три города — три флагманских парка (Zhongguancun, Zhangjiang, Shenzhen Hi-Tech Park), по одному межгородскому перелёту утром каждого стыковочного дня. Внутри городов перемещения короткие.",
+      "market_note_en": "A strictly north-to-south route: three cities — three flagship parks (Zhongguancun, Zhangjiang, Shenzhen Hi-Tech Park), one inter-city flight each connecting morning. Short transfers within each city.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
