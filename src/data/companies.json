@@ -6806,6 +6806,76 @@
       "desc_en": "\"New Yonghui\" reformatted flagship — a before/after retail transformation case.",
       "desc_ru": "Флагман «нового Yonghui» — кейс трансформации ритейл-формата «до/после».",
       "country": "cn"
+    },
+    {
+      "id": "damai",
+      "name_en": "Damai",
+      "name_zh": "大麦",
+      "sector": "internet",
+      "city": "beijing",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Alibaba's official ticketing platform — real-time seat selection, anti-scalping.",
+      "desc_ru": "Официальная билетинговая платформа Alibaba — выбор мест в реальном времени, анти-перекуп.",
+      "country": "cn"
+    },
+    {
+      "id": "maoyan",
+      "name_en": "Maoyan",
+      "name_zh": "猫眼",
+      "sector": "internet",
+      "city": "beijing",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Film and live-entertainment ticketing platform with box-office data tools.",
+      "desc_ru": "Платформа билетинга кино и лайв-ивентов, аналитика кассовых сборов.",
+      "country": "cn"
+    },
+    {
+      "id": "tongcheng",
+      "name_en": "Tongcheng",
+      "name_zh": "同程",
+      "sector": "internet",
+      "city": "beijing",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "WeChat-native OTA reaching lower-tier cities — rail, bus, hotels, event tickets.",
+      "desc_ru": "OTA внутри WeChat с охватом low-tier городов — ж/д, автобусы, отели, билеты на события.",
+      "country": "cn"
+    },
+    {
+      "id": "fliggy",
+      "name_en": "Fliggy",
+      "name_zh": "飞猪",
+      "sector": "internet",
+      "city": "hangzhou",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Alibaba's youth-focused OTA, integrated with Taobao and Alipay.",
+      "desc_ru": "Молодёжный OTA от Alibaba, интегрирован с Taobao и Alipay.",
+      "country": "cn"
+    },
+    {
+      "id": "tme",
+      "name_en": "TME (Tencent Music)",
+      "name_zh": "腾讯音乐",
+      "sector": "internet",
+      "city": "shenzhen",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Tencent Music Entertainment — TME Live streaming and monetization of live music.",
+      "desc_ru": "Tencent Music Entertainment — TME Live, стриминг и монетизация лайв-музыки.",
+      "country": "cn"
     }
   ]
 }

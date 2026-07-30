@@ -1965,6 +1965,246 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-ticketing-travel-expedition",
+      "brand": "Sinotech Voyage · by Aura Robotics",
+      "country": "cn",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Билетинг, лайв-ивенты и онлайн-тревел Китая",
+      "title_en": "China's Ticketing, Live Events & Online Travel",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "票务 · 现场娱乐 · 在线旅游 · тур по головным офисам · «Север → Юг» · 5 дней / 5 ночей",
+      "tagline_en": "Ticketing · live entertainment · online travel · headquarters tour · North → South · 5 days / 5 nights",
+      "positioning_ru": "Тур по штаб-квартирам лидеров билетинга, лайв-ивентов и онлайн-тревела Китая — от продажи билета до монетизации лайв-музыки, одной цепочкой. Формат: посещение + профильная сессия + Q&A на каждой площадке. Рекомендуемая группа — 10–20 человек, синхронный перевод RU↔中文.",
+      "positioning_en": "A headquarters tour across China's leaders in ticketing, live entertainment and online travel — following one chain from ticket sale to live-music monetization. Format: a site visit plus a themed session and Q&A at every stop. Recommended group size 10–20 people, RU↔中文 consecutive interpretation.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 5,
+        "companies": 7,
+        "flights": 2
+      },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин (PEK/PKX) — ранний международный рейс, сразу на визиты",
+      "arrival_en": "Beijing (PEK/PKX) — early international flight, straight into the visits",
+      "departure_ru": "Шэньчжэнь (SZX) — вылет утром Дня 6",
+      "departure_en": "Shenzhen (SZX) — departure on the morning of Day 6",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "hangzhou",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин, день 1",
+          "city_en": "Beijing, day 1",
+          "area_ru": "Damai + Maoyan — 大麦 / 猫眼",
+          "area_en": "Damai + Maoyan — 大麦 / 猫眼",
+          "time": "07:00–16:30",
+          "companies": [
+            "damai",
+            "maoyan"
+          ],
+          "note_ru": "Ранний прилёт (≈07:00), экспресс-заселение и брифинг. 大麦 Damai (HQ): real-time выбор мест, реализация тиражей, анти-перекуп (实名/盲盒). 猫眼 Maoyan (HQ): сессия «из кино в лайв» — data-инструменты, промо и аналитика спроса.",
+          "note_en": "Early arrival (≈07:00), express check-in and briefing. Damai (HQ): real-time seat selection, allocation mechanics, anti-scalping (real-name/blind-box sales). Maoyan (HQ): a \"from film to live\" session — data tools, promotion and demand analytics."
+        },
+        {
+          "day": 2,
+          "city": "beijing",
+          "city_ru": "Пекин, день 2",
+          "city_en": "Beijing, day 2",
+          "area_ru": "Meituan + Tongcheng — 美团 / 同程",
+          "area_en": "Meituan + Tongcheng — 美团 / 同程",
+          "time": "09:00–16:00",
+          "companies": [
+            "meituan",
+            "tongcheng"
+          ],
+          "note_ru": "美团 Meituan (HQ, Ванцзин): внутренний туризм/staycation, билеты на достопримечательности, отели на выходные, локальные развлечения. 同程 Tongcheng (Пекин): охват low-tier городов через WeChat, ж/д/автобус/отели, интеграция билетинга концертов в тревел-поток.",
+          "note_en": "Meituan (HQ, Wangjing): domestic tourism/staycations, attraction tickets, weekend hotels, local entertainment. Tongcheng (Beijing): reaching lower-tier cities through WeChat, rail/bus/hotels, folding concert ticketing into the travel funnel."
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай",
+          "city_en": "Shanghai",
+          "area_ru": "Trip.com / Ctrip — 携程",
+          "area_en": "Trip.com / Ctrip — 携程",
+          "time": "13:30–16:00",
+          "companies": [
+            "ctrip-trip-com"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "✈ Утренний перелёт Пекин → Шанхай (~2,25 ч). 携程 Trip.com/Ctrip (HQ, Чаннин): №1 OTA Китая — пакеты «концерт + отель + перелёт», внутренний и зарубежный трафик, кросс-бордер. Вечером — заселение, свободное время.",
+          "note_en": "✈ Morning flight Beijing → Shanghai (~2.25 h). Trip.com/Ctrip (HQ, Changning): China's #1 OTA — \"concert + hotel + flight\" bundles, domestic and outbound traffic, cross-border. Evening: check-in, free time."
+        },
+        {
+          "day": 4,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Fliggy — 飞猪 (Alibaba, 西溪园区)",
+          "area_en": "Fliggy — 飞猪 (Alibaba, Xixi Campus)",
+          "time": "10:30–12:30",
+          "companies": [
+            "fliggy"
+          ],
+          "note_ru": "🚄 Утром высокоскоростная ж/д Шанхай → Ханчжоу (~1 ч). 飞猪 Fliggy (Alibaba, кампус Xixi): визит кампуса — молодёжный OTA, интеграция с Taobao/Alipay, пакетные туры и билеты. Обед на кампусе, вечером — свободное время (опционально Западное озеро).",
+          "note_en": "🚄 Morning high-speed rail Shanghai → Hangzhou (~1 h). Fliggy (Alibaba, Xixi Campus): a campus visit — a youth-focused OTA integrated with Taobao/Alipay, package tours and tickets. Lunch on campus, free evening (optionally West Lake)."
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь — финал",
+          "city_en": "Shenzhen — finale",
+          "area_ru": "TME — 腾讯音乐",
+          "area_en": "TME — 腾讯音乐",
+          "time": "13:30–16:30",
+          "companies": [
+            "tme"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "✈ Утренний перелёт Ханчжоу → Шэньчжэнь (~2 ч). 腾讯音乐 TME (HQ): TME Live — монетизация лайв-музыки онлайн, стриминговая поддержка и продвижение концертов. Итоговая сессия (结案): сборка выводов по цепочке «билет → travel → стриминг». Вылет из Шэньчжэня (SZX) утром Дня 6.",
+          "note_en": "✈ Morning flight Hangzhou → Shenzhen (~2 h). TME (HQ): TME Live — online monetization of live music, streaming support and concert promotion. A closing session ties together the ticket → travel → streaming chain. Departure from Shenzhen (SZX) on the morning of Day 6."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Организация и согласование визитов (预约) во все 7 компаний",
+          "en": "Arranging and confirming (预约) visits to all 7 companies"
+        },
+        {
+          "ru": "Сопровождение консультанта-переводчика (RU↔中文) весь тур",
+          "en": "A consultant-interpreter (RU↔中文) for the whole tour"
+        },
+        {
+          "ru": "Внутренние переезды: 2 перелёта (Пекин–Шанхай, Ханчжоу–Шэньчжэнь) + ж/д Шанхай–Ханчжоу",
+          "en": "Domestic travel: 2 flights (Beijing–Shanghai, Hangzhou–Shenzhen) + Shanghai–Hangzhou rail"
+        },
+        {
+          "ru": "Трансферы аэропорт / вокзал / отель / объекты",
+          "en": "Airport / station / hotel / site transfers"
+        },
+        {
+          "ru": "Отели 4–5★, 5 ночей, завтраки",
+          "en": "4–5★ hotels, 5 nights, breakfasts"
+        },
+        {
+          "ru": "Рабочие обеды в дни визитов",
+          "en": "Working lunches on visit days"
+        },
+        {
+          "ru": "Материалы и итоговый разбор (结案)",
+          "en": "Materials and a closing debrief (结案)"
+        },
+        {
+          "ru": "Страхование участников на время программы",
+          "en": "Participant insurance for the duration of the programme"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Без пустого дня прибытия — ранний прилёт и сразу в визиты уже в День 1",
+          "en": "No wasted arrival day — an early landing goes straight into Day 1's visits"
+        },
+        {
+          "ru": "Полная цепочка «билет → travel → стриминг» — от продажи билета до монетизации лайв-музыки за одну поездку",
+          "en": "The full \"ticket → travel → streaming\" chain — from ticket sale to live-music monetization in one trip"
+        },
+        {
+          "ru": "7 штаб-квартир за 5 дней — Damai, Maoyan, Meituan, Tongcheng, Trip.com/Ctrip, Fliggy, TME",
+          "en": "7 headquarters in 5 days — Damai, Maoyan, Meituan, Tongcheng, Trip.com/Ctrip, Fliggy, TME"
+        },
+        {
+          "ru": "Гибкость под даты — при необходимости добавляется 6-я ночь или заезд в Сучжоу к операционной базе Tongcheng",
+          "en": "Flexible on dates — a 6th night or a Suzhou add-on to Tongcheng's operating base can be added if needed"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Компании не отвечают на «холодные» запросы — в каждую из 7 штаб-квартир нужен отдельный 预约",
+          "Легко перепутать листинговую структуру Tongcheng (Пекин) с операционной базой в Сучжоу и потратить лишний день не там",
+          "Хаотичная логистика: 4 города, 2 перелёта, одна ж/д-стыковка",
+          "Риск пустого дня прибытия без спланированной программы"
+        ],
+        "self_en": [
+          "Companies don't answer cold outreach — each of the 7 headquarters needs its own 预约 appointment",
+          "Easy to confuse Tongcheng's listed entity (Beijing) with its operating base in Suzhou and waste a day at the wrong place",
+          "Chaotic logistics: 4 cities, 2 flights, one rail connection",
+          "Risk of a wasted, unplanned arrival day"
+        ],
+        "with_us_ru": [
+          "Подтверждённые визиты во все 7 компаний одной заявкой",
+          "Синхронный переводчик-консультант весь тур",
+          "Маршрут без пустого дня — ранний прилёт сразу в дело",
+          "Итоговый разбор всей цепочки «билет → travel → стриминг» с планом действий"
+        ],
+        "with_us_en": [
+          "Confirmed visits to all 7 companies through a single application",
+          "A consultant-interpreter with the group for the whole tour",
+          "No wasted arrival day — an early landing goes straight into the programme",
+          "A closing debrief across the whole \"ticket → travel → streaming\" chain, with an action plan"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "Отели 4–5★, 5 ночей, завтраки",
+            "calc_en": "4–5★ hotels, 5 nights, breakfasts",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Питание",
+            "title_en": "Meals",
+            "calc_ru": "Рабочие обеды в дни визитов",
+            "calc_en": "Working lunches on visit days",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "2 внутренних перелёта, ж/д Шанхай–Ханчжоу, трансферы аэропорт/вокзал/отель/объекты",
+            "calc_en": "2 domestic flights, Shanghai–Hangzhou rail, airport/station/hotel/site transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника тура",
+            "title_en": "Tour participation fee",
+            "calc_ru": "Согласование визитов (预约) во все 7 компаний, переводчик-консультант, материалы и итоговый разбор, страхование",
+            "calc_en": "Coordinating visits (预约) to all 7 companies, a consultant-interpreter, materials and a closing debrief, insurance",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Про День 1: рассчитан на ранний прилёт (до ~08:00). Если рейс приземляется позже — 猫眼 переносится на утро Дня 2, 大麦 остаётся в Дне 1. Про 同程: листинговая структура 同程艺龙 и операции 艺龙 зарегистрированы в Пекине, поэтому визит проходит там — заезд в операционную базу в Сучжоу не нужен, но добавляется по желанию (+1 день). 5 ночей = Пекин ×2 + Шанхай + Ханчжоу + Шэньчжэнь, вылет утром Дня 6; при необходимости добавляется 6-я ночь.",
+      "market_note_en": "On Day 1: built around an early landing (by ≈08:00). If the flight lands later, Maoyan shifts to the morning of Day 2 and Damai stays on Day 1. On Tongcheng: the listed entity (同程艺龙) and 艺龙's operations are registered in Beijing, so the visit happens there — a stop at the operating base in Suzhou isn't required, but can be added on request (+1 day). 5 nights = Beijing ×2 + Shanghai + Hangzhou + Shenzhen, departure on the morning of Day 6; a 6th night can be added if needed.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
