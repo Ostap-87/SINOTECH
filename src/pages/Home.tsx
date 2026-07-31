@@ -6,6 +6,7 @@ import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { BrandMarquee } from '@/components/BrandMarquee'
 import { ShimmerText } from '@/components/ShimmerText'
 
@@ -14,6 +15,13 @@ export function Home() {
   const { countryCode } = useSelectedCountry()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Sinotech Voyage — бизнес-экспедиции в Китай' : 'Sinotech Voyage — business expeditions to China',
+    locale === 'ru'
+      ? 'Закрытые визиты на производства и в штаб-квартиры лидеров индустрий Китая. 350+ компаний, 17 отраслей — прямой доступ, куда не попасть самостоятельно.'
+      : "Private visits to production sites and headquarters of China's industry leaders. 350+ companies across 17 sectors — direct access you can't reach on your own.",
+  )
 
   // The bottom pill row is stretched to match the top row's total width
   // (measured, since each pill is sized to its own text) so the two rows

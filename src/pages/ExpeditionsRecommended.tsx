@@ -4,11 +4,19 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { ExpeditionsTabs } from '@/components/ExpeditionsTabs'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 
 export function ExpeditionsRecommended() {
   const { locale } = useLanguage()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Рекомендуемые экспедиции — Sinotech Voyage' : 'Recommended expeditions — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Подборка рекомендуемых бизнес-экспедиций в Китай под разные задачи и отрасли.'
+      : 'A curated selection of recommended business expeditions to China for different goals and sectors.',
+  )
 
   return (
     <section className="relative overflow-hidden">

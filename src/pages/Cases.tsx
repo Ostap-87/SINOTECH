@@ -5,6 +5,7 @@ import { ArcGallery } from '@/components/ArcGallery'
 import type { ArcGalleryItem } from '@/components/ArcGallery'
 import { CircularMediaCarousel } from '@/components/CircularMediaCarousel'
 import type { CaseMediaItem } from '@/components/CircularMediaCarousel'
+import { usePageMeta } from '@/hooks/usePageMeta'
 
 const GRADIENTS = [
   'linear-gradient(160deg, #60a5fa, #1e3a8a)',
@@ -25,6 +26,13 @@ function companyName(id: string): string {
 export function Cases() {
   const { locale } = useLanguage()
   const [openTourId, setOpenTourId] = useState<string | null>(null)
+
+  usePageMeta(
+    locale === 'ru' ? 'Кейсы — Sinotech Voyage' : 'Cases — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Кейсы прошедших и готовых экспедиций в Китай — маршруты, компании и программы по дням.'
+      : "Case studies from past and ready-made China expeditions — routes, companies and day-by-day programmes.",
+  )
 
   const items: ArcGalleryItem[] = toursData.tours.map((tour, i) => ({
     id: tour.tour_id,

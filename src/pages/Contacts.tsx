@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import { useLanguage } from '@/i18n/LanguageContext'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { siteContent } from '@/data'
 
 interface ContactForm {
@@ -25,6 +26,13 @@ export function Contacts() {
   const { locale } = useLanguage()
   const [form, setForm] = useState<ContactForm>(EMPTY_FORM)
   const [sent, setSent] = useState(false)
+
+  usePageMeta(
+    locale === 'ru' ? 'Контакты — Sinotech Voyage' : 'Contacts — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Свяжитесь с нами — расскажите о задаче, подберём формат экспедиции или консалтинга и ответим в течение рабочего дня.'
+      : "Get in touch — tell us your goal, we'll match a format and reply within one business day.",
+  )
 
   const { company_en, company_ru, company_zh, legal_address, office_address, email, telegram, whatsapp } =
     siteContent.contacts

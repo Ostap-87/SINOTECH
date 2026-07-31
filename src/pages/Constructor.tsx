@@ -10,6 +10,7 @@ import type { RouteMapStop } from '@/components/RouteMap'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { DatePicker } from '@/components/DatePicker'
 import { generateRequestPdf } from '@/lib/generateRequestPdf'
 import type { PdfDay } from '@/lib/generateRequestPdf'
@@ -169,6 +170,13 @@ export function Constructor() {
   const initialSector = searchParams.get('sector')
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Конструктор программы — Sinotech Voyage' : 'Build your own programme — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Выберите формат, отметьте компании — мы соберём маршрут по Китаю на основе вашего списка.'
+      : "Pick a format, mark the companies you want — we'll assemble the China route from your list.",
+  )
 
   const step2Ref = useRef<HTMLDivElement>(null)
   const previewRef = useRef<HTMLDivElement>(null)

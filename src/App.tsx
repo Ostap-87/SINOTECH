@@ -15,6 +15,7 @@ import { Partners } from '@/pages/Partners'
 import { Consulting } from '@/pages/Consulting'
 import { Contacts } from '@/pages/Contacts'
 import { CountryPreview } from '@/pages/CountryPreview'
+import { NotFound } from '@/pages/NotFound'
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/consulting" element={<Consulting />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/countries/:code" element={<CountryPreview />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 

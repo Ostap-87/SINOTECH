@@ -5,6 +5,7 @@ import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
 
 export function IndustryFork() {
@@ -21,6 +22,21 @@ export function IndustryFork() {
   )
 
   const readyTour = toursData.tours.find((tour) => tour.sector === sectorCode)
+
+  const sectorLabel = sector ? pick(sector, 'label', locale) : null
+  usePageMeta(
+    sectorLabel
+      ? `${sectorLabel} — Sinotech Voyage`
+      : locale === 'ru'
+        ? 'Индустрия — Sinotech Voyage'
+        : 'Industry — Sinotech Voyage',
+    sectorLabel
+      ? locale === 'ru'
+        ? `${companyCount} компаний в отрасли «${sectorLabel}» — готовые экспедиции или соберите свою программу.`
+        : `${companyCount} companies in the "${sectorLabel}" sector — ready expeditions or build your own programme.`
+      : undefined,
+    { noindex: !sector },
+  )
 
   if (!sector) {
     return (

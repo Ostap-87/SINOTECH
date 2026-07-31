@@ -7,6 +7,7 @@ import type { RouteMapStop, RouteMapHandle } from '@/components/RouteMap'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
 
 function formatRub(amount: number | null | undefined, locale: 'ru' | 'en'): string {
@@ -71,6 +72,16 @@ export function ExpeditionDetail() {
   const routeMapRef = useRef<RouteMapHandle>(null)
 
   const tour = toursData.tours.find((t) => t.tour_id === tourId)
+
+  usePageMeta(
+    tour
+      ? `${pick(tour, 'title', locale)} — Sinotech Voyage`
+      : locale === 'ru'
+        ? 'Экспедиция — Sinotech Voyage'
+        : 'Expedition — Sinotech Voyage',
+    tour ? pick(tour, 'positioning', locale) : undefined,
+    { noindex: !tour },
+  )
 
   if (!tour) {
     return (

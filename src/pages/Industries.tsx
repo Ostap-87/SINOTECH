@@ -4,11 +4,19 @@ import { companiesData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 
 export function Industries() {
   const { locale } = useLanguage()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Индустрии — Sinotech Voyage' : 'Industries — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Каталог из 350+ китайских компаний по 17 отраслям — от робототехники и автопрома до биотеха и финтеха. Выберите индустрию и посмотрите готовые программы.'
+      : 'A catalogue of 350+ Chinese companies across 17 sectors — from robotics and automotive to biotech and fintech. Pick a sector and see ready-made programmes.',
+  )
 
   const sectorCounts = useMemo(() => {
     const counts = new Map<string, number>()

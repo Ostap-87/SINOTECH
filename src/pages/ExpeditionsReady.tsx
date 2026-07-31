@@ -6,12 +6,20 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { ExpeditionsTabs } from '@/components/ExpeditionsTabs'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 
 export function ExpeditionsReady() {
   const { locale } = useLanguage()
   const tours = toursData.tours
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Экспедиции — Sinotech Voyage' : 'Expeditions — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
+      : 'Curated programmes for priority niches — route, companies and logistics already put together.',
+  )
 
   return (
     <section className="relative overflow-hidden">

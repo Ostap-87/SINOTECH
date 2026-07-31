@@ -5,6 +5,7 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
 
 export function CountryPreview() {
@@ -14,6 +15,16 @@ export function CountryPreview() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   const country = code && code !== 'cn' ? COUNTRY_SHAPES[code] : undefined
+
+  usePageMeta(
+    country
+      ? `${locale === 'ru' ? country.name_ru : country.name_en} — Sinotech Voyage`
+      : locale === 'ru'
+        ? 'Страна не найдена — Sinotech Voyage'
+        : 'Country not found — Sinotech Voyage',
+    undefined,
+    { noindex: true },
+  )
 
   if (!country) {
     return (

@@ -4,6 +4,7 @@ import { useLanguage } from '@/i18n/LanguageContext'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
+import { usePageMeta } from '@/hooks/usePageMeta'
 
 interface Service {
   n: number
@@ -171,6 +172,13 @@ export function Consulting() {
   const { locale } = useLanguage()
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
+
+  usePageMeta(
+    locale === 'ru' ? 'Консалтинг — Sinotech Voyage' : 'Consulting — Sinotech Voyage',
+    locale === 'ru'
+      ? 'Консалтинг и технологические экспедиции в Китай и Юго-Восточную Азию — доступ к первым лицам ведущих азиатских холдингов.'
+      : 'Consulting and technology expeditions to China and Southeast Asia — direct access to the leadership of top Asian holdings.',
+  )
 
   return (
     <section className="relative overflow-hidden">
