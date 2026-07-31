@@ -15,7 +15,6 @@ const PRIMARY_LINKS = [
 ]
 
 const RESOURCE_LINKS = [
-  { to: '/companies', label_ru: 'Компании', label_en: 'Companies' },
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
   { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
   { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
@@ -26,6 +25,7 @@ const EXPEDITIONS_LINKS = [
   { to: '/expeditions', label_ru: 'Готовые экспедиции', label_en: 'Ready expeditions' },
   { to: '/expeditions/recommended', label_ru: 'Рекомендуемые', label_en: 'Recommended' },
   { to: '/industries', label_ru: 'Собрать свою программу', label_en: 'Build your own program' },
+  { to: '/companies', label_ru: 'Компании', label_en: 'Companies' },
 ]
 
 const ALL_LINKS = [...PRIMARY_LINKS, ...RESOURCE_LINKS]
