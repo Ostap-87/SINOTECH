@@ -8,6 +8,8 @@ import { Constructor } from '@/pages/Constructor'
 import { ExpeditionsReady } from '@/pages/ExpeditionsReady'
 import { ExpeditionsRecommended } from '@/pages/ExpeditionsRecommended'
 import { ExpeditionDetail } from '@/pages/ExpeditionDetail'
+import { Companies } from '@/pages/Companies'
+import { CompanyDetail } from '@/pages/CompanyDetail'
 import { Blog } from '@/pages/Blog'
 import { Cases } from '@/pages/Cases'
 import { Faq } from '@/pages/Faq'
@@ -32,6 +34,8 @@ export default function App() {
           <Route path="/expeditions/recommended" element={<ExpeditionsRecommended />} />
           <Route path="/expeditions/:tourId" element={<ExpeditionDetail />} />
           <Route path="/tours" element={<Navigate to="/expeditions" replace />} />
+          <Route path="/companies" element={<Companies />} />
+          <Route path="/companies/:id" element={<CompanyDetail />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/cases" element={<Cases />} />
           <Route path="/faq" element={<Faq />} />

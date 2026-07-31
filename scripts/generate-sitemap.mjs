@@ -25,6 +25,7 @@ const STATIC_ROUTES = [
   { path: '/expeditions', changefreq: 'weekly', priority: '0.9' },
   { path: '/expeditions/recommended', changefreq: 'weekly', priority: '0.7' },
   { path: '/consulting', changefreq: 'monthly', priority: '0.8' },
+  { path: '/companies', changefreq: 'weekly', priority: '0.8' },
   { path: '/cases', changefreq: 'weekly', priority: '0.7' },
   { path: '/blog', changefreq: 'weekly', priority: '0.6' },
   { path: '/faq', changefreq: 'monthly', priority: '0.6' },
@@ -44,7 +45,13 @@ const tourRoutes = tours.tours.map((t) => ({
   priority: '0.8',
 }))
 
-const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes]
+const companyRoutes = companies.companies.map((c) => ({
+  path: `/companies/${c.id}`,
+  changefreq: 'monthly',
+  priority: '0.5',
+}))
+
+const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes, ...companyRoutes]
 
 const today = new Date().toISOString().slice(0, 10)
 

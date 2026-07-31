@@ -5,6 +5,7 @@ import { Logo } from './Logo'
 
 const FOOTER_LINKS = [
   { to: '/industries', label_ru: 'Индустрии', label_en: 'Industries' },
+  { to: '/companies', label_ru: 'Компании', label_en: 'Companies' },
   { to: '/expeditions', label_ru: 'Экспедиции', label_en: 'Expeditions' },
   { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },

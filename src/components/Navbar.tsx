@@ -15,6 +15,7 @@ const PRIMARY_LINKS = [
 ]
 
 const RESOURCE_LINKS = [
+  { to: '/companies', label_ru: 'Компании', label_en: 'Companies' },
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
   { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
   { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
