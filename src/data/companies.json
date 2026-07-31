@@ -755,8 +755,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce & smart-logistics giant.",
-      "desc_ru": "Гигант e-commerce и умной логистики.",
+      "desc_en": "Chinese e-commerce company headquartered in Beijing, founded by Liu Qiangdong (originally as a physical retail store before moving online). Known for its self-built nationwide logistics and warehouse network enabling direct, self-operated retail and fast delivery, and for being listed on both NASDAQ and the Hong Kong Stock Exchange.",
+      "desc_ru": "Китайская компания электронной коммерции, основанная Лю Цяндуном (изначально как розничный магазин, позже перешедшая в онлайн-торговлю), со штаб-квартирой в Пекине. Известна собственной логистической сетью и складами по всему Китаю, обеспечивающими быструю доставку и продажу товаров напрямую со своих складов (модель self-operated retail), а также листингом на NASDAQ и Гонконгской бирже.",
       "country": "cn"
     },
     {
@@ -769,8 +769,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Smartphones & IoT ecosystem.",
-      "desc_ru": "Смартфоны и экосистема IoT.",
+      "desc_en": "Xiaomi is a Chinese technology company headquartered in Beijing, founded in 2010, that makes smartphones (Xiaomi and Redmi brands) and a broad range of smart-home and IoT devices, and, since 2024, electric vehicles. It ranks among the world's largest smartphone makers (roughly 3rd by shipments) and operates one of the largest connected IoT device ecosystems globally. Xiaomi has been listed on the Hong Kong Stock Exchange (1810.HK) since 2018.",
+      "desc_ru": "Xiaomi — китайская технологическая компания со штаб-квартирой в Пекине, основанная в 2010 году; выпускает смартфоны (бренды Xiaomi и Redmi), а также широкий спектр устройств умного дома и IoT, с 2024 года — электромобили. Компания входит в число крупнейших производителей смартфонов в мире (около 3-е место по продажам) и управляет одной из крупнейших в мире экосистем подключённых IoT-устройств. Акции Xiaomi торгуются на Гонконгской бирже (1810.HK) с 2018 года.",
       "country": "cn"
     },
     {
@@ -783,8 +783,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Search engine and AI leader.",
-      "desc_ru": "Лидер поиска и ИИ.",
+      "desc_en": "Baidu is a Chinese technology company founded in 2000 by Robin Li and headquartered in Beijing; it operates China's dominant search engine. The company develops the ERNIE Bot (Wenxin Yiyan) large language model, the Apollo Go autonomous driving/robotaxi platform, and its own Kunlun AI chips.",
+      "desc_ru": "Baidu — китайская технологическая компания, основанная в 2000 году Робином Ли, со штаб-квартирой в Пекине; оператор доминирующей поисковой системы в Китае. Компания развивает большую языковую модель ERNIE Bot (Wenxin Yiyan), платформу автономного вождения Apollo Go и собственные ИИ-чипы Kunlun.",
       "country": "cn"
     },
     {
@@ -839,8 +839,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Telecom & devices leader.",
-      "desc_ru": "Лидер телекома и устройств.",
+      "desc_en": "Huawei (华为) is a Chinese telecommunications company founded in 1987, operating through three segments: carrier network equipment, enterprise solutions, and consumer devices (smartphones, laptops, wearables). It holds the largest share of the global telecom equipment market and leads in 5G standards contributions; facing US restrictions on chips and Google services, it has built out its own HarmonyOS ecosystem and Pura/Mate smartphone lines.",
+      "desc_ru": "Huawei (华为) — китайская телекоммуникационная компания, основанная в 1987 году, работает в трёх направлениях: сетевое оборудование для операторов, корпоративные решения и потребительская электроника (смартфоны, ноутбуки, носимые устройства). Компания занимает крупнейшую долю мирового рынка телеком-оборудования и лидирует по числу технических вкладов в стандарты 5G; в условиях санкций США развивает собственную ОС HarmonyOS и линейку смартфонов Pura/Mate.",
       "country": "cn"
     },
     {
@@ -867,8 +867,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce and cloud giant.",
-      "desc_ru": "Гигант e-commerce и облака.",
+      "desc_en": "Alibaba Group is a Chinese technology company founded by Jack Ma in 1999 in Hangzhou, operating China's largest e-commerce platforms Taobao and Tmall, as well as the international marketplace AliExpress. It also runs Alibaba Cloud, one of Asia's largest cloud service providers, and is affiliated with the Alipay payments service via Ant Group.",
+      "desc_ru": "Alibaba Group — китайская технологическая компания, основанная Джеком Ма в 1999 году в Ханчжоу, управляющая крупнейшими в Китае платформами электронной коммерции Taobao и Tmall, а также международной торговой площадкой AliExpress. Компания также развивает облачное подразделение Alibaba Cloud — одного из крупнейших провайдеров облачных сервисов в Азии — и платёжный сервис Alipay через аффилированную структуру Ant Group.",
       "country": "cn"
     },
     {
@@ -1021,8 +1021,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Social, games and cloud giant.",
-      "desc_ru": "Гигант соцсетей, игр и облака.",
+      "desc_en": "Tencent (founded 1998, headquartered in Shenzhen) is a Chinese technology conglomerate operating the QQ and WeChat (Weixin) messaging platforms and is the world's largest video game publisher, developing Honor of Kings and owning Riot Games (League of Legends) plus stakes in Epic Games, Ubisoft and Activision Blizzard. It also runs Tencent Cloud and WeChat Pay, and is listed on the Hong Kong Stock Exchange.",
+      "desc_ru": "Tencent (Shenzhen, основана в 1998 году) — китайский технологический конгломерат, владеющий мессенджерами QQ и WeChat (Weixin), крупнейший в мире издатель видеоигр (Honor of Kings, League of Legends через Riot Games, доли в Epic Games, Ubisoft, Activision Blizzard). Компания также развивает облачные сервисы Tencent Cloud, платежи WeChat Pay и цифровые медиа, торгуется на Гонконгской бирже.",
       "country": "cn"
     },
     {
@@ -1217,8 +1217,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Local-services super-app.",
-      "desc_ru": "Супер-приложение локальных сервисов.",
+      "desc_en": "Meituan (美团) is a Chinese local-services platform and the country's largest food-delivery service, also offering restaurant bookings, grocery delivery (Meituan Maicai), ride-hailing, bike-sharing (Meituan Bike, formerly Mobike), and hotel/travel booking. Founded by Wang Xing in 2010 as a group-buying site, it later merged with restaurant-review service Dianping. Meituan is listed on the Hong Kong Stock Exchange and headquartered in Beijing.",
+      "desc_ru": "Meituan (美团) — китайская платформа локальных сервисов, крупнейший в Китае сервис доставки еды, также предлагающий бронирование ресторанов, доставку продуктов (Meituan Maicai), заказ такси, аренду велосипедов (Meituan Bike, ранее Mobike) и бронирование отелей/билетов. Компания основана Ван Сином в 2010 году как сайт групповых покупок и позже слилась с сервисом отзывов о ресторанах Dianping. Акции Meituan торгуются на Гонконгской бирже, а штаб-квартира расположена в Пекине.",
       "country": "cn"
     },
     {
@@ -1819,8 +1819,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Lifestyle & social-commerce app.",
-      "desc_ru": "Лайфстайл и социальная коммерция.",
+      "desc_en": "Xiaohongshu (小红书, \"Little Red Book,\" also known internationally as RedNote) is a Chinese lifestyle content and social-commerce platform founded in 2013 and headquartered in Shanghai. Users share short posts (\"notes\") with product reviews, beauty tutorials, and travel guides, and can purchase featured products directly through the in-app Xiaohongshu Mall. The platform has hundreds of millions of monthly active users, skews heavily female and Gen Z, and counts Tencent and Alibaba among its investors.",
+      "desc_ru": "Сяохуншу (小红书, «Little Red Book», также известна как RedNote) — китайская платформа лайфстайл-контента и социальной коммерции, основанная в 2013 году, штаб-квартира в Шанхае. Пользователи публикуют короткие посты («заметки») с обзорами товаров, бьюти-гайдами и советами по путешествиям, а через встроенный Xiaohongshu Mall могут сразу покупать упомянутые товары, не выходя из приложения. Платформа насчитывает сотни миллионов ежемесячных активных пользователей (преимущественно женщины и молодая аудитория), а среди инвесторов — Tencent и Alibaba.",
       "country": "cn"
     },
     {
@@ -1875,8 +1875,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Social e-commerce platform.",
-      "desc_ru": "Платформа социальной e-commerce.",
+      "desc_en": "Pinduoduo (拼多多) is a Chinese e-commerce platform founded in 2015 by Colin Huang (Huang Zheng), known for its group-buying model where users team up with friends via social networks like WeChat to unlock discounts. Its parent company, PDD Holdings, also owns Temu, a cross-border shopping platform launched in 2022, and PDD Holdings trades on Nasdaq. Pinduoduo has grown into one of China's largest e-commerce platforms by active buyers, competing directly with Alibaba and JD.com.",
+      "desc_ru": "Pinduoduo (拼多多) — китайская платформа e-commerce, основанная в 2015 году Колином Хуаном (Huang Zheng), известная моделью групповых покупок, где пользователи объединяются с друзьями через соцсети (WeChat) для получения скидок. Компания также владеет международной платформой Temu, запущенной в 2022 году для трансграничной торговли. Акции материнской компании PDD Holdings торгуются на Nasdaq, а по числу активных покупателей компания является одной из крупнейших e-commerce платформ Китая.",
       "country": "cn"
     },
     {
@@ -1889,8 +1889,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online travel agency.",
-      "desc_ru": "Онлайн-турагентство.",
+      "desc_en": "Ctrip (Trip.com Group), founded in 1999 in Shanghai, is a Chinese online travel booking company offering flight, hotel, train ticket, and tour reservations through its Ctrip platform (domestic China market) and Trip.com brand (international market). It is one of the world's largest online travel agencies, is listed on NASDAQ, and has held a major stake in Skyscanner as part of its international expansion.",
+      "desc_ru": "Ctrip (Trip.com Group), основанная в 1999 году в Шанхае, — китайский оператор онлайн-бронирования путешествий, предлагающий бронирование авиабилетов, отелей, поездов и туров через платформы Ctrip (китайский рынок) и Trip.com (международный рынок). Компания входит в число крупнейших OTA в мире и котируется на бирже NASDAQ, а также владеет брендами Skyscanner и MakeMyTrip (через инвестиции/партнёрства) для расширения присутствия за пределами Китая.",
       "country": "cn"
     },
     {
@@ -2029,8 +2029,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI and computer-vision firm.",
-      "desc_ru": "ИИ и компьютерное зрение.",
+      "desc_en": "DeepBlue Technology (深兰科技) is an AI company founded in 2014 in Shanghai, focused on computer vision, biological and cognitive intelligence, and autonomous driving, with applications in intelligent transportation, robotics, industry, and healthcare. It has won over 50 awards in international computer science and AI competitions (PAKDD, CVPR, ICCV, KDD, and others) and was recognized in 2020 by China's Ministry of Industry and Information Technology for its COVID-19 response contributions. In 2023 it was listed on the Hurun Global Unicorn List with a valuation of roughly RMB 14 billion.",
+      "desc_ru": "Deepblue Technology (深兰科技) — компания в области ИИ, основанная в 2014 году в Шанхае, специализируется на компьютерном зрении, биологическом и когнитивном интеллекте, а также беспилотном вождении, с приложениями в интеллектуальных транспорте, робототехнике, промышленности и здравоохранении. Компания выиграла свыше 50 наград на международных соревнованиях по компьютерным наукам и ИИ (PAKDD, CVPR, ICCV, KDD и др.) и в 2020 году была отмечена Минпромторгом КНР за вклад в борьбу с COVID-19. В 2023 году вошла в рейтинг глобальных единорогов Hurun с оценкой около 14 млрд юаней.",
       "country": "cn"
     },
     {
@@ -2057,8 +2057,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "New-retail grocery (Alibaba).",
-      "desc_ru": "Новый ритейл продуктов (Alibaba).",
+      "desc_en": "A \"new retail\" supermarket chain launched by Alibaba in 2016, integrating physical stores with online ordering and delivery of fresh food (seafood, produce) typically within 30 minutes. Stores combine grocery shopping with in-store dining and use self-checkout and mobile scanning technology; the brand has expanded into formats including Hema Xiansheng, Hema Mini convenience stores, and Hema X membership stores.",
+      "desc_ru": "Сеть супермаркетов \"новой розницы\", запущенная Alibaba в 2016 году, объединяющая офлайн-магазины, онлайн-заказ и доставку свежих продуктов (морепродукты, овощи, фрукты) в пределах 30 минут. Магазины совмещают зону покупок с зоной ресторанного питания и используют кассы самообслуживания и мобильное сканирование товаров; бренд включает форматы Hema Xiansheng, Hema Mini и мембершип-магазины Hema X.",
       "country": "cn"
     },
     {
@@ -2071,8 +2071,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium tea-drink chain.",
-      "desc_ru": "Сеть премиальных чайных напитков.",
+      "desc_en": "Chinese modern tea-drink chain founded in 2017, operating over 6,400 teahouses across China, Malaysia, Singapore and Thailand under the brand name 霸王茶姬 (Chagee). The company listed on Nasdaq in April 2025 under ticker CHA, reaching a valuation of roughly $6 billion on debut, and reported 2024 revenue of about $1.7 billion; it has also begun opening stores in the United States, starting with Los Angeles.",
+      "desc_ru": "Китайская сеть чайных напитков нового формата, основанная в 2017 году, насчитывающая более 6400 чайных в Китае, Малайзии, Сингапуре и Таиланде под брендом 霸王茶姬 (Chagee). В апреле 2025 года компания вышла на биржу Nasdaq (тикер CHA) с оценкой около $6 млрд, а выручка за 2024 год составила около $1,7 млрд; компания также начала открывать точки в США, первую — в Лос-Анджелесе.",
       "country": "cn"
     },
     {
@@ -2085,8 +2085,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Affordable specialty coffee chain.",
-      "desc_ru": "Сеть доступного спешелти-кофе.",
+      "desc_en": "A coffee chain founded in 2015 in Shanghai as a small roadside stall, known for its flat whites and compact stores priced 30-40% below Western chains like Starbucks. By late 2023 it had grown to over 1,000 company-operated stores across dozens of Chinese cities while remaining profitable.",
+      "desc_ru": "Сеть кофеен, основанная в 2015 году в Шанхае как небольшая уличная точка; известна флэт-уайт и компактными кофейнями по ценам на 30-40% ниже западных сетей вроде Starbucks. К концу 2023 года выросла до более 1000 собственных точек в десятках городов Китая, оставаясь при этом прибыльной.",
       "country": "cn"
     },
     {
@@ -2099,8 +2099,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Concept coffeehouses — design-led space experience.",
-      "desc_ru": "Концептуальные кофейни с дизайнерским подходом.",
+      "desc_en": "A boutique coffee chain founded in Shanghai in 2017 by Ge Dong, operating via a mix of company-owned and franchised stores with over 500 locations across roughly 40 Chinese cities. It follows a \"one store, one design\" concept, giving each location a distinct aesthetic, and sells branded lifestyle merchandise (cups, bags, apparel) through its WeChat mini-program. In 2025 it opened its first overseas store in Kyoto, Japan, and launched the \"Maison by M Stand\" concept store in Shanghai featuring burgers and alcoholic drinks.",
+      "desc_ru": "Сеть бутик-кофеен, основанная в Шанхае в 2017 году Ге Дуном; работает по модели собственных и франчайзинговых точек и насчитывает свыше 500 кофеен примерно в 40 городах Китая. Использует концепцию \"один магазин — один дизайн\" с уникальным дизайнерским подходом к каждой точке, а также продаёт брендированные товары (посуда, сумки, одежда) через мини-программу в WeChat. В 2025 году открыла первую зарубежную кофейню в Киото (Япония) и запустила концептуальный формат \"Maison by M Stand\" в Шанхае с бургерами и алкогольными напитками.",
       "country": "cn"
     },
     {
@@ -2113,8 +2113,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Taiwanese hand-shaken tea chain, mainland HQ.",
-      "desc_ru": "Тайваньская сеть hand-shaken чая, материковый HQ.",
+      "desc_en": "Taiwanese hand-shaken tea (bubble tea) franchise chain, founded in 1997 by Tommy Hung in Tamsui; entered the mainland Chinese market in 2007, with its China headquarters based in Shanghai. The chain operates over 5,000 locations worldwide across China, South Korea, the US, Europe and other markets.",
+      "desc_ru": "Тайваньская сеть чайных напитков (bubble tea/hand-shaken tea), основана в 1997 году Тommy Hung в Тамсуй; вышла на материковый рынок Китая в 2007 году, штаб-квартира по Китаю — в Шанхае. Сеть насчитывает свыше 5000 точек по всему миру, включая Китай, Южную Корею, США, Европу и другие страны.",
       "country": "cn"
     },
     {
@@ -2127,8 +2127,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Taiwanese milk-tea chain (50嵐), mainland brand.",
-      "desc_ru": "Тайваньская сеть молочного чая (50嵐), материковый бренд.",
+      "desc_en": "A milk-tea and fruit-tea chain founded in Shanghai around 2010–2012 as a mainland China brand linked to Taiwan's 50嵐 (\"50 Lan\") chain, created because the \"50 Lan\" name was already registered in mainland China. By 2021 it had grown to over 4,000 stores across China (891 new stores opened in 2019 alone), operates via multiple franchise formats (takeout kiosks, standard stores, flagship stores), and has also expanded to the US, South Korea, and Japan.",
+      "desc_ru": "Сеть чайных напитков (молочный чай/фруктовый чай), основана в Шанхае в 2010–2012 гг. как материковый бренд, связанный с тайваньской сетью 50嵐 («50 Lan»), поскольку название 50嵐 было уже зарегистрировано в материковом Китае. К 2021 году насчитывала свыше 4000 точек по Китаю (в 2019 году открыто 891 новая точка), работает по нескольким франчайзинговым форматам (киоски навынос, стандартные точки, флагманские магазины), также вышла на рынки США, Южной Кореи и Японии.",
       "country": "cn"
     },
     {
@@ -2141,8 +2141,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Mass-market tech-driven coffee chain.",
-      "desc_ru": "Технологичная сеть масс-маркет кофе.",
+      "desc_en": "Luckin Coffee (瑞幸咖啡) is a Chinese coffee chain headquartered in Xiamen, Fujian province, built around mobile-app ordering with mostly small pickup/delivery-format outlets rather than seating cafes. It overtook Starbucks in store count in China and by 2026 operates over 33,000 locations (company-owned and partner stores); in 2026 it also opened its first high-end flagship store format to compete more directly with Starbucks.",
+      "desc_ru": "Luckin Coffee (瑞幸咖啡) — китайская сеть кофеен, штаб-квартира в Сямэне, провинция Фуцзянь; заказы делаются через мобильное приложение, большинство точек — компактные take-away/pick-up формата без посадочных мест. По числу торговых точек в Китае обогнала Starbucks и к 2026 году насчитывает свыше 33 тысяч кофеен (собственных и партнёрских); в 2026 году открыла первый премиальный флагманский формат, конкурирующий со Starbucks.",
       "country": "cn"
     },
     {
@@ -2155,8 +2155,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium new-tea chain.",
-      "desc_ru": "Сеть премиального нового чая.",
+      "desc_en": "Chinese tea beverage chain founded in 2012 (originally as \"Royal Tea\" in Jiangmen, renamed HeyTea/喜茶 in 2016), headquartered in Nanshan District, Shenzhen. It pioneered the \"new tea\" category — drinks combining tea, fresh milk, and fruit — and operates several thousand stores across China. In 2021 it engaged UBS for a potential Hong Kong IPO targeting around $500 million.",
+      "desc_ru": "Китайская сеть чайных напитков, основанная в 2012 году (первоначально как \"Royal Tea\" в Цзянмэне, переименована в HeyTea/喜茶 в 2016 году), штаб-квартира в районе Наньшань, Шэньчжэнь. Компания специализируется на \"новом чае\" — напитках на основе чая, свежего молока и фруктов, и управляет сетью из нескольких тысяч точек по Китаю. В 2021 году привлекала UBS для потенциального IPO в Гонконге объёмом около 500 млн долларов.",
       "country": "cn"
     },
     {
@@ -2169,8 +2169,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "New-tea chain, large-format flagships.",
-      "desc_ru": "Сеть нового чая, крупноформатные флагманы.",
+      "desc_en": "Premium tea chain founded in 2014 in Shenzhen, known for combining fruit-based cheese tea with soft European-style baked goods. As of September 2024 it operated 1,926 franchised locations, with 2023 revenue of CN¥5.16 billion.",
+      "desc_ru": "Сеть чайных заведений премиум-сегмента, основанная в 2014 году в Шэньчжэне; сочетает фруктовый чай с сыром (cheese tea) и выпечку в формате soft European bread. По состоянию на сентябрь 2024 года насчитывала 1926 франчайзинговых точек, выручка за 2023 год составила 5,16 млрд юаней.",
       "country": "cn"
     },
     {
@@ -2183,8 +2183,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Herbal tea heritage brand since 1828.",
-      "desc_ru": "Наследный бренд травяного чая с 1828 года.",
+      "desc_en": "Wang Lao Ji is a Chinese herbal tea producer founded in 1828 as an apothecary shop in Guangdong province; it is now made through Guangzhou Wanglaoji Health Industry (a subsidiary of Guangzhou Baiyunshan Pharmaceutical Group) and, for the red-can product, Guangzhou Pharmaceutical Holding. Its formula and production process were designated a national intangible cultural heritage in 2006, and the brand exhibited at the 1925 London Exhibition and has been ranked China's top beverage brand.",
+      "desc_ru": "Ван Лаоцзи — китайский производитель травяного чая, основанный в 1828 году как аптека в провинции Гуандун; ныне выпускается через Guangzhou Wanglaoji Health Industry (дочерняя компания Guangzhou Baiyunshan Pharmaceutical Group) и, для банки красного цвета, компанию Guangzhou Pharmaceutical Holding. В 2006 году рецептура и технология производства получили статус национального нематериального культурного наследия Китая. Бренд участвовал в Лондонской выставке 1925 года и долгое время считался брендом напитков № 1 в Китае.",
       "country": "cn"
     },
     {
@@ -2197,8 +2197,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Herbal skincare heritage brand, founded 1931.",
-      "desc_ru": "Наследный бренд травяного ухода, основан в 1931 г.",
+      "desc_en": "Pechoin (百雀羚) is a Chinese skincare brand founded in 1931 in Shanghai by Gu Zhimin, considered the country's first domestic skincare brand; it operates as Shanghai Pechoin Daily Chemical Co., Ltd. It specializes in products based on traditional Chinese herbal ingredients tailored to Chinese consumers' skin, and in 2013 its products were designated a \"national gift\" of the PRC. Pechoin holds a leading position in China's skincare market, repeatedly topping Tmall's Double 11 sales rankings ahead of major international brands.",
+      "desc_ru": "Пекин (百雀羚) — китайский бренд косметики, основанный в 1931 году в Шанхае Гу Чжимином как первая отечественная марка ухода за кожей в стране; компания оперирует как Shanghai Pechoin Daily Chemical Co., Ltd. Специализируется на средствах на основе традиционных китайских трав, ориентированных на особенности кожи китайских потребителей; в 2013 году продукция была отмечена как «национальный подарок» КНР. Бренд занимает лидирующие позиции на китайском рынке ухода за кожей, регулярно возглавляя рейтинги продаж во время распродаж Double 11 на Tmall, обгоняя международных конкурентов.",
       "country": "cn"
     },
     {
@@ -2211,8 +2211,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Jala Group — science-led natural-formula skincare.",
-      "desc_ru": "Группа Jala — уход на основе науки и натуральных формул.",
+      "desc_en": "CHANDO Group (formerly Jala Group, 自然堂), founded in 2001 in Shanghai, is a Chinese skincare and cosmetics company whose products are inspired by Himalayan naturalism. In 2015 CHANDO became the top brand by market share in China's women's skincare segment, and the company operates a multi-brand portfolio including Maysu, Botanical Wisdom, Spring Summer, and the science-focused lines Biorrier and Imine.",
+      "desc_ru": "CHANDO Group (ранее Jala Group, 自然堂), основана в 2001 году в Шанхае — китайский производитель косметики и средств по уходу за кожей, вдохновлённый природой Гималаев. В 2015 году бренд CHANDO стал лидером по доле рынка среди брендов ухода за кожей для женщин в Китае; компания владеет портфелем брендов, включая Maysu, Botanical Wisdom, Spring Summer и научные бренды Biorrier и Imine.",
       "country": "cn"
     },
     {
@@ -2225,8 +2225,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium oil-based skincare, red camellia signature.",
-      "desc_ru": "Премиальный уход маслами, фирменная красная камелия.",
+      "desc_en": "Linqingxuan (formerly Shanghai Forest Cabin Cosmetics), founded in 2003 in Songjiang, Shanghai, is a Chinese premium skincare brand that pivoted in 2012 to oil-based skincare built around red camellia. Its flagship Camellia Essential Oil has ranked first in China's facial-oil retail sales for over a decade, and the company filed for a Hong Kong IPO in 2025, positioned as the sole domestic brand among China's top 15 high-end skincare players.",
+      "desc_ru": "林清轩 (Linqingxuan, ранее Shanghai Forest Cabin Cosmetics) — китайский премиальный бренд ухода за кожей, основанный в 2003 году в районе Сунцзян, Шанхай, с 2012 года специализирующийся на масляном уходе на основе красной камелии. Флагманский продукт, камелиевое эссенц-масло, более 10 лет подряд занимает первое место по розничным продажам масел для лица в Китае; компания подала заявку на IPO в Гонконге в 2025 году.",
       "country": "cn"
     },
     {
@@ -2239,8 +2239,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Shangmei Group — resurgent classic brand with strong DTC.",
-      "desc_ru": "Группа Shangmei — классический бренд на подъёме, сильный DTC.",
+      "desc_en": "KANS (韩束) is a Chinese skincare brand founded in 2002, operating under Shanghai Shangmei Cosmetics Co., Ltd. It positions itself around \"scientific anti-aging\" and relies heavily on livestreaming and social commerce on Douyin and Xiaohongshu, ranking first by GMV in Douyin's beauty category for full-year 2023.",
+      "desc_ru": "KANS (韩束) — китайский бренд косметики по уходу за кожей, основанный в 2002 году, входит в состав Shanghai Shangmei Cosmetics Co., Ltd. Позиционируется как бренд \"научного антиэйджинга\" и активно продаётся через ливстриминг и социальную коммерцию на платформах Douyin и Xiaohongshu, где по итогам 2023 года занял первое место по GMV в категории красоты на Douyin.",
       "country": "cn"
     },
     {
@@ -2253,8 +2253,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Top domestic growth leader, L'Oréal's main local rival.",
-      "desc_ru": "Лидер роста среди отечественных брендов, главный конкурент L'Oréal.",
+      "desc_en": "Chinese cosmetics company headquartered in Hangzhou, focused on skincare (notable products include the Double Anti-Aging Essence and Ruby Essence). Listed on the Shanghai Stock Exchange since 2017; its Black Sea Salt Bubble Mask, launched in 2019, became one of the brand's top sellers on Tmall.",
+      "desc_ru": "Китайская косметическая компания со штаб-квартирой в Ханчжоу, специализируется на средствах по уходу за кожей (антивозрастная сыворотка \"Double Anti-Aging\", сыворотка \"Ruby\"). Акции компании торгуются на Шанхайской фондовой бирже с 2017 года; известный продукт — пузырьковая маска с черной морской солью, запущенная в 2019 году и ставшая одним из бестселлеров бренда на платформе Tmall.",
       "country": "cn"
     },
     {
@@ -2267,8 +2267,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Anti-age makeup with Eastern-aesthetic branding.",
-      "desc_ru": "Anti-age декоративная косметика с восточной эстетикой.",
+      "desc_en": "Florasis is a Chinese color-cosmetics brand founded in 2017 in Hangzhou (parent company Zhejiang Yige Beauty Group), built around an \"Oriental, flower-based makeup\" concept. It sells foundation/base, blush, lip, eye/brow, and makeup-removal products plus tools, and in 2020 became the top-selling Chinese cosmetics brand on Tmall's Singles' Day with reported sales of roughly 3 billion yuan. It expanded internationally starting 2021, including onto Amazon Japan.",
+      "desc_ru": "Китайский бренд декоративной косметики, основанный в 2017 году в Ханчжоу (материнская компания — Zhejiang Yige Beauty Group), позиционируется вокруг концепции \"восточного, цветочного макияжа\". Выпускает базовую, тональную, помадную и бровную/глазную линии косметики, а также инструменты для макияжа; в 2020 году стал самым продаваемым китайским брендом косметики в \"День холостяков\" на Tmall с продажами около 3 млрд юаней. С 2021 года представлен на международных площадках, включая Amazon Japan.",
       "country": "cn"
     },
     {
@@ -2281,8 +2281,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Leading luxury Chinese beauty brand.",
-      "desc_ru": "Лидер среди люксовых китайских бьюти-брендов.",
+      "desc_en": "A cosmetics company founded by makeup artist Mao Geping in 2000 in Hangzhou, specializing in high-end makeup and skincare products inspired by Chinese aesthetics. It completed a Hong Kong IPO in December 2024 raising roughly US$270 million, with the offering oversubscribed more than 700 times and market capitalization exceeding US$3.2 billion on debut.",
+      "desc_ru": "Компания по производству косметики, основанная визажистом Мао Гэпином в 2000 году в Ханчжоу и специализирующаяся на высококлассном макияже и уходовых средствах, вдохновлённых китайской эстетикой. В декабре 2024 года провела IPO в Гонконге объёмом около 270 млн долларов США, акции при размещении были переподписаны более чем в 700 раз, а в первый день торгов капитализация превысила 3,2 млрд долларов США.",
       "country": "cn"
     },
     {
@@ -2295,8 +2295,8 @@
       "own_supplier": false,
       "category_en": "R&D / new materials",
       "category_ru": "R&D / новые материалы",
-      "desc_en": "Hydrogen transdermal anti-age tech, founded 2022 at Jiangnan University.",
-      "desc_ru": "Водородная трансдермальная anti-age технология, осн. 2022 при Jiangnan University.",
+      "desc_en": "Cosmetics brand Kylin Way (奇麟正维, KYLINtech platform) develops hydrogen-molecule-based skin and scalp care products, with the technology developed in collaboration with Prof. Wang Jing of Jiangnan University. It co-founded a joint research center on hydrogen medicine, medical aesthetics and cosmetics with Jiangnan University and pharmaceutical company Longde Pharma. Its product lines include comprehensive skin-care solutions and scalp microbiome treatments.",
+      "desc_ru": "Косметический бренд Kylin Way (奇麟正维, платформа KYLINtech) разрабатывает средства для кожи и волос на основе технологии выделения молекулярного водорода, созданной в сотрудничестве с проф. Ван Цзин из Jiangnan University. Совместно с Jiangnan University и фармкомпанией Longde Pharma компания создала научно-исследовательский центр по водородной медицине, эстетической медицине и косметике. В продуктовой линейке — решения для комплексного ухода за кожей и восстановления микробиома кожи головы.",
       "country": "cn"
     },
     {
@@ -2309,8 +2309,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "New-DTC-beauty case study with a strong patent base.",
-      "desc_ru": "Кейс «новый DTC-бьюти» с сильной патентной базой.",
+      "desc_en": "Yatsen Holding is a China-based beauty group founded in 2016 that owns the color-cosmetics brand Perfect Diary (完美日记), along with Little Ondine, Pink Bear, DR.WU, and acquired brands Galénic and Eve Lom. Perfect Diary is one of the leading color cosmetics brands in China by retail sales value, positioned in the mass-to-mid-end price segment. Yatsen completed an IPO on the NYSE (ticker YSG) in November 2020, raising over $700 million.",
+      "desc_ru": "Yatsen Holding — китайская бьюти-группа (основана в 2016 г.), владеющая брендом цветной косметики Perfect Diary (完美日记), а также Little Ondine, Pink Bear, DR.WU и приобретёнными Galénic и Eve Lom. Perfect Diary — один из ведущих брендов декоративной косметики в Китае по объёму розничных продаж, работает в масс- и средне-ценовом сегменте. Компания провела IPO на NYSE в ноябре 2020 года (тикер YSG), привлекнув более 700 млн долларов.",
       "country": "cn"
     },
     {
@@ -2323,8 +2323,8 @@
       "own_supplier": true,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "#1 domestic decorative-makeup brand; R&D in Milan.",
-      "desc_ru": "№1 отечественный бренд декоративного макияжа; R&D в Милане.",
+      "desc_en": "Carslan (卡姿兰) is a Chinese decorative-makeup brand founded in 2001, with a production base of over 20,000 sq. m in Guangzhou. It makes eyeshadow, lipstick, mascara, eyeliner and other cosmetics, and operates R&D labs in Italy (since 2021) and Japan (since 2023). In July 2025 it was named the No.1 domestic makeup brand in China.",
+      "desc_ru": "�асrslan (卡姿兰) — китайский бренд декоративной косметики, основанный в 2001 году, с производственной базой площадью более 20 000 м² в Гуанчжоу. Выпускает тени, помады, тушь, подводки и другую декоративную косметику; имеет R&D-лаборатории в Италии (с 2021 г.) и Японии (с 2023 г.). В июле 2025 года признан брендом №1 среди отечественных марок декоративного макияжа в Китае.",
       "country": "cn"
     },
     {
@@ -2421,8 +2421,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / cobots",
       "category_ru": "Гуманоиды / коботы",
-      "desc_en": "Yuanzheng A2, Genie; among first to mass production.",
-      "desc_ru": "Yuanzheng A2, Genie; одними из первых на поток.",
+      "desc_en": "AgiBot (智元机器人, Zhiyuan Robotics) is a Shanghai-based humanoid robotics company founded in 2023 by former Huawei engineers Deng Taihua and Peng Zhihui. Its flagship Yuanzheng A2 humanoid robot holds a Guinness World Record for farthest distance walked by a humanoid robot, and the Genie line is also part of its product range. The company began mass production of humanoid robots at its Shanghai factory in late 2024, making it one of the first companies in the sector to reach that stage.",
+      "desc_ru": "AgiBot (智元机器人, Zhiyuan Robotics) — шанхайская компания-разработчик человекоподобных роботов, основанная в 2023 году бывшими инженерами Huawei Дэн Тайхуа и Пэн Чжихуэем. Флагманский робот Yuanzheng A2 (远征A2) установил рекорд Гиннесса по дальности ходьбы человекоподобного робота; линейка Genie также входит в продуктовый портфель компании. В конце 2024 года компания начала серийное производство человекоподобных роботов на своём заводе в Шанхае, войдя в число первых игроков, наладивших массовый выпуск.",
       "country": "cn"
     },
     {
@@ -2547,8 +2547,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Shenzhen.",
-      "desc_ru": "Робототехника и беспилотные системы, Шэньчжэнь.",
+      "desc_en": "DJI (Da-Jiang Innovations) is a Chinese manufacturer of consumer and commercial drones, founded in 2006 by Frank Wang in Shenzhen; it holds the largest share of the global consumer quadcopter market. The company produces the Phantom, Mavic and Mini drone lines, along with camera gimbal stabilizers (Ronin) and systems for agriculture and industrial inspection.",
+      "desc_ru": "DJI (Da-Jiang Innovations) — китайский производитель гражданских и коммерческих дронов, основанный в 2006 году Фрэнком Ваном в Шэньчжэне; занимает крупнейшую долю мирового рынка потребительских квадрокоптеров. Компания выпускает линейки Phantom, Mavic и Mini, а также стабилизаторы для камер (Ronin) и системы для сельского хозяйства и промышленных инспекций.",
       "country": "cn"
     },
     {
@@ -2589,8 +2589,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Genomics-research leader.",
-      "desc_ru": "Лидер геномных исследований.",
+      "desc_en": "One of the world's largest genomics companies, founded in 1999 in Beijing and now headquartered in Shenzhen; it works in DNA sequencing, genetic testing, and bioinformatics. Its subsidiary MGI develops and manufactures its own gene sequencers, and during the COVID-19 pandemic BGI became a major global supplier of PCR test kits. BGI Genomics is listed on the Shenzhen Stock Exchange.",
+      "desc_ru": "Одна из крупнейших в мире геномных компаний, основана в 1999 году в Пекине (сейчас штаб-квартира в Шэньчжэне); занимается секвенированием ДНК, генетическим тестированием и биоинформатикой. Через дочернюю компанию MGI производит собственные секвенаторы, а во время пандемии COVID-19 стала крупным поставщиком ПЦР-тестов по всему миру. Акции BGI Genomics торгуются на бирже Shenzhen Stock Exchange.",
       "country": "cn"
     },
     {
@@ -2687,8 +2687,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Telecom-equipment maker.",
-      "desc_ru": "Производитель телеком-оборудования.",
+      "desc_en": "ZTE (中兴通讯) is a Chinese maker of telecommunications equipment and systems headquartered in Shenzhen, founded in 1985. It supplies telecom operators as well as government and enterprise customers with communications-network gear, IoT, big data and cloud computing products, and is dual-listed on the Shenzhen Stock Exchange (since 1997, the first major Chinese telecom-equipment maker to list there) and the Hong Kong Stock Exchange (since 2004).",
+      "desc_ru": "ZTE (中兴通讯) — китайский производитель телекоммуникационного оборудования и систем со штаб-квартирой в Шэньчжэне, основан в 1985 году. Компания поставляет решения для операторов связи, а также госсектора и корпоративных клиентов: сети связи, оборудование для IoT, big data и облачных вычислений; акции торгуются на биржах Шэньчжэня (с 1997 года, первой среди крупных китайских производителей связного оборудования) и Гонконга (с 2004 года).",
       "country": "cn"
     },
     {
@@ -2757,8 +2757,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Leading medical-device maker.",
-      "desc_ru": "Крупнейший производитель медоборудования.",
+      "desc_en": "Founded in 1991 and headquartered in Shenzhen's Nanshan Hi-Tech Industrial Park, Mindray is China's largest medical-device manufacturer, with core business across three segments: patient monitoring devices, in-vitro diagnostic instruments, and ultrasound imaging systems. It sells thousands of device types in over 190 countries and holds a leading share of China's patient-monitoring and anesthesia-machine markets.",
+      "desc_ru": "Основанная в 1991 году и базирующаяся в Наньшаньском технопарке Шэньчжэня, Mindray — крупнейший производитель медицинского оборудования в Китае, работающий в трёх основных направлениях: приборы для мониторинга пациентов, лабораторная диагностика (IVD) и ультразвуковые системы визуализации. Компания поставляет продукцию более чем в 190 стран и занимает лидирующую долю на китайском рынке мониторов пациентов и наркозно-дыхательных аппаратов.",
       "country": "cn"
     },
     {
@@ -2771,8 +2771,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "TV and electronics maker.",
-      "desc_ru": "Производитель телевизоров и электроники.",
+      "desc_en": "Skyworth (创维), founded in 1988 in Shenzhen, makes televisions, set-top boxes and consumer electronics, exporting to over 100 countries. It also produces monitors, displays, automotive electronics and smart-home solutions, with manufacturing facilities in Shenzhen, Guangzhou, Ningbo and Wuhan, plus plants in Mexico and Indonesia (the latter acquired from Toshiba's former TV plant).",
+      "desc_ru": "Skyworth (创维), основана в 1988 году в Шэньчжэне, — производитель телевизоров, приставок и бытовой электроники, экспортирующий продукцию более чем в 100 стран. Компания также выпускает мониторы, дисплеи, автомобильную электронику и решения для умного дома; производственные площадки расположены в Шэньчжэне, Гуанчжоу, Нинбо, Уханьи, а также в Мексике и Индонезии (завод куплен у Toshiba).",
       "country": "cn"
     },
     {
@@ -2925,8 +2925,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "GAC's electric-vehicle brand.",
-      "desc_ru": "Электромобильная марка GAC.",
+      "desc_en": "GAC Aion (广汽埃安) is an electric-vehicle maker and a subsidiary of state-owned Guangzhou Automobile Group (GAC), spun off as an independent brand in November 2020. It builds EVs on its own GEP platform (models such as Aion S, Aion Y, Aion V) plus a premium sub-brand, Hyptec, and develops in-house battery (\"Magazine Battery\") and electric-drive technology.",
+      "desc_ru": "GAC Aion (广汽埃安) — производитель электромобилей, дочерняя компания государственной Guangzhou Automobile Group (GAC), выделенная в отдельный бренд в ноябре 2020 года. Выпускает электромобили на собственной платформе GEP (седаны и кроссоверы Aion S, Aion Y, Aion V), а также премиальные модели под суббрендом Hyptec; разрабатывает собственные аккумуляторы (\"Magazine Battery\") и электроприводы.",
       "country": "cn"
     },
     {
@@ -2953,8 +2953,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Air-conditioning leader.",
-      "desc_ru": "Лидер в кондиционировании.",
+      "desc_en": "Founded in 1989 in Zhuhai, China; the world's largest residential air-conditioner manufacturer, ranked No. 1 in production and sales volume since 2005. Besides window, split, floor and mobile AC units, it makes home appliances and industrial cooling equipment (chillers, VRF systems), exporting to over 180 countries with manufacturing plants also in Brazil and Pakistan.",
+      "desc_ru": "Основана в 1989 году в Чжухае, Китай; крупнейший в мире производитель бытовых кондиционеров, лидирующий по объёмам производства и продаж с 2005 года. Помимо кондиционеров (оконных, сплит-, напольных, мобильных, канальных) выпускает бытовую технику и промышленное холодильное оборудование (чиллеры, VRF-системы); продукция поставляется более чем в 180 стран, есть заводы в Бразилии и Пакистане.",
       "country": "cn"
     },
     {
@@ -2967,8 +2967,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Appliances & robotics (owns KUKA).",
-      "desc_ru": "Бытовая техника и робототехника (владеет KUKA).",
+      "desc_en": "Midea Group is a Chinese manufacturer of home appliances and electrical equipment headquartered in Foshan, Guangdong province; it makes air conditioners, refrigerators, washing machines and small appliances under its own brands and a licensed Toshiba appliance brand. It owns the German industrial robotics maker KUKA, is one of the world's largest producers of air conditioners and household appliances, and is listed on the Shenzhen Stock Exchange.",
+      "desc_ru": "Midea Group — китайский производитель бытовой техники и электрооборудования со штаб-квартирой в Фошане, провинция Гуандун; выпускает кондиционеры, холодильники, стиральные машины и мелкую технику под собственными брендами и брендом Toshiba (лицензия). Компания владеет немецким производителем промышленных роботов KUKA и является одним из крупнейших в мире производителей кондиционеров и бытовой техники, акции торгуются на Шэньчжэньской фондовой бирже.",
       "country": "cn"
     },
     {
@@ -3373,8 +3373,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Microwaves & home appliances.",
-      "desc_ru": "Микроволновки и бытовая техника.",
+      "desc_en": "Galanz (格兰仕) is a Chinese home-appliance manufacturer headquartered in Shunde, Foshan, founded in 1978 and focused on microwave ovens since 1992. In 1998 it became the world's largest microwave oven manufacturer (around 40% global market share) and later expanded into air conditioners as a first-tier global brand. Its products are sold in nearly 200 countries, with production bases in Shunde and Zhongshan.",
+      "desc_ru": "Galanz (格兰仕) — китайский производитель бытовой техники со штаб-квартирой в Шуньдэ, Фошань, основанный в 1978 году; с 1992 года специализируется на СВЧ-печах. В 1998 году стал крупнейшим в мире производителем микроволновых печей (около 40% мирового рынка) и позже вошёл в число ведущих мировых брендов кондиционеров. Продукция компании поставляется почти в 200 стран, а производственные мощности расположены в Шуньдэ и Чжуншане.",
       "country": "cn"
     },
     {
@@ -3513,8 +3513,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Kitchen-appliance maker.",
-      "desc_ru": "Производитель кухонной техники.",
+      "desc_en": "Hangzhou Robam Appliances Co., Ltd. (老板电器), founded in 2000 and based in Hangzhou, develops and manufactures household kitchen appliances, primarily range hoods, gas stoves, dishwashers, steam ovens and disinfection cabinets. It is known for range hoods engineered specifically for Chinese-style cooking and is a leading player in that category in China; the company is publicly listed on the Shenzhen Stock Exchange (ticker 002508). It also sells through subsidiaries in markets such as the US, Canada, Australia and Southeast Asia.",
+      "desc_ru": "Ляньчжоуская компания Robam Appliances (老板电器), основанная в 2000 году, разрабатывает и производит кухонную бытовую технику: кухонные вытяжки, газовые плиты, посудомоечные машины, паровые печи и другую технику. Компания специализируется на вытяжках, адаптированных под особенности китайской кухни, и является одним из ведущих производителей этой категории в Китае; акции торгуются на Шэньчжэньской бирже (тикер 002508). Присутствует на международных рынках, включая США, Канаду, Австралию и Юго-Восточную Азию.",
       "country": "cn"
     },
     {
@@ -3779,8 +3779,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Hangzhou.",
-      "desc_ru": "Робототехника и беспилотные системы, Ханчжоу.",
+      "desc_en": "Founded in 2016, the company designs and manufactures quadruped robot dogs and humanoid robots (notably the G1 and H1 models), becoming the world's top-selling humanoid robot maker in 2025. It is pursuing an IPO on Shanghai's STAR Market to raise roughly CNY 4.2 billion, with 2025 revenue up 335% to CNY 1.71 billion, over half from humanoid robots.",
+      "desc_ru": "Основана в 2016 году, компания разрабатывает и производит четвероногих роботов-собак и гуманоидных роботов (модели G1, H1); в 2025 году стала мировым лидером по продажам гуманоидных роботов. Готовится к IPO на бирже STAR Market в Шанхае с привлечением около 4,2 млрд юаней; выручка в 2025 году выросла на 335% до 1,71 млрд юаней, более половины которой обеспечили гуманоидные роботы.",
       "country": "cn"
     },
     {
@@ -4367,8 +4367,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium EV maker with battery swap.",
-      "desc_ru": "Премиальный EV-бренд со сменой батарей.",
+      "desc_en": "A Chinese premium EV maker headquartered in Shanghai, with its NIO China operations hub (R&D, manufacturing, and NIO Power network) based in Hefei, where it also runs two factories. It is known for battery-swap technology via its Power Swap station network, which passed 100 million swaps by 2026, and has a strategic partnership with CATL on battery swapping.",
+      "desc_ru": "Китайский производитель премиальных электромобилей, штаб-квартира в Шанхае, а операционный центр NIO China (R&D, производство, сеть NIO Power) расположен в Хэфэе. Компания известна фирменной технологией замены аккумуляторов через сеть станций Power Swap, к 2026 году превысившей 100 миллионов операций замены батарей; сотрудничает с CATL по развитию инфраструктуры battery swap.",
       "country": "cn"
     },
     {
@@ -5109,8 +5109,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "World's largest home-appliance maker.",
-      "desc_ru": "Крупнейший в мире производитель бытовой техники.",
+      "desc_en": "World's largest home-appliance maker, founded in 1984 when Zhang Ruimin was appointed director of the Qingdao Refrigerator Factory. It produces refrigerators, washing machines, air conditioners and other appliances under the Haier and Casarte brands, and acquired GE Appliances in the United States in 2016.",
+      "desc_ru": "Крупнейший в мире производитель бытовой техники, основанный в 1984 году на базе Qingdao Refrigerator Factory под руководством Чжана Жуйминя. Компания выпускает холодильники, стиральные машины, кондиционеры и другую технику под брендами Haier и Casarte, а в 2016 году приобрела американское подразделение GE Appliances.",
       "country": "cn"
     },
     {
@@ -5137,8 +5137,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "TVs and home appliances.",
-      "desc_ru": "Телевизоры и бытовая техника.",
+      "desc_en": "Hisense (海信) is a Chinese electronics and home-appliance manufacturer founded in 1969 in Qingdao (originally a radio factory, renamed Hisense in 1993). It produces TVs (including its ULED and laser TV lines), refrigerators, air conditioners and washing machines, ranking as the world's No. 2 TV maker by shipment volume in 2024.",
+      "desc_ru": "Hisense (海信) — китайский производитель электроники и бытовой техники, основанный в 1969 году в Циндао (изначально как радиозавод, переименован в Hisense в 1993 году). Компания выпускает телевизоры (включая линейку ULED и лазерные телевизоры), холодильники, кондиционеры и стиральные машины, по итогам 2024 года занимая второе место в мире по объёму поставок телевизоров.",
       "country": "cn"
     },
     {
@@ -5907,8 +5907,8 @@
       "own_supplier": true,
       "category_en": "AGV / controllers",
       "category_ru": "AGV / контроллеры",
-      "desc_en": "SRC controllers + AMB; manages mixed fleets.",
-      "desc_ru": "Контроллеры SRC + AMB; управление смешанным парком.",
+      "desc_en": "Shanghai-based developer of mobile robots and AMR controllers (SRC series) for warehouse and industrial logistics; the controllers pair with its Roboshop Pro software for mapping, positioning, and navigation. Founded by a RoboCup world champion team, the company supplies components and solutions to industrial-automation integrators and supports mixed-fleet management across AGVs, AMRs, and automated forklifts.",
+      "desc_ru": "Шанхайская компания-разработчик мобильных роботов и AMR-контроллеров (SRC-серия) для складской и промышленной логистики; контроллеры интегрируются с ПО Roboshop Pro для картографирования, позиционирования и навигации. Компания основана командой-победителем чемпионата мира RoboCup и работает как поставщик компонентов и решений для интеграторов промышленной автоматизации, поддерживая управление смешанным парком роботов (AGV, AMR, автопогрузчики).",
       "country": "cn"
     },
     {
@@ -5935,8 +5935,8 @@
       "own_supplier": true,
       "category_en": "Service / delivery",
       "category_ru": "Сервисные / доставка",
-      "desc_en": "BellaBot/FlashBot; leader in dine-in delivery; lift integration.",
-      "desc_ru": "BellaBot/FlashBot; лидер доставки в зале; интеграция с лифтами.",
+      "desc_en": "Founded in 2016 in Shenzhen; designs and manufactures commercial service robots, including BellaBot and KettyBot for restaurants/hotels, FlashBot for building delivery with autonomous elevator use, plus cleaning (CC1) and disinfection (Puductor 2) robots. Deployed in over 60 countries, with BellaBot present in more restaurants than any other robot brand; raised roughly $155M across Series C1/C2 funding (2021).",
+      "desc_ru": "Основана в 2016 году в Шэньчжэне; разрабатывает и производит коммерческих сервисных роботов — BellaBot и KettyBot для ресторанов и отелей, FlashBot для доставки по зданиям с автономным использованием лифтов, а также роботы-уборщики (CC1) и дезинфекции (Puductor 2). Поставки в более чем 60 стран; BellaBot представлена в большем числе ресторанов, чем любой другой роботизированный бренд. Привлекла около $155 млн в раундах Series C1/C2 (2021).",
       "country": "cn"
     },
     {
@@ -5977,8 +5977,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / mobile",
       "category_ru": "Гуманоиды / мобильные",
-      "desc_en": "Xingzhe, Moya; tendon-driven ~30 kg body.",
-      "desc_ru": "Xingzhe, Moya; тросово-сухожильный привод ~30 кг.",
+      "desc_en": "Shanghai-based company (founded 2021) developing fully biomimetic humanoid robots using tendon-driven actuation; makes the lightweight ~30 kg Xingzhe biped and the Moya humanoid, notable for a realistic expressive face and body temperature maintained at 32–36°C. A DroidUp biped placed third in the world's first humanoid robot half-marathon (2025); target markets include healthcare, education, and commercial services.",
+      "desc_ru": "Шанхайская компания (основана в 2021 г.), разрабатывающая полностью биомиметических человекоподобных роботов на основе тросово-сухожильного привода; выпускает лёгкие двуногие роботы Xingzhe (~30 кг) и антропоморфного робота Moya с реалистичной мимикой лица и температурой \"тела\" 32–36°C. Робот компании занял 3-е место на первом в мире полумарафоне человекоподобных роботов (2025); целевые рынки — здравоохранение, образование и коммерческий сервис.",
       "country": "cn"
     },
     {
@@ -5991,8 +5991,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "L7 (171 cm, 55 DOF, 20 kg), XHAND1; Tsinghua-based.",
-      "desc_ru": "L7 (171 см, 55 DOF, 20 кг), XHAND1; на базе Цинхуа.",
+      "desc_en": "Beijing-based humanoid robotics company; flagship L7 (171 cm, 55 DOF, up to 20 kg payload) is its second full-size bipedal robot after STAR1. It also makes the XHAND1 dexterous hand (12 active DOF), adopted by Skild AI, UC Berkeley, MIT, and ByteDance Seed, and the wheeled service robot Q5.",
+      "desc_ru": "Робототехническая компания из Пекина, разработчик человекоподобных роботов; флагманская модель L7 (171 см, 55 степеней свободы, до 20 кг полезной нагрузки) — второй полноразмерный двуногий робот компании после STAR1. Также выпускает кистевой манипулятор XHAND1 (12 приводных степеней свободы), который используют Skild AI, UC Berkeley, MIT и ByteDance Seed, и колёсного сервисного робота Q5.",
       "country": "cn"
     },
     {
@@ -6005,8 +6005,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / service",
       "category_ru": "Гуманоиды / сервисные",
-      "desc_en": "Walker S on car lines, Cruzr; listed.",
-      "desc_ru": "Walker S на автозаводах, Cruzr; публичная.",
+      "desc_en": "Founded in 2012 and based in Shenzhen; China's largest maker of humanoid and educational robots, listed on the Hong Kong Stock Exchange since December 29, 2023. Its Walker S/S2 industrial humanoid robot is deployed on auto-manufacturing lines (Walker S2 orders reportedly exceeded 800 million yuan), alongside its Cruzr service robot.",
+      "desc_ru": "Founded 2012, Shenzhen; крупнейший в Китае производитель гуманоидных и образовательных роботов, листинг на Гонконгской бирже (HKEX) с 29 декабря 2023 года. Walker S/S2 — промышленный гуманоидный робот для автозаводов и smart manufacturing (заказы на Walker S2 превысили 800 млн юаней); также выпускает сервисного робота Cruzr.",
       "country": "cn"
     },
     {
@@ -6019,8 +6019,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / medical",
       "category_ru": "Гуманоиды / медицина",
-      "desc_en": "GR-1/GR-2, ExoMotus; from rehab robotics; medical care.",
-      "desc_ru": "GR-1/GR-2, ExoMotus; из реабилитации; медуход.",
+      "desc_en": "Founded in 2015 in Shanghai; originally specialized in rehabilitation robotics (ExoMotus exoskeleton line) and has supplied equipment to over 2,000 hospitals and institutions across 40+ countries. Since 2023 it has expanded into general-purpose humanoid robots, launching GR-1 (its first mass-produced humanoid, 1.65 m tall) and GR-2 (1.75 m, 63 kg, with 12-DoF dexterous hands and array tactile sensors).",
+      "desc_ru": "Основана в 2015 году в Шанхае; изначально специализировалась на реабилитационной робототехнике (экзоскелеты серии ExoMotus) и поставила оборудование в более чем 2000 больниц и учреждений в 40+ странах. С 2023 года выпускает гуманоидных роботов общего назначения GR-1 (первый серийный гуманоид компании, рост 1.65 м) и GR-2 (рост 1.75 м, вес 63 кг, кистевые модули с 12 степенями свободы и тактильными датчиками).",
       "country": "cn"
     },
     {
@@ -6089,8 +6089,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "K2 Forerunner; industrial use, low cost, own planetary drives.",
-      "desc_ru": "K2; промприменение, низкая цена, свои планетарные приводы.",
+      "desc_en": "Shanghai Kepler Robotics develops humanoid robots; its flagship Forerunner K2 (fifth generation, successor to K1) has 52 degrees of freedom and can carry roughly 15 kg (33 lb) per hand. It targets general-purpose use in manufacturing, warehouse/logistics, and hazardous inspection tasks, and has been deployed at SAIC-GM's automotive plant in Shanghai for quality-check and assembly operations.",
+      "desc_ru": "Shanghai Kepler Robotics — китайский разработчик человекоподобных роботов, флагманская модель Forerunner K2 (пятое поколение, преемник K1) имеет 52 степени свободы и грузоподъёмность до ~15 кг на каждую руку. Позиционируется как универсальный робот для производства, складской логистики и опасных инспекционных работ; развёрнут на автозаводе SAIC-GM в Шанхае, где выполняет операции контроля качества и сборки.",
       "country": "cn"
     },
     {
@@ -6103,8 +6103,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / education",
       "category_ru": "Гуманоиды / образование",
-      "desc_en": "Kuavo, Aelos, Roban; early bipedal maker; own servos.",
-      "desc_ru": "Kuavo, Aelos, Roban; один из первых по двуногим; свои сервоприводы.",
+      "desc_en": "Leju (Shenzhen) Robotics is a humanoid robotics company founded in 2016 in Shenzhen, with branches in Harbin and Hangzhou; it makes the Kuavo line of full-size humanoid robots for service and embodied-AI applications, plus Aelos educational robots and Pando miniature humanoids. It develops its own torque servos and bipedal gait algorithms; Kuavo runs on KaihongOS (based on Huawei's HarmonyOS) and took part in the February 2025 Olympic torch relay, performing gestures in -20°C conditions.",
+      "desc_ru": "Leju (Shenzhen) Robotics — компания-разработчик человекоподобных роботов, основана в 2016 году в Шэньчжэне, с филиалами в Харбине и Ханчжоу; выпускает линейки Kuavo (полноразмерные гуманоидные роботы для сферы услуг и embodied AI), Aelos (образовательные роботы) и Pando (миниатюрные гуманоиды). Сама разрабатывает моментные сервоприводы и алгоритмы двуногой ходьбы; робот Kuavo работает на KaihongOS (на базе HarmonyOS) и участвовал в эстафете олимпийского огня в феврале 2025 года, демонстрируя устойчивость при -20°C.",
       "country": "cn"
     },
     {
@@ -6117,8 +6117,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / quadrupeds",
       "category_ru": "Гуманоиды / робособаки",
-      "desc_en": "CL-1, TRON1; dynamic balance; modular platform.",
-      "desc_ru": "CL-1, TRON1; динамическое равновесие; модульная платформа.",
+      "desc_en": "Maker of humanoid and other legged robots (CL-1, TRON1, Oli, Luna) built on dynamic-balance control and a modular robotics platform; founded in 2022 in Shenzhen. In July 2026 it raised a $200M pre-IPO round at roughly a $2.2B valuation and is delivering commercial/entertainment robots including a deployment in South Korea and a planned multi-year shipment program to the Middle East.",
+      "desc_ru": "Разработчик человекоподобных и других шагающих роботов (модели CL-1, TRON1, Oli, Luna) на базе технологий динамического равновесия и модульных платформ; основана в 2022 году в Шэньчжэне. В июле 2026 года привлекла раунд pre-IPO на $200 млн при оценке около $2,2 млрд, поставляет роботов для сервисных и развлекательных задач, включая контракты в Южной Корее и планы поставок на Ближний Восток.",
       "country": "cn"
     },
     {
@@ -6131,8 +6131,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "PM01/SE01/T800; high dynamics, affordable.",
-      "desc_ru": "PM01/SE01/T800; высокая динамика, доступная цена.",
+      "desc_en": "Shenzhen EngineAI Robotics Technology (众擎机器人) is a Chinese humanoid robotics company founded in October 2023 by Zhao Tongyang. Its flagship PM01 model (1.388 m tall, 40 kg, 24 degrees of freedom, up to 2 m/s) performed a front flip in December 2024 (claimed as a first for humanoid robots) and has since demonstrated outdoor running; the lineup also includes the SE01 and T800 models.",
+      "desc_ru": "Shenzhen EngineAI Robotics Technology (众擎机器人) — китайский разработчик человекоподобных роботов, основан в октябре 2023 года (основатель Чжао Тунъян). Флагманская модель PM01 (рост 1,388 м, вес 40 кг, 24 степени свободы, скорость до 2 м/с) в декабре 2024 продемонстрировала фронтальное сальто (по заявлениям — впервые среди гуманоидных роботов) и бег вне помещения; линейка также включает модели SE01 и T800.",
       "country": "cn"
     },
     {
@@ -6173,8 +6173,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / service",
       "category_ru": "Гуманоиды / сервисные",
-      "desc_en": "Galbot G1; wheeled dual-arm for retail & pharmacies.",
-      "desc_ru": "Galbot G1; колёсная двурукая платформа для розницы и аптек.",
+      "desc_en": "Galbot (银河通用, Galaxy General Robot Co., Ltd.) is a Beijing-based developer of wheeled humanoid manipulator robots. Its flagship G1 is a dual-arm platform on an omnidirectional wheeled base (no legs), 173 cm tall with 47 degrees of freedom, running Galbot's proprietary AstraBrain AI system; it targets retail and pharmacy use and performed autonomous manipulation tasks on China's 2026 CCTV Spring Festival Gala broadcast.",
+      "desc_ru": "Galbot (银河通用, Galaxy General Robot Co., Ltd.) — пекинский разработчик колёсных гуманоидных роботов-манипуляторов. Флагманский G1 — двурукая платформа на всенаправленном колёсном шасси (без ног), высотой 173 см, с 47 степенями свободы и ИИ-системой AstraBrain, применяется в ритейле и аптеках; в 2026 году робот выполнял автономные манипуляции в эфире новогоднего гала CCTV.",
       "country": "cn"
     },
     {
@@ -6229,8 +6229,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Smart-EV maker with in-house XNGP autonomous driving.",
-      "desc_ru": "Производитель смарт-EV с собственным автопилотом XNGP.",
+      "desc_en": "Guangzhou-based smart-EV maker founded in 2014, with in-house XNGP autonomous driving system and Turing AI chips. Beyond cars, it is developing the \"Land Aircraft Carrier\" eVTOL flying car, which has over 7,000 global orders, backed by a planned 3 billion yuan (~$413M) investment with large-scale production targeted for 2027.",
+      "desc_ru": "Гуанчжоуский производитель умных электромобилей, основанный в 2014 году, с собственной системой автопилота XNGP и чипами Turing AI. Кроме автомобилей, компания развивает направление eVTOL (\"летающий автомобиль\") Land Aircraft Carrier, набравшее свыше 7000 предзаказов, и планирует инвестировать 3 млрд юаней в это направление с запуском крупносерийного производства к 2027 году.",
       "country": "cn"
     },
     {
@@ -6243,8 +6243,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Ultra-luxury EV brand by Huawei and JAC — the S800 sedan.",
-      "desc_ru": "Ультра-люксовый EV-бренд Huawei и JAC — седан S800.",
+      "desc_en": "Maextro (尊界) is an ultra-luxury EV brand jointly created by Huawei and automaker JAC Group. Its flagship S800 is a full-size sedan available in BEV and range-extender variants, with up to 852 hp from three electric motors and Huawei's ADS 4 driver-assistance system, priced from RMB 708,000 to 1,018,000. Since launching in May 2025 it has become one of China's top-selling luxury sedans, reaching 10,000 units sold within 200 days.",
+      "desc_ru": "Maextro (尊界) — ультра-люксовый EV-бренд, созданный Huawei и производителем JAC Group. Флагманская модель S800 — полноразмерный седан на электротяге (BEV и range-extender версии) с тремя электромоторами (до 852 л.с.) и системой автопилота Huawei ADS 4, цены от 708 000 до 1 018 000 юаней. После старта продаж в мае 2025 года S800 стал одним из лидеров продаж среди люксовых седанов в Китае, набрав 10 000 заказов за 200 дней.",
       "country": "cn"
     },
     {
@@ -6257,8 +6257,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "China's largest automaker by scale — MG and IM Motors brands.",
-      "desc_ru": "Крупнейший автоконцерн Китая — бренды MG и IM Motors.",
+      "desc_en": "State-owned automaker headquartered in Shanghai, currently China's largest automaker by sales. It builds vehicles under its own brands MG, Roewe, Maxus, and IM Motors (an EV joint venture with Alibaba), alongside long-standing joint ventures with Volkswagen and General Motors; ranked 84th on the 2023 Fortune Global 500 list.",
+      "desc_ru": "Государственная автомобилестроительная корпорация со штаб-квартирой в Шанхае, крупнейший автопроизводитель Китая. Выпускает автомобили под собственными брендами MG, Roewe, Maxus и IM Motors (совместное предприятие с Alibaba), а также имеет СП с Volkswagen и General Motors; в 2023 году заняла 84-е место в списке Fortune Global 500.",
       "country": "cn"
     },
     {
@@ -6271,8 +6271,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cookware and small appliances — part of Groupe SEB.",
-      "desc_ru": "Посуда и мелкая бытовая техника — входит в Groupe SEB.",
+      "desc_en": "Founded in 1994 in Hangzhou, Supor is China's leading maker of cookware and small kitchen appliances, and has been controlled by France's Groupe SEB since 2006. It became the first publicly listed company in China's cookware industry in 2004 (Shenzhen Stock Exchange, code 002032) and holds the top market share in 14 product categories, exporting to over 50 countries.",
+      "desc_ru": "Основанная в 1994 году в Ханчжоу компания Supor — крупнейший в Китае производитель посуды и мелкой кухонной бытовой техники, с 2006 года контролируется французской Groupe SEB. В 2004 году стала первой публичной компанией китайской индустрии посуды (Shenzhen Stock Exchange, код 002032) и удерживает первое место по доле рынка в 14 товарных категориях, экспортируя продукцию более чем в 50 стран.",
       "country": "cn"
     },
     {
@@ -6285,8 +6285,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI-driven drug discovery, quantum physics, robotic labs.",
-      "desc_ru": "ИИ-разработка лекарств, квантовая физика, роботизированные лаборатории.",
+      "desc_en": "Chinese company founded in 2015 that provides an AI-driven platform for early-stage drug and materials discovery, combining quantum physics, machine learning, and robotic automated labs. Clients include Pfizer (assisted in rapidly developing Paxlovid) and Eli Lilly; the company completed a Hong Kong IPO raising about $115 million.",
+      "desc_ru": "Китайская компания (основана в 2015 году), предоставляющая ИИ-платформу для доклинической разработки лекарств и материалов, сочетающую квантовую физику, машинное обучение и роботизированные автоматизированные лаборатории. Среди клиентов — Pfizer (участие в ускоренной разработке Paxlovid) и Eli Lilly; компания провела IPO на Гонконгской бирже, привлекв около 115 млн долларов.",
       "country": "cn"
     },
     {
@@ -6299,8 +6299,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Surgical robots for minimally invasive surgery.",
-      "desc_ru": "Хирургические роботы для малоинвазивной хирургии.",
+      "desc_en": "Shenzhen Edge Medical (精锋医疗), founded in 2017, develops surgical robots for minimally invasive procedures, offering the MP1000 multi-port and SP1000 single-port robotic systems. It is one of the few companies globally to have developed multi-port, single-port, and bronchoscopic robotic surgery technologies, and listed on the Hong Kong Stock Exchange (2675.HK) in January 2026.",
+      "desc_ru": "Shenzhen Edge Medical (精锋医疗), основанная в 2017 году, разрабатывает хирургических роботов для малоинвазивной хирургии, включая многопортовую систему MP1000 и однопортовую систему SP1000. Компания входит в число немногих в мире, освоивших многопортовые, однопортовые и бронхоскопические роботизированные хирургические технологии, и в январе 2026 года провела IPO на Гонконгской бирже (2675.HK).",
       "country": "cn"
     },
     {
@@ -6313,8 +6313,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Innovative drugs and therapeutic solutions.",
-      "desc_ru": "Инновационные лекарственные препараты, терапевтические решения.",
+      "desc_en": "Shenzhen-based pharmaceutical company founded in 1998, focused on cardiovascular and other prescription drugs. Its flagship product is Taijia (clopidogrel bisulfate tablets), a generic equivalent of Sanofi's Plavix that holds over 30% market share by value; it also develops antihypertensive drugs (allisartan) and biologics.",
+      "desc_ru": "Шэньчжэньская фармацевтическая компания, основанная в 1998 году, специализируется на кардиоваскулярных и других рецептурных препаратах. Флагманский продукт — Taijia (клопидогрел гидросульфат), дженерик Plavix, занимающий более 30% рынка по стоимости; компания также ведёт разработки в области антигипертензивных препаратов (аллисартан) и биопрепаратов.",
       "country": "cn"
     },
     {
@@ -6327,8 +6327,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Ultrasound systems, endoscopy, diagnostic imaging.",
-      "desc_ru": "УЗИ-системы, эндоскопия, решения визуальной диагностики.",
+      "desc_en": "Founded in 2002 in Shenzhen, SonoScape (开立医疗) develops and manufactures ultrasound diagnostic systems, endoscopy equipment, electrocardiography devices, and in-vitro diagnostics, selling in over 130 countries. In 2004 it released the world's first portable color Doppler ultrasound system with a 15-inch LCD screen, and its shares are listed on the Shenzhen Stock Exchange.",
+      "desc_ru": "Основанная в 2002 году в Шэньчжэне компания SonoScape (开立医疗) разрабатывает и производит ультразвуковые диагностические системы, эндоскопическое оборудование, ЭКГ-аппараты и системы для in-vitro диагностики; продукция поставляется более чем в 130 стран. В 2004 году компания выпустила первый в мире портативный цветной допплеровский УЗИ-аппарат с 15-дюймовым ЖК-экраном, а её акции торгуются на Шэньчжэньской фондовой бирже.",
       "country": "cn"
     },
     {
@@ -6341,8 +6341,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Drugs and biomarkers for chronic and cardiovascular disease.",
-      "desc_ru": "Препараты и биомаркеры, хронические и сердечно-сосудистые заболевания.",
+      "desc_en": "Founded 2007 in Nanshan, Shenzhen; develops diagnostic and therapeutic products for cardio-cerebrovascular disease. Its enalapril-folic acid tablet (a Chinese Category 1 new drug) paired with an MTHFR gene diagnostic kit is described as the world's first combined product for individualized diagnosis and treatment of common cardio-cerebrovascular conditions. Operates GMP-compliant manufacturing (solid dosage forms, in vitro diagnostics, medical devices) and holds national high-tech enterprise status.",
+      "desc_ru": "Осн. в 2007 г. в Наньшане (Шэньчжэнь), разрабатывает диагностические и терапевтические продукты для сердечно-сосудистых заболеваний. Разработала таблетки эналаприл-фолиевая кислота (первый в своём роде препарат категории 1 в Китае) в сочетании с генным диагностическим набором MTHFR — заявлено как первая в мире связка продуктов для персонализированной диагностики и лечения распространённых ССЗ. Имеет производственные линии по стандарту GMP (твёрдые лекарственные формы, диагностика in vitro, медизделия), статус государственного высокотехнологичного предприятия.",
       "country": "cn"
     },
     {
@@ -6355,8 +6355,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "IVD diagnostics, rehabilitation, life-support equipment.",
-      "desc_ru": "IVD-диагностика, реабилитация, жизнеобеспечение.",
+      "desc_en": "Shenzhen-based company (founded 2008, listed on the Shanghai STAR Market since a 2019 IPO, ticker 688389) that develops and manufactures IVD diagnostics (HPLC, ECLIA, hematology analyzers, POCT), respiratory/ICU and wound-care equipment, and medical/aesthetic laser systems including laser hair-removal devices. Its products are exported to over 120 countries and installed in more than 15,000 hospitals.",
+      "desc_ru": "Шэньчжэньская компания (основана в 2008 г., IPO на Шанхайской бирже STAR Market в 2019 г., тикер 688389), разрабатывает и производит IVD-диагностику (HPLC, ECLIA, гематологические анализаторы, POCT), респираторное/реанимационное оборудование и приборы для ухода за ранами, а также медицинские и эстетические лазерные системы, включая аппараты для удаления волос. Продукция поставляется более чем в 120 стран, установлена в свыше 15 000 больниц.",
       "country": "cn"
     },
     {
@@ -6369,8 +6369,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Antiviral drugs (SHEN26 / ATV014), R&D.",
-      "desc_ru": "Противовирусные препараты (SHEN26 / ATV014), НИОКР.",
+      "desc_en": "Shenzhen Antaiwei Biopharmaceutical (深圳安泰维生物医药) is a biopharmaceutical company developing antiviral drugs; its lead candidate SHEN26 (ATV014) is an orally administered RdRp inhibitor and a prodrug of the nucleoside analog GS-441524. SHEN26 has completed a randomized, placebo-controlled Phase II clinical trial for COVID-19 and demonstrated broad-spectrum activity against multiple coronavirus variants (including Beta, Delta, and Omicron), outperforming remdesivir and GS-441524 in preclinical studies.",
+      "desc_ru": "Shenzhen Antaiwei Biopharmaceutical (深圳安泰维生物医药) — биофармацевтическая компания, разрабатывающая противовирусные препараты; ведущий кандидат SHEN26 (ATV014) — пероральный ингибитор RdRp, пролекарство нуклеозидного аналога GS-441524. SHEN26 прошёл рандомизированные плацебо-контролируемые клинические испытания фазы II по лечению COVID-19 и показал широкий спектр активности против нескольких коронавирусов, включая варианты Beta, Delta и Omicron, превосходя по эффективности ремдесивир и GS-441524 в доклинических исследованиях.",
       "country": "cn"
     },
     {
@@ -6383,8 +6383,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Interior fit-out, facades, engineering systems, green building.",
-      "desc_ru": "Отделка, фасады, инженерные системы, зелёное строительство.",
+      "desc_en": "Founded in 1995 in Shenzhen; the only publicly listed architectural decoration company under the Shenzhen State-owned Assets Supervision and Administration Commission (SZSE: 002482). Provides design and construction services for interior decoration, curtain walls/facades, intelligent systems, electromechanical installation, and fire protection engineering for hotels, business complexes, government institutions, and rail transit projects. Has ranked among China's top 2 building decoration enterprises for several consecutive years.",
+      "desc_ru": "Основана в 1995 году в Шэньчжэне; единственная публичная компания в сфере архитектурной отделки под контролем Комиссии по надзору за госимуществом Шэньчжэня (тикер SZSE: 002482). Оказывает услуги проектирования и строительства по отделке зданий, фасадам/навесным стенам, интеллектуальным системам, электромонтажу и пожарной защите для отелей, деловых комплексов, госучреждений и транспортной инфраструктуры. Много лет подряд входит в топ-2 крупнейших предприятий архитектурной отделки Китая.",
       "country": "cn"
     },
     {
@@ -6397,8 +6397,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction, facade and engineering work, large-scale projects.",
-      "desc_ru": "Строительство, фасадные и инженерные работы, крупные проекты.",
+      "desc_en": "Shenzhen Bauing Construction Holding Group (宝鹰集团), founded in 1994, has been publicly listed on the Shenzhen Stock Exchange (ticker 002047) since 2013. It specializes in architectural decoration, including curtain wall and steel-structure engineering, interior design, electromechanical installation and security systems, holding a full set of top-tier (Class I) construction qualifications, including in curtain wall construction — a rare combination among Chinese decoration firms.",
+      "desc_ru": "Shenzhen Bauing Construction Holding Group (宝鹰集团), основана в 1994 году, публичная компания на Шэньчжэньской бирже (тикер 002047) с 2013 года. Специализируется на архитектурной отделке, включая фасадное (curtain wall) и стальное строительство, интерьеры, электромеханику и системы безопасности, обладая полным набором строительных квалификаций высшего класса, в том числе Class I по фасадным конструкциям — редкость среди китайских отделочных компаний.",
       "country": "cn"
     },
     {
@@ -6411,8 +6411,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Full-scope fit-out, building materials, engineering projects.",
-      "desc_ru": "Комплексная отделка, стройматериалы, инженерные проекты.",
+      "desc_en": "Shenzhen Jianyi Decoration Group (深圳市建艺装饰集团股份有限公司, SZSE: 002789), founded in 1994 and listed in 2016, does building fit-out, curtain-wall/facade construction, and intelligent/electromechanical installation work. It grew from a decoration contractor into a diversified group spanning the construction supply chain; since December 2021 its controlling shareholder has been Zhuhai Zhengfang Group, a state-owned enterprise of Zhuhai's Xiangzhou district.",
+      "desc_ru": "Шэньчжэньская строительно-отделочная компания \"Цзяньи\" (建艺装饰集团, тикер SZSE: 002789), основанная в 1994 году и вышедшая на биржу в 2016 году, специализируется на отделочных и фасадных работах, а также монтаже инженерных и электромеханических систем в строительстве. Из подрядчика по отделке компания выросла в холдинг с полным циклом строительных услуг; с декабря 2021 года контрольный пакет принадлежит государственной группе \"Чжухай Чжэнфан\" (район Сянчжоу, Чжухай).",
       "country": "cn"
     },
     {
@@ -6425,8 +6425,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Investment and construction group (profile pending verification).",
-      "desc_ru": "Инвестиционно-строительная структура (требует верификации).",
+      "desc_en": "A Shenzhen-based industrial investment holding company founded in 2002 with registered capital of RMB 500 million, engaged in industrial investment, construction, and property management. In 2021 it acquired a 29.9% stake in China Calxon Group (嘉凯城集团) from Guangzhou Kailong Real Estate for RMB 2.8 billion, becoming the controlling shareholder of that commercial real estate developer.",
+      "desc_ru": "Шэньчжэньская инвестиционно-промышленная холдинговая компания, основанная в 2002 году, с зарегистрированным капиталом 500 млн юаней; занимается промышленными инвестициями, строительством и управлением недвижимостью. В 2021 году приобрела 29,9% акций China Calxon Group (嘉凯城集团) у Guangzhou Kailong Real Estate за 2,8 млрд юаней, став контролирующим акционером девелопера коммерческой недвижимости.",
       "country": "cn"
     },
     {
@@ -6453,8 +6453,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Mass residential fine fit-out, standardised solutions.",
-      "desc_ru": "Массовая чистовая отделка жилья, стандартизированные решения.",
+      "desc_en": "A Shenzhen-based company (founded 2000, listed as 002989.SZ) specializing in mass fine fit-out of residential complexes for property developers, using its \"B-B-C\" and \"B&B-C\" business models. It claims over 100,000 delivered fit-out units and annual capacity of about 25,000 units, with roughly 80% of revenue coming from China's top-20 real estate developers.",
+      "desc_ru": "Шэньчжэньская компания (основана в 2000 году, тикер 002989.SZ), специализирующаяся на массовой чистовой отделке жилых комплексов по заказу застройщиков через модели \"B-B-C\" и \"B&B-C\". Заявляет о более чем 100 000 сданных объектов отделки и ежегодной мощности около 25 000 квартир; около 80% выручки приходится на сотрудничество с крупнейшими девелоперами Китая (входящими в топ-20).",
       "country": "cn"
     },
     {
@@ -6467,8 +6467,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Fit-out for public and commercial buildings, green materials.",
-      "desc_ru": "Отделка общественных и коммерческих объектов, зелёные материалы.",
+      "desc_en": "Shenzhen-based building decoration and design-and-build company (full name Shenzhen Ruihe Construction Decoration Co., Ltd., stock code 002620), founded in 1992 and listed on the Shenzhen Stock Exchange since 2011. It has carried out fit-out and construction projects nationwide for offices, hotels, shopping malls, banks, hospitals, airports, and subway stations, alongside secondary business lines in green photovoltaics and home decoration.",
+      "desc_ru": "Шэньчжэньская компания по дизайну и отделке зданий (полное название — Shenzhen Ruihe Construction Decoration Co., Ltd., биржевой код 002620), основана в 1992 году и торгуется на Шэньчжэньской фондовой бирже с 2011 года. Выполняет отделочные проекты для офисов, отелей, торговых центров, банков, больниц, аэропортов и метро по всему Китаю; помимо строительной отделки развивает направления зелёной фотоэнергетики и домашнего декора.",
       "country": "cn"
     },
     {
@@ -6481,8 +6481,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium interior fit-out and design.",
-      "desc_ru": "Премиальная интерьерная отделка и проектирование.",
+      "desc_en": "Shenzhen-based company specializing in premium residential interior fit-out, founded in 1999; listed on the Shenzhen A-share market in 2016 (stock code 002830) as the only publicly listed home-decoration company in South China. It provides integrated services for large apartments and villas — design, construction, materials sourcing, custom furniture and soft furnishings — operating brands including Mingdiao and Dandy Villa Decoration through 30+ branch offices across the Pearl River Delta and other Chinese cities.",
+      "desc_ru": "Шэньчжэньская компания по элитной отделке жилых интерьеров, основана в 1999 году; в 2016 году вышла на биржу Shenzhen A-share (код 002830), став единственной публичной компанией домашней отделки в Южном Китае. Предоставляет комплексные услуги для крупногабаритных квартир и вилл — дизайн, строительно-монтажные работы, подбор материалов, мебель на заказ и оформление; работает под брендами Mingdiao, Dandy Villa Decoration и др. через 30+ филиалов в дельте Жемчужной реки и других городах Китая.",
       "country": "cn"
     },
     {
@@ -6495,8 +6495,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Steel structures, industrial construction (part of CSCEC).",
-      "desc_ru": "Стальные конструкции, индустриальное строительство (структура CSCEC).",
+      "desc_en": "A Shenzhen-based subsidiary of China State Construction Engineering Corp. (CSCEC), serving as the group's sole manufacturing platform for architectural steel structures. It provides full-cycle services — R&D, design, construction, and operation — for steel structure, municipal, and highway engineering projects, with research institutes focused on intelligent manufacturing and seismic shock absorption, and international operations including North Africa.",
+      "desc_ru": "Шэньчжэньская компания, дочерняя структура China State Construction Engineering Corp. (CSCEC), выступает единой производственной платформой группы по стальным строительным конструкциям. Занимается полным циклом — от НИОКР и проектирования до строительства и эксплуатации промышленных и инфраструктурных объектов, включая мостовое и муниципальное строительство; ведёт разработки в области интеллектуального производства и сейсмозащиты, имеет операции за рубежом, включая Северную Африку.",
       "country": "cn"
     },
     {
@@ -6523,8 +6523,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Servo drives, controllers, motion-automation components.",
-      "desc_ru": "Сервоприводы, контроллеры, компоненты автоматизации движения.",
+      "desc_en": "Shenzhen-based company founded in 1997 that designs and manufactures servo motors and drives, stepper motors and drives, and motion controllers for OEM customers in machine tools, electronics, semiconductor, textile, and medical automation. It operates multiple manufacturing facilities and sells to OEM clients in more than 60 countries.",
+      "desc_ru": "Шэньчжэньская компания, основанная в 1997 году, разрабатывает и производит серводвигатели и сервоприводы, шаговые двигатели и драйверы, а также контроллеры движения для OEM-заказчиков в станкостроении, электронике, полупроводниковой, текстильной и медицинской отраслях. Продукция поставляется более чем в 60 стран через собственные производственные площадки и R&D-подразделение.",
       "country": "cn"
     },
     {
@@ -6537,8 +6537,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Precision micro-drives, gearboxes, micro-motors.",
-      "desc_ru": "Прецизионные микроприводы, редукторы, микродвигатели.",
+      "desc_en": "Founded in 2001 in Shenzhen, publicly listed (ticker 003021), the company designs and manufactures precision micro-drive systems, planetary gearboxes and micro-motors. In 2014 it developed a 3.4mm-diameter micro-gearbox; its gearboxes (3.4-38mm diameter, 0.01-40W) are used in automotive units, home appliances, medical devices, personal care products, and toys/models.",
+      "desc_ru": "Основана в 2001 году в Шэньчжэне, публичная компания (тикер 003021), разрабатывает и производит прецизионные микроприводы, планетарные редукторы и микродвигатели. В 2014 году создала микроредуктор диаметром 3,4 мм; продукция (редукторы диаметром 3,4–38 мм, мощностью 0,01–40 Вт) применяется в автомобильной технике, бытовой технике, медицинском оборудовании, средствах личной гигиены и игрушках/моделях.",
       "country": "cn"
     },
     {
@@ -6551,8 +6551,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Industrial laser equipment — cutting, welding, automation.",
-      "desc_ru": "Лазерное промышленное оборудование, резка, сварка, автоматизация.",
+      "desc_en": "One of the largest industrial laser equipment manufacturers in China, founded in Shenzhen in 1996 by Gao Yunfeng and listed on the Shenzhen Stock Exchange since 2004. It produces over 200 machine models spanning laser cutting, welding, marking/engraving, and automation equipment; 2023 revenue was about CN¥14.09 billion with roughly 17,000 employees.",
+      "desc_ru": "Крупнейший производитель промышленного лазерного оборудования в Китае, основан в 1996 году в Шэньчжэне Гао Юньфэном; с 2004 года акции торгуются на Шэньчжэньской фондовой бирже. Выпускает более 200 моделей оборудования для лазерной резки, сварки, маркировки/гравировки и автоматизации; выручка компании в 2023 году составила около 14,09 млрд юаней при штате около 17 тыс. сотрудников.",
       "country": "cn"
     },
     {
@@ -6565,8 +6565,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "3D cameras, machine vision, LiDAR solutions.",
-      "desc_ru": "3D-камеры, машинное зрение, LiDAR-решения.",
+      "desc_en": "Orbbec (奥比中光) is a Shenzhen-based Chinese company, founded in 2013, that designs and manufactures 3D vision cameras (structured light, ToF, stereo vision) and LiDAR solutions for robotics, logistics, healthcare, and retail. In 2015 it achieved mass production of consumer-grade 3D sensors with fully independent IP, breaking a market previously dominated by three foreign vendors. The company is publicly traded on the Shanghai Stock Exchange (SSE: 688322) and also has operations in Troy, Michigan.",
+      "desc_ru": "Orbbec (奥比中光) — китайская компания из Шэньчжэня, основанная в 2013 году, разрабатывает и производит 3D-камеры (структурированный свет, ToF, стереозрение) и LiDAR-решения для робототехники, логистики, здравоохранения и ритейла. В 2015 году освоила серийное производство потребительских 3D-сенсоров с собственной интеллектуальной собственностью, ранее контролировавшихся тремя иностранными компаниями. Компания торгуется на Шанхайской бирже (SSE: 688322) и имеет операции в Трое, штат Мичиган, США.",
       "country": "cn"
     },
     {
@@ -6579,8 +6579,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "LiDAR and perception systems for autonomous platforms.",
-      "desc_ru": "LiDAR и системы восприятия среды для автономных систем.",
+      "desc_en": "RoboSense (速腾聚创) is a Shenzhen-based Chinese company, founded in 2014, that develops and manufactures LiDAR sensors and perception solutions for autonomous vehicles and robotics. It holds the No.1 global market share position in LiDAR and supplies components to over 310 automotive OEMs/Tier 1 suppliers and more than 2,800 robotics customers.",
+      "desc_ru": "RoboSense (速腾聚创) — китайская компания из Шэньчжэня, основанная в 2014 году, разрабатывает и производит лидары и решения восприятия среды для автономных автомобилей и робототехники. Компания занимает первое место в мире по доле рынка лидаров и поставляет компоненты более чем 310 автопроизводителям и Tier 1 поставщикам, а также свыше 2800 клиентам в сфере робототехники.",
       "country": "cn"
     },
     {
@@ -6607,8 +6607,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Smart controllers, control and automation systems.",
-      "desc_ru": "Интеллектуальные контроллеры, системы управления и автоматизации.",
+      "desc_en": "Founded in 1996 in Shenzhen, Topband became the first publicly listed company in China's intelligent control sector in 2007 (SZSE: 002139). It develops and manufactures smart controllers and control systems for home appliances, power tools, and automotive electronics, along with energy storage systems, inverters, and battery products, operating eight manufacturing bases and employing over 13,000 people worldwide.",
+      "desc_ru": "Основана в 1996 году в Шэньчжэне; в 2007 году стала первой публичной компанией Китая в секторе интеллектуального управления (SZSE: 002139). Разрабатывает и производит интеллектуальные контроллеры и системы управления для бытовой техники, электроинструментов, автомобильной электроники, а также решения для накопления энергии, инверторы и аккумуляторные батареи; располагает восемью производственными базами и штатом свыше 13000 человек по всему миру.",
       "country": "cn"
     },
     {
@@ -6635,8 +6635,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI / MarTech, digital marketing, AI content generation.",
-      "desc_ru": "ИИ / MarTech, цифровой маркетинг, ИИ-генерация контента.",
+      "desc_en": "RabbitPre (兔展智能), founded in 2014 and headquartered in Shenzhen's Nanshan district, develops its own visual-spatial-intelligence large model (\"TuLing\") and runs an enterprise AI marketing and interaction platform, serving over 41 million enterprise users. It is one of the few Chinese companies doing foundational visual model R&D, and its open-source Open-Sora Plan release has repeatedly topped GitHub's global trending charts. Its product lineup includes SkillsUI, AnyReal, BOOM, and DeiNai, covering AI content generation, intelligent interaction, and overseas digital marketing.",
+      "desc_ru": "Компания \"RabbitPre\" (兔展智能), основанная в 2014 году и базирующаяся в Шэньчжэне (Наньшань), разрабатывает собственную визуально-пространственную большую модель (\"TuLing\") и развивает платформу AI-маркетинга и взаимодействия для предприятий, обслуживая свыше 41 млн корпоративных пользователей. Компания — одна из немногих в Китае, ведущих разработку базовых визуальных моделей; её открытая версия Open-Sora Plan неоднократно возглавляла мировые тренды GitHub. Продуктовая линейка включает SkillsUI, AnyReal, BOOM и DeiNai для генерации контента, интерактивного ИИ и зарубежного маркетинга.",
       "country": "cn"
     },
     {
@@ -6649,8 +6649,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI, computer vision, AI chips, AIoT, smart-city solutions.",
-      "desc_ru": "ИИ, компьютерное зрение, AI-чипы, AIoT, цифровой город.",
+      "desc_en": "Intellifusion (云天励飞), founded in Shenzhen in 2014, develops AI inference chips, including its own neural network processor (NNP) core and chip architecture. Its product line includes AI modules, edge intelligent boxes, inference acceleration cards, and large-model inference appliances (e.g. the Shenqiong X6000Mesh acceleration card), compatible with DeepSeek series models and HarmonyOS. The company listed on Shanghai's STAR Market in 2023.",
+      "desc_ru": "云天励飞 (Intellifusion) — шэньчжэньская компания, основанная в 2014 году, разрабатывающая ИИ-чипы для инференса, включая собственное ядро нейропроцессора (NNP) и архитектуру чипов. Выпускает модули, edge-боксы, ускорительные карты для ИИ-инференса и решения для инференса больших моделей (в т.ч. ускорительную карту Shenqiong X6000Mesh), совместимые с моделями серии DeepSeek и HarmonyOS. В 2023 году вышла на биржу STAR Market (Шанхай).",
       "country": "cn"
     },
     {
@@ -6663,8 +6663,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cameras, 360° devices, AI image processing.",
-      "desc_ru": "Камеры, 360°-устройства, ИИ-обработка изображений.",
+      "desc_en": "Developer and manufacturer of action cameras, 360-degree and stereoscopic 180-degree cameras, and video editing software, founded in 2015 and headquartered in Shenzhen. According to Frost & Sullivan, it has held the number one global market share in 360-degree cameras for six consecutive years (about 81.7% in 2024) and listed on Shanghai's STAR Market in June 2025.",
+      "desc_ru": "Разработчик и производитель экшн-камер, 360-градусных и стереоскопических 180-градусных камер, а также ПО для видеомонтажа, основан в 2015 году, штаб-квартира в Шэньчжэне. По оценке Frost & Sullivan, компания шесть лет подряд удерживает первое место в мире по доле рынка 360-градусных камер (около 81,7% в 2024 году); в июне 2025 года провела IPO на бирже STAR Market в Шанхае.",
       "country": "cn"
     },
     {
@@ -6677,8 +6677,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI tools for PDF and document workflows.",
-      "desc_ru": "ИИ-инструменты для работы с PDF и документами.",
+      "desc_en": "Afirstsoft is a software company best known for Afirstsoft PDF, a PDF editor, converter and scanner available on Windows, macOS, Android, iOS and web, with AI-powered features such as document summarization, Q&A over PDF content, and translation across 42 languages. The company established a joint AI innovation center with Shenzhen University in 2024 and collaborates with Xidian University and The Chinese University of Hong Kong, Shenzhen on large-model and multimodal-generation research.",
+      "desc_ru": "Afirstsoft — разработчик ПО, известный прежде всего продуктом Afirstsoft PDF (редактор, конвертер и сканер PDF для Windows, macOS, Android, iOS и веб) с функциями на базе ИИ: суммаризация документов, ответы на вопросы по содержимому PDF и перевод на 42 языка. Компания создала совместный центр инноваций в области ИИ с Шэньчжэньским университетом (2024) и сотрудничает с Xidian University и Чиньхуаским университетом Гонконга (Шэньчжэнь) по большим языковым моделям и мультимодальной генерации.",
       "country": "cn"
     },
     {
@@ -6691,8 +6691,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AIoT, smart home, IoT platforms, security solutions.",
-      "desc_ru": "AIoT, умный дом, IoT-платформы, решения безопасности.",
+      "desc_en": "Founded in 2003 in Shenzhen, the company is an AIoT solutions provider built on a \"cloud + edge + device\" model for smart home, smart park/community, and smart transportation applications, focusing on video- and radar-sensing technology (AI cameras, AI NVR, IoT gateways, face-recognition access panels). It holds over 500 patents and has integration partnerships with Tencent, Huawei, China Mobile, Amazon, Haier and Midea, and has raised a Series C round totaling $52.9M.",
+      "desc_ru": "Компания основана в 2003 году в Шэньчжэне, работает как поставщик AIoT-решений «облако + edge + устройства» для умного дома, умных парков/жилых комплексов и транспорта, специализируясь на видео- и радарной сенсорике (ИИ-камеры, NVR, шлюзы IoT, панели контроля доступа с распознаванием лиц). Владеет более 500 патентами, интегрируется с платформами Tencent, Huawei, China Mobile, Amazon, Haier, Midea и др.; привлекла раунд финансирования на $52,9 млн.",
       "country": "cn"
     },
     {
@@ -6705,8 +6705,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Industrial AI, machine vision, quality control.",
-      "desc_ru": "Промышленный ИИ, машинное зрение, контроль качества.",
+      "desc_en": "SmartMore (思谋科技), founded in 2019, develops industrial AI solutions built on computer vision — including quality-control and traceability platforms, machine-vision sensors, and digital-twin products for the automotive, electronics, semiconductor, and precision-optics industries. It operates R&D and business centers in Shenzhen, Shanghai, Suzhou, and Hong Kong, and raised a $100 million Series A round, becoming one of China's youngest AI \"quasi-unicorns.\"",
+      "desc_ru": "SmartMore (思谋科技), основанная в 2019 году, разрабатывает промышленные AI-решения на основе компьютерного зрения — платформы для контроля качества, прослеживаемости, сенсоры машинного зрения и цифровые двойники для автомобильной, электронной, полупроводниковой и оптической отраслей. Компания имеет R&D- и бизнес-центры в Шэньчжэне, Шанхае, Сучжоу и Гонконге и привлекла раунд Series A на $100 млн, став одним из самых молодых \"квазиединорогов\" в сфере ИИ в Китае.",
       "country": "cn"
     },
     {
@@ -6719,8 +6719,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "China's largest semiconductor foundry, Zhangjiang Hi-Tech Park.",
-      "desc_ru": "Крупнейший контрактный производитель чипов Китая, Zhangjiang Hi-Tech Park.",
+      "desc_en": "SMIC (Semiconductor Manufacturing International Corporation) is China's largest contract chip manufacturer (foundry), founded in 2000 and headquartered in Shanghai's Zhangjiang Hi-Tech Park, with shares listed in Hong Kong and Shanghai. It produces chips at various process nodes, including 14nm and more advanced processes, and has been placed on the US Entity List over ties to China's military sector.",
+      "desc_ru": "SMIC (Semiconductor Manufacturing International Corporation) — крупнейший контрактный производитель чипов (foundry) Китая, основан в 2000 году, штаб-квартира в Шанхае (Zhangjiang Hi-Tech Park), акции торгуются на биржах Гонконга и Шанхая. Компания выпускает чипы по различным технологическим нормам, включая 14 нм и более совершенные процессы, и находится под экспортными ограничениями США из-за связей с оборонным сектором Китая.",
       "country": "cn"
     },
     {
@@ -6733,8 +6733,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Global biopharma R&D and manufacturing platform, Zhangjiang Drug Valley.",
-      "desc_ru": "Глобальная R&D- и производственная платформа биофармы, Zhangjiang Drug Valley.",
+      "desc_en": "A major Chinese CRO/CDMO providing contract research, development, and manufacturing services for pharmaceutical and biotech clients worldwide, spanning drug discovery through clinical trials and commercial-scale manufacturing. Headquartered with key R&D and manufacturing facilities in Zhangjiang Hi-Tech Park, Shanghai, and dual-listed on the Shanghai and Hong Kong stock exchanges. Its client base includes many of the world's largest pharmaceutical companies, and its former biologics unit was spun off as the separately listed WuXi Biologics.",
+      "desc_ru": "Крупная китайская CRO/CDMO-компания, предоставляющая контрактные услуги по исследованиям, разработке и производству лекарств и медизделий для фармацевтических и биотехнологических клиентов по всему миру, от открытия молекул до клинических испытаний и коммерческого производства. Штаб-квартира и ключевые R&D/производственные площадки находятся в Zhangjiang Hi-Tech Park (Шанхай); акции компании торгуются на Шанхайской и Гонконгской биржах. Среди клиентов — крупнейшие мировые фармкомпании, а бывшее биологическое подразделение WuXi Biologics было выделено в отдельную публичную компанию.",
       "country": "cn"
     },
     {
@@ -6747,8 +6747,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Shanghai Gigafactory, Lingang New Area.",
-      "desc_ru": "Гигафабрика Tesla в Шанхае, Lingang New Area.",
+      "desc_en": "Tesla's Shanghai Gigafactory (Lingang New Area) is the company's first overseas vehicle plant and China's first wholly foreign-owned automaker. It produces the Model 3 and Model Y, with capacity exceeding 950,000 vehicles per year and component localization above 95%. The site is Tesla's largest global production hub and main export base, accounting for roughly half of the company's worldwide output; it produced its four-millionth vehicle in December 2025.",
+      "desc_ru": "Гигафабрика Tesla в Шанхае (Lingang New Area) — первый зарубежный автозавод компании и первое в Китае автопроизводство со 100%-ным иностранным капиталом. Завод выпускает электромобили Model 3 и Model Y с производственной мощностью свыше 950 тысяч машин в год, локализация компонентов превышает 95%. Площадка является крупнейшим производственным узлом Tesla в мире и основным экспортным хабом компании, обеспечивая около половины её глобального выпуска; в декабре 2025 года здесь был выпущен 4-миллионный автомобиль.",
       "country": "cn"
     },
     {
@@ -6761,8 +6761,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Hypermarket chain and warehouse-club format, Sun Art HQ.",
-      "desc_ru": "Сеть гипермаркетов и формат склад-клуб, штаб-квартира Sun Art.",
+      "desc_en": "RT-Mart (大润发) is China's largest hypermarket chain by store count, operated by Sun Art Retail Group, a joint venture formed in 2000 between Taiwan's Ruentex Group and France's Auchan. As of 2025 Sun Art operates 462 RT-Mart hypermarkets, 32 superstores, and 7 membership warehouse clubs across 205 Chinese cities; Alibaba held a controlling 78.7% stake from 2020 until selling it to private equity firm DCP Capital in 2025.",
+      "desc_ru": "Сеть гипермаркетов RT-Mart (大润发), крупнейшая по числу магазинов сеть гипермаркетов в Китае; управляется Sun Art Retail Group, созданной в 2000 году как СП тайваньской Ruentex Group и французской Auchan. По состоянию на 2025 год Sun Art управляет 462 гипермаркетами RT-Mart, 32 супермаркетами и 7 клубами-складами membership в 205 городах Китая; в 2020-2025 гг. контрольный пакет принадлежал Alibaba, которая в 2025 году продала свою долю (78,7%) фонду DCP Capital.",
       "country": "cn"
     },
     {
@@ -6775,8 +6775,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Instant-retail dispatch and demand-mapping command center.",
-      "desc_ru": "Командный центр мгновенного ритейла: карты спроса, диспетчеризация.",
+      "desc_en": "Alibaba Group's instant-delivery platform, founded in 2008 as Ele.me (饿了么) and rebranded in 2025 to Taobao Shangou / Taobao Instant Commerce (淘宝闪购) as part of a merger into a unified Taobao shopping experience. It combines food delivery, instant retail and in-store/offline merchant fulfillment, targeting 30–60 minute delivery via Ele.me's rider network (\"city knights\"), and surpassed 40 million daily orders within a month of the 2025 relaunch. It competes with Meituan and JD.com in China's instant-retail/local-services market.",
+      "desc_ru": "Платформа мгновенной доставки еды и товаров группы Alibaba, основана в 2008 году как Ele.me (饿了么), в 2025 году переименована в Taobao Shangou / Taobao Instant Commerce (淘宝闪购) в рамках интеграции в единую экосистему Taobao. Объединяет доставку еды, товаров повседневного спроса и продукции офлайн-магазинов с целевым временем доставки до 30–60 минут, используя курьерскую сеть Ele.me («city knights»); в 2025 году сервис превысил 40 млн заказов в день. Конкурирует с Meituan и JD.com на рынке мгновенной розницы Китая.",
       "country": "cn"
     },
     {
@@ -6789,8 +6789,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium warehouse club — Member's Mark private label, tasting zones.",
-      "desc_ru": "Премиальный склад-клуб — private label Member's Mark, зоны дегустаций.",
+      "desc_en": "Warehouse membership club retail chain, wholly owned by Walmart, headquartered in Futian, Shenzhen. Its first mainland China store opened in Shenzhen in 1996; the chain has since grown to over 50 stores across major Chinese cities, including 4 in Shenzhen itself (Futian, Qianhai, Longgang, Longhua). Its Member's Mark private label is a core part of the assortment.",
+      "desc_ru": "Складской клуб-магазин формата \"оптом в розницу\", 100%-я дочерняя структура Walmart; штаб-квартира — в Футянь, Шэньчжэнь. Первый магазин в материковом Китае открыт в Шэньчжэне в 1996 году; сеть выросла до более чем 50 точек в крупнейших городах Китая, включая 4 магазина в самом Шэньчжэне (Футянь, Цяньхай, Луньган, Луньхуа). Собственная торговая марка Member's Mark — ключевой элемент ассортимента.",
       "country": "cn"
     },
     {
@@ -6803,8 +6803,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "\"New Yonghui\" reformatted flagship — a before/after retail transformation case.",
-      "desc_ru": "Флагман «нового Yonghui» — кейс трансформации ритейл-формата «до/после».",
+      "desc_en": "Yonghui (永辉超市) is a major Chinese supermarket chain that since 2024 has been undergoing a nationwide store-renovation program modeled on retailer Pang Donglai, with over 100 stores converted by June 2025. Renovated stores replace up to 70% of their product assortment, expand fresh-food categories (e.g., from 5% to 20% of mix), and add free butcher/seafood counter services; some converted stores (e.g. in Beijing) reported daily sales nearly tripling and foot traffic up over 65% post-renovation.",
+      "desc_ru": "Yonghui (永辉超市) — крупная китайская сеть супермаркетов, с 2024 года проводящая масштабную перестройку магазинов по образцу ритейлера Pang Donglai (胖东来): к июню 2025 года адаптировано свыше 100 магазинов по всей стране. В переоборудованных точках доля товаров обновляется на величину до 70%, расширяется доля свежих продуктов (например, с 5% до 20%), добавляются бесплатные услуги на мясном и рыбном прилавках (нарезка, разделка). По отдельным магазинам (например, в Пекине) после переоборудования выручка выросла почти втрое, трафик — более чем на 65%.",
       "country": "cn"
     },
     {
@@ -6817,8 +6817,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Alibaba's official ticketing platform — real-time seat selection, anti-scalping.",
-      "desc_ru": "Официальная билетинговая платформа Alibaba — выбор мест в реальном времени, анти-перекуп.",
+      "desc_en": "China's leading online ticketing platform for concerts, theater and sports events, founded in 2004; fully acquired by Alibaba Group in 2017 and folded into its digital media and entertainment unit. In 2025 it launched the international brand MAISEAT to offer cross-border event ticketing to overseas audiences.",
+      "desc_ru": "Крупнейшая в Китае платформа онлайн-билетов на концерты, спектакли и спортивные события, основана в 2004 году; полностью приобретена Alibaba Group в 2017 году и входит в её подразделение цифровых медиа и развлечений. В 2025 году запустила международный бренд MAISEAT для продажи билетов на зарубежные мероприятия иностранным зрителям.",
       "country": "cn"
     },
     {
@@ -6831,8 +6831,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Film and live-entertainment ticketing platform with box-office data tools.",
-      "desc_ru": "Платформа билетинга кино и лайв-ивентов, аналитика кассовых сборов.",
+      "desc_en": "Chinese online ticketing platform (maoyan.com) for films and live entertainment (concerts, festivals, talk shows, dramas, exhibitions), operated by Beijing Maoyan Culture Media and part of Hong Kong-listed Maoyan Entertainment. Formed via a 2017 merger with Weiying Times (with Enlight Media as a strategic shareholder brought in in 2016), it expanded beyond ticketing into film promotion/distribution, content production, and box-office data/analytics services.",
+      "desc_ru": "Китайская платформа онлайн-продажи билетов на фильмы и живые мероприятия (maoyan.com), крупнейший подобный сервис в Китае; оперируется Beijing Maoyan Culture Media, входящей в состав публичной Maoyan Entertainment (Гонконгская биржа). В 2017 году компания образовалась слиянием с Weiying Times при поддержке Enlight Media как стратегического акционера, после чего расширилась в продвижение и дистрибуцию фильмов, производство контента и биг-дату по кассовым сборам.",
       "country": "cn"
     },
     {
@@ -6845,8 +6845,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "WeChat-native OTA reaching lower-tier cities — rail, bus, hotels, event tickets.",
-      "desc_ru": "OTA внутри WeChat с охватом low-tier городов — ж/д, автобусы, отели, билеты на события.",
+      "desc_en": "Online travel agency (OTA) listed as Tongcheng Travel (00780.HK), deeply integrated with WeChat Mini Programs — reportedly around 80% of its traffic comes through this channel, backed by a near decade-long partnership with Tencent. It ranks among China's top OTAs alongside Ctrip and Meituan, focuses on lower-tier city markets, and offers rail/bus ticketing, hotel bookings, and event tickets; its major shareholders are Tencent and Trip.com Group.",
+      "desc_ru": "Онлайн-турагентство (OTA), listed as Tongcheng Travel (00780.HK), с сильной интеграцией в WeChat Mini Program — по данным отраслевых обзоров эта площадка обеспечивает до 80% трафика компании благодаря давнему партнёрству с Tencent. Компания входит в тройку крупнейших OTA Китая наряду с Ctrip и Meituan, специализируется на нижнеуровневых (low-tier) городах и предлагает бронирование ж/д и автобусных билетов, отелей и билетов на мероприятия; крупнейшие акционеры — Tencent и Trip.com Group.",
       "country": "cn"
     },
     {
@@ -6859,8 +6859,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Alibaba's youth-focused OTA, integrated with Taobao and Alipay.",
-      "desc_ru": "Молодёжный OTA от Alibaba, интегрирован с Taobao и Alipay.",
+      "desc_en": "Fliggy (飞猪) is Alibaba Group's travel services platform, headquartered in Hangzhou, offering flights, hotels, visa services, and travel shopping. Launched in 2016 as Alitrip before rebranding to Fliggy, it is deeply integrated with Alipay for payments, Taobao for marketing exposure, and Alibaba Cloud for infrastructure, distinguishing it from rivals like Ctrip and Qunar.",
+      "desc_ru": "Fliggy (飞猪) — платформа travel-услуг Alibaba Group со штаб-квартирой в Ханчжоу: авиабилеты, отели, визовые услуги и туристический шопинг. Изначально запущена в 2016 году как Alitrip, затем переименована в Fliggy; глубоко интегрирована с Alipay (платежи), Taobao (маркетинг) и Alibaba Cloud (инфраструктура), что отличает её от конкурентов вроде Ctrip и Qunar.",
       "country": "cn"
     },
     {
@@ -6873,8 +6873,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tencent Music Entertainment — TME Live streaming and monetization of live music.",
-      "desc_ru": "Tencent Music Entertainment — TME Live, стриминг и монетизация лайв-музыки.",
+      "desc_en": "Tencent Music Entertainment (TME) is China's leading online music and audio streaming platform, part of the Tencent ecosystem, operating QQ Music, Kugou Music, Kuwo Music, and the karaoke app WeSing. It has roughly 528 million monthly active users and monetizes content beyond subscriptions through livestreaming (TME Live) and karaoke services; it is listed on the NYSE (TME) and the Hong Kong Stock Exchange (1698).",
+      "desc_ru": "Tencent Music Entertainment (TME) — ведущая онлайн-платформа музыкального и аудио-стриминга в Китае, часть экосистемы Tencent; управляет сервисами QQ Music, Kugou Music, Kuwo Music и караоке-приложением WeSing. Компания насчитывает около 528 млн активных пользователей в месяц и, помимо стриминга, монетизирует контент через живые трансляции (TME Live) и караоке; акции торгуются на NYSE (TME) и Гонконгской бирже (1698).",
       "country": "cn"
     }
   ]
