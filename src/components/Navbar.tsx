@@ -156,13 +156,15 @@ function LocaleToggle() {
 
 export function Navbar() {
   const { locale } = useLanguage()
+  const location = useLocation()
+  const isHome = location.pathname === '/'
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
     <header className="sticky top-0 z-50 bg-void/80 backdrop-blur">
       <div className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-5">
         <Link to="/" onClick={() => setMobileOpen(false)}>
-          <Logo />
+          <Logo large={isHome} />
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
