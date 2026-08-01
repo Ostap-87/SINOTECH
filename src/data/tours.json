@@ -1,6 +1,6 @@
 {
   "meta": {
-    "project": "Aura Tech Tours — ready-made tours",
+    "project": "Global Tech Tour — ready-made tours",
     "note": "Готовые туры. Тур ссылается на companies.id из companies.json. Даты (start_date) проставляются при анонсе. Слой быстро меняется (можно вести через Google Таблицы, см. спецификацию раздел 14).",
     "languages": [
       "ru",

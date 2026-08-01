@@ -277,7 +277,7 @@ export function Consulting() {
 
         <div className="mt-12 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
           <h3 className="text-lg font-medium">
-            {locale === 'ru' ? 'Почему Aura Tech Tours' : 'Why Aura Tech Tours'}
+            {locale === 'ru' ? 'Почему Global Tech Tour' : 'Why Global Tech Tour'}
           </h3>
           <ul className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
             {WHY_US.map((item) => (

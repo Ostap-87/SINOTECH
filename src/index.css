@@ -35,10 +35,12 @@
 
 html {
   color-scheme: light;
+  overscroll-behavior-y: none;
 }
 
 body {
   margin: 0;
+  overscroll-behavior-y: none;
   background: var(--color-void);
   color: var(--color-bone-white);
   font-family: var(--font-sans);

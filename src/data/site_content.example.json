@@ -1,6 +1,6 @@
 {
   "meta": {
-    "project": "Aura Tech Tours — site content (starter template)",
+    "project": "Global Tech Tour — site content (starter template)",
     "languages": ["en", "ru"],
     "note": "Двуязычный контент главной. Кейсы ссылаются на companies.id (type=company) или sectors.code (type=industry). Медиа — ссылки на файлы в сторидже."
   },
@@ -59,7 +59,7 @@
       "body_en": "Full article body in English…",
       "body_ru": "Полный текст статьи на русском…",
       "tags": ["benchmarking", "china", "delegations"],
-      "author": "Aura Tech Tours"
+      "author": "Global Tech Tour"
     }
   ],
   "contacts": {
