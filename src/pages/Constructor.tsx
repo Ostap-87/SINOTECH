@@ -230,8 +230,14 @@ export function Constructor() {
     return BRANCH_COMPANIES.filter((company) => {
       if (sectorFilter.size > 0 && !sectorFilter.has(company.sector)) return false
       if (regionFilter !== 'all' && getCity(company.city)?.region !== regionFilter) return false
-      if (q && !company.name_en.toLowerCase().includes(q)) return false
-      return true
+      if (!q) return true
+      const sector = getSector(company.sector)
+      return (
+        company.name_en.toLowerCase().includes(q) ||
+        company.name_zh.includes(q) ||
+        (sector?.label_en.toLowerCase().includes(q) ?? false) ||
+        (sector?.label_ru.toLowerCase().includes(q) ?? false)
+      )
     })
   }, [sectorFilter, regionFilter, search])
 
@@ -498,11 +504,12 @@ export function Constructor() {
                           key={sector.code}
                           type="button"
                           onClick={() => toggleSector(sector.code)}
-                          className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
+                          className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold transition-colors ${
                             active
                               ? 'border-electric-iris bg-electric-iris/15 text-bone-white'
-                              : 'border-black/10 text-ash-gray hover:border-black/25'
+                              : 'bg-surface/40 hover:bg-surface/70'
                           }`}
+                          style={active ? undefined : { color: sector.color, borderColor: `${sector.color}55` }}
                         >
                           <span
                             className="h-1.5 w-1.5 shrink-0 rounded-full"

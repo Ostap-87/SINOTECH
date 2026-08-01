@@ -65,7 +65,8 @@ export function CompanyDetail() {
         {sector && (
           <Link
             to={`/companies?sector=${sector.code}`}
-            className="flex items-center gap-1.5 rounded-full border border-black/10 px-3 py-1 text-xs text-ash-gray transition-colors hover:border-electric-iris/60 hover:text-bone-white"
+            className="flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold transition-colors hover:border-electric-iris/60 hover:text-bone-white"
+            style={{ color: sector.color, borderColor: `${sector.color}55` }}
           >
             <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: sector.color }} aria-hidden="true" />
             {pick(sector, 'label', locale)}

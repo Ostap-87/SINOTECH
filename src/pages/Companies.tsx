@@ -32,19 +32,28 @@ export function Companies() {
     })
   }
 
+  const sectorByCode = useMemo(() => {
+    const map = new Map<string, (typeof companiesData.sectors)[number]>()
+    for (const sector of companiesData.sectors) map.set(sector.code, sector)
+    return map
+  }, [])
+
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
     return companiesData.companies.filter((company) => {
       if (sectorFilter.size > 0 && !sectorFilter.has(company.sector)) return false
       if (!q) return true
+      const sector = sectorByCode.get(company.sector)
       return (
         company.name_en.toLowerCase().includes(q) ||
         company.name_zh.includes(q) ||
         (company.category_ru ?? '').toLowerCase().includes(q) ||
-        (company.category_en ?? '').toLowerCase().includes(q)
+        (company.category_en ?? '').toLowerCase().includes(q) ||
+        (sector?.label_en.toLowerCase().includes(q) ?? false) ||
+        (sector?.label_ru.toLowerCase().includes(q) ?? false)
       )
     })
-  }, [search, sectorFilter])
+  }, [search, sectorFilter, sectorByCode])
 
   const bySector = useMemo(() => {
     const groups = new Map<string, typeof companiesData.companies>()
@@ -89,7 +98,9 @@ export function Companies() {
           type="text"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          placeholder={locale === 'ru' ? 'Поиск по названию' : 'Search by name'}
+          placeholder={
+            locale === 'ru' ? 'Поиск по названию или индустрии' : 'Search by name or industry'
+          }
           className="w-full max-w-md rounded-xl border border-black/10 bg-surface/40 px-4 py-2.5 text-sm text-bone-white placeholder:text-ash-gray focus:border-electric-iris/60 focus:outline-none"
         />
 
@@ -101,11 +112,10 @@ export function Companies() {
                 key={sector.code}
                 type="button"
                 onClick={() => toggleSector(sector.code)}
-                className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
-                  active
-                    ? 'border-electric-iris bg-electric-iris/15 text-bone-white'
-                    : 'border-black/10 text-ash-gray hover:border-black/25'
+                className={`flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold transition-colors ${
+                  active ? 'border-electric-iris bg-electric-iris/15 text-bone-white' : 'bg-surface/40 hover:bg-surface/70'
                 }`}
+                style={active ? undefined : { color: sector.color, borderColor: `${sector.color}55` }}
               >
                 <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: sector.color }} aria-hidden="true" />
                 {pick(sector, 'label', locale)}
