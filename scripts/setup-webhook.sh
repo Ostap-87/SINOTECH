@@ -25,12 +25,17 @@ git fetch origin claude/sinotech-voyage-setup
 git checkout claude/sinotech-voyage-setup
 git reset --hard origin/claude/sinotech-voyage-setup
 
-echo "==> генерируем секрет для вебхука"
-SECRET="$(openssl rand -hex 32 2>/dev/null || python3 -c 'import secrets; print(secrets.token_hex(32))')"
-cat >"$ENV_FILE" <<EOF
+if [ -f "$ENV_FILE" ] && grep -q '^WEBHOOK_SECRET=' "$ENV_FILE"; then
+  echo "==> секрет уже существует, переиспользуем (перезапуск скрипта не ломает GitHub-вебхук)"
+  SECRET="$(grep '^WEBHOOK_SECRET=' "$ENV_FILE" | cut -d= -f2-)"
+else
+  echo "==> генерируем секрет для вебхука"
+  SECRET="$(openssl rand -hex 32 2>/dev/null || python3 -c 'import secrets; print(secrets.token_hex(32))')"
+  cat >"$ENV_FILE" <<EOF
 WEBHOOK_SECRET=${SECRET}
 EOF
-chmod 600 "$ENV_FILE"
+  chmod 600 "$ENV_FILE"
+fi
 
 echo "==> systemd-юнит для приёмника вебхуков"
 cat >"$SERVICE_FILE" <<EOF
