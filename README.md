@@ -15,7 +15,7 @@ npm run dev
 
 ## Данные
 
-- `src/data/companies.json` — каталог из 373 компаний (17 отраслей, 8 макрорегионов, 47 городов).
+- `src/data/companies.json` — каталог из 438 компаний (17 отраслей, 8 макрорегионов, 47 городов).
 - `src/data/tours.json` — готовые туры (Robotics Expedition).
 - `src/data/site_content.example.json` — кейсы, блог, контакты.
 

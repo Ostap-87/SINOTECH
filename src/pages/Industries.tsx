@@ -15,8 +15,8 @@ export function Industries() {
   usePageMeta(
     locale === 'ru' ? 'Индустрии — Global Tech Tour' : 'Industries — Global Tech Tour',
     locale === 'ru'
-      ? 'Каталог из 350+ китайских компаний по 17 отраслям — от робототехники и автопрома до биотеха и финтеха. Выберите индустрию и посмотрите готовые программы.'
-      : 'A catalogue of 350+ Chinese companies across 17 sectors — from robotics and automotive to biotech and fintech. Pick a sector and see ready-made programmes.',
+      ? 'Каталог из более чем 400 китайских компаний по 17 отраслям — от робототехники и автопрома до биотеха и финтеха. Выберите индустрию и посмотрите готовые программы.'
+      : 'A catalogue of 400+ Chinese companies across 17 sectors — from robotics and automotive to biotech and fintech. Pick a sector and see ready-made programmes.',
   )
 
   const sectorCounts = useMemo(() => {
@@ -55,8 +55,8 @@ export function Industries() {
           </h1>
           <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
             {locale === 'ru'
-              ? 'Наш каталог состоит из более чем 350 компаний и 17 отраслей — решайте, взять готовый тур или собрать свой.'
-              : 'Our catalogue holds over 350 companies across 17 sectors — take a ready-made tour or build your own.'}
+              ? 'Наш каталог состоит из более чем 400 компаний и 17 отраслей — решайте, взять готовый тур или собрать свой.'
+              : 'Our catalogue holds over 400 companies across 17 sectors — take a ready-made tour or build your own.'}
           </p>
         </div>
 

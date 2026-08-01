@@ -2,7 +2,7 @@ import { getSector } from '@/data'
 import type { Company } from '@/types/data'
 
 /**
- * No real company logos are on file (350+ companies, third-party brand
+ * No real company logos are on file (400+ companies, third-party brand
  * marks) — this renders an honest placeholder instead: a monogram from the
  * company's own Chinese initial, tinted with its sector color, rather than
  * a fake or generic icon.

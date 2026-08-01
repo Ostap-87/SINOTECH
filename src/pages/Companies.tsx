@@ -19,8 +19,8 @@ export function Companies() {
   usePageMeta(
     locale === 'ru' ? 'Все компании — Global Tech Tour' : 'All companies — Global Tech Tour',
     locale === 'ru'
-      ? `Каталог из ${companiesData.companies.length}+ китайских компаний по ${companiesData.sectors.length} отраслям — название, сфера деятельности и краткое описание каждой.`
-      : `A catalogue of ${companiesData.companies.length}+ Chinese companies across ${companiesData.sectors.length} sectors — name, business focus and a short description for each.`,
+      ? `Каталог из более чем 400 китайских компаний по ${companiesData.sectors.length} отраслям — название, сфера деятельности и краткое описание каждой.`
+      : `A catalogue of 400+ Chinese companies across ${companiesData.sectors.length} sectors — name, business focus and a short description for each.`,
   )
 
   function toggleSector(code: string) {
@@ -89,8 +89,8 @@ export function Companies() {
       </h1>
       <p className="mt-6 max-w-2xl text-lg font-normal text-silver-mist">
         {locale === 'ru'
-          ? `${companiesData.companies.length}+ компаний по ${companiesData.sectors.length} отраслям — выберите индустрию или найдите компанию по названию.`
-          : `${companiesData.companies.length}+ companies across ${companiesData.sectors.length} sectors — filter by industry or search by name.`}
+          ? `Более 400 компаний по ${companiesData.sectors.length} отраслям — выберите индустрию или найдите компанию по названию.`
+          : `400+ companies across ${companiesData.sectors.length} sectors — filter by industry or search by name.`}
       </p>
 
       <div className="mt-10 flex flex-col gap-4">

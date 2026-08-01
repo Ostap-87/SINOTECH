@@ -19,8 +19,8 @@ export function Home() {
   usePageMeta(
     locale === 'ru' ? 'Global Tech Tour — бизнес-экспедиции в Китай' : 'Global Tech Tour — business expeditions to China',
     locale === 'ru'
-      ? 'Закрытые визиты на производства и в штаб-квартиры лидеров индустрий Китая. 350+ компаний, 17 отраслей — прямой доступ, куда не попасть самостоятельно.'
-      : "Private visits to production sites and headquarters of China's industry leaders. 350+ companies across 17 sectors — direct access you can't reach on your own.",
+      ? 'Закрытые визиты на производства и в штаб-квартиры лидеров индустрий Китая. Более 400 компаний, 17 отраслей — прямой доступ, куда не попасть самостоятельно.'
+      : "Private visits to production sites and headquarters of China's industry leaders. 400+ companies across 17 sectors — direct access you can't reach on your own.",
   )
 
   // The bottom pill row is stretched to match the top row's total width
