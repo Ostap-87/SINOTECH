@@ -1,12 +1,4 @@
 import { forwardRef, useEffect, useImperativeHandle, useMemo, useRef, useState } from 'react'
-import chinaProvinces from '@/data/china-provinces.json'
-import japanProvinces from '@/data/japan-provinces.json'
-import koreaProvinces from '@/data/korea-provinces.json'
-import indiaProvinces from '@/data/india-provinces.json'
-import thailandProvinces from '@/data/thailand-provinces.json'
-import malaysiaProvinces from '@/data/malaysia-provinces.json'
-import indonesiaProvinces from '@/data/indonesia-provinces.json'
-import vietnamProvinces from '@/data/vietnam-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { ShimmerText } from './ShimmerText'
@@ -55,16 +47,21 @@ interface ProvinceEntry {
 
 // Every country map is pre-built at province/state/prefecture level (like
 // China's) so a future expedition anywhere just plugs in stops — no new
-// boundary data to source first.
-const PROVINCE_SETS: Record<RouteMapCountry, ProvinceEntry[]> = {
-  china: chinaProvinces as unknown as ProvinceEntry[],
-  japan: japanProvinces as unknown as ProvinceEntry[],
-  korea: koreaProvinces as unknown as ProvinceEntry[],
-  india: indiaProvinces as unknown as ProvinceEntry[],
-  thailand: thailandProvinces as unknown as ProvinceEntry[],
-  malaysia: malaysiaProvinces as unknown as ProvinceEntry[],
-  indonesia: indonesiaProvinces as unknown as ProvinceEntry[],
-  vietnam: vietnamProvinces as unknown as ProvinceEntry[],
+// boundary data to source first. Loaded on demand, one country at a time —
+// the 8 sets combined are over 500KB of JSON, and almost every expedition
+// only ever needs China's, so bundling all 8 into RouteMap's own chunk
+// made it the single heaviest thing on the tour-detail page (very
+// noticeable on slow mobile connections, where it could look like the page
+// had simply frozen while that chunk downloaded).
+const PROVINCE_LOADERS: Record<RouteMapCountry, () => Promise<{ default: unknown }>> = {
+  china: () => import('@/data/china-provinces.json'),
+  japan: () => import('@/data/japan-provinces.json'),
+  korea: () => import('@/data/korea-provinces.json'),
+  india: () => import('@/data/india-provinces.json'),
+  thailand: () => import('@/data/thailand-provinces.json'),
+  malaysia: () => import('@/data/malaysia-provinces.json'),
+  indonesia: () => import('@/data/indonesia-provinces.json'),
+  vietnam: () => import('@/data/vietnam-provinces.json'),
 }
 
 const REVEAL_INTERVAL_MS = 2600
@@ -132,20 +129,47 @@ function buildProjection(provinces: ProvinceEntry[]) {
     d: province.polygons.map((polygon) => polygonToPath(polygon, project)).join(' '),
   }))
 
-  return { project, provincePaths, width, height }
+  return { project, provincePaths, width, height, provinces }
 }
 
-const projectionCache = new Map<RouteMapCountry, ReturnType<typeof buildProjection>>()
+type Projection = ReturnType<typeof buildProjection>
 
-function useProjection(country: RouteMapCountry) {
-  return useMemo(() => {
-    let cached = projectionCache.get(country)
-    if (!cached) {
-      cached = buildProjection(PROVINCE_SETS[country])
-      projectionCache.set(country, cached)
+const projectionCache = new Map<RouteMapCountry, Projection>()
+
+const EMPTY_PROJECTION: Projection = {
+  project: () => [0, 0],
+  provincePaths: [],
+  width: 1000,
+  height: 1000,
+  provinces: [],
+}
+
+/** Returns null (callers fall back to EMPTY_PROJECTION) until that
+ * country's boundary data has finished loading — cached per country after
+ * the first load, so switching back to an already-seen country is instant. */
+function useProjection(country: RouteMapCountry): Projection | null {
+  const [projection, setProjection] = useState<Projection | null>(() => projectionCache.get(country) ?? null)
+
+  useEffect(() => {
+    const cached = projectionCache.get(country)
+    if (cached) {
+      setProjection(cached)
+      return
     }
-    return cached
+    setProjection(null)
+    let cancelled = false
+    PROVINCE_LOADERS[country]().then((mod) => {
+      if (cancelled) return
+      const built = buildProjection(mod.default as unknown as ProvinceEntry[])
+      projectionCache.set(country, built)
+      setProjection(built)
+    })
+    return () => {
+      cancelled = true
+    }
   }, [country])
+
+  return projection
 }
 
 /**
@@ -670,8 +694,8 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
   ref,
 ) {
   const { locale } = useLanguage()
-  const { project, provincePaths, width, height } = useProjection(country)
-  const provinces = PROVINCE_SETS[country]
+  const projection = useProjection(country)
+  const { project, provincePaths, width, height, provinces } = projection ?? EMPTY_PROJECTION
   const [currentIndex, setCurrentIndex] = useState(0)
   const [playing, setPlaying] = useState(true)
 
@@ -721,6 +745,12 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
 
   if (stops.length === 0) return null
 
+  if (!projection) {
+    return <div className={`flex h-full flex-col ${className ?? ''}`}>
+      <div className="flex-1 animate-pulse rounded-2xl border border-black/15 bg-surface/60" />
+    </div>
+  }
+
   const current = stops[currentIndex]
 
   function goTo(index: number) {
@@ -756,7 +786,7 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
           ))}
 
           {regionCode && country === 'china' && (
-            <RegionHighlight regionCode={regionCode} provinces={PROVINCE_SETS.china} project={project} locale={locale} />
+            <RegionHighlight regionCode={regionCode} provinces={provinces} project={project} locale={locale} />
           )}
 
           {stops.slice(0, currentIndex + 1).map((stop, i) => {
