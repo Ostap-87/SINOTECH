@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sinotechvoyage.com/sitemap.xml
+Sitemap: https://globaltechtour.com/sitemap.xml

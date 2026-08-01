@@ -28,7 +28,7 @@ export function Contacts() {
   const [sent, setSent] = useState(false)
 
   usePageMeta(
-    locale === 'ru' ? 'Контакты — Sinotech Voyage' : 'Contacts — Sinotech Voyage',
+    locale === 'ru' ? 'Контакты — Global Tech Tour' : 'Contacts — Global Tech Tour',
     locale === 'ru'
       ? 'Свяжитесь с нами — расскажите о задаче, подберём формат экспедиции или консалтинга и ответим в течение рабочего дня.'
       : "Get in touch — tell us your goal, we'll match a format and reply within one business day.",
@@ -43,7 +43,7 @@ export function Contacts() {
   function handleSubmit() {
     if (!valid) return
     const subject = encodeURIComponent(
-      locale === 'ru' ? 'Заявка с сайта Sinotech Voyage' : 'Inquiry from the Sinotech Voyage website',
+      locale === 'ru' ? 'Заявка с сайта Global Tech Tour' : 'Inquiry from the Global Tech Tour website',
     )
     const bodyLines = [
       `${locale === 'ru' ? 'Имя' : 'Name'}: ${form.name}`,

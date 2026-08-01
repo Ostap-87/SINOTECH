@@ -6,7 +6,7 @@ export function NotFound() {
   const { locale } = useLanguage()
 
   usePageMeta(
-    locale === 'ru' ? 'Страница не найдена — Sinotech Voyage' : 'Page not found — Sinotech Voyage',
+    locale === 'ru' ? 'Страница не найдена — Global Tech Tour' : 'Page not found — Global Tech Tour',
     undefined,
     { noindex: true },
   )

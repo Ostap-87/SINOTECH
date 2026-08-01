@@ -18,7 +18,7 @@ export function CompanyDetail() {
   }, [company])
 
   usePageMeta(
-    company ? `${companyNameZh(company)} — Sinotech Voyage` : locale === 'ru' ? 'Компания — Sinotech Voyage' : 'Company — Sinotech Voyage',
+    company ? `${companyNameZh(company)} — Global Tech Tour` : locale === 'ru' ? 'Компания — Global Tech Tour' : 'Company — Global Tech Tour',
     company ? pick(company, 'desc', locale) : undefined,
     { noindex: !company },
   )

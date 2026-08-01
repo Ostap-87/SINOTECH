@@ -28,7 +28,7 @@ export function Cases() {
   const [openTourId, setOpenTourId] = useState<string | null>(null)
 
   usePageMeta(
-    locale === 'ru' ? 'Кейсы — Sinotech Voyage' : 'Cases — Sinotech Voyage',
+    locale === 'ru' ? 'Кейсы — Global Tech Tour' : 'Cases — Global Tech Tour',
     locale === 'ru'
       ? 'Кейсы прошедших и готовых экспедиций в Китай — маршруты, компании и программы по дням.'
       : "Case studies from past and ready-made China expeditions — routes, companies and day-by-day programmes.",

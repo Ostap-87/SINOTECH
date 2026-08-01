@@ -11,7 +11,7 @@
   "tours": [
     {
       "tour_id": "robotics-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "robotics",
       "status": "ready",
@@ -255,7 +255,7 @@
     },
     {
       "tour_id": "china-tech-giants-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "flagship",
       "status": "ready",
@@ -446,7 +446,7 @@
     },
     {
       "tour_id": "china-tea-coffee-retail-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "food",
       "status": "ready",
@@ -637,7 +637,7 @@
     },
     {
       "tour_id": "china-beauty-antiage-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "consumer",
       "status": "ready",
@@ -827,7 +827,7 @@
     },
     {
       "tour_id": "china-auto-plants-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "auto",
       "status": "ready",
@@ -1015,7 +1015,7 @@
     },
     {
       "tour_id": "china-appliances-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "electronics",
       "status": "ready",
@@ -1208,7 +1208,7 @@
     },
     {
       "tour_id": "shenzhen-moscow-industrial-mission-2026",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "government",
       "status": "ready",
@@ -1453,7 +1453,7 @@
     },
     {
       "tour_id": "china-tech-parks-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "government",
       "status": "ready",
@@ -1707,7 +1707,7 @@
     },
     {
       "tour_id": "china-retail-showrooms-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "internet",
       "status": "ready",
@@ -1968,7 +1968,7 @@
     },
     {
       "tour_id": "china-ticketing-travel-expedition",
-      "brand": "Sinotech Voyage · by Aura Robotics",
+      "brand": "Global Tech Tour · by Aura Robotics",
       "country": "cn",
       "sector": "internet",
       "status": "ready",

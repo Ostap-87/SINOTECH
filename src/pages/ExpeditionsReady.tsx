@@ -15,7 +15,7 @@ export function ExpeditionsReady() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   usePageMeta(
-    locale === 'ru' ? 'Экспедиции — Sinotech Voyage' : 'Expeditions — Sinotech Voyage',
+    locale === 'ru' ? 'Экспедиции — Global Tech Tour' : 'Expeditions — Global Tech Tour',
     locale === 'ru'
       ? 'Курируемые программы по приоритетным нишам — маршрут, компании и логистика уже собраны.'
       : 'Curated programmes for priority niches — route, companies and logistics already put together.',

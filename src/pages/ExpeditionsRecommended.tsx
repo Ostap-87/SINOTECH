@@ -12,7 +12,7 @@ export function ExpeditionsRecommended() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   usePageMeta(
-    locale === 'ru' ? 'Рекомендуемые экспедиции — Sinotech Voyage' : 'Recommended expeditions — Sinotech Voyage',
+    locale === 'ru' ? 'Рекомендуемые экспедиции — Global Tech Tour' : 'Recommended expeditions — Global Tech Tour',
     locale === 'ru'
       ? 'Подборка рекомендуемых бизнес-экспедиций в Китай под разные задачи и отрасли.'
       : 'A curated selection of recommended business expeditions to China for different goals and sectors.',

@@ -18,10 +18,10 @@ export function CountryPreview() {
 
   usePageMeta(
     country
-      ? `${locale === 'ru' ? country.name_ru : country.name_en} — Sinotech Voyage`
+      ? `${locale === 'ru' ? country.name_ru : country.name_en} — Global Tech Tour`
       : locale === 'ru'
-        ? 'Страна не найдена — Sinotech Voyage'
-        : 'Country not found — Sinotech Voyage',
+        ? 'Страна не найдена — Global Tech Tour'
+        : 'Country not found — Global Tech Tour',
     undefined,
     { noindex: true },
   )

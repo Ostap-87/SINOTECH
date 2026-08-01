@@ -26,10 +26,10 @@ export function IndustryFork() {
   const sectorLabel = sector ? pick(sector, 'label', locale) : null
   usePageMeta(
     sectorLabel
-      ? `${sectorLabel} — Sinotech Voyage`
+      ? `${sectorLabel} — Global Tech Tour`
       : locale === 'ru'
-        ? 'Индустрия — Sinotech Voyage'
-        : 'Industry — Sinotech Voyage',
+        ? 'Индустрия — Global Tech Tour'
+        : 'Industry — Global Tech Tour',
     sectorLabel
       ? locale === 'ru'
         ? `${companyCount} компаний в отрасли «${sectorLabel}» — готовые экспедиции или соберите свою программу.`

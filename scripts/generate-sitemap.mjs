@@ -10,7 +10,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
-const SITE_URL = 'https://sinotechvoyage.com'
+const SITE_URL = 'https://globaltechtour.com'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')

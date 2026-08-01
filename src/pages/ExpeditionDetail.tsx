@@ -75,10 +75,10 @@ export function ExpeditionDetail() {
 
   usePageMeta(
     tour
-      ? `${pick(tour, 'title', locale)} — Sinotech Voyage`
+      ? `${pick(tour, 'title', locale)} — Global Tech Tour`
       : locale === 'ru'
-        ? 'Экспедиция — Sinotech Voyage'
-        : 'Expedition — Sinotech Voyage',
+        ? 'Экспедиция — Global Tech Tour'
+        : 'Expedition — Global Tech Tour',
     tour ? pick(tour, 'positioning', locale) : undefined,
     { noindex: !tour },
   )

@@ -11,7 +11,7 @@ type LanguageContextValue = {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null)
 
-const STORAGE_KEY = 'sinotech-locale'
+const STORAGE_KEY = 'global-tech-tour-locale'
 
 function getInitialLocale(): Locale {
   if (typeof window === 'undefined') return 'en'

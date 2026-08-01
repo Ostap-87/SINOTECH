@@ -66,7 +66,7 @@ export function Faq() {
   const [ctaSent, setCtaSent] = useState(false)
 
   usePageMeta(
-    locale === 'ru' ? 'Вопросы и ответы — Sinotech Voyage' : 'FAQ — Sinotech Voyage',
+    locale === 'ru' ? 'Вопросы и ответы — Global Tech Tour' : 'FAQ — Global Tech Tour',
     locale === 'ru'
       ? 'Как устроены бизнес-визиты на технологические предприятия Китая: программа, доступ к руководству, требования к участникам, визы, организация поездки.'
       : "How business visits to China's technology companies work: programme, access to leadership, participant requirements, visas, trip logistics.",
@@ -123,7 +123,7 @@ export function Faq() {
   function handleCtaSubmit() {
     if (!ctaValid) return
     const subject = encodeURIComponent(
-      locale === 'ru' ? 'Заявка с FAQ — Sinotech Voyage' : 'FAQ inquiry — Sinotech Voyage',
+      locale === 'ru' ? 'Заявка с FAQ — Global Tech Tour' : 'FAQ inquiry — Global Tech Tour',
     )
     const bodyLines = [
       `${locale === 'ru' ? 'Имя' : 'Name'}: ${ctaForm.name}`,

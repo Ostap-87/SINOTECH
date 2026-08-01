@@ -174,7 +174,7 @@ export function Consulting() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   usePageMeta(
-    locale === 'ru' ? 'Консалтинг — Sinotech Voyage' : 'Consulting — Sinotech Voyage',
+    locale === 'ru' ? 'Консалтинг — Global Tech Tour' : 'Consulting — Global Tech Tour',
     locale === 'ru'
       ? 'Консалтинг и технологические экспедиции в Китай и Юго-Восточную Азию — доступ к первым лицам ведущих азиатских холдингов.'
       : 'Consulting and technology expeditions to China and Southeast Asia — direct access to the leadership of top Asian holdings.',

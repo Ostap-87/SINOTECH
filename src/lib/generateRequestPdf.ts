@@ -41,7 +41,7 @@ const LABELS = {
     contactPhone: 'Телефон',
     contactEmail: 'Email',
     contactTelegram: 'Telegram',
-    footer: 'Sinotech Voyage · by Aura Robotics — inquiry@aura-robotics.ru',
+    footer: 'Global Tech Tour · by Aura Robotics — inquiry@aura-robotics.ru',
     day: 'День',
   },
   en: {
@@ -58,7 +58,7 @@ const LABELS = {
     contactPhone: 'Phone',
     contactEmail: 'Email',
     contactTelegram: 'Telegram',
-    footer: 'Sinotech Voyage · by Aura Robotics — inquiry@aura-robotics.ru',
+    footer: 'Global Tech Tour · by Aura Robotics — inquiry@aura-robotics.ru',
     day: 'Day',
   },
 }
@@ -126,7 +126,7 @@ export async function generateRequestPdf(data: RequestPdfData): Promise<Blob> {
   doc.setFont('PTSans', 'bold')
   doc.setFontSize(19)
   doc.setTextColor(37, 99, 235)
-  doc.text('Sinotech Voyage', MARGIN, y)
+  doc.text('Global Tech Tour', MARGIN, y)
   y += 8
   doc.setFontSize(12)
   doc.setTextColor(23, 23, 29)

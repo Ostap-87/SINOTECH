@@ -15,7 +15,7 @@ export function Companies() {
   )
 
   usePageMeta(
-    locale === 'ru' ? 'Все компании — Sinotech Voyage' : 'All companies — Sinotech Voyage',
+    locale === 'ru' ? 'Все компании — Global Tech Tour' : 'All companies — Global Tech Tour',
     locale === 'ru'
       ? `Каталог из ${companiesData.companies.length}+ китайских компаний по ${companiesData.sectors.length} отраслям — название, сфера деятельности и краткое описание каждой.`
       : `A catalogue of ${companiesData.companies.length}+ Chinese companies across ${companiesData.sectors.length} sectors — name, business focus and a short description for each.`,

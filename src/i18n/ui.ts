@@ -1,7 +1,7 @@
 import type { Locale } from './LanguageContext'
 
 export const ui = {
-  brand: { ru: 'Sinotech Voyage', en: 'Sinotech Voyage' },
+  brand: { ru: 'Global Tech Tour', en: 'Global Tech Tour' },
   comingSoon: { ru: 'Скоро', en: 'Coming soon' },
 } satisfies Record<string, Record<Locale, string>>
 

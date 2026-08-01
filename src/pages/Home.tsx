@@ -17,7 +17,7 @@ export function Home() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   usePageMeta(
-    locale === 'ru' ? 'Sinotech Voyage — бизнес-экспедиции в Китай' : 'Sinotech Voyage — business expeditions to China',
+    locale === 'ru' ? 'Global Tech Tour — бизнес-экспедиции в Китай' : 'Global Tech Tour — business expeditions to China',
     locale === 'ru'
       ? 'Закрытые визиты на производства и в штаб-квартиры лидеров индустрий Китая. 350+ компаний, 17 отраслей — прямой доступ, куда не попасть самостоятельно.'
       : "Private visits to production sites and headquarters of China's industry leaders. 350+ companies across 17 sectors — direct access you can't reach on your own.",

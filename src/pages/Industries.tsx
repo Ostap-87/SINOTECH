@@ -12,7 +12,7 @@ export function Industries() {
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
   usePageMeta(
-    locale === 'ru' ? 'Индустрии — Sinotech Voyage' : 'Industries — Sinotech Voyage',
+    locale === 'ru' ? 'Индустрии — Global Tech Tour' : 'Industries — Global Tech Tour',
     locale === 'ru'
       ? 'Каталог из 350+ китайских компаний по 17 отраслям — от робототехники и автопрома до биотеха и финтеха. Выберите индустрию и посмотрите готовые программы.'
       : 'A catalogue of 350+ Chinese companies across 17 sectors — from robotics and automotive to biotech and fintech. Pick a sector and see ready-made programmes.',

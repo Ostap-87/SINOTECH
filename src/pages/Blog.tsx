@@ -5,7 +5,7 @@ import { Placeholder } from './Placeholder'
 export function Blog() {
   const { locale } = useLanguage()
 
-  usePageMeta(locale === 'ru' ? 'Блог — Sinotech Voyage' : 'Blog — Sinotech Voyage', undefined, { noindex: true })
+  usePageMeta(locale === 'ru' ? 'Блог — Global Tech Tour' : 'Blog — Global Tech Tour', undefined, { noindex: true })
 
   return (
     <Placeholder
