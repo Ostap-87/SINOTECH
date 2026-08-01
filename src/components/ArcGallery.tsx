@@ -52,6 +52,13 @@ function useMetrics(breakpoint = 768): Metrics {
 
 type CardState = 'flat' | 'arc' | 'hovered' | 'sibling'
 
+// Shifts the whole fan upward within its track so the cards sit closer to
+// the top of the section instead of hugging (and overflowing past) the
+// bottom edge of the track / viewport.
+function verticalBias(metrics: Metrics): number {
+  return metrics.cardHeight * 0.22
+}
+
 function cardTransform(index: number, mid: number, step: number, metrics: Metrics, state: CardState): string {
   if (state === 'flat') {
     const x = (index - mid) * metrics.spacing
@@ -61,7 +68,7 @@ function cardTransform(index: number, mid: number, step: number, metrics: Metric
   const angleDeg = (index - mid) * step
   const angleRad = (angleDeg * Math.PI) / 180
   const x = metrics.radius * Math.sin(angleRad)
-  const y = metrics.radius * Math.cos(angleRad) - metrics.radius
+  const y = metrics.radius * Math.cos(angleRad) - metrics.radius - verticalBias(metrics)
   const baseScale = 1 - (metrics.edgeScale * Math.abs(angleDeg)) / (metrics.spread / 2)
 
   let rotate = angleDeg
@@ -102,10 +109,19 @@ export function ArcGallery({ items, onSelect }: { items: ArcGalleryItem[]; onSel
   const mid = (items.length - 1) / 2
   const step = items.length > 1 ? metrics.spread / (items.length - 1) : 0
 
-  const trackHeight = useMemo(
-    () => metrics.cardHeight + metrics.radius * (1 - Math.cos((metrics.spread / 2) * (Math.PI / 180))) + 60,
-    [metrics],
-  )
+  const trackHeight = useMemo(() => {
+    const halfSpreadRad = (metrics.spread / 2) * (Math.PI / 180)
+    // A rotated card's bounding box is taller than the card itself — account
+    // for that (not just the arc's circular rise) so the edge cards never
+    // poke out past the track, top or bottom.
+    const edgeBoundingHalfHeight =
+      (metrics.cardWidth / 2) * Math.sin(halfSpreadRad) + (metrics.cardHeight / 2) * Math.cos(halfSpreadRad)
+    const arcRise = metrics.radius * (1 - Math.cos(halfSpreadRad))
+    const bias = verticalBias(metrics)
+    const topHalf = arcRise + edgeBoundingHalfHeight - bias
+    const bottomHalf = metrics.cardHeight / 2 - bias
+    return 2 * Math.max(topHalf, bottomHalf, metrics.cardHeight / 2) + 40
+  }, [metrics])
 
   return (
     <div
