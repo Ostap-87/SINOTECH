@@ -79,6 +79,10 @@ export interface ParticleFieldOptions {
   reducedMotion: boolean
   /** 'centered' pulls the shape to the middle of the frame and closer to camera — for heroes whose copy isn't beside it. Defaults to 'default'. */
   layout?: 'default' | 'centered'
+  /** Set false to skip drag/parallax pointer handling — the shape still
+   * assembles and spins on its own, but stops eating touch gestures meant
+   * for the page (buttons/scroll) underneath it. Defaults to true. */
+  interactive?: boolean
 }
 
 /** One InstancedMesh per palette color group — see class doc for why. */
@@ -103,6 +107,7 @@ export class ParticleFieldEngine {
 
   private count: number
   private reducedMotion: boolean
+  private interactive: boolean
   private layout: 'default' | 'centered'
 
   private prevPositions: Float32Array
@@ -149,6 +154,7 @@ export class ParticleFieldEngine {
   constructor(canvas: HTMLCanvasElement, initial: PointCloud, options: ParticleFieldOptions) {
     this.count = initial.positions.length / 3
     this.reducedMotion = options.reducedMotion
+    this.interactive = options.interactive ?? true
     this.layout = options.layout ?? 'default'
 
     const width = canvas.clientWidth || 1
@@ -230,7 +236,7 @@ export class ParticleFieldEngine {
     this.composer.addPass(new RenderPass(this.scene, this.camera))
     this.composer.addPass(new OutputPass())
 
-    if (!this.reducedMotion) {
+    if (!this.reducedMotion && this.interactive) {
       canvas.style.cursor = 'grab'
       canvas.style.touchAction = 'none'
       canvas.addEventListener('pointermove', this.onPointerMove)

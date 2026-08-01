@@ -87,7 +87,50 @@ export function Home() {
                 : 'Purposeful expeditions where you’re no longer just a tourist — you’re an explorer and a pioneer.'}
             </p>
 
-            <div ref={topPillsRef} className="pointer-events-auto mt-10 flex w-fit flex-wrap gap-3">
+            {/* Below sm, a plain single-column stack reads far cleaner than the
+                desktop two-row layout wrapping unevenly across 5 buttons of
+                different widths. */}
+            <div className="pointer-events-auto mt-10 flex flex-col gap-3 sm:hidden">
+              <Link
+                to="/industries"
+                onClick={(event) => goTo('/industries', event)}
+                className="w-full rounded-[24px] bg-electric-iris px-6 py-3 text-center text-sm font-medium text-white transition-opacity hover:opacity-90"
+              >
+                {locale === 'ru' ? 'Каталог' : 'Catalogue'}
+              </Link>
+              <Link
+                to="/expeditions"
+                onClick={(event) => goTo('/expeditions', event)}
+                className="w-full rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Готовые программы' : 'Ready-made programs'}
+              </Link>
+              <Link
+                to="/industries"
+                onClick={(event) => goTo('/industries', event)}
+                className="w-full rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
+              </Link>
+              <Link
+                to="/cases"
+                onClick={(event) => goTo('/cases', event)}
+                className="pill-shimmer relative w-full rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                <span className="relative z-10">{locale === 'ru' ? 'Кейсы' : 'Cases'}</span>
+              </Link>
+              <Link
+                to="/expeditions"
+                onClick={(event) => goTo('/expeditions', event)}
+                className="pill-shimmer relative w-full rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+              >
+                <span className="relative z-10">
+                  {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
+                </span>
+              </Link>
+            </div>
+
+            <div ref={topPillsRef} className="pointer-events-auto mt-10 hidden w-fit flex-wrap gap-3 sm:flex">
               <Link
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
@@ -112,7 +155,7 @@ export function Home() {
             </div>
 
             <div
-              className="pointer-events-auto mt-3 flex max-w-full gap-3"
+              className="pointer-events-auto mt-3 hidden max-w-full gap-3 sm:flex"
               style={topPillsWidth ? { width: topPillsWidth } : undefined}
             >
               <Link

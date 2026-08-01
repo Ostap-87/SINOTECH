@@ -20,6 +20,13 @@ function prefersReducedMotion(): boolean {
   return typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 }
 
+/** On phones the shape still assembles and spins on its own, but isn't
+ * drag-interactive — touch-action:none on a hero-covering canvas otherwise
+ * eats the touch gestures meant for the buttons/scroll underneath it. */
+function isMobileViewport(): boolean {
+  return typeof window !== 'undefined' && window.innerWidth < 768
+}
+
 export interface ParticleCanvasHandle {
   /** Scatters the current shape back apart — see ParticleFieldEngine.disperse(). */
   disperse: (durationMs?: number) => void
@@ -42,8 +49,9 @@ export const ParticleCanvas = forwardRef<
     if (!canvas) return
 
     const reducedMotion = prefersReducedMotion()
+    const interactive = !isMobileViewport()
     const initial = generateShape(shape, countRef.current)
-    const engine = new ParticleFieldEngine(canvas, initial, { reducedMotion, layout })
+    const engine = new ParticleFieldEngine(canvas, initial, { reducedMotion, layout, interactive })
     engineRef.current = engine
 
     const resizeObserver = new ResizeObserver((entries) => {
