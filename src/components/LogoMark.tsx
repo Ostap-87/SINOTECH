@@ -83,12 +83,40 @@ export function LogoMark({ size = 20 }: { size?: number }) {
     const clock = new THREE.Clock()
     let speed = ROTATE_SPEED
 
+    // Tumbles around a randomly re-picked 3D axis every couple of seconds
+    // (eased toward the new axis, not snapped) instead of spinning flatly
+    // around one fixed axis — reads as a gem tumbling in space rather than
+    // a wheel turning.
+    function randomUnitAxis() {
+      const z = Math.random() * 2 - 1
+      const theta = Math.random() * Math.PI * 2
+      const r = Math.sqrt(1 - z * z)
+      return new THREE.Vector3(r * Math.cos(theta), r * Math.sin(theta), z)
+    }
+
+    const currentAxis = new THREE.Vector3(0, 1, 0)
+    let targetAxis = randomUnitAxis()
+    let elapsed = 0
+    let nextAxisChangeAt = 1.5 + Math.random() * 1.5
+    const rotationDelta = new THREE.Quaternion()
+
     function tick() {
       if (disposed) return
       const delta = Math.min(clock.getDelta(), 0.05)
+      elapsed += delta
+
+      if (elapsed >= nextAxisChangeAt) {
+        targetAxis = randomUnitAxis()
+        nextAxisChangeAt = elapsed + 2 + Math.random() * 2.5
+      }
+      currentAxis.lerp(targetAxis, Math.min(delta * 1.5, 1)).normalize()
+
       const targetSpeed = hoveredRef.current ? HOVER_ROTATE_SPEED : ROTATE_SPEED
       speed += (targetSpeed - speed) * Math.min(delta * 4, 1)
-      spin.rotation.y += speed * delta
+
+      rotationDelta.setFromAxisAngle(currentAxis, speed * delta)
+      spin.quaternion.multiply(rotationDelta)
+
       renderer.render(scene, camera)
       frameId = requestAnimationFrame(tick)
     }

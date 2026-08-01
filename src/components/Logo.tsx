@@ -1,14 +1,10 @@
 import { LogoMark } from './LogoMark'
 import { ShimmerText } from './ShimmerText'
 
-export function Logo({ large = false }: { large?: boolean }) {
+export function Logo() {
   return (
-    <span
-      className={`flex items-center font-semibold tracking-[-0.02em] text-bone-white ${
-        large ? 'gap-2.5 text-[24px]' : 'gap-2 text-sm'
-      }`}
-    >
-      <LogoMark size={large ? 82 : 48} />
+    <span className="flex items-center gap-2.5 text-[24px] font-semibold tracking-[-0.02em] text-bone-white">
+      <LogoMark size={82} />
       <ShimmerText text="GLOBAL TECH TOUR" />
     </span>
   )
