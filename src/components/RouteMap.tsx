@@ -9,6 +9,7 @@ import indonesiaProvinces from '@/data/indonesia-provinces.json'
 import vietnamProvinces from '@/data/vietnam-provinces.json'
 import { getCity, companiesData } from '@/data'
 import { useLanguage } from '@/i18n/LanguageContext'
+import { ShimmerText } from './ShimmerText'
 
 export interface RouteMapStop {
   key: string
@@ -831,8 +832,11 @@ export const RouteMap = forwardRef<RouteMapHandle, RouteMapProps>(function Route
 
       <div className="mt-4 flex flex-col items-center gap-3 text-center">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'День' : 'Day'} {current.day} · {current.cityLabel}
+          <p className="text-xs font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText
+              variant="saffron"
+              text={`${locale === 'ru' ? 'День' : 'Day'} ${current.day} · ${current.cityLabel}`}
+            />
           </p>
           <p className="mt-1 text-sm text-silver-mist">{current.companies.join(', ')}</p>
         </div>

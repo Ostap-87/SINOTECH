@@ -50,7 +50,7 @@ export function Home() {
   return (
     <>
     <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" style={{ transform: 'translateY(-57px)' }}>
         <ParticleCanvas ref={canvasHandleRef} shape={country.shape} />
         {/* Dissolves the canvas into a blur toward the bottom instead of a hard clip,
             so the hero reads as one continuous space with the content below it. */}
@@ -135,8 +135,8 @@ export function Home() {
           </>
         ) : (
           <>
-            <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-              {locale === 'ru' ? 'Скоро' : 'Coming soon'}
+            <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+              <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
               {locale === 'ru' ? country.name_ru : country.name_en}
@@ -150,7 +150,7 @@ export function Home() {
         )}
       </div>
     </section>
-    <div className="mt-[-76px]">
+    <div className="mt-[-114px]">
       <BrandMarquee />
     </div>
     </>

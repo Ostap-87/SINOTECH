@@ -7,6 +7,7 @@ import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function CountryPreview() {
   const { locale } = useLanguage()
@@ -67,8 +68,8 @@ export function CountryPreview() {
           {locale === 'ru' ? 'На главную' : 'Back home'}
         </Link>
 
-        <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-          {locale === 'ru' ? 'Скоро' : 'Coming soon'}
+        <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em]">
+          <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
         </p>
         <h1 className="mt-3 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
           {locale === 'ru' ? country.name_ru : country.name_en}

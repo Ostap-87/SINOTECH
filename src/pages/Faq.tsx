@@ -5,6 +5,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { siteContent } from '@/data'
 import { FAQ_GROUPS, FAQ_ITEMS, FAQ_DIRECTIONS, VISA_INFO_ACTUAL_DATE } from '@/data/faq'
 import type { FaqBlock } from '@/data/faq'
+import { ShimmerText } from '@/components/ShimmerText'
 
 /** Splits `**bold**` markers out of otherwise-plain text into React nodes. */
 function renderInline(text: string) {
@@ -143,8 +144,8 @@ export function Faq() {
 
   return (
     <section className="mx-auto w-full max-w-[900px] px-6 py-16 lg:py-20">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'FAQ' : 'FAQ'}
+      <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+        <ShimmerText variant="saffron" text={locale === 'ru' ? 'FAQ' : 'FAQ'} />
       </p>
       <h1 className="mt-6 text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[44px]">
         {locale === 'ru' ? 'Вопросы и ответы' : 'Questions & answers'}

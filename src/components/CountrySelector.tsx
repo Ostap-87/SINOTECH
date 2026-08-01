@@ -4,6 +4,7 @@ import { ChevronDown } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
 import { companiesData } from '@/data'
+import { ShimmerText } from './ShimmerText'
 
 // Countries with their own 3D map preview (assembles like the China hero) —
 // browsable even before there's a real catalogue behind them. Every other
@@ -64,8 +65,8 @@ export function CountrySelector() {
                     }`}
                   >
                     {pick(country, 'name', locale)}
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] text-saffron-spark/70">
-                      {locale === 'ru' ? 'Скоро' : 'Soon'}
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
+                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
                     </span>
                   </button>
                 </li>
@@ -84,8 +85,8 @@ export function CountrySelector() {
                     className="flex w-full items-center justify-between px-4 py-2 text-left text-sm text-bone-white hover:bg-black/5"
                   >
                     {pick(country, 'name', locale)}
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] text-saffron-spark/70">
-                      {locale === 'ru' ? 'Скоро' : 'Soon'}
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
+                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
                     </span>
                   </Link>
                 </li>
@@ -111,8 +112,8 @@ export function CountrySelector() {
                 >
                   {pick(country, 'name', locale)}
                   {!country.active && (
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] text-saffron-spark/70">
-                      {locale === 'ru' ? 'Скоро' : 'Soon'}
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
+                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
                     </span>
                   )}
                 </button>

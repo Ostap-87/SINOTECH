@@ -7,6 +7,7 @@ import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function IndustryFork() {
   const { locale } = useLanguage()
@@ -83,8 +84,11 @@ export function IndustryFork() {
         </Link>
 
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {companyCount} {locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}
+          <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText
+              variant="saffron"
+              text={`${companyCount} ${locale === 'ru' ? 'компаний в каталоге' : 'companies in catalogue'}`}
+            />
           </p>
           <h1 className="mt-3 text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
             {pick(sector, 'label', locale)}

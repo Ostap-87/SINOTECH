@@ -5,6 +5,7 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
+import { ShimmerText } from '@/components/ShimmerText'
 
 interface Service {
   n: number
@@ -198,8 +199,8 @@ export function Consulting() {
           className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'Консалтинг' : 'Consulting'}
+          <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText variant="saffron" text={locale === 'ru' ? 'Консалтинг' : 'Consulting'} />
           </p>
           <h1 className="mt-6 max-w-3xl text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[44px] lg:text-[52px]">
             {locale === 'ru'

@@ -7,6 +7,7 @@ import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { ExpeditionsTabs } from '@/components/ExpeditionsTabs'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function ExpeditionsReady() {
   const { locale } = useLanguage()
@@ -39,8 +40,8 @@ export function ExpeditionsReady() {
           className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'Каталог' : 'Catalog'}
+          <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
           </p>
           <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
             {locale === 'ru' ? 'Экспедиции' : 'Expeditions'}

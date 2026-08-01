@@ -105,6 +105,21 @@ h3 {
   animation: logo-letter-shimmer 2.6s ease-in-out infinite;
 }
 
+@keyframes eyebrow-letter-shimmer {
+  0%,
+  100% {
+    color: var(--color-ash-gray);
+  }
+  50% {
+    color: var(--color-saffron-spark);
+  }
+}
+
+.eyebrow-letter {
+  display: inline-block;
+  animation: eyebrow-letter-shimmer 2.6s ease-in-out infinite;
+}
+
 @keyframes pill-pulse-glow {
   0%,
   100% {

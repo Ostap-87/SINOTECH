@@ -4,6 +4,8 @@ import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, getCity, companyNameZh } from '@/data'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { CompanyMark } from '@/components/CompanyMark'
+import { ParticleCanvas } from '@/components/ParticleCanvas'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function Companies() {
   const { locale } = useLanguage()
@@ -57,9 +59,21 @@ export function Companies() {
   }, [filtered])
 
   return (
-    <section className="mx-auto w-full max-w-[1280px] px-6 py-16 lg:py-20">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'Каталог' : 'Catalog'}
+    <section className="relative overflow-hidden">
+      <div className="absolute inset-x-0 top-0 h-[820px] lg:h-[720px]">
+        <ParticleCanvas shape="china" />
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(to bottom, transparent 0%, transparent 35%, var(--color-void) 92%, var(--color-void) 100%)',
+          }}
+        />
+      </div>
+
+      <div className="relative z-10 mx-auto w-full max-w-[1280px] px-6 py-16 lg:py-20">
+      <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+        <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
       </p>
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
         {locale === 'ru' ? 'Компании' : 'Companies'}
@@ -135,6 +149,7 @@ export function Companies() {
           </div>
         </div>
       ))}
+      </div>
     </section>
   )
 }

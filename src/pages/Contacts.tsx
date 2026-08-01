@@ -3,6 +3,7 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { siteContent } from '@/data'
+import { ShimmerText } from '@/components/ShimmerText'
 
 interface ContactForm {
   name: string
@@ -75,8 +76,8 @@ export function Contacts() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1280px] px-6 pt-16 pb-24 lg:pt-20">
-        <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-          {locale === 'ru' ? 'Контакты' : 'Contacts'}
+        <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+          <ShimmerText variant="saffron" text={locale === 'ru' ? 'Контакты' : 'Contacts'} />
         </p>
         <h1 className="mt-6 max-w-3xl text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[44px] lg:text-[52px]">
           {locale === 'ru' ? 'Свяжитесь с нами' : 'Get in touch'}

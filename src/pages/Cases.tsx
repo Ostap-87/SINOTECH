@@ -6,6 +6,7 @@ import type { ArcGalleryItem } from '@/components/ArcGallery'
 import { CircularMediaCarousel } from '@/components/CircularMediaCarousel'
 import type { CaseMediaItem } from '@/components/CircularMediaCarousel'
 import { usePageMeta } from '@/hooks/usePageMeta'
+import { ShimmerText } from '@/components/ShimmerText'
 
 const GRADIENTS = [
   'linear-gradient(160deg, #60a5fa, #1e3a8a)',
@@ -56,8 +57,8 @@ export function Cases() {
 
   return (
     <section className="mx-auto w-full max-w-[1280px] px-6 py-16 lg:py-20">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'Каталог' : 'Catalog'}
+      <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+        <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
       </p>
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
         {locale === 'ru' ? 'Кейсы' : 'Cases'}

@@ -14,6 +14,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { DatePicker } from '@/components/DatePicker'
 import { generateRequestPdf } from '@/lib/generateRequestPdf'
 import type { PdfDay } from '@/lib/generateRequestPdf'
+import { ShimmerText } from '@/components/ShimmerText'
 
 type FormatKey = '2' | '5'
 
@@ -349,8 +350,8 @@ export function Constructor() {
           className="pointer-events-none relative z-10 mx-auto min-h-[560px] max-w-2xl px-6 pt-24 pb-2 text-center lg:min-h-[640px]"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'Конструктор' : 'Constructor'}
+          <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText variant="saffron" text={locale === 'ru' ? 'Конструктор' : 'Constructor'} />
           </p>
           <h1 className="mt-6 text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
             {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
@@ -650,8 +651,8 @@ export function Constructor() {
 
       {(stage === 'details' || stage === 'done') && config && (
         <RevealSection ref={previewRef} className="mx-auto mt-[38px] max-w-4xl scroll-mt-24 border-t border-black/10 pt-6 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'Предпросмотр' : 'Preview'}
+          <p className="text-xs font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText variant="saffron" text={locale === 'ru' ? 'Предпросмотр' : 'Preview'} />
           </p>
           <h2 className="mt-3 text-2xl font-normal tracking-[-0.02em]">
             {locale === 'ru' ? 'Черновой план по дням' : 'Draft day-by-day plan'}

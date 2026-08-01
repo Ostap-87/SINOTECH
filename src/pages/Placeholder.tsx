@@ -1,4 +1,5 @@
 import { useLanguage } from '@/i18n/LanguageContext'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function Placeholder({
   title_ru,
@@ -15,8 +16,8 @@ export function Placeholder({
 
   return (
     <section className="mx-auto flex min-h-[60vh] w-full max-w-[1280px] flex-col justify-center px-6 py-24">
-      <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-        {locale === 'ru' ? 'Скоро' : 'Coming soon'}
+      <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+        <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
       </p>
       <h1 className="mt-4 text-[42px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[56px]">
         {locale === 'ru' ? title_ru : title_en}

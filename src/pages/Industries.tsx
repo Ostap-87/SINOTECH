@@ -5,6 +5,7 @@ import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
+import { ShimmerText } from '@/components/ShimmerText'
 
 export function Industries() {
   const { locale } = useLanguage()
@@ -46,8 +47,8 @@ export function Industries() {
           className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.025em] text-saffron-spark">
-            {locale === 'ru' ? 'Каталог' : 'Catalog'}
+          <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+            <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
           </p>
           <h1 className="mt-6 max-w-2xl text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
             {locale === 'ru' ? 'Какую индустрию хотите изучить?' : 'Which industry would you like to explore?'}
