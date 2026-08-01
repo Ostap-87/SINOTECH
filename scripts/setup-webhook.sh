@@ -99,6 +99,14 @@ server {
         try_files $uri $uri/ /index.html;
     }
 
+    # index.html references content-hashed JS/CSS filenames that change on
+    # every deploy — if a browser caches this file, it can end up pointing
+    # at assets a later deploy already deleted, which reads as a blank
+    # white page until the user force-refreshes. Always revalidate it.
+    location = /index.html {
+        add_header Cache-Control "no-cache, no-store, must-revalidate";
+    }
+
     location /assets/ {
         expires 30d;
         add_header Cache-Control "public, immutable";

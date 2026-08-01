@@ -46,6 +46,10 @@ server {
         try_files \$uri \$uri/ /index.html;
     }
 
+    location = /index.html {
+        add_header Cache-Control "no-cache, no-store, must-revalidate";
+    }
+
     location /assets/ {
         expires 30d;
         add_header Cache-Control "public, immutable";
