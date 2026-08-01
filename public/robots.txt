@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://globaltechtour.com/sitemap.xml
+Sitemap: https://globaltechtour.ru/sitemap.xml

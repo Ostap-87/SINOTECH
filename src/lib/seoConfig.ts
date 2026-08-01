@@ -4,7 +4,7 @@
  * and scripts/generate-sitemap.mjs (kept as a plain-JS mirror since that
  * script runs under plain Node, outside the Vite/TS build).
  */
-export const SITE_URL = 'https://globaltechtour.com'
+export const SITE_URL = 'https://globaltechtour.ru'
 
 export const SITE_NAME = 'Global Tech Tour'
 
