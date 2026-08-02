@@ -19,9 +19,9 @@ import json
 import os
 import sqlite3
 import time
-import urllib.request
-import urllib.error
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+from telegram_client import send_telegram
 
 PUBLISH_SECRET = os.environ["PUBLISH_SECRET"]
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
@@ -52,24 +52,6 @@ def db():
     return conn
 
 
-def send_telegram(text: str) -> tuple[bool, str]:
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    payload = json.dumps(
-        {"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML"}
-    ).encode()
-    req = urllib.request.Request(
-        url, data=payload, headers={"Content-Type": "application/json"}
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            body = json.loads(resp.read())
-            return body.get("ok", False), json.dumps(body)
-    except urllib.error.HTTPError as e:
-        return False, e.read().decode(errors="replace")
-    except Exception as e:
-        return False, str(e)
-
-
 class Handler(BaseHTTPRequestHandler):
     def _json(self, status, payload):
         body = json.dumps(payload).encode()
@@ -98,7 +80,7 @@ class Handler(BaseHTTPRequestHandler):
         if not text:
             return self._json(400, {"error": "text is required"})
 
-        ok, detail = send_telegram(text)
+        ok, detail = send_telegram(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, text)
 
         conn = db()
         conn.execute(

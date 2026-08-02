@@ -26,9 +26,9 @@ import sqlite3
 import subprocess
 import threading
 import time
-import urllib.error
-import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+from telegram_client import send_telegram
 
 SECRET = os.environ["WEBHOOK_SECRET"].encode()
 BRANCH = "claude/sinotech-voyage-setup"
@@ -60,20 +60,6 @@ def load_env_file(path):
             key, _, value = line.partition("=")
             values[key.strip()] = value.strip()
     return values
-
-
-def send_telegram(bot_token, chat_id, text):
-    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
-    payload = json.dumps({"chat_id": chat_id, "text": text, "parse_mode": "HTML"}).encode()
-    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            body = json.loads(resp.read())
-            return body.get("ok", False), json.dumps(body)
-    except urllib.error.HTTPError as e:
-        return False, e.read().decode(errors="replace")
-    except Exception as e:
-        return False, str(e)
 
 
 def publish_pending():
