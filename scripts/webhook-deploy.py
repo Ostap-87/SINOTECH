@@ -99,11 +99,11 @@ def publish_pending():
         if not filename.endswith(".json"):
             continue
         slug = filename[: -len(".json")]
-        already = conn.execute(
-            "SELECT 1 FROM posts WHERE slug = ? AND channel = 'telegram'", (slug,)
+        existing = conn.execute(
+            "SELECT status FROM posts WHERE slug = ? AND channel = 'telegram'", (slug,)
         ).fetchone()
-        if already:
-            continue
+        if existing and existing[0] == "published":
+            continue  # only a confirmed success is final; retry anything else
 
         with open(os.path.join(PENDING_DIR, filename)) as f:
             item = json.load(f)
@@ -116,7 +116,9 @@ def publish_pending():
         ok, detail = send_telegram(bot_token, chat_id, text)
         conn.execute(
             "INSERT INTO posts (project, channel, title, text, status, error, created_at, slug) "
-            "VALUES (?, 'telegram', ?, ?, ?, ?, ?, ?)",
+            "VALUES (?, 'telegram', ?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(slug) DO UPDATE SET status = excluded.status, error = excluded.error, "
+            "created_at = excluded.created_at",
             (
                 item.get("project", "globaltechtour"),
                 item.get("title"),
