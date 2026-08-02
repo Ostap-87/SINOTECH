@@ -62,7 +62,11 @@ WantedBy=multi-user.target
 EOF
 
 systemctl daemon-reload
-systemctl enable --now content-publish
+systemctl enable content-publish
+# restart, not "enable --now" — same reasoning as gh-webhook: a plain
+# "start" on an already-running service is a no-op and would keep serving
+# old in-memory code after a rerun that updates content-publish.py.
+systemctl restart content-publish
 
 echo
 echo "===================================================================="

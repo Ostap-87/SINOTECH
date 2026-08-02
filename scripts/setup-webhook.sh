@@ -56,7 +56,12 @@ WantedBy=multi-user.target
 EOF
 
 systemctl daemon-reload
-systemctl enable --now gh-webhook
+systemctl enable gh-webhook
+# restart, not "enable --now": the receiver is a long-lived process that
+# holds its Python code in memory, so a plain "start" on an already-running
+# service is a no-op and silently keeps serving the OLD webhook-deploy.py
+# even after this script's git reset --hard updates it on disk.
+systemctl restart gh-webhook
 
 echo "==> nginx: пересобираем конфиг ${DOMAIN} набело (старый сохраняем рядом с .bak)"
 cp "$NGINX_CONF" "${NGINX_CONF}.bak.$(date +%s)" 2>/dev/null || true
