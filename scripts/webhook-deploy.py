@@ -9,13 +9,25 @@ to keep the VPS's footprint small.
 On a valid push to BRANCH: fetches, hard-resets to it, npm ci + build.
 Since nginx serves dist/ straight from disk, a successful build IS the
 deploy — no reload/restart needed afterwards.
+
+After a successful build, also publishes any new content/pending/*.json
+files to Telegram (see publish_pending() below) — this is how the
+assistant ships an article/post: write the JSON file, commit, push. The
+assistant's own sandboxed session can't reach api.telegram.org or even
+globaltechtour.ru directly (network policy), but this script runs ON the
+VPS, which has normal outbound internet — so publishing piggybacks on
+the one channel that reliably works end-to-end: a git push.
 """
 import hashlib
 import hmac
 import json
 import os
+import sqlite3
 import subprocess
 import threading
+import time
+import urllib.error
+import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 SECRET = os.environ["WEBHOOK_SECRET"].encode()
@@ -24,12 +36,115 @@ APP_DIR = "/var/www/globaltechtour"
 LOG_PATH = "/var/log/gh-webhook-deploy.log"
 PORT = 9000
 
+CONTENT_PUBLISH_ENV = "/etc/content-publish.env"
+CONTENT_DB_PATH = "/var/lib/content-publish/history.db"
+PENDING_DIR = os.path.join(APP_DIR, "content", "pending")
+
 deploy_lock = threading.Lock()
 
 
 def log(msg):
     with open(LOG_PATH, "a") as f:
         f.write(msg.rstrip() + "\n")
+
+
+def load_env_file(path):
+    values = {}
+    if not os.path.exists(path):
+        return values
+    with open(path) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            values[key.strip()] = value.strip()
+    return values
+
+
+def send_telegram(bot_token, chat_id, text):
+    url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+    payload = json.dumps({"chat_id": chat_id, "text": text, "parse_mode": "HTML"}).encode()
+    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            body = json.loads(resp.read())
+            return body.get("ok", False), json.dumps(body)
+    except urllib.error.HTTPError as e:
+        return False, e.read().decode(errors="replace")
+    except Exception as e:
+        return False, str(e)
+
+
+def publish_pending():
+    """Send any content/pending/*.json files not yet recorded in the
+    shared content-publish history DB. Idempotent across redeploys —
+    `git reset --hard` doesn't touch the untracked SQLite DB, and files
+    stay in content/pending/ (nothing here deletes or moves them), so
+    each slug is only ever sent once."""
+    env = load_env_file(CONTENT_PUBLISH_ENV)
+    bot_token = env.get("TELEGRAM_BOT_TOKEN")
+    chat_id = env.get("TELEGRAM_CHAT_ID")
+    if not bot_token or not chat_id:
+        return  # content-publish not set up yet — nothing to do
+
+    if not os.path.isdir(PENDING_DIR):
+        return
+
+    os.makedirs(os.path.dirname(CONTENT_DB_PATH), exist_ok=True)
+    conn = sqlite3.connect(CONTENT_DB_PATH)
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS posts (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            project TEXT NOT NULL,
+            channel TEXT NOT NULL,
+            title TEXT,
+            text TEXT NOT NULL,
+            status TEXT NOT NULL,
+            error TEXT,
+            created_at INTEGER NOT NULL,
+            slug TEXT UNIQUE
+        )
+        """
+    )
+
+    for filename in sorted(os.listdir(PENDING_DIR)):
+        if not filename.endswith(".json"):
+            continue
+        slug = filename[: -len(".json")]
+        already = conn.execute(
+            "SELECT 1 FROM posts WHERE slug = ? AND channel = 'telegram'", (slug,)
+        ).fetchone()
+        if already:
+            continue
+
+        with open(os.path.join(PENDING_DIR, filename)) as f:
+            item = json.load(f)
+
+        text = item.get("text")
+        if not text:
+            log(f"Skipping {filename}: no 'text' field")
+            continue
+
+        ok, detail = send_telegram(bot_token, chat_id, text)
+        conn.execute(
+            "INSERT INTO posts (project, channel, title, text, status, error, created_at, slug) "
+            "VALUES (?, 'telegram', ?, ?, ?, ?, ?, ?)",
+            (
+                item.get("project", "globaltechtour"),
+                item.get("title"),
+                text,
+                "published" if ok else "failed",
+                None if ok else detail,
+                int(time.time()),
+                slug,
+            ),
+        )
+        conn.commit()
+        log(f"content-publish[{slug}]: {'OK' if ok else 'FAILED — ' + detail}")
+
+    conn.close()
 
 
 def run_deploy():
@@ -53,6 +168,11 @@ def run_deploy():
                 log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
                 return
         log("=== Deploy finished OK ===")
+
+        try:
+            publish_pending()
+        except Exception as e:
+            log(f"publish_pending() error: {e}")
     finally:
         deploy_lock.release()
 

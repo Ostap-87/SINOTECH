@@ -44,7 +44,8 @@ def db():
             text TEXT NOT NULL,
             status TEXT NOT NULL,
             error TEXT,
-            created_at INTEGER NOT NULL
+            created_at INTEGER NOT NULL,
+            slug TEXT UNIQUE
         )
         """
     )
