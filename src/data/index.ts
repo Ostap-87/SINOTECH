@@ -1,11 +1,27 @@
 import companiesRaw from './companies.json'
 import toursRaw from './tours.json'
 import siteContentRaw from './site_content.example.json'
-import type { CompaniesData, Company } from '@/types/data'
+import type { CompaniesData, Company, BlogPost } from '@/types/data'
 
 export const companiesData = companiesRaw as CompaniesData
 export const toursData = toursRaw
 export const siteContent = siteContentRaw
+
+/**
+ * Published blog posts, newest first. Despite the "example" filename,
+ * site_content.example.json is the live content source imported at build
+ * time — a future automation should append new BlogPost objects to its
+ * `blog` array (unique `slug`, `id`, ISO `date`) to publish an article; no
+ * other wiring is needed, generate-sitemap.mjs and the /blog routes both
+ * read from the same array.
+ */
+export const blogPosts: BlogPost[] = [...(siteContentRaw.blog as BlogPost[])].sort((a, b) =>
+  b.date.localeCompare(a.date),
+)
+
+export function getBlogPost(slug: string) {
+  return blogPosts.find((post) => post.slug === slug)
+}
 
 const cityById = new Map(companiesData.cities.map((city) => [city.id, city]))
 const sectorByCode = new Map(companiesData.sectors.map((sector) => [sector.code, sector]))

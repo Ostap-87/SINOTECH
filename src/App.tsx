@@ -15,6 +15,7 @@ const ExpeditionDetail = lazy(() => import('@/pages/ExpeditionDetail').then((m) 
 const Companies = lazy(() => import('@/pages/Companies').then((m) => ({ default: m.Companies })))
 const CompanyDetail = lazy(() => import('@/pages/CompanyDetail').then((m) => ({ default: m.CompanyDetail })))
 const Blog = lazy(() => import('@/pages/Blog').then((m) => ({ default: m.Blog })))
+const BlogArticle = lazy(() => import('@/pages/BlogArticle').then((m) => ({ default: m.BlogArticle })))
 const Cases = lazy(() => import('@/pages/Cases').then((m) => ({ default: m.Cases })))
 const Faq = lazy(() => import('@/pages/Faq').then((m) => ({ default: m.Faq })))
 const Partners = lazy(() => import('@/pages/Partners').then((m) => ({ default: m.Partners })))
@@ -42,6 +43,7 @@ export default function App() {
             <Route path="/companies" element={<Companies />} />
             <Route path="/companies/:id" element={<CompanyDetail />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogArticle />} />
             <Route path="/cases" element={<Cases />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/partners" element={<Partners />} />

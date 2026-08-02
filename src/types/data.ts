@@ -50,6 +50,26 @@ export interface Company {
   country: CountryCode
 }
 
+/**
+ * A published blog article, as stored in site_content.example.json → blog[].
+ * Automation writing new posts should append objects of this shape to that
+ * array — see the comment on `blogPosts` in src/data/index.ts.
+ */
+export interface BlogPost {
+  id: string
+  slug: string
+  title_en: string
+  title_ru: string
+  cover: string
+  date: string
+  excerpt_en: string
+  excerpt_ru: string
+  body_en: string
+  body_ru: string
+  tags: string[]
+  author: string
+}
+
 export interface CompaniesData {
   meta: {
     project: string

@@ -17,6 +17,7 @@ const root = join(__dirname, '..')
 
 const companies = JSON.parse(readFileSync(join(root, 'src/data/companies.json'), 'utf8'))
 const tours = JSON.parse(readFileSync(join(root, 'src/data/tours.json'), 'utf8'))
+const siteContent = JSON.parse(readFileSync(join(root, 'src/data/site_content.example.json'), 'utf8'))
 
 const STATIC_ROUTES = [
   { path: '/', changefreq: 'weekly', priority: '1.0' },
@@ -51,7 +52,14 @@ const companyRoutes = companies.companies.map((c) => ({
   priority: '0.5',
 }))
 
-const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes, ...companyRoutes]
+const blogRoutes = (siteContent.blog ?? []).map((post) => ({
+  path: `/blog/${post.slug}`,
+  changefreq: 'monthly',
+  priority: '0.65',
+  lastmod: post.date,
+}))
+
+const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes, ...companyRoutes, ...blogRoutes]
 
 const today = new Date().toISOString().slice(0, 10)
 
@@ -59,7 +67,7 @@ const body = routes
   .map(
     (r) => `  <url>
     <loc>${SITE_URL}${r.path}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${r.lastmod ?? today}</lastmod>
     <changefreq>${r.changefreq}</changefreq>
     <priority>${r.priority}</priority>
   </url>`,
