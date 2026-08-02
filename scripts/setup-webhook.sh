@@ -122,6 +122,12 @@ server {
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
     }
+
+    location /content-publish/ {
+        proxy_pass http://127.0.0.1:9002/content-publish/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
 }
 NGINX
 
