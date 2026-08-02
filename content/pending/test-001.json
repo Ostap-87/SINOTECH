@@ -1,0 +1,5 @@
+{
+  "project": "globaltechtour",
+  "title": "Тест сквозной публикации",
+  "text": "✅ Сквозной тест: статья опубликована через git push → автодеплой → content-publish, без прямого обращения к Telegram из сессии Claude."
+}
