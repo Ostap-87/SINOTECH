@@ -23,7 +23,7 @@ export function BlogArticle() {
   // schema.org/BlogPosting structured data.
   useEffect(() => {
     if (!post) return
-    const image = post.cover.includes('REPLACE') ? (locale === 'ru' ? OG_IMAGE_RU : OG_IMAGE_EN) : post.cover
+    const image = !post.cover || post.cover.includes('REPLACE') ? (locale === 'ru' ? OG_IMAGE_RU : OG_IMAGE_EN) : post.cover
     const script = document.createElement('script')
     script.type = 'application/ld+json'
     script.text = JSON.stringify({

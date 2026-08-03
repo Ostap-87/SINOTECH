@@ -12,13 +12,13 @@ const GRADIENTS = [
   'linear-gradient(160deg, #7dd3fc, #075985)',
 ]
 
-function hasRealCover(cover: string): boolean {
-  return cover.length > 0 && !cover.includes('REPLACE')
+function hasRealCover(cover: string | null | undefined): boolean {
+  return !!cover && cover.length > 0 && !cover.includes('REPLACE')
 }
 
 export function BlogCover({ post, index, className = '' }: { post: BlogPost; index: number; className?: string }) {
   if (hasRealCover(post.cover)) {
-    return <img src={post.cover} alt="" className={`object-cover ${className}`} loading="lazy" />
+    return <img src={post.cover ?? undefined} alt="" className={`object-cover ${className}`} loading="lazy" />
   }
 
   return (

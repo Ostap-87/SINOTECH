@@ -60,7 +60,7 @@ export interface BlogPost {
   slug: string
   title_en: string
   title_ru: string
-  cover: string
+  cover: string | null
   date: string
   excerpt_en: string
   excerpt_ru: string
