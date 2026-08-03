@@ -6,6 +6,7 @@ import { blogPosts, getBlogPost } from '@/data'
 import { SITE_URL, SITE_NAME, OG_IMAGE_RU, OG_IMAGE_EN } from '@/lib/seoConfig'
 import { ShimmerText } from '@/components/ShimmerText'
 import { BlogCover, formatBlogDate } from '@/components/BlogCover'
+import { RichBody } from '@/components/RichBody'
 import { Placeholder } from './Placeholder'
 
 export function BlogArticle() {
@@ -87,22 +88,7 @@ export function BlogArticle() {
 
       <BlogCover post={post} index={postIndex >= 0 ? postIndex : 0} className="mt-8 aspect-[16/9] w-full rounded-2xl" />
 
-      <div className="mt-10 flex flex-col gap-5 text-base leading-relaxed text-silver-mist">
-        {pick(post, 'body', locale)
-          .split('\n\n')
-          .map((paragraph, i) =>
-            paragraph.startsWith('## ') ? (
-              <h2
-                key={i}
-                className="mt-4 border-l-4 border-electric-iris pl-4 text-xl font-semibold text-bone-white first:mt-0"
-              >
-                {paragraph.slice(3)}
-              </h2>
-            ) : (
-              <p key={i}>{paragraph}</p>
-            ),
-          )}
-      </div>
+      <RichBody body={pick(post, 'body', locale)} />
 
       {related.length > 0 && (
         <div className="mt-16 border-t border-black/10 pt-10">
