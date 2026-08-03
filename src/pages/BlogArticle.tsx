@@ -90,9 +90,18 @@ export function BlogArticle() {
       <div className="mt-10 flex flex-col gap-5 text-base leading-relaxed text-silver-mist">
         {pick(post, 'body', locale)
           .split('\n\n')
-          .map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
-          ))}
+          .map((paragraph, i) =>
+            paragraph.startsWith('## ') ? (
+              <h2
+                key={i}
+                className="mt-4 border-l-4 border-electric-iris pl-4 text-xl font-semibold text-bone-white first:mt-0"
+              >
+                {paragraph.slice(3)}
+              </h2>
+            ) : (
+              <p key={i}>{paragraph}</p>
+            ),
+          )}
       </div>
 
       {related.length > 0 && (
