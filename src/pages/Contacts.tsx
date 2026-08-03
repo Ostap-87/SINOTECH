@@ -35,7 +35,7 @@ export function Contacts() {
       : "Get in touch — tell us your goal, we'll match a format and reply within one business day.",
   )
 
-  const { company_en, company_ru, company_zh, legal_address, office_address, email, telegram, whatsapp } =
+  const { company_en, company_ru, company_zh, legal_address, office_address, email, telegram, whatsapp, wechat } =
     siteContent.contacts
 
   const valid =
@@ -133,6 +133,7 @@ export function Contacts() {
                 >
                   WhatsApp: {whatsapp}
                 </a>
+                {wechat && <span className="text-bone-white">WeChat: {wechat}</span>}
               </div>
             </div>
           </div>
