@@ -1,7 +1,9 @@
-import { useRef } from 'react'
+import { useMemo, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { toursData } from '@/data'
+import { useSelectedCountry } from '@/context/SelectedCountryContext'
+import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { ExpeditionsTabs } from '@/components/ExpeditionsTabs'
@@ -11,7 +13,12 @@ import { ShimmerText } from '@/components/ShimmerText'
 
 export function ExpeditionsReady() {
   const { locale } = useLanguage()
-  const tours = toursData.tours
+  const { countryCode } = useSelectedCountry()
+  const country = COUNTRY_SHAPES[countryCode] ?? COUNTRY_SHAPES.cn
+  const tours = useMemo(
+    () => toursData.tours.filter((tour) => tour.country === countryCode),
+    [countryCode],
+  )
   const canvasHandleRef = useRef<ParticleCanvasHandle>(null)
   const { goTo, isLeaving, durationMs } = useShapeExitNavigate(canvasHandleRef)
 
@@ -25,7 +32,7 @@ export function ExpeditionsReady() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-x-0 top-0 h-[820px] lg:h-[720px]">
-        <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        <ParticleCanvas ref={canvasHandleRef} shape={country.shape} />
         <div
           className="pointer-events-none absolute inset-0"
           style={{
@@ -44,7 +51,7 @@ export function ExpeditionsReady() {
             <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
           </p>
           <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
-            {locale === 'ru' ? 'Экспедиции' : 'Expeditions'}
+            {locale === 'ru' ? `Экспедиции: ${country.name_ru}` : `Expeditions: ${country.name_en}`}
           </h1>
           <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
             {locale === 'ru'
@@ -56,6 +63,16 @@ export function ExpeditionsReady() {
         <div className="pointer-events-auto mt-9">
           <ExpeditionsTabs onCustom={(event) => goTo('/industries', event)} />
         </div>
+
+        {tours.length === 0 && (
+          <div className="mt-9 rounded-2xl border border-dashed border-black/15 bg-surface/50 p-10 text-center backdrop-blur-sm">
+            <p className="text-lg font-medium text-bone-white">
+              {locale === 'ru'
+                ? `Готовые программы для страны «${country.name_ru}» пока не собраны — загляните позже.`
+                : `Ready-made programs for ${country.name_en} aren't assembled yet — check back soon.`}
+            </p>
+          </div>
+        )}
 
         <div className="mt-9 grid grid-cols-1 gap-4 pb-24 sm:grid-cols-2 lg:grid-cols-3">
           {tours.map((tour) => (

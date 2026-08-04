@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
 import { COUNTRY_SHAPES } from '@/data/countryShapes'
+import { companiesData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
@@ -40,12 +41,19 @@ export function Home() {
     return () => observer.disconnect()
   }, [])
 
-  // Only China has a real catalogue behind it — picking any other country
-  // from the selector still swaps the hero's 3D map in place (the same
-  // assemble/disperse morph the shape always does), but the copy below it
-  // switches to a "coming soon" message instead of the China-specific pitch.
+  // Picking any country from the selector swaps the hero's 3D map in place
+  // (the same assemble/disperse morph the shape always does). Countries with
+  // a real catalogue behind them (companiesData.countries[].active) get the
+  // full pitch + button row below, scoped to that country everywhere it
+  // matters (BrandMarquee, ExpeditionsReady); everyone else still gets a
+  // "coming soon" placeholder instead.
   const country = COUNTRY_SHAPES[countryCode] ?? COUNTRY_SHAPES.cn
-  const isChina = countryCode === 'cn'
+  const isActive = companiesData.countries.find((c) => c.code === countryCode)?.active ?? false
+  const eyebrowRu =
+    countryCode === 'cn'
+      ? 'Бизнес-экспедиции в Китай и не только'
+      : `Бизнес-экспедиции ${country.preposition_ru} ${country.accusative_ru}`
+  const eyebrowEn = countryCode === 'cn' ? 'Business expeditions to China and beyond' : `Business expeditions to ${country.name_en}`
 
   return (
     <>
@@ -69,12 +77,10 @@ export function Home() {
         className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 pb-16 pt-[26px] lg:pb-24 lg:pt-[58px]"
         style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
       >
-        {isChina ? (
+        {isActive ? (
           <>
             <p className="text-sm font-semibold uppercase tracking-[0.025em]">
-              <ShimmerText
-                text={locale === 'ru' ? 'Бизнес-экспедиции в Китай и не только' : 'Business expeditions to China and beyond'}
-              />
+              <ShimmerText text={locale === 'ru' ? eyebrowRu : eyebrowEn} />
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
               {locale === 'ru'
