@@ -7926,6 +7926,1267 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "india-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Индии: от Reliance до quick-commerce",
+      "title_en": "India Retail: From Reliance to Quick-Commerce",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Reliance Retail · Zepto · Flipkart · Blinkit",
+      "tagline_en": "Reliance Retail · Zepto · Flipkart · Blinkit",
+      "positioning_ru": "От штаб-квартиры Reliance Retail (JioMart) в Мумбаи до 10-минутной quick-commerce Zepto и Blinkit в Дели-NCR — три города, взрывной рост q-commerce.",
+      "positioning_en": "From Reliance Retail's HQ (JioMart) in Mumbai to Zepto's and Blinkit's 10-minute quick-commerce in Delhi-NCR — three cities, India's booming q-commerce.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 2
+      },
+      "route_strategy": "mumbai-bengaluru-delhi",
+      "arrival_ru": "Мумбаи (перелёт Москва → Мумбаи)",
+      "arrival_en": "Mumbai (flight Moscow → Mumbai)",
+      "departure_ru": "Дели-NCR — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Delhi-NCR — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "mumbai",
+        "bengaluru",
+        "gurugram"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "reliance-retail",
+            "dmart-avenue-supermarts"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "zepto",
+            "nykaa"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "flipkart-walmart",
+            "bigbasket-tata"
+          ],
+          "transfer_ru": "Внутренний перелёт Мумбаи→Бенгалуру (≈1,5 ч).",
+          "transfer_en": "Domestic flight Mumbai→Bengaluru (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "swiggy-instamart",
+            "zepto"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "gurugram",
+          "city_ru": "Гуруграм/Дели-NCR",
+          "city_en": "Gurugram/Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "blinkit-eternal",
+            "vishal-mega-mart"
+          ],
+          "transfer_ru": "Внутренний перелёт Бенгалуру→Дели-NCR (≈2,5 ч).",
+          "transfer_en": "Domestic flight Bengaluru→Delhi-NCR (≈2.5h).",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Индии",
+      "title_en": "India Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Amul · Mother Dairy · Nandini · Britannia",
+      "tagline_en": "Amul · Mother Dairy · Nandini · Britannia",
+      "positioning_ru": "От завода и музея Amul в Ананде до кооператива Nandini в Бенгалуру — самый сложный по логистике модуль Индии, три региона и три перелёта; упрощённая версия (только Гуджарат+Дели) доступна по запросу.",
+      "positioning_en": "From the Amul factory and museum in Anand to the Nandini cooperative in Bengaluru — India's most logistically complex module, three regions and three flights; a simplified Gujarat+Delhi-only version is available on request.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 3
+      },
+      "route_strategy": "gujarat-delhi-bengaluru",
+      "arrival_ru": "Ахмадабад (перелёт Москва → Ахмадабад, ближайший аэропорт к Ананду)",
+      "arrival_en": "Ahmedabad (flight Moscow → Ahmedabad, the nearest airport to Anand)",
+      "departure_ru": "Бенгалуру — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bengaluru — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "anand",
+        "ahmedabad",
+        "delhi",
+        "bengaluru"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "anand",
+          "city_ru": "Ананд (Гуджарат)",
+          "city_en": "Anand (Gujarat)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "amul-gcmmf"
+          ],
+          "transfer_ru": "Прилёт делегации в Ахмадабад, в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ahmedabad",
+          "city_ru": "Ахмадабад/Гандинагар",
+          "city_en": "Ahmedabad/Gandhinagar",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "amul-fed-dairy"
+          ],
+          "note_ru": "Второй визит дня — дополнительная встреча с GCMMF (уточняется).",
+          "note_en": "Second visit of the day — an additional GCMMF meeting (TBC)."
+        },
+        {
+          "day": 3,
+          "city": "delhi",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "mother-dairy",
+            "nestle-india"
+          ],
+          "transfer_ru": "Внутренний перелёт Ахмадабад→Дели (≈2 ч).",
+          "transfer_en": "Domestic flight Ahmedabad→Delhi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nandini-kmf",
+            "itc-foods-aashirvaad"
+          ],
+          "transfer_ru": "Внутренний перелёт Дели→Бенгалуру (≈2,5 ч).",
+          "transfer_en": "Domestic flight Delhi→Bengaluru (≈2.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "britannia",
+            "hatsun-agro"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды в Индии",
+      "title_en": "India Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Rebel Foods · Swiggy · Zomato/Blinkit",
+      "tagline_en": "Rebel Foods · Swiggy · Zomato/Blinkit",
+      "positioning_ru": "От штаб-квартиры и кухни Rebel Foods — крупнейшего в мире оператора dark kitchen — до Hyperpure B2B-поставок Zomato/Blinkit в Гуруграме.",
+      "positioning_en": "From Rebel Foods' HQ and kitchen — the world's largest dark-kitchen operator — to Zomato/Blinkit's Hyperpure B2B supply business in Gurugram.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 2
+      },
+      "route_strategy": "mumbai-bengaluru-gurugram",
+      "arrival_ru": "Мумбаи (перелёт Москва → Мумбаи)",
+      "arrival_en": "Mumbai (flight Moscow → Mumbai)",
+      "departure_ru": "Дели-NCR — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Delhi-NCR — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "mumbai",
+        "bengaluru",
+        "gurugram"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "rebel-foods",
+            "eatclub-box8"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "swiggy-instamart",
+            "curefoods-eatfit"
+          ],
+          "transfer_ru": "Внутренний перелёт Мумбаи→Бенгалуру (≈1,5 ч).",
+          "transfer_en": "Domestic flight Mumbai→Bengaluru (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 3,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "licious",
+            "freshmenu"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "gurugram",
+          "city_ru": "Гуруграм",
+          "city_en": "Gurugram",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "blinkit-eternal",
+            "biryani-by-kilo"
+          ],
+          "transfer_ru": "Внутренний перелёт Бенгалуру→Гуруграм (≈2,5 ч).",
+          "transfer_en": "Domestic flight Bengaluru→Gurugram (≈2.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "zepto-cafe"
+          ],
+          "note_ru": "День завершается итоговой встречей.",
+          "note_en": "The day closes with a wrap-up meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Индии: ИИ, мессенджеры, e-commerce",
+      "title_en": "India Internet Giants: AI, Messengers, E-commerce",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Sarvam AI · Krutrim · Flipkart · Haptik",
+      "tagline_en": "Sarvam AI · Krutrim · Flipkart · Haptik",
+      "positioning_ru": "От суверенных индийских LLM Sarvam AI и Krutrim (Ola) в Бенгалуру до листинговой AI-компании Fractal Analytics в Мумбаи — один перелёт, две tech-столицы.",
+      "positioning_en": "From the sovereign Indian LLMs Sarvam AI and Krutrim (Ola) in Bengaluru to the publicly listed Fractal Analytics in Mumbai — one flight, two tech capitals.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 1
+      },
+      "route_strategy": "bengaluru-to-mumbai",
+      "arrival_ru": "Бенгалуру (перелёт Москва → Бенгалуру)",
+      "arrival_en": "Bengaluru (flight Moscow → Bengaluru)",
+      "departure_ru": "Мумбаи — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Mumbai — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bengaluru",
+        "mumbai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "sarvam-ai",
+            "krutrim-ola"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "flipkart-walmart",
+            "meesho"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "yellow-ai",
+            "mad-street-den"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fractal-analytics",
+            "qure-ai"
+          ],
+          "transfer_ru": "Внутренний перелёт Бенгалуру→Мумбаи (≈1,5 ч).",
+          "transfer_en": "Domestic flight Bengaluru→Mumbai (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "haptik-reliance-jio",
+            "nykaa"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Индии",
+      "title_en": "India Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Nykaa · Mamaearth · Forest Essentials · Lakmé",
+      "tagline_en": "Nykaa · Mamaearth · Forest Essentials · Lakmé",
+      "positioning_ru": "От крупнейшего бьюти-маркетплейса Nykaa (AI-рекомендации, AR-примерка) в Мумбаи до листингового digital-first D2C Mamaearth в Дели-NCR.",
+      "positioning_en": "From Nykaa, India's largest beauty marketplace (AI recommendations, AR try-on), in Mumbai to the publicly listed digital-first D2C brand Mamaearth in Delhi-NCR.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 1
+      },
+      "route_strategy": "mumbai-to-delhi",
+      "arrival_ru": "Мумбаи (перелёт Москва → Мумбаи)",
+      "arrival_en": "Mumbai (flight Moscow → Mumbai)",
+      "departure_ru": "Дели-NCR — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Delhi-NCR — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "mumbai",
+        "gurugram"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nykaa",
+            "sugar-cosmetics"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "purplle",
+            "plum-goodness"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "mamaearth-honasa",
+            "forest-essentials"
+          ],
+          "transfer_ru": "Внутренний перелёт Мумбаи→Дели (≈2 ч).",
+          "transfer_en": "Domestic flight Mumbai→Delhi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "swiss-beauty",
+            "lakme-hul"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "good-glamm-myglamm"
+          ],
+          "note_ru": "День завершается итоговой встречей.",
+          "note_en": "The day closes with a wrap-up meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Лонгевити и anti-aging биотех Индии",
+      "title_en": "India Longevity & Anti-Aging Biotech",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "GIOSTAR · Biocon · Artemis Hospitals",
+      "tagline_en": "GIOSTAR · Biocon · Artemis Hospitals",
+      "positioning_ru": "От стволовых клеток GIOSTAR и биомаркеров Decode Age в Бенгалуру до JCI-аккредитованных регенеративных программ Artemis Hospitals в Дели-NCR; упрощённая версия (Бенгалуру+Мумбаи) доступна по запросу.",
+      "positioning_en": "From GIOSTAR's stem-cell work and Decode Age's biomarkers in Bengaluru to Artemis Hospitals' JCI-accredited regenerative programs in Delhi-NCR; a simplified Bengaluru+Mumbai-only version is available on request.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 2
+      },
+      "route_strategy": "bengaluru-mumbai-delhi",
+      "arrival_ru": "Бенгалуру (перелёт Москва → Бенгалуру)",
+      "arrival_en": "Bengaluru (flight Moscow → Bengaluru)",
+      "departure_ru": "Дели-NCR — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Delhi-NCR — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bengaluru",
+        "mumbai",
+        "gurugram"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "giostar",
+            "decode-age"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "biocon-syngene"
+          ],
+          "note_ru": "Второй визит дня — локальная клиника долголетия (уточняется).",
+          "note_en": "Second visit of the day — a local longevity clinic (TBC)."
+        },
+        {
+          "day": 3,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "stemrx-navi-mumbai",
+            "reliance-life-sciences"
+          ],
+          "transfer_ru": "Внутренний перелёт Бенгалуру→Мумбаи (≈1,5 ч).",
+          "transfer_en": "Domestic flight Bengaluru→Mumbai (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "artemis-hospitals",
+            "anti-aging-centre-tac"
+          ],
+          "transfer_ru": "Внутренний перелёт Мумбаи→Дели (≈2 ч).",
+          "transfer_en": "Domestic flight Mumbai→Delhi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "gurugram",
+          "city_ru": "Дели-NCR",
+          "city_en": "Delhi-NCR",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "apollo-nova-regenerative"
+          ],
+          "note_ru": "Итоговая встреча.",
+          "note_en": "Closing meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "india-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "in",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Индии",
+      "title_en": "India Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-делегации в Индию",
+      "eyebrow_en": "Business delegations to India",
+      "tagline_ru": "Blue Tokai · Chaayos · Third Wave Coffee",
+      "tagline_en": "Blue Tokai · Chaayos · Third Wave Coffee",
+      "positioning_ru": "От обжарочного производства Blue Tokai и farm-to-cup прослеживаемости в Дели до single-origin Araku Coffee и бабл-ти стартапа Boba Bhai в Бенгалуру.",
+      "positioning_en": "From Blue Tokai's roasting facility and farm-to-cup traceability in Delhi to Araku Coffee's single-origin sourcing and the Boba Bhai bubble-tea startup in Bengaluru.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "delhi-to-bengaluru",
+      "arrival_ru": "Дели (перелёт Москва → Дели)",
+      "arrival_en": "Delhi (flight Moscow → Delhi)",
+      "departure_ru": "Мумбаи — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Mumbai — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "delhi",
+        "bengaluru",
+        "mumbai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "delhi",
+          "city_ru": "Дели",
+          "city_en": "Delhi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "blue-tokai-coffee-roasters",
+            "sleepy-owl-rage-coffee"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "delhi",
+          "city_ru": "Дели/Гуруграм",
+          "city_en": "Delhi/Gurugram",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "chaayos",
+            "abcoffee"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "third-wave-coffee",
+            "araku-coffee"
+          ],
+          "transfer_ru": "Внутренний перелёт Дели→Бенгалуру (≈2,5 ч).",
+          "transfer_en": "Domestic flight Delhi→Bengaluru (≈2.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "bengaluru",
+          "city_ru": "Бенгалуру",
+          "city_en": "Bengaluru",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "tata-coffee-starbucks-india",
+            "boba-bhai"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "mumbai",
+          "city_ru": "Мумбаи",
+          "city_en": "Mumbai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "transfer_ru": "Внутренний перелёт Бенгалуру→Мумбаи (≈1,5 ч). Программа пятого дня уточняется у партнёров на месте.",
+          "transfer_en": "Domestic flight Bengaluru→Mumbai (≈1.5h). Day-5 visits are being confirmed with local partners.",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на хинди/английском",
+          "en": "Support in Hindi/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
