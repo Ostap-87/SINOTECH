@@ -9187,6 +9187,1226 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "malaysia-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Малайзии: от Senheng до роботизированных складов",
+      "title_en": "Malaysia Retail: From Senheng to Robotic Warehouses",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "Senheng · MR DIY · 7-Eleven CloudPick · AEON",
+      "tagline_en": "Senheng · MR DIY · 7-Eleven CloudPick · AEON",
+      "positioning_ru": "От флагманских шоурумов Senheng New Retail и роботизированного склада MR DIY до первого в стране безкассового магазина 7-Eleven на технологии CloudPick — весь малазийский tech-ритейл в Клэнг-Вэлли, без перелётов.",
+      "positioning_en": "From Senheng New Retail's flagship showrooms and MR DIY's robotic warehouse to the country's first cashierless 7-Eleven store on CloudPick technology — Malaysia's whole tech-retail scene within the Klang Valley, no flights.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "klang-valley-only",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "senheng-new-retail",
+            "mr-diy-robotic-warehouse"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "7-eleven-malaysia-cloudpick",
+            "aeon-malaysia"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "99-speed-mart",
+            "kk-super-mart"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "lotus-stores-malaysia",
+            "jaya-grocer"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "padini-holdings",
+            "eco-shop-marketing"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Малайзии",
+      "title_en": "Malaysia Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "Ajinomoto · Nestlé · Farm Fresh · Sime Darby",
+      "tagline_en": "Ajinomoto · Nestlé · Farm Fresh · Sime Darby",
+      "positioning_ru": "От халяль-смарт-заводов Ajinomoto и Nestlé в Клэнг-Вэлли до Farm Fresh — крупнейшего производителя молока в стране с собственным агро/образовательным туристическим центром совместно с UPM в Джохоре.",
+      "positioning_en": "From the halal smart factories of Ajinomoto and Nestlé in the Klang Valley to Farm Fresh — the country's largest milk producer, with its own agro/edu-tourism centre run jointly with UPM in Johor.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "klang-valley-johor",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur",
+        "kulai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ajinomoto-malaysia",
+            "dutch-lady-malaysia"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nestle-malaysia",
+            "sime-darby-oils"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "phuture-foods",
+            "mamee-double-decker"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "kulai",
+          "city_ru": "Кулаи (Джохор)",
+          "city_en": "Kulai (Johor)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "farm-fresh-berhad"
+          ],
+          "transfer_ru": "Переезд/перелёт в Джохор (~1 ч перелёт либо ~3–4 ч на машине). Ночёвка — Джохор.",
+          "transfer_en": "Transfer/flight to Johor (~1h flight or ~3–4h by road). Overnight in Johor.",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "kulai",
+          "city_ru": "Кулаи (Джохор)",
+          "city_en": "Kulai (Johor)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "jemaluang-dairy-valley"
+          ],
+          "note_ru": "Второй визит дня — опционально Saikris TechDairies (роботизированная ферма, Перак, по согласованию из-за расстояния).",
+          "note_en": "Second visit of the day — optionally Saikris TechDairies (robotic dairy farm, Perak, to be arranged given the distance)."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды в Малайзии",
+      "title_en": "Malaysia Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "Grab · foodpanda · Pop Meals · GrabKitchen",
+      "tagline_en": "Grab · foodpanda · Pop Meals · GrabKitchen",
+      "positioning_ru": "От GrabFood и GrabKitchen до локального пионера облачных кухонь Pop Meals (экс-Dahmakan) с AI/ML-операционной системой — один из самых сильных блоков Малайзии благодаря региональной штаб-квартире Grab.",
+      "positioning_en": "From GrabFood and GrabKitchen to Pop Meals (formerly Dahmakan), the homegrown cloud-kitchen pioneer with its AI/ML operating system — one of Malaysia's strongest blocks thanks to Grab's regional HQ.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "klang-valley-only",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "grab-food-kitchen-malaysia",
+            "foodpanda-malaysia"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "pop-meals",
+            "cookhouse-malaysia"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "grabkitchen-format",
+            "kyochon-malaysia"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "myburgerlab",
+            "inside-scoop"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Итоговая встреча с партнёрами экосистемы Grab.",
+          "note_en": "Closing meeting with partners across the Grab ecosystem."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "ai",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Малайзии: суверенный ИИ, супер-приложения, e-commerce",
+      "title_en": "Malaysia Internet Giants: Sovereign AI, Super-Apps, E-commerce",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "YTL AI Cloud · Grab · Touch 'n Go · Carsome",
+      "tagline_en": "YTL AI Cloud · Grab · Touch 'n Go · Carsome",
+      "positioning_ru": "Флагманский блок страны: региональная штаб-квартира Grab, суверенный AI-дата-центр YTL на чипах Nvidia Grace Blackwell (GB200) в Джохоре — марка программы, требует заблаговременного запроса допуска по безопасности.",
+      "positioning_en": "The country's flagship block: Grab's regional HQ, and YTL's sovereign AI data centre on Nvidia Grace Blackwell (GB200) chips in Johor — the marquee stop, requiring an early security-clearance request.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 1
+      },
+      "route_strategy": "klang-valley-johor",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur",
+        "kulai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "grab-malaysia-rce",
+            "touch-n-go-ewallet"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "carsome-group",
+            "gxbank"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "aerodyne-group",
+            "mindvalley"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "shopee-malaysia",
+            "lazada-malaysia"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "kulai",
+          "city_ru": "Кулаи (Джохор)",
+          "city_en": "Kulai (Johor)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ytl-ai-cloud",
+            "malaysian-fintech-cluster"
+          ],
+          "transfer_ru": "Перелёт/переезд в Джохор (~1 ч перелёт либо ~3–4 ч на машине) к флагманскому визиту YTL AI Cloud — требуется заблаговременный запрос допуска по безопасности. Второй визит — итоговая встреча по локальной финтех-экосистеме.",
+          "transfer_en": "Flight/transfer to Johor (~1h flight or ~3–4h by road) for the flagship YTL AI Cloud visit — requires an early security-clearance request. Second visit — a closing meeting on the local fintech ecosystem.",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Малайзии",
+      "title_en": "Malaysia Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "Wipro Unza · Eng Kah · Elken",
+      "tagline_en": "Wipro Unza · Eng Kah · Elken",
+      "positioning_ru": "Малайзия — глобальный халяль-косметический хаб: от флагманского Wipro Skin Research & Innovation Centre в Клэнг-Вэлли до крупнейшего контрактного производителя парфюмерии Eng Kah в Пенанге.",
+      "positioning_en": "Malaysia is a global halal-cosmetics hub: from the flagship Wipro Skin Research & Innovation Centre in the Klang Valley to Eng Kah, the country's largest perfume contract manufacturer, in Penang.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 7,
+        "flights": 1
+      },
+      "route_strategy": "klang-valley-penang",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur",
+        "penang"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "wipro-unza"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "elken-elysyle",
+            "intercosmetic-asia-pacific"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "furley-bioextracts",
+            "global-cosmetics-malaysia"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "penang",
+          "city_ru": "Пенанг",
+          "city_en": "Penang",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "eng-kah-corporation"
+          ],
+          "transfer_ru": "Перелёт в Пенанг (~1 ч). Ночёвка — Куала-Лумпур (возврат) или Пенанг.",
+          "transfer_en": "Flight to Penang (~1h). Overnight in Kuala Lumpur (return) or Penang.",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cl-cosmetic-oem-cluster"
+          ],
+          "note_ru": "Визит в кластер халяль-OEM производителей (2 точки по согласованию), далее — итоговая встреча.",
+          "note_en": "Visit to the halal-OEM manufacturing cluster (2 stops, to be arranged), followed by a closing meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Малайзия: регенеративная медицина, банкинг стволовых клеток и геномика",
+      "title_en": "Malaysia Regenerative Medicine, Stem-Cell Banking & Genomics",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "CryoCord · Cytopeutics · StemLife · MGRC",
+      "tagline_en": "CryoCord · Cytopeutics · StemLife · MGRC",
+      "positioning_ru": "Малайзия — не западная longevity-биотех сцена, а сильный кластер банкинга стволовых клеток и геномики в Cyberjaya/Клэнг-Вэлли: CryoCord, Cytopeutics, StemLife и единственная частная BSL-2 + cGMP лаборатория страны MGRC. Программа честно позиционируется как 'регенеративная медицина и геномика', а не 'лонгевити-биотех'.",
+      "positioning_en": "Malaysia isn't a Western-style longevity-biotech scene — it's a strong stem-cell-banking and genomics cluster in Cyberjaya/the Klang Valley: CryoCord, Cytopeutics, StemLife, and MGRC, the country's only privately owned BSL-2 + cGMP lab. Honestly positioned as 'regenerative medicine & genomics', not 'longevity biotech'.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "klang-valley-only",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур (Cyberjaya)",
+          "city_en": "Kuala Lumpur (Cyberjaya)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cryocord",
+            "cytopeutics"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "stemlife",
+            "malaysian-genomics-resource-centre"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "codon-genomics",
+            "synamatix"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "elixir-biotech-stemtech",
+            "national-stem-cell-centre"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Резервный день / возможность объединения с модулем косметики — сегмент в Малайзии тонкий и целенаправленно не растянут искусственно.",
+          "note_en": "Reserve day / option to combine with the Beauty module — the segment is thin in Malaysia and deliberately not padded out."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "malaysia-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "my",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Малайзии",
+      "title_en": "Malaysia Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-экспедиции в Малайзию",
+      "eyebrow_en": "Business expeditions to Malaysia",
+      "tagline_ru": "ZUS Coffee · Tealive · Bask Bear",
+      "tagline_en": "ZUS Coffee · Tealive · Bask Bear",
+      "positioning_ru": "Малайзия — региональный законодатель мод в tech-driven напитках: ZUS Coffee обогнала Starbucks по числу точек (743 против 320) благодаря приложению, дающему 70% продаж, а Tealive — крупнейшая сеть бабл-ти страны с 2017 года.",
+      "positioning_en": "Malaysia is a regional pace-setter in tech-driven drinks: ZUS Coffee has overtaken Starbucks in store count (743 vs 320) on the back of an app driving 70% of sales, while Tealive has been the country's largest bubble-tea chain since 2017.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "klang-valley-only",
+      "arrival_ru": "Куала-Лумпур (перелёт Москва → Куала-Лумпур)",
+      "arrival_en": "Kuala Lumpur (flight Moscow → Kuala Lumpur)",
+      "departure_ru": "Куала-Лумпур — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Kuala Lumpur — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "kuala-lumpur"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "zus-coffee",
+            "tealive-loob-holding"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "bask-bear-coffee",
+            "chatime-malaysia"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "gigi-coffee"
+          ],
+          "note_ru": "Второй визит дня — специализированная обжарочная (Клэнг-Вэлли, по согласованию).",
+          "note_en": "Second visit of the day — a specialty roastery (Klang Valley, to be arranged)."
+        },
+        {
+          "day": 4,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "luckin-coffee-malaysia",
+            "inside-scoop"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "kuala-lumpur",
+          "city_ru": "Куала-Лумпур",
+          "city_en": "Kuala Lumpur",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Итоговая встреча и networking с F&B tech-экосистемой.",
+          "note_en": "Closing meeting and networking with the F&B tech ecosystem."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на малайском/английском",
+          "en": "Support in Malay/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (косметические заводы, биотех-лаборатории) — GMP/BSL-2 объекты: запрашивать доступ за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (cosmetics factories, biotech labs) are GMP/BSL-2 environments — request access 8–12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }

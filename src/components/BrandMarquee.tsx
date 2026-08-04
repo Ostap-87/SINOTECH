@@ -12,7 +12,11 @@ const MAX_BRANDS = 22
 
 /** Drops a trailing "(Parent Co / clarification)" so the marquee reads as clean short names. */
 function cleanBrandName(name: string) {
-  return name.replace(/\s*\([^)]*\)\s*$/, '').trim().toUpperCase()
+  return name
+    .replace(/\s*\([^)]*\)\s*$/, '') // drop a trailing "(Parent Co / clarification)"
+    .replace(/\s+—\s+.+$/, '') // drop a trailing "— clarification" suffix (em dash only — a plain hyphen can be part of the brand name itself, e.g. "7-Eleven")
+    .trim()
+    .toUpperCase()
 }
 
 /** Spreads picks evenly across the ordered list instead of clumping on whichever sector was entered first. */

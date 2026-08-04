@@ -8,12 +8,12 @@
       "zh"
     ],
     "counts": {
-      "companies": 771,
+      "companies": 828,
       "sectors": 17,
-      "cities": 86,
+      "cities": 89,
       "own_supplier": 38,
       "countries": 4,
-      "countries_active": 7
+      "countries_active": 8
     },
     "status_legend": {
       "gov": "delegation reception documented",
@@ -45,8 +45,7 @@
       "code": "my",
       "name_en": "Malaysia",
       "name_ru": "Малайзия",
-      "active": false,
-      "status": "planned"
+      "active": true
     },
     {
       "code": "jp",
@@ -1165,6 +1164,39 @@
       "lat": 28.7041,
       "lng": 77.1025,
       "country": "in"
+    },
+    {
+      "id": "kuala-lumpur",
+      "name_en": "Kuala Lumpur (Klang Valley)",
+      "name_ru": "Куала-Лумпур (Клэнг-Вэлли)",
+      "province_en": "Selangor/Federal Territory",
+      "province_ru": "Селангор/Федеральная территория",
+      "region": "Klang Valley",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "country": "my"
+    },
+    {
+      "id": "kulai",
+      "name_en": "Kulai (Johor)",
+      "name_ru": "Кулаи (Джохор)",
+      "province_en": "Johor",
+      "province_ru": "Джохор",
+      "region": "South Malaysia",
+      "lat": 1.6608,
+      "lng": 103.6021,
+      "country": "my"
+    },
+    {
+      "id": "penang",
+      "name_en": "Penang",
+      "name_ru": "Пенанг",
+      "province_en": "Penang",
+      "province_ru": "Пенанг",
+      "region": "North Malaysia",
+      "lat": 5.3548,
+      "lng": 100.305,
+      "country": "my"
     }
   ],
   "companies": [
@@ -1339,7 +1371,7 @@
     {
       "id": "smc",
       "name_en": "SMC",
-      "name_zh": "SMC",
+      "name_zh": null,
       "sector": "heavy",
       "city": "beijing",
       "status": "catalog",
@@ -2333,7 +2365,7 @@
     {
       "id": "ideo",
       "name_en": "IDEO",
-      "name_zh": "IDEO",
+      "name_zh": null,
       "sector": "education",
       "city": "shanghai",
       "status": "catalog",
@@ -2515,7 +2547,7 @@
     {
       "id": "m-stand",
       "name_en": "M Stand",
-      "name_zh": "M Stand",
+      "name_zh": null,
       "sector": "food",
       "city": "shanghai",
       "status": "plan",
@@ -3117,7 +3149,7 @@
     {
       "id": "tcl",
       "name_en": "TCL",
-      "name_zh": "TCL",
+      "name_zh": null,
       "sector": "electronics",
       "city": "shenzhen",
       "status": "catalog",
@@ -4671,7 +4703,7 @@
     {
       "id": "3m",
       "name_en": "3M",
-      "name_zh": "3M",
+      "name_zh": null,
       "sector": "heavy",
       "city": "suzhou",
       "status": "plan",
@@ -6337,7 +6369,7 @@
     {
       "id": "senad",
       "name_en": "SENAD",
-      "name_zh": "SENAD",
+      "name_zh": null,
       "sector": "robotics",
       "city": "shanghai",
       "status": "plan",
@@ -7429,7 +7461,7 @@
     {
       "id": "kakao",
       "name_en": "Kakao",
-      "name_zh": "Kakao",
+      "name_zh": null,
       "sector": "internet",
       "city": "seongnam",
       "status": "plan",
@@ -7443,7 +7475,7 @@
     {
       "id": "ncsoft",
       "name_en": "NCSoft",
-      "name_zh": "NCSoft",
+      "name_zh": null,
       "sector": "internet",
       "city": "seongnam",
       "status": "plan",
@@ -7471,7 +7503,7 @@
     {
       "id": "rainbow-robotics",
       "name_en": "Rainbow Robotics",
-      "name_zh": "Rainbow Robotics",
+      "name_zh": null,
       "sector": "robotics",
       "city": "yongin",
       "status": "plan",
@@ -7597,7 +7629,7 @@
     {
       "id": "pharmaresearch",
       "name_en": "PharmaResearch",
-      "name_zh": "PharmaResearch",
+      "name_zh": null,
       "sector": "medtech",
       "city": "seongnam",
       "status": "plan",
@@ -7611,7 +7643,7 @@
     {
       "id": "caregen",
       "name_en": "Caregen",
-      "name_zh": "Caregen",
+      "name_zh": null,
       "sector": "medtech",
       "city": "anyang",
       "status": "plan",
@@ -7639,7 +7671,7 @@
     {
       "id": "cj-freshway",
       "name_en": "CJ Freshway",
-      "name_zh": "CJ Freshway",
+      "name_zh": null,
       "sector": "food",
       "city": "seoul",
       "status": "plan",
@@ -7653,7 +7685,7 @@
     {
       "id": "market-kurly",
       "name_en": "Market Kurly",
-      "name_zh": "Market Kurly",
+      "name_zh": null,
       "sector": "food",
       "city": "seoul",
       "status": "plan",
@@ -7723,7 +7755,7 @@
     {
       "id": "fresheasy",
       "name_en": "Fresheasy",
-      "name_zh": "Fresheasy",
+      "name_zh": null,
       "sector": "food",
       "city": "yongin",
       "status": "plan",
@@ -8171,7 +8203,7 @@
     {
       "id": "preferred-networks",
       "name_en": "Preferred Networks",
-      "name_zh": "Preferred Networks",
+      "name_zh": null,
       "sector": "ai",
       "city": "tokyo",
       "status": "gov",
@@ -8927,7 +8959,7 @@
     {
       "id": "line-man-wongnai",
       "name_en": "LINE MAN Wongnai",
-      "name_zh": "LINE MAN Wongnai",
+      "name_zh": null,
       "sector": "internet",
       "city": "bangkok",
       "status": "gov",
@@ -9599,7 +9631,7 @@
     {
       "id": "mwg-the-gioi-di-dong",
       "name_en": "Thế Giới Di Động / MWG",
-      "name_zh": "Thế Giới Di Động / MWG",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -9613,7 +9645,7 @@
     {
       "id": "fpt-retail-long-chau",
       "name_en": "FPT Retail / Long Châu",
-      "name_zh": "FPT Retail / Long Châu",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9627,7 +9659,7 @@
     {
       "id": "saigon-coop",
       "name_en": "Saigon Co.op",
-      "name_zh": "Saigon Co.op",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9641,7 +9673,7 @@
     {
       "id": "central-retail-vietnam",
       "name_en": "Central Retail Vietnam (GO!/Tops)",
-      "name_zh": "Central Retail Vietnam (GO!/Tops)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9655,7 +9687,7 @@
     {
       "id": "aeon-vietnam",
       "name_en": "AEON Vietnam",
-      "name_zh": "AEON Vietnam",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9669,7 +9701,7 @@
     {
       "id": "wincommerce",
       "name_en": "WinCommerce",
-      "name_zh": "WinCommerce",
+      "name_zh": null,
       "sector": "consumer",
       "city": "hanoi",
       "status": "gov",
@@ -9683,7 +9715,7 @@
     {
       "id": "circlek-gs25-vietnam",
       "name_en": "Circle K / GS25 Vietnam",
-      "name_zh": "Circle K / GS25 Vietnam",
+      "name_zh": null,
       "sector": "consumer",
       "city": "hanoi",
       "status": "catalog",
@@ -9697,7 +9729,7 @@
     {
       "id": "con-cung",
       "name_en": "Con Cưng",
-      "name_zh": "Con Cưng",
+      "name_zh": null,
       "sector": "consumer",
       "city": "hanoi",
       "status": "catalog",
@@ -9711,7 +9743,7 @@
     {
       "id": "vinamilk",
       "name_en": "Vinamilk",
-      "name_zh": "Vinamilk",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -9725,7 +9757,7 @@
     {
       "id": "nutifood",
       "name_en": "Nutifood",
-      "name_zh": "Nutifood",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9739,7 +9771,7 @@
     {
       "id": "masan-consumer",
       "name_en": "Masan Consumer",
-      "name_zh": "Masan Consumer",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9753,7 +9785,7 @@
     {
       "id": "vissan",
       "name_en": "Vissan",
-      "name_zh": "Vissan",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9767,7 +9799,7 @@
     {
       "id": "dutch-lady-frieslandcampina",
       "name_en": "Dutch Lady (FrieslandCampina)",
-      "name_zh": "Dutch Lady (FrieslandCampina)",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9781,7 +9813,7 @@
     {
       "id": "th-true-milk",
       "name_en": "TH True Milk",
-      "name_zh": "TH True Milk",
+      "name_zh": null,
       "sector": "food",
       "city": "vinh",
       "status": "gov",
@@ -9795,7 +9827,7 @@
     {
       "id": "acecook-vietnam",
       "name_en": "Acecook Vietnam",
-      "name_zh": "Acecook Vietnam",
+      "name_zh": null,
       "sector": "food",
       "city": "hanoi",
       "status": "catalog",
@@ -9809,7 +9841,7 @@
     {
       "id": "grabfood-vietnam",
       "name_en": "GrabFood Vietnam",
-      "name_zh": "GrabFood Vietnam",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -9823,7 +9855,7 @@
     {
       "id": "shopeefood-vietnam",
       "name_en": "ShopeeFood",
-      "name_zh": "ShopeeFood",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9837,7 +9869,7 @@
     {
       "id": "be-begroup",
       "name_en": "Be (beGroup)",
-      "name_zh": "Be (beGroup)",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9851,7 +9883,7 @@
     {
       "id": "loship",
       "name_en": "Loship",
-      "name_zh": "Loship",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9865,7 +9897,7 @@
     {
       "id": "xanh-sm-gsm-vinfast",
       "name_en": "Xanh SM (GSM/VinFast)",
-      "name_zh": "Xanh SM (GSM/VinFast)",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9879,7 +9911,7 @@
     {
       "id": "ahamove",
       "name_en": "Ahamove",
-      "name_zh": "Ahamove",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9893,7 +9925,7 @@
     {
       "id": "vng-corporation",
       "name_en": "VNG Corporation",
-      "name_zh": "VNG Corporation",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -9907,7 +9939,7 @@
     {
       "id": "tiki",
       "name_en": "Tiki",
-      "name_zh": "Tiki",
+      "name_zh": null,
       "sector": "internet",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9921,7 +9953,7 @@
     {
       "id": "momo",
       "name_en": "MoMo",
-      "name_zh": "MoMo",
+      "name_zh": null,
       "sector": "finance",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9935,7 +9967,7 @@
     {
       "id": "trusting-social",
       "name_en": "Trusting Social",
-      "name_zh": "Trusting Social",
+      "name_zh": null,
       "sector": "ai",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -9949,7 +9981,7 @@
     {
       "id": "vinai",
       "name_en": "VinAI",
-      "name_zh": "VinAI",
+      "name_zh": null,
       "sector": "ai",
       "city": "hanoi",
       "status": "gov",
@@ -9963,7 +9995,7 @@
     {
       "id": "fpt-ai-software",
       "name_en": "FPT AI / FPT Software",
-      "name_zh": "FPT AI / FPT Software",
+      "name_zh": null,
       "sector": "ai",
       "city": "hanoi",
       "status": "gov",
@@ -9977,7 +10009,7 @@
     {
       "id": "viettel",
       "name_en": "Viettel",
-      "name_zh": "Viettel",
+      "name_zh": null,
       "sector": "telecom",
       "city": "hanoi",
       "status": "gov",
@@ -9991,7 +10023,7 @@
     {
       "id": "vinbrain",
       "name_en": "VinBrain",
-      "name_zh": "VinBrain",
+      "name_zh": null,
       "sector": "medtech",
       "city": "hanoi",
       "status": "catalog",
@@ -10005,7 +10037,7 @@
     {
       "id": "shopee-lazada-vietnam",
       "name_en": "Shopee/Lazada Vietnam",
-      "name_zh": "Shopee/Lazada Vietnam",
+      "name_zh": null,
       "sector": "internet",
       "city": "hanoi",
       "status": "catalog",
@@ -10019,7 +10051,7 @@
     {
       "id": "elsa",
       "name_en": "ELSA",
-      "name_zh": "ELSA",
+      "name_zh": null,
       "sector": "ai",
       "city": "hanoi",
       "status": "catalog",
@@ -10033,7 +10065,7 @@
     {
       "id": "cocoon-vietnam",
       "name_en": "Cocoon Vietnam",
-      "name_zh": "Cocoon Vietnam",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10047,7 +10079,7 @@
     {
       "id": "hasaki",
       "name_en": "Hasaki",
-      "name_zh": "Hasaki",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10061,7 +10093,7 @@
     {
       "id": "thorakao",
       "name_en": "Thorakao (Lan Hảo)",
-      "name_zh": "Thorakao (Lan Hảo)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10075,7 +10107,7 @@
     {
       "id": "saigon-cosmetics-scc",
       "name_en": "Saigon Cosmetics (SCC)",
-      "name_zh": "Saigon Cosmetics (SCC)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10089,7 +10121,7 @@
     {
       "id": "moi-cosmetics",
       "name_en": "M.O.I Cosmetics",
-      "name_zh": "M.O.I Cosmetics",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10103,7 +10135,7 @@
     {
       "id": "lemonade-cosmetics",
       "name_en": "Lemonade Cosmetics",
-      "name_zh": "Lemonade Cosmetics",
+      "name_zh": null,
       "sector": "consumer",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10117,7 +10149,7 @@
     {
       "id": "sao-thai-duong",
       "name_en": "Sao Thái Dương",
-      "name_zh": "Sao Thái Dương",
+      "name_zh": null,
       "sector": "consumer",
       "city": "hanoi",
       "status": "catalog",
@@ -10131,7 +10163,7 @@
     {
       "id": "milaganics",
       "name_en": "Milaganics",
-      "name_zh": "Milaganics",
+      "name_zh": null,
       "sector": "consumer",
       "city": "hanoi",
       "status": "catalog",
@@ -10145,7 +10177,7 @@
     {
       "id": "vinmec-vrisg",
       "name_en": "Vinmec Research Institute of Stem Cell & Gene Technology (VRISG)",
-      "name_zh": "Vinmec Research Institute of Stem Cell & Gene Technology (VRISG)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "hanoi",
       "status": "gov",
@@ -10159,7 +10191,7 @@
     {
       "id": "vinmec-regenerative-medicine-center",
       "name_en": "Vinmec Center of Regenerative Medicine & Cell Therapy",
-      "name_zh": "Vinmec Center of Regenerative Medicine & Cell Therapy",
+      "name_zh": null,
       "sector": "medtech",
       "city": "hanoi",
       "status": "catalog",
@@ -10173,7 +10205,7 @@
     {
       "id": "vinuniversity",
       "name_en": "VinUniversity",
-      "name_zh": "VinUniversity",
+      "name_zh": null,
       "sector": "education",
       "city": "hanoi",
       "status": "catalog",
@@ -10187,7 +10219,7 @@
     {
       "id": "medeze-vietnam",
       "name_en": "Medeze Vietnam",
-      "name_zh": "Medeze Vietnam",
+      "name_zh": null,
       "sector": "medtech",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10201,7 +10233,7 @@
     {
       "id": "phuc-long-masan",
       "name_en": "Phúc Long (Masan)",
-      "name_zh": "Phúc Long (Masan)",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -10215,7 +10247,7 @@
     {
       "id": "the-coffee-house",
       "name_en": "The Coffee House",
-      "name_zh": "The Coffee House",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10229,7 +10261,7 @@
     {
       "id": "highlands-coffee",
       "name_en": "Highlands Coffee",
-      "name_zh": "Highlands Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "gov",
@@ -10243,7 +10275,7 @@
     {
       "id": "katinat",
       "name_en": "Katinat",
-      "name_zh": "Katinat",
+      "name_zh": null,
       "sector": "food",
       "city": "ho-chi-minh",
       "status": "catalog",
@@ -10257,7 +10289,7 @@
     {
       "id": "trung-nguyen-legend",
       "name_en": "Trung Nguyên Legend",
-      "name_zh": "Trung Nguyên Legend",
+      "name_zh": null,
       "sector": "food",
       "city": "buon-ma-thuot",
       "status": "gov",
@@ -10271,7 +10303,7 @@
     {
       "id": "cong-ca-phe",
       "name_en": "Cộng Cà Phê",
-      "name_zh": "Cộng Cà Phê",
+      "name_zh": null,
       "sector": "food",
       "city": "hanoi",
       "status": "catalog",
@@ -10285,7 +10317,7 @@
     {
       "id": "tocotoco",
       "name_en": "ToCoToCo",
-      "name_zh": "ToCoToCo",
+      "name_zh": null,
       "sector": "food",
       "city": "hanoi",
       "status": "catalog",
@@ -10299,7 +10331,7 @@
     {
       "id": "phe-la",
       "name_en": "Phê La",
-      "name_zh": "Phê La",
+      "name_zh": null,
       "sector": "food",
       "city": "hanoi",
       "status": "catalog",
@@ -10313,7 +10345,7 @@
     {
       "id": "king-coffee-tni",
       "name_en": "King Coffee (TNI)",
-      "name_zh": "King Coffee (TNI)",
+      "name_zh": null,
       "sector": "food",
       "city": "hanoi",
       "status": "catalog",
@@ -10327,7 +10359,7 @@
     {
       "id": "indomaret",
       "name_en": "Indomaret",
-      "name_zh": "Indomaret",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "gov",
@@ -10341,7 +10373,7 @@
     {
       "id": "alfamart",
       "name_en": "Alfamart",
-      "name_zh": "Alfamart",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10355,7 +10387,7 @@
     {
       "id": "map-mitra-adiperkasa",
       "name_en": "MAP (Mitra Adiperkasa)",
-      "name_zh": "MAP (Mitra Adiperkasa)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10369,7 +10401,7 @@
     {
       "id": "erajaya-erafone",
       "name_en": "Erajaya (Erafone)",
-      "name_zh": "Erajaya (Erafone)",
+      "name_zh": null,
       "sector": "electronics",
       "city": "jakarta",
       "status": "catalog",
@@ -10383,7 +10415,7 @@
     {
       "id": "transmart-ct-corp",
       "name_en": "Transmart (CT Corp)",
-      "name_zh": "Transmart (CT Corp)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10397,7 +10429,7 @@
     {
       "id": "matahari-department-store",
       "name_en": "Matahari Department Store",
-      "name_zh": "Matahari Department Store",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10411,7 +10443,7 @@
     {
       "id": "aeon-indonesia",
       "name_en": "AEON Indonesia",
-      "name_zh": "AEON Indonesia",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10425,7 +10457,7 @@
     {
       "id": "ace-hardware-kawan-lama",
       "name_en": "Ace Hardware (Kawan Lama)",
-      "name_zh": "Ace Hardware (Kawan Lama)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10439,7 +10471,7 @@
     {
       "id": "ranch-market",
       "name_en": "Ranch Market",
-      "name_zh": "Ranch Market",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10453,7 +10485,7 @@
     {
       "id": "blibli",
       "name_en": "Blibli",
-      "name_zh": "Blibli",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10467,7 +10499,7 @@
     {
       "id": "indofood",
       "name_en": "Indofood",
-      "name_zh": "Indofood",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "gov",
@@ -10481,7 +10513,7 @@
     {
       "id": "frisian-flag-indonesia",
       "name_en": "Frisian Flag Indonesia",
-      "name_zh": "Frisian Flag Indonesia",
+      "name_zh": null,
       "sector": "food",
       "city": "cikarang",
       "status": "gov",
@@ -10495,7 +10527,7 @@
     {
       "id": "kalbe-nutritionals",
       "name_en": "Kalbe Nutritionals",
-      "name_zh": "Kalbe Nutritionals",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -10509,7 +10541,7 @@
     {
       "id": "cimory",
       "name_en": "Cimory",
-      "name_zh": "Cimory",
+      "name_zh": null,
       "sector": "food",
       "city": "semarang",
       "status": "gov",
@@ -10523,7 +10555,7 @@
     {
       "id": "ultrajaya",
       "name_en": "Ultrajaya",
-      "name_zh": "Ultrajaya",
+      "name_zh": null,
       "sector": "food",
       "city": "bandung",
       "status": "catalog",
@@ -10537,7 +10569,7 @@
     {
       "id": "mayora-indah",
       "name_en": "Mayora Indah",
-      "name_zh": "Mayora Indah",
+      "name_zh": null,
       "sector": "food",
       "city": "bandung",
       "status": "catalog",
@@ -10551,7 +10583,7 @@
     {
       "id": "nestle-indonesia",
       "name_en": "Nestlé Indonesia",
-      "name_zh": "Nestlé Indonesia",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -10565,7 +10597,7 @@
     {
       "id": "garudafood",
       "name_en": "Garudafood",
-      "name_zh": "Garudafood",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -10579,7 +10611,7 @@
     {
       "id": "goto-gofood-gokitchen",
       "name_en": "GoTo (GoFood/GoKitchen)",
-      "name_zh": "GoTo (GoFood/GoKitchen)",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "gov",
@@ -10593,7 +10625,7 @@
     {
       "id": "grab-indonesia",
       "name_en": "Grab Indonesia",
-      "name_zh": "Grab Indonesia",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10607,7 +10639,7 @@
     {
       "id": "yummy-corp",
       "name_en": "Yummy Corp",
-      "name_zh": "Yummy Corp",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10621,7 +10653,7 @@
     {
       "id": "everplate",
       "name_en": "Everplate",
-      "name_zh": "Everplate",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10635,7 +10667,7 @@
     {
       "id": "hangry-id",
       "name_en": "Hangry",
-      "name_zh": "Hangry",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10649,7 +10681,7 @@
     {
       "id": "legit-group",
       "name_en": "Legit Group",
-      "name_zh": "Legit Group",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10663,7 +10695,7 @@
     {
       "id": "dailybox-group",
       "name_en": "Dailybox Group",
-      "name_zh": "Dailybox Group",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10677,7 +10709,7 @@
     {
       "id": "shopeefood-indonesia",
       "name_en": "ShopeeFood",
-      "name_zh": "ShopeeFood",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10691,7 +10723,7 @@
     {
       "id": "wahyoo",
       "name_en": "Wahyoo",
-      "name_zh": "Wahyoo",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10705,7 +10737,7 @@
     {
       "id": "goto-campus",
       "name_en": "GoTo (Gojek + Tokopedia + GoPay)",
-      "name_zh": "GoTo (Gojek + Tokopedia + GoPay)",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "gov",
@@ -10719,7 +10751,7 @@
     {
       "id": "kata-ai",
       "name_en": "Kata.ai",
-      "name_zh": "Kata.ai",
+      "name_zh": null,
       "sector": "ai",
       "city": "jakarta",
       "status": "catalog",
@@ -10733,7 +10765,7 @@
     {
       "id": "nodeflux",
       "name_en": "Nodeflux",
-      "name_zh": "Nodeflux",
+      "name_zh": null,
       "sector": "ai",
       "city": "jakarta",
       "status": "catalog",
@@ -10747,7 +10779,7 @@
     {
       "id": "prosa-ai",
       "name_en": "Prosa.ai",
-      "name_zh": "Prosa.ai",
+      "name_zh": null,
       "sector": "ai",
       "city": "jakarta",
       "status": "catalog",
@@ -10761,7 +10793,7 @@
     {
       "id": "sahabat-ai",
       "name_en": "Sahabat-AI",
-      "name_zh": "Sahabat-AI",
+      "name_zh": null,
       "sector": "ai",
       "city": "jakarta",
       "status": "catalog",
@@ -10775,7 +10807,7 @@
     {
       "id": "shopee-tiktok-shop-indonesia",
       "name_en": "Shopee Indonesia / TikTok Shop",
-      "name_zh": "Shopee Indonesia / TikTok Shop",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10789,7 +10821,7 @@
     {
       "id": "bukalapak",
       "name_en": "Bukalapak",
-      "name_zh": "Bukalapak",
+      "name_zh": null,
       "sector": "internet",
       "city": "jakarta",
       "status": "catalog",
@@ -10803,7 +10835,7 @@
     {
       "id": "paragon-technology-innovation",
       "name_en": "Paragon Technology & Innovation (Wardah/Emina/Make Over)",
-      "name_zh": "Paragon Technology & Innovation (Wardah/Emina/Make Over)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "tangerang",
       "status": "gov",
@@ -10817,7 +10849,7 @@
     {
       "id": "kahf-paragon",
       "name_en": "Kahf (Paragon)",
-      "name_zh": "Kahf (Paragon)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "tangerang",
       "status": "catalog",
@@ -10831,7 +10863,7 @@
     {
       "id": "martha-tilaar-group",
       "name_en": "Martha Tilaar Group",
-      "name_zh": "Martha Tilaar Group",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10845,7 +10877,7 @@
     {
       "id": "mustika-ratu",
       "name_en": "Mustika Ratu",
-      "name_zh": "Mustika Ratu",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10859,7 +10891,7 @@
     {
       "id": "somethinc-beauty-haul",
       "name_en": "Somethinc (Beauty Haul)",
-      "name_zh": "Somethinc (Beauty Haul)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10873,7 +10905,7 @@
     {
       "id": "base-skincare",
       "name_en": "Base",
-      "name_zh": "Base",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10887,7 +10919,7 @@
     {
       "id": "avoskin",
       "name_en": "Avoskin (AVO Innovation)",
-      "name_zh": "Avoskin (AVO Innovation)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "yogyakarta",
       "status": "catalog",
@@ -10901,7 +10933,7 @@
     {
       "id": "esqa-cosmetics",
       "name_en": "ESQA Cosmetics",
-      "name_zh": "ESQA Cosmetics",
+      "name_zh": null,
       "sector": "consumer",
       "city": "yogyakarta",
       "status": "catalog",
@@ -10915,7 +10947,7 @@
     {
       "id": "ms-glow",
       "name_en": "MS Glow",
-      "name_zh": "MS Glow",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10929,7 +10961,7 @@
     {
       "id": "rose-all-day",
       "name_en": "Rose All Day",
-      "name_zh": "Rose All Day",
+      "name_zh": null,
       "sector": "consumer",
       "city": "jakarta",
       "status": "catalog",
@@ -10943,7 +10975,7 @@
     {
       "id": "kalbe-farma-kbic",
       "name_en": "Kalbe Farma — KBIC Campus",
-      "name_zh": "Kalbe Farma — KBIC Campus",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "gov",
@@ -10957,7 +10989,7 @@
     {
       "id": "prodia-stemcell-prostem",
       "name_en": "Prodia StemCell Indonesia (ProSTEM)",
-      "name_zh": "Prodia StemCell Indonesia (ProSTEM)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "catalog",
@@ -10971,7 +11003,7 @@
     {
       "id": "kalgen-dna",
       "name_en": "KalGen DNA (Kalbe)",
-      "name_zh": "KalGen DNA (Kalbe)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "catalog",
@@ -10985,7 +11017,7 @@
     {
       "id": "kg-bio-kalbe",
       "name_en": "KG Bio (Kalbe)",
-      "name_zh": "KG Bio (Kalbe)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "catalog",
@@ -10999,7 +11031,7 @@
     {
       "id": "prodia",
       "name_en": "Prodia",
-      "name_zh": "Prodia",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "catalog",
@@ -11013,7 +11045,7 @@
     {
       "id": "biothera-stem-cell-clinic",
       "name_en": "Biothera Stem Cell Clinic (PIK2)",
-      "name_zh": "Biothera Stem Cell Clinic (PIK2)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "catalog",
@@ -11027,7 +11059,7 @@
     {
       "id": "bio-farma-kimia-farma",
       "name_en": "Bio Farma / Kimia Farma",
-      "name_zh": "Bio Farma / Kimia Farma",
+      "name_zh": null,
       "sector": "medtech",
       "city": "jakarta",
       "status": "gov",
@@ -11041,7 +11073,7 @@
     {
       "id": "regeneratia-bali",
       "name_en": "Regeneratia Bali",
-      "name_zh": "Regeneratia Bali",
+      "name_zh": null,
       "sector": "medtech",
       "city": "bali",
       "status": "catalog",
@@ -11055,7 +11087,7 @@
     {
       "id": "kopi-kenangan",
       "name_en": "Kopi Kenangan",
-      "name_zh": "Kopi Kenangan",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "gov",
@@ -11069,7 +11101,7 @@
     {
       "id": "fore-coffee",
       "name_en": "Fore Coffee",
-      "name_zh": "Fore Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11083,7 +11115,7 @@
     {
       "id": "kopi-janji-jiwa",
       "name_en": "Kopi Janji Jiwa",
-      "name_zh": "Kopi Janji Jiwa",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11097,7 +11129,7 @@
     {
       "id": "tomoro-coffee",
       "name_en": "Tomoro Coffee",
-      "name_zh": "Tomoro Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11111,7 +11143,7 @@
     {
       "id": "chatime-indonesia",
       "name_en": "Chatime Indonesia (F&B Indonesia/Kawan Lama)",
-      "name_zh": "Chatime Indonesia (F&B Indonesia/Kawan Lama)",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11125,7 +11157,7 @@
     {
       "id": "esteh-indonesia",
       "name_en": "Esteh Indonesia",
-      "name_zh": "Esteh Indonesia",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11139,7 +11171,7 @@
     {
       "id": "haus-drinks",
       "name_en": "Haus!",
-      "name_zh": "Haus!",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11153,7 +11185,7 @@
     {
       "id": "point-coffee-indomaret",
       "name_en": "Point Coffee (Indomaret)",
-      "name_zh": "Point Coffee (Indomaret)",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11167,7 +11199,7 @@
     {
       "id": "kenangan-coffee-chigo",
       "name_en": "Kenangan Coffee / Chigo",
-      "name_zh": "Kenangan Coffee / Chigo",
+      "name_zh": null,
       "sector": "food",
       "city": "jakarta",
       "status": "catalog",
@@ -11181,7 +11213,7 @@
     {
       "id": "reliance-retail",
       "name_en": "Reliance Retail",
-      "name_zh": "Reliance Retail",
+      "name_zh": null,
       "sector": "consumer",
       "city": "mumbai",
       "status": "gov",
@@ -11195,7 +11227,7 @@
     {
       "id": "dmart-avenue-supermarts",
       "name_en": "DMart (Avenue Supermarts)",
-      "name_zh": "DMart (Avenue Supermarts)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "mumbai",
       "status": "catalog",
@@ -11209,7 +11241,7 @@
     {
       "id": "zepto",
       "name_en": "Zepto",
-      "name_zh": "Zepto",
+      "name_zh": null,
       "sector": "internet",
       "city": "mumbai",
       "status": "catalog",
@@ -11223,7 +11255,7 @@
     {
       "id": "nykaa",
       "name_en": "Nykaa",
-      "name_zh": "Nykaa",
+      "name_zh": null,
       "sector": "consumer",
       "city": "mumbai",
       "status": "catalog",
@@ -11237,7 +11269,7 @@
     {
       "id": "flipkart-walmart",
       "name_en": "Flipkart (Walmart)",
-      "name_zh": "Flipkart (Walmart)",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "gov",
@@ -11251,7 +11283,7 @@
     {
       "id": "bigbasket-tata",
       "name_en": "BigBasket (Tata)",
-      "name_zh": "BigBasket (Tata)",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "catalog",
@@ -11265,7 +11297,7 @@
     {
       "id": "swiggy-instamart",
       "name_en": "Swiggy Instamart",
-      "name_zh": "Swiggy Instamart",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "gov",
@@ -11279,7 +11311,7 @@
     {
       "id": "blinkit-eternal",
       "name_en": "Blinkit (Eternal)",
-      "name_zh": "Blinkit (Eternal)",
+      "name_zh": null,
       "sector": "internet",
       "city": "gurugram",
       "status": "gov",
@@ -11293,7 +11325,7 @@
     {
       "id": "vishal-mega-mart",
       "name_en": "Vishal Mega Mart",
-      "name_zh": "Vishal Mega Mart",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "catalog",
@@ -11307,7 +11339,7 @@
     {
       "id": "amul-gcmmf",
       "name_en": "Amul (GCMMF)",
-      "name_zh": "Amul (GCMMF)",
+      "name_zh": null,
       "sector": "food",
       "city": "anand",
       "status": "gov",
@@ -11321,7 +11353,7 @@
     {
       "id": "amul-fed-dairy",
       "name_en": "Amul Fed Dairy",
-      "name_zh": "Amul Fed Dairy",
+      "name_zh": null,
       "sector": "food",
       "city": "ahmedabad",
       "status": "catalog",
@@ -11335,7 +11367,7 @@
     {
       "id": "mother-dairy",
       "name_en": "Mother Dairy",
-      "name_zh": "Mother Dairy",
+      "name_zh": null,
       "sector": "food",
       "city": "delhi",
       "status": "catalog",
@@ -11349,7 +11381,7 @@
     {
       "id": "nestle-india",
       "name_en": "Nestlé India",
-      "name_zh": "Nestlé India",
+      "name_zh": null,
       "sector": "food",
       "city": "gurugram",
       "status": "gov",
@@ -11363,7 +11395,7 @@
     {
       "id": "nandini-kmf",
       "name_en": "Nandini (KMF)",
-      "name_zh": "Nandini (KMF)",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "gov",
@@ -11377,7 +11409,7 @@
     {
       "id": "itc-foods-aashirvaad",
       "name_en": "ITC Foods",
-      "name_zh": "ITC Foods",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11391,7 +11423,7 @@
     {
       "id": "britannia",
       "name_en": "Britannia",
-      "name_zh": "Britannia",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11405,7 +11437,7 @@
     {
       "id": "hatsun-agro",
       "name_en": "Hatsun Agro",
-      "name_zh": "Hatsun Agro",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11419,7 +11451,7 @@
     {
       "id": "rebel-foods",
       "name_en": "Rebel Foods",
-      "name_zh": "Rebel Foods",
+      "name_zh": null,
       "sector": "internet",
       "city": "mumbai",
       "status": "gov",
@@ -11433,7 +11465,7 @@
     {
       "id": "eatclub-box8",
       "name_en": "EatClub (Box8)",
-      "name_zh": "EatClub (Box8)",
+      "name_zh": null,
       "sector": "internet",
       "city": "mumbai",
       "status": "catalog",
@@ -11447,7 +11479,7 @@
     {
       "id": "curefoods-eatfit",
       "name_en": "Curefoods (EatFit)",
-      "name_zh": "Curefoods (EatFit)",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "catalog",
@@ -11461,7 +11493,7 @@
     {
       "id": "licious",
       "name_en": "Licious",
-      "name_zh": "Licious",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11475,7 +11507,7 @@
     {
       "id": "freshmenu",
       "name_en": "FreshMenu",
-      "name_zh": "FreshMenu",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "catalog",
@@ -11489,7 +11521,7 @@
     {
       "id": "biryani-by-kilo",
       "name_en": "Biryani By Kilo",
-      "name_zh": "Biryani By Kilo",
+      "name_zh": null,
       "sector": "internet",
       "city": "gurugram",
       "status": "catalog",
@@ -11503,7 +11535,7 @@
     {
       "id": "zepto-cafe",
       "name_en": "Zepto Café",
-      "name_zh": "Zepto Café",
+      "name_zh": null,
       "sector": "internet",
       "city": "gurugram",
       "status": "catalog",
@@ -11517,7 +11549,7 @@
     {
       "id": "sarvam-ai",
       "name_en": "Sarvam AI",
-      "name_zh": "Sarvam AI",
+      "name_zh": null,
       "sector": "ai",
       "city": "bengaluru",
       "status": "gov",
@@ -11531,7 +11563,7 @@
     {
       "id": "krutrim-ola",
       "name_en": "Krutrim (Ola)",
-      "name_zh": "Krutrim (Ola)",
+      "name_zh": null,
       "sector": "ai",
       "city": "bengaluru",
       "status": "catalog",
@@ -11545,7 +11577,7 @@
     {
       "id": "meesho",
       "name_en": "Meesho",
-      "name_zh": "Meesho",
+      "name_zh": null,
       "sector": "internet",
       "city": "bengaluru",
       "status": "catalog",
@@ -11559,7 +11591,7 @@
     {
       "id": "yellow-ai",
       "name_en": "Yellow.ai",
-      "name_zh": "Yellow.ai",
+      "name_zh": null,
       "sector": "ai",
       "city": "bengaluru",
       "status": "catalog",
@@ -11573,7 +11605,7 @@
     {
       "id": "mad-street-den",
       "name_en": "Mad Street Den",
-      "name_zh": "Mad Street Den",
+      "name_zh": null,
       "sector": "ai",
       "city": "bengaluru",
       "status": "catalog",
@@ -11587,7 +11619,7 @@
     {
       "id": "fractal-analytics",
       "name_en": "Fractal Analytics",
-      "name_zh": "Fractal Analytics",
+      "name_zh": null,
       "sector": "ai",
       "city": "mumbai",
       "status": "catalog",
@@ -11601,7 +11633,7 @@
     {
       "id": "qure-ai",
       "name_en": "Qure.ai",
-      "name_zh": "Qure.ai",
+      "name_zh": null,
       "sector": "ai",
       "city": "mumbai",
       "status": "catalog",
@@ -11615,7 +11647,7 @@
     {
       "id": "haptik-reliance-jio",
       "name_en": "Haptik (Reliance Jio)",
-      "name_zh": "Haptik (Reliance Jio)",
+      "name_zh": null,
       "sector": "ai",
       "city": "mumbai",
       "status": "catalog",
@@ -11629,7 +11661,7 @@
     {
       "id": "sugar-cosmetics",
       "name_en": "Sugar Cosmetics",
-      "name_zh": "Sugar Cosmetics",
+      "name_zh": null,
       "sector": "consumer",
       "city": "mumbai",
       "status": "catalog",
@@ -11643,7 +11675,7 @@
     {
       "id": "purplle",
       "name_en": "Purplle",
-      "name_zh": "Purplle",
+      "name_zh": null,
       "sector": "internet",
       "city": "mumbai",
       "status": "catalog",
@@ -11657,7 +11689,7 @@
     {
       "id": "plum-goodness",
       "name_en": "Plum Goodness",
-      "name_zh": "Plum Goodness",
+      "name_zh": null,
       "sector": "consumer",
       "city": "mumbai",
       "status": "catalog",
@@ -11671,7 +11703,7 @@
     {
       "id": "mamaearth-honasa",
       "name_en": "Mamaearth (Honasa)",
-      "name_zh": "Mamaearth (Honasa)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "gov",
@@ -11685,7 +11717,7 @@
     {
       "id": "forest-essentials",
       "name_en": "Forest Essentials",
-      "name_zh": "Forest Essentials",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "catalog",
@@ -11699,7 +11731,7 @@
     {
       "id": "swiss-beauty",
       "name_en": "Swiss Beauty",
-      "name_zh": "Swiss Beauty",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "catalog",
@@ -11713,7 +11745,7 @@
     {
       "id": "lakme-hul",
       "name_en": "Lakmé (HUL)",
-      "name_zh": "Lakmé (HUL)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "gov",
@@ -11727,7 +11759,7 @@
     {
       "id": "good-glamm-myglamm",
       "name_en": "Good Glamm (MyGlamm)",
-      "name_zh": "Good Glamm (MyGlamm)",
+      "name_zh": null,
       "sector": "consumer",
       "city": "gurugram",
       "status": "catalog",
@@ -11741,7 +11773,7 @@
     {
       "id": "giostar",
       "name_en": "GIOSTAR",
-      "name_zh": "GIOSTAR",
+      "name_zh": null,
       "sector": "medtech",
       "city": "bengaluru",
       "status": "gov",
@@ -11755,7 +11787,7 @@
     {
       "id": "decode-age",
       "name_en": "Decode Age",
-      "name_zh": "Decode Age",
+      "name_zh": null,
       "sector": "medtech",
       "city": "bengaluru",
       "status": "catalog",
@@ -11769,7 +11801,7 @@
     {
       "id": "biocon-syngene",
       "name_en": "Biocon / Syngene",
-      "name_zh": "Biocon / Syngene",
+      "name_zh": null,
       "sector": "medtech",
       "city": "bengaluru",
       "status": "gov",
@@ -11783,7 +11815,7 @@
     {
       "id": "stemrx-navi-mumbai",
       "name_en": "StemRx (Navi Mumbai)",
-      "name_zh": "StemRx (Navi Mumbai)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "mumbai",
       "status": "catalog",
@@ -11797,7 +11829,7 @@
     {
       "id": "reliance-life-sciences",
       "name_en": "Reliance Life Sciences",
-      "name_zh": "Reliance Life Sciences",
+      "name_zh": null,
       "sector": "medtech",
       "city": "mumbai",
       "status": "catalog",
@@ -11811,7 +11843,7 @@
     {
       "id": "artemis-hospitals",
       "name_en": "Artemis Hospitals",
-      "name_zh": "Artemis Hospitals",
+      "name_zh": null,
       "sector": "medtech",
       "city": "gurugram",
       "status": "gov",
@@ -11825,7 +11857,7 @@
     {
       "id": "anti-aging-centre-tac",
       "name_en": "The Anti-Aging Centre (TAC)",
-      "name_zh": "The Anti-Aging Centre (TAC)",
+      "name_zh": null,
       "sector": "medtech",
       "city": "gurugram",
       "status": "catalog",
@@ -11839,7 +11871,7 @@
     {
       "id": "apollo-nova-regenerative",
       "name_en": "Apollo/Nova — Regenerative Direction",
-      "name_zh": "Apollo/Nova — Regenerative Direction",
+      "name_zh": null,
       "sector": "medtech",
       "city": "gurugram",
       "status": "catalog",
@@ -11853,7 +11885,7 @@
     {
       "id": "blue-tokai-coffee-roasters",
       "name_en": "Blue Tokai Coffee Roasters",
-      "name_zh": "Blue Tokai Coffee Roasters",
+      "name_zh": null,
       "sector": "food",
       "city": "delhi",
       "status": "gov",
@@ -11867,7 +11899,7 @@
     {
       "id": "sleepy-owl-rage-coffee",
       "name_en": "Sleepy Owl / Rage Coffee",
-      "name_zh": "Sleepy Owl / Rage Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "delhi",
       "status": "catalog",
@@ -11881,7 +11913,7 @@
     {
       "id": "chaayos",
       "name_en": "Chaayos",
-      "name_zh": "Chaayos",
+      "name_zh": null,
       "sector": "food",
       "city": "delhi",
       "status": "catalog",
@@ -11895,7 +11927,7 @@
     {
       "id": "abcoffee",
       "name_en": "AbCoffee",
-      "name_zh": "AbCoffee",
+      "name_zh": null,
       "sector": "food",
       "city": "delhi",
       "status": "catalog",
@@ -11909,7 +11941,7 @@
     {
       "id": "third-wave-coffee",
       "name_en": "Third Wave Coffee",
-      "name_zh": "Third Wave Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11923,7 +11955,7 @@
     {
       "id": "araku-coffee",
       "name_en": "Araku Coffee",
-      "name_zh": "Araku Coffee",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11937,7 +11969,7 @@
     {
       "id": "tata-coffee-starbucks-india",
       "name_en": "Tata Coffee / Starbucks India JV",
-      "name_zh": "Tata Coffee / Starbucks India JV",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "gov",
@@ -11951,7 +11983,7 @@
     {
       "id": "boba-bhai",
       "name_en": "Boba Bhai",
-      "name_zh": "Boba Bhai",
+      "name_zh": null,
       "sector": "food",
       "city": "bengaluru",
       "status": "catalog",
@@ -11961,6 +11993,804 @@
       "desc_en": "Bubble-tea startup.",
       "desc_ru": "Бабл-ти стартап.",
       "country": "in"
+    },
+    {
+      "id": "senheng-new-retail",
+      "name_en": "Senheng New Retail Berhad",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest consumer-electronics chain (100+ stores); first E&E retailer to launch a 'Seamless Retail Model' (2017), a PlusOne super-app with S-Coin loyalty, and an Alibaba Cloud (Terminus) omnichannel data lake/ERP/WMS. Publicly listed, flagship 'Grand Senheng Elite' showroom stores.",
+      "desc_ru": "Крупнейшая сеть бытовой электроники Малайзии (100+ магазинов); первый E&E-ритейлер с 'Seamless Retail Model' (2017), супер-приложение PlusOne с токеном лояльности S-Coin и омниканальный data lake/ERP/WMS на Alibaba Cloud (Terminus). Публичная компания, флагманские шоурумы 'Grand Senheng Elite'.",
+      "country": "my"
+    },
+    {
+      "id": "mr-diy-robotic-warehouse",
+      "name_en": "MR D.I.Y. Group — Robotic Warehouse",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "65,000 sq ft robotic e-commerce warehouse in Seri Kembangan (2021, programmable picking robots, +200% efficiency); a 600,000 sq ft automated warehouse is planned. Largest home-improvement retailer in Malaysia.",
+      "desc_ru": "Роботизированный e-commerce склад площадью 65 000 кв. футов в Сери-Кембангане (2021, программируемые роботы-комплектовщики, +200% эффективности); анонсирован склад на 600 000 кв. футов. Крупнейший ритейлер товаров для дома в Малайзии.",
+      "country": "my"
+    },
+    {
+      "id": "7-eleven-malaysia-cloudpick",
+      "name_en": "7-Eleven Malaysia — CloudPick Smart Store",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's first AI-powered cashierless store using CloudPick's computer-vision 'Smart Unmanned Store' technology — scan card, pick, walk out.",
+      "desc_ru": "Первый в Малайзии AI-магазин без кассиров на технологии компьютерного зрения CloudPick 'Smart Unmanned Store' — сканируй карту, бери товар, уходи.",
+      "country": "my"
+    },
+    {
+      "id": "aeon-malaysia",
+      "name_en": "AEON Co. (M) Bhd",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Hundreds of self-checkout units rolled out, expanding omnichannel; large mall-based hypermarket operator.",
+      "desc_ru": "Сотни установленных касс самообслуживания, развитие омниканальности; крупный оператор гипермаркетов при торговых центрах.",
+      "country": "my"
+    },
+    {
+      "id": "99-speed-mart",
+      "name_en": "99 Speed Mart Retail Holdings",
+      "name_zh": null,
+      "sector": "logistics",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest mini-market chain: ~20 distribution centres, automated replenishment, Microsoft Dynamics NAV ERP + ARMS POS, 2M+ sq ft of warehousing. RM2.36bn IPO (Sept 2024) — Malaysia's largest in seven years.",
+      "desc_ru": "Крупнейшая сеть мини-маркетов Малайзии: ~20 распределительных центров, автоматизированное пополнение, ERP Microsoft Dynamics NAV + POS ARMS, 2М+ кв. футов складов. IPO на RM2,36 млрд (сент. 2024) — крупнейшее в Малайзии за семь лет.",
+      "country": "my"
+    },
+    {
+      "id": "kk-super-mart",
+      "name_en": "KK Super Mart (KK Group)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "24-hour convenience chain (~900 outlets), integrated into e-wallet reload ecosystems; targeting an IPO in H2 2026.",
+      "desc_ru": "Круглосуточная сеть конвиниенс-магазинов (~900 точек), интегрирована в экосистемы пополнения e-wallet; готовится к IPO во 2П 2026.",
+      "country": "my"
+    },
+    {
+      "id": "lotus-stores-malaysia",
+      "name_en": "Lotus's Stores (Malaysia)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Hypermarket omnichannel operator (formerly Tesco Malaysia) with app/loyalty and online grocery fulfilment.",
+      "desc_ru": "Оператор гипермаркетов с омниканальностью (бывшая Tesco Malaysia): приложение, лояльность, онлайн-доставка продуктов.",
+      "country": "my"
+    },
+    {
+      "id": "jaya-grocer",
+      "name_en": "Jaya Grocer",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Premium grocer owned by Grab, integrated into Grab's ecosystem for on-demand grocery and dark-store fulfilment.",
+      "desc_ru": "Премиальный грокери, принадлежит Grab, интегрирован в экосистему Grab для on-demand доставки и dark-store фулфилмента.",
+      "country": "my"
+    },
+    {
+      "id": "padini-holdings",
+      "name_en": "Padini Holdings Berhad",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Homegrown fashion retailer with omnichannel/e-commerce and supply-chain digitization.",
+      "desc_ru": "Локальный fashion-ритейлер с омниканальностью, e-commerce и цифровизацией цепочки поставок.",
+      "country": "my"
+    },
+    {
+      "id": "eco-shop-marketing",
+      "name_en": "Eco-Shop Marketing Berhad",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Fixed-price (dollar-store) retailer, listed May 2025; scale- and procurement-driven closing meeting.",
+      "desc_ru": "Ритейлер фиксированных цен (dollar-store), листинг в мае 2025; итоговая встреча о масштабировании и закупках.",
+      "country": "my"
+    },
+    {
+      "id": "ajinomoto-malaysia",
+      "name_en": "Ajinomoto (Malaysia) Berhad",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "New 'smart factory' (2022) in Bandar Enstek (~188,000 m²) with automation/digitalization and JAKIM halal certification.",
+      "desc_ru": "Новый 'умный завод' (2022) в Бандар-Энстеке (~188 000 м²) с автоматизацией/цифровизацией и халяль-сертификацией JAKIM.",
+      "country": "my"
+    },
+    {
+      "id": "dutch-lady-malaysia",
+      "name_en": "Dutch Lady Milk Industries Berhad",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "FrieslandCampina subsidiary; new automated Industry-4.0 dairy plant in Bandar Enstek, Negeri Sembilan.",
+      "desc_ru": "Дочерняя компания FrieslandCampina; новый автоматизированный завод Industry 4.0 в Бандар-Энстеке, Негери-Сембилан.",
+      "country": "my"
+    },
+    {
+      "id": "nestle-malaysia",
+      "name_en": "Nestlé (Malaysia) Berhad",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Multiple halal-certified manufacturing plants (Shah Alam, Chembong); a global halal hub.",
+      "desc_ru": "Несколько халяль-сертифицированных производств (Шах-Алам, Чембонг); глобальный халяль-хаб.",
+      "country": "my"
+    },
+    {
+      "id": "sime-darby-oils",
+      "name_en": "Sime Darby Oils / Sime Darby Plantation",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Palm-oil-tech leader: specialty fats, Industry-4.0 processing, automated weighbridges, LIMS.",
+      "desc_ru": "Лидер palm-oil-tech: специальные жиры, обработка по стандарту Industry 4.0, автоматизированные весовые, LIMS.",
+      "country": "my"
+    },
+    {
+      "id": "phuture-foods",
+      "name_en": "Phuture Foods Sdn Bhd",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Plant-based meat: proprietary plant-protein/fibre matrix (rice-based), thermal-processing tech mimicking pork/chicken; ~70% B2B foodservice.",
+      "desc_ru": "Растительное мясо: собственная протеиново-волоконная матрица (на основе риса), термообработка, имитирующая свинину/курицу; ~70% B2B foodservice.",
+      "country": "my"
+    },
+    {
+      "id": "mamee-double-decker",
+      "name_en": "Mamee-Double Decker (M) Berhad",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Snack and instant-noodle manufacturer with automated lines and OEM services.",
+      "desc_ru": "Производитель снеков и лапши быстрого приготовления с автоматизированными линиями и OEM-услугами.",
+      "country": "my"
+    },
+    {
+      "id": "farm-fresh-berhad",
+      "name_en": "Farm Fresh Berhad",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kulai",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest fresh-milk producer: seven farms, four processing facilities, UHT lines, and an Industry Centre of Excellence + Agro/Edu-Tourism Centre with Universiti Putra Malaysia (UPM).",
+      "desc_ru": "Крупнейший производитель свежего молока в Малайзии: семь ферм, четыре завода, линии UHT, а также Industry Centre of Excellence + агро/образовательный туристический центр с Universiti Putra Malaysia (UPM).",
+      "country": "my"
+    },
+    {
+      "id": "jemaluang-dairy-valley",
+      "name_en": "Jemaluang Dairy Valley (JDV)",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kulai",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "RM200m+ integrated dairy in Mersing, Johor, investing in automation and modern breeding technology; targeting 4,000 cows by 2027.",
+      "desc_ru": "Интегрированная молочная ферма на RM200m+ в Мерсинге, Джохор, инвестиции в автоматизацию и современную селекцию; цель — 4000 коров к 2027.",
+      "country": "my"
+    },
+    {
+      "id": "grab-food-kitchen-malaysia",
+      "name_en": "Grab (GrabFood / GrabKitchen)",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "GrabFood delivery platform plus the GrabKitchen cloud-kitchen concept — part of Grab's ride-hailing/delivery/fintech super-app.",
+      "desc_ru": "Платформа доставки GrabFood и концепция облачной кухни GrabKitchen — часть супер-приложения Grab (райдхейлинг/доставка/финтех).",
+      "country": "my"
+    },
+    {
+      "id": "foodpanda-malaysia",
+      "name_en": "foodpanda Malaysia",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Major delivery platform (Delivery Hero group); operates 'pandamart' dark-store and cloud-kitchen infrastructure across Malaysia.",
+      "desc_ru": "Крупная платформа доставки (группа Delivery Hero); dark-store инфраструктура 'pandamart' и облачные кухни по всей Малайзии.",
+      "country": "my"
+    },
+    {
+      "id": "pop-meals",
+      "name_en": "Pop Meals (formerly Dahmakan)",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Homegrown 'full-stack' cloud-kitchen pioneer since 2015; AI/ML operating system automating ~80% of workflow from recipe development to last-mile; Y Combinator-backed.",
+      "desc_ru": "Локальный пионер 'full-stack' облачных кухонь с 2015 года; AI/ML-операционная система автоматизирует ~80% процессов от разработки рецептов до последней мили; резидент Y Combinator.",
+      "country": "my"
+    },
+    {
+      "id": "cookhouse-malaysia",
+      "name_en": "Cookhouse",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Shared/cloud-kitchen enabler in the Klang Valley — plug-and-play kitchen infrastructure for F&B brands.",
+      "desc_ru": "Провайдер shared/cloud-kitchen инфраструктуры в Клэнг-Вэлли — 'kitchen as a service' для F&B-брендов.",
+      "country": "my"
+    },
+    {
+      "id": "grabkitchen-format",
+      "name_en": "GrabKitchen",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Grab's dedicated cloud-kitchen format co-locating multiple virtual restaurants on one site.",
+      "desc_ru": "Собственный формат облачной кухни Grab — несколько виртуальных ресторанов на одной площадке.",
+      "country": "my"
+    },
+    {
+      "id": "kyochon-malaysia",
+      "name_en": "KyoChon Malaysia",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Launched cloud kitchens (2019) in partnership with GrabFood — a brand cloud-kitchen case study.",
+      "desc_ru": "Запустил облачные кухни (2019) в партнёрстве с GrabFood — кейс брендовой облачной кухни.",
+      "country": "my"
+    },
+    {
+      "id": "myburgerlab",
+      "name_en": "MyBurgerLab",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Klang Valley homegrown burger chain with strong digital ordering/delivery and data-driven operations.",
+      "desc_ru": "Локальная бургерная сеть Клэнг-Вэлли с сильным цифровым заказом/доставкой и data-driven операциями.",
+      "country": "my"
+    },
+    {
+      "id": "inside-scoop",
+      "name_en": "Inside Scoop",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Central-kitchen-driven ice-cream/dessert chain — a central-kitchen production model feeding multiple outlets.",
+      "desc_ru": "Сеть мороженого/десертов на модели центральной кухни, снабжающей несколько точек продаж.",
+      "country": "my"
+    },
+    {
+      "id": "ytl-ai-cloud",
+      "name_en": "YTL AI Cloud / YTL Power International",
+      "name_zh": null,
+      "sector": "ai",
+      "city": "kulai",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "600MW YTL Green Data Center Park (1,640-acre campus), Malaysia's first Nvidia-powered AI data centre — the RM10bn YTL Power–Nvidia project, liquid-cooled Nvidia NVL72 Grace Blackwell (GB200) GPUs, hosting the sovereign LLM 'Ilmu'. Subject to security clearance.",
+      "desc_ru": "Green Data Center Park YTL на 600 МВт (кампус 1640 акров), первый в Малайзии AI-дата-центр на чипах Nvidia — проект YTL Power–Nvidia на RM10 млрд, GPU Nvidia NVL72 Grace Blackwell (GB200) с жидкостным охлаждением, суверенная LLM 'Ilmu'. Требуется допуск по безопасности.",
+      "country": "my"
+    },
+    {
+      "id": "aerodyne-group",
+      "name_en": "Aerodyne Group",
+      "name_zh": null,
+      "sector": "ai",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Global drone-as-a-service / AI aerial-analytics leader (near-unicorn): AI-driven asset inspection, smart-city surveillance, AWS partnership.",
+      "desc_ru": "Глобальный лидер drone-as-a-service / AI-аэроаналитики (почти единорог): AI-инспекция объектов, видеонаблюдение умного города, партнёрство с AWS.",
+      "country": "my"
+    },
+    {
+      "id": "gxbank",
+      "name_en": "GXBank (Grab-led digital bank)",
+      "name_zh": null,
+      "sector": "finance",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's first digital bank; regional Centre of Excellence for shared services, RM1.5bn investment.",
+      "desc_ru": "Первый цифровой банк Малайзии; региональный Centre of Excellence для общих сервисов, инвестиции RM1,5 млрд.",
+      "country": "my"
+    },
+    {
+      "id": "carsome-group",
+      "name_en": "Carsome Group",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Southeast Asia's largest used-car e-commerce platform (unicorn): AI pricing engine, 175-point inspection, fraud detection, inspection centres to tour.",
+      "desc_ru": "Крупнейшая в ЮВА e-commerce платформа подержанных авто (единорог): AI-ценообразование, 175-пунктная инспекция, антифрод, инспекционные центры для визитов.",
+      "country": "my"
+    },
+    {
+      "id": "mindvalley",
+      "name_en": "Mindvalley",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Global personal-development platform using AI for personalized learning — consumer-AI/edtech.",
+      "desc_ru": "Глобальная платформа личностного развития с AI-персонализацией обучения — consumer-AI/edtech.",
+      "country": "my"
+    },
+    {
+      "id": "grab-malaysia-rce",
+      "name_en": "Grab — Regional Centre of Excellence",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "54,000 sq ft Regional Centre of Excellence (Petaling Jaya) + Malaysia R&D centre — Grab's 7th global R&D site (ML, trust & safety, GrabChat/VOIP).",
+      "desc_ru": "Региональный Centre of Excellence на 54 000 кв. футов (Петалинг-Джая) + R&D-центр в Малайзии — 7-я глобальная R&D-площадка Grab (ML, доверие и безопасность, GrabChat/VOIP).",
+      "country": "my"
+    },
+    {
+      "id": "touch-n-go-ewallet",
+      "name_en": "Touch 'n Go eWallet (TNG Digital)",
+      "name_zh": null,
+      "sector": "finance",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest e-wallet (26M verified customers, unicorn status Aug 2025); JV with Ant Group; GO+ money-market fund serves ~3.6M active users.",
+      "desc_ru": "Крупнейший e-wallet Малайзии (26 млн верифицированных пользователей, статус единорога с авг. 2025); СП с Ant Group; фонд денежного рынка GO+ обслуживает ~3,6 млн активных пользователей.",
+      "country": "my"
+    },
+    {
+      "id": "shopee-malaysia",
+      "name_en": "Shopee (Sea Group) — Malaysia",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Regional e-commerce platform with Malaysian fulfilment centres, warehouse automation, crossbelt/tilt-tray sortation.",
+      "desc_ru": "Региональная e-commerce платформа с малайзийскими фулфилмент-центрами, автоматизацией склада, сортировкой crossbelt/tilt-tray.",
+      "country": "my"
+    },
+    {
+      "id": "lazada-malaysia",
+      "name_en": "Lazada Malaysia",
+      "name_zh": null,
+      "sector": "internet",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Alibaba-owned; high-speed fulfilment ecosystem — robotics/automated sortation, micro-fulfilment, Fulfilment by Lazada.",
+      "desc_ru": "Принадлежит Alibaba; высокоскоростная фулфилмент-экосистема — робототехника/автоматическая сортировка, микро-фулфилмент, Fulfilment by Lazada.",
+      "country": "my"
+    },
+    {
+      "id": "malaysian-fintech-cluster",
+      "name_en": "Homegrown Fintech Cluster (Jirnexu/CompareHero, iPay88, Funding Societies)",
+      "name_zh": null,
+      "sector": "finance",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysian fintech/marketplace layer — closing meeting on the local fintech ecosystem.",
+      "desc_ru": "Малайзийский финтех/маркетплейс-слой — итоговая встреча по локальной финтех-экосистеме.",
+      "country": "my"
+    },
+    {
+      "id": "wipro-unza",
+      "name_en": "Wipro Unza (Malaysia)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Makers of Safi, Aiken, Enchanteur, Eversoft. Home to the Wipro Skin Research & Innovation Centre (est. 2013, RM30m+ cumulative R&D, 70 new products/year, 100+ scientists) — one of the world's largest halal R&D facilities, JAKIM-compliant end-to-end.",
+      "desc_ru": "Производитель брендов Safi, Aiken, Enchanteur, Eversoft. Wipro Skin Research & Innovation Centre (с 2013 г., R&D-инвестиции свыше RM30 млн, 70 новых продуктов в год, 100+ учёных) — один из крупнейших в мире халяль-R&D центров, полный цикл по стандарту JAKIM.",
+      "country": "my"
+    },
+    {
+      "id": "eng-kah-corporation",
+      "name_en": "Eng Kah Corporation Berhad",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "penang",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest perfume/cosmetics contract manufacturer and the only perfumery/cosmetics maker on Bursa Malaysia's Main Board; FDA-registered, ISO/GMP/halal; historically manufactured for Avon and Johnson & Johnson.",
+      "desc_ru": "Крупнейший контрактный производитель парфюмерии/косметики в Малайзии и единственный такой производитель на основной площадке Bursa Malaysia; регистрация FDA, ISO/GMP/халяль; исторически производил для Avon и Johnson & Johnson.",
+      "country": "my"
+    },
+    {
+      "id": "elken-elysyle",
+      "name_en": "Elken Sdn Bhd (Elysyle/LUMIGEN)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Direct-selling group with an in-house skincare brand (patented actives, micro-capsule delivery, beauty devices) and a Selangor factory.",
+      "desc_ru": "Группа прямых продаж с собственным skincare-брендом (запатентованные активные вещества, микрокапсульная доставка, бьюти-устройства) и заводом в Селангоре.",
+      "country": "my"
+    },
+    {
+      "id": "intercosmetic-asia-pacific",
+      "name_en": "Intercosmetic Asia Pacific Sdn Bhd",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Colour-cosmetics/makeup/perfumery OEM/ODM with global technology partnerships and halal capability.",
+      "desc_ru": "OEM/ODM цветной косметики/макияжа/парфюмерии с глобальными технологическими партнёрствами и халяль-компетенцией.",
+      "country": "my"
+    },
+    {
+      "id": "furley-bioextracts",
+      "name_en": "Furley Bioextracts Sdn Bhd",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "OEM with 30,000+ formulations; ISO 22000/13485, cGMP, HACCP — an in-house-R&D contract manufacturer.",
+      "desc_ru": "OEM с 30 000+ рецептур; ISO 22000/13485, cGMP, HACCP — контрактный производитель с собственным R&D.",
+      "country": "my"
+    },
+    {
+      "id": "global-cosmetics-malaysia",
+      "name_en": "Global Cosmetics (Malaysia)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Markets itself as an Industry-4.0 'certified smart factory' (AI-powered production, intelligent automation, real-time production intelligence) for OEM/ODM cosmetics — self-reported, verify on site.",
+      "desc_ru": "Позиционирует себя как 'умный завод' по стандарту Industry 4.0 (AI-производство, интеллектуальная автоматизация, аналитика в реальном времени) для OEM/ODM косметики — заявлено самой компанией, требует проверки на месте.",
+      "country": "my"
+    },
+    {
+      "id": "cl-cosmetic-oem-cluster",
+      "name_en": "Halal OEM Cluster (CL Cosmetic / TCT Nutraceuticals / Sky Resources)",
+      "name_zh": null,
+      "sector": "consumer",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Selangor-based halal OEMs with in-house R&D labs and international certifications — a smart-manufacturing cluster visit.",
+      "desc_ru": "Халяль-OEM производители в Селангоре с собственными R&D-лабораториями и международными сертификатами — визит в кластер умного производства.",
+      "country": "my"
+    },
+    {
+      "id": "cryocord",
+      "name_en": "CryoCord Sdn Bhd",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Leading Malaysian stem-cell/cord-blood bank since 2002; first in SE Asia to offer CordMSCs (2009) and CordPSCs-i (2022) storage; 3 US patents + 11 Malaysian patents; cGMP (PIC/S) lab in Cyberjaya.",
+      "desc_ru": "Ведущий малазийский банк стволовых клеток/пуповинной крови с 2002 г.; первым в ЮВА предложил хранение CordMSCs (2009) и CordPSCs-i (2022); 3 патента США + 11 малазийских патентов; cGMP (PIC/S) лаборатория в Cyberjaya.",
+      "country": "my"
+    },
+    {
+      "id": "cytopeutics",
+      "name_en": "Cytopeutics Sdn Bhd",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "First Malaysian company approved for autologous MSC randomised clinical trials; published a landmark MSC cardiac-scar-resolution paper.",
+      "desc_ru": "Первая малазийская компания, получившая одобрение на рандомизированные клинические испытания аутологичных МСК; опубликовала знаковое исследование о заживлении рубца сердца с помощью МСК.",
+      "country": "my"
+    },
+    {
+      "id": "stemlife",
+      "name_en": "StemLife Berhad",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's pioneer cord-blood/tissue bank since 2001 (Megan Avenue II, KL): NIPT, chromosomal microarray, newborn metabolic/genetic screening; US-FDA-compliant cryogenic storage.",
+      "desc_ru": "Пионер банка пуповинной крови/тканей в Малайзии с 2001 г. (Megan Avenue II, KL): NIPT, хромосомный микрочип, неонатальный метаболический/генетический скрининг; криохранение по стандартам US-FDA.",
+      "country": "my"
+    },
+    {
+      "id": "malaysian-genomics-resource-centre",
+      "name_en": "Malaysian Genomics Resource Centre (MGRC)",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Genome sequencing/bioinformatics, genetic screening and cancer immunotherapy (CAR-T, NK cells); the only privately owned BSL-2 + cGMP cell lab in Malaysia; ran COVID-19 genomic surveillance for the Ministry of Health.",
+      "desc_ru": "Секвенирование генома/биоинформатика, генетический скрининг и раковая иммунотерапия (CAR-T, NK-клетки); единственная в Малайзии частная лаборатория уровня BSL-2 + cGMP; вела геномный надзор COVID-19 для Минздрава.",
+      "country": "my"
+    },
+    {
+      "id": "codon-genomics",
+      "name_en": "Codon Genomics Sdn Bhd",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Next-generation sequencing and bioinformatics services.",
+      "desc_ru": "Секвенирование нового поколения и биоинформатические сервисы.",
+      "country": "my"
+    },
+    {
+      "id": "synamatix",
+      "name_en": "Synamatix Sdn Bhd",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Proprietary bioinformatics database and sequence-pattern platform.",
+      "desc_ru": "Собственная биоинформатическая база данных и платформа анализа последовательностей.",
+      "country": "my"
+    },
+    {
+      "id": "elixir-biotech-stemtech",
+      "name_en": "Elixir Biotech / StemTech",
+      "name_zh": null,
+      "sector": "medtech",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "CryoCord-group company focused on immune-cell therapy.",
+      "desc_ru": "Компания группы CryoCord, специализация — иммуноклеточная терапия.",
+      "country": "my"
+    },
+    {
+      "id": "national-stem-cell-centre",
+      "name_en": "National Stem Cell Centre (NSCC) / UKM Tissue Engineering Centre",
+      "name_zh": null,
+      "sector": "education",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Academic/clinical research anchor — a university research visit.",
+      "desc_ru": "Академический/клинический исследовательский центр — визит в университетскую лабораторию.",
+      "country": "my"
+    },
+    {
+      "id": "zus-coffee",
+      "name_en": "ZUS Coffee",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Founded 2019, scaled to 1,000+ stores across six markets by late 2025. Tech-first 'New Retail' model: an app (1.8M downloads, 4.85/5) drives 70% of sales; surpassed Starbucks Malaysia (743 vs 320 stores, ~21% national share); AI/ML behavioral analytics for menu localization and store siting.",
+      "desc_ru": "Основана в 2019 г., к концу 2025 — 1000+ точек в шести странах. Tech-first модель 'New Retail': приложение (1,8 млн загрузок, рейтинг 4,85/5) даёт 70% продаж; обогнала Starbucks в Малайзии (743 против 320 точек, ~21% доли рынка); AI/ML-аналитика поведения для локализации меню и выбора локаций.",
+      "country": "my"
+    },
+    {
+      "id": "tealive-loob-holding",
+      "name_en": "Tealive (Loob Holding)",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "gov",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Malaysia's largest bubble-tea chain since 2017: Tealive app with in-app wallet, loyalty, self-pickup/delivery, and in-house-engineered beverage machines (e.g. SodaXpress).",
+      "desc_ru": "Крупнейшая сеть бабл-ти в Малайзии с 2017 г.: приложение Tealive с встроенным кошельком, лояльностью, самовывозом/доставкой и собственными разработками оборудования (например, SodaXpress).",
+      "country": "my"
+    },
+    {
+      "id": "bask-bear-coffee",
+      "name_en": "Bask Bear Coffee (Loob Holding)",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Fast-scaling app-integrated coffee chain within the Loob group.",
+      "desc_ru": "Быстрорастущая сеть кофеен с интеграцией в приложение, часть группы Loob.",
+      "country": "my"
+    },
+    {
+      "id": "chatime-malaysia",
+      "name_en": "Chatime Malaysia (La Kaffa)",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Bubble-tea chain with app-based ordering and loyalty.",
+      "desc_ru": "Сеть бабл-ти с заказом и лояльностью через приложение.",
+      "country": "my"
+    },
+    {
+      "id": "gigi-coffee",
+      "name_en": "Gigi Coffee",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "App-driven, fast-scaling homegrown coffee chain — an emerging ZUS competitor.",
+      "desc_ru": "Быстрорастущая локальная сеть кофеен с приложением — растущий конкурент ZUS.",
+      "country": "my"
+    },
+    {
+      "id": "luckin-coffee-malaysia",
+      "name_en": "Luckin Coffee (Malaysia entry)",
+      "name_zh": null,
+      "sector": "food",
+      "city": "kuala-lumpur",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Chinese digital-first chain now in Malaysia — a comparative benchmark against ZUS.",
+      "desc_ru": "Китайская digital-first сеть, вышедшая в Малайзию — сравнительный бенчмарк для ZUS.",
+      "country": "my"
     }
   ]
 }
