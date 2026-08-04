@@ -2988,6 +2988,1260 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "japan-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Японии: от конбини до tech-дискаунтеров",
+      "title_en": "Japan Retail: From Konbini to Tech-Discounters",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "Seven-Eleven · UNIQLO · Rakuten · Trial",
+      "tagline_en": "Seven-Eleven · UNIQLO · Rakuten · Trial",
+      "positioning_ru": "Полный срез японского ритейла: конбини-гиганты, SPA-бренды с автоматизированной логистикой и tech-дискаунтер Trial с AI-камерами — плюс однодневный перелёт в Фукуоку к штаб-квартире Trial Holdings.",
+      "positioning_en": "A full cross-section of Japanese retail: convenience-store giants, SPA brands with automated logistics, and the AI-camera-driven discounter Trial — plus a day trip to Fukuoka for Trial Holdings HQ.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 1
+      },
+      "route_strategy": "tokyo-fukuoka-daytrip",
+      "arrival_ru": "Токио (перелёт Москва → Токио, аэропорты Нарита/Ханеда)",
+      "arrival_en": "Tokyo (flight Moscow → Tokyo, Narita/Haneda)",
+      "departure_ru": "Токио (после дня 5 → Москва)",
+      "departure_en": "Tokyo (after day 5 → Moscow)",
+      "route_cities": [
+        "tokyo",
+        "fukuoka"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "seven-eleven-japan",
+            "lawson-japan"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "familymart",
+            "aeon-regigo"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fast-retailing-uniqlo",
+            "muji-tokyo"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "don-quijote-ppih",
+            "nitori"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "fukuoka",
+          "city_ru": "Фукуока",
+          "city_en": "Fukuoka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "trial-holdings",
+            "rakuten-group"
+          ],
+          "transfer_ru": "Внутренний перелёт туда-обратно Токио–Фукуока (≈2 ч в одну сторону); визит к Rakuten Group — вечером, по возвращении в Токио. Ночёвка в Токио.",
+          "transfer_en": "Round-trip domestic flight Tokyo–Fukuoka (≈2h one way); Rakuten Group visit in the evening back in Tokyo. Overnight in Tokyo.",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренний перелёт Токио–Фукуока–Токио",
+          "en": "Domestic flight Tokyo–Fukuoka–Tokyo"
+        },
+        {
+          "ru": "Трансферы и сопровождение на японском/английском",
+          "en": "Transfers and support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёт и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Перелёт Токио–Фукуока и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Tokyo–Fukuoka flight and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Японии",
+      "title_en": "Japan Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "Yakult · Kikkoman · Ajinomoto · Nissin",
+      "tagline_en": "Yakult · Kikkoman · Ajinomoto · Nissin",
+      "positioning_ru": "От пробиотиков Yakult и ферментации Kikkoman в Токио до биотехнологий аминокислот Ajinomoto и молочных технологий Кансая — с переездом на Синкансэне Токио→Осака.",
+      "positioning_en": "From Yakult's probiotics and Kikkoman's fermentation in Tokyo to Ajinomoto's amino-acid biotech and Kansai dairy technology — with a Shinkansen leg Tokyo→Osaka.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "tokyo-to-kansai",
+      "arrival_ru": "Токио (перелёт Москва → Токио, аэропорты Нарита/Ханеда)",
+      "arrival_en": "Tokyo (flight Moscow → Tokyo, Narita/Haneda)",
+      "departure_ru": "Осака (аэропорт Кансай KIX, либо возврат в Токио → Москва)",
+      "departure_en": "Osaka (Kansai Airport KIX, or back via Tokyo → Moscow)",
+      "route_cities": [
+        "tokyo",
+        "osaka"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "yakult-honsha",
+            "meiji-holdings"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио / Нода (Тиба)",
+          "city_en": "Tokyo / Noda (Chiba)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kikkoman",
+            "kewpie"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "osaka",
+          "city_ru": "Осака",
+          "city_en": "Osaka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ajinomoto",
+            "fuji-oil"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Токио→Осака (≈2,5 ч).",
+          "transfer_en": "Shinkansen transfer Tokyo→Osaka (≈2.5h).",
+          "leg_mode": "train"
+        },
+        {
+          "day": 4,
+          "city": "osaka",
+          "city_ru": "Осака",
+          "city_en": "Osaka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nissin-foods"
+          ],
+          "note_ru": "Второй визит дня — молочный завод региона Кансай (партнёр по запросу, уточняется).",
+          "note_en": "Second visit of the day — a Kansai-region dairy plant (partner to be arranged, TBC)."
+        },
+        {
+          "day": 5,
+          "city": "osaka",
+          "city_ru": "Осака / Кобе",
+          "city_en": "Osaka / Kobe",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "morinaga-milk",
+            "megmilk-snow-brand"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Переезд на Синкансэне Токио–Осака",
+          "en": "Shinkansen transfer Tokyo–Osaka"
+        },
+        {
+          "ru": "Трансферы и сопровождение на японском/английском",
+          "en": "Transfers and support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к производственным площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to plants normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый маршрут Токио–Кансай без потери дней на логистику",
+          "en": "A pre-arranged Tokyo–Kansai route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к заводам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику Токио–Кансай"
+        ],
+        "self_en": [
+          "Months of correspondence to secure plant access",
+          "No guarantee the visit is confirmed in time",
+          "Tokyo–Kansai logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Синкансэн и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Shinkansen and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды в Японии",
+      "title_en": "Japan Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "Demae-can · Uber Eats · SoftBank Robotics",
+      "tagline_en": "Demae-can · Uber Eats · SoftBank Robotics",
+      "positioning_ru": "Доставка еды и робототехника кухни в одном маршруте: от штаб-квартиры Demae-can до сервисных роботов SoftBank Robotics и роботов доставки ZMP — всё в пределах Большого Токио, без перелётов.",
+      "positioning_en": "Food delivery and kitchen robotics in one route: from Demae-can HQ to SoftBank Robotics' service robots and ZMP's delivery robots — all within Greater Tokyo, no flights.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "tokyo-only",
+      "arrival_ru": "Токио (перелёт Москва → Токио, аэропорты Нарита/Ханеда)",
+      "arrival_en": "Tokyo (flight Moscow → Tokyo, Narita/Haneda)",
+      "departure_ru": "Токио (после дня 5 → Москва)",
+      "departure_en": "Tokyo (after day 5 → Moscow)",
+      "route_cities": [
+        "tokyo"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "demae-can",
+            "uber-eats-japan"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "connected-robotics",
+            "techmagic"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "softbank-robotics",
+            "zmp"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "wolt-japan",
+            "panasonic-robotics"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "rakuten-delivery-gurunavi",
+            "menu-kddi"
+          ],
+          "note_ru": "День завершается итоговой встречей и networking.",
+          "note_en": "The day closes with a wrap-up meeting and networking."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Большого Токио",
+          "en": "Transfers within Greater Tokyo"
+        },
+        {
+          "ru": "Сопровождение на японском/английском",
+          "en": "Support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Компактный маршрут без перелётов, всё в Большом Токио",
+          "en": "A compact route with no flights, all within Greater Tokyo"
+        },
+        {
+          "ru": "Доступ к робототехническим стартапам наравне с крупными игроками",
+          "en": "Access to robotics startups alongside major players"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам и лабораториям",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно выстраивать маршрут по Токио"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ and lab access",
+          "No guarantee the visit is confirmed in time",
+          "The Tokyo route needs to be planned independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Японии: ИИ, мессенджеры, e-commerce",
+      "title_en": "Japan Internet Giants: AI, Messengers, E-commerce",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "Preferred Networks · LY Corp · Fujitsu · NTT",
+      "tagline_en": "Preferred Networks · LY Corp · Fujitsu · NTT",
+      "positioning_ru": "От фронтир-лабораторий Preferred Networks и Sakana AI до доминирующего мессенджера LY Corporation и суперкомпьютера Fugaku — маршрут целиком в Токио, без перелётов.",
+      "positioning_en": "From the frontier labs Preferred Networks and Sakana AI to the dominant messenger LY Corporation and the Fugaku supercomputer — an all-Tokyo route, no flights.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "tokyo-only",
+      "arrival_ru": "Токио (перелёт Москва → Токио, аэропорты Нарита/Ханеда)",
+      "arrival_en": "Tokyo (flight Moscow → Tokyo, Narita/Haneda)",
+      "departure_ru": "Токио (после дня 5 → Москва)",
+      "departure_en": "Tokyo (after day 5 → Moscow)",
+      "route_cities": [
+        "tokyo"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "preferred-networks",
+            "sakana-ai"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ly-corporation",
+            "paypay"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "rakuten-crimson-house",
+            "mercari"
+          ],
+          "note_ru": "Rakuten Crimson House — кампус AI + e-commerce, две сессии на одной площадке.",
+          "note_en": "Rakuten Crimson House — an AI + e-commerce campus, two sessions on one site."
+        },
+        {
+          "day": 4,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fujitsu",
+            "ntt"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "tokyo",
+          "city_ru": "Токио / Тиба",
+          "city_en": "Tokyo / Chiba",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "zozo",
+            "sony-ai"
+          ],
+          "note_ru": "ZOZO — выезд в Тибу (~1 ч); Sony AI — итоговая встреча.",
+          "note_en": "ZOZO visit requires a trip to Chiba (~1h); Sony AI is the closing meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Большого Токио, включая выезд в Тибу",
+          "en": "Transfers within Greater Tokyo, including the Chiba trip"
+        },
+        {
+          "ru": "Сопровождение на японском/английском",
+          "en": "Support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к фронтир-лабораториям и штаб-квартирам, обычно закрытым для визитов",
+          "en": "Access to frontier labs and HQs normally closed to visits"
+        },
+        {
+          "ru": "Компактный маршрут без перелётов",
+          "en": "A compact route with no flights"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к лабораториям и штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно выстраивать маршрут по Токио"
+        ],
+        "self_en": [
+          "Months of correspondence to secure lab and HQ access",
+          "No guarantee the visit is confirmed in time",
+          "The Tokyo route needs to be planned independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Японии",
+      "title_en": "Japan Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "Shiseido · Kao · Pola Orbis · MTG",
+      "tagline_en": "Shiseido · Kao · Pola Orbis · MTG",
+      "positioning_ru": "От Global Innovation Center Shiseido в Иокогаме до бьюти-девайсов MTG (ReFa) в Нагое — J-beauty индустрия целиком, через три региона на Синкансэне.",
+      "positioning_en": "From Shiseido's Global Innovation Center in Yokohama to MTG's (ReFa) beauty devices in Nagoya — the whole J-beauty industry across three regions by Shinkansen.",
+      "stats": {
+        "cities": 4,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "tokyo-kansai-nagoya",
+      "arrival_ru": "Иокогама (перелёт Москва → Токио, трансфер ≈30 мин в Иокогаму)",
+      "arrival_en": "Yokohama (flight Moscow → Tokyo, ≈30min transfer to Yokohama)",
+      "departure_ru": "Нагоя (аэропорт Тюбу Центрэйр, либо возврат в Токио → Москва)",
+      "departure_en": "Nagoya (Chubu Centrair Airport, or back via Tokyo → Moscow)",
+      "route_cities": [
+        "yokohama",
+        "tokyo",
+        "osaka",
+        "nagoya"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "yokohama",
+          "city_ru": "Иокогама",
+          "city_en": "Yokohama",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "shiseido",
+            "fancl"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер (~30 мин от Токио), короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, ~30min transfer from Tokyo, short check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kao",
+            "kanebo"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "pola-orbis",
+            "kose"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "osaka",
+          "city_ru": "Осака",
+          "city_en": "Osaka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "panasonic-beauty",
+            "mandom",
+            "rohto"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Токио→Осака.",
+          "transfer_en": "Shinkansen transfer Tokyo→Osaka.",
+          "leg_mode": "train"
+        },
+        {
+          "day": 5,
+          "city": "nagoya",
+          "city_ru": "Нагоя",
+          "city_en": "Nagoya",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "mtg-refa"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Осака→Нагоя. Второй визит дня — локальный шоурум бьюти-девайсов (уточняется). Ночёвка — Токио (возврат) или Нагоя.",
+          "transfer_en": "Shinkansen transfer Osaka→Nagoya. Second visit of the day — a local beauty-device showroom (TBC). Overnight in Tokyo (return) or Nagoya.",
+          "leg_mode": "train"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Переезды на Синкансэне Токио–Осака–Нагоя",
+          "en": "Shinkansen transfers Tokyo–Osaka–Nagoya"
+        },
+        {
+          "ru": "Трансферы и сопровождение на японском/английском",
+          "en": "Transfers and support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к R&D-центрам, обычно закрытым для случайных визитов",
+          "en": "Access to R&D centers normally closed to casual visits"
+        },
+        {
+          "ru": "Маршрут через три ключевых бьюти-региона Японии",
+          "en": "A route across Japan's three key beauty regions"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к R&D-центрам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику трёх городов"
+        ],
+        "self_en": [
+          "Months of correspondence to secure R&D access",
+          "No guarantee the visit is confirmed in time",
+          "Three-city logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Синкансэн и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Shinkansen and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Лонгевити и anti-aging биотех Японии",
+      "title_en": "Japan Longevity & Anti-Aging Biotech",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "FUJIFILM · Eisai · Kyoto CiRA · RIKEN",
+      "tagline_en": "FUJIFILM · Eisai · Kyoto CiRA · RIKEN",
+      "positioning_ru": "От iPSC-технологий FUJIFILM до мирового хаба клеточного репрограммирования CiRA в Киото и исследований генов долголетия RIKEN — токийско-кансайский маршрут биотеха старения.",
+      "positioning_en": "From FUJIFILM's iPSC technology to the world's cell-reprogramming hub CiRA in Kyoto and RIKEN's longevity-gene research — a Tokyo–Kansai aging-biotech route.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "tokyo-kansai-return",
+      "arrival_ru": "Токио (перелёт Москва → Токио, аэропорты Нарита/Ханеда)",
+      "arrival_en": "Tokyo (flight Moscow → Tokyo, Narita/Haneda)",
+      "departure_ru": "Токио (после дня 5 → Москва)",
+      "departure_en": "Tokyo (after day 5 → Moscow)",
+      "route_cities": [
+        "tokyo",
+        "osaka",
+        "kyoto"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fujifilm-ips",
+            "healios"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "eisai",
+            "shiseido"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "osaka",
+          "city_ru": "Осака",
+          "city_en": "Osaka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kaneka",
+            "rohto"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Токио→Осака.",
+          "transfer_en": "Shinkansen transfer Tokyo→Osaka.",
+          "leg_mode": "train"
+        },
+        {
+          "day": 4,
+          "city": "kyoto",
+          "city_ru": "Киото",
+          "city_en": "Kyoto",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kyoto-university-cira"
+          ],
+          "transfer_ru": "Выезд в Киото (~30 мин от Осаки), академический визит. Ночёвка — Осака.",
+          "transfer_en": "Day trip to Kyoto (~30min from Osaka), academic visit. Overnight in Osaka."
+        },
+        {
+          "day": 5,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "riken-wako",
+            "cellusion",
+            "metcela"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Осака→Токио. Второй визит — кластер стартапов Cellusion / Metcela.",
+          "transfer_en": "Shinkansen transfer Osaka→Tokyo. Second visit — the Cellusion / Metcela startup cluster.",
+          "leg_mode": "train"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Переезды на Синкансэне Токио–Осака–Токио",
+          "en": "Shinkansen transfers Tokyo–Osaka–Tokyo"
+        },
+        {
+          "ru": "Трансферы и сопровождение на японском/английском",
+          "en": "Transfers and support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к лабораториям и институтам, обычно закрытым для визитов",
+          "en": "Access to labs and institutes normally closed to visits"
+        },
+        {
+          "ru": "Академический визит в CiRA — мировой хаб iPSC-исследований",
+          "en": "An academic visit to CiRA — the world's iPSC-research hub"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к лабораториям",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику Токио–Кансай"
+        ],
+        "self_en": [
+          "Months of correspondence to secure lab access",
+          "No guarantee the visit is confirmed in time",
+          "Tokyo–Kansai logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Синкансэн и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Shinkansen and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "japan-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "jp",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Японии",
+      "title_en": "Japan Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-делегации в Японию",
+      "eyebrow_en": "Business delegations to Japan",
+      "tagline_ru": "UCC · %Arabica · Starbucks Reserve · Doutor",
+      "tagline_en": "UCC · %Arabica · Starbucks Reserve · Doutor",
+      "positioning_ru": "От музея кофе UCC в Кобе и специализированной обжарки %Arabica в Киото до флагманской Starbucks Reserve Roastery в Токио — кофейная культура Японии от завода до чашки.",
+      "positioning_en": "From the UCC Coffee Museum in Kobe and %Arabica's specialty roasting in Kyoto to the flagship Starbucks Reserve Roastery in Tokyo — Japan's coffee culture from plant to cup.",
+      "stats": {
+        "cities": 4,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "kansai-to-tokyo",
+      "arrival_ru": "Кобе (перелёт Москва → Токио, переезд на Синкансэне ≈3 ч до Кобе в день прилёта)",
+      "arrival_en": "Kobe (flight Moscow → Tokyo, ≈3h Shinkansen transfer to Kobe on arrival day)",
+      "departure_ru": "Токио (после дня 5 → Москва)",
+      "departure_en": "Tokyo (after day 5 → Moscow)",
+      "route_cities": [
+        "kobe",
+        "osaka",
+        "kyoto",
+        "tokyo"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "kobe",
+          "city_ru": "Кобе",
+          "city_en": "Kobe",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ucc-ueshima-coffee"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, переезд на Синкансэне из Токио, короткое заселение — программа стартует в день прилёта. Ночёвка — Осака.",
+          "transfer_en": "Delegation arrives in the morning, Shinkansen transfer from Tokyo, short check-in — the program starts on arrival day. Overnight in Osaka.",
+          "leg_mode": "train"
+        },
+        {
+          "day": 2,
+          "city": "osaka",
+          "city_ru": "Осака",
+          "city_en": "Osaka",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "suntory-boss-coffee"
+          ],
+          "note_ru": "Второй визит дня — локальная сеть кофеен (уточняется).",
+          "note_en": "Second visit of the day — a local coffee-shop chain (TBC)."
+        },
+        {
+          "day": 3,
+          "city": "kyoto",
+          "city_ru": "Киото",
+          "city_en": "Kyoto",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "arabica-percent",
+            "ogawa-coffee"
+          ],
+          "transfer_ru": "Выезд в Киото (~30 мин от Осаки). Ночёвка — Осака.",
+          "transfer_en": "Day trip to Kyoto (~30min from Osaka). Overnight in Osaka."
+        },
+        {
+          "day": 4,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "starbucks-reserve-roastery-nakameguro",
+            "blue-bottle-japan"
+          ],
+          "transfer_ru": "Переезд на Синкансэне Осака→Токио.",
+          "transfer_en": "Shinkansen transfer Osaka→Tokyo.",
+          "leg_mode": "train"
+        },
+        {
+          "day": 5,
+          "city": "tokyo",
+          "city_ru": "Токио",
+          "city_en": "Tokyo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "doutor-coffee",
+            "gong-cha-japan"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Переезды на Синкансэне Токио–Кобе и Осака–Токио",
+          "en": "Shinkansen transfers Tokyo–Kobe and Osaka–Tokyo"
+        },
+        {
+          "ru": "Трансферы и сопровождение на японском/английском",
+          "en": "Transfers and support in Japanese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к обжарочным производствам и штаб-квартирам, обычно закрытым для визитов",
+          "en": "Access to roasteries and HQs normally closed to visits"
+        },
+        {
+          "ru": "Маршрут через три ключевых города кофейной культуры Японии",
+          "en": "A route across Japan's three key coffee-culture cities"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к производствам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику Кансай–Токио"
+        ],
+        "self_en": [
+          "Months of correspondence to secure plant access",
+          "No guarantee the visit is confirmed in time",
+          "Kansai–Tokyo logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Синкансэн и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Shinkansen and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
