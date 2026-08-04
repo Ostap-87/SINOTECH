@@ -6692,6 +6692,1240 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "indonesia-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Индонезии: от Indomaret до Blibli",
+      "title_en": "Indonesia Retail: From Indomaret to Blibli",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "Indomaret · MAP · AEON · Blibli",
+      "tagline_en": "Indomaret · MAP · AEON · Blibli",
+      "positioning_ru": "От крупнейшей сети минимаркетов Indomaret (20 000+ точек) до O2O-интеграции Blibli — индонезийский ритейл целиком в Джакарте.",
+      "positioning_en": "From Indomaret's minimarket network (20,000+ outlets) to Blibli's O2O integration — Indonesia's retail landscape entirely within Jakarta.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "jakarta-only",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "indomaret",
+            "alfamart"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "map-mitra-adiperkasa",
+            "erajaya-erafone"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "transmart-ct-corp",
+            "matahari-department-store"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "aeon-indonesia",
+            "ace-hardware-kawan-lama"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ranch-market",
+            "blibli"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Индонезии",
+      "title_en": "Indonesia Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "Indofood · Frisian Flag · Cimory · Ultrajaya",
+      "tagline_en": "Indofood · Frisian Flag · Cimory · Ultrajaya",
+      "positioning_ru": "От автоматизации Indomie (Indofood) до 'Cimory Dairyland' в Семаранге и пионера UHT-упаковки Ultrajaya в Бандунге — через четыре региона Явы.",
+      "positioning_en": "From Indomie's automation (Indofood) to Cimory Dairyland in Semarang and Ultrajaya's UHT-packaging pioneer in Bandung — across four regions of Java.",
+      "stats": {
+        "cities": 4,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "jakarta-cikarang-semarang-bandung",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta",
+        "cikarang",
+        "semarang",
+        "bandung"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "indofood"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "cikarang",
+          "city_ru": "Чикаранг",
+          "city_en": "Cikarang",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "frisian-flag-indonesia",
+            "kalbe-nutritionals"
+          ],
+          "transfer_ru": "Поездка в Чикаранг (~1,5 ч от Джакарты).",
+          "transfer_en": "Trip to Cikarang (~1.5h from Jakarta)."
+        },
+        {
+          "day": 3,
+          "city": "semarang",
+          "city_ru": "Семаранг",
+          "city_en": "Semarang",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cimory"
+          ],
+          "transfer_ru": "Перелёт Джакарта→Семаранг (≈1,5 ч).",
+          "transfer_en": "Flight Jakarta→Semarang (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "bandung",
+          "city_ru": "Бандунг",
+          "city_en": "Bandung",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ultrajaya",
+            "mayora-indah"
+          ],
+          "transfer_ru": "Переезд Семаранг→Бандунг.",
+          "transfer_en": "Transfer Semarang→Bandung."
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nestle-indonesia",
+            "garudafood"
+          ],
+          "transfer_ru": "Переезд Бандунг→Джакарта. Упрощённая версия маршрута (только Джакарта + Чикаранг) доступна по запросу.",
+          "transfer_en": "Transfer Bandung→Jakarta. A simplified route (Jakarta + Cikarang only) is available on request."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды в Индонезии",
+      "title_en": "Indonesia Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "GoTo · Grab · Yummy Corp · ShopeeFood",
+      "tagline_en": "GoTo · Grab · Yummy Corp · ShopeeFood",
+      "positioning_ru": "От штаб-квартиры GoTo (GoFood/GoKitchen) до крупнейшего оператора облачных кухонь Yummy Corp — вся доставка еды Джакарты, без перелётов.",
+      "positioning_en": "From GoTo's HQ (GoFood/GoKitchen) to Yummy Corp, Indonesia's largest cloud-kitchen operator — all of Jakarta's food-delivery scene, no flights.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "jakarta-only",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "goto-gofood-gokitchen",
+            "grab-indonesia"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "yummy-corp",
+            "everplate"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "hangry-id",
+            "legit-group"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "dailybox-group",
+            "shopeefood-indonesia"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "wahyoo"
+          ],
+          "note_ru": "День завершается итоговой встречей.",
+          "note_en": "The day closes with a wrap-up meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Индонезии: ИИ, мессенджеры, e-commerce",
+      "title_en": "Indonesia Internet Giants: AI, Messengers, E-commerce",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "GoTo · Kata.ai · Sahabat-AI · Bukalapak",
+      "tagline_en": "GoTo · Kata.ai · Sahabat-AI · Bukalapak",
+      "positioning_ru": "От единого кампуса GoTo (Gojek+Tokopedia+GoPay) до индонезийской LLM Sahabat-AI (консорциум Indosat/GoTo) — весь tech-стек Индонезии в Джакарте.",
+      "positioning_en": "From GoTo's unified campus (Gojek+Tokopedia+GoPay) to the Indonesian LLM Sahabat-AI (an Indosat/GoTo consortium) — Indonesia's whole tech stack within Jakarta.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "jakarta-only",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "goto-campus"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day.",
+          "note_ru": "Кампус GoTo — две сессии на одной площадке.",
+          "note_en": "The GoTo campus — two sessions on one site."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "grab-indonesia",
+            "blibli"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kata-ai",
+            "nodeflux"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "prosa-ai",
+            "sahabat-ai"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "shopee-tiktok-shop-indonesia",
+            "bukalapak"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Индонезии",
+      "title_en": "Indonesia Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "Paragon (Wardah) · Martha Tilaar · MS Glow",
+      "tagline_en": "Paragon (Wardah) · Martha Tilaar · MS Glow",
+      "positioning_ru": "От halal-tech инновационного центра Paragon (Wardah/Emina/Make Over) в Тангеранге до tech-driven skincare Avoskin в Джокьякарте.",
+      "positioning_en": "From Paragon's halal-tech innovation center (Wardah/Emina/Make Over) in Tangerang to Avoskin's tech-driven skincare in Yogyakarta.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 2
+      },
+      "route_strategy": "tangerang-jakarta-yogyakarta",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "tangerang",
+        "jakarta",
+        "yogyakarta"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "tangerang",
+          "city_ru": "Тангеранг",
+          "city_en": "Tangerang",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "paragon-technology-innovation",
+            "kahf-paragon"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер (~1 ч от Джакарты), короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, ~1h transfer from Jakarta, short check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "martha-tilaar-group",
+            "mustika-ratu"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "somethinc-beauty-haul",
+            "base-skincare"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "yogyakarta",
+          "city_ru": "Джокьякарта",
+          "city_en": "Yogyakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "avoskin",
+            "esqa-cosmetics"
+          ],
+          "transfer_ru": "Перелёт Джакарта→Джокьякарта (≈1 ч).",
+          "transfer_en": "Flight Jakarta→Yogyakarta (≈1h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ms-glow",
+            "rose-all-day"
+          ],
+          "transfer_ru": "Перелёт обратно в Джакарту.",
+          "transfer_en": "Flight back to Jakarta.",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Лонгевити Индонезии — корпоративная регенеративная медицина",
+      "title_en": "Indonesia Longevity — Corporate Regenerative Medicine",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "Kalbe Farma · Prodia · Bio Farma",
+      "tagline_en": "Kalbe Farma · Prodia · Bio Farma",
+      "positioning_ru": "От инновационного кампуса KBIC Kalbe Farma (первое GMP-производство стволовых клеток в Индонезии) до опциональной клиники Regeneratia на Бали — сила сегмента в корпоративном производстве.",
+      "positioning_en": "From Kalbe Farma's KBIC innovation campus (Indonesia's first GMP stem-cell manufacturing) to the optional Regeneratia clinic in Bali — the segment's strength lies in corporate manufacturing.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "jakarta-bali-optional",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Бали/Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bali/Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta",
+        "bali"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kalbe-farma-kbic"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "prodia-stemcell-prostem",
+            "kalgen-dna"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kg-bio-kalbe",
+            "prodia"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "biothera-stem-cell-clinic",
+            "bio-farma-kimia-farma"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bali",
+          "city_ru": "Бали",
+          "city_en": "Bali",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "regeneratia-bali"
+          ],
+          "transfer_ru": "Опциональное расширение на Бали (перелёт ≈2 ч). Потребительский клинический слой в Индонезии пока тонкий.",
+          "transfer_en": "Optional extension to Bali (flight ≈2h). The consumer clinical layer in Indonesia is still thin.",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "indonesia-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "id",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Индонезии",
+      "title_en": "Indonesia Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-делегации в Индонезию",
+      "eyebrow_en": "Business delegations to Indonesia",
+      "tagline_ru": "Kopi Kenangan · Fore Coffee · Chatime",
+      "tagline_en": "Kopi Kenangan · Fore Coffee · Chatime",
+      "positioning_ru": "От первого фудтех-единорога ЮВА Kopi Kenangan до лидера бабл-ти Chatime Indonesia — кофейная и чайная культура Джакарты в одном маршруте.",
+      "positioning_en": "From Kopi Kenangan, SE Asia's first foodtech unicorn, to Chatime Indonesia, the bubble-tea market leader — Jakarta's coffee and tea culture in one route.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "jakarta-only",
+      "arrival_ru": "Джакарта (перелёт Москва → Джакарта)",
+      "arrival_en": "Jakarta (flight Moscow → Jakarta)",
+      "departure_ru": "Джакарта — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Jakarta — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "jakarta"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kopi-kenangan",
+            "fore-coffee"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kopi-janji-jiwa",
+            "tomoro-coffee"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "chatime-indonesia",
+            "esteh-indonesia"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "haus-drinks",
+            "point-coffee-indomaret"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "jakarta",
+          "city_ru": "Джакарта",
+          "city_en": "Jakarta",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "kenangan-coffee-chigo"
+          ],
+          "note_ru": "День завершается итоговой встречей.",
+          "note_en": "The day closes with a wrap-up meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на индонезийском/английском",
+          "en": "Support in Indonesian/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
