@@ -1,7 +1,9 @@
 // Regenerates public/rss.xml from the blog content — run automatically as
 // part of `npm run build` (see package.json), same pattern as
-// generate-sitemap.mjs. This feed is what a Yandex Zen channel subscribes to,
-// so new blog posts show up there without any manual publishing step.
+// generate-sitemap.mjs. NOTE: this is a plain SEO/syndication feed, not the
+// Zen pipeline — Yandex Zen retired RSS import; Zen actually mirrors the
+// "Командировка в будущее" Telegram channel via its Telegram cross-posting
+// bot (see CLAUDE.md). Keep this feed for other RSS readers / search engines.
 import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
