@@ -3,9 +3,10 @@ import { Link, useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { toursData, companiesData, getSector, companyNameZh } from '@/data'
 import { RouteMap } from '@/components/RouteMap'
-import type { RouteMapStop, RouteMapHandle } from '@/components/RouteMap'
+import type { RouteMapStop, RouteMapHandle, RouteMapCountry } from '@/components/RouteMap'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
+import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
@@ -95,11 +96,16 @@ export function ExpeditionDetail() {
   }
 
   const hasPricing = tour.pricing.total_excl_flights != null
+  // Раньше карта и фон были жёстко "china" для всех туров — для Кореи и
+  // будущих стран это рисовало контур Китая с корейскими городами внутри,
+  // географически бессмысленно. COUNTRY_SHAPES уже даёт нужное сопоставление
+  // (используется для превью стран), тут просто переиспользуем его.
+  const mapCountry = (COUNTRY_SHAPES[tour.country]?.shape ?? 'china') as RouteMapCountry
 
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-x-0 top-0 h-[820px] lg:h-[720px]">
-        <ParticleCanvas ref={canvasHandleRef} shape="china" />
+        <ParticleCanvas ref={canvasHandleRef} shape={mapCountry} />
         <div
           className="pointer-events-none absolute inset-0"
           style={{
@@ -166,7 +172,12 @@ export function ExpeditionDetail() {
         <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-stretch">
           <div className="flex h-full flex-col">
             <h3 className="text-lg font-medium">{locale === 'ru' ? 'Маршрут' : 'Route'}</h3>
-            <RouteMap ref={routeMapRef} stops={buildRouteStops(tour, locale)} className="mt-4 flex-1" />
+            <RouteMap
+              ref={routeMapRef}
+              stops={buildRouteStops(tour, locale)}
+              className="mt-4 flex-1"
+              country={mapCountry}
+            />
           </div>
 
           <div>

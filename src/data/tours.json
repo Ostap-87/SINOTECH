@@ -2205,6 +2205,789 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "korea-industry-manufacturing-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "kr",
+      "sector": "heavy",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Промышленность и производство Кореи",
+      "title_en": "Korea Industrial & Manufacturing Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Корею",
+      "eyebrow_en": "Business delegations to Korea",
+      "tagline_ru": "Samsung · LG · Hyundai · POSCO",
+      "tagline_en": "Samsung · LG · Hyundai · POSCO",
+      "positioning_ru": "От дисплеев и полупроводников до автозаводов и металлургии — маршрут по производственным флагманам Южной Кореи.",
+      "positioning_en": "From displays and semiconductors to auto plants and steelmaking — a route through South Korea's manufacturing flagships.",
+      "stats": {
+        "cities": 5,
+        "days": 6,
+        "nights": 6,
+        "companies": 6,
+        "flights": 0
+      },
+      "route_strategy": "seoul-to-southeast",
+      "arrival_ru": "Сеул (перелёт Москва → Сеул, аэропорт Инчхон)",
+      "arrival_en": "Seoul (Moscow → Seoul flight, Incheon Airport)",
+      "departure_ru": "Пхохан (→ Сеул → Москва)",
+      "departure_en": "Pohang (→ Seoul → Moscow)",
+      "route_cities": [
+        "seoul",
+        "paju",
+        "suwon",
+        "ulsan",
+        "pohang"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "Гангнам",
+          "area_en": "Gangnam",
+          "time": "10:00–13:00",
+          "companies": [
+            "samsung-dlight"
+          ],
+          "note_ru": "Бесплатный вход, без брони.",
+          "note_en": "Free entry, no booking needed."
+        },
+        {
+          "day": 2,
+          "city": "paju",
+          "city_ru": "Пхаджу",
+          "city_en": "Paju",
+          "area_ru": "Display City",
+          "area_en": "Display City",
+          "time": "10:00–13:00",
+          "companies": [
+            "lg-display-paju"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "По официальному согласованию. ~1 ч от Сеула, возврат в Сеул вечером.",
+          "transfer_en": "By official arrangement. ~1 h from Seoul, return to Seoul in the evening."
+        },
+        {
+          "day": 3,
+          "city": "suwon",
+          "city_ru": "Сувон",
+          "city_en": "Suwon",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–12:00",
+          "companies": [
+            "samsung-innovation-museum"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Докент-тур по записи, только в будни. Днём — переезд в Ульсан (KTX + автобус, ~2,5 ч).",
+          "transfer_en": "Docent tour by appointment, weekdays only. Afternoon transfer to Ulsan (KTX + bus, ~2.5 h)."
+        },
+        {
+          "day": 4,
+          "city": "ulsan",
+          "city_ru": "Ульсан, день 1",
+          "city_en": "Ulsan, day 1",
+          "area_ru": "",
+          "area_en": "",
+          "time": "09:00–13:00",
+          "companies": [
+            "hyundai-motor-ulsan"
+          ],
+          "note_ru": "Групповой тур от 30 человек, бронь заранее. Ночёвка в Ульсане.",
+          "note_en": "Group tour from 30 people, book in advance. Overnight in Ulsan."
+        },
+        {
+          "day": 5,
+          "city": "ulsan",
+          "city_ru": "Ульсан, день 2",
+          "city_en": "Ulsan, day 2",
+          "area_ru": "",
+          "area_en": "",
+          "time": "09:00–12:00",
+          "companies": [
+            "hyundai-heavy-industries-ulsan"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Групповой тур от 15 человек, свой автобус. Переезд в Пхохан (~1 ч).",
+          "transfer_en": "Group tour from 15 people, own bus. Transfer to Pohang (~1 h)."
+        },
+        {
+          "day": 6,
+          "city": "pohang",
+          "city_ru": "Пхохан, финал",
+          "city_en": "Pohang, finale",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "posco"
+          ],
+          "note_ru": "Бронь онлайн за 2 дня. Экскурсия на завод — только по субботам. Завершение программы.",
+          "note_en": "Book online 2 days ahead. Factory tour available Saturdays only. End of the program."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Экскурсии по производствам — от дисплейных кластеров до автозаводов и верфей",
+          "en": "Production tours — from display clusters to auto plants and shipyards"
+        },
+        {
+          "ru": "Переговоры и координация визитов, требующих официального согласования",
+          "en": "Coordination and negotiation for visits requiring official arrangement"
+        },
+        {
+          "ru": "Переводчик и техническая экспертиза на каждой площадке",
+          "en": "Interpreter and technical expertise at every site"
+        },
+        {
+          "ru": "Логистика между городами — Сеул, Пхаджу, Сувон, Ульсан, Пхохан",
+          "en": "Inter-city logistics — Seoul, Paju, Suwon, Ulsan, Pohang"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Полный производственный контур — дисплеи, авто, судостроение, сталь в одной поездке",
+          "en": "A full manufacturing loop — displays, autos, shipbuilding and steel in one trip"
+        },
+        {
+          "ru": "Компактная география — весь маршрут в пределах материковой Южной Кореи, без внутренних перелётов",
+          "en": "Compact geography — the entire route stays within mainland South Korea, no domestic flights"
+        },
+        {
+          "ru": "Мы берём на себя согласование визитов, которые не бронируются онлайн",
+          "en": "We handle the arrangement of visits that can't be booked online"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Часть заводов не отвечает на запросы без корпоративных связей",
+          "Языковой барьер и разница в деловой культуре",
+          "Логистика между городами без локального опыта",
+          "Риск потратить недели на согласование одного визита"
+        ],
+        "self_en": [
+          "Some plants don't respond to requests without corporate connections",
+          "Language barrier and business-culture gap",
+          "Inter-city logistics without local experience",
+          "Risk of weeks spent arranging a single visit"
+        ],
+        "with_us_ru": [
+          "Согласованный маршрут по 6 производственным лидерам",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Продуманная логистика между 5 городами без перелётов",
+          "Готовая программа под ключ"
+        ],
+        "with_us_en": [
+          "A coordinated route through 6 manufacturing leaders",
+          "Translation and technical expertise at every meeting",
+          "Thought-through logistics across 5 cities, no flights",
+          "A turnkey program"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Южная Корея — один из мировых центров тяжёлой промышленности: крупнейший в мире автозавод под одной крышей (Hyundai, Ульсан), крупнейшая судостроительная компания мира (Hyundai Heavy Industries) и один из мировых лидеров чёрной металлургии (POSCO).",
+      "market_note_en": "South Korea is one of the world's heavy-industry hubs: the world's largest single-roof auto plant (Hyundai, Ulsan), the world's largest shipbuilder (Hyundai Heavy Industries), and one of the world's leading steelmakers (POSCO).",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "korea-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "kr",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Технологии и интернет-гиганты Кореи",
+      "title_en": "Korea Tech & Internet Giants Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Корею",
+      "eyebrow_en": "Business delegations to Korea",
+      "tagline_ru": "Coupang · Naver · Kakao · Doosan Robotics",
+      "tagline_en": "Coupang · Naver · Kakao · Doosan Robotics",
+      "positioning_ru": "E-commerce, доставка еды, поиск, мессенджеры, игры и гуманоидная робототехника — интернет-экосистема Кореи изнутри.",
+      "positioning_en": "E-commerce, food delivery, search, messaging, gaming and humanoid robotics — South Korea's internet ecosystem from the inside.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 5,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "seoul-to-pangyo",
+      "arrival_ru": "Сеул (перелёт Москва → Сеул, аэропорт Инчхон)",
+      "arrival_en": "Seoul (Moscow → Seoul flight, Incheon Airport)",
+      "departure_ru": "Йонъин (→ Сеул → Москва)",
+      "departure_en": "Yongin (→ Seoul → Moscow)",
+      "route_cities": [
+        "seoul",
+        "seongnam",
+        "suwon",
+        "yongin"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "Сонпха / Чамсиль",
+          "area_en": "Songpa / Jamsil",
+          "time": "10:00–14:00",
+          "companies": [
+            "coupang",
+            "woowa-brothers-baemin"
+          ],
+          "note_ru": "Оба визита — по официальному согласованию.",
+          "note_en": "Both visits by official arrangement."
+        },
+        {
+          "day": 2,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "Чунгу",
+          "area_en": "Jung-gu",
+          "time": "10:00–13:00",
+          "companies": [
+            "sk-telecom-tum"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Бронь онлайн обязательна. Вечером — переезд в Соннам/Пангё.",
+          "transfer_en": "Online booking required. Evening transfer to Seongnam/Pangyo."
+        },
+        {
+          "day": 3,
+          "city": "seongnam",
+          "city_ru": "Соннам (Пангё)",
+          "city_en": "Seongnam (Pangyo)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–14:00",
+          "companies": [
+            "naver",
+            "kakao"
+          ],
+          "note_ru": "Оба визита — по официальному согласованию.",
+          "note_en": "Both visits by official arrangement."
+        },
+        {
+          "day": 4,
+          "city": "suwon",
+          "city_ru": "Соннам (Пангё) / Сувон",
+          "city_en": "Seongnam (Pangyo) / Suwon",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–14:00",
+          "companies": [
+            "ncsoft",
+            "doosan-robotics"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Оба визита — по официальному согласованию. Переезд Пангё → Сувон в течение дня (~20–30 мин).",
+          "transfer_en": "Both visits by official arrangement. Pangyo → Suwon transfer during the day (~20-30 min)."
+        },
+        {
+          "day": 5,
+          "city": "yongin",
+          "city_ru": "Йонъин, финал",
+          "city_en": "Yongin, finale",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "rainbow-robotics"
+          ],
+          "note_ru": "По официальному согласованию (офис в Йонъин Техно Вэлли; головной R&D — в Тэджоне). Завершение программы.",
+          "note_en": "By official arrangement (office in Yongin Techno Valley; core R&D is in Daejeon). End of the program."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Визиты в штаб-квартиры e-commerce, доставки, поиска, мессенджеров и игровой индустрии",
+          "en": "Visits to e-commerce, delivery, search, messaging and gaming HQs"
+        },
+        {
+          "ru": "Координация визитов, требующих официального запроса через корпоративные или государственные каналы",
+          "en": "Coordination of visits requiring an official request through corporate or government channels"
+        },
+        {
+          "ru": "Переводчик и техническая экспертиза на каждой встрече",
+          "en": "Interpreter and technical expertise at every meeting"
+        },
+        {
+          "ru": "Логистика между Сеулом, Соннамом, Сувоном и Йонъином",
+          "en": "Logistics across Seoul, Seongnam, Suwon and Yongin"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "8 компаний за 5 дней — от e-commerce до гуманоидной робототехники",
+          "en": "8 companies in 5 days — from e-commerce to humanoid robotics"
+        },
+        {
+          "ru": "Компактная география вокруг Сеула и технопарка Пангё, без внутренних перелётов",
+          "en": "Compact geography around Seoul and the Pangyo tech park, no domestic flights"
+        },
+        {
+          "ru": "Мы берём на себя согласование визитов, недоступных для обычного туриста",
+          "en": "We handle arranging visits not open to ordinary visitors"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Coupang, Naver, Kakao, NCSoft, Doosan и Rainbow Robotics не принимают открытые заявки — только официальный запрос",
+          "Языковой барьер и разница в деловой культуре",
+          "Долгие сроки согласования без корпоративных связей",
+          "Хаотичная логистика между Сеулом и Пангё"
+        ],
+        "self_en": [
+          "Coupang, Naver, Kakao, NCSoft, Doosan and Rainbow Robotics don't take open requests — only official ones",
+          "Language barrier and business-culture gap",
+          "Long approval times without corporate connections",
+          "Chaotic logistics between Seoul and Pangyo"
+        ],
+        "with_us_ru": [
+          "Мы ведём согласование визитов через официальные каналы заранее",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Продуманная логистика без внутренних перелётов",
+          "Готовая программа под ключ"
+        ],
+        "with_us_en": [
+          "We handle official-channel arrangements ahead of time",
+          "Translation and technical expertise at every meeting",
+          "Thought-through logistics, no domestic flights",
+          "A turnkey program"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Rainbow Robotics и Doosan Robotics вместе с LG Electronics входят в государственный альянс K-Humanoid Alliance, цель которого — коммерчески доступный двуногий робот к 2028 году.",
+      "market_note_en": "Rainbow Robotics and Doosan Robotics, together with LG Electronics, are members of the government-backed K-Humanoid Alliance, targeting a commercially available bipedal robot by 2028.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "korea-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "kr",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "K-Beauty индустрия Кореи",
+      "title_en": "Korea Beauty Industry Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Корею",
+      "eyebrow_en": "Business delegations to Korea",
+      "tagline_ru": "Amorepacific · Sulwhasoo · Cosmax · LG H&H",
+      "tagline_en": "Amorepacific · Sulwhasoo · Cosmax · LG H&H",
+      "positioning_ru": "От брендовых холдингов до незаметных ODM-фабрик, производящих K-beauty для всего мира, и longevity-биотеха.",
+      "positioning_en": "From branded holdings to the invisible ODM factories manufacturing K-beauty for the world, plus longevity biotech.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 5,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "seoul-to-anyang",
+      "arrival_ru": "Сеул (перелёт Москва → Сеул, аэропорт Инчхон)",
+      "arrival_en": "Seoul (Moscow → Seoul flight, Incheon Airport)",
+      "departure_ru": "Анъян (→ Сеул → Москва)",
+      "departure_en": "Anyang (→ Seoul → Moscow)",
+      "route_cities": [
+        "seoul",
+        "osan",
+        "seongnam",
+        "anyang"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "Йонсан / Мёндон",
+          "area_en": "Yongsan / Myeongdong",
+          "time": "10:00–14:00",
+          "companies": [
+            "amorepacific",
+            "innisfree"
+          ],
+          "note_ru": "Подбор индивидуального тона HERA, анализ кожи. Ночёвка в Сеуле.",
+          "note_en": "Custom HERA shade matching, skin analysis. Overnight in Seoul."
+        },
+        {
+          "day": 2,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–14:00",
+          "companies": [
+            "kolmar-korea",
+            "cosmax"
+          ],
+          "note_ru": "Незаметные лидеры: кто производит K-beauty для всего мира. Оба визита — по официальному согласованию. Ночёвка в Сеуле.",
+          "note_en": "The invisible leaders behind K-beauty worldwide. Both visits by official arrangement. Overnight in Seoul."
+        },
+        {
+          "day": 3,
+          "city": "osan",
+          "city_ru": "Осан → Сеул (Букчон)",
+          "city_en": "Osan → Seoul (Bukchon)",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–14:00",
+          "companies": [
+            "amorepacific-factory",
+            "sulwhasoo-house"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Официальный тур, бронь на tour.amorepacific.com. Днём — возврат в Сеул (~1 ч), Ginseng Class по записи. Ночёвка в Сеуле.",
+          "transfer_en": "Official tour, booked at tour.amorepacific.com. Return to Seoul in the afternoon (~1 h), Ginseng Class by appointment. Overnight in Seoul."
+        },
+        {
+          "day": 4,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "Мёндон / Сонсу",
+          "area_en": "Myeongdong / Seongsu",
+          "time": "10:00–14:00",
+          "companies": [
+            "lg-hnh-history-of-whoo",
+            "amore-seongsu"
+          ],
+          "note_ru": "LG H&H — VIP-формат, по согласованию напрямую с компанией. Ночёвка в Сеуле.",
+          "note_en": "LG H&H — VIP format, arranged directly with the company. Overnight in Seoul."
+        },
+        {
+          "day": 5,
+          "city": "anyang",
+          "city_ru": "Соннам / Анъян, финал",
+          "city_en": "Seongnam / Anyang, finale",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–14:00",
+          "companies": [
+            "pharmaresearch",
+            "caregen"
+          ],
+          "leg_mode": "train",
+          "note_ru": "Longevity-биотех: регенеративная медицина и anti-age пептиды. Оба визита — по официальному согласованию. Завершение программы.",
+          "note_en": "Longevity biotech: regenerative medicine and anti-age peptides. Both visits by official arrangement. End of the program."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Визиты в бренд-холдинги и на фабрики ODM-производителей K-beauty",
+          "en": "Visits to brand holdings and K-beauty ODM factories"
+        },
+        {
+          "ru": "Мастер-классы и подбор продукта там, где это предусмотрено программой (Ginseng Class, подбор тона HERA)",
+          "en": "Workshops and product matching where the program includes them (Ginseng Class, HERA shade matching)"
+        },
+        {
+          "ru": "Координация визитов, требующих официального согласования или прямого запроса к компании",
+          "en": "Coordination of visits requiring official arrangement or a direct request to the company"
+        },
+        {
+          "ru": "Переводчик и техническая экспертиза на каждой площадке",
+          "en": "Interpreter and technical expertise at every site"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "10 компаний за 5 дней — от люксовых брендов до незаметных ODM-гигантов и longevity-биотеха",
+          "en": "10 companies in 5 days — from luxury brands to invisible ODM giants and longevity biotech"
+        },
+        {
+          "ru": "Компактный маршрут в пределах Сеула и ближайших городов, без внутренних перелётов",
+          "en": "A compact route within Seoul and nearby cities, no domestic flights"
+        },
+        {
+          "ru": "Мы берём на себя согласование визитов, которые не открыты для случайных посетителей",
+          "en": "We handle arranging visits not open to casual visitors"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Kolmar, Cosmax и LG H&H не открыты для случайных визитов",
+          "Языковой барьер и разница в деловой культуре",
+          "Отдельное согласование под каждый бренд и завод",
+          "Риск потратить недели на организацию одной поездки"
+        ],
+        "self_en": [
+          "Kolmar, Cosmax and LG H&H aren't open to casual visits",
+          "Language barrier and business-culture gap",
+          "Separate arrangement needed for every brand and factory",
+          "Risk of weeks spent organizing a single trip"
+        ],
+        "with_us_ru": [
+          "Согласованный маршрут по 10 лидерам K-beauty индустрии",
+          "Мастер-классы и подбор продукта включены там, где предусмотрены",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Готовая программа под ключ"
+        ],
+        "with_us_en": [
+          "A coordinated route through 10 K-beauty industry leaders",
+          "Workshops and product matching included where available",
+          "Translation and technical expertise at every meeting",
+          "A turnkey program"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Kolmar Korea и Cosmax вместе производят для 600+ мировых косметических брендов, включая L'Oréal, — большая часть мирового K-beauty физически делается не на брендовых, а на ODM-фабриках.",
+      "market_note_en": "Kolmar Korea and Cosmax together manufacture for 600+ global beauty brands, including L'Oréal — most of the world's K-beauty is physically made not by the brands themselves but by ODM factories.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "korea-foodtech-smart-farming-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "kr",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Высокотехнологичное производство продуктов питания Кореи",
+      "title_en": "Korea Food Tech & Smart Farming Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Корею",
+      "eyebrow_en": "Business delegations to Korea",
+      "tagline_ru": "CJ · Market Kurly · Samyang · hy",
+      "tagline_en": "CJ · Market Kurly · Samyang · hy",
+      "positioning_ru": "От биотех-холдингов и «рассветной доставки» до крупнейшего молочного завода Азии и культового острого рамёна.",
+      "positioning_en": "From biotech holdings and 'dawn delivery' to Asia's largest dairy plant and the cult spicy noodle brand.",
+      "stats": {
+        "cities": 5,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "seoul-to-pyeongtaek",
+      "arrival_ru": "Сеул (перелёт Москва → Сеул, аэропорт Инчхон)",
+      "arrival_en": "Seoul (Moscow → Seoul flight, Incheon Airport)",
+      "departure_ru": "Пхёнтхэк (→ Сеул → Москва)",
+      "departure_en": "Pyeongtaek (→ Seoul → Moscow)",
+      "route_cities": [
+        "seoul",
+        "yangju",
+        "wonju",
+        "yongin",
+        "pyeongtaek"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "seoul",
+          "city_ru": "Сеул",
+          "city_en": "Seoul",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cj-cheiljedang",
+            "cj-freshway"
+          ],
+          "note_ru": "Биотех и централизованное производство готовой еды. Оба визита — по официальному согласованию. Ночёвка в Сеуле.",
+          "note_en": "Biotech and centralized ready-meal production. Both visits by official arrangement. Overnight in Seoul."
+        },
+        {
+          "day": 2,
+          "city": "seoul",
+          "city_ru": "Сеул / Кимпхо",
+          "city_en": "Seoul / Gimpo",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "market-kurly",
+            "nongshim-farm"
+          ],
+          "note_ru": "«Рассветная доставка» и умное земледелие. Оба визита — по официальному согласованию. Ночёвка в Сеуле.",
+          "note_en": "'Dawn delivery' and smart farming. Both visits by official arrangement. Overnight in Seoul."
+        },
+        {
+          "day": 3,
+          "city": "yangju",
+          "city_ru": "Янджу",
+          "city_en": "Yangju",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "seoul-milk"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Открытый заводской тур, участвовать может любой желающий. Вечером — переезд в Вонджу (~1,5–2 ч).",
+          "transfer_en": "Open factory tour, anyone can join. Evening transfer to Wonju (~1.5-2 h)."
+        },
+        {
+          "day": 4,
+          "city": "wonju",
+          "city_ru": "Вонджу",
+          "city_en": "Wonju",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "samyang-foods",
+            "jungkwanjang-kgc"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Организованный тур, завод обычно закрыт для случайных визитов. Вечером — переезд в Йонъин (~2 ч).",
+          "transfer_en": "Organized tour, the plant is normally closed to casual visits. Evening transfer to Yongin (~2 h)."
+        },
+        {
+          "day": 5,
+          "city": "yongin",
+          "city_ru": "Йонъин",
+          "city_en": "Yongin",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fresheasy"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "По официальному согласованию. Вечером — переезд в Пхёнтхэк (~30–40 мин).",
+          "transfer_en": "By official arrangement. Evening transfer to Pyeongtaek (~30-40 min)."
+        },
+        {
+          "day": 6,
+          "city": "pyeongtaek",
+          "city_ru": "Пхёнтхэк, финал",
+          "city_en": "Pyeongtaek, finale",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "hy-korea-yakult"
+          ],
+          "note_ru": "Интерактивное пространство hy Factory+. Завершение программы.",
+          "note_en": "The interactive hy Factory+ space. End of the program."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Визиты на заводы и в R&D-центры пищевого биотеха и умного земледелия",
+          "en": "Visits to food-biotech and smart-farming plants and R&D centers"
+        },
+        {
+          "ru": "Открытые заводские туры (Seoul Milk, hy) и организованные визиты на закрытые площадки (Samyang, Fresheasy)",
+          "en": "Open factory tours (Seoul Milk, hy) and organized visits to normally closed sites (Samyang, Fresheasy)"
+        },
+        {
+          "ru": "Координация визитов, требующих официального согласования",
+          "en": "Coordination of visits requiring official arrangement"
+        },
+        {
+          "ru": "Переводчик и техническая экспертиза на каждой площадке",
+          "en": "Interpreter and technical expertise at every site"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "9 компаний за 6 дней — от биотеха и логистики доставки до заводов молочной и лапшичной продукции",
+          "en": "9 companies in 6 days — from biotech and delivery logistics to dairy and instant-noodle plants"
+        },
+        {
+          "ru": "Компактный маршрут вокруг Сеула, без внутренних перелётов",
+          "en": "A compact route around Seoul, no domestic flights"
+        },
+        {
+          "ru": "Мы берём на себя согласование визитов на площадки, обычно закрытые для посторонних",
+          "en": "We handle arranging visits to sites normally closed to outsiders"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Часть заводов (Samyang, Fresheasy) обычно закрыта для случайных визитов",
+          "Языковой барьер и разница в деловой культуре",
+          "Логистика между 5 городами без локального опыта",
+          "Недели переписки ради согласования визитов"
+        ],
+        "self_en": [
+          "Some plants (Samyang, Fresheasy) are normally closed to casual visits",
+          "Language barrier and business-culture gap",
+          "Logistics across 5 cities without local experience",
+          "Weeks of correspondence to arrange visits"
+        ],
+        "with_us_ru": [
+          "Согласованный маршрут по 9 лидерам фудтеха и умного земледелия",
+          "Перевод и техническая экспертиза на каждой встрече",
+          "Продуманная логистика без внутренних перелётов",
+          "Готовая программа под ключ"
+        ],
+        "with_us_en": [
+          "A coordinated route through 9 foodtech and smart-farming leaders",
+          "Translation and technical expertise at every meeting",
+          "Thought-through logistics, no domestic flights",
+          "A turnkey program"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Market Kurly обрабатывает 300 000+ заказов «рассветной доставки» в день с точностью ИИ-прогнозирования, держащей списание товара ниже 1% — эталон для рынка e-grocery.",
+      "market_note_en": "Market Kurly processes 300,000+ 'dawn delivery' orders a day, with AI demand forecasting keeping write-offs under 1% — a benchmark for the e-grocery market.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
