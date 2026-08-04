@@ -4242,6 +4242,1224 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "thailand-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Таиланда: конвиниенс, phygital и B2B-опт",
+      "title_en": "Thailand Retail: Convenience, Phygital & B2B Wholesale",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "CP All · Central Retail · Siam Piwat · Big C",
+      "tagline_en": "CP All · Central Retail · Siam Piwat · Big C",
+      "positioning_ru": "От крупнейшей сети 7-Eleven после Японии до phygital-ритейла ICONSIAM и цифровизации гипермаркетов Big C — весь тайский ритейл в пределах Бангкока.",
+      "positioning_en": "From the largest 7-Eleven network outside Japan to ICONSIAM's phygital retail and Big C's hypermarket digitalization — the whole Thai retail landscape within Bangkok.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-only",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cp-all",
+            "central-retail-corporation"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "siam-piwat-iconsiam",
+            "the-mall-group-siam-paragon"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "makro-cp-axtra",
+            "lotus-cp-axtra"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "big-c-bjc",
+            "homepro"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cp-axtra-tech-center"
+          ],
+          "note_ru": "День завершается итоговой встречей и networking.",
+          "note_en": "The day closes with a wrap-up meeting and networking."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Таиланда",
+      "title_en": "Thailand Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "CPF · Thai Union · Betagro · Dutch Mill",
+      "tagline_en": "CPF · Thai Union · Betagro · Dutch Mill",
+      "positioning_ru": "От штаб-квартиры CPF и крупнейшего в мире переработчика тунца Thai Union до альт-протеиновых стартапов Таиланда — с однодневным выездом в Самутсакхон.",
+      "positioning_en": "From CPF's HQ and Thai Union, the world's largest tuna processor, to Thailand's alt-protein startups — with a day trip to Samut Sakhon.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-samutsakhon",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok",
+        "samutsakhon"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "charoen-pokphand-foods"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "samutsakhon",
+          "city_ru": "Самутсакхон",
+          "city_en": "Samut Sakhon",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "thai-union-group",
+            "space-f"
+          ],
+          "transfer_ru": "Однодневная поездка в Самутсакхон (≈1 ч от Бангкока). Ночёвка — Бангкок.",
+          "transfer_en": "Day trip to Samut Sakhon (≈1h from Bangkok). Overnight in Bangkok."
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "betagro",
+            "dutch-mill"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nr-instant-produce",
+            "more-meat"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "foremost-frieslandcampina-thailand",
+            "meiji-thailand"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды в Таиланде",
+      "title_en": "Thailand Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "LINE MAN Wongnai · GrabFood · Shopee Food",
+      "tagline_en": "LINE MAN Wongnai · GrabFood · Shopee Food",
+      "positioning_ru": "От доминирующего супер-приложения LINE MAN Wongnai до облачных кухонь CP Group — вся доставка еды Бангкока в одном маршруте, без перелётов.",
+      "positioning_en": "From the dominant super-app LINE MAN Wongnai to CP Group's cloud kitchens — all of Bangkok's food-delivery scene in one route, no flights.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-only",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "line-man-wongnai",
+            "grab-thailand"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "foodpanda-thailand",
+            "robinhood-scb"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "freshket",
+            "cloudeats"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cp-cloud-kitchen",
+            "shopee-food-th"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "true-digital"
+          ],
+          "note_ru": "День завершается итоговой встречей.",
+          "note_en": "The day closes with a wrap-up meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Таиланда: ИИ, мессенджеры, e-commerce",
+      "title_en": "Thailand Internet Giants: AI, Messengers, E-commerce",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "SCB 10X · LINE Thailand · Lazada · TikTok Shop",
+      "tagline_en": "SCB 10X · LINE Thailand · Lazada · TikTok Shop",
+      "positioning_ru": "От тайской LLM Typhoon (SCB 10X) до платежей TrueMoney и голосового AI Botnoi — весь тайский tech-стек в Бангкоке.",
+      "positioning_en": "From the Thai LLM Typhoon (SCB 10X) to TrueMoney payments and Botnoi voice AI — the whole Thai tech stack within Bangkok.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-only",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "scb-10x-abacus",
+            "sertis"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "line-thailand",
+            "amity-solutions"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "lazada-thailand",
+            "shopee-thailand"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "central-jd",
+            "tiktok-shop-thailand"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "truemoney-ascend",
+            "botnoi"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Таиланда",
+      "title_en": "Thailand Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "Mistine · Srichand · HARNN · Beiersdorf",
+      "tagline_en": "Mistine · Srichand · HARNN · Beiersdorf",
+      "positioning_ru": "От крупнейшего масс-бренда Mistine до премиального спа-бренда HARNN и производства Eucerin — тайская бьюти-индустрия целиком, в пределах Бангкока.",
+      "positioning_en": "From the mass-market leader Mistine to the premium spa brand HARNN and Eucerin manufacturing — the whole Thai beauty industry within Bangkok.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-only",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "better-way-mistine",
+            "karmarts"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "srichand-snp",
+            "beauty-buffet"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "harnn",
+            "divana"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "provamed-greater-pharma",
+            "oriental-princess"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cute-press",
+            "beiersdorf-thailand"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Лонгевити Таиланда — региональный лидер ЮВА",
+      "title_en": "Thailand Longevity — SE Asia's Regional Leader",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "BDMS Wellness · MEDEZE · RAKxa",
+      "tagline_en": "BDMS Wellness · MEDEZE · RAKxa",
+      "positioning_ru": "От научного wellness BDMS (биовозраст, эпигенетика) до крупнейшего в Таиланде банка стволовых клеток MEDEZE — региональный лидер лонгевити-индустрии ЮВА.",
+      "positioning_en": "From BDMS's scientific wellness (biological age, epigenetics) to MEDEZE, Thailand's largest stem-cell bank — SE Asia's regional longevity-industry leader.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-nakhonpathom",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok",
+        "nakhonpathom"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "bdms-wellness-clinic",
+            "vitallife-bumrungrad"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "nakhonpathom",
+          "city_ru": "Накхонпатхом",
+          "city_en": "Nakhon Pathom",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "medeze-group",
+            "vaanaa-longevity-clinic"
+          ],
+          "transfer_ru": "Однодневная поездка в Накхонпатхом (~1 ч). Опция выезда в Рэйонг (~2,5 ч) или Пхукет по запросу клиента. Ночёвка — Бангкок.",
+          "transfer_en": "Day trip to Nakhon Pathom (~1h). Optional extension to Rayong (~2.5h) or Phuket on request. Overnight in Bangkok."
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "rakxa-integrative-wellness",
+            "mousai-wellness-center"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "boston-health-longevity",
+            "vega-clinic"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Дополнительная wellness-клиника по запросу, далее — итоговая встреча и networking (уточняется).",
+          "note_en": "An additional wellness clinic on request, followed by a closing meeting and networking (TBC)."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "thailand-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "th",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Таиланда",
+      "title_en": "Thailand Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-делегации в Таиланд",
+      "eyebrow_en": "Business delegations to Thailand",
+      "tagline_ru": "Café Amazon · ChaTraMue · Fire Tiger",
+      "tagline_en": "Café Amazon · ChaTraMue · Fire Tiger",
+      "positioning_ru": "От штаб-квартиры Café Amazon (5000+ точек в мире) до культового тайского чая ChaTraMue и сетей бабл-ти — тайская культура напитков в Бангкоке.",
+      "positioning_en": "From Café Amazon's HQ (5,000+ outlets worldwide) to the iconic Thai tea brand ChaTraMue and bubble-tea chains — Thailand's drink culture within Bangkok.",
+      "stats": {
+        "cities": 1,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "bangkok-only",
+      "arrival_ru": "Бангкок (перелёт Москва → Бангкок, аэропорт Суварнабхуми)",
+      "arrival_en": "Bangkok (flight Moscow → Bangkok, Suvarnabhumi Airport)",
+      "departure_ru": "Бангкок — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Bangkok — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "bangkok"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cafe-amazon-ptt",
+            "inthanin-bangchak"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "chatramue",
+            "karun-thai-tea"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "pacamara",
+            "roots-coffee"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "class-cafe",
+            "true-coffee"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "bangkok",
+          "city_ru": "Бангкок",
+          "city_en": "Bangkok",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fire-tiger",
+            "koi-the-thailand",
+            "gong-cha-thailand"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы в пределах Бангкока и региона",
+          "en": "Transfers within Bangkok and the region"
+        },
+        {
+          "ru": "Сопровождение на тайском/английском",
+          "en": "Support in Thai/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
