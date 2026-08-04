@@ -5460,6 +5460,1238 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "vietnam-retail-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл Вьетнама: от MWG до WinCommerce",
+      "title_en": "Vietnam Retail: From MWG to WinCommerce",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "MWG · Saigon Co.op · AEON · WinCommerce",
+      "tagline_en": "MWG · Saigon Co.op · AEON · WinCommerce",
+      "positioning_ru": "От омниканальной сети MWG (Bách Hóa Xanh, Điện Máy Xanh) в Хошимине до штаб-квартиры WinCommerce (WinMart/WinMart+) в Ханое — вьетнамский ритейл через два города.",
+      "positioning_en": "From MWG's omnichannel network (Bách Hóa Xanh, Điện Máy Xanh) in Ho Chi Minh City to WinCommerce's (WinMart/WinMart+) HQ in Hanoi — Vietnamese retail across two cities.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "hcmc-to-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "mwg-the-gioi-di-dong"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fpt-retail-long-chau",
+            "saigon-coop"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "central-retail-vietnam",
+            "aeon-vietnam"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "wincommerce"
+          ],
+          "transfer_ru": "Внутренний перелёт Хошимин→Ханой (≈2 ч). Второй визит дня — демо смарт-магазина WinMart+ (AI/лояльность).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Hanoi (≈2h). Second visit of the day — a WinMart+ smart-store demo (AI/loyalty).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "circlek-gs25-vietnam",
+            "con-cung"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-food-dairy-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Продукты питания и молочная промышленность Вьетнама",
+      "title_en": "Vietnam Food & Dairy Manufacturing",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "Vinamilk · TH True Milk · Acecook",
+      "tagline_en": "Vinamilk · TH True Milk · Acecook",
+      "positioning_ru": "От мега-завода Vinamilk Industry 4.0 в Бинь Зыонге до высокотехнологичных ферм TH True Milk в Нгеане — молочная промышленность Вьетнама через три региона.",
+      "positioning_en": "From Vinamilk's Industry-4.0 mega-factory in Binh Duong to TH True Milk's high-tech farms in Nghe An — Vietnam's dairy industry across three regions.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 7,
+        "flights": 2
+      },
+      "route_strategy": "hcmc-vinh-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "vinh",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vinamilk"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nutifood",
+            "masan-consumer"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vissan",
+            "dutch-lady-frieslandcampina"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "vinh",
+          "city_ru": "Виня, пров. Нгеан",
+          "city_en": "Vinh, Nghe An",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "th-true-milk"
+          ],
+          "transfer_ru": "Внутренний перелёт Хошимин→Виня (≈1,5 ч).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Vinh (≈1.5h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "acecook-vietnam"
+          ],
+          "transfer_ru": "Перелёт/трансфер Виня→Ханой (≈1 ч).",
+          "transfer_en": "Flight/transfer Vinh→Hanoi (≈1h).",
+          "leg_mode": "flight"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-dark-kitchen-delivery-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Central/Dark Kitchen и быстрая доставка еды во Вьетнаме",
+      "title_en": "Vietnam Central/Dark Kitchen & Fast Food Delivery",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "GrabFood · ShopeeFood · Xanh SM",
+      "tagline_en": "GrabFood · ShopeeFood · Xanh SM",
+      "positioning_ru": "От лидера рынка GrabFood Vietnam до EV-доставки Xanh SM — сегмент, прошедший через уход Baemin (2023) и Gojek (2024), с фокусом на выживших игроках.",
+      "positioning_en": "From market leader GrabFood Vietnam to Xanh SM's EV delivery — a segment reshaped by Baemin's (2023) and Gojek's (2024) exits, with a focus on the survivors.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 6,
+        "flights": 1
+      },
+      "route_strategy": "hcmc-to-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "grabfood-vietnam",
+            "shopeefood-vietnam"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "be-begroup",
+            "loship"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "xanh-sm-gsm-vinfast",
+            "ahamove"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "transfer_ru": "Внутренний перелёт Хошимин→Ханой (≈2 ч). Визиты дня — оператор облачных кухонь и B2B-платформа поставок для F&B (по согласованию).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Hanoi (≈2h). Day's visits — a cloud-kitchen operator and a B2B F&B supply platform (to be arranged).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Итоговые встречи с локальными delivery-tech игроками.",
+          "note_en": "Closing meetings with local delivery-tech players."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-tech-internet-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Интернет-гиганты Вьетнама: ИИ, мессенджеры, e-commerce",
+      "title_en": "Vietnam Internet Giants: AI, Messengers, E-commerce",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "VNG (Zalo) · VinAI · Viettel · MoMo",
+      "tagline_en": "VNG (Zalo) · VinAI · Viettel · MoMo",
+      "positioning_ru": "От кампуса Zalo (VNG, 79,6 млн MAU) в Хошимине до автомобильного AI VinAI и медицинского AI VinBrain (приобретён NVIDIA) в Ханое.",
+      "positioning_en": "From VNG's Zalo campus (79.6M MAU) in Ho Chi Minh City to VinAI's automotive AI and VinBrain's medical AI (acquired by NVIDIA) in Hanoi.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 10,
+        "flights": 1
+      },
+      "route_strategy": "hcmc-to-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vng-corporation",
+            "tiki"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "momo",
+            "trusting-social"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vinai",
+            "fpt-ai-software"
+          ],
+          "transfer_ru": "Внутренний перелёт Хошимин→Ханой (≈2 ч).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Hanoi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "viettel",
+            "vinbrain"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "shopee-lazada-vietnam",
+            "elsa"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-beauty-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Косметика и бьюти-технологии Вьетнама",
+      "title_en": "Vietnam Beauty & Beauty-Tech",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "Cocoon · Hasaki · Thorakao · Sao Thái Dương",
+      "tagline_en": "Cocoon · Hasaki · Thorakao · Sao Thái Dương",
+      "positioning_ru": "От веганского skincare Cocoon и бьюти-e-commerce Hasaki в Хошимине до космецевтики Sao Thái Dương в Ханое — развивающийся, но быстрорастущий сегмент.",
+      "positioning_en": "From Cocoon's vegan skincare and Hasaki's beauty e-commerce in Ho Chi Minh City to Sao Thái Dương's cosmeceuticals in Hanoi — an emerging but fast-growing segment.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "hcmc-to-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cocoon-vietnam",
+            "hasaki"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "thorakao",
+            "saigon-cosmetics-scc"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "moi-cosmetics",
+            "lemonade-cosmetics"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "sao-thai-duong",
+            "milaganics"
+          ],
+          "transfer_ru": "Внутренний перелёт Хошимин→Ханой (≈2 ч).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Hanoi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Контрактное OEM-производство (по согласованию), далее — итоговая встреча.",
+          "note_en": "Contract OEM manufacturing (to be arranged), followed by a closing meeting."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-longevity-biotech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Лонгевити Вьетнама (anti-aging биотех) — тонкий сегмент",
+      "title_en": "Vietnam Longevity & Anti-Aging Biotech — an Emerging Niche",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "Vinmec VRISG · VinUniversity · Medeze",
+      "tagline_en": "Vinmec VRISG · VinUniversity · Medeze",
+      "positioning_ru": "Единственный в стране институт стволовых клеток и генной терапии Vinmec (партнёрства со Stanford/Karolinska) — тонкий, но академически серьёзный сегмент; рекомендуется сочетать с модулем 'Продукты питания' или 'Интернет-гиганты'.",
+      "positioning_en": "Vinmec's VRISG, Vietnam's only stem-cell and gene-therapy institute (partnerships with Stanford and Karolinska) — a thin but academically serious segment; recommended to pair with the Food & Dairy or Internet Giants module.",
+      "stats": {
+        "cities": 2,
+        "days": 6,
+        "nights": 6,
+        "companies": 4,
+        "flights": 1
+      },
+      "route_strategy": "hanoi-to-hcmc",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Хошимин — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Ho Chi Minh City — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "hanoi",
+        "ho-chi-minh"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vinmec-vrisg"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "vinmec-regenerative-medicine-center",
+            "vinuniversity"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "medeze-vietnam"
+          ],
+          "transfer_ru": "Внутренний перелёт Ханой→Хошимин (≈2 ч).",
+          "transfer_en": "Domestic flight Hanoi→Ho Chi Minh City (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Клиника эстетической/регенеративной медицины (кластер, 2 визита по согласованию).",
+          "note_en": "An aesthetic/regenerative-medicine clinic cluster (2 visits, to be arranged)."
+        },
+        {
+          "day": 5,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Резервный день / возможность комбинирования с модулем косметики.",
+          "note_en": "Reserve day / option to combine with the Beauty module."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "vietnam-bubble-tea-coffee-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "vn",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Бабл-ти и кофейная индустрия Вьетнама",
+      "title_en": "Vietnam Bubble Tea & Coffee Industry",
+      "eyebrow_ru": "Бизнес-делегации во Вьетнам",
+      "eyebrow_en": "Business delegations to Vietnam",
+      "tagline_ru": "Trung Nguyên Legend · Highlands · Phúc Long",
+      "tagline_en": "Trung Nguyên Legend · Highlands · Phúc Long",
+      "positioning_ru": "От штаб-квартиры Highlands Coffee (≈928 точек) в Хошимине до 'Coffee City' Trung Nguyên Legend в Буонматхуоте — самый логистически сложный вьетнамский модуль, три города и два перелёта.",
+      "positioning_en": "From Highlands Coffee's HQ (≈928 outlets) in Ho Chi Minh City to Trung Nguyên Legend's 'Coffee City' in Buon Ma Thuot — Vietnam's most logistically complex module, three cities and two flights.",
+      "stats": {
+        "cities": 3,
+        "days": 6,
+        "nights": 6,
+        "companies": 9,
+        "flights": 2
+      },
+      "route_strategy": "hcmc-buonmathuot-hanoi",
+      "arrival_ru": "Хошимин (перелёт Москва → Хошимин)",
+      "arrival_en": "Ho Chi Minh City (flight Moscow → Ho Chi Minh City)",
+      "departure_ru": "Ханой — дополнительная ночь после дня 5, выезд из отеля и трансфер в аэропорт ранним утром следующего дня.",
+      "departure_en": "Hanoi — an extra night after day 5, hotel checkout and airport transfer early the next morning.",
+      "route_cities": [
+        "ho-chi-minh",
+        "buon-ma-thuot",
+        "hanoi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "phuc-long-masan",
+            "the-coffee-house"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "ho-chi-minh",
+          "city_ru": "Хошимин",
+          "city_en": "Ho Chi Minh City",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "highlands-coffee",
+            "katinat"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "buon-ma-thuot",
+          "city_ru": "Буонматхуот",
+          "city_en": "Buon Ma Thuot",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "trung-nguyen-legend"
+          ],
+          "transfer_ru": "Внутренний перелёт Хошимин→Буонматхуот (≈1 ч).",
+          "transfer_en": "Domestic flight Ho Chi Minh City→Buon Ma Thuot (≈1h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 4,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cong-ca-phe",
+            "tocotoco"
+          ],
+          "transfer_ru": "Внутренний перелёт Буонматхуот→Ханой (≈2 ч).",
+          "transfer_en": "Domestic flight Buon Ma Thuot→Hanoi (≈2h).",
+          "leg_mode": "flight"
+        },
+        {
+          "day": 5,
+          "city": "hanoi",
+          "city_ru": "Ханой",
+          "city_en": "Hanoi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "phe-la",
+            "king-coffee-tni"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Внутренние перелёты между городами программы",
+          "en": "Domestic flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на вьетнамском/английском",
+          "en": "Support in Vietnamese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать перелёты и логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Flights and logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
