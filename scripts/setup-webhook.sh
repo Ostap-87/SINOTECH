@@ -122,6 +122,16 @@ server {
         add_header Cache-Control "public, immutable";
     }
 
+    # Generated media (cover images/video for blog + Telegram posts) lives
+    # outside the git-managed dist/ dir on purpose — `npm run build` empties
+    # dist/ on every deploy, which would delete anything dropped in there.
+    # /var/www/globaltechtour-media is never touched by the deploy pipeline.
+    location /media/ {
+        alias /var/www/globaltechtour-media/;
+        expires 30d;
+        add_header Cache-Control "public, immutable";
+    }
+
     location /gh-webhook {
         proxy_pass http://127.0.0.1:9000;
         proxy_set_header Host $host;

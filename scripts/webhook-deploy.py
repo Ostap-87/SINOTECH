@@ -17,6 +17,11 @@ assistant's own sandboxed session can't reach api.telegram.org or even
 globaltechtour.ru directly (network policy), but this script runs ON the
 VPS, which has normal outbound internet — so publishing piggybacks on
 the one channel that reliably works end-to-end: a git push.
+
+Same reasoning applies to image generation: the assistant's sandbox also
+can't reach Higgsfield's API directly, but this VPS can — see
+process_pending_images() / image_gen.py, triggered by pushing a request to
+content/pending-images/*.json.
 """
 import hashlib
 import hmac
@@ -29,6 +34,7 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 from telegram_client import publish_item
+from image_gen import process_pending_images
 
 SECRET = os.environ["WEBHOOK_SECRET"].encode()
 BRANCH = "claude/sinotech-voyage-setup"
@@ -39,6 +45,10 @@ PORT = 9000
 CONTENT_PUBLISH_ENV = "/etc/content-publish.env"
 CONTENT_DB_PATH = "/var/lib/content-publish/history.db"
 PENDING_DIR = os.path.join(APP_DIR, "content", "pending")
+
+PENDING_IMAGES_DIR = os.path.join(APP_DIR, "content", "pending-images")
+MEDIA_DIR = "/var/www/globaltechtour-media"
+IMAGE_DB_PATH = "/var/lib/content-publish/images-history.db"
 
 deploy_lock = threading.Lock()
 
@@ -167,6 +177,11 @@ def run_deploy():
             publish_pending()
         except Exception as e:
             log(f"publish_pending() error: {e}")
+
+        try:
+            process_pending_images(PENDING_IMAGES_DIR, MEDIA_DIR, IMAGE_DB_PATH, log=log)
+        except Exception as e:
+            log(f"process_pending_images() error: {e}")
     finally:
         deploy_lock.release()
 
