@@ -42,9 +42,9 @@ def _post(connect_target, path, payload_bytes, timeout=10):
         conn.close()
 
 
-def send_telegram(bot_token, chat_id, text):
-    path = f"/bot{bot_token}/sendMessage"
-    payload = json.dumps({"chat_id": chat_id, "text": text, "parse_mode": "HTML"}).encode()
+def _call(bot_token, method, payload_dict):
+    path = f"/bot{bot_token}/{method}"
+    payload = json.dumps(payload_dict).encode()
 
     last_error = None
     for target in KNOWN_GOOD_IPS + [TELEGRAM_HOST]:
@@ -57,3 +57,51 @@ def send_telegram(bot_token, chat_id, text):
         except Exception as e:
             last_error = f"{target}: {e}"
     return False, last_error or "unknown error"
+
+
+def send_telegram(bot_token, chat_id, text):
+    return _call(bot_token, "sendMessage", {"chat_id": chat_id, "text": text, "parse_mode": "HTML"})
+
+
+# Telegram caption limit is 1024 chars, well under our usual 800-1500 char
+# posts — so these take an optional caption and let the caller decide
+# whether it fits or needs to go as a separate follow-up send_telegram().
+def send_telegram_photo(bot_token, chat_id, photo_url, caption=None):
+    payload = {"chat_id": chat_id, "photo": photo_url}
+    if caption:
+        payload["caption"] = caption
+        payload["parse_mode"] = "HTML"
+    return _call(bot_token, "sendPhoto", payload)
+
+
+def send_telegram_video(bot_token, chat_id, video_url, caption=None):
+    payload = {"chat_id": chat_id, "video": video_url}
+    if caption:
+        payload["caption"] = caption
+        payload["parse_mode"] = "HTML"
+    return _call(bot_token, "sendVideo", payload)
+
+
+TELEGRAM_CAPTION_LIMIT = 1024
+
+
+def publish_item(bot_token, chat_id, text, media_url=None, media_kind=None):
+    """Send one queued post, handling the optional image/video field.
+
+    media_kind is "photo" or "video" (ignored if media_url is falsy — falls
+    back to a plain text message). If the text fits Telegram's 1024-char
+    caption limit, it rides along as the caption; otherwise the media goes
+    out first with no caption, followed by the full text as its own message
+    (Telegram keeps consecutive messages from the same bot/channel grouped
+    in the client, so this still reads as one post).
+    """
+    if not media_url:
+        return send_telegram(bot_token, chat_id, text)
+
+    send_media = send_telegram_video if media_kind == "video" else send_telegram_photo
+    caption = text if text and len(text) <= TELEGRAM_CAPTION_LIMIT else None
+    ok, detail = send_media(bot_token, chat_id, media_url, caption)
+    if ok and text and caption is None:
+        ok2, detail2 = send_telegram(bot_token, chat_id, text)
+        return ok2, detail2
+    return ok, detail
