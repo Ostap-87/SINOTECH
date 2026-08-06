@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
@@ -10,6 +10,7 @@ import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { BrandMarquee } from '@/components/BrandMarquee'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText, REVEAL_WORD_STEP_MS, REVEAL_WORD_DURATION_MS } from '@/components/RevealText'
 
 export function Home() {
   const { locale } = useLanguage()
@@ -55,11 +56,46 @@ export function Home() {
       : `Бизнес-экспедиции ${country.preposition_ru} ${country.accusative_ru}`
   const eyebrowEn = countryCode === 'cn' ? 'Business expeditions to China and beyond' : `Business expeditions to ${country.name_en}`
 
+  const headlineRu = 'А какую индустрию хотели бы изучить именно Вы?'
+  const headlineEn = 'So which industry would you specifically like to explore?'
+  const headlineText = isActive
+    ? locale === 'ru'
+      ? headlineRu
+      : headlineEn
+    : locale === 'ru'
+      ? country.name_ru
+      : country.name_en
+  const headlineWordCount = headlineText.split(/\s+/).filter(Boolean).length
+  const subtitleStartDelayMs = headlineWordCount * REVEAL_WORD_STEP_MS
+
+  // The hero's 3D map only mounts (and starts its own scatter->assemble
+  // animation, see ParticleFieldEngine) once the headline has finished its
+  // word-by-word reveal — so on first load it reads as "text settles, then
+  // the map assembles", not both firing at once. Runs once per mount.
+  const [mapReady, setMapReady] = useState(false)
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setMapReady(true)
+      return
+    }
+    const timer = setTimeout(
+      () => setMapReady(true),
+      headlineWordCount * REVEAL_WORD_STEP_MS + REVEAL_WORD_DURATION_MS * 0.3,
+    )
+    return () => clearTimeout(timer)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   return (
     <>
     <section className="relative min-h-[920px] overflow-hidden lg:min-h-[760px]">
       <div className="absolute inset-0" style={{ transform: 'translateY(-57px)' }}>
-        <ParticleCanvas ref={canvasHandleRef} shape={country.shape} />
+        <div
+          className="h-full w-full"
+          style={{ opacity: mapReady ? 1 : 0, transition: 'opacity 900ms ease-out' }}
+        >
+          {mapReady && <ParticleCanvas ref={canvasHandleRef} shape={country.shape} />}
+        </div>
         {/* Dissolves the canvas into a blur toward the bottom instead of a hard clip,
             so the hero reads as one continuous space with the content below it. */}
         <div
@@ -83,14 +119,17 @@ export function Home() {
               <ShimmerText text={locale === 'ru' ? eyebrowRu : eyebrowEn} />
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
-              {locale === 'ru'
-                ? 'А какую индустрию хотели бы изучить именно Вы?'
-                : 'So which industry would you specifically like to explore?'}
+              <RevealText text={headlineText} />
             </h1>
             <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
-              {locale === 'ru'
-                ? 'Полезные экспедиции, где Вы уже не просто турист, а исследователь и первооткрыватель.'
-                : 'Purposeful expeditions where you’re no longer just a tourist — you’re an explorer and a pioneer.'}
+              <RevealText
+                startDelayMs={subtitleStartDelayMs}
+                text={
+                  locale === 'ru'
+                    ? 'Полезные экспедиции, где Вы уже не просто турист, а исследователь и первооткрыватель.'
+                    : 'Purposeful expeditions where you’re no longer just a tourist — you’re an explorer and a pioneer.'
+                }
+              />
             </p>
 
             {/* Below sm, a plain single-column stack reads far cleaner than the
@@ -188,12 +227,17 @@ export function Home() {
               <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
             </p>
             <h1 className="mt-6 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
-              {locale === 'ru' ? country.name_ru : country.name_en}
+              <RevealText text={headlineText} />
             </h1>
             <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
-              {locale === 'ru'
-                ? 'Каталог компаний и готовые экспедиции для этой страны в разработке — загляните позже.'
-                : "The company catalogue and ready expeditions for this country are in the works — check back soon."}
+              <RevealText
+                startDelayMs={subtitleStartDelayMs}
+                text={
+                  locale === 'ru'
+                    ? 'Каталог компаний и готовые экспедиции для этой страны в разработке — загляните позже.'
+                    : "The company catalogue and ready expeditions for this country are in the works — check back soon."
+                }
+              />
             </p>
           </>
         )}
