@@ -8,7 +8,7 @@ import { ShimmerText } from './ShimmerText'
 
 // Countries with their own 3D map preview (assembles like the China hero) —
 // browsable even before there's a real catalogue behind them. Every other
-// inactive country stays a plain disabled "Soon" row.
+// inactive country stays a plain disabled "Soon" chip.
 const COUNTRIES_WITH_PREVIEW = new Set(['jp', 'kr', 'in', 'th', 'my', 'id', 'vn'])
 
 export function CountrySelector({
@@ -35,8 +35,28 @@ export function CountrySelector({
     return () => document.removeEventListener('mousedown', onClickOutside)
   }, [])
 
+  // Shared chip styling for every entry in the horizontal country row —
+  // kept as one function so the three branches below (previewable+home,
+  // previewable elsewhere, plain/disabled) stay visually identical.
+  function chipClass(isSelected: boolean, disabled: boolean) {
+    if (disabled) {
+      return 'inline-flex cursor-not-allowed items-center gap-1.5 whitespace-nowrap rounded-full border border-black/10 px-3.5 py-2 text-sm text-ash-gray/50'
+    }
+    return `inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border px-3.5 py-2 text-sm transition-colors ${
+      isSelected
+        ? 'border-electric-iris/50 bg-electric-iris/10 text-electric-iris'
+        : 'border-black/10 text-bone-white hover:bg-black/5'
+    }`
+  }
+
+  const soonBadge = (
+    <span className="text-[9px] font-semibold uppercase tracking-[0.025em] opacity-70">
+      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
+    </span>
+  )
+
   return (
-    <div ref={ref} className={variant === 'hero' ? `relative w-full ${className}` : `relative ${className}`}>
+    <div ref={ref} className={`relative min-w-0 ${className}`}>
       {variant === 'hero' ? (
         <button
           type="button"
@@ -61,10 +81,13 @@ export function CountrySelector({
         </button>
       )}
 
+      {/* Countries laid out in a single flowing row (wraps onto a second
+          line if it runs out of width) instead of a vertical list — with
+          only 8 countries this reads as one horizontal picker, not a menu. */}
       {open && (
-        <ul
-          className={`absolute top-[calc(100%+8px)] rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)] ${
-            variant === 'hero' ? 'left-0 right-0 z-20' : 'right-0 w-56'
+        <div
+          className={`absolute top-[calc(100%+8px)] z-20 flex w-max max-w-[min(90vw,480px)] flex-wrap gap-2 rounded-[16px] border border-black/10 bg-void p-3 shadow-[0_20px_40px_rgba(0,0,0,0.12)] ${
+            variant === 'hero' ? 'left-0' : 'right-0'
           }`}
         >
           {countries.map((country) => {
@@ -77,74 +100,55 @@ export function CountrySelector({
             // like part of the page rather than a disconnected stub.
             if (hasPreview && isHome) {
               return (
-                <li key={country.code}>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setCountryCode(country.code)
-                      setOpen(false)
-                    }}
-                    className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm hover:bg-black/5 ${
-                      isSelected ? 'text-electric-iris' : 'text-bone-white'
-                    }`}
-                  >
-                    {pick(country, 'name', locale)}
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
-                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
-                    </span>
-                  </button>
-                </li>
+                <button
+                  key={country.code}
+                  type="button"
+                  onClick={() => {
+                    setCountryCode(country.code)
+                    setOpen(false)
+                  }}
+                  className={chipClass(isSelected, false)}
+                >
+                  {pick(country, 'name', locale)}
+                  {soonBadge}
+                </button>
               )
             }
 
             if (hasPreview) {
               return (
-                <li key={country.code}>
-                  <Link
-                    to={`/countries/${country.code}`}
-                    onClick={() => {
-                      setCountryCode(country.code)
-                      setOpen(false)
-                    }}
-                    className="flex w-full items-center justify-between px-4 py-2 text-left text-sm text-bone-white hover:bg-black/5"
-                  >
-                    {pick(country, 'name', locale)}
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
-                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
-                    </span>
-                  </Link>
-                </li>
+                <Link
+                  key={country.code}
+                  to={`/countries/${country.code}`}
+                  onClick={() => {
+                    setCountryCode(country.code)
+                    setOpen(false)
+                  }}
+                  className={chipClass(isSelected, false)}
+                >
+                  {pick(country, 'name', locale)}
+                  {soonBadge}
+                </Link>
               )
             }
 
             return (
-              <li key={country.code}>
-                <button
-                  type="button"
-                  disabled={!country.active}
-                  onClick={() => {
-                    if (country.active) setCountryCode(country.code)
-                    setOpen(false)
-                  }}
-                  className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm ${
-                    country.active
-                      ? isSelected
-                        ? 'text-electric-iris'
-                        : 'text-bone-white hover:bg-black/5'
-                      : 'cursor-not-allowed text-ash-gray/50'
-                  }`}
-                >
-                  {pick(country, 'name', locale)}
-                  {!country.active && (
-                    <span className="text-[10px] font-semibold uppercase tracking-[0.025em] opacity-70">
-                      <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Soon'} />
-                    </span>
-                  )}
-                </button>
-              </li>
+              <button
+                key={country.code}
+                type="button"
+                disabled={!country.active}
+                onClick={() => {
+                  if (country.active) setCountryCode(country.code)
+                  setOpen(false)
+                }}
+                className={chipClass(isSelected, !country.active)}
+              >
+                {pick(country, 'name', locale)}
+                {!country.active && soonBadge}
+              </button>
             )
           })}
-        </ul>
+        </div>
       )}
     </div>
   )

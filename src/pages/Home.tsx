@@ -174,7 +174,7 @@ export function Home() {
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
               </Link>
-              <CountrySelector variant="hero" />
+              <CountrySelector variant="hero" className="w-full" />
             </div>
 
             <div ref={topPillsRef} className="pointer-events-auto mt-10 hidden w-fit flex-wrap gap-3 sm:flex">
@@ -201,27 +201,34 @@ export function Home() {
               </Link>
             </div>
 
+            {/* Grid, not flex, for the three equal-width pills below: a flex
+                row gives each item's own min-content an implicit floor, so
+                unevenly-sized labels (a two-word pill vs a short country
+                name) end up unequal widths even with flex-1 on all three.
+                grid-cols-3 uses minmax(0,1fr) tracks, which ignores content
+                size entirely and always splits the row into three equal
+                columns. */}
             <div
-              className="pointer-events-auto mt-3 hidden max-w-full gap-3 sm:flex"
+              className="pointer-events-auto mt-3 hidden max-w-full grid-cols-3 gap-3 sm:grid"
               style={topPillsWidth ? { width: topPillsWidth } : undefined}
             >
               <Link
                 to="/cases"
                 onClick={(event) => goTo('/cases', event)}
-                className="pill-shimmer flex flex-1 items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="pill-shimmer flex items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 <span className="relative z-10">{locale === 'ru' ? 'Кейсы' : 'Cases'}</span>
               </Link>
               <Link
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
-                className="pill-shimmer flex flex-1 items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+                className="pill-shimmer flex items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 <span className="relative z-10">
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
               </Link>
-              <CountrySelector variant="hero" className="flex-1" />
+              <CountrySelector variant="hero" className="w-full" />
             </div>
           </>
         ) : (
