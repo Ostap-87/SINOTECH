@@ -11,7 +11,13 @@ import { ShimmerText } from './ShimmerText'
 // inactive country stays a plain disabled "Soon" row.
 const COUNTRIES_WITH_PREVIEW = new Set(['jp', 'kr', 'in', 'th', 'my', 'id', 'vn'])
 
-export function CountrySelector() {
+export function CountrySelector({
+  variant = 'nav',
+  className = '',
+}: {
+  variant?: 'nav' | 'hero'
+  className?: string
+}) {
   const { locale } = useLanguage()
   const { countryCode, setCountryCode } = useSelectedCountry()
   const location = useLocation()
@@ -30,19 +36,37 @@ export function CountrySelector() {
   }, [])
 
   return (
-    <div ref={ref} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
-        aria-expanded={open}
-      >
-        {pick(selected, 'name', locale)}
-        <ChevronDown size={12} className={open ? 'rotate-180 transition-transform' : 'transition-transform'} />
-      </button>
+    <div ref={ref} className={variant === 'hero' ? `relative w-full ${className}` : `relative ${className}`}>
+      {variant === 'hero' ? (
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          className="pill-shimmer relative flex w-full items-center justify-center gap-1.5 rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+          aria-expanded={open}
+        >
+          <span className="relative z-10 flex items-center gap-1.5">
+            {pick(selected, 'name', locale)}
+            <ChevronDown size={14} className={open ? 'rotate-180 transition-transform' : 'transition-transform'} />
+          </span>
+        </button>
+      ) : (
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          className="flex items-center gap-1.5 rounded-full border border-black/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray transition-colors hover:text-bone-white"
+          aria-expanded={open}
+        >
+          {pick(selected, 'name', locale)}
+          <ChevronDown size={12} className={open ? 'rotate-180 transition-transform' : 'transition-transform'} />
+        </button>
+      )}
 
       {open && (
-        <ul className="absolute right-0 top-[calc(100%+8px)] w-56 rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)]">
+        <ul
+          className={`absolute top-[calc(100%+8px)] rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)] ${
+            variant === 'hero' ? 'left-0 right-0 z-20' : 'right-0 w-56'
+          }`}
+        >
           {countries.map((country) => {
             const hasPreview = !country.active && COUNTRIES_WITH_PREVIEW.has(country.code)
             const isSelected = country.code === countryCode

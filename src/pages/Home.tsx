@@ -11,6 +11,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { BrandMarquee } from '@/components/BrandMarquee'
 import { ShimmerText } from '@/components/ShimmerText'
 import { RevealText, REVEAL_WORD_STEP_MS, REVEAL_WORD_DURATION_MS } from '@/components/RevealText'
+import { CountrySelector } from '@/components/CountrySelector'
 
 export function Home() {
   const { locale } = useLanguage()
@@ -173,6 +174,7 @@ export function Home() {
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
               </Link>
+              <CountrySelector variant="hero" />
             </div>
 
             <div ref={topPillsRef} className="pointer-events-auto mt-10 hidden w-fit flex-wrap gap-3 sm:flex">
@@ -219,6 +221,7 @@ export function Home() {
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
               </Link>
+              <CountrySelector variant="hero" className="flex-1" />
             </div>
           </>
         ) : (

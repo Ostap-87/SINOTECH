@@ -3,7 +3,6 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { Logo } from './Logo'
-import { CountrySelector } from './CountrySelector'
 
 // Primary items stay inline; less time-critical ones (info/content pages)
 // live in the Resources dropdown so adding more sections doesn't widen the
@@ -180,7 +179,6 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <div className="hidden items-center gap-3 sm:flex">
-            <CountrySelector />
             <LocaleToggle />
           </div>
           <Link
@@ -221,7 +219,6 @@ export function Navbar() {
             ))}
           </nav>
           <div className="mt-4 flex items-center gap-3">
-            <CountrySelector />
             <LocaleToggle />
           </div>
           <Link
