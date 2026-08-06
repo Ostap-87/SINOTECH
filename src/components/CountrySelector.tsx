@@ -56,12 +56,12 @@ export function CountrySelector({
   )
 
   return (
-    <div ref={ref} className={`relative min-w-0 ${className}`}>
+    <div ref={ref} className={`relative flex min-w-0 ${className}`}>
       {variant === 'hero' ? (
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="pill-shimmer relative flex w-full items-center justify-center gap-1.5 rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
+          className="pill-shimmer relative flex h-full w-full items-center justify-center gap-1.5 rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
           aria-expanded={open}
         >
           <span className="relative z-10 flex items-center gap-1.5">
