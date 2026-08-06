@@ -134,34 +134,8 @@ h3 {
   }
 }
 
-@keyframes pill-shimmer-sweep {
-  0% {
-    background-position: 200% 0;
-  }
-  100% {
-    background-position: -200% 0;
-  }
-}
-
 .pill-shimmer {
   position: relative;
   overflow: hidden;
   animation: pill-pulse-glow 2.2s ease-in-out infinite;
-}
-
-.pill-shimmer::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    100deg,
-    transparent 30%,
-    rgba(96, 165, 250, 0.55) 48%,
-    rgba(37, 99, 235, 0.65) 50%,
-    rgba(96, 165, 250, 0.55) 52%,
-    transparent 70%
-  );
-  background-size: 250% 100%;
-  animation: pill-shimmer-sweep 2.6s linear infinite;
-  pointer-events: none;
 }
