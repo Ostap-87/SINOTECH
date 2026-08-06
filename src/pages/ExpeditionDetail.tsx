@@ -10,6 +10,7 @@ import { COUNTRY_SHAPES } from '@/data/countryShapes'
 import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
+import { RevealText } from '@/components/RevealText'
 
 function formatRub(amount: number | null | undefined, locale: 'ru' | 'en'): string {
   if (amount == null) return locale === 'ru' ? 'уточняется' : 'on request'
@@ -135,7 +136,7 @@ export function ExpeditionDetail() {
             {pick(tour, 'eyebrow', locale)}
           </p>
           <h1 className="mt-3 text-[36px] font-normal tracking-[-0.02em] sm:text-[42px]">
-            {pick(tour, 'title', locale)}
+            <RevealText text={pick(tour, 'title', locale)} />
           </h1>
           <p className="mt-2 text-sm text-electric-iris">{pick(tour, 'tagline', locale)}</p>
           <p className="mt-4 max-w-2xl text-silver-mist">{pick(tour, 'positioning', locale)}</p>

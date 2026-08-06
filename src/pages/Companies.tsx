@@ -6,6 +6,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { CompanyMark } from '@/components/CompanyMark'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 export function Companies() {
   const { locale } = useLanguage()
@@ -85,7 +86,7 @@ export function Companies() {
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
       </p>
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
-        {locale === 'ru' ? 'Компании' : 'Companies'}
+        <RevealText text={locale === 'ru' ? 'Компании' : 'Companies'} />
       </h1>
       <p className="mt-6 max-w-2xl text-lg font-normal text-silver-mist">
         {locale === 'ru'

@@ -4,6 +4,7 @@ import { useLanguage } from '@/i18n/LanguageContext'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { siteContent } from '@/data'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 interface ContactForm {
   name: string
@@ -84,7 +85,7 @@ export function Contacts() {
           <ShimmerText variant="saffron" text={locale === 'ru' ? 'Контакты' : 'Contacts'} />
         </p>
         <h1 className="mt-6 max-w-3xl text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[44px] lg:text-[52px]">
-          {locale === 'ru' ? 'Свяжитесь с нами' : 'Get in touch'}
+          <RevealText text={locale === 'ru' ? 'Свяжитесь с нами' : 'Get in touch'} />
         </h1>
         <p className="mt-6 max-w-2xl text-lg font-normal text-silver-mist">
           {locale === 'ru'

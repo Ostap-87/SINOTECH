@@ -81,15 +81,23 @@ h3 {
 
 @keyframes brand-marquee-scroll {
   from {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
+/* translate3d + will-change promotes the track to its own compositor layer,
+   so the scroll keeps running smoothly on the GPU even while the hero's
+   three.js particle field (a genuinely heavy per-frame JS/CPU workload,
+   see ParticleFieldEngine.tick()) is busy on the main thread — without
+   the promotion, the browser can fall back to compositing this alongside
+   that work and the scroll visibly stutters/stalls. */
 .brand-marquee-track {
   animation: brand-marquee-scroll 38s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 @keyframes logo-letter-shimmer {

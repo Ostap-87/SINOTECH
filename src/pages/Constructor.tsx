@@ -15,6 +15,7 @@ import { DatePicker } from '@/components/DatePicker'
 import { generateRequestPdf } from '@/lib/generateRequestPdf'
 import type { PdfDay } from '@/lib/generateRequestPdf'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 type FormatKey = '2' | '5'
 
@@ -360,7 +361,7 @@ export function Constructor() {
             <ShimmerText variant="saffron" text={locale === 'ru' ? 'Конструктор' : 'Constructor'} />
           </p>
           <h1 className="mt-6 text-[36px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[48px] lg:text-[56px]">
-            {locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'}
+            <RevealText text={locale === 'ru' ? 'Соберите свою программу' : 'Build your own program'} />
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg font-normal text-silver-mist">
             {locale === 'ru'

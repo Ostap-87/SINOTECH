@@ -3,6 +3,7 @@ import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { blogPosts } from '@/data'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 import { BlogCover, formatBlogDate } from '@/components/BlogCover'
 
 export function Blog() {
@@ -21,7 +22,7 @@ export function Blog() {
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Блог' : 'Blog'} />
       </p>
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
-        {locale === 'ru' ? 'Заметки о поездках в Китай' : 'Notes on trips to China'}
+        <RevealText text={locale === 'ru' ? 'Заметки о поездках в Китай' : 'Notes on trips to China'} />
       </h1>
       <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
         {locale === 'ru'

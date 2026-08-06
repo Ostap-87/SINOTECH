@@ -8,6 +8,7 @@ import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 export function IndustryFork() {
   const { locale } = useLanguage()
@@ -91,7 +92,7 @@ export function IndustryFork() {
             />
           </p>
           <h1 className="mt-3 text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
-            {pick(sector, 'label', locale)}
+            <RevealText text={pick(sector, 'label', locale)} />
           </h1>
         </div>
 

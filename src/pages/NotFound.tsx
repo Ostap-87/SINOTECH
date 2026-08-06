@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 export function NotFound() {
   const { locale } = useLanguage()
@@ -18,7 +19,7 @@ export function NotFound() {
         <ShimmerText variant="saffron" text="404" />
       </p>
       <h1 className="mt-4 text-[42px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[56px]">
-        {locale === 'ru' ? 'Страница не найдена' : 'Page not found'}
+        <RevealText text={locale === 'ru' ? 'Страница не найдена' : 'Page not found'} />
       </h1>
       <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
         {locale === 'ru'

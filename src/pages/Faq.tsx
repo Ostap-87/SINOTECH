@@ -6,6 +6,7 @@ import { siteContent } from '@/data'
 import { FAQ_GROUPS, FAQ_ITEMS, FAQ_DIRECTIONS, VISA_INFO_ACTUAL_DATE } from '@/data/faq'
 import type { FaqBlock } from '@/data/faq'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 /** Splits `**bold**` markers out of otherwise-plain text into React nodes. */
 function renderInline(text: string) {
@@ -148,7 +149,7 @@ export function Faq() {
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'FAQ' : 'FAQ'} />
       </p>
       <h1 className="mt-6 text-[36px] font-semibold leading-[1.1] tracking-[-0.03em] sm:text-[44px]">
-        {locale === 'ru' ? 'Вопросы и ответы' : 'Questions & answers'}
+        <RevealText text={locale === 'ru' ? 'Вопросы и ответы' : 'Questions & answers'} />
       </h1>
       <p className="mt-6 max-w-2xl text-lg font-normal text-silver-mist">
         {locale === 'ru'

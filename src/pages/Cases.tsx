@@ -7,6 +7,7 @@ import { CircularMediaCarousel } from '@/components/CircularMediaCarousel'
 import type { CaseMediaItem } from '@/components/CircularMediaCarousel'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 const GRADIENTS = [
   'linear-gradient(160deg, #60a5fa, #1e3a8a)',
@@ -61,7 +62,7 @@ export function Cases() {
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Каталог' : 'Catalog'} />
       </p>
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
-        {locale === 'ru' ? 'Кейсы' : 'Cases'}
+        <RevealText text={locale === 'ru' ? 'Кейсы' : 'Cases'} />
       </h1>
       <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
         {locale === 'ru'

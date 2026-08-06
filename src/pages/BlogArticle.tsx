@@ -5,6 +5,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { blogPosts, getBlogPost } from '@/data'
 import { SITE_URL, SITE_NAME, OG_IMAGE_RU, OG_IMAGE_EN } from '@/lib/seoConfig'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 import { BlogCover, formatBlogDate } from '@/components/BlogCover'
 import { RichBody } from '@/components/RichBody'
 import { Placeholder } from './Placeholder'
@@ -72,7 +73,7 @@ export function BlogArticle() {
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Блог' : 'Blog'} />
       </p>
       <h1 className="mt-4 text-[32px] font-semibold leading-[1.1] tracking-[-0.02em] text-bone-white sm:text-[42px]">
-        {pick(post, 'title', locale)}
+        <RevealText text={pick(post, 'title', locale)} />
       </h1>
 
       <div className="mt-5 flex flex-wrap items-center gap-2 text-sm text-ash-gray">

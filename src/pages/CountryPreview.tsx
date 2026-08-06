@@ -8,6 +8,7 @@ import { useShapeExitNavigate } from '@/hooks/useShapeExitNavigate'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { Placeholder } from './Placeholder'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 export function CountryPreview() {
   const { locale } = useLanguage()
@@ -72,7 +73,7 @@ export function CountryPreview() {
           <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
         </p>
         <h1 className="mt-3 max-w-2xl text-[42px] font-semibold leading-[1.05] tracking-[-0.03em] sm:text-[56px] lg:text-[64px]">
-          {locale === 'ru' ? country.name_ru : country.name_en}
+          <RevealText text={locale === 'ru' ? country.name_ru : country.name_en} />
         </h1>
         <p className="mt-6 max-w-xl text-lg font-normal text-silver-mist">
           {locale === 'ru'

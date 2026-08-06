@@ -4,6 +4,7 @@ import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, toursData, getCity, getSector, companyNameZh } from '@/data'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { CompanyMark } from '@/components/CompanyMark'
+import { RevealText } from '@/components/RevealText'
 import { Placeholder } from './Placeholder'
 
 export function CompanyDetail() {
@@ -55,7 +56,7 @@ export function CompanyDetail() {
         <CompanyMark company={company} size={72} />
         <div className="min-w-0">
           <h1 className="text-[32px] font-semibold leading-[1.1] tracking-[-0.02em] text-bone-white sm:text-[40px]">
-            {company.name_en}
+            <RevealText text={company.name_en} />
           </h1>
           <p className="mt-1 text-xl text-silver-mist">{company.name_zh}</p>
         </div>

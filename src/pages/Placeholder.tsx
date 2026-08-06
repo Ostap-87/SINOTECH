@@ -1,5 +1,6 @@
 import { useLanguage } from '@/i18n/LanguageContext'
 import { ShimmerText } from '@/components/ShimmerText'
+import { RevealText } from '@/components/RevealText'
 
 export function Placeholder({
   title_ru,
@@ -20,7 +21,7 @@ export function Placeholder({
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />
       </p>
       <h1 className="mt-4 text-[42px] font-normal leading-[1.05] tracking-[-0.04em] sm:text-[56px]">
-        {locale === 'ru' ? title_ru : title_en}
+        <RevealText text={locale === 'ru' ? title_ru : title_en} />
       </h1>
       {(note_ru || note_en) && (
         <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
