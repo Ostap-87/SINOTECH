@@ -10407,6 +10407,1233 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "uae-fintech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "finance",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Финтех и цифровой банкинг ОАЭ: от Mashreq Neo до Wio Bank",
+      "title_en": "UAE Fintech & Digital Banking: From Mashreq Neo to Wio Bank",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "Mashreq NBD · Visa · Mastercard · ADGM · Wio Bank",
+      "tagline_en": "Mashreq NBD · Visa · Mastercard · ADGM · Wio Bank",
+      "positioning_ru": "От пионеров цифрового банкинга Дубая (DIFC) до независимого финансового регулятора и цифровых банков Абу-Даби (ADGM) — вся финтех-инфраструктура ОАЭ за одну поездку.",
+      "positioning_en": "From Dubai's digital-banking pioneers (DIFC) to Abu Dhabi's independent financial regulator and digital banks (ADGM) — the UAE's entire fintech infrastructure in one trip.",
+      "stats": {
+        "cities": 2,
+        "days": 5,
+        "nights": 5,
+        "companies": 11,
+        "flights": 0
+      },
+      "route_strategy": "dubai-to-abu-dhabi",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "dubai",
+        "abu-dhabi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "DIFC",
+          "area_en": "DIFC",
+          "time": "10:00–13:00",
+          "companies": [
+            "mashreq-bank",
+            "emirates-nbd"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "DIFC",
+          "area_en": "DIFC",
+          "time": "10:00–13:00",
+          "companies": [
+            "visa-mena",
+            "mastercard-mena"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "DIFC",
+          "area_en": "DIFC",
+          "time": "10:00–13:00",
+          "companies": [
+            "astra-tech-careem-pay",
+            "bayzat",
+            "nymcard"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "ADGM",
+          "area_en": "ADGM",
+          "time": "10:00–13:00",
+          "companies": [
+            "adcb",
+            "wio-bank"
+          ],
+          "transfer_ru": "Утренний трансфер Дубай → Абу-Даби (~1,5 часа по трассе).",
+          "transfer_en": "Morning transfer Dubai → Abu Dhabi (~1.5 hours by road)."
+        },
+        {
+          "day": 5,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "ADGM",
+          "area_en": "ADGM",
+          "time": "10:00–13:00",
+          "companies": [
+            "adgm",
+            "hub71-fintech-cluster"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-ai-tech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "ai",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "ИИ и технологии в ОАЭ: от G42 до региональных штаб-квартир Big Tech",
+      "title_en": "UAE AI & Tech: From G42 to Big Tech Regional HQs",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "G42 · Hub71 · Google · AWS · Meta · Microsoft · TikTok",
+      "tagline_en": "G42 · Hub71 · Google · AWS · Meta · Microsoft · TikTok",
+      "positioning_ru": "От государственного ИИ-чемпиона G42 и технохаба Hub71 в Абу-Даби до региональных штаб-квартир Google, AWS, Meta, Microsoft и TikTok в Dubai Internet City — вся ИИ- и tech-инфраструктура региона MENA в одной поездке.",
+      "positioning_en": "From G42, the state-backed AI champion, and the Hub71 tech hub in Abu Dhabi, to the regional headquarters of Google, AWS, Meta, Microsoft and TikTok in Dubai Internet City — the MENA region's entire AI and tech infrastructure in one trip.",
+      "stats": {
+        "cities": 2,
+        "days": 5,
+        "nights": 5,
+        "companies": 11,
+        "flights": 0
+      },
+      "route_strategy": "abu-dhabi-to-dubai",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "abu-dhabi",
+        "dubai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "Hub71 / Masdar City",
+          "area_en": "Hub71 / Masdar City",
+          "time": "10:00–13:00",
+          "companies": [
+            "g42",
+            "hub71"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "Masdar City",
+          "area_en": "Masdar City",
+          "time": "10:00–13:00",
+          "companies": [
+            "tii"
+          ],
+          "transfer_ru": "После утреннего визита — трансфер Абу-Даби → Дубай (~1,5 часа по трассе).",
+          "transfer_en": "After the morning visit — transfer Abu Dhabi → Dubai (~1.5 hours by road)."
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "Dubai Internet City",
+          "area_en": "Dubai Internet City",
+          "time": "10:00–13:00",
+          "companies": [
+            "google-mena",
+            "aws-mena"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "Dubai Internet City",
+          "area_en": "Dubai Internet City",
+          "time": "10:00–13:00",
+          "companies": [
+            "meta-mena",
+            "microsoft-mea",
+            "alibaba-cloud-me"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "Dubai Internet City",
+          "area_en": "Dubai Internet City",
+          "time": "10:00–13:00",
+          "companies": [
+            "tiktok-mena",
+            "careem",
+            "dubai-future-foundation"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-logistics-ports-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "logistics",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Логистика и порты ОАЭ: DP World, Jebel Ali и грузовая авиация Дубая",
+      "title_en": "UAE Logistics & Ports: DP World, Jebel Ali and Dubai's Air Cargo",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "DP World · JAFZA · Maersk · DHL · FedEx · Aramex",
+      "tagline_en": "DP World · JAFZA · Maersk · DHL · FedEx · Aramex",
+      "positioning_ru": "От крупнейшего портового оператора DP World и свободной зоны Jebel Ali до региональных штаб-квартир Maersk, DHL, FedEx и грузового флота Emirates SkyCargo — вся логистическая инфраструктура Дубая без единого перелёта.",
+      "positioning_en": "From DP World, the largest port operator, and the Jebel Ali free zone, to the regional headquarters of Maersk, DHL, FedEx and the Emirates SkyCargo freight fleet — Dubai's entire logistics infrastructure, no flights required.",
+      "stats": {
+        "cities": 1,
+        "days": 5,
+        "nights": 5,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "dubai-only",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "dubai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "dp-world",
+            "jafza"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "maersk-me",
+            "dhl-express-mena"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "fedex-me",
+            "aramex"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "emirates-skycargo",
+            "dnata"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "dmcc",
+            "amazon-ae"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-aviation-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "aerospace",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Авиация ОАЭ: от Emirates Engineering до Etihad и аэропортов Дубая и Абу-Даби",
+      "title_en": "UAE Aviation: From Emirates Engineering to Etihad and the Dubai/Abu Dhabi Airports",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "Emirates · flydubai · Airbus · Boeing · Etihad",
+      "tagline_en": "Emirates · flydubai · Airbus · Boeing · Etihad",
+      "positioning_ru": "От технического обслуживания флота Emirates и одного из самых загруженных аэропортов мира (DXB) до национального перевозчика Абу-Даби Etihad и его инженерного подразделения — вся авиационная экосистема ОАЭ за одну поездку.",
+      "positioning_en": "From Emirates' fleet maintenance and one of the world's busiest airports (DXB) to Abu Dhabi's national carrier Etihad and its engineering division — the UAE's entire aviation ecosystem in one trip.",
+      "stats": {
+        "cities": 2,
+        "days": 5,
+        "nights": 5,
+        "companies": 11,
+        "flights": 0
+      },
+      "route_strategy": "dubai-to-abu-dhabi",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "dubai",
+        "abu-dhabi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "emirates-group",
+            "emirates-engineering"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "flydubai",
+            "dubai-airports"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "airbus-me",
+            "boeing-me"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "dnata",
+            "emirates-flight-training-academy"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "etihad-airways",
+            "etihad-engineering",
+            "zayed-international-airport"
+          ],
+          "transfer_ru": "Утренний трансфер Дубай → Абу-Даби (~1,5 часа по трассе).",
+          "transfer_en": "Morning transfer Dubai → Abu Dhabi (~1.5 hours by road)."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-realestate-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "realestate",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Недвижимость и девелопмент ОАЭ: от Emaar и Palm Jumeirah до острова Яс",
+      "title_en": "UAE Real Estate & Development: From Emaar and Palm Jumeirah to Yas Island",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "Emaar · DAMAC · Nakheel · Dubai Holding · Aldar",
+      "tagline_en": "Emaar · DAMAC · Nakheel · Dubai Holding · Aldar",
+      "positioning_ru": "От застройщика Burj Khalifa Emaar Properties и создателя искусственных островов Nakheel до крупнейших международных консалтинговых компаний по недвижимости и девелопера острова Яс в Абу-Даби — вся индустрия недвижимости ОАЭ в одной поездке.",
+      "positioning_en": "From Emaar Properties, the builder of Burj Khalifa, and Nakheel, the creator of the artificial islands, to the largest international real-estate consultancies and Abu Dhabi's Yas Island developer — the UAE's entire real-estate industry in one trip.",
+      "stats": {
+        "cities": 2,
+        "days": 5,
+        "nights": 5,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "dubai-to-abu-dhabi",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "dubai",
+        "abu-dhabi"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "emaar-properties",
+            "damac-properties"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "nakheel",
+            "dubai-holding"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "meraas",
+            "jll-mena"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "cbre-mena",
+            "knight-frank-mena"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "aldar-properties"
+          ],
+          "transfer_ru": "Утренний трансфер Дубай → Абу-Даби (~1,5 часа по трассе).",
+          "transfer_en": "Morning transfer Dubai → Abu Dhabi (~1.5 hours by road)."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-energy-green-tech-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "energy",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Энергетика и зелёные технологии ОАЭ: от ADNOC и Masdar до крупнейшего солнечного парка",
+      "title_en": "UAE Energy & Green Tech: From ADNOC and Masdar to the World's Largest Solar Park",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "ADNOC · Masdar · TAQA · DEWA · Solar Park",
+      "tagline_en": "ADNOC · Masdar · TAQA · DEWA · Solar Park",
+      "positioning_ru": "От государственной нефтегазовой ADNOC и разработчика Masdar City до крупнейшего в мире единого солнечного парка Mohammed bin Rashid Al Maktoum — весь энергопереход ОАЭ, от нефти до солнца, в одной поездке.",
+      "positioning_en": "From the state oil-and-gas company ADNOC and the developer of Masdar City to the world's largest single-site solar park, Mohammed bin Rashid Al Maktoum — the UAE's entire energy transition, from oil to solar, in one trip.",
+      "stats": {
+        "cities": 2,
+        "days": 5,
+        "nights": 5,
+        "companies": 9,
+        "flights": 0
+      },
+      "route_strategy": "abu-dhabi-to-dubai",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "abu-dhabi",
+        "dubai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "adnoc",
+            "masdar"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "siemens-energy-me",
+            "taqa"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "abu-dhabi",
+          "city_ru": "Абу-Даби",
+          "city_en": "Abu Dhabi",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "bp-me"
+          ],
+          "transfer_ru": "После утреннего визита — трансфер Абу-Даби → Дубай (~1,5 часа по трассе).",
+          "transfer_en": "After the morning visit — transfer Abu Dhabi → Dubai (~1.5 hours by road)."
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "dewa",
+            "shell-me"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "totalenergies-me",
+            "al-maktoum-solar-park"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "uae-retail-ecommerce-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "ae",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Ритейл и e-commerce ОАЭ: от Noon до люксовых конгломератов Дубая",
+      "title_en": "UAE Retail & E-commerce: From Noon to Dubai's Luxury Conglomerates",
+      "eyebrow_ru": "Бизнес-экспедиции в ОАЭ",
+      "eyebrow_en": "Business expeditions to the UAE",
+      "tagline_ru": "Noon · Majid Al Futtaim · Chalhoub · LVMH · Careem",
+      "tagline_en": "Noon · Majid Al Futtaim · Chalhoub · LVMH · Careem",
+      "positioning_ru": "От «арабского Amazon» Noon и крупнейшего оператора торговых центров Majid Al Futtaim до люксовых ритейл-конгломератов — партнёров LVMH, Chanel и Dior — весь ритейл-ландшафт Дубая, от масс-маркета до люкса, без единого перелёта.",
+      "positioning_en": "From Noon, the \"Arabian Amazon\", and Majid Al Futtaim, the largest mall operator, to luxury retail conglomerates partnered with LVMH, Chanel and Dior — Dubai's entire retail landscape, from mass market to luxury, no flights required.",
+      "stats": {
+        "cities": 1,
+        "days": 5,
+        "nights": 5,
+        "companies": 10,
+        "flights": 0
+      },
+      "route_strategy": "dubai-only",
+      "arrival_ru": "Дубай (перелёт Москва → Дубай)",
+      "arrival_en": "Dubai (flight Moscow → Dubai)",
+      "departure_ru": "Дубай — выезд из отеля и трансфер в аэропорт после дня 5.",
+      "departure_en": "Dubai — hotel checkout and airport transfer after day 5.",
+      "route_cities": [
+        "dubai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "noon",
+            "amazon-ae"
+          ],
+          "transfer_ru": "Прилёт делегации в первой половине дня, трансфер, короткое заселение — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives in the morning, short transfer and check-in — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "apple-me",
+            "majid-al-futtaim"
+          ]
+        },
+        {
+          "day": 3,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "ikea-me-al-futtaim",
+            "landmark-group"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "chalhoub-group",
+            "careem"
+          ]
+        },
+        {
+          "day": 5,
+          "city": "dubai",
+          "city_ru": "Дубай",
+          "city_en": "Dubai",
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–13:00",
+          "companies": [
+            "instashop",
+            "lvmh-me"
+          ]
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы/перелёты между городами программы",
+          "en": "Transfers/flights between the program's cities"
+        },
+        {
+          "ru": "Сопровождение на арабском/английском",
+          "en": "Support in Arabic/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут без потери дней на логистику",
+          "en": "A pre-arranged route with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Трансферы включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Список компаний и логистика основаны на исследовании середины 2026 года и требуют подтверждения точных дат и доступности делегационных визитов непосредственно у компаний перед продажей тура клиенту. Часть визитов (регуляторы, штаб-квартиры авиакомпаний и энергетических госкомпаний) требует запроса доступа за 8–12 недель, возможны NDA и ограничения на фото.",
+      "market_note_en": "Company list and logistics are based on mid-2026 research and require confirmation of exact dates and delegation-visit availability directly with each company before the tour is sold to a client. Some visits (regulators, airline and state energy company HQs) require requesting access 8-12 weeks ahead; NDAs and photography limits are possible.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
