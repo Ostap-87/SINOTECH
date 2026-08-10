@@ -195,8 +195,10 @@ export function Constructor() {
   const [startDate, setStartDate] = useState<Date | null>(null)
   const [peopleCount, setPeopleCount] = useState(2)
   const [contact, setContact] = useState<ContactForm>(EMPTY_CONTACT)
+  const [website, setWebsite] = useState('') // honeypot — real visitors never see/fill this
   const [pdfUrl, setPdfUrl] = useState<string | null>(null)
   const [generating, setGenerating] = useState(false)
+  const [leadStatus, setLeadStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
 
   const config = format ? FORMAT_CONFIG[format] : null
 
@@ -332,6 +334,41 @@ export function Constructor() {
       const url = URL.createObjectURL(blob)
       setPdfUrl(url)
       setStage('done')
+
+      // Best-effort — the PDF above is the part that must never fail, so a
+      // failed/slow lead delivery here never blocks the download or the
+      // "done" screen. Same backend as the Contacts page form (/api/lead on
+      // the VPS, see scripts/lead-intake.py), just built from the wizard's
+      // own fields instead of a single free-text message box.
+      const itineraryLines = pdfDays
+        .map(
+          (day) =>
+            `${locale === 'ru' ? 'День' : 'Day'} ${day.dayNumber} (${day.date}): ${
+              day.clusters.map((cluster) => `${cluster.cityLabel} — ${cluster.companyLines.join(', ')}`).join('; ') ||
+              '—'
+            }`,
+        )
+        .join('\n')
+      const message = [
+        `${locale === 'ru' ? 'Формат' : 'Format'}: ${config.days} ${locale === 'ru' ? 'дней' : 'days'}`,
+        `${locale === 'ru' ? 'Даты' : 'Dates'}: ${formatDateRange(startDate, endDate!, locale)}`,
+        `${locale === 'ru' ? 'Участников' : 'Participants'}: ${peopleCount}`,
+        `${locale === 'ru' ? 'Компании' : 'Companies'}: ${selectedCompanies.map((c) => companyDisplayNamePlain(c, locale)).join(', ')}`,
+        '',
+        itineraryLines,
+      ].join('\n')
+
+      setLeadStatus('sending')
+      try {
+        const response = await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ...contact, message, website, locale }),
+        })
+        setLeadStatus(response.ok ? 'sent' : 'error')
+      } catch {
+        setLeadStatus('error')
+      }
     } finally {
       setGenerating(false)
     }
@@ -716,6 +753,17 @@ export function Constructor() {
                   {locale === 'ru' ? '5. Контактные данные' : '5. Contact details'}
                 </h2>
                 <div className="mt-4 flex flex-col gap-3">
+                  {/* Honeypot — hidden from real visitors via CSS, not `type="hidden"`,
+                      so form-filling bots that inspect visible inputs still fill it. */}
+                  <input
+                    type="text"
+                    value={website}
+                    onChange={(e) => setWebsite(e.target.value)}
+                    tabIndex={-1}
+                    autoComplete="off"
+                    aria-hidden="true"
+                    className="absolute -left-[9999px] h-0 w-0 opacity-0"
+                  />
                   <input
                     type="text"
                     value={contact.companyName}
@@ -786,9 +834,16 @@ export function Constructor() {
                   : "The program PDF with your details is ready — download it below."}
               </p>
               <p className="mt-2 text-xs text-ash-gray">
-                {locale === 'ru'
-                  ? 'Сайт пока статический: автоматическая отправка PDF на почту и сохранение заявки в CRM появятся, когда будет подключён email-сервис — свяжитесь с нами напрямую, чтобы мы получили заявку прямо сейчас.'
-                  : "The site is static for now: automatic emailing of the PDF and saving the request to a CRM will land once an email service is connected — reach out directly so we get your request right away."}
+                {leadStatus === 'sent' &&
+                  (locale === 'ru'
+                    ? 'Заявка также отправлена нам напрямую — мы свяжемся с вами в ближайшее время.'
+                    : "Your request has also been sent to us directly — we'll be in touch shortly.")}
+                {leadStatus === 'sending' &&
+                  (locale === 'ru' ? 'Отправляем заявку нам…' : 'Sending your request to us…')}
+                {leadStatus === 'error' &&
+                  (locale === 'ru'
+                    ? 'Не удалось автоматически отправить заявку нам — на всякий случай свяжитесь с нами напрямую, чтобы мы точно её получили.'
+                    : "We couldn't automatically send your request to us — please reach out directly as well, just in case, so we're sure to receive it.")}
               </p>
               <div className="mt-5 flex flex-wrap justify-center gap-3">
                 {pdfUrl && (
