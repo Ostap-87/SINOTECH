@@ -156,9 +156,19 @@ function useProjection(country: RouteMapCountry): Projection | null {
       setProjection(cached)
       return
     }
+    // Countries without their own pre-built boundary set (e.g. a shape
+    // that only exists as a particle-preview fallback like 'generic')
+    // have no entry here — draw the map without province polygons
+    // instead of crashing on a missing loader.
+    const loader = PROVINCE_LOADERS[country]
+    if (!loader) {
+      projectionCache.set(country, EMPTY_PROJECTION)
+      setProjection(EMPTY_PROJECTION)
+      return
+    }
     setProjection(null)
     let cancelled = false
-    PROVINCE_LOADERS[country]().then((mod) => {
+    loader().then((mod) => {
       if (cancelled) return
       const built = buildProjection(mod.default as unknown as ProvinceEntry[])
       projectionCache.set(country, built)
