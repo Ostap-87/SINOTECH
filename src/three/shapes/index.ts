@@ -6,6 +6,7 @@ import { generateThailandPoints } from './thailand'
 import { generateMalaysiaPoints } from './malaysia'
 import { generateIndonesiaPoints } from './indonesia'
 import { generateVietnamPoints } from './vietnam'
+import { generateUaePoints } from './uae'
 import { generateBrainPoints } from './brain'
 import { generateRobotPoints } from './robot'
 import { generateWheelPoints } from './wheel'
@@ -24,6 +25,7 @@ export const SHAPE_GENERATORS = {
   malaysia: generateMalaysiaPoints,
   indonesia: generateIndonesiaPoints,
   vietnam: generateVietnamPoints,
+  uae: generateUaePoints,
   ai: generateBrainPoints,
   robotics: generateRobotPoints,
   auto: generateWheelPoints,

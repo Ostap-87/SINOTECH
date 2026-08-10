@@ -18,5 +18,5 @@ export const COUNTRY_SHAPES: Record<
   my: { shape: 'malaysia', name_ru: 'Малайзия', name_en: 'Malaysia', accusative_ru: 'Малайзию', preposition_ru: 'в' },
   id: { shape: 'indonesia', name_ru: 'Индонезия', name_en: 'Indonesia', accusative_ru: 'Индонезию', preposition_ru: 'в' },
   vn: { shape: 'vietnam', name_ru: 'Вьетнам', name_en: 'Vietnam', accusative_ru: 'Вьетнам', preposition_ru: 'во' },
-  ae: { shape: 'generic', name_ru: 'ОАЭ', name_en: 'UAE', accusative_ru: 'ОАЭ', preposition_ru: 'в' },
+  ae: { shape: 'uae', name_ru: 'ОАЭ', name_en: 'UAE', accusative_ru: 'ОАЭ', preposition_ru: 'в' },
 }

@@ -22,6 +22,7 @@ export type RouteMapCountry =
   | 'malaysia'
   | 'indonesia'
   | 'vietnam'
+  | 'uae'
 
 interface RouteMapProps {
   stops: RouteMapStop[]
@@ -48,11 +49,15 @@ interface ProvinceEntry {
 // Every country map is pre-built at province/state/prefecture level (like
 // China's) so a future expedition anywhere just plugs in stops — no new
 // boundary data to source first. Loaded on demand, one country at a time —
-// the 8 sets combined are over 500KB of JSON, and almost every expedition
-// only ever needs China's, so bundling all 8 into RouteMap's own chunk
+// the sets combined are well over 500KB of JSON, and almost every expedition
+// only ever needs China's, so bundling all of them into RouteMap's own chunk
 // made it the single heaviest thing on the tour-detail page (very
 // noticeable on slow mobile connections, where it could look like the page
 // had simply frozen while that chunk downloaded).
+//
+// UAE has no emirate-level subdivision (unlike the others' provinces/states)
+// — its "provinces" set is a single entry with the country's real coastline,
+// pending a proper admin-1 (emirate) boundary source.
 const PROVINCE_LOADERS: Record<RouteMapCountry, () => Promise<{ default: unknown }>> = {
   china: () => import('@/data/china-provinces.json'),
   japan: () => import('@/data/japan-provinces.json'),
@@ -62,6 +67,7 @@ const PROVINCE_LOADERS: Record<RouteMapCountry, () => Promise<{ default: unknown
   malaysia: () => import('@/data/malaysia-provinces.json'),
   indonesia: () => import('@/data/indonesia-provinces.json'),
   vietnam: () => import('@/data/vietnam-provinces.json'),
+  uae: () => import('@/data/uae-provinces.json'),
 }
 
 const REVEAL_INTERVAL_MS = 2600
