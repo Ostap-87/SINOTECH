@@ -12551,6 +12551,191 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-fintech-giants-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "finance",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Финтех-гиганты Китая",
+      "title_en": "China's Fintech Giants",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Ant Group · Tencent · JD Digits · Lufax · Du Xiaoman",
+      "tagline_en": "Ant Group · Tencent · JD Digits · Lufax · Du Xiaoman",
+      "positioning_ru": "Восемь ведущих компаний финтех-индустрии Китая в четырёх городах — все пять «финтех-гигантов» (Ant Group, Tencent, JD Digits, Du Xiaoman, Lufax) плюс три значимые специализированные платформы (OneConnect, LexinFintech, East Money Information): платежи, цифровой банкинг, кредитование.",
+      "positioning_en": "Eight leading companies from China's fintech industry across four cities — all five \"fintech giants\" (Ant Group, Tencent, JD Digits, Du Xiaoman, Lufax) plus three major specialized platforms (OneConnect, LexinFintech, East Money Information): payments, digital banking, lending.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 8,
+        "flights": 2
+      },
+      "route_strategy": "beijing-shenzhen-hangzhou-shanghai",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (flight Moscow → Beijing)",
+      "departure_ru": "Шанхай (→ Москва)",
+      "departure_en": "Shanghai (→ Moscow)",
+      "route_cities": [
+        "beijing",
+        "shenzhen",
+        "hangzhou",
+        "shanghai"
+      ],
+      "itinerary": [
+        {
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "day": 1,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–20:00",
+          "companies": [
+            "jd-digits",
+            "du-xiaoman"
+          ],
+          "transfer_ru": "Встреча в аэропорту, трансфер в отель, обед. После обеда — визит на JD Digits (р-н Ичжуан). Вечером — визит на Du Xiaoman Financial (р-н Хайдянь).",
+          "transfer_en": "Airport pickup, transfer, hotel check-in, lunch. Afternoon visit to JD Digits (Yizhuang district). Evening visit to Du Xiaoman Financial (Haidian district)."
+        },
+        {
+          "city": "shenzhen",
+          "city_ru": "Пекин → Шэньчжэнь",
+          "city_en": "Beijing → Shenzhen",
+          "day": 2,
+          "area_ru": "р-н Наньшань",
+          "area_en": "Nanshan district",
+          "time": "10:00–17:00",
+          "companies": [
+            "tencent"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "Утренний перелёт в Шэньчжэнь. После обеда — визит на штаб-квартиру Tencent (р-н Наньшань).",
+          "transfer_en": "Morning flight to Shenzhen. Afternoon visit to Tencent's headquarters (Nanshan district)."
+        },
+        {
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь",
+          "city_en": "Shenzhen",
+          "day": 3,
+          "area_ru": "р-н Наньшань",
+          "area_en": "Nanshan district",
+          "time": "09:00–17:00",
+          "companies": [
+            "oneconnect",
+            "lexinfintech"
+          ],
+          "note_ru": "Утро — визит на OneConnect (金融壹账通). После обеда — визит на LexinFintech (乐信, р-н Наньшань).",
+          "note_en": "Morning visit to OneConnect. Afternoon visit to LexinFintech (Nanshan district)."
+        },
+        {
+          "city": "hangzhou",
+          "city_ru": "Шэньчжэнь → Ханчжоу",
+          "city_en": "Shenzhen → Hangzhou",
+          "day": 4,
+          "area_ru": "«Муравьиное Z-пространство», р-н Сиху",
+          "area_en": "\"Ant Z-Space,\" Xihu district",
+          "time": "10:00–17:00",
+          "companies": [
+            "ant-group"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "Перелёт в Ханчжоу (~2,5 ч). Визит на штаб-квартиру Ant Group.",
+          "transfer_en": "Flight to Hangzhou (~2.5 h). Visit to Ant Group's headquarters."
+        },
+        {
+          "city": "shanghai",
+          "city_ru": "Ханчжоу → Шанхай — вылет",
+          "city_en": "Hangzhou → Shanghai — departure",
+          "day": 5,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–19:00",
+          "companies": [
+            "lufax",
+            "east-money-information"
+          ],
+          "leg_mode": "train",
+          "note_ru": "Утренняя поездка в Шанхай на скоростном поезде (~1 ч). Визиты на Lufax (陆金所) и East Money Information (东方财富). Трансфер в аэропорт, вылет не ранее 19:00.",
+          "note_en": "Morning high-speed train to Shanghai (~1 h). Visits to Lufax and East Money Information. Airport transfer, departure not before 19:00."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "2 внутренних перелёта и скоростной поезд между городами программы",
+          "en": "2 domestic flights and a high-speed train between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Все 5 финтех-гигантов Китая (Ant Group, Tencent, JD Digits, Du Xiaoman, Lufax) в одной поездке",
+          "en": "All 5 of China's fintech giants (Ant Group, Tencent, JD Digits, Du Xiaoman, Lufax) in a single trip"
+        },
+        {
+          "ru": "Все 8 компаний — крупные публичные структуры или подразделения технологических гигантов, визиты координируются через департаменты по работе с партнёрами (3–5 недель)",
+          "en": "All 8 companies are major public entities or divisions of tech giants, visits coordinated through partnership departments (3-5 weeks)"
+        },
+        {
+          "ru": "Логичный маршрут по 4 городам без лишних петель — Пекин → Шэньчжэнь → Ханчжоу → Шанхай",
+          "en": "A logical 4-city route with no backtracking — Beijing → Shenzhen → Hangzhou → Shanghai"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Три из пяти финтех-гигантов (Tencent, Ant Group, JD Digits) прямо конкурируют друг с другом — самостоятельно согласовать визиты ко всем в сжатые сроки одного тура сложно",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самому синхронизировать 2 перелёта и скоростной поезд между 4 городами"
+        ],
+        "self_en": [
+          "Three of the five fintech giants (Tencent, Ant Group, JD Digits) directly compete with each other — coordinating visits to all of them within one tight tour is hard on your own",
+          "No guarantee the visit is confirmed in time",
+          "Coordinating 2 flights and a high-speed train across 4 cities on your own"
+        ],
+        "with_us_ru": [
+          "Визиты ко всем 5 финтех-гигантам согласованы по нашей сети контактов",
+          "Все перелёты и билеты на скоростной поезд включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Visits to all 5 fintech giants pre-arranged through our contact network",
+          "All flights and high-speed rail tickets included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Все 8 компаний — крупные публичные структуры (HKEX/NYSE/SSE листинг) или подразделения технологических гигантов (Baidu, Tencent, Alibaba, JD, Ping An) — визиты обычно координируются через департамент по работе с партнёрами / связям с инвесторами, срок согласования 3–5 недель. Три из пяти финтех-гигантов (Tencent, Ant Group, JD Digits) прямо конкурируют друг с другом в сфере платежей — рекомендуем уточнить у клиента, не создаёт ли это неловкость при организации визитов в сжатые сроки одного тура. День 5 включает 2 визита в Шанхае сразу после прибытия на поезде — рекомендуем закладывать вылет не ранее 19:00.",
+      "market_note_en": "All 8 companies are major public entities (HKEX/NYSE/SSE listed) or divisions of tech giants (Baidu, Tencent, Alibaba, JD, Ping An) — visits are typically coordinated through partnership/investor-relations departments, 3-5 weeks lead time. Three of the five fintech giants (Tencent, Ant Group, JD Digits) directly compete with each other in payments — worth confirming with the client that this isn't awkward when arranging visits within one tight tour. Day 5 includes 2 Shanghai visits right after arriving by train — plan departure no earlier than 19:00.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
