@@ -54,10 +54,6 @@ interface ProvinceEntry {
 // made it the single heaviest thing on the tour-detail page (very
 // noticeable on slow mobile connections, where it could look like the page
 // had simply frozen while that chunk downloaded).
-//
-// UAE has no emirate-level subdivision (unlike the others' provinces/states)
-// — its "provinces" set is a single entry with the country's real coastline,
-// pending a proper admin-1 (emirate) boundary source.
 const PROVINCE_LOADERS: Record<RouteMapCountry, () => Promise<{ default: unknown }>> = {
   china: () => import('@/data/china-provinces.json'),
   japan: () => import('@/data/japan-provinces.json'),
