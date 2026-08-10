@@ -11825,6 +11825,732 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-petrochemicals-guangdong-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "heavy",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Нефтехимия Китая: 6 крупнейших комплексов Гуандуна",
+      "title_en": "China Petrochemicals: 6 Major Guangdong Complexes",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Sinopec · BASF · CSPC (CNOOC-Shell) · ExxonMobil",
+      "tagline_en": "Sinopec · BASF · CSPC (CNOOC-Shell) · ExxonMobil",
+      "positioning_ru": "Шесть крупнейших и наиболее технологичных нефтехимических комплексов провинции Гуандун — от нового поколения интегрированного НПЗ Sinopec Zhongke до новейшего западного Steam Cracker BASF (пуск январь 2026) и стомиллиардного проекта ExxonMobil. Весь маршрут — в пределах одного кластера, без внутренних перелётов.",
+      "positioning_en": "Six of the largest and most technologically advanced petrochemical complexes in Guangdong province — from Sinopec Zhongke's next-generation integrated refinery to BASF's newest Western-built steam cracker (launched January 2026) and ExxonMobil's $10-billion project. The entire route stays within one cluster, no domestic flights required.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 6,
+        "flights": 0
+      },
+      "route_strategy": "guangdong-road-arc",
+      "arrival_ru": "Чжаньцзян (перелёт Москва → Чжаньцзян, возможен через Гуанчжоу/Шэньчжэнь)",
+      "arrival_en": "Zhanjiang (flight Moscow → Zhanjiang, connecting via Guangzhou/Shenzhen possible)",
+      "departure_ru": "Гуанчжоу или Шэньчжэнь (→ Москва)",
+      "departure_en": "Guangzhou or Shenzhen (→ Moscow)",
+      "route_cities": [
+        "zhanjiang",
+        "maoming",
+        "guangzhou",
+        "huizhou"
+      ],
+      "itinerary": [
+        {
+          "city": "zhanjiang",
+          "city_ru": "Чжаньцзян",
+          "city_en": "Zhanjiang",
+          "day": 1,
+          "area_ru": "о. Дунхай",
+          "area_en": "Donghai Island",
+          "time": "10:00–17:00",
+          "companies": [
+            "sinopec-zhongke-guangdong"
+          ],
+          "transfer_ru": "Встреча в аэропорту Чжаньцзян Учуань, трансфер в отель, обед. После обеда — визит.",
+          "transfer_en": "Airport pickup in Zhanjiang, transfer, hotel check-in, lunch. Site visit in the afternoon."
+        },
+        {
+          "city": "zhanjiang",
+          "city_ru": "Чжаньцзян → Маомин",
+          "city_en": "Zhanjiang → Maomin",
+          "day": 2,
+          "area_ru": "Чжаньцзян / Маомин",
+          "area_en": "Zhanjiang / Maoming",
+          "time": "09:00–17:00",
+          "companies": [
+            "basf-zhanjiang",
+            "sinopec-maoming"
+          ],
+          "transfer_ru": "Утро — визит в Чжаньцзяне. Переезд на авто в Маомин (~1,5 ч), визит после обеда.",
+          "transfer_en": "Morning visit in Zhanjiang. Road transfer to Maoming (~1.5 h), afternoon visit."
+        },
+        {
+          "city": "guangzhou",
+          "city_ru": "Маомин → Гуанчжоу",
+          "city_en": "Maomin → Guangzhou",
+          "day": 3,
+          "area_ru": "р-н Хуанпу",
+          "area_en": "Huangpu district",
+          "time": "10:00–17:00",
+          "companies": [
+            "guangzhou-petrochemical"
+          ],
+          "transfer_ru": "Переезд на авто в Гуанчжоу (~4 ч). По прибытии — визит.",
+          "transfer_en": "Road transfer to Guangzhou (~4 h). Site visit on arrival."
+        },
+        {
+          "city": "huizhou",
+          "city_ru": "Гуанчжоу → Хуэйчжоу",
+          "city_en": "Guangzhou → Huizhou",
+          "day": 4,
+          "area_ru": "промзона Даявань",
+          "area_en": "Daya Bay industrial zone",
+          "time": "09:00–17:00",
+          "companies": [
+            "cspc-cnooc-shell",
+            "exxonmobil-huizhou"
+          ],
+          "transfer_ru": "Переезд на авто в Хуэйчжоу (~1,5 ч). Два визита в один день — оптимальная логистика.",
+          "transfer_en": "Road transfer to Huizhou (~1.5 h). Two visits in one day — the program's tightest logistics."
+        },
+        {
+          "city": "huizhou",
+          "city_ru": "Хуэйчжоу — вылет",
+          "city_en": "Huizhou — departure",
+          "day": 5,
+          "area_ru": "",
+          "area_en": "",
+          "time": "утро",
+          "companies": [],
+          "note_ru": "Трансфер в аэропорт Гуанчжоу или Шэньчжэня (~1,5–2 ч), вылет.",
+          "note_en": "Transfer to Guangzhou or Shenzhen airport (~1.5–2 h), departure."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы между городами программы",
+          "en": "Transfers between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Маршрут полностью автомобильный — без внутренних перелётов, что упрощает логистику и снижает риски задержек",
+          "en": "A fully road-based route — no domestic flights, simplifying logistics and reducing delay risk"
+        },
+        {
+          "ru": "BASF Zhanjiang, CSPC и ExxonMobil Huizhou — иностранные СП/подразделения с выделенным департаментом внешних коммуникаций, более гибкий график согласования (3–4 недели)",
+          "en": "BASF Zhanjiang, CSPC and ExxonMobil Huizhou — foreign JVs/units with dedicated external-relations departments, faster scheduling (3-4 weeks)"
+        },
+        {
+          "ru": "Дни 2 и 4 включают по 2 визита в одном городе — оптимальные по логистике дни программы",
+          "en": "Days 2 and 4 include 2 visits each in the same city — the program's most efficient days"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Визиты на объекты Sinopec требуют официального согласования через головной офис в Пекине — месяцы переписки",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику по всему кластеру Гуандуна"
+        ],
+        "self_en": [
+          "Sinopec site visits require formal approval through the Beijing head office — months of correspondence",
+          "No guarantee the visit is confirmed in time",
+          "Logistics across the whole Guangdong cluster need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Все переезды на авто включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "All road transfers included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Визиты на объекты Sinopec (Zhongke, Maoming, Guangzhou Petrochemical) требуют официального согласования через головной офис China Petrochemical Corporation (Пекин) или региональное представительство в Гуандуне — рекомендуемый срок подачи запроса 6–8 недель. ExxonMobil Huizhou — самый новый актив маршрута (пуск в 2025 г.), при визите уточняется готовность принимать делегации на этапе выхода на проектную мощность. Рекомендуется зарезервировать 1 буферный день сверх программы на случай переноса согласования визита на режимный объект Sinopec.",
+      "market_note_en": "Sinopec site visits (Zhongke, Maoming, Guangzhou Petrochemical) require formal approval through China Petrochemical Corporation's head office (Beijing) or its Guangdong regional office — recommended lead time is 6-8 weeks. ExxonMobil Huizhou is the route's newest asset (launched 2025) — readiness to host delegations during ramp-up is confirmed at booking. We recommend reserving 1 buffer day beyond the program in case a Sinopec site visit approval is delayed.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "china-waste-management-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "heavy",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Обращение с отходами Китая: Гуандун, Шанхай, Цзянсу",
+      "title_en": "China Waste Management: Guangdong, Shanghai, Jiangsu",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "GEM · Shenzhen Energy · China Everbright · Shanghai Environment",
+      "tagline_en": "GEM · Shenzhen Energy · China Everbright · Shanghai Environment",
+      "positioning_ru": "Шесть крупнейших и наиболее технологичных компаний отрасли обращения с отходами — от переработки батарей NEV у GEM и архитектурной витрины отрасли Shenzhen Energy до крупнейшего в мире моно-завода энергоутилизации «Лаоган» в Шанхае и международной сети China Tianying/Urbaser в 30+ странах.",
+      "positioning_en": "Six of the largest and most technologically advanced waste-management companies — from NEV battery recycling at GEM and the industry's architectural showcase Shenzhen Energy, to the world's largest single-site waste-to-energy plant Laogang in Shanghai and China Tianying/Urbaser's international network spanning 30+ countries.",
+      "stats": {
+        "cities": 5,
+        "days": 5,
+        "nights": 6,
+        "companies": 6,
+        "flights": 1
+      },
+      "route_strategy": "guangdong-to-yrd",
+      "arrival_ru": "Шэньчжэнь (перелёт Москва → Шэньчжэнь)",
+      "arrival_en": "Shenzhen (flight Moscow → Shenzhen)",
+      "departure_ru": "Наньтун или Шанхай (→ Москва)",
+      "departure_en": "Nantong or Shanghai (→ Moscow)",
+      "route_cities": [
+        "shenzhen",
+        "foshan",
+        "guangzhou",
+        "shanghai",
+        "haian"
+      ],
+      "itinerary": [
+        {
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь",
+          "city_en": "Shenzhen",
+          "day": 1,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–17:00",
+          "companies": [
+            "gem-co"
+          ],
+          "transfer_ru": "Встреча в аэропорту, трансфер в отель, обед. После обеда — визит.",
+          "transfer_en": "Airport pickup, transfer, hotel check-in, lunch. Site visit in the afternoon."
+        },
+        {
+          "city": "foshan",
+          "city_ru": "Шэньчжэнь → Фошань",
+          "city_en": "Shenzhen → Foshan",
+          "day": 2,
+          "area_ru": "парк «Яньтянь»",
+          "area_en": "Yantian park",
+          "time": "09:00–17:00",
+          "companies": [
+            "shenzhen-energy-environmental",
+            "grandblue-environment"
+          ],
+          "transfer_ru": "Утро — визит в парке «Яньтянь» (Шэньчжэнь). Переезд в Фошань (~1 ч), визит после обеда.",
+          "transfer_en": "Morning visit at Yantian park (Shenzhen). Transfer to Foshan (~1 h), afternoon visit."
+        },
+        {
+          "city": "guangzhou",
+          "city_ru": "Гуандун → Шанхай",
+          "city_en": "Guangdong → Shanghai",
+          "day": 3,
+          "area_ru": "дельта Жемчужной реки",
+          "area_en": "Pearl River Delta",
+          "time": "10:00–17:00",
+          "companies": [
+            "china-everbright-environment"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "Утро — визит на представительный проект в дельте Жемчужной реки (точный объект уточняется по согласованию). После обеда — перелёт в Шанхай.",
+          "transfer_en": "Morning visit at a representative project in the Pearl River Delta (exact site confirmed at booking). Afternoon flight to Shanghai."
+        },
+        {
+          "city": "shanghai",
+          "city_ru": "Шанхай → Хайань",
+          "city_en": "Shanghai → Haian",
+          "day": 4,
+          "area_ru": "«Лаоган»",
+          "area_en": "Laogang",
+          "time": "09:00–17:00",
+          "companies": [
+            "shanghai-environment-group"
+          ],
+          "transfer_ru": "Утро — визит на комплекс «Лаоган». После обеда — переезд в Хайань, пров. Цзянсу (~3 ч).",
+          "transfer_en": "Morning visit at the Laogang complex. Afternoon road transfer to Haian, Jiangsu (~3 h)."
+        },
+        {
+          "city": "haian",
+          "city_ru": "Хайань → Наньтун — вылет",
+          "city_en": "Haian → Nantong — departure",
+          "day": 5,
+          "area_ru": "",
+          "area_en": "",
+          "time": "утро",
+          "companies": [
+            "china-tianying"
+          ],
+          "note_ru": "Визит, затем трансфер в аэропорт Наньтун (~40 мин) либо обратно в Шанхай, вылет.",
+          "note_en": "Site visit, then transfer to Nantong airport (~40 min) or back to Shanghai, departure."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы между городами программы",
+          "en": "Transfers between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Единственный перелёт маршрута — Гуандун → Шанхай (~2,5 ч), остальные переезды на авто",
+          "en": "The route's only flight — Guangdong → Shanghai (~2.5 h), the rest by road"
+        },
+        {
+          "ru": "GEM, Shenzhen Energy, Grandblue и China Tianying — гибкий график согласования (3–4 недели)",
+          "en": "GEM, Shenzhen Energy, Grandblue and China Tianying — flexible scheduling (3-4 weeks)"
+        },
+        {
+          "ru": "День 2 включает 2 объекта в разных городах (Шэньчжэнь + Фошань) — компактный переезд ~1 ч",
+          "en": "Day 2 covers 2 sites in different cities (Shenzhen + Foshan) — a compact ~1 h transfer"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Для China Everbright Environment (220+ проектов) нужно самостоятельно уточнять конкретный объект визита",
+          "Визит на «Лаоган» пользуется высоким спросом — риск не получить слот без заблаговременной брони",
+          "Нужно самостоятельно закрывать логистику между тремя провинциями"
+        ],
+        "self_en": [
+          "China Everbright Environment (220+ projects) requires figuring out the specific site to visit on your own",
+          "The Laogang visit is in high demand — risk of missing a slot without advance booking",
+          "Logistics across three provinces need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Конкретный объект China Everbright и слот на «Лаоган» согласованы заранее",
+          "Единственный перелёт маршрута включён",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "The specific China Everbright site and the Laogang slot are pre-arranged",
+          "The route's one flight is included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Для China Everbright Environment необходимо заранее (за 6–8 недель) уточнить конкретный завод для визита в Гуандуне — компания управляет проектами в 220+ районах, точечный выбор объекта требует согласования. Визит на «Лаоган» (Shanghai Environment) пользуется высоким спросом — рекомендуем бронировать не позднее чем за 6 недель. GEM, Shenzhen Energy, Grandblue и China Tianying — более гибкий график согласования (3–4 недели). День 5 заканчивается в Наньтуне — рекомендуем уточнить наличие прямых рейсов либо предусмотреть трансфер обратно в Шанхай (~2 ч).",
+      "market_note_en": "China Everbright Environment requires confirming the specific Guangdong facility 6-8 weeks ahead — the company manages projects across 220+ districts, so picking a site needs coordination. The Laogang visit (Shanghai Environment) is in high demand — book at least 6 weeks ahead. GEM, Shenzhen Energy, Grandblue and China Tianying have more flexible scheduling (3-4 weeks). Day 5 ends in Nantong — confirm direct flight availability or plan a transfer back to Shanghai (~2 h).",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "china-film-industry-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "internet",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Киноиндустрия Китая: госгиганты, частные студии, tech-платформы",
+      "title_en": "China's Film Industry: State Giants, Private Studios, Tech Platforms",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "China Film Group · Youku · iQiyi · Tencent Video · Huace",
+      "tagline_en": "China Film Group · Youku · iQiyi · Tencent Video · Huace",
+      "positioning_ru": "Восемь ведущих компаний китайской киноиндустрии в трёх городах — от главной государственной киностудии страны China Film Group Corporation и крупнейшего частного производителя сериалов Zhejiang Huace до контент-подразделений Alibaba (Youku), Baidu (iQiyi) и Tencent (Penguin Pictures).",
+      "positioning_en": "Eight leading companies of China's film industry across three cities — from China Film Group Corporation, the country's leading state-owned studio, and Zhejiang Huace, the largest private TV-series producer, to Alibaba's Youku, Baidu's iQiyi and Tencent's Penguin Pictures content divisions.",
+      "stats": {
+        "cities": 3,
+        "days": 5,
+        "nights": 6,
+        "companies": 8,
+        "flights": 1
+      },
+      "route_strategy": "beijing-shanghai-hangzhou",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (flight Moscow → Beijing)",
+      "departure_ru": "Шанхай (→ Москва)",
+      "departure_en": "Shanghai (→ Moscow)",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "hangzhou"
+      ],
+      "itinerary": [
+        {
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "day": 1,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–20:00",
+          "companies": [
+            "china-film-group",
+            "youku"
+          ],
+          "transfer_ru": "Утренний прилёт, трансфер в отель, обед. После обеда — визит на CFGC. Вечером — визит на Youku (р-н Чаоян, Ванцзин).",
+          "transfer_en": "Morning arrival, transfer, lunch. Afternoon visit to CFGC. Evening visit to Youku (Chaoyang district, Wangjing)."
+        },
+        {
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "day": 2,
+          "area_ru": "р-н Чаоян",
+          "area_en": "Chaoyang district",
+          "time": "10:00–17:00",
+          "companies": [
+            "bona-film-group",
+            "huayi-brothers"
+          ]
+        },
+        {
+          "city": "shanghai",
+          "city_ru": "Пекин → Шанхай",
+          "city_en": "Beijing → Shanghai",
+          "day": 3,
+          "area_ru": "р-н Чаоян",
+          "area_en": "Chaoyang district",
+          "time": "10:00–17:00",
+          "companies": [
+            "iqiyi"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "Утро — визит на iQiyi (сервис Baidu). После обеда — перелёт в Шанхай (~2,5 ч).",
+          "transfer_en": "Morning visit to iQiyi (a Baidu service). Afternoon flight to Shanghai (~2.5 h)."
+        },
+        {
+          "city": "shanghai",
+          "city_ru": "Шанхай",
+          "city_en": "Shanghai",
+          "day": 4,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–17:00",
+          "companies": [
+            "shanghai-film-group",
+            "tencent-penguin-pictures"
+          ]
+        },
+        {
+          "city": "hangzhou",
+          "city_ru": "Шанхай → Ханчжоу → вылет",
+          "city_en": "Shanghai → Hangzhou → departure",
+          "day": 5,
+          "area_ru": "творческий парк Сиси",
+          "area_en": "Xixi creative park",
+          "time": "10:00–19:00",
+          "companies": [
+            "zhejiang-huace"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Утро — поездка в Ханчжоу на скоростном поезде (~1 ч), визит. Возвращение в Шанхай, трансфер в аэропорт, вылет не ранее 19:00–20:00.",
+          "transfer_en": "Morning high-speed train to Hangzhou (~1 h), site visit. Return to Shanghai, airport transfer, departure not before 19:00-20:00."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы между городами программы",
+          "en": "Transfers between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "8 компаний за одну поездку — госгиганты, частные студии и tech-платформы стриминга в одном маршруте",
+          "en": "8 companies in one trip — state giants, private studios and streaming tech platforms on a single route"
+        },
+        {
+          "ru": "Единственный перелёт маршрута — Пекин → Шанхай, плюс одна поездка на скоростном поезде Шанхай–Ханчжоу и обратно за день",
+          "en": "The route's only flight — Beijing → Shanghai, plus one same-day round trip on the Shanghai-Hangzhou high-speed train"
+        },
+        {
+          "ru": "Bona Film Group, Huayi Brothers и Zhejiang Huace — публичные компании, более гибкий график согласования (3–4 недели)",
+          "en": "Bona Film Group, Huayi Brothers and Zhejiang Huace — publicly listed, faster scheduling (3-4 weeks)"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "China Film Group и Shanghai Film Group — госструктуры, подчинённые Государственному управлению кинематографии, визиты требуют официального согласования",
+          "Youku числится в Ханчжоу, но фактический офис — в Пекине: риск потратить день на неверный адрес",
+          "Нужно самому синхронизировать день 5 (поезд туда-обратно + визит + рейс)"
+        ],
+        "self_en": [
+          "China Film Group and Shanghai Film Group are state institutions under the National Film Administration — visits require formal approval",
+          "Youku is registered in Hangzhou but its actual office is in Beijing — risk of wasting a day at the wrong address",
+          "Day 5 (round-trip train + visit + flight) needs to be synchronized on your own"
+        ],
+        "with_us_ru": [
+          "Визиты к госструктурам согласованы заранее по нашей сети контактов",
+          "Точный операционный адрес каждой компании уже проверен",
+          "День 5 просчитан по времени с запасом до вылета"
+        ],
+        "with_us_en": [
+          "State-institution visits are pre-arranged through our contact network",
+          "Each company's actual operating address is already verified",
+          "Day 5 timing is calculated with a buffer before departure"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "China Film Group и Shanghai Film Group — государственные структуры, подчинённые Государственному управлению кинематографии (国家电影局); визиты требуют официального согласования, рекомендуемый срок — 6–8 недель. Bona Film Group, Huayi Brothers и Zhejiang Huace — публичные компании (SZSE-листинг), как правило, более гибкий график (3–4 недели). iQiyi, Youku и Tencent Penguin Pictures — подразделения технологических корпораций, визит координируется через департамент по работе с партнёрами. День 5 требует чёткой временной синхронизации — рекомендуем закладывать вылет из Шанхая не ранее 19:00–20:00.",
+      "market_note_en": "China Film Group and Shanghai Film Group are state institutions under the National Film Administration; visits require formal approval, recommended lead time 6-8 weeks. Bona Film Group, Huayi Brothers and Zhejiang Huace are publicly listed (SZSE), typically with faster scheduling (3-4 weeks). iQiyi, Youku and Tencent Penguin Pictures are tech-corporation divisions, coordinated through their partnerships/business-development departments. Day 5 requires precise timing — plan a Shanghai departure no earlier than 19:00-20:00.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
+    },
+    {
+      "tour_id": "china-global-brands-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "consumer",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Китайские бренды, покорившие мир",
+      "title_en": "Chinese Brands That Conquered the World",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Anta Sports · Li-Ning · Bosideng · Urban Revivo",
+      "tagline_en": "Anta Sports · Li-Ning · Bosideng · Urban Revivo",
+      "positioning_ru": "Шесть ведущих компаний китайской fashion-индустрии — от Anta Sports (№3 в мире после Nike и Adidas, владелец Salomon и Wilson) и технологичных пуховиков Bosideng до «азиатского ответа Zara» Urban Revivo. Ядро маршрута — дельта реки Янцзы, связанная скоростными поездами без внутренних перелётов.",
+      "positioning_en": "Six leading companies from China's fashion industry — from Anta Sports (the world's #3 sportswear brand after Nike and Adidas, owner of Salomon and Wilson) and Bosideng's technical down jackets to Urban Revivo, the \"Asian answer to Zara.\" The route's core is the Yangtze River Delta, linked by high-speed rail with no domestic flights within it.",
+      "stats": {
+        "cities": 6,
+        "days": 5,
+        "nights": 6,
+        "companies": 6,
+        "flights": 2
+      },
+      "route_strategy": "beijing-yrd-guangzhou",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (flight Moscow → Beijing)",
+      "departure_ru": "Гуанчжоу (→ Москва)",
+      "departure_en": "Guangzhou (→ Moscow)",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "changshu",
+        "hangzhou",
+        "ningbo",
+        "guangzhou"
+      ],
+      "itinerary": [
+        {
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "day": 1,
+          "area_ru": "р-н Тунчжоу",
+          "area_en": "Tongzhou district",
+          "time": "10:00–17:00",
+          "companies": [
+            "li-ning"
+          ],
+          "transfer_ru": "Встреча в аэропорту, трансфер в отель, обед. После обеда — визит.",
+          "transfer_en": "Airport pickup, transfer, hotel check-in, lunch. Site visit in the afternoon."
+        },
+        {
+          "city": "shanghai",
+          "city_ru": "Пекин → Шанхай",
+          "city_en": "Beijing → Shanghai",
+          "day": 2,
+          "area_ru": "р-н Сихунцяо",
+          "area_en": "Xihongqiao district",
+          "time": "10:00–17:00",
+          "companies": [
+            "anta-sports"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "Утренний перелёт в Шанхай (~2,5 ч). После обеда — визит на глобальную розничную штаб-квартиру Anta.",
+          "transfer_en": "Morning flight to Shanghai (~2.5 h). Afternoon visit to Anta's global retail headquarters."
+        },
+        {
+          "city": "changshu",
+          "city_ru": "Шанхай → Чаншу",
+          "city_en": "Shanghai → Changshu",
+          "day": 3,
+          "area_ru": "",
+          "area_en": "",
+          "time": "10:00–17:00",
+          "companies": [
+            "bosideng"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Поездка в Чаншу на скоростном поезде (~1 ч), визит. Возвращение в Шанхай во второй половине дня.",
+          "transfer_en": "High-speed train to Changshu (~1 h), site visit. Return to Shanghai in the afternoon."
+        },
+        {
+          "city": "ningbo",
+          "city_ru": "Ханчжоу → Нинбо",
+          "city_en": "Hangzhou → Ningbo",
+          "day": 4,
+          "area_ru": "",
+          "area_en": "",
+          "time": "09:00–17:00",
+          "companies": [
+            "jnby",
+            "peacebird"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "Утро — поездка в Ханчжоу (~1 ч), визит на JNBY. После обеда — переезд в Нинбо (~1,5 ч), визит на Peacebird.",
+          "transfer_en": "Morning high-speed train to Hangzhou (~1 h), JNBY visit. Afternoon transfer to Ningbo (~1.5 h), Peacebird visit."
+        },
+        {
+          "city": "guangzhou",
+          "city_ru": "Нинбо → Гуанчжоу — вылет",
+          "city_en": "Ningbo → Guangzhou — departure",
+          "day": 5,
+          "area_ru": "р-н Байюнь",
+          "area_en": "Baiyun district",
+          "time": "10:00–17:00",
+          "companies": [
+            "urban-revivo"
+          ],
+          "leg_mode": "flight",
+          "note_ru": "Перелёт в Гуанчжоу (~2,5 ч), визит на штаб-квартиру Urban Revivo. Трансфер в аэропорт, вылет.",
+          "note_en": "Flight to Guangzhou (~2.5 h), Urban Revivo HQ visit. Airport transfer, departure."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы между городами программы",
+          "en": "Transfers between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 6 ночей",
+          "en": "6 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "4 из 6 брендов — в дельте Янцзы, связаны сетью скоростных поездов без перелётов между ними",
+          "en": "4 of the 6 brands are in the Yangtze River Delta, linked by high-speed rail with no flights between them"
+        },
+        {
+          "ru": "Все 6 компаний публичные (листинг HKEX/SSE) — визит согласуется быстрее, чем на объектах госсектора (3–5 недель)",
+          "en": "All 6 companies are publicly listed (HKEX/SSE) — visits are approved faster than at state-sector sites (3-5 weeks)"
+        },
+        {
+          "ru": "Для Anta Sports используется новая глобальная розничная штаб-квартира в Шанхае, а не исторический штаб в Цзиньцзяне — без лишнего города в маршруте",
+          "en": "Anta Sports is visited at its new global retail HQ in Shanghai, not its historical Jinjiang headquarters — no extra city needed"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Риск перепутать историческую штаб-квартиру Anta (Цзиньцзянь) с актуальной розничной (Шанхай)",
+          "Нужно самому синхронизировать 3 поездки на скоростном поезде и 2 перелёта",
+          "Нет гарантии, что визит на все 6 площадок согласуют в одни и те же даты"
+        ],
+        "self_en": [
+          "Risk of confusing Anta's historical HQ (Jinjiang) with its current retail HQ (Shanghai)",
+          "Coordinating 3 high-speed train legs and 2 flights on your own",
+          "No guarantee all 6 site visits are approved for the same dates"
+        ],
+        "with_us_ru": [
+          "Маршрут уже построен на верных, действующих адресах компаний",
+          "Все перелёты и билеты на скоростной поезд включены",
+          "Согласованные даты визитов на все 6 площадок"
+        ],
+        "with_us_en": [
+          "Route already built around each company's correct, current address",
+          "All flights and high-speed rail tickets included",
+          "Coordinated visit dates across all 6 sites"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Все 6 компаний — публичные (листинг HKEX/SSE), что обычно означает наличие департамента по связям с инвесторами/внешним связям — визит согласуется быстрее, чем на объектах госсектора (обычно 3–5 недель). День 4 — самый насыщенный (2 визита в разных городах со скоростным поездом между ними) — рекомендуем ранний старт из Ханчжоу. Альтернатива для менее насыщенного графика: убрать Li-Ning (Пекин) и/или Urban Revivo (Гуанчжоу), оставив только 4 бренда дельты Янцзы — тур сократится до 3–4 дней без единого перелёта.",
+      "market_note_en": "All 6 companies are publicly listed (HKEX/SSE), which usually means a dedicated investor-relations/external-affairs department — visits are approved faster than at state-sector sites (typically 3-5 weeks). Day 4 is the busiest (2 visits in different cities with a high-speed train leg between them) — an early start from Hangzhou is recommended. A lighter alternative: drop Li-Ning (Beijing) and/or Urban Revivo (Guangzhou), keeping only the 4 Yangtze River Delta brands — the tour shortens to 3-4 days with no flights at all.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
