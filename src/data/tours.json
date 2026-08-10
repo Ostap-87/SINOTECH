@@ -11634,6 +11634,197 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-logistics-top10-expedition",
+      "brand": "Global Tech Tour · by Aura Robotics",
+      "country": "cn",
+      "sector": "logistics",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Топ-10 логистических компаний Китая",
+      "title_en": "China's Top 10 Logistics Companies",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "COSCO · SF Express · JD Logistics · Cainiao · China Railway Express",
+      "tagline_en": "COSCO · SF Express · JD Logistics · Cainiao · China Railway Express",
+      "positioning_ru": "От крупнейшего в мире портового оператора COSCO Shipping и собственного грузового авиапарка SF Express до автоматизированных складов JD Logistics и логистической платформы Alibaba Cainiao — десять лидеров китайской логистики в четырёх городах.",
+      "positioning_en": "From COSCO Shipping, the world's largest port operator, and SF Express's own cargo airline fleet, to JD Logistics' automated warehouses and Alibaba's Cainiao logistics platform — ten leaders of Chinese logistics across four cities.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 5,
+        "companies": 10,
+        "flights": 2
+      },
+      "route_strategy": "beijing-shanghai-hangzhou-shenzhen",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (flight Moscow → Beijing)",
+      "departure_ru": "Шэньчжэнь (SZX) — вылет утром 6-го дня.",
+      "departure_en": "Shenzhen (SZX) — departure on the morning of day 6.",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "hangzhou",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Пекин",
+          "area_en": "Beijing",
+          "time": "09:00–17:00",
+          "companies": [
+            "sinotrans",
+            "jd-logistics",
+            "china-railway-express"
+          ],
+          "transfer_ru": "Прилёт делегации, трансфер, заселение, брифинг — программа стартует в день прилёта.",
+          "transfer_en": "Delegation arrives, transfer, check-in, briefing — the program starts on arrival day."
+        },
+        {
+          "day": 2,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "09:00–17:00",
+          "companies": [
+            "cosco-shipping"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Утренний перелёт Пекин → Шанхай (~2,5 ч)",
+          "transfer_en": "✈ Morning flight Beijing → Shanghai (~2.5 h)"
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "09:00–17:00",
+          "companies": [
+            "zto-express",
+            "yto-express",
+            "sto-express"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "hangzhou",
+          "city_ru": "Шанхай → Ханчжоу",
+          "city_en": "Shanghai → Hangzhou",
+          "area_ru": "Шанхай / Ханчжоу",
+          "area_en": "Shanghai / Hangzhou",
+          "time": "09:00–17:00",
+          "companies": [
+            "deppon-logistics",
+            "cainiao"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Скоростной поезд Шанхай → Ханчжоу (~1 ч), в середине дня",
+          "transfer_en": "🚄 High-speed train Shanghai → Hangzhou (~1 h), midday"
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь, финал",
+          "city_en": "Shenzhen, finale",
+          "area_ru": "Шэньчжэнь",
+          "area_en": "Shenzhen",
+          "time": "09:00–17:00",
+          "companies": [
+            "sf-express"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Утренний перелёт Ханчжоу → Шэньчжэнь (~2,5–3 ч). Утро 6-го дня — вылет из Шэньчжэня (SZX).",
+          "transfer_en": "✈ Morning flight Hangzhou → Shenzhen (~2.5–3 h). Morning of day 6 — departure from Shenzhen (SZX).",
+          "note_ru": "Завершение экспедиции",
+          "note_en": "End of the expedition"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "Все визиты и переговоры с компаниями программы",
+          "en": "All company visits and meetings in the program"
+        },
+        {
+          "ru": "Трансферы, внутренние перелёты и скоростной поезд между городами программы",
+          "en": "Transfers, domestic flights and the high-speed train between the program's cities"
+        },
+        {
+          "ru": "Сопровождение и перевод на китайском/английском",
+          "en": "Support and interpretation in Chinese/English"
+        },
+        {
+          "ru": "Проживание 5 ночей",
+          "en": "5 nights' accommodation"
+        }
+      ],
+      "advantages": [
+        {
+          "ru": "Гарантированные визиты с полноценным шоурумом — JD Vision (штаб-квартира JD Logistics, опционально экскурсия на автоматизированный склад «Asia No.1») и визит-центр с логистическим музеем Cainiao в Ханчжоу",
+          "en": "Guaranteed visits with a full showroom — JD Vision (JD Logistics HQ, optionally including a tour of the \"Asia No.1\" automated warehouse) and Cainiao's visitor center and logistics museum in Hangzhou"
+        },
+        {
+          "ru": "Доступ к штаб-квартирам и площадкам, обычно закрытым для случайных визитов",
+          "en": "Access to HQs and sites normally closed to casual visits"
+        },
+        {
+          "ru": "Готовый согласованный маршрут по четырём городам без потери дней на логистику",
+          "en": "A pre-arranged route across four cities with no days lost to logistics"
+        },
+        {
+          "ru": "Сопровождение и синхронный перевод на всех встречах",
+          "en": "Support and interpretation at every meeting"
+        }
+      ],
+      "why_vs_self": {
+        "self_ru": [
+          "Месяцы переписки для получения доступа к штаб-квартирам",
+          "Нет гарантии, что визит согласуют вовремя",
+          "Нужно самостоятельно закрывать логистику между четырьмя городами"
+        ],
+        "self_en": [
+          "Months of correspondence to secure HQ access",
+          "No guarantee the visit is confirmed in time",
+          "Logistics across four cities need to be arranged independently"
+        ],
+        "with_us_ru": [
+          "Маршрут и визиты уже согласованы по нашей сети контактов",
+          "Внутренние перелёты и скоростной поезд включены",
+          "Сопровождение на каждой встрече"
+        ],
+        "with_us_en": [
+          "Route and visits pre-arranged through our contact network",
+          "Domestic flights and the high-speed train included",
+          "Support at every meeting"
+        ]
+      },
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника, точная стоимость — по запросу",
+        "basis_en": "per participant, exact cost on request",
+        "items": [],
+        "total_excl_flights": null,
+        "total_label_ru": "ИТОГО (без авиаперелёта)",
+        "total_label_en": "TOTAL (excl. flights)",
+        "extras": []
+      },
+      "market_note_ru": "Гарантированные визиты с полноценным шоурумом/экспозиционным залом: JD Logistics и Cainiao Network. Остальные 8 компаний (COSCO Shipping, Sinotrans, SF Express, ZTO/YTO/STO Express, China Railway Express, Deppon Logistics) принимают B2B-делегации в формате переговорной комнаты в офисе или экскурсии по объекту — формат и состав визита требуют подтверждения индивидуально через контакты компании до продажи тура клиенту.",
+      "market_note_en": "Guaranteed full-showroom/exhibition-hall visits: JD Logistics and Cainiao Network. The other 8 companies (COSCO Shipping, Sinotrans, SF Express, ZTO/YTO/STO Express, China Railway Express, Deppon Logistics) host B2B delegations either as an office meeting-room session or a site tour — the exact visit format needs to be confirmed individually with each company before the tour is sold to a client.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
