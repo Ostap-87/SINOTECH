@@ -1306,7 +1306,8 @@
       "category_ru": null,
       "desc_en": "Chinese e-commerce company headquartered in Beijing, founded by Liu Qiangdong (originally as a physical retail store before moving online). Known for its self-built nationwide logistics and warehouse network enabling direct, self-operated retail and fast delivery, and for being listed on both NASDAQ and the Hong Kong Stock Exchange.",
       "desc_ru": "Китайская компания электронной коммерции, основанная Лю Цяндуном (изначально как розничный магазин, позже перешедшая в онлайн-торговлю), со штаб-квартирой в Пекине. Известна собственной логистической сетью и складами по всему Китаю, обеспечивающими быструю доставку и продажу товаров напрямую со своих складов (модель self-operated retail), а также листингом на NASDAQ и Гонконгской бирже.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/jd-com.svg"
     },
     {
       "id": "xiaomi",
@@ -1320,7 +1321,8 @@
       "category_ru": null,
       "desc_en": "Xiaomi is a Chinese technology company headquartered in Beijing, founded in 2010, that makes smartphones (Xiaomi and Redmi brands) and a broad range of smart-home and IoT devices, and, since 2024, electric vehicles. It ranks among the world's largest smartphone makers (roughly 3rd by shipments) and operates one of the largest connected IoT device ecosystems globally. Xiaomi has been listed on the Hong Kong Stock Exchange (1810.HK) since 2018.",
       "desc_ru": "Xiaomi — китайская технологическая компания со штаб-квартирой в Пекине, основанная в 2010 году; выпускает смартфоны (бренды Xiaomi и Redmi), а также широкий спектр устройств умного дома и IoT, с 2024 года — электромобили. Компания входит в число крупнейших производителей смартфонов в мире (около 3-е место по продажам) и управляет одной из крупнейших в мире экосистем подключённых IoT-устройств. Акции Xiaomi торгуются на Гонконгской бирже (1810.HK) с 2018 года.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/xiaomi.svg"
     },
     {
       "id": "baidu",
@@ -1334,7 +1336,8 @@
       "category_ru": null,
       "desc_en": "Baidu is a Chinese technology company founded in 2000 by Robin Li and headquartered in Beijing; it operates China's dominant search engine. The company develops the ERNIE Bot (Wenxin Yiyan) large language model, the Apollo Go autonomous driving/robotaxi platform, and its own Kunlun AI chips.",
       "desc_ru": "Baidu — китайская технологическая компания, основанная в 2000 году Робином Ли, со штаб-квартирой в Пекине; оператор доминирующей поисковой системы в Китае. Компания развивает большую языковую модель ERNIE Bot (Wenxin Yiyan), платформу автономного вождения Apollo Go и собственные ИИ-чипы Kunlun.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/baidu.jpg"
     },
     {
       "id": "sensetime",
@@ -1390,7 +1393,8 @@
       "category_ru": null,
       "desc_en": "Huawei (华为) is a Chinese telecommunications company founded in 1987, operating through three segments: carrier network equipment, enterprise solutions, and consumer devices (smartphones, laptops, wearables). It holds the largest share of the global telecom equipment market and leads in 5G standards contributions; facing US restrictions on chips and Google services, it has built out its own HarmonyOS ecosystem and Pura/Mate smartphone lines.",
       "desc_ru": "Huawei (华为) — китайская телекоммуникационная компания, основанная в 1987 году, работает в трёх направлениях: сетевое оборудование для операторов, корпоративные решения и потребительская электроника (смартфоны, ноутбуки, носимые устройства). Компания занимает крупнейшую долю мирового рынка телеком-оборудования и лидирует по числу технических вкладов в стандарты 5G; в условиях санкций США развивает собственную ОС HarmonyOS и линейку смартфонов Pura/Mate.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/huawei.svg"
     },
     {
       "id": "siemens",
@@ -1418,7 +1422,8 @@
       "category_ru": null,
       "desc_en": "Alibaba Group is a Chinese technology company founded by Jack Ma in 1999 in Hangzhou, operating China's largest e-commerce platforms Taobao and Tmall, as well as the international marketplace AliExpress. It also runs Alibaba Cloud, one of Asia's largest cloud service providers, and is affiliated with the Alipay payments service via Ant Group.",
       "desc_ru": "Alibaba Group — китайская технологическая компания, основанная Джеком Ма в 1999 году в Ханчжоу, управляющая крупнейшими в Китае платформами электронной коммерции Taobao и Tmall, а также международной торговой площадкой AliExpress. Компания также развивает облачное подразделение Alibaba Cloud — одного из крупнейших провайдеров облачных сервисов в Азии — и платёжный сервис Alipay через аффилированную структуру Ant Group.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/alibaba.svg"
     },
     {
       "id": "iflytek",
@@ -1502,7 +1507,8 @@
       "category_ru": null,
       "desc_en": "German automotive & industrial supplier.",
       "desc_ru": "Немецкий поставщик автокомпонентов и промтехники.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/bosch.svg"
     },
     {
       "id": "goldwind",
@@ -1530,7 +1536,8 @@
       "category_ru": null,
       "desc_en": "German premium automaker.",
       "desc_ru": "Немецкий премиум-автопроизводитель.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/mercedes-benz.svg"
     },
     {
       "id": "sany",
@@ -1572,7 +1579,8 @@
       "category_ru": null,
       "desc_en": "Tencent (founded 1998, headquartered in Shenzhen) is a Chinese technology conglomerate operating the QQ and WeChat (Weixin) messaging platforms and is the world's largest video game publisher, developing Honor of Kings and owning Riot Games (League of Legends) plus stakes in Epic Games, Ubisoft and Activision Blizzard. It also runs Tencent Cloud and WeChat Pay, and is listed on the Hong Kong Stock Exchange.",
       "desc_ru": "Tencent (Shenzhen, основана в 1998 году) — китайский технологический конгломерат, владеющий мессенджерами QQ и WeChat (Weixin), крупнейший в мире издатель видеоигр (Honor of Kings, League of Legends через Riot Games, доли в Epic Games, Ubisoft, Activision Blizzard). Компания также развивает облачные сервисы Tencent Cloud, платежи WeChat Pay и цифровые медиа, торгуется на Гонконгской бирже.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/tencent.svg"
     },
     {
       "id": "bytedance",
@@ -1628,7 +1636,8 @@
       "category_ru": null,
       "desc_en": "Dairy-products giant.",
       "desc_ru": "Гигант молочной продукции.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/mengniu.svg"
     },
     {
       "id": "lenovo",
@@ -1670,7 +1679,8 @@
       "category_ru": null,
       "desc_en": "Hotpot restaurant chain.",
       "desc_ru": "Сеть ресторанов хого (хотпот).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/haidilao.svg"
     },
     {
       "id": "cofco",
@@ -1684,7 +1694,8 @@
       "category_ru": null,
       "desc_en": "Largest food & agriculture group.",
       "desc_ru": "Крупнейший продовольственный холдинг.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/cofco.png"
     },
     {
       "id": "genki-forest",
@@ -1768,7 +1779,8 @@
       "category_ru": null,
       "desc_en": "Meituan (美团) is a Chinese local-services platform and the country's largest food-delivery service, also offering restaurant bookings, grocery delivery (Meituan Maicai), ride-hailing, bike-sharing (Meituan Bike, formerly Mobike), and hotel/travel booking. Founded by Wang Xing in 2010 as a group-buying site, it later merged with restaurant-review service Dianping. Meituan is listed on the Hong Kong Stock Exchange and headquartered in Beijing.",
       "desc_ru": "Meituan (美团) — китайская платформа локальных сервисов, крупнейший в Китае сервис доставки еды, также предлагающий бронирование ресторанов, доставку продуктов (Meituan Maicai), заказ такси, аренду велосипедов (Meituan Bike, ранее Mobike) и бронирование отелей/билетов. Компания основана Ван Сином в 2010 году как сайт групповых покупок и позже слилась с сервисом отзывов о ресторанах Dianping. Акции Meituan торгуются на Гонконгской бирже, а штаб-квартира расположена в Пекине.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/meituan.svg"
     },
     {
       "id": "yunji-technology",
@@ -1894,7 +1906,8 @@
       "category_ru": null,
       "desc_en": "Designer-toy & IP retailer.",
       "desc_ru": "Ритейлер дизайнерских игрушек и IP.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/pop-mart.svg"
     },
     {
       "id": "wumart-dmall",
@@ -2146,7 +2159,8 @@
       "category_ru": null,
       "desc_en": "Japanese automaker, China plants.",
       "desc_ru": "Японский автопроизводитель, заводы в КНР.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/toyota.svg"
     },
     {
       "id": "great-wall-motor",
@@ -2272,7 +2286,8 @@
       "category_ru": null,
       "desc_en": "Korean electronics group.",
       "desc_ru": "Корейский электронный концерн.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/samsung.svg"
     },
     {
       "id": "baosteel",
@@ -2300,7 +2315,8 @@
       "category_ru": null,
       "desc_en": "GM premium brand, Shanghai plant.",
       "desc_ru": "Премиум-марка GM, завод в Шанхае.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/cadillac.svg"
     },
     {
       "id": "saic-vw",
@@ -2328,7 +2344,8 @@
       "category_ru": null,
       "desc_en": "The operator of Alipay and a digital financial-services ecosystem, spun off from Alibaba Group; headquartered at \"Ant Z-Space,\" Xihu district, Hangzhou.",
       "desc_ru": "Оператор Alipay и экосистемы цифровых финансовых услуг, выделен из Alibaba Group; штаб-квартира — «Муравьиное Z-пространство», район Сиху, Ханчжоу.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ant-group.svg"
     },
     {
       "id": "jd-asia-no-1",
@@ -2370,7 +2387,8 @@
       "category_ru": null,
       "desc_en": "Xiaohongshu (小红书, \"Little Red Book,\" also known internationally as RedNote) is a Chinese lifestyle content and social-commerce platform founded in 2013 and headquartered in Shanghai. Users share short posts (\"notes\") with product reviews, beauty tutorials, and travel guides, and can purchase featured products directly through the in-app Xiaohongshu Mall. The platform has hundreds of millions of monthly active users, skews heavily female and Gen Z, and counts Tencent and Alibaba among its investors.",
       "desc_ru": "Сяохуншу (小红书, «Little Red Book», также известна как RedNote) — китайская платформа лайфстайл-контента и социальной коммерции, основанная в 2013 году, штаб-квартира в Шанхае. Пользователи публикуют короткие посты («заметки») с обзорами товаров, бьюти-гайдами и советами по путешествиям, а через встроенный Xiaohongshu Mall могут сразу покупать упомянутые товары, не выходя из приложения. Платформа насчитывает сотни миллионов ежемесячных активных пользователей (преимущественно женщины и молодая аудитория), а среди инвесторов — Tencent и Alibaba.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/xiaohongshu-red.svg"
     },
     {
       "id": "comac",
@@ -2426,7 +2444,8 @@
       "category_ru": null,
       "desc_en": "Pinduoduo (拼多多) is a Chinese e-commerce platform founded in 2015 by Colin Huang (Huang Zheng), known for its group-buying model where users team up with friends via social networks like WeChat to unlock discounts. Its parent company, PDD Holdings, also owns Temu, a cross-border shopping platform launched in 2022, and PDD Holdings trades on Nasdaq. Pinduoduo has grown into one of China's largest e-commerce platforms by active buyers, competing directly with Alibaba and JD.com.",
       "desc_ru": "Pinduoduo (拼多多) — китайская платформа e-commerce, основанная в 2015 году Колином Хуаном (Huang Zheng), известная моделью групповых покупок, где пользователи объединяются с друзьями через соцсети (WeChat) для получения скидок. Компания также владеет международной платформой Temu, запущенной в 2022 году для трансграничной торговли. Акции материнской компании PDD Holdings торгуются на Nasdaq, а по числу активных покупателей компания является одной из крупнейших e-commerce платформ Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/pinduoduo.svg"
     },
     {
       "id": "ctrip-trip-com",
@@ -2440,7 +2459,8 @@
       "category_ru": null,
       "desc_en": "Ctrip (Trip.com Group), founded in 1999 in Shanghai, is a Chinese online travel booking company offering flight, hotel, train ticket, and tour reservations through its Ctrip platform (domestic China market) and Trip.com brand (international market). It is one of the world's largest online travel agencies, is listed on NASDAQ, and has held a major stake in Skyscanner as part of its international expansion.",
       "desc_ru": "Ctrip (Trip.com Group), основанная в 1999 году в Шанхае, — китайский оператор онлайн-бронирования путешествий, предлагающий бронирование авиабилетов, отелей, поездов и туров через платформы Ctrip (китайский рынок) и Trip.com (международный рынок). Компания входит в число крупнейших OTA в мире и котируется на бирже NASDAQ, а также владеет брендами Skyscanner и MakeMyTrip (через инвестиции/партнёрства) для расширения присутствия за пределами Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ctrip-trip-com.svg"
     },
     {
       "id": "frog-design",
@@ -2594,7 +2614,8 @@
       "category_ru": null,
       "desc_en": "General Motors China operations.",
       "desc_ru": "Операции General Motors в КНР.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/gm.png"
     },
     {
       "id": "hema-freshippo",
@@ -2622,7 +2643,8 @@
       "category_ru": null,
       "desc_en": "Chinese modern tea-drink chain founded in 2017, operating over 6,400 teahouses across China, Malaysia, Singapore and Thailand under the brand name 霸王茶姬 (Chagee). The company listed on Nasdaq in April 2025 under ticker CHA, reaching a valuation of roughly $6 billion on debut, and reported 2024 revenue of about $1.7 billion; it has also begun opening stores in the United States, starting with Los Angeles.",
       "desc_ru": "Китайская сеть чайных напитков нового формата, основанная в 2017 году, насчитывающая более 6400 чайных в Китае, Малайзии, Сингапуре и Таиланде под брендом 霸王茶姬 (Chagee). В апреле 2025 года компания вышла на биржу Nasdaq (тикер CHA) с оценкой около $6 млрд, а выручка за 2024 год составила около $1,7 млрд; компания также начала открывать точки в США, первую — в Лос-Анджелесе.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/chagee.svg"
     },
     {
       "id": "manner-coffee",
@@ -2692,7 +2714,8 @@
       "category_ru": null,
       "desc_en": "Luckin Coffee (瑞幸咖啡) is a Chinese coffee chain headquartered in Xiamen, Fujian province, built around mobile-app ordering with mostly small pickup/delivery-format outlets rather than seating cafes. It overtook Starbucks in store count in China and by 2026 operates over 33,000 locations (company-owned and partner stores); in 2026 it also opened its first high-end flagship store format to compete more directly with Starbucks.",
       "desc_ru": "Luckin Coffee (瑞幸咖啡) — китайская сеть кофеен, штаб-квартира в Сямэне, провинция Фуцзянь; заказы делаются через мобильное приложение, большинство точек — компактные take-away/pick-up формата без посадочных мест. По числу торговых точек в Китае обогнала Starbucks и к 2026 году насчитывает свыше 33 тысяч кофеен (собственных и партнёрских); в 2026 году открыла первый премиальный флагманский формат, конкурирующий со Starbucks.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/luckin-coffee.svg"
     },
     {
       "id": "heytea",
@@ -2706,7 +2729,8 @@
       "category_ru": null,
       "desc_en": "Chinese tea beverage chain founded in 2012 (originally as \"Royal Tea\" in Jiangmen, renamed HeyTea/喜茶 in 2016), headquartered in Nanshan District, Shenzhen. It pioneered the \"new tea\" category — drinks combining tea, fresh milk, and fruit — and operates several thousand stores across China. In 2021 it engaged UBS for a potential Hong Kong IPO targeting around $500 million.",
       "desc_ru": "Китайская сеть чайных напитков, основанная в 2012 году (первоначально как \"Royal Tea\" в Цзянмэне, переименована в HeyTea/喜茶 в 2016 году), штаб-квартира в районе Наньшань, Шэньчжэнь. Компания специализируется на \"новом чае\" — напитках на основе чая, свежего молока и фруктов, и управляет сетью из нескольких тысяч точек по Китаю. В 2021 году привлекала UBS для потенциального IPO в Гонконге объёмом около 500 млн долларов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/heytea.svg"
     },
     {
       "id": "nayuki",
@@ -2972,7 +2996,8 @@
       "category_ru": "Гуманоиды / коботы",
       "desc_en": "AgiBot (智元机器人, Zhiyuan Robotics) is a Shanghai-based humanoid robotics company founded in 2023 by former Huawei engineers Deng Taihua and Peng Zhihui. Its flagship Yuanzheng A2 humanoid robot holds a Guinness World Record for farthest distance walked by a humanoid robot, and the Genie line is also part of its product range. The company began mass production of humanoid robots at its Shanghai factory in late 2024, making it one of the first companies in the sector to reach that stage.",
       "desc_ru": "AgiBot (智元机器人, Zhiyuan Robotics) — шанхайская компания-разработчик человекоподобных роботов, основанная в 2023 году бывшими инженерами Huawei Дэн Тайхуа и Пэн Чжихуэем. Флагманский робот Yuanzheng A2 (远征A2) установил рекорд Гиннесса по дальности ходьбы человекоподобного робота; линейка Genie также входит в продуктовый портфель компании. В конце 2024 года компания начала серийное производство человекоподобных роботов на своём заводе в Шанхае, войдя в число первых игроков, наладивших массовый выпуск.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/agibot.png"
     },
     {
       "id": "byd",
@@ -2986,7 +3011,8 @@
       "category_ru": null,
       "desc_en": "Vertically integrated NEV & battery giant.",
       "desc_ru": "Вертикально интегрированный гигант NEV и батарей.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/byd.svg"
     },
     {
       "id": "china-resources",
@@ -3238,7 +3264,8 @@
       "category_ru": null,
       "desc_en": "ZTE (中兴通讯) is a Chinese maker of telecommunications equipment and systems headquartered in Shenzhen, founded in 1985. It supplies telecom operators as well as government and enterprise customers with communications-network gear, IoT, big data and cloud computing products, and is dual-listed on the Shenzhen Stock Exchange (since 1997, the first major Chinese telecom-equipment maker to list there) and the Hong Kong Stock Exchange (since 2004).",
       "desc_ru": "ZTE (中兴通讯) — китайский производитель телекоммуникационного оборудования и систем со штаб-квартирой в Шэньчжэне, основан в 1985 году. Компания поставляет решения для операторов связи, а также госсектора и корпоративных клиентов: сети связи, оборудование для IoT, big data и облачных вычислений; акции торгуются на биржах Шэньчжэня (с 1997 года, первой среди крупных китайских производителей связного оборудования) и Гонконга (с 2004 года).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/zte.svg"
     },
     {
       "id": "tcl",
@@ -3490,7 +3517,8 @@
       "category_ru": null,
       "desc_en": "Dongfeng–Nissan passenger-car JV.",
       "desc_ru": "СП Dongfeng и Nissan.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dongfeng-nissan.jpg"
     },
     {
       "id": "gree",
@@ -3504,7 +3532,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1989 in Zhuhai, China; the world's largest residential air-conditioner manufacturer, ranked No. 1 in production and sales volume since 2005. Besides window, split, floor and mobile AC units, it makes home appliances and industrial cooling equipment (chillers, VRF systems), exporting to over 180 countries with manufacturing plants also in Brazil and Pakistan.",
       "desc_ru": "Основана в 1989 году в Чжухае, Китай; крупнейший в мире производитель бытовых кондиционеров, лидирующий по объёмам производства и продаж с 2005 года. Помимо кондиционеров (оконных, сплит-, напольных, мобильных, канальных) выпускает бытовую технику и промышленное холодильное оборудование (чиллеры, VRF-системы); продукция поставляется более чем в 180 стран, есть заводы в Бразилии и Пакистане.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/gree.svg"
     },
     {
       "id": "midea",
@@ -3518,7 +3547,8 @@
       "category_ru": null,
       "desc_en": "Midea Group is a Chinese manufacturer of home appliances and electrical equipment headquartered in Foshan, Guangdong province; it makes air conditioners, refrigerators, washing machines and small appliances under its own brands and a licensed Toshiba appliance brand. It owns the German industrial robotics maker KUKA, is one of the world's largest producers of air conditioners and household appliances, and is listed on the Shenzhen Stock Exchange.",
       "desc_ru": "Midea Group — китайский производитель бытовой техники и электрооборудования со штаб-квартирой в Фошане, провинция Гуандун; выпускает кондиционеры, холодильники, стиральные машины и мелкую технику под собственными брендами и брендом Toshiba (лицензия). Компания владеет немецким производителем промышленных роботов KUKA и является одним из крупнейших в мире производителей кондиционеров и бытовой техники, акции торгуются на Шэньчжэньской фондовой бирже.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/midea.svg"
     },
     {
       "id": "faw-vw",
@@ -3952,7 +3982,8 @@
       "category_ru": null,
       "desc_en": "Electronics, Semiconductors & Appliances · Zhuhai.",
       "desc_ru": "Электроника, полупроводники и бытовая техника, Чжухай.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/gree-2.svg"
     },
     {
       "id": "vsman",
@@ -3980,7 +4011,8 @@
       "category_ru": null,
       "desc_en": "Major private automaker, owns Volvo.",
       "desc_ru": "Крупный частный автопроизводитель, владеет Volvo.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/geely.svg"
     },
     {
       "id": "hikvision",
@@ -4022,7 +4054,8 @@
       "category_ru": null,
       "desc_en": "Internet, E-commerce & Platforms · Hangzhou.",
       "desc_ru": "Интернет, e-commerce и платформы, Ханчжоу.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/douyin-base.png"
     },
     {
       "id": "hangzhou-iron-steel",
@@ -4302,7 +4335,8 @@
       "category_ru": "Робособаки / инспекция",
       "desc_en": "X20/X30 quadrupeds; substation & tunnel inspection; thermal.",
       "desc_ru": "Робособаки X20/X30; инспекция подстанций и тоннелей; тепловизоры.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/deeprobotics.png"
     },
     {
       "id": "brainco",
@@ -4442,7 +4476,8 @@
       "category_ru": null,
       "desc_en": "Geely's premium EV brand.",
       "desc_ru": "Премиальный EV-бренд Geely.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/zeekr.svg"
     },
     {
       "id": "beilun-power",
@@ -4792,7 +4827,8 @@
       "category_ru": null,
       "desc_en": "Korean electronics group.",
       "desc_ru": "Корейский электронный концерн.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/samsung-electronics.svg"
     },
     {
       "id": "3m",
@@ -4918,7 +4954,8 @@
       "category_ru": null,
       "desc_en": "A Chinese premium EV maker headquartered in Shanghai, with its NIO China operations hub (R&D, manufacturing, and NIO Power network) based in Hefei, where it also runs two factories. It is known for battery-swap technology via its Power Swap station network, which passed 100 million swaps by 2026, and has a strategic partnership with CATL on battery swapping.",
       "desc_ru": "Китайский производитель премиальных электромобилей, штаб-квартира в Шанхае, а операционный центр NIO China (R&D, производство, сеть NIO Power) расположен в Хэфэе. Компания известна фирменной технологией замены аккумуляторов через сеть станций Power Swap, к 2026 году превысившей 100 миллионов операций замены батарей; сотрудничает с CATL по развитию инфраструктуры battery swap.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/nio.svg"
     },
     {
       "id": "three-squirrels",
@@ -5072,7 +5109,8 @@
       "category_ru": null,
       "desc_en": "Global beverage brand.",
       "desc_ru": "Мировой бренд напитков.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/coca-cola.svg"
     },
     {
       "id": "new-hope",
@@ -5548,7 +5586,8 @@
       "category_ru": null,
       "desc_en": "Bubble-tea & ice-cream chain.",
       "desc_ru": "Сеть чая с молоком и мороженого.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/mixue.svg"
     },
     {
       "id": "shuanghui",
@@ -5660,7 +5699,8 @@
       "category_ru": null,
       "desc_en": "World's largest home-appliance maker, founded in 1984 when Zhang Ruimin was appointed director of the Qingdao Refrigerator Factory. It produces refrigerators, washing machines, air conditioners and other appliances under the Haier and Casarte brands, and acquired GE Appliances in the United States in 2016.",
       "desc_ru": "Крупнейший в мире производитель бытовой техники, основанный в 1984 году на базе Qingdao Refrigerator Factory под руководством Чжана Жуйминя. Компания выпускает холодильники, стиральные машины, кондиционеры и другую технику под брендами Haier и Casarte, а в 2016 году приобрела американское подразделение GE Appliances.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/haier.svg"
     },
     {
       "id": "kutesmart",
@@ -5688,7 +5728,8 @@
       "category_ru": null,
       "desc_en": "Hisense (海信) is a Chinese electronics and home-appliance manufacturer founded in 1969 in Qingdao (originally a radio factory, renamed Hisense in 1993). It produces TVs (including its ULED and laser TV lines), refrigerators, air conditioners and washing machines, ranking as the world's No. 2 TV maker by shipment volume in 2024.",
       "desc_ru": "Hisense (海信) — китайский производитель электроники и бытовой техники, основанный в 1969 году в Циндао (изначально как радиозавод, переименован в Hisense в 1993 году). Компания выпускает телевизоры (включая линейку ULED и лазерные телевизоры), холодильники, кондиционеры и стиральные машины, по итогам 2024 года занимая второе место в мире по объёму поставок телевизоров.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/hisense.svg"
     },
     {
       "id": "tsingtao-beer",
@@ -5884,7 +5925,8 @@
       "category_ru": null,
       "desc_en": "BMW–Brilliance manufacturing JV.",
       "desc_ru": "Производственное СП BMW и Brilliance.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/bmw-brilliance.svg"
     },
     {
       "id": "dalian-shipbuilding",
@@ -6556,7 +6598,8 @@
       "category_ru": "Гуманоиды / сервисные",
       "desc_en": "Founded in 2012 and based in Shenzhen; China's largest maker of humanoid and educational robots, listed on the Hong Kong Stock Exchange since December 29, 2023. Its Walker S/S2 industrial humanoid robot is deployed on auto-manufacturing lines (Walker S2 orders reportedly exceeded 800 million yuan), alongside its Cruzr service robot.",
       "desc_ru": "Founded 2012, Shenzhen; крупнейший в Китае производитель гуманоидных и образовательных роботов, листинг на Гонконгской бирже (HKEX) с 29 декабря 2023 года. Walker S/S2 — промышленный гуманоидный робот для автозаводов и smart manufacturing (заказы на Walker S2 превысили 800 млн юаней); также выпускает сервисного робота Cruzr.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ubtech.svg"
     },
     {
       "id": "fourier",
@@ -6570,7 +6613,8 @@
       "category_ru": "Гуманоиды / медицина",
       "desc_en": "Founded in 2015 in Shanghai; originally specialized in rehabilitation robotics (ExoMotus exoskeleton line) and has supplied equipment to over 2,000 hospitals and institutions across 40+ countries. Since 2023 it has expanded into general-purpose humanoid robots, launching GR-1 (its first mass-produced humanoid, 1.65 m tall) and GR-2 (1.75 m, 63 kg, with 12-DoF dexterous hands and array tactile sensors).",
       "desc_ru": "Основана в 2015 году в Шанхае; изначально специализировалась на реабилитационной робототехнике (экзоскелеты серии ExoMotus) и поставила оборудование в более чем 2000 больниц и учреждений в 40+ странах. С 2023 года выпускает гуманоидных роботов общего назначения GR-1 (первый серийный гуманоид компании, рост 1.65 м) и GR-2 (рост 1.75 м, вес 63 кг, кистевые модули с 12 степенями свободы и тактильными датчиками).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/fourier.png"
     },
     {
       "id": "zerith",
@@ -6640,7 +6684,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Shanghai Kepler Robotics develops humanoid robots; its flagship Forerunner K2 (fifth generation, successor to K1) has 52 degrees of freedom and can carry roughly 15 kg (33 lb) per hand. It targets general-purpose use in manufacturing, warehouse/logistics, and hazardous inspection tasks, and has been deployed at SAIC-GM's automotive plant in Shanghai for quality-check and assembly operations.",
       "desc_ru": "Shanghai Kepler Robotics — китайский разработчик человекоподобных роботов, флагманская модель Forerunner K2 (пятое поколение, преемник K1) имеет 52 степени свободы и грузоподъёмность до ~15 кг на каждую руку. Позиционируется как универсальный робот для производства, складской логистики и опасных инспекционных работ; развёрнут на автозаводе SAIC-GM в Шанхае, где выполняет операции контроля качества и сборки.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/kepler.png"
     },
     {
       "id": "leju-robotics",
@@ -6682,7 +6727,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Shenzhen EngineAI Robotics Technology (众擎机器人) is a Chinese humanoid robotics company founded in October 2023 by Zhao Tongyang. Its flagship PM01 model (1.388 m tall, 40 kg, 24 degrees of freedom, up to 2 m/s) performed a front flip in December 2024 (claimed as a first for humanoid robots) and has since demonstrated outdoor running; the lineup also includes the SE01 and T800 models.",
       "desc_ru": "Shenzhen EngineAI Robotics Technology (众擎机器人) — китайский разработчик человекоподобных роботов, основан в октябре 2023 года (основатель Чжао Тунъян). Флагманская модель PM01 (рост 1,388 м, вес 40 кг, 24 степени свободы, скорость до 2 м/с) в декабре 2024 продемонстрировала фронтальное сальто (по заявлениям — впервые среди гуманоидных роботов) и бег вне помещения; линейка также включает модели SE01 и T800.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/engineai.png"
     },
     {
       "id": "x-humanoid",
@@ -6724,7 +6770,8 @@
       "category_ru": "Гуманоиды / сервисные",
       "desc_en": "Galbot (银河通用, Galaxy General Robot Co., Ltd.) is a Beijing-based developer of wheeled humanoid manipulator robots. Its flagship G1 is a dual-arm platform on an omnidirectional wheeled base (no legs), 173 cm tall with 47 degrees of freedom, running Galbot's proprietary AstraBrain AI system; it targets retail and pharmacy use and performed autonomous manipulation tasks on China's 2026 CCTV Spring Festival Gala broadcast.",
       "desc_ru": "Galbot (银河通用, Galaxy General Robot Co., Ltd.) — пекинский разработчик колёсных гуманоидных роботов-манипуляторов. Флагманский G1 — двурукая платформа на всенаправленном колёсном шасси (без ног), высотой 173 см, с 47 степенями свободы и ИИ-системой AstraBrain, применяется в ритейле и аптеках; в 2026 году робот выполнял автономные манипуляции в эфире новогоднего гала CCTV.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/galbot.png"
     },
     {
       "id": "whalesbot",
@@ -6780,7 +6827,8 @@
       "category_ru": null,
       "desc_en": "Guangzhou-based smart-EV maker founded in 2014, with in-house XNGP autonomous driving system and Turing AI chips. Beyond cars, it is developing the \"Land Aircraft Carrier\" eVTOL flying car, which has over 7,000 global orders, backed by a planned 3 billion yuan (~$413M) investment with large-scale production targeted for 2027.",
       "desc_ru": "Гуанчжоуский производитель умных электромобилей, основанный в 2014 году, с собственной системой автопилота XNGP и чипами Turing AI. Кроме автомобилей, компания развивает направление eVTOL (\"летающий автомобиль\") Land Aircraft Carrier, набравшее свыше 7000 предзаказов, и планирует инвестировать 3 млрд юаней в это направление с запуском крупносерийного производства к 2027 году.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/xpeng.svg"
     },
     {
       "id": "maextro",
@@ -6808,7 +6856,8 @@
       "category_ru": null,
       "desc_en": "State-owned automaker headquartered in Shanghai, currently China's largest automaker by sales. It builds vehicles under its own brands MG, Roewe, Maxus, and IM Motors (an EV joint venture with Alibaba), alongside long-standing joint ventures with Volkswagen and General Motors; ranked 84th on the 2023 Fortune Global 500 list.",
       "desc_ru": "Государственная автомобилестроительная корпорация со штаб-квартирой в Шанхае, крупнейший автопроизводитель Китая. Выпускает автомобили под собственными брендами MG, Roewe, Maxus и IM Motors (совместное предприятие с Alibaba), а также имеет СП с Volkswagen и General Motors; в 2023 году заняла 84-е место в списке Fortune Global 500.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/saic.svg"
     },
     {
       "id": "supor",
@@ -7298,7 +7347,8 @@
       "category_ru": null,
       "desc_en": "Tesla's Shanghai Gigafactory (Lingang New Area) is the company's first overseas vehicle plant and China's first wholly foreign-owned automaker. It produces the Model 3 and Model Y, with capacity exceeding 950,000 vehicles per year and component localization above 95%. The site is Tesla's largest global production hub and main export base, accounting for roughly half of the company's worldwide output; it produced its four-millionth vehicle in December 2025.",
       "desc_ru": "Гигафабрика Tesla в Шанхае (Lingang New Area) — первый зарубежный автозавод компании и первое в Китае автопроизводство со 100%-ным иностранным капиталом. Завод выпускает электромобили Model 3 и Model Y с производственной мощностью свыше 950 тысяч машин в год, локализация компонентов превышает 95%. Площадка является крупнейшим производственным узлом Tesla в мире и основным экспортным хабом компании, обеспечивая около половины её глобального выпуска; в декабре 2025 года здесь был выпущен 4-миллионный автомобиль.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/tesla.png"
     },
     {
       "id": "rt-mart",
@@ -7340,7 +7390,8 @@
       "category_ru": null,
       "desc_en": "Warehouse membership club retail chain, wholly owned by Walmart, headquartered in Futian, Shenzhen. Its first mainland China store opened in Shenzhen in 1996; the chain has since grown to over 50 stores across major Chinese cities, including 4 in Shenzhen itself (Futian, Qianhai, Longgang, Longhua). Its Member's Mark private label is a core part of the assortment.",
       "desc_ru": "Складской клуб-магазин формата \"оптом в розницу\", 100%-я дочерняя структура Walmart; штаб-квартира — в Футянь, Шэньчжэнь. Первый магазин в материковом Китае открыт в Шэньчжэне в 1996 году; сеть выросла до более чем 50 точек в крупнейших городах Китая, включая 4 магазина в самом Шэньчжэне (Футянь, Цяньхай, Луньган, Луньхуа). Собственная торговая марка Member's Mark — ключевой элемент ассортимента.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/sams-club.svg"
     },
     {
       "id": "yonghui",
@@ -7438,7 +7489,8 @@
       "category_ru": null,
       "desc_en": "Samsung's free showroom-museum in Gangnam, Seoul: interactive installations on the future of technology, a VR zone, and a display of the company's newest products. Open to the public, no booking required.",
       "desc_ru": "Бесплатный шоурум-музей Samsung в Гангнаме, Сеул: интерактивные инсталляции о будущем технологий, VR-зона, витрина новейших продуктов компании. Открыт для всех, бронь не нужна.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/samsung-dlight.svg"
     },
     {
       "id": "samsung-innovation-museum",
@@ -7452,7 +7504,8 @@
       "category_ru": null,
       "desc_en": "Korea's largest electronics-industry museum, located in Suwon on the site of Samsung Electronics' first factory. Covers the history of semiconductors, displays and mobile technology; docent tours by appointment, weekdays only.",
       "desc_ru": "Крупнейший в Корее музей электронной промышленности в Сувоне, на территории первого завода Samsung Electronics. История полупроводников, дисплеев и мобильных технологий; докент-тур по записи, только в будни.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/samsung-innovation-museum.svg"
     },
     {
       "id": "hyundai-motor-ulsan",
@@ -7900,7 +7953,8 @@
       "category_ru": null,
       "desc_en": "HQ visit plus a robot-staffed pilot store: unmanned checkout and merchandising robots.",
       "desc_ru": "Штаб-квартира и магазин-робот: беспилотная касса и роботы-мерчандайзеры.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/seven-eleven-japan.png"
     },
     {
       "id": "lawson-japan",
@@ -7928,7 +7982,8 @@
       "category_ru": null,
       "desc_en": "HQ visit and the chain's in-store digital signage network.",
       "desc_ru": "Штаб-квартира, сеть цифровых вывесок (digital signage) в магазинах.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/familymart.svg"
     },
     {
       "id": "aeon-regigo",
@@ -7942,7 +7997,8 @@
       "category_ru": null,
       "desc_en": "Smart-store format 'Regi Go' (scan-as-you-shop) plus a logistics center visit.",
       "desc_ru": "Смарт-магазин формата 'Regi Go' (сканирование на ходу) и логистический центр.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/aeon-regigo.png"
     },
     {
       "id": "fast-retailing-uniqlo",
@@ -7956,7 +8012,8 @@
       "category_ru": null,
       "desc_en": "HQ at Ariake plus the automated warehouse built with Daifuku/MUJIN robotics.",
       "desc_ru": "Штаб-квартира Ariake и автоматизированный склад на технологиях Daifuku/MUJIN.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/fast-retailing-uniqlo.svg"
     },
     {
       "id": "muji-tokyo",
@@ -8026,7 +8083,8 @@
       "category_ru": null,
       "desc_en": "Online-to-offline integration across Japan's largest e-commerce ecosystem.",
       "desc_ru": "Онлайн-офлайн интеграция крупнейшей e-commerce экосистемы Японии.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/rakuten-group.svg"
     },
     {
       "id": "yakult-honsha",
@@ -8040,7 +8098,8 @@
       "category_ru": null,
       "desc_en": "Factory tour of Japan's pioneering probiotic-drink producer.",
       "desc_ru": "Экскурсия по заводу пробиотиков — пионера категории в Японии.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/yakult-honsha.svg"
     },
     {
       "id": "meiji-holdings",
@@ -8054,7 +8113,8 @@
       "category_ru": null,
       "desc_en": "R&D center for functional dairy products.",
       "desc_ru": "R&D функциональных молочных продуктов.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/meiji-holdings.svg"
     },
     {
       "id": "kikkoman",
@@ -8096,7 +8156,8 @@
       "category_ru": null,
       "desc_en": "AminoScience: amino-acid biotechnology platform.",
       "desc_ru": "AminoScience — биотехнологическая платформа на основе аминокислот.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/ajinomoto.svg"
     },
     {
       "id": "fuji-oil",
@@ -8138,7 +8199,8 @@
       "category_ru": null,
       "desc_en": "Bifidobacteria research and aseptic packaging technology.",
       "desc_ru": "Бифидобактерии и технологии асептической упаковки.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/morinaga-milk.svg"
     },
     {
       "id": "megmilk-snow-brand",
@@ -8180,7 +8242,8 @@
       "category_ru": null,
       "desc_en": "Demonstration of autonomous delivery robots in Nihonbashi.",
       "desc_ru": "Демонстрация автономных роботов доставки в районе Нихонбаси.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/uber-eats-japan.svg"
     },
     {
       "id": "connected-robotics",
@@ -8278,7 +8341,8 @@
       "category_ru": null,
       "desc_en": "Delivery platform and restaurant-data business.",
       "desc_ru": "Платформа доставки и данные ресторанного рынка.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/rakuten-delivery-gurunavi.svg"
     },
     {
       "id": "menu-kddi",
@@ -8334,7 +8398,8 @@
       "category_ru": null,
       "desc_en": "Japan's dominant messenger and payments ecosystem.",
       "desc_ru": "Доминирующий в Японии мессенджер и платёжная экосистема.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/ly-corporation.svg"
     },
     {
       "id": "paypay",
@@ -8362,7 +8427,8 @@
       "category_ru": null,
       "desc_en": "AI + e-commerce campus, two sessions on one site.",
       "desc_ru": "Кампус AI и e-commerce, две сессии на одной площадке.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/rakuten-crimson-house.svg"
     },
     {
       "id": "mercari",
@@ -8390,7 +8456,8 @@
       "category_ru": null,
       "desc_en": "The Fugaku supercomputer and the Takane LLM.",
       "desc_ru": "Суперкомпьютер Fugaku, языковая модель Takane.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/fujitsu.svg"
     },
     {
       "id": "ntt",
@@ -8446,7 +8513,8 @@
       "category_ru": null,
       "desc_en": "Global Innovation Center 'S/PARK' (Beauty Park): IoT skin diagnostics.",
       "desc_ru": "Global Innovation Center 'S/PARK' (Beauty Park): IoT-диагностика кожи.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/shiseido.svg"
     },
     {
       "id": "fancl",
@@ -8586,7 +8654,8 @@
       "category_ru": null,
       "desc_en": "iPSC technology, NAD+ supplements, regenerative medicine.",
       "desc_ru": "iPSC-технологии, NAD+ добавки, регенеративная медицина.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/fujifilm-ips.svg"
     },
     {
       "id": "healios",
@@ -8880,7 +8949,8 @@
       "category_ru": null,
       "desc_en": "The Lotus's SMART app and loyalty platform.",
       "desc_ru": "Приложение Lotus's SMART.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/lotus-cp-axtra.svg"
     },
     {
       "id": "big-c-bjc",
@@ -9048,7 +9118,8 @@
       "category_ru": null,
       "desc_en": "Dairy products.",
       "desc_ru": "Молочная продукция.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/meiji-thailand.svg"
     },
     {
       "id": "line-man-wongnai",
@@ -9076,7 +9147,8 @@
       "category_ru": null,
       "desc_en": "Regional super-app, GrabFood.",
       "desc_ru": "Региональный супер-апп.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/grab-thailand.svg"
     },
     {
       "id": "foodpanda-thailand",
@@ -9090,7 +9162,8 @@
       "category_ru": null,
       "desc_en": "Delivery platform.",
       "desc_ru": "Платформа доставки.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/foodpanda-thailand.svg"
     },
     {
       "id": "robinhood-scb",
@@ -9160,7 +9233,8 @@
       "category_ru": null,
       "desc_en": "Delivery platform.",
       "desc_ru": "Платформа доставки.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/shopee-food-th.svg"
     },
     {
       "id": "true-digital",
@@ -9216,7 +9290,8 @@
       "category_ru": null,
       "desc_en": "Dominant messenger.",
       "desc_ru": "Доминирующий мессенджер.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/line-thailand.svg"
     },
     {
       "id": "amity-solutions",
@@ -9244,7 +9319,8 @@
       "category_ru": null,
       "desc_en": "E-commerce platform.",
       "desc_ru": "E-commerce платформа.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/lazada-thailand.svg"
     },
     {
       "id": "shopee-thailand",
@@ -9258,7 +9334,8 @@
       "category_ru": null,
       "desc_en": "E-commerce platform.",
       "desc_ru": "E-commerce платформа.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/shopee-thailand.svg"
     },
     {
       "id": "central-jd",
@@ -9580,7 +9657,8 @@
       "category_ru": null,
       "desc_en": "HQ and roasting facility; 5,000+ outlets worldwide.",
       "desc_ru": "Штаб-квартира и обжарочное производство, 5000+ точек в мире.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/cafe-amazon-ptt.svg"
     },
     {
       "id": "inthanin-bangchak",
@@ -9790,7 +9868,8 @@
       "category_ru": null,
       "desc_en": "Japanese retail format in Vietnam.",
       "desc_ru": "Японский формат ритейла во Вьетнаме.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/aeon-vietnam.png"
     },
     {
       "id": "wincommerce",
@@ -9818,7 +9897,8 @@
       "category_ru": null,
       "desc_en": "Convenience-store technology.",
       "desc_ru": "Конвиниенс-технологии.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/circlek-gs25-vietnam.svg"
     },
     {
       "id": "con-cung",
@@ -9846,7 +9926,8 @@
       "category_ru": null,
       "desc_en": "HQ and an Industry-4.0 mega-factory in Binh Duong (robotic milking and packaging).",
       "desc_ru": "Штаб-квартира и мега-завод Industry 4.0 в Бинь Зыонге (роботизированное доение и упаковка).",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/vinamilk.svg"
     },
     {
       "id": "nutifood",
@@ -9944,7 +10025,8 @@
       "category_ru": null,
       "desc_en": "Market leader, AI logistics.",
       "desc_ru": "Лидер рынка, AI-логистика.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/grabfood-vietnam.svg"
     },
     {
       "id": "shopeefood-vietnam",
@@ -9958,7 +10040,8 @@
       "category_ru": null,
       "desc_en": "Delivery platform.",
       "desc_ru": "Платформа доставки.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/shopeefood-vietnam.svg"
     },
     {
       "id": "be-begroup",
@@ -10000,7 +10083,8 @@
       "category_ru": null,
       "desc_en": "EV delivery and ride-hailing.",
       "desc_ru": "EV-доставка и такси.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/xanh-sm-gsm-vinfast.svg"
     },
     {
       "id": "ahamove",
@@ -10112,7 +10196,8 @@
       "category_ru": null,
       "desc_en": "Telecom and digital services.",
       "desc_ru": "Телеком и цифровые сервисы.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/viettel.svg"
     },
     {
       "id": "vinbrain",
@@ -10364,7 +10449,8 @@
       "category_ru": null,
       "desc_en": "HQ of the ≈928-outlet chain, self-service ordering.",
       "desc_ru": "Штаб-квартира (≈928 точек), self-service заказ.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/highlands-coffee.svg"
     },
     {
       "id": "katinat",
@@ -10546,7 +10632,8 @@
       "category_ru": null,
       "desc_en": "Japanese retail format in Indonesia.",
       "desc_ru": "Японский формат ритейла в Индонезии.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/aeon-indonesia.png"
     },
     {
       "id": "ace-hardware-kawan-lama",
@@ -10588,7 +10675,8 @@
       "category_ru": null,
       "desc_en": "O2O e-commerce integration; backed by Djarum/GDP.",
       "desc_ru": "O2O интеграция; за брендом стоит Djarum/GDP.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/blibli.svg"
     },
     {
       "id": "indofood",
@@ -10728,7 +10816,8 @@
       "category_ru": null,
       "desc_en": "GrabFood delivery.",
       "desc_ru": "GrabFood.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/grab-indonesia.svg"
     },
     {
       "id": "yummy-corp",
@@ -10812,7 +10901,8 @@
       "category_ru": null,
       "desc_en": "Delivery platform.",
       "desc_ru": "Платформа доставки.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/shopeefood-indonesia.svg"
     },
     {
       "id": "wahyoo",
@@ -10910,7 +11000,8 @@
       "category_ru": null,
       "desc_en": "Merged with Tokopedia in 2024.",
       "desc_ru": "Объединены с Tokopedia в 2024.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/shopee-tiktok-shop-indonesia.svg"
     },
     {
       "id": "bukalapak",
@@ -10924,7 +11015,8 @@
       "category_ru": null,
       "desc_en": "Closing meeting.",
       "desc_ru": "Итоговая встреча.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/bukalapak.svg"
     },
     {
       "id": "paragon-technology-innovation",
@@ -11372,7 +11464,8 @@
       "category_ru": null,
       "desc_en": "HQ visit.",
       "desc_ru": "Штаб-квартира.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/flipkart-walmart.svg"
     },
     {
       "id": "bigbasket-tata",
@@ -11386,7 +11479,8 @@
       "category_ru": null,
       "desc_en": "Quick-commerce grocery.",
       "desc_ru": "Q-commerce.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/bigbasket-tata.svg"
     },
     {
       "id": "swiggy-instamart",
@@ -11400,7 +11494,8 @@
       "category_ru": null,
       "desc_en": "Quick-commerce; also Swiggy's core delivery + Instamart business.",
       "desc_ru": "Quick-commerce; также основной бизнес доставки Swiggy + Instamart.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/swiggy-instamart.svg"
     },
     {
       "id": "blinkit-eternal",
@@ -11414,7 +11509,8 @@
       "category_ru": null,
       "desc_en": "Dark-store tech; also HQ visit and the Hyperpure B2B supply business (with Zomato/Eternal).",
       "desc_ru": "Dark-store tech; также штаб-квартира и B2B-поставки Hyperpure (совместно с Zomato/Eternal).",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/blinkit-eternal.svg"
     },
     {
       "id": "vishal-mega-mart",
@@ -12128,7 +12224,8 @@
       "category_ru": null,
       "desc_en": "Malaysia's first AI-powered cashierless store using CloudPick's computer-vision 'Smart Unmanned Store' technology — scan card, pick, walk out.",
       "desc_ru": "Первый в Малайзии AI-магазин без кассиров на технологии компьютерного зрения CloudPick 'Smart Unmanned Store' — сканируй карту, бери товар, уходи.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/7-eleven-malaysia-cloudpick.png"
     },
     {
       "id": "aeon-malaysia",
@@ -12142,7 +12239,8 @@
       "category_ru": null,
       "desc_en": "Hundreds of self-checkout units rolled out, expanding omnichannel; large mall-based hypermarket operator.",
       "desc_ru": "Сотни установленных касс самообслуживания, развитие омниканальности; крупный оператор гипермаркетов при торговых центрах.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/aeon-malaysia.png"
     },
     {
       "id": "99-speed-mart",
@@ -12184,7 +12282,8 @@
       "category_ru": null,
       "desc_en": "Hypermarket omnichannel operator (formerly Tesco Malaysia) with app/loyalty and online grocery fulfilment.",
       "desc_ru": "Оператор гипермаркетов с омниканальностью (бывшая Tesco Malaysia): приложение, лояльность, онлайн-доставка продуктов.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/lotus-stores-malaysia.svg"
     },
     {
       "id": "jaya-grocer",
@@ -12240,7 +12339,8 @@
       "category_ru": null,
       "desc_en": "New 'smart factory' (2022) in Bandar Enstek (~188,000 m²) with automation/digitalization and JAKIM halal certification.",
       "desc_ru": "Новый 'умный завод' (2022) в Бандар-Энстеке (~188 000 м²) с автоматизацией/цифровизацией и халяль-сертификацией JAKIM.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/ajinomoto-malaysia.svg"
     },
     {
       "id": "dutch-lady-malaysia",
@@ -12352,7 +12452,8 @@
       "category_ru": null,
       "desc_en": "GrabFood delivery platform plus the GrabKitchen cloud-kitchen concept — part of Grab's ride-hailing/delivery/fintech super-app.",
       "desc_ru": "Платформа доставки GrabFood и концепция облачной кухни GrabKitchen — часть супер-приложения Grab (райдхейлинг/доставка/финтех).",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/grab-food-kitchen-malaysia.svg"
     },
     {
       "id": "foodpanda-malaysia",
@@ -12366,7 +12467,8 @@
       "category_ru": null,
       "desc_en": "Major delivery platform (Delivery Hero group); operates 'pandamart' dark-store and cloud-kitchen infrastructure across Malaysia.",
       "desc_ru": "Крупная платформа доставки (группа Delivery Hero); dark-store инфраструктура 'pandamart' и облачные кухни по всей Малайзии.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/foodpanda-malaysia.svg"
     },
     {
       "id": "pop-meals",
@@ -12562,7 +12664,8 @@
       "category_ru": null,
       "desc_en": "Regional e-commerce platform with Malaysian fulfilment centres, warehouse automation, crossbelt/tilt-tray sortation.",
       "desc_ru": "Региональная e-commerce платформа с малайзийскими фулфилмент-центрами, автоматизацией склада, сортировкой crossbelt/tilt-tray.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/shopee-malaysia.svg"
     },
     {
       "id": "lazada-malaysia",
@@ -12576,7 +12679,8 @@
       "category_ru": null,
       "desc_en": "Alibaba-owned; high-speed fulfilment ecosystem — robotics/automated sortation, micro-fulfilment, Fulfilment by Lazada.",
       "desc_ru": "Принадлежит Alibaba; высокоскоростная фулфилмент-экосистема — робототехника/автоматическая сортировка, микро-фулфилмент, Fulfilment by Lazada.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/lazada-malaysia.svg"
     },
     {
       "id": "malaysian-fintech-cluster",
@@ -13864,7 +13968,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/sf-express.svg"
     },
     {
       "id": "jd-logistics",
@@ -14242,7 +14347,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/anta-sports.svg"
     },
     {
       "id": "jnby",

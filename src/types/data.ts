@@ -48,6 +48,8 @@ export interface Company {
   desc_en: string
   desc_ru: string
   country: CountryCode
+  /** Path under /public to a real brand logo, e.g. "/logos/byd.svg" — only set for companies we have one on file for. */
+  logo?: string
 }
 
 /**
