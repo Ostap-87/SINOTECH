@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && tsc -b && vite build",
+    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -28,6 +28,8 @@
     "@types/three": "^0.185.1",
     "@vitejs/plugin-react": "^6.0.3",
     "oxlint": "^1.71.0",
+    "playwright": "^1.62.1",
+    "serve-handler": "^6.1.7",
     "typescript": "~6.0.2",
     "vite": "^8.1.1"
   }
