@@ -11,7 +11,7 @@
   "tours": [
     {
       "tour_id": "robotics-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "robotics",
       "status": "ready",
@@ -255,7 +255,7 @@
     },
     {
       "tour_id": "china-tech-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "flagship",
       "status": "ready",
@@ -446,7 +446,7 @@
     },
     {
       "tour_id": "china-tea-coffee-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "food",
       "status": "ready",
@@ -637,7 +637,7 @@
     },
     {
       "tour_id": "china-beauty-antiage-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "consumer",
       "status": "ready",
@@ -827,7 +827,7 @@
     },
     {
       "tour_id": "china-auto-plants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "auto",
       "status": "ready",
@@ -1015,7 +1015,7 @@
     },
     {
       "tour_id": "china-appliances-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "electronics",
       "status": "ready",
@@ -1208,7 +1208,7 @@
     },
     {
       "tour_id": "shenzhen-moscow-industrial-mission-2026",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "government",
       "status": "ready",
@@ -1453,7 +1453,7 @@
     },
     {
       "tour_id": "china-tech-parks-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "government",
       "status": "ready",
@@ -1707,7 +1707,7 @@
     },
     {
       "tour_id": "china-retail-showrooms-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "internet",
       "status": "ready",
@@ -1968,7 +1968,7 @@
     },
     {
       "tour_id": "china-ticketing-travel-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "internet",
       "status": "ready",
@@ -2208,7 +2208,7 @@
     },
     {
       "tour_id": "korea-industry-manufacturing-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "kr",
       "sector": "heavy",
       "status": "ready",
@@ -2409,7 +2409,7 @@
     },
     {
       "tour_id": "korea-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "kr",
       "sector": "internet",
       "status": "ready",
@@ -2597,7 +2597,7 @@
     },
     {
       "tour_id": "korea-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "kr",
       "sector": "consumer",
       "status": "ready",
@@ -2787,7 +2787,7 @@
     },
     {
       "tour_id": "korea-foodtech-smart-farming-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "kr",
       "sector": "food",
       "status": "ready",
@@ -2991,7 +2991,7 @@
     },
     {
       "tour_id": "japan-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "consumer",
       "status": "ready",
@@ -3168,7 +3168,7 @@
     },
     {
       "tour_id": "japan-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "food",
       "status": "ready",
@@ -3346,7 +3346,7 @@
     },
     {
       "tour_id": "japan-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "internet",
       "status": "ready",
@@ -3521,7 +3521,7 @@
     },
     {
       "tour_id": "japan-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "internet",
       "status": "ready",
@@ -3698,7 +3698,7 @@
     },
     {
       "tour_id": "japan-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "consumer",
       "status": "ready",
@@ -3880,7 +3880,7 @@
     },
     {
       "tour_id": "japan-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "medtech",
       "status": "ready",
@@ -4063,7 +4063,7 @@
     },
     {
       "tour_id": "japan-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "jp",
       "sector": "food",
       "status": "ready",
@@ -4245,7 +4245,7 @@
     },
     {
       "tour_id": "thailand-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "consumer",
       "status": "ready",
@@ -4419,7 +4419,7 @@
     },
     {
       "tour_id": "thailand-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "food",
       "status": "ready",
@@ -4594,7 +4594,7 @@
     },
     {
       "tour_id": "thailand-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "internet",
       "status": "ready",
@@ -4768,7 +4768,7 @@
     },
     {
       "tour_id": "thailand-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "internet",
       "status": "ready",
@@ -4941,7 +4941,7 @@
     },
     {
       "tour_id": "thailand-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "consumer",
       "status": "ready",
@@ -5114,7 +5114,7 @@
     },
     {
       "tour_id": "thailand-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "medtech",
       "status": "ready",
@@ -5289,7 +5289,7 @@
     },
     {
       "tour_id": "thailand-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "th",
       "sector": "food",
       "status": "ready",
@@ -5463,7 +5463,7 @@
     },
     {
       "tour_id": "vietnam-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "consumer",
       "status": "ready",
@@ -5638,7 +5638,7 @@
     },
     {
       "tour_id": "vietnam-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "food",
       "status": "ready",
@@ -5816,7 +5816,7 @@
     },
     {
       "tour_id": "vietnam-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "internet",
       "status": "ready",
@@ -5989,7 +5989,7 @@
     },
     {
       "tour_id": "vietnam-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "internet",
       "status": "ready",
@@ -6166,7 +6166,7 @@
     },
     {
       "tour_id": "vietnam-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "consumer",
       "status": "ready",
@@ -6342,7 +6342,7 @@
     },
     {
       "tour_id": "vietnam-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "medtech",
       "status": "ready",
@@ -6515,7 +6515,7 @@
     },
     {
       "tour_id": "vietnam-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "vn",
       "sector": "food",
       "status": "ready",
@@ -6695,7 +6695,7 @@
     },
     {
       "tour_id": "indonesia-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "consumer",
       "status": "ready",
@@ -6868,7 +6868,7 @@
     },
     {
       "tour_id": "indonesia-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "food",
       "status": "ready",
@@ -7051,7 +7051,7 @@
     },
     {
       "tour_id": "indonesia-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "internet",
       "status": "ready",
@@ -7225,7 +7225,7 @@
     },
     {
       "tour_id": "indonesia-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "internet",
       "status": "ready",
@@ -7399,7 +7399,7 @@
     },
     {
       "tour_id": "indonesia-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "consumer",
       "status": "ready",
@@ -7580,7 +7580,7 @@
     },
     {
       "tour_id": "indonesia-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "medtech",
       "status": "ready",
@@ -7755,7 +7755,7 @@
     },
     {
       "tour_id": "indonesia-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "id",
       "sector": "food",
       "status": "ready",
@@ -7929,7 +7929,7 @@
     },
     {
       "tour_id": "india-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "consumer",
       "status": "ready",
@@ -8110,7 +8110,7 @@
     },
     {
       "tour_id": "india-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "food",
       "status": "ready",
@@ -8292,7 +8292,7 @@
     },
     {
       "tour_id": "india-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "internet",
       "status": "ready",
@@ -8474,7 +8474,7 @@
     },
     {
       "tour_id": "india-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "internet",
       "status": "ready",
@@ -8651,7 +8651,7 @@
     },
     {
       "tour_id": "india-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "consumer",
       "status": "ready",
@@ -8829,7 +8829,7 @@
     },
     {
       "tour_id": "india-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "medtech",
       "status": "ready",
@@ -9012,7 +9012,7 @@
     },
     {
       "tour_id": "india-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "in",
       "sector": "food",
       "status": "ready",
@@ -9190,7 +9190,7 @@
     },
     {
       "tour_id": "malaysia-retail-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "consumer",
       "status": "ready",
@@ -9363,7 +9363,7 @@
     },
     {
       "tour_id": "malaysia-food-dairy-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "food",
       "status": "ready",
@@ -9540,7 +9540,7 @@
     },
     {
       "tour_id": "malaysia-dark-kitchen-delivery-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "internet",
       "status": "ready",
@@ -9712,7 +9712,7 @@
     },
     {
       "tour_id": "malaysia-tech-internet-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "ai",
       "status": "ready",
@@ -9889,7 +9889,7 @@
     },
     {
       "tour_id": "malaysia-beauty-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "consumer",
       "status": "ready",
@@ -10065,7 +10065,7 @@
     },
     {
       "tour_id": "malaysia-longevity-biotech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "medtech",
       "status": "ready",
@@ -10237,7 +10237,7 @@
     },
     {
       "tour_id": "malaysia-bubble-tea-coffee-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "my",
       "sector": "food",
       "status": "ready",
@@ -10410,7 +10410,7 @@
     },
     {
       "tour_id": "uae-fintech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "finance",
       "status": "ready",
@@ -10587,7 +10587,7 @@
     },
     {
       "tour_id": "uae-ai-tech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "ai",
       "status": "ready",
@@ -10764,7 +10764,7 @@
     },
     {
       "tour_id": "uae-logistics-ports-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "logistics",
       "status": "ready",
@@ -10937,7 +10937,7 @@
     },
     {
       "tour_id": "uae-aviation-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "aerospace",
       "status": "ready",
@@ -11114,7 +11114,7 @@
     },
     {
       "tour_id": "uae-realestate-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "realestate",
       "status": "ready",
@@ -11289,7 +11289,7 @@
     },
     {
       "tour_id": "uae-energy-green-tech-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "energy",
       "status": "ready",
@@ -11464,7 +11464,7 @@
     },
     {
       "tour_id": "uae-retail-ecommerce-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "ae",
       "sector": "consumer",
       "status": "ready",
@@ -11637,7 +11637,7 @@
     },
     {
       "tour_id": "china-logistics-top10-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "logistics",
       "status": "ready",
@@ -11828,7 +11828,7 @@
     },
     {
       "tour_id": "china-petrochemicals-guangdong-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "heavy",
       "status": "ready",
@@ -12007,7 +12007,7 @@
     },
     {
       "tour_id": "china-waste-management-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "heavy",
       "status": "ready",
@@ -12189,7 +12189,7 @@
     },
     {
       "tour_id": "china-film-industry-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "internet",
       "status": "ready",
@@ -12368,7 +12368,7 @@
     },
     {
       "tour_id": "china-global-brands-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "consumer",
       "status": "ready",
@@ -12554,7 +12554,7 @@
     },
     {
       "tour_id": "china-fintech-giants-expedition",
-      "brand": "Global Tech Tour · by Aura Robotics",
+      "brand": "Global Tech Tour",
       "country": "cn",
       "sector": "finance",
       "status": "ready",

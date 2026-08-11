@@ -41,7 +41,7 @@ const LABELS = {
     contactPhone: 'Телефон',
     contactEmail: 'Email',
     contactTelegram: 'Telegram',
-    footer: 'Global Tech Tour · by Aura Robotics — inquiry@aura-robotics.ru',
+    footer: 'Global Tech Tour — info@globaltechtour.ru',
     day: 'День',
   },
   en: {
@@ -58,7 +58,7 @@ const LABELS = {
     contactPhone: 'Phone',
     contactEmail: 'Email',
     contactTelegram: 'Telegram',
-    footer: 'Global Tech Tour · by Aura Robotics — inquiry@aura-robotics.ru',
+    footer: 'Global Tech Tour — info@globaltechtour.ru',
     day: 'Day',
   },
 }
