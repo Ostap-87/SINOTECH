@@ -17,15 +17,16 @@ export function CompanyMark({ company, size = 48 }: { company: Company; size?: n
   const [logoFailed, setLogoFailed] = useState(false)
 
   if (company.logo && !logoFailed) {
+    const pad = Math.round(size * 0.15)
     return (
       <div
-        className="flex shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white p-[15%]"
-        style={{ width: size, height: size }}
+        className="flex shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white"
+        style={{ width: size, height: size, padding: pad }}
       >
         <img
           src={company.logo}
           alt=""
-          className="h-full w-full object-contain"
+          className="max-h-full max-w-full object-contain"
           onError={() => setLogoFailed(true)}
         />
       </div>
