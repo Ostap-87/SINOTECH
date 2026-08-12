@@ -2658,7 +2658,8 @@
       "category_ru": null,
       "desc_en": "A coffee chain founded in 2015 in Shanghai as a small roadside stall, known for its flat whites and compact stores priced 30-40% below Western chains like Starbucks. By late 2023 it had grown to over 1,000 company-operated stores across dozens of Chinese cities while remaining profitable.",
       "desc_ru": "Сеть кофеен, основанная в 2015 году в Шанхае как небольшая уличная точка; известна флэт-уайт и компактными кофейнями по ценам на 30-40% ниже западных сетей вроде Starbucks. К концу 2023 года выросла до более 1000 собственных точек в десятках городов Китая, оставаясь при этом прибыльной.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/manner-coffee.png"
     },
     {
       "id": "m-stand",
@@ -2672,7 +2673,8 @@
       "category_ru": null,
       "desc_en": "A boutique coffee chain founded in Shanghai in 2017 by Ge Dong, operating via a mix of company-owned and franchised stores with over 500 locations across roughly 40 Chinese cities. It follows a \"one store, one design\" concept, giving each location a distinct aesthetic, and sells branded lifestyle merchandise (cups, bags, apparel) through its WeChat mini-program. In 2025 it opened its first overseas store in Kyoto, Japan, and launched the \"Maison by M Stand\" concept store in Shanghai featuring burgers and alcoholic drinks.",
       "desc_ru": "Сеть бутик-кофеен, основанная в Шанхае в 2017 году Ге Дуном; работает по модели собственных и франчайзинговых точек и насчитывает свыше 500 кофеен примерно в 40 городах Китая. Использует концепцию \"один магазин — один дизайн\" с уникальным дизайнерским подходом к каждой точке, а также продаёт брендированные товары (посуда, сумки, одежда) через мини-программу в WeChat. В 2025 году открыла первую зарубежную кофейню в Киото (Япония) и запустила концептуальный формат \"Maison by M Stand\" в Шанхае с бургерами и алкогольными напитками.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/m-stand.png"
     },
     {
       "id": "coco-tea",
@@ -2686,7 +2688,8 @@
       "category_ru": null,
       "desc_en": "Taiwanese hand-shaken tea (bubble tea) franchise chain, founded in 1997 by Tommy Hung in Tamsui; entered the mainland Chinese market in 2007, with its China headquarters based in Shanghai. The chain operates over 5,000 locations worldwide across China, South Korea, the US, Europe and other markets.",
       "desc_ru": "Тайваньская сеть чайных напитков (bubble tea/hand-shaken tea), основана в 1997 году Тommy Hung в Тамсуй; вышла на материковый рынок Китая в 2007 году, штаб-квартира по Китаю — в Шанхае. Сеть насчитывает свыше 5000 точек по всему миру, включая Китай, Южную Корею, США, Европу и другие страны.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/coco-tea.png"
     },
     {
       "id": "alittle-tea",
@@ -3124,7 +3127,8 @@
       "category_ru": null,
       "desc_en": "DJI (Da-Jiang Innovations) is a Chinese manufacturer of consumer and commercial drones, founded in 2006 by Frank Wang in Shenzhen; it holds the largest share of the global consumer quadcopter market. The company produces the Phantom, Mavic and Mini drone lines, along with camera gimbal stabilizers (Ronin) and systems for agriculture and industrial inspection.",
       "desc_ru": "DJI (Da-Jiang Innovations) — китайский производитель гражданских и коммерческих дронов, основанный в 2006 году Фрэнком Ваном в Шэньчжэне; занимает крупнейшую долю мирового рынка потребительских квадрокоптеров. Компания выпускает линейки Phantom, Mavic и Mini, а также стабилизаторы для камер (Ronin) и системы для сельского хозяйства и промышленных инспекций.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dji.svg"
     },
     {
       "id": "sunwoda",
@@ -3180,7 +3184,8 @@
       "category_ru": null,
       "desc_en": "Lifestyle retail (Japan).",
       "desc_ru": "Лайфстайл-ритейл (Япония).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/muji.svg"
     },
     {
       "id": "webank",
@@ -4350,7 +4355,8 @@
       "category_ru": "Нейроинтерфейсы / компоненты",
       "desc_en": "Non-invasive neuro-interfaces & bionic prosthetics; human-robot interface.",
       "desc_ru": "Неинвазивные нейроинтерфейсы и бионические протезы; интерфейс человек-робот.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/brainco.png"
     },
     {
       "id": "unitree",
@@ -4364,7 +4370,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2016, the company designs and manufactures quadruped robot dogs and humanoid robots (notably the G1 and H1 models), becoming the world's top-selling humanoid robot maker in 2025. It is pursuing an IPO on Shanghai's STAR Market to raise roughly CNY 4.2 billion, with 2025 revenue up 335% to CNY 1.71 billion, over half from humanoid robots.",
       "desc_ru": "Основана в 2016 году, компания разрабатывает и производит четвероногих роботов-собак и гуманоидных роботов (модели G1, H1); в 2025 году стала мировым лидером по продажам гуманоидных роботов. Готовится к IPO на бирже STAR Market в Шанхае с привлечением около 4,2 млрд юаней; выручка в 2025 году выросла на 335% до 1,71 млрд юаней, более половины которой обеспечили гуманоидные роботы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/unitree.png"
     },
     {
       "id": "shenhao",
@@ -5039,7 +5046,8 @@
       "category_ru": null,
       "desc_en": "State-owned automaker.",
       "desc_ru": "Государственный автопроизводитель.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/changan.svg"
     },
     {
       "id": "jiang-xiaobai",
@@ -5558,7 +5566,8 @@
       "category_ru": null,
       "desc_en": "State-owned automaker.",
       "desc_ru": "Государственный автопроизводитель.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dongfeng-motor.svg"
     },
     {
       "id": "zhou-hei-ya",
@@ -5743,7 +5752,8 @@
       "category_ru": null,
       "desc_en": "Historic beer brewer.",
       "desc_ru": "Исторический пивной бренд.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/tsingtao-beer.svg"
     },
     {
       "id": "port-of-qingdao",
@@ -5911,7 +5921,8 @@
       "category_ru": null,
       "desc_en": "Robotics & Autonomous Systems · Shenyang.",
       "desc_ru": "Робототехника и беспилотные системы, Шэньян.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/siasun.png"
     },
     {
       "id": "bmw-brilliance",
@@ -5954,7 +5965,8 @@
       "category_ru": null,
       "desc_en": "China's oldest automaker (First Auto Works).",
       "desc_ru": "Старейший автопроизводитель КНР (First Auto Works).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/faw.svg"
     },
     {
       "id": "daqing-oilfield",
@@ -6052,7 +6064,8 @@
       "category_ru": null,
       "desc_en": "World's largest EV-battery maker.",
       "desc_ru": "Крупнейший в мире производитель EV-батарей.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/catl.svg"
     },
     {
       "id": "xiamen-tungsten",
@@ -6500,7 +6513,8 @@
       "category_ru": "AGV / контроллеры",
       "desc_en": "Shanghai-based developer of mobile robots and AMR controllers (SRC series) for warehouse and industrial logistics; the controllers pair with its Roboshop Pro software for mapping, positioning, and navigation. Founded by a RoboCup world champion team, the company supplies components and solutions to industrial-automation integrators and supports mixed-fleet management across AGVs, AMRs, and automated forklifts.",
       "desc_ru": "Шанхайская компания-разработчик мобильных роботов и AMR-контроллеров (SRC-серия) для складской и промышленной логистики; контроллеры интегрируются с ПО Roboshop Pro для картографирования, позиционирования и навигации. Компания основана командой-победителем чемпионата мира RoboCup и работает как поставщик компонентов и решений для интеграторов промышленной автоматизации, поддерживая управление смешанным парком роботов (AGV, AMR, автопогрузчики).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/seer-robotics.png"
     },
     {
       "id": "senad",
@@ -7561,7 +7575,8 @@
       "category_ru": null,
       "desc_en": "Korea's largest e-commerce and logistics platform, the country's answer to Amazon/JD.com. Headquarters and logistics hub in Songpa, Seoul; visits arranged by official request.",
       "desc_ru": "Крупнейшая e-commerce и логистическая платформа Кореи, аналог Amazon/JD.com в стране. Штаб-квартира и логистический хаб — в Сонпха, Сеул; визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/coupang.svg"
     },
     {
       "id": "woowa-brothers-baemin",
@@ -8027,7 +8042,8 @@
       "category_ru": null,
       "desc_en": "Flagship store visit and a look at the chain's digital logistics.",
       "desc_ru": "Флагманский магазин, цифровая логистика сети.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/muji.svg"
     },
     {
       "id": "don-quijote-ppih",
@@ -8285,7 +8301,8 @@
       "category_ru": null,
       "desc_en": "'Servi' service robots for restaurants.",
       "desc_ru": "Сервисные роботы Servi для ресторанов.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/softbank-robotics.png"
     },
     {
       "id": "zmp",
@@ -8964,7 +8981,8 @@
       "category_ru": null,
       "desc_en": "Hypermarket digitalization.",
       "desc_ru": "Цифровизация гипермаркетов.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/big-c-bjc.svg"
     },
     {
       "id": "homepro",
@@ -10690,7 +10708,8 @@
       "category_ru": null,
       "desc_en": "Indomie (automated noodle production) and the Indolakto dairy division.",
       "desc_ru": "Indomie (автоматизация лапши) и молочное направление Indolakto.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/indofood.svg"
     },
     {
       "id": "frisian-flag-indonesia",
@@ -11450,7 +11469,8 @@
       "category_ru": null,
       "desc_en": "Retail stores; also India's largest beauty marketplace with AI recommendations.",
       "desc_ru": "Розничные магазины; также крупнейший бьюти-маркетплейс с AI-рекомендациями.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/nykaa.svg"
     },
     {
       "id": "flipkart-walmart",
@@ -13842,7 +13862,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/noon.svg"
     },
     {
       "id": "apple-me",
