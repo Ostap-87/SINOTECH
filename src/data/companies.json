@@ -6787,15 +6787,15 @@
     {
       "id": "pndbotics",
       "name_en": "PNDbotics",
-      "name_zh": "松延动力",
+      "name_zh": "柏奥尼克机器人",
       "sector": "robotics",
-      "city": "beijing",
+      "city": "ningbo",
       "status": "plan",
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "Adam, N2, Bumblebee; open architecture.",
-      "desc_ru": "Adam, N2, Bumblebee; открытая архитектура.",
+      "desc_en": "Adam full-size humanoid (167cm, 60-62kg, up to 41 DOF); open architecture for research use.",
+      "desc_ru": "Полноразмерный гуманоид Adam (167 см, 60-62 кг, до 41 степени свободы); открытая архитектура для исследовательских задач.",
       "country": "cn",
       "logo": "/logos/pndbotics.png"
     },
@@ -14525,6 +14525,21 @@
       "category_en": null,
       "category_ru": null,
       "country": "cn"
+    },
+    {
+      "id": "noetix",
+      "name_en": "Noetix Robotics",
+      "name_zh": "松延动力",
+      "sector": "robotics",
+      "city": "beijing",
+      "status": "plan",
+      "own_supplier": true,
+      "category_en": "Humanoids",
+      "category_ru": "Гуманоиды",
+      "desc_en": "N2 (2,500+ orders, world's first robot half-marathon) and Bumi, a sub-¥10,000 compact humanoid for education and entertainment.",
+      "desc_ru": "N2 (свыше 2500 заказов, участник первого в мире полумарафона роботов) и Bumi — компактный гуманоид дешевле 10 000 юаней для образования и развлечений.",
+      "country": "cn",
+      "logo": "/logos/noetix.png"
     }
   ]
 }
