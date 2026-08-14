@@ -94,6 +94,12 @@ def publish_item(bot_token, chat_id, text, media_url=None, media_kind=None):
     out first with no caption, followed by the full text as its own message
     (Telegram keeps consecutive messages from the same bot/channel grouped
     in the client, so this still reads as one post).
+
+    If the media send fails (e.g. a stale/unreachable image URL — this has
+    happened when a cover-image generation request never got fulfilled), the
+    whole post used to be silently dropped even though the text itself was
+    perfectly sendable. Falls back to a text-only send in that case instead,
+    so a broken image never costs the post itself.
     """
     if not media_url:
         return send_telegram(bot_token, chat_id, text)
@@ -101,7 +107,13 @@ def publish_item(bot_token, chat_id, text, media_url=None, media_kind=None):
     send_media = send_telegram_video if media_kind == "video" else send_telegram_photo
     caption = text if text and len(text) <= TELEGRAM_CAPTION_LIMIT else None
     ok, detail = send_media(bot_token, chat_id, media_url, caption)
-    if ok and text and caption is None:
+    if not ok:
+        # media failed outright — still try to get the text out
+        text_ok, text_detail = send_telegram(bot_token, chat_id, text)
+        if text_ok:
+            return True, f"media failed ({detail}), sent text-only"
+        return False, f"media failed ({detail}); text-only fallback also failed ({text_detail})"
+    if text and caption is None:
         ok2, detail2 = send_telegram(bot_token, chat_id, text)
         return ok2, detail2
     return ok, detail
