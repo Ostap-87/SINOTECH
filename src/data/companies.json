@@ -6331,7 +6331,8 @@
       "category_ru": "Пром / сварка / коботы",
       "desc_en": "Industrial, welding, SCARA & delta robots, 3–800 kg; explosion-proof; exports to 100+ countries.",
       "desc_ru": "Пром/сварка/SCARA/дельта, 3–800 кг; взрывозащита; экспорт 100+ стран.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/evst.png"
     },
     {
       "id": "huayan-robotics",
@@ -6345,7 +6346,8 @@
       "category_ru": "Коботы / роборуки",
       "desc_en": "Elfin/Echo cobots; listed HK 1021.HK; partner of Huawei Cloud & Keyence.",
       "desc_ru": "Коботы Elfin/Echo; публичная HK 1021.HK; партнёр Huawei Cloud, Keyence.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/huayan-robotics.png"
     },
     {
       "id": "estun",
@@ -6359,7 +6361,8 @@
       "category_ru": "Пром / сварка / коботы",
       "desc_en": "China's largest industrial-robot maker; in-house servo & CNC; 3–700 kg.",
       "desc_ru": "Крупнейший производитель промроботов КНР; свои сервоприводы/ЧПУ; 3–700 кг.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/estun.svg"
     },
     {
       "id": "efort",
@@ -6373,7 +6376,8 @@
       "category_ru": "Пром / окраска / сварка",
       "desc_en": "ER series, painting & welding cells; owns European integrator assets.",
       "desc_ru": "Серия ER, окраска и сварочные ячейки; европейские интеграторские активы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/efort.png"
     },
     {
       "id": "step",
@@ -6387,7 +6391,8 @@
       "category_ru": "Пром / сварка",
       "desc_en": "SR/SD series; proprietary controllers & servo systems.",
       "desc_ru": "Серии SR/SD; свои контроллеры и сервосистемы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/step.png"
     },
     {
       "id": "jaka",
@@ -6401,7 +6406,8 @@
       "category_ru": "Коботы",
       "desc_en": "Zu 3–18, MiniCobo, C5 cobots; 3–30 kg; fenceless operation.",
       "desc_ru": "Коботы Zu 3–18, MiniCobo, C5; 3–30 кг; без ограждений.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/jaka.png"
     },
     {
       "id": "dobot",
@@ -6415,7 +6421,8 @@
       "category_ru": "Коботы / настольные / образование",
       "desc_en": "CR/Nova, MG400, Magician; from classroom units to 20 kg cobots.",
       "desc_ru": "CR/Nova, MG400, Magician; от учебных до 20 кг.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dobot.png"
     },
     {
       "id": "borunte",
@@ -6429,7 +6436,8 @@
       "category_ru": "Пром / паллетирование",
       "desc_en": "Palletizing, stamping, welding; direct distribution, 18 years.",
       "desc_ru": "Паллетирование, штамповка, сварка; прямое дистрибьюторство, 18 лет.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/borunte.png"
     },
     {
       "id": "kunrobot",
@@ -6443,7 +6451,8 @@
       "category_ru": "Специальные / инспекция",
       "desc_en": "Magnetic wall-climbing robots for tanks, ships, steel structures.",
       "desc_ru": "Магнитные роботы-верхолазы: резервуары, суда, металлоконструкции.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/kunrobot.png"
     },
     {
       "id": "linkerbot",
@@ -6457,7 +6466,8 @@
       "category_ru": "Роборуки / компоненты",
       "desc_en": "Linker Hand anthropomorphic hands with tactile sensors.",
       "desc_ru": "Антропоморфные кисти Linker Hand с тактильными сенсорами.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/linkerbot.png"
     },
     {
       "id": "bright-dream-robotics",
@@ -6471,7 +6481,8 @@
       "category_ru": "Строительные",
       "desc_en": "Country Garden subsidiary; flooring, plastering, masonry, BIM.",
       "desc_ru": "Дочка Country Garden; полы, штукатурка, кладка, BIM.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/bright-dream-robotics.png"
     },
     {
       "id": "fangshi-robotics",
@@ -6485,7 +6496,8 @@
       "category_ru": "Строительные",
       "desc_en": "Partners CSCEC/CRCC; 500+ sites; exports to 10+ countries.",
       "desc_ru": "Партнёры CSCEC/CRCC; 500+ объектов; экспорт 10+ стран.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/fangshi-robotics.png"
     },
     {
       "id": "geek",
@@ -6499,7 +6511,8 @@
       "category_ru": "Складские AMR",
       "desc_en": "World leader in deployed warehouse robots; WMS integration.",
       "desc_ru": "Мировой лидер по внедрённым складским роботам; интеграция с WMS.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/geek.png"
     },
     {
       "id": "seer-robotics",
@@ -6528,7 +6541,8 @@
       "category_ru": "Сортировка / DWS",
       "desc_en": "Sorting, DWS, 3D cameras, container unloading; DHL & JD clients.",
       "desc_ru": "Сортировка, DWS, 3D-камеры, разгрузка контейнеров; клиенты DHL, JD.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/senad.png"
     },
     {
       "id": "pudu-robotics",
@@ -6542,7 +6556,8 @@
       "category_ru": "Сервисные / доставка",
       "desc_en": "Founded in 2016 in Shenzhen; designs and manufactures commercial service robots, including BellaBot and KettyBot for restaurants/hotels, FlashBot for building delivery with autonomous elevator use, plus cleaning (CC1) and disinfection (Puductor 2) robots. Deployed in over 60 countries, with BellaBot present in more restaurants than any other robot brand; raised roughly $155M across Series C1/C2 funding (2021).",
       "desc_ru": "Основана в 2016 году в Шэньчжэне; разрабатывает и производит коммерческих сервисных роботов — BellaBot и KettyBot для ресторанов и отелей, FlashBot для доставки по зданиям с автономным использованием лифтов, а также роботы-уборщики (CC1) и дезинфекции (Puductor 2). Поставки в более чем 60 стран; BellaBot представлена в большем числе ресторанов, чем любой другой роботизированный бренд. Привлекла около $155 млн в раундах Series C1/C2 (2021).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/pudu-robotics.svg"
     },
     {
       "id": "orion-star",
@@ -6556,7 +6571,8 @@
       "category_ru": "Сервисные / промоутеры",
       "desc_en": "Leopard series + coffee robot; strong voice/dialogue.",
       "desc_ru": "Серия Leopard + кофе-робот; сильная голосовая часть.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/orion-star.png"
     },
     {
       "id": "matrix-robotics",
@@ -6570,7 +6586,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "MATRIX-1/3; founder ex-Tesla Optimus design; 10k units/yr plant.",
       "desc_ru": "MATRIX-1/3; основатель — экс-дизайн Tesla Optimus; завод 10 000 ед./год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/matrix-robotics.png"
     },
     {
       "id": "droidup",
@@ -6584,7 +6601,8 @@
       "category_ru": "Гуманоиды / мобильные",
       "desc_en": "Shanghai-based company (founded 2021) developing fully biomimetic humanoid robots using tendon-driven actuation; makes the lightweight ~30 kg Xingzhe biped and the Moya humanoid, notable for a realistic expressive face and body temperature maintained at 32–36°C. A DroidUp biped placed third in the world's first humanoid robot half-marathon (2025); target markets include healthcare, education, and commercial services.",
       "desc_ru": "Шанхайская компания (основана в 2021 г.), разрабатывающая полностью биомиметических человекоподобных роботов на основе тросово-сухожильного привода; выпускает лёгкие двуногие роботы Xingzhe (~30 кг) и антропоморфного робота Moya с реалистичной мимикой лица и температурой \"тела\" 32–36°C. Робот компании занял 3-е место на первом в мире полумарафоне человекоподобных роботов (2025); целевые рынки — здравоохранение, образование и коммерческий сервис.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/droidup.png"
     },
     {
       "id": "robotera",
@@ -6598,7 +6616,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Beijing-based humanoid robotics company; flagship L7 (171 cm, 55 DOF, up to 20 kg payload) is its second full-size bipedal robot after STAR1. It also makes the XHAND1 dexterous hand (12 active DOF), adopted by Skild AI, UC Berkeley, MIT, and ByteDance Seed, and the wheeled service robot Q5.",
       "desc_ru": "Робототехническая компания из Пекина, разработчик человекоподобных роботов; флагманская модель L7 (171 см, 55 степеней свободы, до 20 кг полезной нагрузки) — второй полноразмерный двуногий робот компании после STAR1. Также выпускает кистевой манипулятор XHAND1 (12 приводных степеней свободы), который используют Skild AI, UC Berkeley, MIT и ByteDance Seed, и колёсного сервисного робота Q5.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/robotera.png"
     },
     {
       "id": "ubtech",
@@ -6642,7 +6661,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Z-series (bipedal) & H-series (wheeled); mass-market focus.",
       "desc_ru": "Серии Z (двуногие) и H (колёсные); ставка на массовость.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/zerith.png"
     },
     {
       "id": "dax-robotics",
@@ -6656,7 +6676,8 @@
       "category_ru": "Гуманоиды / мобильные",
       "desc_en": "X7 Pro/EDU, Puppy; sorting, retail.",
       "desc_ru": "X7 Pro/EDU, Puppy; сортировка, розница.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dax-robotics.png"
     },
     {
       "id": "qio-robotics",
@@ -6670,7 +6691,8 @@
       "category_ru": "Колёсные гуманоиды",
       "desc_en": "O1; embodied-AI brain; team from Tsinghua/Huawei/Microsoft.",
       "desc_ru": "O1; «мозг» воплощённого ИИ; команда Цинхуа/Huawei/Microsoft.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/qio-robotics.png"
     },
     {
       "id": "robbyant",
@@ -6684,7 +6706,8 @@
       "category_ru": "Гуманоиды / сервисные",
       "desc_en": "R2/LingBot; Ant Group unit; universal robot brain, licensing.",
       "desc_ru": "R2/LingBot; подразделение Ant Group; универсальный «мозг», лицензии.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/robbyant.png"
     },
     {
       "id": "kepler",
@@ -6713,7 +6736,8 @@
       "category_ru": "Гуманоиды / образование",
       "desc_en": "Leju (Shenzhen) Robotics is a humanoid robotics company founded in 2016 in Shenzhen, with branches in Harbin and Hangzhou; it makes the Kuavo line of full-size humanoid robots for service and embodied-AI applications, plus Aelos educational robots and Pando miniature humanoids. It develops its own torque servos and bipedal gait algorithms; Kuavo runs on KaihongOS (based on Huawei's HarmonyOS) and took part in the February 2025 Olympic torch relay, performing gestures in -20°C conditions.",
       "desc_ru": "Leju (Shenzhen) Robotics — компания-разработчик человекоподобных роботов, основана в 2016 году в Шэньчжэне, с филиалами в Харбине и Ханчжоу; выпускает линейки Kuavo (полноразмерные гуманоидные роботы для сферы услуг и embodied AI), Aelos (образовательные роботы) и Pando (миниатюрные гуманоиды). Сама разрабатывает моментные сервоприводы и алгоритмы двуногой ходьбы; робот Kuavo работает на KaihongOS (на базе HarmonyOS) и участвовал в эстафете олимпийского огня в феврале 2025 года, демонстрируя устойчивость при -20°C.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/leju-robotics.png"
     },
     {
       "id": "limx-dynamics",
@@ -6727,7 +6751,8 @@
       "category_ru": "Гуманоиды / робособаки",
       "desc_en": "Maker of humanoid and other legged robots (CL-1, TRON1, Oli, Luna) built on dynamic-balance control and a modular robotics platform; founded in 2022 in Shenzhen. In July 2026 it raised a $200M pre-IPO round at roughly a $2.2B valuation and is delivering commercial/entertainment robots including a deployment in South Korea and a planned multi-year shipment program to the Middle East.",
       "desc_ru": "Разработчик человекоподобных и других шагающих роботов (модели CL-1, TRON1, Oli, Luna) на базе технологий динамического равновесия и модульных платформ; основана в 2022 году в Шэньчжэне. В июле 2026 года привлекла раунд pre-IPO на $200 млн при оценке около $2,2 млрд, поставляет роботов для сервисных и развлекательных задач, включая контракты в Южной Корее и планы поставок на Ближний Восток.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/limx-dynamics.png"
     },
     {
       "id": "engineai",
@@ -6756,7 +6781,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Tiangong; national innovation center, open platform.",
       "desc_ru": "Tiangong; национальный инновационный центр, открытая платформа.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/x-humanoid.png"
     },
     {
       "id": "pndbotics",
@@ -6770,7 +6796,8 @@
       "category_ru": "Гуманоиды",
       "desc_en": "Adam, N2, Bumblebee; open architecture.",
       "desc_ru": "Adam, N2, Bumblebee; открытая архитектура.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/pndbotics.png"
     },
     {
       "id": "galbot",
@@ -6799,7 +6826,8 @@
       "category_ru": "Образовательные наборы",
       "desc_en": "AI Module/Mini/Ultimate kits, preschool to high school.",
       "desc_ru": "Наборы AI Module/Mini/Ultimate, от дошкольного до старших классов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/whalesbot.png"
     },
     {
       "id": "moonshot-ai-kimi",
@@ -6813,7 +6841,8 @@
       "category_ru": "LLM / ИИ",
       "desc_en": "Kimi LLM; the \"brain\" for service & humanoid robots.",
       "desc_ru": "LLM Kimi; «мозг» для сервисных и человекоподобных роботов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/moonshot-ai-kimi.png"
     },
     {
       "id": "classy-kiss",
