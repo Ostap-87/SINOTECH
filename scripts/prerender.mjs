@@ -28,8 +28,18 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
 const distDir = join(root, 'dist')
 const PORT = 4173
-const CONCURRENCY = 5
-const PAGE_TIMEOUT_MS = 60000
+// This runs on a ~1GB RAM VPS shared with several other long-running
+// services (two other Node deploy webhooks, a Next.js server, a poller).
+// Higher concurrency was found to push the box into heavy swapping, which
+// doesn't fail routes outright but makes each one crawl — a handful of
+// timed-out routes at concurrency 10 turned into a serial retry queue that
+// took over an hour under swap thrashing. Low concurrency + a hard time
+// budget on the retry pass keeps total deploy time bounded even when the
+// box is under memory pressure.
+const CONCURRENCY = 2
+const PAGE_TIMEOUT_MS = 45000
+const RETRY_PAGE_TIMEOUT_MS = 20000
+const RETRY_BUDGET_MS = 8 * 60 * 1000
 
 const companies = JSON.parse(readFileSync(join(root, 'src/data/companies.json'), 'utf8'))
 const tours = JSON.parse(readFileSync(join(root, 'src/data/tours.json'), 'utf8'))
@@ -53,10 +63,10 @@ function outputPathFor(routePath) {
   return join(distDir, routePath.replace(/^\//, ''), 'index.html')
 }
 
-async function renderRoute(browserContext, routePath) {
+async function renderRoute(browserContext, routePath, timeout = PAGE_TIMEOUT_MS) {
   const page = await browserContext.newPage()
   try {
-    await page.goto(`http://127.0.0.1:${PORT}${routePath}`, { waitUntil: 'networkidle', timeout: PAGE_TIMEOUT_MS })
+    await page.goto(`http://127.0.0.1:${PORT}${routePath}`, { waitUntil: 'networkidle', timeout })
     // Give React a moment past networkidle for any deferred client-only work
     // (canvas/particle mounts etc.) — cheap relative to the page load itself.
     await page.waitForTimeout(150)
@@ -114,12 +124,21 @@ async function main() {
   // A route can time out simply because it landed while the preview server
   // was busy with the other concurrent requests, not because it's actually
   // broken — retry failures once, serially, once the pool has drained and
-  // contention is gone.
+  // contention is gone. Bounded by a hard time budget: under real memory
+  // pressure even serial retries can crawl, and an unbounded retry queue is
+  // exactly what turned one bad deploy into an hours-long hang.
   let failedRoutes = results.filter((r) => !r.ok).map((r) => r.routePath)
   if (failedRoutes.length) {
-    console.log(`Retrying ${failedRoutes.length} failed routes serially...`)
-    const retryResults = await runPool(failedRoutes, (r) => renderRoute(context, r), 1)
-    for (const r of retryResults) {
+    console.log(`Retrying ${failedRoutes.length} failed routes serially (budget ${RETRY_BUDGET_MS / 1000}s)...`)
+    const retryDeadline = Date.now() + RETRY_BUDGET_MS
+    let retried = 0
+    for (const routePath of failedRoutes) {
+      if (Date.now() >= retryDeadline) {
+        console.log(`Retry budget exhausted after ${retried}/${failedRoutes.length} routes — moving on.`)
+        break
+      }
+      const r = await renderRoute(context, routePath, RETRY_PAGE_TIMEOUT_MS)
+      retried++
       const idx = results.findIndex((x) => x.routePath === r.routePath)
       results[idx] = r
     }
