@@ -237,7 +237,7 @@ export function Constructor() {
       const sector = getSector(company.sector)
       return (
         company.name_en.toLowerCase().includes(q) ||
-        company.name_zh.includes(q) ||
+        (company.name_zh ?? '').includes(q) ||
         (sector?.label_en.toLowerCase().includes(q) ?? false) ||
         (sector?.label_ru.toLowerCase().includes(q) ?? false)
       )

@@ -8,7 +8,7 @@
       "zh"
     ],
     "counts": {
-      "companies": 828,
+      "companies": 937,
       "sectors": 17,
       "cities": 89,
       "own_supplier": 38,
@@ -1351,7 +1351,8 @@
       "category_ru": null,
       "desc_en": "AI and computer-vision firm.",
       "desc_ru": "ИИ и компьютерное зрение.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/SENSETIME.png"
     },
     {
       "id": "netease",
@@ -1437,7 +1438,8 @@
       "category_ru": null,
       "desc_en": "Speech and language AI.",
       "desc_ru": "ИИ распознавания речи и языка.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/IFLYTEK.png"
     },
     {
       "id": "boe",
@@ -1594,7 +1596,8 @@
       "category_ru": null,
       "desc_en": "Parent of TikTok / Douyin.",
       "desc_ru": "Владелец TikTok / Douyin.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/bytedance-seeklogo.png"
     },
     {
       "id": "ke-holdings",
@@ -1651,7 +1654,8 @@
       "category_ru": null,
       "desc_en": "World's largest PC maker.",
       "desc_ru": "Крупнейший в мире производитель ПК.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/lenovo.png"
     },
     {
       "id": "baic-bjev",
@@ -3043,7 +3047,8 @@
       "category_ru": null,
       "desc_en": "Largest electronics contract manufacturer.",
       "desc_ru": "Крупнейший контрактный производитель электроники.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/FOXCONN.png"
     },
     {
       "id": "cgn",
@@ -3099,7 +3104,8 @@
       "category_ru": null,
       "desc_en": "Insurance & finance group.",
       "desc_ru": "Группа страхования и финансов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Ping_An_Logo.svg"
     },
     {
       "id": "csot",
@@ -3284,7 +3290,8 @@
       "category_ru": null,
       "desc_en": "Consumer electronics & displays.",
       "desc_ru": "Бытовая электроника и дисплеи.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/tcl-seeklogo.png"
     },
     {
       "id": "citic-bank",
@@ -4891,7 +4898,8 @@
       "category_ru": null,
       "desc_en": "An international hit in the premium technical down-jacket niche, headquartered in Changshu, Jiangsu province.",
       "desc_ru": "Международный хит в нише качественных технологичных пуховиков, штаб-квартира в Чаншу (пров. Цзянсу).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bosideng.png"
     },
     {
       "id": "shagang",
@@ -6191,7 +6199,8 @@
       "category_ru": null,
       "desc_en": "Dairy-products giant.",
       "desc_ru": "Гигант молочной продукции.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Yili.png"
     },
     {
       "id": "little-sheep",
@@ -14004,7 +14013,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/COSCO.png"
     },
     {
       "id": "sf-express",
@@ -14540,6 +14550,36 @@
       "desc_ru": "N2 (свыше 2500 заказов, участник первого в мире полумарафона роботов) и Bumi — компактный гуманоид дешевле 10 000 юаней для образования и развлечений.",
       "country": "cn",
       "logo": "/logos/noetix.png"
+    },
+    {
+      "id": "longi",
+      "name_en": "LONGi",
+      "name_zh": "隆基绿能",
+      "sector": "energy",
+      "city": "xi-an",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "World's largest monocrystalline silicon solar module and wafer manufacturer, headquartered in Xi'an, a global leader in high-efficiency photovoltaic technology.",
+      "desc_ru": "Крупнейший в мире производитель монокристаллических солнечных панелей и кремниевых пластин, штаб-квартира в Сиане, мировой лидер по высокоэффективным фотоэлектрическим технологиям.",
+      "country": "cn",
+      "logo": "/logos/LONGI.png"
+    },
+    {
+      "id": "envision",
+      "name_en": "Envision Energy",
+      "name_zh": "远景能源",
+      "sector": "energy",
+      "city": "shanghai",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Wind-turbine manufacturer and smart energy technology company headquartered in Shanghai, also known for its Envision AESC battery and energy-storage business.",
+      "desc_ru": "Производитель ветротурбин и технологическая компания в сфере умной энергетики со штаб-квартирой в Шанхае, также известна аккумуляторным и накопительным подразделением Envision AESC.",
+      "country": "cn",
+      "logo": "/logos/ENVISION.png"
     }
   ]
 }

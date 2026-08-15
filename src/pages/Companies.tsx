@@ -47,7 +47,7 @@ export function Companies() {
       const sector = sectorByCode.get(company.sector)
       return (
         company.name_en.toLowerCase().includes(q) ||
-        company.name_zh.includes(q) ||
+        (company.name_zh ?? '').includes(q) ||
         (company.category_ru ?? '').toLowerCase().includes(q) ||
         (company.category_en ?? '').toLowerCase().includes(q) ||
         (sector?.label_en.toLowerCase().includes(q) ?? false) ||
