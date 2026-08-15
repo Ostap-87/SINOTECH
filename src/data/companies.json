@@ -1567,7 +1567,8 @@
       "category_ru": null,
       "desc_en": "Space & defense group.",
       "desc_ru": "Космос и оборона.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/china aerospace.png"
     },
     {
       "id": "tencent",
@@ -1669,7 +1670,8 @@
       "category_ru": null,
       "desc_en": "BAIC's electric-vehicle arm.",
       "desc_ru": "Электромобильное подразделение BAIC.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/baic.png"
     },
     {
       "id": "haidilao",
@@ -2009,7 +2011,8 @@
       "category_ru": null,
       "desc_en": "Telecom equipment (Sweden).",
       "desc_ru": "Телеком-оборудование (Швеция).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ericsson.png"
     },
     {
       "id": "jiuxian",
@@ -2121,7 +2124,8 @@
       "category_ru": null,
       "desc_en": "Autonomous-driving technology firm.",
       "desc_ru": "Разработчик автономного вождения.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Pony AI Logo SVG.svg"
     },
     {
       "id": "calt",
@@ -2178,7 +2182,8 @@
       "category_ru": null,
       "desc_en": "SUV and pickup manufacturer.",
       "desc_ru": "Производитель внедорожников и пикапов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/great-wall-motor.png"
     },
     {
       "id": "airbus-a320",
@@ -2192,7 +2197,8 @@
       "category_ru": null,
       "desc_en": "A320 final-assembly line, Tianjin.",
       "desc_ru": "Линия окончательной сборки A320, Тяньцзинь.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/airbus.png"
     },
     {
       "id": "tasly",
@@ -2276,7 +2282,8 @@
       "category_ru": null,
       "desc_en": "Japanese automotive-parts maker.",
       "desc_ru": "Японский производитель автокомпонентов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/denso.png"
     },
     {
       "id": "samsung",
@@ -2406,7 +2413,8 @@
       "category_ru": null,
       "desc_en": "Commercial-aircraft manufacturer.",
       "desc_ru": "Производитель гражданских самолётов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/comac.svg"
     },
     {
       "id": "yi-technology",
@@ -3247,7 +3255,8 @@
       "category_ru": null,
       "desc_en": "Passenger airline.",
       "desc_ru": "Пассажирская авиакомпания.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/shenzhen-airlines-logo-alt.png"
     },
     {
       "id": "donghai-airlines",
@@ -3261,7 +3270,8 @@
       "category_ru": null,
       "desc_en": "Passenger & cargo airline.",
       "desc_ru": "Пассажирская и грузовая авиакомпания.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/donghai-airlines-logo-alt.png"
     },
     {
       "id": "zte",
@@ -3403,7 +3413,8 @@
       "category_ru": null,
       "desc_en": "Aerospace & metamaterials.",
       "desc_ru": "Аэрокосмос и метаматериалы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Kuang Chi.png"
     },
     {
       "id": "royole",
@@ -3515,7 +3526,8 @@
       "category_ru": null,
       "desc_en": "GAC Aion (广汽埃安) is an electric-vehicle maker and a subsidiary of state-owned Guangzhou Automobile Group (GAC), spun off as an independent brand in November 2020. It builds EVs on its own GEP platform (models such as Aion S, Aion Y, Aion V) plus a premium sub-brand, Hyptec, and develops in-house battery (\"Magazine Battery\") and electric-drive technology.",
       "desc_ru": "GAC Aion (广汽埃安) — производитель электромобилей, дочерняя компания государственной Guangzhou Automobile Group (GAC), выделенная в отдельный бренд в ноябре 2020 года. Выпускает электромобили на собственной платформе GEP (седаны и кроссоверы Aion S, Aion Y, Aion V), а также премиальные модели под суббрендом Hyptec; разрабатывает собственные аккумуляторы (\"Magazine Battery\") и электроприводы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/AION_Auto_UK_simple_logo.svg"
     },
     {
       "id": "dongfeng-nissan",
@@ -3938,7 +3950,8 @@
       "category_ru": null,
       "desc_en": "Honda motorcycle joint venture.",
       "desc_ru": "Мотоциклетное СП Honda.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/wuyang-honda-seeklogo.png"
     },
     {
       "id": "amway",
@@ -4533,7 +4546,8 @@
       "category_ru": null,
       "desc_en": "SAIC's light-commercial vehicle brand.",
       "desc_ru": "Марка лёгкого коммерческого транспорта SAIC.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/SAIC Maxus.png"
     },
     {
       "id": "a-o-smith",
@@ -4631,7 +4645,8 @@
       "category_ru": null,
       "desc_en": "Robotics & Autonomous Systems · Suzhou.",
       "desc_ru": "Робототехника и беспилотные системы, Сучжоу.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ecovacs.png"
     },
     {
       "id": "tecsun",
@@ -4884,7 +4899,8 @@
       "category_ru": null,
       "desc_en": "Robotics & Autonomous Systems · Suzhou.",
       "desc_ru": "Робототехника и беспилотные системы, Сучжоу.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/dreame-magic-lab.svg"
     },
     {
       "id": "bosideng",
@@ -5083,7 +5099,8 @@
       "category_ru": null,
       "desc_en": "Geely-owned Swedish automaker.",
       "desc_ru": "Шведский автопроизводитель под Geely.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/volvo_logo_icon_145763.png"
     },
     {
       "id": "tongwei",
@@ -5392,7 +5409,8 @@
       "category_ru": null,
       "desc_en": "Heavy-truck manufacturer.",
       "desc_ru": "Производитель тяжёлых грузовиков.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/shacman.png"
     },
     {
       "id": "xi-an-janssen",
@@ -5560,7 +5578,8 @@
       "category_ru": null,
       "desc_en": "German automotive-parts supplier.",
       "desc_ru": "Немецкий поставщик автокомпонентов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/continental-54.png"
     },
     {
       "id": "dongfeng-motor",
@@ -5660,7 +5679,8 @@
       "category_ru": null,
       "desc_en": "China's largest bus manufacturer.",
       "desc_ru": "Крупнейший в КНР производитель автобусов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/yutong.png"
     },
     {
       "id": "jinxing-beer",
@@ -6044,7 +6064,8 @@
       "category_ru": null,
       "desc_en": "Sportswear group.",
       "desc_ru": "Группа спортивной одежды.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/anta-sports.svg"
     },
     {
       "id": "fuyao-glass",
@@ -6058,7 +6079,8 @@
       "category_ru": null,
       "desc_en": "World's largest automotive-glass maker.",
       "desc_ru": "Крупнейший в мире производитель автостекла.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/fuyao.png"
     },
     {
       "id": "catl",
@@ -6284,7 +6306,8 @@
       "category_ru": null,
       "desc_en": "Hainan-based automaker.",
       "desc_ru": "Автопроизводитель с Хайнаня.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/haima.png"
     },
     {
       "id": "yingli-solar",
@@ -6894,7 +6917,8 @@
       "category_ru": null,
       "desc_en": "Maextro (尊界) is an ultra-luxury EV brand jointly created by Huawei and automaker JAC Group. Its flagship S800 is a full-size sedan available in BEV and range-extender variants, with up to 852 hp from three electric motors and Huawei's ADS 4 driver-assistance system, priced from RMB 708,000 to 1,018,000. Since launching in May 2025 it has become one of China's top-selling luxury sedans, reaching 10,000 units sold within 200 days.",
       "desc_ru": "Maextro (尊界) — ультра-люксовый EV-бренд, созданный Huawei и производителем JAC Group. Флагманская модель S800 — полноразмерный седан на электротяге (BEV и range-extender версии) с тремя электромоторами (до 852 л.с.) и системой автопилота Huawei ADS 4, цены от 708 000 до 1 018 000 юаней. После старта продаж в мае 2025 года S800 стал одним из лидеров продаж среди люксовых седанов в Китае, набрав 10 000 заказов за 200 дней.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/maextro.png"
     },
     {
       "id": "saic",
@@ -7471,7 +7495,8 @@
       "category_ru": null,
       "desc_en": "China's leading online ticketing platform for concerts, theater and sports events, founded in 2004; fully acquired by Alibaba Group in 2017 and folded into its digital media and entertainment unit. In 2025 it launched the international brand MAISEAT to offer cross-border event ticketing to overseas audiences.",
       "desc_ru": "Крупнейшая в Китае платформа онлайн-билетов на концерты, спектакли и спортивные события, основана в 2004 году; полностью приобретена Alibaba Group в 2017 году и входит в её подразделение цифровых медиа и развлечений. В 2025 году запустила международный бренд MAISEAT для продажи билетов на зарубежные мероприятия иностранным зрителям.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/damai.png"
     },
     {
       "id": "maoyan",
@@ -7571,7 +7596,8 @@
       "category_ru": null,
       "desc_en": "The world's largest single automobile factory (5,000,000 m², 5 production buildings): roughly 5,600 vehicles a day, with its own export port. Group tours from 30 people, booking required in advance.",
       "desc_ru": "Крупнейший в мире единый автозавод (5 000 000 м², 5 производственных корпусов): в среднем 5 600 автомобилей в день, собственный экспортный порт. Групповой тур от 30 человек, бронь заранее.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Hyundai.png"
     },
     {
       "id": "hyundai-heavy-industries-ulsan",
@@ -7585,7 +7611,8 @@
       "category_ru": null,
       "desc_en": "The world's largest shipbuilding company. A tour of the production complex and cultural center at its Ulsan shipyard, for groups of 15+ with their own bus.",
       "desc_ru": "Крупнейшая судостроительная компания мира. Экскурсия по производственному комплексу и культурному центру верфи в Ульсане, групповой тур от 15 человек, свой автобус.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Hyundai.png"
     },
     {
       "id": "posco",
@@ -13046,7 +13073,8 @@
       "category_ru": null,
       "desc_en": "Chinese digital-first chain now in Malaysia — a comparative benchmark against ZUS.",
       "desc_ru": "Китайская digital-first сеть, вышедшая в Малайзию — сравнительный бенчмарк для ZUS.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/luckin-coffee.svg"
     },
     {
       "id": "mashreq-bank",
@@ -13074,7 +13102,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/emirates-logo-alt.png"
     },
     {
       "id": "visa-mena",
@@ -13452,7 +13481,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/emirates-logo-alt.png"
     },
     {
       "id": "dnata",
@@ -13508,7 +13538,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/emirates-logo-alt.png"
     },
     {
       "id": "emirates-engineering",
@@ -13522,7 +13553,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Emirates Enginiring.png"
     },
     {
       "id": "flydubai",
@@ -13536,7 +13568,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/flydubai-logo-alt.png"
     },
     {
       "id": "dubai-airports",
@@ -13550,7 +13583,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/dubai airport.png"
     },
     {
       "id": "airbus-me",
@@ -13564,7 +13598,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/airbus.png"
     },
     {
       "id": "boeing-me",
@@ -13578,7 +13613,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/boeing.png"
     },
     {
       "id": "emirates-flight-training-academy",
@@ -13592,7 +13628,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/emirates-logo-alt.png"
     },
     {
       "id": "etihad-airways",
@@ -13606,7 +13643,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Etihad_Airways_idZ6i-mTSP_1.png"
     },
     {
       "id": "etihad-engineering",
@@ -13620,7 +13658,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Etihad Enginiring.png"
     },
     {
       "id": "zayed-international-airport",
@@ -13634,7 +13673,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Zayed_International_Aiport_Logo.svg"
     },
     {
       "id": "emaar-properties",
