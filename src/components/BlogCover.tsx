@@ -1,4 +1,4 @@
-import type { Locale } from '@/i18n/LanguageContext'
+import { pick, useLanguage, type Locale } from '@/i18n/LanguageContext'
 import type { BlogPost } from '@/types/data'
 
 // Same "honest placeholder" approach as CompanyMark: no real cover art is on
@@ -17,8 +17,17 @@ function hasRealCover(cover: string | null | undefined): boolean {
 }
 
 export function BlogCover({ post, index, className = '' }: { post: BlogPost; index: number; className?: string }) {
+  const { locale } = useLanguage()
+
   if (hasRealCover(post.cover)) {
-    return <img src={post.cover ?? undefined} alt="" className={`object-cover ${className}`} loading="lazy" />
+    return (
+      <img
+        src={post.cover ?? undefined}
+        alt={pick(post, 'title', locale)}
+        className={`object-cover ${className}`}
+        loading="lazy"
+      />
+    )
   }
 
   return (

@@ -3,6 +3,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { Home } from '@/pages/Home'
+import { useMetrikaPageview } from '@/hooks/useMetrikaPageview'
+import { TelegramFloatingButton } from '@/components/TelegramFloatingButton'
 
 const Industries = lazy(() => import('@/pages/Industries').then((m) => ({ default: m.Industries })))
 const IndustryFork = lazy(() => import('@/pages/IndustryFork').then((m) => ({ default: m.IndustryFork })))
@@ -25,6 +27,8 @@ const CountryPreview = lazy(() => import('@/pages/CountryPreview').then((m) => (
 const NotFound = lazy(() => import('@/pages/NotFound').then((m) => ({ default: m.NotFound })))
 
 export default function App() {
+  useMetrikaPageview()
+
   return (
     <div className="flex min-h-screen flex-col bg-void text-bone-white">
       <Navbar />
@@ -56,6 +60,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <TelegramFloatingButton />
     </div>
   )
 }

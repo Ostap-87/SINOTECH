@@ -64,6 +64,8 @@ export interface BlogPost {
   title_ru: string
   cover: string | null
   date: string
+  /** Set only when the article body/cover is edited after publishing; drives dateModified/lastmod. */
+  updatedAt?: string
   excerpt_en: string
   excerpt_ru: string
   body_en: string

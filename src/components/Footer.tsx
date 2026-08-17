@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { siteContent } from '@/data'
+import { TELEGRAM_CHANNEL_URL } from '@/lib/seoConfig'
 import { Logo } from './Logo'
+import { TelegramIcon } from './TelegramIcon'
 
 const FOOTER_LINKS = [
   { to: '/industries', label_ru: 'Индустрии', label_en: 'Industries' },
@@ -42,6 +44,15 @@ export function Footer() {
             className="hover:text-bone-white"
           >
             {telegram}
+          </a>
+          <a
+            href={TELEGRAM_CHANNEL_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-1.5 font-semibold text-bone-white hover:text-electric-iris"
+          >
+            <TelegramIcon className="h-4 w-4" />
+            {locale === 'ru' ? 'Наш канал в Telegram' : 'Our Telegram channel'}
           </a>
         </div>
       </div>

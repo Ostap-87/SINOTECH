@@ -25,7 +25,7 @@ export function CompanyMark({ company, size = 48 }: { company: Company; size?: n
       >
         <img
           src={company.logo}
-          alt=""
+          alt={`${company.name_en} logo`}
           className="max-h-full max-w-full object-contain"
           onError={() => setLogoFailed(true)}
         />

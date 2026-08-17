@@ -56,7 +56,7 @@ const blogRoutes = (siteContent.blog ?? []).map((post) => ({
   path: `/blog/${post.slug}`,
   changefreq: 'monthly',
   priority: '0.65',
-  lastmod: post.date,
+  lastmod: post.updatedAt ?? post.date,
 }))
 
 const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes, ...companyRoutes, ...blogRoutes]

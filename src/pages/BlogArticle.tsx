@@ -22,28 +22,43 @@ export function BlogArticle() {
     { noindex: !post },
   )
 
-  // schema.org/BlogPosting structured data.
+  // schema.org/BlogPosting + BreadcrumbList structured data.
   useEffect(() => {
     if (!post) return
     const image = !post.cover || post.cover.includes('REPLACE') ? (locale === 'ru' ? OG_IMAGE_RU : OG_IMAGE_EN) : post.cover
-    const script = document.createElement('script')
-    script.type = 'application/ld+json'
-    script.text = JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'BlogPosting',
-      headline: pick(post, 'title', locale),
-      description: pick(post, 'excerpt', locale),
-      image,
-      datePublished: post.date,
-      dateModified: post.date,
-      author: { '@type': 'Organization', name: post.author },
-      publisher: { '@type': 'Organization', name: SITE_NAME },
-      mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${post.slug}` },
-      keywords: post.tags.join(', '),
+    const scripts = [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: pick(post, 'title', locale),
+        description: pick(post, 'excerpt', locale),
+        image,
+        datePublished: post.date,
+        dateModified: post.updatedAt ?? post.date,
+        author: { '@type': 'Organization', name: post.author },
+        publisher: { '@type': 'Organization', name: SITE_NAME },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${post.slug}` },
+        keywords: post.tags.join(', '),
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: locale === 'ru' ? 'Главная' : 'Home', item: SITE_URL },
+          { '@type': 'ListItem', position: 2, name: locale === 'ru' ? 'Блог' : 'Blog', item: `${SITE_URL}/blog` },
+          { '@type': 'ListItem', position: 3, name: pick(post, 'title', locale), item: `${SITE_URL}/blog/${post.slug}` },
+        ],
+      },
+    ]
+    const elements = scripts.map((data) => {
+      const script = document.createElement('script')
+      script.type = 'application/ld+json'
+      script.text = JSON.stringify(data)
+      document.head.appendChild(script)
+      return script
     })
-    document.head.appendChild(script)
     return () => {
-      document.head.removeChild(script)
+      for (const el of elements) document.head.removeChild(el)
     }
   }, [post, locale])
 
