@@ -35,7 +35,8 @@ export function BlogArticle() {
         image,
         datePublished: post.date,
         dateModified: post.updatedAt ?? post.date,
-        author: { '@type': 'Organization', name: post.author },
+        // Real named author (not the brand) — better for E-E-A-T than a bare Organization.
+        author: { '@type': 'Person', name: 'Ostap Dotcenko' },
         publisher: { '@type': 'Organization', name: SITE_NAME },
         mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${post.slug}` },
         keywords: post.tags.join(', '),
