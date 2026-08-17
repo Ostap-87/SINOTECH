@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { toursData, companiesData, getSector, companyNameZh } from '@/data'
 import { RouteMap } from '@/components/RouteMap'
@@ -121,7 +122,7 @@ export function ExpeditionDetail() {
           className="pointer-events-none"
           style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
         >
-          <Link
+          <LocaleLink
             to="/expeditions"
             onClick={(event) => goTo('/expeditions', event)}
             className="pointer-events-auto inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white"
@@ -130,7 +131,7 @@ export function ExpeditionDetail() {
               <path d="M19 12H5M11 18l-6-6 6-6" />
             </svg>
             {locale === 'ru' ? 'Все экспедиции' : 'All expeditions'}
-          </Link>
+          </LocaleLink>
 
           <p className="mt-6 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
             {pick(tour, 'eyebrow', locale)}
@@ -263,13 +264,13 @@ export function ExpeditionDetail() {
           </div>
         </div>
 
-        <Link
+        <LocaleLink
           to="/contacts"
           onClick={(event) => goTo('/contacts', event)}
           className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-auto"
         >
           {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
-        </Link>
+        </LocaleLink>
       </div>
     </section>
   )

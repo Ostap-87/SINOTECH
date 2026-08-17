@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useLocation } from 'react-router-dom'
 import { ChevronDown } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
@@ -117,7 +118,7 @@ export function CountrySelector({
 
             if (hasPreview) {
               return (
-                <Link
+                <LocaleLink
                   key={country.code}
                   to={`/countries/${country.code}`}
                   onClick={() => {
@@ -128,7 +129,7 @@ export function CountrySelector({
                 >
                   {pick(country, 'name', locale)}
                   {soonBadge}
-                </Link>
+                </LocaleLink>
               )
             }
 

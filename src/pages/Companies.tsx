@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useSearchParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, getCity, companyNameZh } from '@/data'
 import { usePageMeta } from '@/hooks/usePageMeta'
@@ -142,7 +143,7 @@ export function Companies() {
             {companies.map((company) => {
               const city = getCity(company.city)
               return (
-                <Link
+                <LocaleLink
                   key={company.id}
                   to={`/companies/${company.id}`}
                   className="flex items-center gap-4 rounded-2xl border border-black/10 bg-surface/60 p-4 transition-colors hover:border-electric-iris/60"
@@ -154,7 +155,7 @@ export function Companies() {
                       {city ? pick(city, 'name', locale) : company.city}
                     </p>
                   </div>
-                </Link>
+                </LocaleLink>
               )
             })}
           </div>

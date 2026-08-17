@@ -1,5 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
 import { COUNTRY_SHAPES } from '@/data/countryShapes'
@@ -137,35 +137,35 @@ export function Home() {
                 desktop two-row layout wrapping unevenly across 5 buttons of
                 different widths. */}
             <div className="pointer-events-auto mt-10 flex flex-col gap-3 sm:hidden">
-              <Link
+              <LocaleLink
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
                 className="w-full rounded-[24px] bg-electric-iris px-6 py-3 text-center text-sm font-medium text-white transition-opacity hover:opacity-90"
               >
                 {locale === 'ru' ? 'Каталог' : 'Catalogue'}
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
                 className="w-full rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Готовые программы' : 'Ready-made programs'}
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
                 className="w-full rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/cases"
                 onClick={(event) => goTo('/cases', event)}
                 className="pill-shimmer relative w-full rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 <span className="relative z-10">{locale === 'ru' ? 'Кейсы' : 'Cases'}</span>
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
                 className="pill-shimmer relative w-full rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
@@ -173,32 +173,32 @@ export function Home() {
                 <span className="relative z-10">
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
-              </Link>
+              </LocaleLink>
               <CountrySelector variant="hero" className="w-full" />
             </div>
 
             <div ref={topPillsRef} className="pointer-events-auto mt-10 hidden w-fit flex-wrap gap-3 sm:flex">
-              <Link
+              <LocaleLink
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
                 className="inline-block w-fit rounded-[24px] bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
               >
                 {locale === 'ru' ? 'Каталог' : 'Catalogue'}
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
                 className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Готовые программы' : 'Ready-made programs'}
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/industries"
                 onClick={(event) => goTo('/industries', event)}
                 className="inline-block w-fit rounded-[24px] border border-black/10 bg-surface/70 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 {locale === 'ru' ? 'Собрать свою программу' : 'Build your own program'}
-              </Link>
+              </LocaleLink>
             </div>
 
             {/* Grid, not flex, for the three equal-width pills below: a flex
@@ -212,14 +212,14 @@ export function Home() {
               className="pointer-events-auto mt-3 hidden max-w-full grid-cols-3 gap-3 sm:grid"
               style={topPillsWidth ? { width: topPillsWidth } : undefined}
             >
-              <Link
+              <LocaleLink
                 to="/cases"
                 onClick={(event) => goTo('/cases', event)}
                 className="pill-shimmer flex items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
               >
                 <span className="relative z-10">{locale === 'ru' ? 'Кейсы' : 'Cases'}</span>
-              </Link>
-              <Link
+              </LocaleLink>
+              <LocaleLink
                 to="/expeditions"
                 onClick={(event) => goTo('/expeditions', event)}
                 className="pill-shimmer flex items-center justify-center rounded-[24px] border border-electric-iris/40 bg-surface/70 px-6 py-3 text-center text-sm font-medium text-bone-white transition-colors hover:bg-surface"
@@ -227,7 +227,7 @@ export function Home() {
                 <span className="relative z-10">
                   {locale === 'ru' ? 'Предстоящие экспедиции' : 'Upcoming expeditions'}
                 </span>
-              </Link>
+              </LocaleLink>
               <CountrySelector variant="hero" className="w-full" />
             </div>
           </>

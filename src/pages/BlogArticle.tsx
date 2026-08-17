@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { blogPosts, getBlogPost } from '@/data'
@@ -78,12 +79,12 @@ export function BlogArticle() {
 
   return (
     <article className="mx-auto w-full max-w-[820px] px-6 py-16 lg:py-20">
-      <Link to="/blog" className="inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white">
+      <LocaleLink to="/blog" className="inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M19 12H5M11 18l-6-6 6-6" />
         </svg>
         {locale === 'ru' ? 'Все статьи' : 'All articles'}
-      </Link>
+      </LocaleLink>
 
       <p className="mt-8 text-sm font-semibold uppercase tracking-[0.025em]">
         <ShimmerText variant="saffron" text={locale === 'ru' ? 'Блог' : 'Blog'} />
@@ -114,14 +115,14 @@ export function BlogArticle() {
           </h2>
           <div className="mt-4 flex flex-col gap-3">
             {related.map((p) => (
-              <Link
+              <LocaleLink
                 key={p.id}
                 to={`/blog/${p.slug}`}
                 className="rounded-2xl border border-black/10 bg-surface/60 p-4 transition-colors hover:border-electric-iris/60"
               >
                 <p className="text-sm font-medium text-bone-white">{pick(p, 'title', locale)}</p>
                 <p className="mt-1 text-xs text-ash-gray">{formatBlogDate(p.date, locale)}</p>
-              </Link>
+              </LocaleLink>
             ))}
           </div>
         </div>

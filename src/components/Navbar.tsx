@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link, NavLink, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X } from 'lucide-react'
-import { useLanguage } from '@/i18n/LanguageContext'
+import { useLanguage, stripLocalePrefix } from '@/i18n/LanguageContext'
+import { LocaleLink, LocaleNavLink } from '@/i18n/LocaleLink'
 import { Logo } from './Logo'
 
 // Primary items stay inline; less time-critical ones (info/content pages)
@@ -40,7 +41,7 @@ function ResourcesDropdown() {
   const location = useLocation()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
-  const isActive = RESOURCE_LINKS.some((link) => link.to === location.pathname)
+  const isActive = RESOURCE_LINKS.some((link) => link.to === stripLocalePrefix(location.pathname))
 
   useEffect(() => {
     function onClickOutside(event: MouseEvent) {
@@ -68,7 +69,7 @@ function ResourcesDropdown() {
         <ul className="absolute left-0 top-[calc(100%+12px)] w-40 rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)]">
           {RESOURCE_LINKS.map((link) => (
             <li key={link.to}>
-              <NavLink
+              <LocaleNavLink
                 to={link.to}
                 onClick={() => setOpen(false)}
                 className={({ isActive: linkActive }) =>
@@ -78,7 +79,7 @@ function ResourcesDropdown() {
                 }
               >
                 {locale === 'ru' ? link.label_ru : link.label_en}
-              </NavLink>
+              </LocaleNavLink>
             </li>
           ))}
         </ul>
@@ -92,7 +93,7 @@ function ExpeditionsDropdown() {
   const location = useLocation()
   const [open, setOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
-  const isActive = location.pathname.startsWith('/expeditions')
+  const isActive = stripLocalePrefix(location.pathname).startsWith('/expeditions')
 
   useEffect(() => {
     function onClickOutside(event: MouseEvent) {
@@ -120,7 +121,7 @@ function ExpeditionsDropdown() {
         <ul className="absolute left-0 top-[calc(100%+12px)] w-56 rounded-[16px] border border-black/10 bg-void py-2 shadow-[0_20px_40px_rgba(0,0,0,0.12)]">
           {EXPEDITIONS_LINKS.map((link) => (
             <li key={link.to}>
-              <NavLink
+              <LocaleNavLink
                 to={link.to}
                 end={link.to === '/expeditions'}
                 onClick={() => setOpen(false)}
@@ -131,7 +132,7 @@ function ExpeditionsDropdown() {
                 }
               >
                 {locale === 'ru' ? link.label_ru : link.label_en}
-              </NavLink>
+              </LocaleNavLink>
             </li>
           ))}
         </ul>
@@ -160,18 +161,18 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-void/80 backdrop-blur">
       <div className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-5">
-        <Link to="/" onClick={() => setMobileOpen(false)}>
+        <LocaleLink to="/" onClick={() => setMobileOpen(false)}>
           <Logo />
-        </Link>
+        </LocaleLink>
 
         <nav className="hidden items-center gap-6 lg:flex">
           {PRIMARY_LINKS.map((link) =>
             link.to === '/expeditions' ? (
               <ExpeditionsDropdown key={link.to} />
             ) : (
-              <NavLink key={link.to} to={link.to} className={navLinkClass}>
+              <LocaleNavLink key={link.to} to={link.to} className={navLinkClass}>
                 {locale === 'ru' ? link.label_ru : link.label_en}
-              </NavLink>
+              </LocaleNavLink>
             ),
           )}
           <ResourcesDropdown />
@@ -181,13 +182,13 @@ export function Navbar() {
           <div className="hidden items-center gap-3 sm:flex">
             <LocaleToggle />
           </div>
-          <Link
+          <LocaleLink
             to="/contacts"
             onClick={() => setMobileOpen(false)}
             className="hidden rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:inline-block"
           >
             {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
-          </Link>
+          </LocaleLink>
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
@@ -204,7 +205,7 @@ export function Navbar() {
         <div className="border-t border-black/10 px-6 pb-8 pt-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             {ALL_LINKS.map((link) => (
-              <NavLink
+              <LocaleNavLink
                 key={link.to}
                 to={link.to}
                 onClick={() => setMobileOpen(false)}
@@ -215,19 +216,19 @@ export function Navbar() {
                 }
               >
                 {locale === 'ru' ? link.label_ru : link.label_en}
-              </NavLink>
+              </LocaleNavLink>
             ))}
           </nav>
           <div className="mt-4 flex items-center gap-3">
             <LocaleToggle />
           </div>
-          <Link
+          <LocaleLink
             to="/contacts"
             onClick={() => setMobileOpen(false)}
             className="mt-4 inline-block rounded-[24px] bg-electric-iris px-5 py-2 text-sm font-medium text-white"
           >
             {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
-          </Link>
+          </LocaleLink>
         </div>
       )}
     </header>

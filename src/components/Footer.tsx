@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { siteContent } from '@/data'
 import { TELEGRAM_CHANNEL_URL } from '@/lib/seoConfig'
 import { Logo } from './Logo'
@@ -27,9 +27,9 @@ export function Footer() {
 
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
           {FOOTER_LINKS.map((link) => (
-            <Link key={link.to} to={link.to} className="hover:text-bone-white">
+            <LocaleLink key={link.to} to={link.to} className="hover:text-bone-white">
               {locale === 'ru' ? link.label_ru : link.label_en}
-            </Link>
+            </LocaleLink>
           ))}
         </nav>
 

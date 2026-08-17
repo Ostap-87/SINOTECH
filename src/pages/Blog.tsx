@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { blogPosts } from '@/data'
 import { ShimmerText } from '@/components/ShimmerText'
@@ -37,7 +37,7 @@ export function Blog() {
       ) : (
         <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((post, i) => (
-            <Link
+            <LocaleLink
               key={post.id}
               to={`/blog/${post.slug}`}
               className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-surface/60 transition-colors hover:border-electric-iris/60"
@@ -57,7 +57,7 @@ export function Blog() {
                 </h2>
                 <p className="line-clamp-3 text-sm text-silver-mist">{pick(post, 'excerpt', locale)}</p>
               </div>
-            </Link>
+            </LocaleLink>
           ))}
         </div>
       )}

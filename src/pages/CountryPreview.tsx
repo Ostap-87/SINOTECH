@@ -1,5 +1,6 @@
 import { useRef } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useParams } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
@@ -58,7 +59,7 @@ export function CountryPreview() {
         className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-24"
         style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
       >
-        <Link
+        <LocaleLink
           to="/"
           onClick={(event) => goTo('/', event)}
           className="pointer-events-auto inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white"
@@ -67,7 +68,7 @@ export function CountryPreview() {
             <path d="M19 12H5M11 18l-6-6 6-6" />
           </svg>
           {locale === 'ru' ? 'На главную' : 'Back home'}
-        </Link>
+        </LocaleLink>
 
         <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em]">
           <ShimmerText variant="saffron" text={locale === 'ru' ? 'Скоро' : 'Coming soon'} />

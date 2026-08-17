@@ -1,6 +1,7 @@
 import { forwardRef, useEffect, useMemo, useRef, useState } from 'react'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import type { ReactNode } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { Check, Download, Plus, X } from 'lucide-react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, getCity, getSector, companyNameZh } from '@/data'
@@ -856,13 +857,13 @@ export function Constructor() {
                     {locale === 'ru' ? 'Скачать PDF' : 'Download PDF'}
                   </a>
                 )}
-                <Link
+                <LocaleLink
                   to="/contacts"
                   onClick={(event) => goTo('/contacts', event)}
                   className="inline-flex items-center justify-center rounded-full border border-black/15 px-6 py-3 text-sm font-medium text-bone-white transition-colors hover:bg-surface"
                 >
                   {locale === 'ru' ? 'Перейти в контакты' : 'Go to contacts'}
-                </Link>
+                </LocaleLink>
               </div>
             </div>
           )}

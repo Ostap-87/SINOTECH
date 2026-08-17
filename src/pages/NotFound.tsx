@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import { useLanguage } from '@/i18n/LanguageContext'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { ShimmerText } from '@/components/ShimmerText'
 import { RevealText } from '@/components/RevealText'
@@ -26,12 +26,12 @@ export function NotFound() {
           ? 'Такой страницы не существует или она была перемещена.'
           : "This page doesn't exist or has been moved."}
       </p>
-      <Link
+      <LocaleLink
         to="/"
         className="mt-8 inline-flex w-fit items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
       >
         {locale === 'ru' ? 'На главную' : 'Back home'}
-      </Link>
+      </LocaleLink>
     </section>
   )
 }

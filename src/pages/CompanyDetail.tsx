@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, toursData, getCity, getSector, companyNameZh } from '@/data'
 import { usePageMeta } from '@/hooks/usePageMeta'
@@ -42,7 +43,7 @@ export function CompanyDetail() {
 
   return (
     <section className="mx-auto w-full max-w-[900px] px-6 py-16 lg:py-20">
-      <Link
+      <LocaleLink
         to="/companies"
         className="inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white"
       >
@@ -50,7 +51,7 @@ export function CompanyDetail() {
           <path d="M19 12H5M11 18l-6-6 6-6" />
         </svg>
         {locale === 'ru' ? 'Все компании' : 'All companies'}
-      </Link>
+      </LocaleLink>
 
       <div className="mt-8 flex items-center gap-5">
         <CompanyMark company={company} size={72} />
@@ -64,14 +65,14 @@ export function CompanyDetail() {
 
       <div className="mt-6 flex flex-wrap items-center gap-2">
         {sector && (
-          <Link
+          <LocaleLink
             to={`/companies?sector=${sector.code}`}
             className="flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold transition-colors hover:border-electric-iris/60 hover:text-bone-white"
             style={{ color: sector.color, borderColor: `${sector.color}55` }}
           >
             <span className="h-1.5 w-1.5 shrink-0 rounded-full" style={{ backgroundColor: sector.color }} aria-hidden="true" />
             {pick(sector, 'label', locale)}
-          </Link>
+          </LocaleLink>
         )}
         {city && (
           <span className="rounded-full border border-black/10 px-3 py-1 text-xs text-ash-gray">
@@ -105,25 +106,25 @@ export function CompanyDetail() {
           </h2>
           <div className="mt-4 flex flex-col gap-3">
             {relatedTours.map((tour) => (
-              <Link
+              <LocaleLink
                 key={tour.tour_id}
                 to={`/expeditions/${tour.tour_id}`}
                 className="rounded-2xl border border-black/10 bg-surface/60 p-4 transition-colors hover:border-electric-iris/60"
               >
                 <p className="text-sm font-medium text-bone-white">{pick(tour, 'title', locale)}</p>
                 <p className="mt-1 text-xs text-ash-gray">{pick(tour, 'tagline', locale)}</p>
-              </Link>
+              </LocaleLink>
             ))}
           </div>
         </div>
       )}
 
-      <Link
+      <LocaleLink
         to={`/constructor?sector=${company.sector}`}
         className="mt-10 inline-flex items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
       >
         {locale === 'ru' ? 'Собрать программу с этой компанией' : 'Build a programme around this company'}
-      </Link>
+      </LocaleLink>
     </section>
   )
 }

@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { useLanguage } from '@/i18n/LanguageContext'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
@@ -294,13 +294,13 @@ export function Consulting() {
           </ul>
         </div>
 
-        <Link
+        <LocaleLink
           to="/contacts"
           onClick={(event) => goTo('/contacts', event)}
           className="mt-10 inline-flex w-full items-center justify-center rounded-full bg-electric-iris px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:w-auto"
         >
           {locale === 'ru' ? 'Оставить заявку' : 'Get in touch'}
-        </Link>
+        </LocaleLink>
       </div>
     </section>
   )

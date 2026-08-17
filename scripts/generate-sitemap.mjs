@@ -63,22 +63,37 @@ const routes = [...STATIC_ROUTES, ...sectorRoutes, ...tourRoutes, ...companyRout
 
 const today = new Date().toISOString().slice(0, 10)
 
-const body = routes
-  .map(
-    (r) => `  <url>
-    <loc>${SITE_URL}${r.path}</loc>
+// Russian is the un-prefixed default (/blog/x), English lives under /en
+// (/en/blog/x) — see src/i18n/LanguageContext.tsx. Every URL declares BOTH
+// language versions via xhtml:link hreflang, per Google's bidirectional-
+// annotation requirement, plus x-default pointing at the Russian version.
+function enPath(path) {
+  return path === '/' ? '/en' : `/en${path}`
+}
+
+function urlEntry(loc, r) {
+  const ruUrl = `${SITE_URL}${r.path}`
+  const enUrl = `${SITE_URL}${enPath(r.path)}`
+  return `  <url>
+    <loc>${loc}</loc>
     <lastmod>${r.lastmod ?? today}</lastmod>
     <changefreq>${r.changefreq}</changefreq>
     <priority>${r.priority}</priority>
-  </url>`,
-  )
+    <xhtml:link rel="alternate" hreflang="ru" href="${ruUrl}" />
+    <xhtml:link rel="alternate" hreflang="en" href="${enUrl}" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="${ruUrl}" />
+  </url>`
+}
+
+const body = routes
+  .flatMap((r) => [urlEntry(`${SITE_URL}${r.path}`, r), urlEntry(`${SITE_URL}${enPath(r.path)}`, r)])
   .join('\n')
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${body}
 </urlset>
 `
 
 writeFileSync(join(root, 'public/sitemap.xml'), xml)
-console.log(`sitemap.xml written with ${routes.length} URLs`)
+console.log(`sitemap.xml written with ${routes.length * 2} URLs (ru + en)`)

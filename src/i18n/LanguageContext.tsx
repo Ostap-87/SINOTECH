@@ -1,10 +1,12 @@
-import { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react'
+import { createContext, useContext, useEffect, useMemo, useRef } from 'react'
 import type { ReactNode } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 export type Locale = 'ru' | 'en'
 
 type LanguageContextValue = {
   locale: Locale
+  /** Navigates to the locale-equivalent of the current URL. */
   setLocale: (locale: Locale) => void
   toggleLocale: () => void
 }
@@ -21,11 +23,25 @@ const ENGLISH_SPEAKING_COUNTRY_CODES = new Set([
   'US', 'GB', 'CA', 'AU', 'NZ', 'IE', 'SG', 'HK', 'ZA',
 ])
 
-function getInitialLocale(): Locale {
-  if (typeof window === 'undefined') return 'en'
+/** Strip a leading /en (optionally followed by /) from a pathname, leaving the rest untouched. */
+export function stripLocalePrefix(pathname: string): string {
+  if (pathname === '/en') return '/'
+  if (pathname.startsWith('/en/')) return pathname.slice(3)
+  return pathname
+}
+
+/** Locale is derived from the URL itself — /en/... is English, everything else is Russian
+ *  (Russian is the un-prefixed default). This is what gives Google two real, distinct,
+ *  crawlable URLs per page instead of one URL whose content silently swaps client-side —
+ *  the previous localStorage-only approach meant hreflang had nothing real to point at. */
+function localeFromPathname(pathname: string): Locale {
+  return pathname === '/en' || pathname.startsWith('/en/') ? 'en' : 'ru'
+}
+
+function getStoredPreference(): Locale | null {
+  if (typeof window === 'undefined') return null
   const stored = window.localStorage.getItem(STORAGE_KEY)
-  if (stored === 'ru' || stored === 'en') return stored
-  return navigator.language?.toLowerCase().startsWith('ru') ? 'ru' : 'en'
+  return stored === 'ru' || stored === 'en' ? stored : null
 }
 
 /** Геолокация по IP через бесплатный сервис без ключа — определяет страну
@@ -53,13 +69,15 @@ async function detectLocaleByCountry(): Promise<Locale | null> {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(getInitialLocale)
-  // Геолокация может переопределить язык только пока пользователь ни разу
-  // не выбирал его сам вручную — фиксируем это один раз при монтировании,
-  // до того как эффект сохранения ниже успеет что-то записать в localStorage.
-  const hasExplicitPreference = useRef(
-    typeof window !== 'undefined' && window.localStorage.getItem(STORAGE_KEY) !== null,
-  )
+  const location = useLocation()
+  const navigate = useNavigate()
+  const locale = localeFromPathname(location.pathname)
+
+  // Автовыбор языка (сохранённое предпочтение / геолокация / язык браузера)
+  // срабатывает ТОЛЬКО один раз за визит, и только если в URL ещё нет явного
+  // языкового префикса — иначе прямая ссылка на /en/... или /blog/... всегда
+  // должна показывать ровно то, что в адресе, без неожиданных редиректов.
+  const autoDetectRanRef = useRef(false)
 
   useEffect(() => {
     window.localStorage.setItem(STORAGE_KEY, locale)
@@ -67,31 +85,49 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   }, [locale])
 
   useEffect(() => {
-    if (hasExplicitPreference.current) return
+    if (autoDetectRanRef.current) return
+    if (locale === 'en') {
+      // Уже на /en/... — явный языковой сигнал в самом URL, автоопределение не нужно.
+      autoDetectRanRef.current = true
+      return
+    }
+
+    const stored = getStoredPreference()
+    if (stored) {
+      autoDetectRanRef.current = true
+      if (stored === 'en') navigate(`/en${location.pathname}${location.search}`, { replace: true })
+      return
+    }
+
     let cancelled = false
     detectLocaleByCountry().then((detected) => {
-      if (!cancelled && detected && !hasExplicitPreference.current) {
-        setLocaleState(detected)
-      }
+      if (cancelled || autoDetectRanRef.current) return
+      autoDetectRanRef.current = true
+      if (detected === 'en') navigate(`/en${location.pathname}${location.search}`, { replace: true })
     })
     return () => {
       cancelled = true
     }
+    // Запускается один раз при монтировании — сознательно не завязан на смену route,
+    // чтобы не пытаться переопределить язык при обычной навигации внутри сайта.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const value = useMemo<LanguageContextValue>(
     () => ({
       locale,
       setLocale: (next) => {
-        hasExplicitPreference.current = true
-        setLocaleState(next)
+        autoDetectRanRef.current = true
+        const bare = stripLocalePrefix(location.pathname)
+        navigate(next === 'en' ? `/en${bare}${location.search}` : `${bare}${location.search}`)
       },
       toggleLocale: () => {
-        hasExplicitPreference.current = true
-        setLocaleState((prev) => (prev === 'ru' ? 'en' : 'ru'))
+        autoDetectRanRef.current = true
+        const bare = stripLocalePrefix(location.pathname)
+        navigate(locale === 'ru' ? `/en${bare}${location.search}` : `${bare}${location.search}`)
       },
     }),
-    [locale],
+    [locale, location.pathname, location.search, navigate],
   )
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>

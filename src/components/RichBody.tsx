@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { Link } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
 
 const LINK_PATTERN = /\[([^\]]+)\]\((\/[^)]+)\)/g
 
@@ -13,9 +13,9 @@ function renderInline(text: string, keyPrefix: string) {
   while ((match = LINK_PATTERN.exec(text))) {
     if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index))
     parts.push(
-      <Link key={`${keyPrefix}-${i++}`} to={match[2]!} className="underline underline-offset-2 hover:text-electric-iris">
+      <LocaleLink key={`${keyPrefix}-${i++}`} to={match[2]!} className="underline underline-offset-2 hover:text-electric-iris">
         {match[1]}
-      </Link>,
+      </LocaleLink>,
     )
     lastIndex = match.index + match[0].length
   }

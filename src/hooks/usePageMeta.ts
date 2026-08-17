@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { useLanguage } from '@/i18n/LanguageContext'
+import { useLanguage, stripLocalePrefix } from '@/i18n/LanguageContext'
 import { SITE_URL, OG_IMAGE_RU, OG_IMAGE_EN } from '@/lib/seoConfig'
 
 function setMeta(selector: string, attr: string, value: string) {
@@ -50,6 +50,19 @@ export function usePageMeta(title: string, description?: string, options?: { noi
     const prevCanonical = canonical?.getAttribute('href') ?? null
     if (canonical) canonical.setAttribute('href', url)
     if (prevCanonical !== null) restore.push(() => canonical?.setAttribute('href', prevCanonical))
+
+    const barePath = stripLocalePrefix(location.pathname)
+    const ruUrl = `${SITE_URL}${barePath}`
+    const enUrl = barePath === '/' ? `${SITE_URL}/en` : `${SITE_URL}/en${barePath}`
+    const hreflangPairs: [string, string][] = [
+      ['link[rel="alternate"][hreflang="ru"]', ruUrl],
+      ['link[rel="alternate"][hreflang="en"]', enUrl],
+      ['link[rel="alternate"][hreflang="x-default"]', ruUrl],
+    ]
+    for (const [selector, href] of hreflangPairs) {
+      const prev = setMeta(selector, 'href', href)
+      if (prev !== null) restore.push(() => setMeta(selector, 'href', prev))
+    }
 
     const ogPairs: [string, string][] = [
       ['meta[property="og:title"]', title],

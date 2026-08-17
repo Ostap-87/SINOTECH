@@ -50,13 +50,20 @@ const STATIC_ROUTES = [
   '/consulting', '/companies', '/cases', '/blog', '/faq', '/partners', '/contacts',
 ]
 
-const routes = [
+const ruRoutes = [
   ...STATIC_ROUTES,
   ...companies.sectors.map((s) => `/industries/${s.code}`),
   ...tours.tours.map((t) => `/expeditions/${t.tour_id}`),
   ...companies.companies.map((c) => `/companies/${c.id}`),
   ...(siteContent.blog ?? []).map((post) => `/blog/${post.slug}`),
 ]
+
+// English mirror under /en — real, separately-crawlable URLs for hreflang
+// (see LanguageContext.tsx) instead of one URL whose content silently swaps
+// client-side. This doubles the route count and therefore the prerender
+// wall-clock at the fixed low concurrency above — accepted tradeoff, since
+// hreflang without a real second URL per page is not real hreflang.
+const routes = [...ruRoutes, ...ruRoutes.map((r) => (r === '/' ? '/en' : `/en${r}`))]
 
 function outputPathFor(routePath) {
   if (routePath === '/') return join(distDir, 'index.html')

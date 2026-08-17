@@ -1,5 +1,5 @@
 import { useMemo, useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { toursData } from '@/data'
 import { useSelectedCountry } from '@/context/SelectedCountryContext'
@@ -79,7 +79,7 @@ export function ExpeditionsReady() {
 
         <div className="mt-9 grid grid-cols-1 gap-4 pb-24 sm:grid-cols-2 lg:grid-cols-3">
           {tours.map((tour) => (
-            <Link
+            <LocaleLink
               key={tour.tour_id}
               to={`/expeditions/${tour.tour_id}`}
               onClick={(event) => goTo(`/expeditions/${tour.tour_id}`, event)}
@@ -121,7 +121,7 @@ export function ExpeditionsReady() {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </div>
-            </Link>
+            </LocaleLink>
           ))}
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { RefObject } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useLocaleNavigate } from '@/i18n/LocaleLink'
 import type { ParticleCanvasHandle } from '@/components/ParticleCanvas'
 
 const DEFAULT_DURATION_MS = 2600
@@ -24,7 +24,7 @@ export function useShapeExitNavigate(
   canvasRef: RefObject<ParticleCanvasHandle | null>,
   durationMs = DEFAULT_DURATION_MS,
 ) {
-  const navigate = useNavigate()
+  const navigate = useLocaleNavigate()
   const [isLeaving, setIsLeaving] = useState(false)
 
   function goTo(path: string, event?: ClickGuard) {

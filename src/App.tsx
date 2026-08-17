@@ -1,10 +1,11 @@
 import { lazy, Suspense } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
 import { Home } from '@/pages/Home'
 import { useMetrikaPageview } from '@/hooks/useMetrikaPageview'
 import { TelegramFloatingButton } from '@/components/TelegramFloatingButton'
+import { LocaleNavigate } from '@/i18n/LocaleLink'
 
 const Industries = lazy(() => import('@/pages/Industries').then((m) => ({ default: m.Industries })))
 const IndustryFork = lazy(() => import('@/pages/IndustryFork').then((m) => ({ default: m.IndustryFork })))
@@ -26,6 +27,37 @@ const Contacts = lazy(() => import('@/pages/Contacts').then((m) => ({ default: m
 const CountryPreview = lazy(() => import('@/pages/CountryPreview').then((m) => ({ default: m.CountryPreview })))
 const NotFound = lazy(() => import('@/pages/NotFound').then((m) => ({ default: m.NotFound })))
 
+/** The real route table, relative to wherever its parent <Route path="/*"> matched —
+ *  mounted twice below (once at "/" for Russian, once at "/en/*" for English) so both
+ *  languages get real, distinct, crawlable URLs instead of one URL whose content
+ *  silently swaps client-side. Do not add locale-switching logic here; it lives in
+ *  LanguageContext, which derives the current locale from which of these two mounts matched. */
+function SiteRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/industries" element={<Industries />} />
+      <Route path="/industries/:sector" element={<IndustryFork />} />
+      <Route path="/constructor" element={<Constructor />} />
+      <Route path="/expeditions" element={<ExpeditionsReady />} />
+      <Route path="/expeditions/recommended" element={<ExpeditionsRecommended />} />
+      <Route path="/expeditions/:tourId" element={<ExpeditionDetail />} />
+      <Route path="/tours" element={<LocaleNavigate to="/expeditions" replace />} />
+      <Route path="/companies" element={<Companies />} />
+      <Route path="/companies/:id" element={<CompanyDetail />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:slug" element={<BlogArticle />} />
+      <Route path="/cases" element={<Cases />} />
+      <Route path="/faq" element={<Faq />} />
+      <Route path="/partners" element={<Partners />} />
+      <Route path="/consulting" element={<Consulting />} />
+      <Route path="/contacts" element={<Contacts />} />
+      <Route path="/countries/:code" element={<CountryPreview />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  )
+}
+
 export default function App() {
   useMetrikaPageview()
 
@@ -36,25 +68,8 @@ export default function App() {
       <main className="flex-1">
         <Suspense fallback={null}>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/industries" element={<Industries />} />
-            <Route path="/industries/:sector" element={<IndustryFork />} />
-            <Route path="/constructor" element={<Constructor />} />
-            <Route path="/expeditions" element={<ExpeditionsReady />} />
-            <Route path="/expeditions/recommended" element={<ExpeditionsRecommended />} />
-            <Route path="/expeditions/:tourId" element={<ExpeditionDetail />} />
-            <Route path="/tours" element={<Navigate to="/expeditions" replace />} />
-            <Route path="/companies" element={<Companies />} />
-            <Route path="/companies/:id" element={<CompanyDetail />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogArticle />} />
-            <Route path="/cases" element={<Cases />} />
-            <Route path="/faq" element={<Faq />} />
-            <Route path="/partners" element={<Partners />} />
-            <Route path="/consulting" element={<Consulting />} />
-            <Route path="/contacts" element={<Contacts />} />
-            <Route path="/countries/:code" element={<CountryPreview />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/en/*" element={<SiteRoutes />} />
+            <Route path="/*" element={<SiteRoutes />} />
           </Routes>
         </Suspense>
       </main>

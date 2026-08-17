@@ -1,5 +1,6 @@
 import { useMemo, useRef } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { LocaleLink } from '@/i18n/LocaleLink'
+import { useParams } from 'react-router-dom'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
 import { companiesData, toursData } from '@/data'
 import { ParticleCanvas } from '@/components/ParticleCanvas'
@@ -73,7 +74,7 @@ export function IndustryFork() {
         className="pointer-events-none relative z-10 mx-auto max-w-[1280px] px-6 py-16 lg:py-20"
         style={{ opacity: isLeaving ? 0 : 1, transition: `opacity ${durationMs}ms ease-in-out` }}
       >
-        <Link
+        <LocaleLink
           to="/industries"
           onClick={(event) => goTo('/industries', event)}
           className="pointer-events-auto inline-flex items-center gap-1 text-sm text-ash-gray hover:text-bone-white"
@@ -82,7 +83,7 @@ export function IndustryFork() {
             <path d="M19 12H5M11 18l-6-6 6-6" />
           </svg>
           {locale === 'ru' ? 'Все индустрии' : 'All industries'}
-        </Link>
+        </LocaleLink>
 
         <div className="mx-auto max-w-2xl text-center">
           <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em]">
@@ -97,7 +98,7 @@ export function IndustryFork() {
         </div>
 
         <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
-          <Link
+          <LocaleLink
             to={readyTourPath}
             onClick={(event) => goTo(readyTourPath, event)}
             className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-8 text-center transition-colors hover:border-electric-iris/60"
@@ -112,9 +113,9 @@ export function IndustryFork() {
                   ? 'Для этой отрасли пока нет готовой программы — посмотрите весь каталог экспедиций.'
                   : "No ready itinerary for this sector yet — browse the full expedition catalog."}
             </p>
-          </Link>
+          </LocaleLink>
 
-          <Link
+          <LocaleLink
             to={constructorPath}
             onClick={(event) => goTo(constructorPath, event)}
             className="pointer-events-auto rounded-2xl border border-black/10 bg-surface/60 p-8 text-center transition-colors hover:border-electric-iris/60"
@@ -125,7 +126,7 @@ export function IndustryFork() {
                 ? 'Выберите формат (2 или 5 дней) и отметьте компании — мы соберём программу на основе вашего списка.'
                 : 'Pick a format (2 or 5 days) and mark companies — we’ll assemble the program from your list.'}
             </p>
-          </Link>
+          </LocaleLink>
         </div>
       </div>
     </section>
