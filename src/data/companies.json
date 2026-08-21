@@ -1798,8 +1798,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Beijing.",
-      "desc_ru": "Робототехника и беспилотные системы, Пекин.",
+      "desc_en": "Founded 2014 in Beijing. Leading maker of hotel service robots — the \"Run\" series delivers items to guest rooms and operates elevators autonomously; the \"Sail\" robot serves government buildings. Holds 1,000+ patents, deployed in 15,000+ hotels, has served over 100 million guests. Backed by iFlytek, Tencent, Trip.com and Alibaba. Listed on the Hong Kong Stock Exchange on October 16, 2025, valued around HK$9.8 billion.",
+      "desc_ru": "Основана в 2014 году в Пекине. Крупнейший производитель сервисных робо-курьеров для отелей — серия «Run» доставляет вещи по номерам, вызывает лифты; робот «Sail» работает в госучреждениях. Свыше 1000 патентов, роботы установлены в 15000+ отелях, обслужено более 100 млн гостей. Среди инвесторов — iFlytek, Tencent, Trip.com, Alibaba. 16 октября 2025 года провела IPO на Гонконгской бирже, капитализация около HK$9,8 млрд.",
       "country": "cn"
     },
     {
@@ -4358,8 +4358,8 @@
       "own_supplier": true,
       "category_en": "Quadrupeds / inspection",
       "category_ru": "Робособаки / инспекция",
-      "desc_en": "X20/X30 quadrupeds; substation & tunnel inspection; thermal.",
-      "desc_ru": "Робособаки X20/X30; инспекция подстанций и тоннелей; тепловизоры.",
+      "desc_en": "Founded 2017 in Hangzhou by Zhu Qiuguo and Li Chao. Builds the \"Jueying\" quadruped robot dog line: the X20 (2023) for power-grid and tunnel inspection, industrial O&M and security patrol; the X30 handles rugged terrain with thermal-imaging payloads. Named a Hangzhou \"quasi-unicorn\" (2022). Raised over $140M across 4 rounds; secured RMB 500M (~$70M) in 2024-2025 from CMB International, China AMC, China Telecom and China Unicom.",
+      "desc_ru": "Основана в 2017 году в Ханчжоу (Чжу Цюго, Ли Чао). Разрабатывает робособак серии «Цзюеин»: X20 (2023) — для энергоинспекции, промобслуживания, пожарной разведки и патрулирования; X30 — для сложной местности, с тепловизорами. Признана «квази-единорогом» Ханчжоу (2022). Привлекла свыше $140 млн за 4 раунда; в 2024–2025 гг. получила ¥500 млн (~$70 млн) от CMB International, China AMC, China Telecom и China Unicom.",
       "country": "cn",
       "logo": "/logos/deeprobotics.png"
     },
@@ -4373,8 +4373,8 @@
       "own_supplier": true,
       "category_en": "Neuro-interfaces / components",
       "category_ru": "Нейроинтерфейсы / компоненты",
-      "desc_en": "Non-invasive neuro-interfaces & bionic prosthetics; human-robot interface.",
-      "desc_ru": "Неинвазивные нейроинтерфейсы и бионические протезы; интерфейс человек-робот.",
+      "desc_en": "Founded 2015 in Hangzhou by Harvard alumnus Han Bicheng; ranks among Hangzhou's \"Six Little Dragons\" alongside DeepSeek. Develops non-invasive EEG brain-computer interfaces and bionic prosthetic hands. Over 10 years it closed 6 funding rounds raising roughly RMB 2.5 billion (~$285M) — second only to Neuralink globally — reaching a valuation above RMB 12 billion, China's first BCI unicorn. Reportedly preparing a Hong Kong or mainland listing.",
+      "desc_ru": "Основана в 2015 году в Ханчжоу выпускником Гарварда Хан Бичэном; входит в число «шести маленьких драконов» Ханчжоу наряду с DeepSeek. Разрабатывает неинвазивные нейроинтерфейсы (ЭЭГ) и бионические протезы рук. За 10 лет провела 6 раундов финансирования на сумму около ¥2,5 млрд (~$285 млн) — второй результат в мире после Neuralink; оценка превысила ¥12 млрд, первый в Китае единорог в сфере BCI. Готовится к листингу в Гонконге или материковом Китае.",
       "country": "cn",
       "logo": "/logos/brainco.png"
     },
@@ -4403,8 +4403,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Hangzhou.",
-      "desc_ru": "Робототехника и беспилотные системы, Ханчжоу.",
+      "desc_en": "Hangzhou Shenhao Technology (SZ: 300853), founded 2002, listed on the Shenzhen Stock Exchange in 2020. Specializes in robots for power-grid and railway inspection and fault diagnosis: wheeled and tracked substation inspection robots, catenary and rail-mounted inspection robots, plus intelligent monitoring and diagnostic systems for industrial equipment. Won the First Prize of China's 2024 Mechanical Industry Science and Technology Award.",
+      "desc_ru": "Hangzhou Shenhao Technology (SZ: 300853) основана в 2002 году, листинг на Шэньчжэньской бирже — 2020 год. Специализируется на роботах для инспекции энергосетей и железных дорог: колёсные и гусеничные роботы для подстанций, роботы для контактной сети, системы мониторинга и диагностики неисправностей оборудования. Получила первую премию отраслевой научно-технической награды машиностроения КНР (2024).",
       "country": "cn"
     },
     {
@@ -4643,8 +4643,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Suzhou.",
-      "desc_ru": "Робототехника и беспилотные системы, Сучжоу.",
+      "desc_en": "Ecovacs Robotics was founded in 1998 in Suzhou and has traded on the Shanghai Stock Exchange (603486) since 2018. It is among the world's largest makers of household service robots, offering robotic vacuum cleaners, window cleaners, air purifiers and lawn mowers under the Ecovacs and DEEBOT brands. 2024 revenue reached RMB 16.5 billion, the largest in the industry, with a market capitalization of roughly $5 billion. Products are sold in over 100 countries.",
+      "desc_ru": "Ecovacs Robotics основана 11 марта 1998 года в Сучжоу; листинг на Шанхайской бирже (603486) с 28 мая 2018 года. Один из крупнейших в мире производителей бытовых сервисных роботов: роботы-пылесосы, мойщики окон, воздухоочистители и роботы-газонокосилки под брендом Ecovacs, а также суббренд DEEBOT. Выручка за 2024 год достигла ¥16,5 млрд — крупнейший показатель в отрасли; рыночная капитализация около $5 млрд. Продукция продаётся более чем в 100 странах.",
       "country": "cn",
       "logo": "/logos/ecovacs.png"
     },
@@ -4897,8 +4897,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Suzhou.",
-      "desc_ru": "Робототехника и беспилотные системы, Сучжоу.",
+      "desc_en": "Dreame Technology was founded in 2017 in Suzhou by Yu Hao, whose team grew out of Tsinghua's student-run \"Sky Workshop\" makerspace. It makes robot vacuums, cordless stick and wet-dry vacuums, robotic lawn mowers and hair dryers built around high-speed digital motors and obstacle-avoidance AI. Revenue grew tenfold in 2020-2022; products served over 21 million households as of mid-2024. Total funding reached $578M, including a $563M Series C round in 2021.",
+      "desc_ru": "Dreame Technology основана в 2017 году в Сучжоу Юй Хао, чья команда выросла из студенческой мастерской «Sky Workshop» Университета Цинхуа. Производит роботы-пылесосы, беспроводные и моющие пылесосы, роботы-газонокосилки и фены с высокоскоростными моторами и объездом препятствий. Выручка выросла в 10 раз за 2020–2022 годы; продукцией пользуются более 21 млн домохозяйств (июнь 2024). Привлекла $578 млн, включая Series C на $563 млн (2021).",
       "country": "cn",
       "logo": "/logos/dreame-magic-lab.svg"
     },
@@ -5947,8 +5947,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotics & Autonomous Systems · Shenyang.",
-      "desc_ru": "Робототехника и беспилотные системы, Шэньян.",
+      "desc_en": "Shenyang SIASUN Robot & Automation was founded in 2000 under the Chinese Academy of Sciences by Qu Daokui; listed on the Shenzhen Stock Exchange (SZ: 300024). It runs China's largest robotics industrial base by floor area, spanning industrial, mobile, special-purpose and service robots plus systems for smart factories and logistics. Its facility, operational since 2017, was China's first certified Industry 4.0 demonstration plant.",
+      "desc_ru": "Shenyang SIASUN Robot & Automation основана в 2000 году под эгидой Академии наук КНР Цюй Даокуем; листинг на Шэньчжэньской бирже (SZ: 300024). Крупнейшая роботехническая база Китая по площади, топ-10 предприятие отрасли: промышленные, мобильные, специальные и сервисные роботы, системы для интеллектуальных фабрик, логистики и транспорта. Завод с 2017 года — первый в Китае сертифицированный демопроект «Индустрии 4.0».",
       "country": "cn",
       "logo": "/logos/siasun.png"
     },
@@ -6361,8 +6361,8 @@
       "own_supplier": true,
       "category_en": "Industrial / welding / cobots",
       "category_ru": "Пром / сварка / коботы",
-      "desc_en": "Industrial, welding, SCARA & delta robots, 3–800 kg; explosion-proof; exports to 100+ countries.",
-      "desc_ru": "Пром/сварка/SCARA/дельта, 3–800 кг; взрывозащита; экспорт 100+ стран.",
+      "desc_en": "EVST (formerly EVS Robotics) is an industrial and collaborative robot maker headquartered in Chengdu with manufacturing in Wenling, Zhejiang. Its lineup covers 4- and 6-axis arms with 3-800 kg payloads, cobots from 3-30 kg (including ATEX/IECEx explosion-proof variants), SCARA and delta robots, plus welding workstations. Products go to over 100 countries, with explosion-proof units in oil & gas, chemical and pharma sectors in 50+ countries.",
+      "desc_ru": "EVST (бывшая EVS Robotics) — производитель промышленных и коллаборативных роботов со штаб-квартирой в Чэнду и производством в Вэньлине (Чжэцзян). Выпускает 4- и 6-осевые манипуляторы 3–800 кг, коботы 3–30 кг (включая взрывозащищённые ATEX/IECEx), SCARA- и дельта-роботы, сварочные комплексы. Экспортирует более чем в 100 стран, взрывозащищённые роботы — в 50+ стран для нефтегаза, химии и фармацевтики.",
       "country": "cn",
       "logo": "/logos/evst.png"
     },
@@ -6376,8 +6376,8 @@
       "own_supplier": true,
       "category_en": "Cobots / robot arms",
       "category_ru": "Коботы / роборуки",
-      "desc_en": "Elfin/Echo cobots; listed HK 1021.HK; partner of Huawei Cloud & Keyence.",
-      "desc_ru": "Коботы Elfin/Echo; публичная HK 1021.HK; партнёр Huawei Cloud, Keyence.",
+      "desc_en": "Guangdong Huayan Robotics was incorporated in 2017 and is based in Foshan. It develops the Elfin (Basic/Pro/Ex) cobot series and core motion components — frameless torque motors, servo drives and joint modules. In December 2025 it launched a high-speed Elfin cobot (370°/s) and the heavy-duty S60 (60kg). Partners with Keyence on machine vision. Listed on the Hong Kong Stock Exchange (1021.HK) on March 30, 2026, raising over RMB 1 billion.",
+      "desc_ru": "Guangdong Huayan Robotics зарегистрирована в 2017 году, штаб-квартира в Фошане. Разрабатывает коллаборативные роботы серий Elfin (Basic/Pro/Ex) и компоненты движения — безрамочные моментные моторы, сервоприводы, модульные шарниры. В декабре 2025 представила скоростной кобот Elfin (370°/с) и тяжёлый S60 (60 кг). Партнёр Keyence по машинному зрению. 30 марта 2026 провела IPO на Гонконгской бирже (1021.HK), привлечено свыше ¥1 млрд.",
       "country": "cn",
       "logo": "/logos/huayan-robotics.png"
     },
@@ -6391,8 +6391,8 @@
       "own_supplier": true,
       "category_en": "Industrial / welding / cobots",
       "category_ru": "Пром / сварка / коботы",
-      "desc_en": "China's largest industrial-robot maker; in-house servo & CNC; 3–700 kg.",
-      "desc_ru": "Крупнейший производитель промроботов КНР; свои сервоприводы/ЧПУ; 3–700 кг.",
+      "desc_en": "Estun Automation was founded in 1993 in Nanjing and trades on the Shenzhen Stock Exchange (002747). It is China's largest domestically-owned industrial robot maker by market share (Q1 2025), producing over 120,000 units in 2024 — surpassing FANUC and ABB domestically. It builds its own CNC systems, servo drives and robots spanning 3-700 kg payloads for metal forming, textiles and automotive. A second plant in Poland targets 2026 production.",
+      "desc_ru": "Estun Automation основана в 1993 году в Нанкине; листинг на Шэньчжэньской бирже (002747). Крупнейший китайский производитель промроботов среди национальных компаний по доле рынка (1 кв. 2025): свыше 120000 единиц в 2024 году, впервые обошла FANUC и ABB на внутреннем рынке. Собственное производство ЧПУ, сервоприводов и промроботов 3–700 кг для металлообработки, текстиля, упаковки и автопрома. Строит второй завод в Лодзи (Польша), запуск — 2026 год.",
       "country": "cn",
       "logo": "/logos/estun.svg"
     },
@@ -6406,8 +6406,8 @@
       "own_supplier": true,
       "category_en": "Industrial / painting / welding",
       "category_ru": "Пром / окраска / сварка",
-      "desc_en": "ER series, painting & welding cells; owns European integrator assets.",
-      "desc_ru": "Серия ER, окраска и сварочные ячейки; европейские интеграторские активы.",
+      "desc_en": "EFORT Intelligent Robot was established in 2007 in Wuhu, Anhui, listing on Shanghai's STAR board in 2020. Its first industrial robot, the ER165, was registered as a Chinese enterprise innovation; the ER series spans welding, painting, grinding and palletizing. Through Italian acquisitions — CMA Robotics, Evolut, Robox, Webb Robotica and WFC Group — EFORT gained system-integration capacity and a foothold in Europe's automotive robotics market.",
+      "desc_ru": "EFORT Intelligent Robot основана в 2007 году в Уху (Аньхой); листинг на сегменте STAR Шанхайской биржи с июля 2020 года. Первый промышленный робот ER165 занесён в реестр инноваций китайских предприятий; линейка ER охватывает сварку, покраску, шлифовку, паллетирование. Через европейские приобретения — CMA Robotics, Evolut, Robox, Webb Robotica и WFC Group (Италия) — компания получила интеграторские мощности и присутствие на автомобильном рынке Европы.",
       "country": "cn",
       "logo": "/logos/efort.png"
     },
@@ -6421,8 +6421,8 @@
       "own_supplier": true,
       "category_en": "Industrial / welding",
       "category_ru": "Пром / сварка",
-      "desc_en": "SR/SD series; proprietary controllers & servo systems.",
-      "desc_ru": "Серии SR/SD; свои контроллеры и сервосистемы.",
+      "desc_en": "Shanghai STEP Electric was founded in 1995 and has traded on the Shenzhen Stock Exchange since 2010 (code 002527). A recognized national high-tech enterprise, it produces the SR series of articulated robots (handling, palletizing, assembly) and the compact SD series with built-in cabling, alongside its own SRC controller and servo systems, spanning 1-600 kg payloads, with full production-line integration.",
+      "desc_ru": "Shanghai STEP Electric основана в 1995 году; листинг на Шэньчжэньской бирже с 2010 года (код 002527). Национальное высокотехнологичное предприятие, выпускающее промроботы серий SR (шарнирные, для перемещения, паллетирования, сборки) и SD (компактные, со встроенной проводкой), собственные контроллеры (система SRC) и сервоприводы. Освоила системы управления для роботов 1–600 кг, предлагает решения по интеграции производственных линий.",
       "country": "cn",
       "logo": "/logos/step.png"
     },
@@ -6436,8 +6436,8 @@
       "own_supplier": true,
       "category_en": "Cobots",
       "category_ru": "Коботы",
-      "desc_en": "Zu 3–18, MiniCobo, C5 cobots; 3–30 kg; fenceless operation.",
-      "desc_ru": "Коботы Zu 3–18, MiniCobo, C5; 3–30 кг; без ограждений.",
+      "desc_en": "JAKA Robotics was founded in 2014 in Shanghai by a group of engineers and robotics scholars, with a production base in Changzhou. It makes the Zu series of collaborative robots (launched 2017), plus the MiniCobo and C5. It closed industry-record rounds: a $50M Series C/C+ (2021) and a $150M Series D (2022) backed by Temasek, SoftBank Vision Fund 2 and Prosperity7 Ventures. In 2023 it filed for a RMB 750M IPO on Shanghai's STAR Market.",
+      "desc_ru": "JAKA Robotics основана в 2014 году в Шанхае инженерами-робототехниками; производственная база — в Чанчжоу. Выпускает коллаборативные роботы серии Zu (с 2017 года), MiniCobo и C5. Привлекла рекордные для отрасли раунды: Series C/C+ на $50 млн (2021) и Series D на $150 млн (2022) от Temasek, SoftBank Vision Fund 2 и Prosperity7 Ventures. В 2023 году подала заявку на IPO на STAR Шанхайской биржи объёмом ¥750 млн.",
       "country": "cn",
       "logo": "/logos/jaka.png"
     },
@@ -6451,8 +6451,8 @@
       "own_supplier": true,
       "category_en": "Cobots / desktop / education",
       "category_ru": "Коботы / настольные / образование",
-      "desc_en": "CR/Nova, MG400, Magician; from classroom units to 20 kg cobots.",
-      "desc_ru": "CR/Nova, MG400, Magician; от учебных до 20 кг.",
+      "desc_en": "Dobot (Shenzhen Yuejiang Technology) was founded in 2015 in Shenzhen by Liu Peichao. It began with a successful Kickstarter campaign for the desktop Dobot Magician arm, later expanding into the CR and Nova collaborative robot series and the MG400 arm, spanning educational units up to 20kg payloads. The company raised multiple funding rounds through a Series D in 2022, and listed on the Hong Kong Stock Exchange (2432.HK) on December 23, 2024.",
+      "desc_ru": "Dobot (Shenzhen Yuejiang Technology) основана в 2015 году в Шэньчжэне Лю Пэйчао. Начинала с успешной Kickstarter-кампании настольного манипулятора Dobot Magician, позже расширила линейку до промышленных коботов серий CR и Nova, а также манипулятора MG400 — от учебных моделей до грузоподъёмности 20 кг. Прошла несколько раундов финансирования вплоть до Series D (2022). 23 декабря 2024 года провела IPO на Гонконгской бирже (2432.HK).",
       "country": "cn",
       "logo": "/logos/dobot.png"
     },
@@ -6466,8 +6466,8 @@
       "own_supplier": true,
       "category_en": "Industrial / palletizing",
       "category_ru": "Пром / паллетирование",
-      "desc_en": "Palletizing, stamping, welding; direct distribution, 18 years.",
-      "desc_ru": "Паллетирование, штамповка, сварка; прямое дистрибьюторство, 18 лет.",
+      "desc_en": "Borunte Robot was founded in 2008 in Dongguan, Guangdong, with registered capital of RMB 225 million. A high-tech enterprise producing industrial robots and manipulators for injection molding, stamping, palletizing, welding, grinding and material handling — over 60 equipment types used in packaging, electronics and metalworking. It sells through a direct distribution network and listed on China's National Equities Exchange (\"New Third Board\") in 2014.",
+      "desc_ru": "Borunte Robot основана в 2008 году в Дунгуане (Гуандун), уставный капитал ¥225 млн. Высокотехнологичное предприятие, выпускающее промышленные роботы и манипуляторы для литья под давлением, штамповки, паллетирования, сварки, шлифовки и обработки материалов — более 60 типов оборудования, применяемого в упаковке, электронике и металлообработке. Работает через прямую дистрибьюторскую сеть; вышла на «Новую третью биржу» Китая 24 января 2014 года.",
       "country": "cn",
       "logo": "/logos/borunte.png"
     },
@@ -6481,8 +6481,8 @@
       "own_supplier": true,
       "category_en": "Special / inspection",
       "category_ru": "Специальные / инспекция",
-      "desc_en": "Magnetic wall-climbing robots for tanks, ships, steel structures.",
-      "desc_ru": "Магнитные роботы-верхолазы: резервуары, суда, металлоконструкции.",
+      "desc_en": "KunRobot is a Chinese developer of magnetic wall-climbing robots for inspecting industrial assets — storage tanks, ship hulls and steel structures. Its robots hold onto vertical steel surfaces via magnetic wheels or tracks, performing visual inspection, cleaning and anti-corrosion work in hazardous zones, replacing manual labor at height and inside confined spaces — a fast-growing niche in China's special-purpose inspection robotics.",
+      "desc_ru": "KunRobot — китайский разработчик роботов-верхолазов с магнитной адгезией для инспекции промышленных объектов: резервуаров, судовых корпусов и металлоконструкций. Роботы удерживаются на вертикальных стальных поверхностях магнитными колёсами или гусеницами, выполняя осмотр, очистку и антикоррозийные работы в опасных зонах, заменяя ручной труд на высоте и в замкнутых пространствах — быстрорастущая ниша специальной инспекционной робототехники Китая.",
       "country": "cn",
       "logo": "/logos/kunrobot.png"
     },
@@ -6496,8 +6496,8 @@
       "own_supplier": true,
       "category_en": "Robot hands / components",
       "category_ru": "Роборуки / компоненты",
-      "desc_en": "Linker Hand anthropomorphic hands with tactile sensors.",
-      "desc_ru": "Антропоморфные кисти Linker Hand с тактильными сенсорами.",
+      "desc_en": "LinkerBot (Beijing) was founded in 2023 by Alex Zhou. It develops the Linker Hand series of anthropomorphic robotic hands — the L10, L20, L30 and O7 reach up to 42 degrees of freedom versus the human hand's 27, with tactile sensors and cameras on fingertips, palm and wrist plus e-skin. It was first to mass-produce such hands, shipping over 1,000 units. In April 2026 it closed a Series B+ round at a $3 billion valuation backed by Ant Group and HongShan.",
+      "desc_ru": "LinkerBot (Пекин) основана в 2023 году Алексом Чжоу. Разрабатывает антропоморфные кисти серии Linker Hand — модели L10, L20, L30 и O7 достигают до 42 степеней свободы (у руки человека — 27), с тактильными сенсорами и камерами на пальцах, ладони и запястье, включая электронную кожу. Первой начала массовое производство таких кистей — свыше 1000 единиц. В апреле 2026 привлекла Series B+ при оценке $3 млрд от Ant Group и HongShan.",
       "country": "cn",
       "logo": "/logos/linkerbot.png"
     },
@@ -6511,8 +6511,8 @@
       "own_supplier": true,
       "category_en": "Construction",
       "category_ru": "Строительные",
-      "desc_en": "Country Garden subsidiary; flooring, plastering, masonry, BIM.",
-      "desc_ru": "Дочка Country Garden; полы, штукатурка, кладка, BIM.",
+      "desc_en": "Bright Dream Robotics is a wholly-owned subsidiary of Country Garden, established in 2018 in Shunde, Foshan, Guangdong. It focuses on construction robots, BIM digitalization and industrialized building methods, with over 50 robot types covering plastering, painting, bricklaying and floor finishing. By late 2022, 32 models were in commercial use across 600+ projects in 30 provinces. The company has filed over 3,000 patent applications, with R&D staff exceeding 3,300.",
+      "desc_ru": "Bright Dream Robotics — 100%-ная дочерняя компания Country Garden, основана в 2018 году в Шуньдэ (Фошань, Гуандун). Специализируется на строительных роботах, цифровизации BIM и индустриализированном строительстве. Линейка включает более 50 типов роботов: штукатурные, малярные, кладочные, плиточные и напольные. К концу 2022 года 32 модели применялись на 600+ объектах в 30 провинциях Китая. Подано свыше 3000 патентных заявок, штат R&D превышает 3300 человек.",
       "country": "cn",
       "logo": "/logos/bright-dream-robotics.png"
     },
@@ -6526,8 +6526,8 @@
       "own_supplier": true,
       "category_en": "Construction",
       "category_ru": "Строительные",
-      "desc_en": "Partners CSCEC/CRCC; 500+ sites; exports to 10+ countries.",
-      "desc_ru": "Партнёры CSCEC/CRCC; 500+ объектов; экспорт 10+ стран.",
+      "desc_en": "Fangshi Robotics (方石机器人/方石科技), founded 2019 in Beijing/Suzhou, builds specialized construction robots — spraying/grinding, tile-laying, flooring, and surveying units — on a modular platform combining BIM, AI and IoT. Over half the R&D team holds master's or PhD degrees. Deployed on ByteDance's Shenzhen project and 500+ sites, with exports to 10+ countries. Raised a Series A+ round of tens of millions of RMB from a Jinan investment fund.",
+      "desc_ru": "Fangshi Robotics (方石机器人/方石科技) основана в 2019 году (Пекин/Сучжоу). Разрабатывает специализированных строительных роботов — для напыления и шлифовки, укладки плитки, устройства полов, геодезических измерений — на базе универсальной платформы с BIM, ИИ и IoT. Более 50% R&D-команды — магистры и кандидаты наук. Роботы работали на объектах ByteDance в Шэньчжэне, развёрнуты на 500+ площадках, экспортируются в 10+ стран. Получила раунд A+ на десятки млн юаней от инвестфонда Цзинань.",
       "country": "cn",
       "logo": "/logos/fangshi-robotics.png"
     },
@@ -6541,8 +6541,8 @@
       "own_supplier": true,
       "category_en": "Warehouse AMR",
       "category_ru": "Складские AMR",
-      "desc_en": "World leader in deployed warehouse robots; WMS integration.",
-      "desc_ru": "Мировой лидер по внедрённым складским роботам; интеграция с WMS.",
+      "desc_en": "Geek+ (极智嘉), founded in Beijing in 2015, is the world's largest provider of deployed autonomous mobile warehouse robots with deep WMS integration. In July 2025 it became the first AMR robotics company to IPO, listing on the Hong Kong Stock Exchange, raising roughly $281M at a ~$2.8B valuation. Over 56,000 robots sold across 950+ warehouses in 40+ countries; clients include Nike, Decathlon, Walmart and Dell. Total funding raised exceeds $660M.",
+      "desc_ru": "Geek+ (极智嘉) основана в 2015 году в Пекине, крупнейший в мире поставщик мобильных складских роботов (AMR) с глубокой интеграцией в WMS. В июле 2025 стала первой компанией сектора AMR, вышедшей на IPO (Гонконгская биржа), привлекла ~$281 млн при капитализации ~$2,8 млрд. Продано свыше 56 000 роботов, установленных в 950+ складах в 40+ странах; среди клиентов Nike, Decathlon, Walmart, Dell. Суммарные инвестиции — свыше $660 млн.",
       "country": "cn",
       "logo": "/logos/geek.png"
     },
@@ -6571,8 +6571,8 @@
       "own_supplier": true,
       "category_en": "Sorting / DWS",
       "category_ru": "Сортировка / DWS",
-      "desc_en": "Sorting, DWS, 3D cameras, container unloading; DHL & JD clients.",
-      "desc_ru": "Сортировка, DWS, 3D-камеры, разгрузка контейнеров; клиенты DHL, JD.",
+      "desc_en": "Senad Robot (Shanghai), a subsidiary of Sinader Technology founded in 2017, specializes in DWS (dimensioning-weighing-scanning) systems, parcel sorting, and container-unloading equipment using 3D machine-vision cameras. It holds over 100 patents and carries Shanghai's 'Specialized, Refined, New' enterprise designation. Funding rounds include a 2021 Series A (RMB 30M, led by China Merchants) and Series B/B++ rounds totaling over RMB 100M (2023–2025, Puhua Capital). Clients include DHL and JD.",
+      "desc_ru": "Senad Robot (Shanghai) — дочерняя компания Sinader Technology, основана в 2017 году. Специализируется на DWS-системах (измерение габаритов/веса/сканирование), сортировке посылок и разгрузке контейнеров с 3D-камерами машинного зрения. Более 100 патентов, статус шанхайского предприятия «специализированное, узкое, новое». Прошла раунды A (30 млн юаней, 2021, China Merchants) и B/B++ (свыше 100 млн юаней суммарно, 2023–2025, Puhua Capital). Среди клиентов — DHL, JD.",
       "country": "cn",
       "logo": "/logos/senad.png"
     },
@@ -6601,8 +6601,8 @@
       "own_supplier": true,
       "category_en": "Service / greeters",
       "category_ru": "Сервисные / промоутеры",
-      "desc_en": "Leopard series + coffee robot; strong voice/dialogue.",
-      "desc_ru": "Серия Leopard + кофе-робот; сильная голосовая часть.",
+      "desc_en": "Orion Star (猎户星空), founded in Beijing in September 2016 and backed by Cheetah Mobile founder Fu Sheng, has built a fully self-developed AI stack for robots — voice interaction, computer vision, robotic arms, and indoor navigation. Its flagship 'Baoxiaomi'/Leopard line covers greeting, restaurant, hotel and retail robots, alongside the 'Coffee Master' automated coffee-making robot. The open OrionOS platform lets third parties build applications on top of its robots.",
+      "desc_ru": "Orion Star (猎户星空) основана в сентябре 2016 года в Пекине, при поддержке Фу Шэна (основателя Cheetah Mobile). Компания самостоятельно разработала полный стек ИИ для роботов: голос, зрение, манипулятор, навигацию. Флагманская линейка «Baoxiaomi»/Leopard — роботы для ресепшн, ресторанов, отелей, ретейла; отдельный продукт — кофе-робот «Coffee Master» (智咖大师). Открытая платформа OrionOS позволяет сторонним разработчикам создавать приложения для роботов компании.",
       "country": "cn",
       "logo": "/logos/orion-star.png"
     },
@@ -6616,8 +6616,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "MATRIX-1/3; founder ex-Tesla Optimus design; 10k units/yr plant.",
-      "desc_ru": "MATRIX-1/3; основатель — экс-дизайн Tesla Optimus; завод 10 000 ед./год.",
+      "desc_en": "Matrix Robotics (上海矩阵超智), founded in Shanghai in April 2024 by Zhang Haixing, former head of Tesla's China Design Center who worked on Optimus, the Robovan and autonomous-taxi programs. Its flagship MATRIX-1 is a full-size biped humanoid, 1.8m tall and 67kg, with 77 body degrees of freedom plus 22 in its hands, capable of opening doors, face recognition and precise object manipulation. It made its global debut at WAIC 2025 and is positioned as a direct rival to Figure AI.",
+      "desc_ru": "Matrix Robotics (上海矩阵超智) основана в апреле 2024 года в Шанхае Чжан Хайсином — бывшим главой китайского дизайн-центра Tesla, работавшим над Optimus, Robovan и автономным такси. Флагман MATRIX-1 — полноразмерный двуногий гуманоид ростом 1,8 м и весом 67 кг, с 77 степенями свободы тела и 22 — в руках; способен открывать двери, распознавать лица, манипулировать объектами. Мировая премьера — на WAIC 2025; компания позиционирует MATRIX-1 как конкурента Figure AI.",
       "country": "cn",
       "logo": "/logos/matrix-robotics.png"
     },
@@ -6691,8 +6691,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "Z-series (bipedal) & H-series (wheeled); mass-market focus.",
-      "desc_ru": "Серии Z (двуногие) и H (колёсные); ставка на массовость.",
+      "desc_en": "Zerith (零次方机器人), founded in January 2025 and incubated by Tsinghua University's AI & Robot Lab, is led by a mostly post-2000-born founding team. Its Z-series (Z1) is a bipedal humanoid with terrain-adaptive locomotion and a flexible display screen, while the H-series (H1) is a wheeled service robot for hotels/restaurants running the Zerith-V0 model on a 'cognition-behavior' dual system, able to clean and mop for six hours continuously. Funding is in the hundreds of millions of RMB, with order volumes in the millions.",
+      "desc_ru": "Zerith (零次方机器人) основана в январе 2025 года, инкубирована лабораторией ИИ и робототехники Университета Цинхуа. Команда — преимущественно специалисты «после 2000 года рождения». Серия Z1 — двуногий гуманоид с адаптацией к сложным поверхностям и гибким экраном; серия H1 — колёсный робот для отелей и ресторанов на модели Zerith-V0 с архитектурой «когниция-поведение», способный убирать и мыть полы 6 часов непрерывно. Финансирование — сотни миллионов юаней, заказы — на миллионы.",
       "country": "cn",
       "logo": "/logos/zerith.png"
     },
@@ -6706,8 +6706,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / mobile",
       "category_ru": "Гуманоиды / мобильные",
-      "desc_en": "X7 Pro/EDU, Puppy; sorting, retail.",
-      "desc_ru": "X7 Pro/EDU, Puppy; сортировка, розница.",
+      "desc_en": "DAX Robotics (大咖机器人), founded May 2025 in Beijing (legal representative Wang Kun), positions itself as a 'system-level' embodied-AI infrastructure provider for retail, logistics and elder-care. Its X7 Pro/EDU is a 170cm humanoid with 26 degrees of freedom, dual seven-axis arms, and wrist/head depth cameras, priced at RMB 69,800–89,800 — roughly one-fifth of comparable competitors. It has logged over 1,000 intended orders, concentrated in retail and pharmacy sorting applications.",
+      "desc_ru": "DAX Robotics (大咖机器人) основана в мае 2025 года в Пекине (законный представитель Ван Кунь), позиционируется как поставщик «системной» инфраструктуры воплощённого ИИ для ретейла, логистики и ухода за пожилыми. Линейка X7 Pro/EDU — гуманоид ростом 170 см, 26 степеней свободы, две 7-осевые руки, камеры глубины на запястьях и голове; продаётся по 69 800–89 800 юаней — примерно в 5 раз дешевле аналогов. Свыше 1000 предзаказов, преимущественно для сортировки в ретейле и аптеках.",
       "country": "cn",
       "logo": "/logos/dax-robotics.png"
     },
@@ -6721,8 +6721,8 @@
       "own_supplier": true,
       "category_en": "Wheeled humanoids",
       "category_ru": "Колёсные гуманоиды",
-      "desc_en": "O1; embodied-AI brain; team from Tsinghua/Huawei/Microsoft.",
-      "desc_ru": "O1; «мозг» воплощённого ИИ; команда Цинхуа/Huawei/Microsoft.",
+      "desc_en": "QIO Robotics (启物科技), founded July 2024 in Beijing, focuses on building the embodied-AI 'brain' for humanoid robots around a 'data + compute' approach. Its flagship O1 is a general-purpose humanoid aimed at forward-fulfillment warehouses/dark stores, with environment perception and autonomous navigation, capable of handling 1,000+ SKUs at roughly twice human picking speed. The team includes graduates from Tsinghua, Peking University and CAS plus veterans of Huawei, Microsoft and Baidu; it has secured tens of millions of RMB in orders from listed companies.",
+      "desc_ru": "QIO Robotics (启物科技) основана в июле 2024 года в Пекине; специализируется на «мозге» воплощённого ИИ для гуманоидов на базе технологического подхода «данные + вычисления». Флагман O1 — универсальный гуманоид для доготовых складов/дарк-сторов, с распознаванием среды и автономной навигацией, способный работать с 1000+ SKU со скоростью вдвое выше человеческой. Команда — выпускники Цинхуа, Пекинского университета, CAS, экс-сотрудники Huawei, Microsoft, Baidu; заключены заказы на десятки млн юаней с публичными компаниями.",
       "country": "cn",
       "logo": "/logos/qio-robotics.png"
     },
@@ -6736,8 +6736,8 @@
       "own_supplier": true,
       "category_en": "Humanoids / service",
       "category_ru": "Гуманоиды / сервисные",
-      "desc_en": "R2/LingBot; Ant Group unit; universal robot brain, licensing.",
-      "desc_ru": "R2/LingBot; подразделение Ant Group; универсальный «мозг», лицензии.",
+      "desc_en": "Robbyant (蚂蚁灵波科技, Shanghai Ant Lingbo Technology), an Ant Group subsidiary founded in late 2024 in Shanghai, develops the open-source LingBot family of foundation models (LingBot-VLA, the video-action model LingBot-VA, and LingBot Depth) as a universal, licensable 'brain' meant to work across robot makers. Its hardware line includes the R1/R2 dual-armed wheeled humanoids for hospitality, museums and cooking. The company's stated focus areas are elder care, medical assistance, and household tasks.",
+      "desc_ru": "Robbyant (蚂蚁灵波科技, Shanghai Ant Lingbo Technology) — подразделение Ant Group, основано в конце 2024 года в Шанхае. Разрабатывает открытую линейку фундаментальных моделей LingBot (VLA, video-action модель LingBot-VA, LingBot Depth) как универсальный «мозг» для роботов разных производителей, с открытым исходным кодом и лицензированием для коммерческого применения. Аппаратные продукты — колёсные двурукие гуманоиды R1/R2 для гостеприимства, музеев, кулинарии; фокус — уход за пожилыми, медицинская помощь, домашние задачи.",
       "country": "cn",
       "logo": "/logos/robbyant.png"
     },
@@ -6811,8 +6811,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "Tiangong; national innovation center, open platform.",
-      "desc_ru": "Tiangong; национальный инновационный центр, открытая платформа.",
+      "desc_en": "The Beijing Innovation Center of Humanoid Robotics (X-Humanoid, 北京人形机器人创新中心) is a national-level open platform based in Beijing's Yizhuang district. It developed the 'Tiangong' (天工) mother platform — the world's first full-size, purely electric-driven humanoid capable of human-like running (10 km/h average, 12 km/h top speed), standing 1.63m, weighing 56kg, with 42 degrees of freedom and 5.5 petaFLOPS of onboard compute. It also released the open embodied-AI platform 'Huisi Kaiwu' under a 'one brain, many machines' model for industry and academia.",
+      "desc_ru": "Пекинский инновационный центр гуманоидной робототехники (X-Humanoid, 北京人形机器人创新中心) — государственная открытая платформа в зоне Июйчжуан. Разработал материнскую платформу «Tiangong» (天工) — первого в мире полноразмерного гуманоида на чисто электрическом приводе, способного бегать по-человечески (в среднем 10 км/ч, максимум 12 км/ч); рост 1,63 м, вес 56 кг, 42 степени свободы, вычислительная мощность 5,5 петафлопс. Также выпустил открытую платформу воплощённого ИИ «Huisi Kaiwu» по принципу «один мозг — множество машин».",
       "country": "cn",
       "logo": "/logos/x-humanoid.png"
     },
@@ -6826,8 +6826,8 @@
       "own_supplier": true,
       "category_en": "Humanoids",
       "category_ru": "Гуманоиды",
-      "desc_en": "Adam full-size humanoid (167cm, 60-62kg, up to 41 DOF); open architecture for research use.",
-      "desc_ru": "Полноразмерный гуманоид Adam (167 см, 60-62 кг, до 41 степени свободы); открытая архитектура для исследовательских задач.",
+      "desc_en": "PNDbotics (柏奥尼克机器人), based in Ningbo, was founded in September 2023 by CEO Yan Xunge and CTO Cui Haotian, whose team has worked on bionic robotics since 2011. Its flagship Adam is a full-size humanoid — 167cm tall, 60–62kg, up to 41 degrees of freedom, 340N·m peak joint torque, and a biomimetic hip design based on human pelvic biomechanics; it learns locomotion via reinforcement learning rather than rigid modeling. Manufacturing hubs in Ningbo and Tianjin produce hundreds of units yearly, with exports to Europe, the US, Japan and South Korea; Adam also serves as the reference hardware for US firm Skild AI's model training.",
+      "desc_ru": "PNDbotics (柏奥尼克机器人, Ningbo) основана в сентябре 2023 года CEO Янь Сюньгэ и CTO Цуй Хаотянем; команда занимается технологиями бионических роботов с 2011 года. Флагман — полноразмерный гуманоид Adam: рост 167 см, вес 60–62 кг, до 41 степени свободы, пиковый момент суставов 340 Н·м, бионичный дизайн бедра на основе биомеханики таза человека; локомоция — через обучение с подкреплением, а не жёсткое математическое моделирование. Производство в Нинбо и Тяньцзине (сотни единиц в год), экспорт в Европу, США, Японию, Корею; Adam служит эталонной платформой для обучения моделей Skild AI (США).",
       "country": "cn",
       "logo": "/logos/pndbotics.png"
     },
@@ -6856,8 +6856,8 @@
       "own_supplier": true,
       "category_en": "Education kits",
       "category_ru": "Образовательные наборы",
-      "desc_en": "AI Module/Mini/Ultimate kits, preschool to high school.",
-      "desc_ru": "Наборы AI Module/Mini/Ultimate, от дошкольного до старших классов.",
+      "desc_en": "WhalesBot (鲸鱼机器人) is a STEM/AI education robotics company that released its AI Module building-robot kit in 2018. Its AI Module/Mini/Ultimate kit lineup spans kindergarten through university levels, uses proprietary smart servo motors, and supports five programming approaches — block-based, Scratch, Python, C and flowchart. As of 2024 the products are in use across more than 15,000 educational institutions in 51 countries.",
+      "desc_ru": "WhalesBot (鲸鱼机器人) — компания STEM/ИИ-образовательной робототехники, выпустившая конструктор AI Module в 2018 году. Линейка наборов AI Module/Mini/Ultimate охватывает уровни от детского сада до университета, использует собственные умные сервоприводы и поддерживает пять языков программирования: блочный, Scratch, Python, C и блок-схемы. По данным на 2024 год продукция применяется в 15 000+ учебных заведениях в 51 стране.",
       "country": "cn",
       "logo": "/logos/whalesbot.png"
     },
@@ -7267,8 +7267,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Robotic kiosks and service devices (profile pending verification).",
-      "desc_ru": "Роботизированные киоски, сервисные устройства (требует верификации).",
+      "desc_en": "Chuangjie Zhilian (创捷智联), a Shenzhen-based company founded by Hong Kong entrepreneur Lun Wenjing, makes unmanned smart-retail kiosks — coffee machines and ice-cream robots (since 2022) that produce a serving in under 30 seconds — deployed across Shenzhen's Guangming, Longgang, Longhua and Futian districts. Verifiable public information on the company's funding, headcount or revenue is very limited, and no such figures could be confirmed; this entry should be treated as incomplete pending further verification.",
+      "desc_ru": "Chuangjie Zhilian (创捷智联, Шэньчжэнь) основана гонконгским предпринимателем Лунь Вэньхуанем; выпускает автоматические киоски интеллектуального ретейла — кофейные аппараты и роботы для мороженого (с 2022 года), готовящие порцию менее чем за 30 секунд. Установки развёрнуты в районах Гуанмин, Лунган, Лунхуа и Футянь Шэньчжэня. Независимо проверяемых данных о финансировании, масштабе штата или выручке компании найти не удалось — публичная информация о ней крайне ограничена, поэтому приведённые сведения следует считать неполными.",
       "country": "cn"
     },
     {
@@ -8336,8 +8336,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Kitchen robots for soba, takoyaki and dishwashing.",
-      "desc_ru": "Кухонные роботы: соба, такояки, посудомоечные роботы.",
+      "desc_en": "Connected Robotics (コネクテッドロボティクス), founded in Tokyo in 2014 by Tetsuya Sawanobori (a Tokyo University/Kyoto University graduate) after his own burnout working in a restaurant kitchen, builds a lineup of kitchen robots: the OctoChef takoyaki robot, a dual-arm soba noodle boiling-and-rinsing robot, the Reita soft-serve ice cream machine, and an AI dishwashing robot, with a breakfast-cooking robot (Loraine) in development. It uses a hybrid business model of equipment purchase plus a roughly ¥250,000/month rental subscription.",
+      "desc_ru": "Connected Robotics (コネクテッドロボティクス) основана в 2014 году в Токио Тэцуей Саванобори (выпускник Токийского и Киотского университетов) после его личного опыта работы в ресторане. Линейка кухонных роботов включает OctoChef (такояки), робота для варки и промывки соба-лапши двумя манипуляторами, аппарат мягкого мороженого Reita и ИИ-робота для мойки посуды; в разработке — робот для завтраков Loraine. Модель монетизации гибридная: продажа оборудования плюс аренда около ¥250 000 в месяц.",
       "country": "jp"
     },
     {
@@ -8350,8 +8350,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Dark-kitchen automation robotics.",
-      "desc_ru": "Робототехника для автоматизации dark kitchen.",
+      "desc_en": "TechMagic (テックマジック), founded in Tokyo in February 2018 by Yuji Shiraki (previously at Boston Consulting Group), develops cooking robots for deep-frying, stir-frying, pasta preparation and dishwashing support, aimed at automating dark kitchens and central kitchens. According to company press releases, its robots have prepared over 1 million meals to date. Total funding raised is approximately $30.4M.",
+      "desc_ru": "TechMagic (テックマジック) основана в феврале 2018 года в Токио Юдзи Сираки (ранее — Boston Consulting Group). Компания разрабатывает кухонных роботов для жарки во фритюре и на сковороде, приготовления пасты и мойки посуды, нацеленных на автоматизацию dark kitchen и центральных кухонь. По данным пресс-релизов, роботами компании приготовлено свыше 1 млн порций блюд. Суммарное привлечённое финансирование — около $30,4 млн.",
       "country": "jp"
     },
     {
@@ -8364,8 +8364,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "'Servi' service robots for restaurants.",
-      "desc_ru": "Сервисные роботы Servi для ресторанов.",
+      "desc_en": "SoftBank Robotics, a SoftBank Group unit previously known for the Pepper humanoid (production discontinued in 2021), partnered with US startup Bear Robotics — in which SoftBank invested $32M in its Series A — to launch the Servi restaurant service robot in 2020, which handles food delivery, bussing and dining-room patrol. In Japan it was first rolled out at Denny's Japan locations, reaching over 200 restaurants.",
+      "desc_ru": "SoftBank Robotics — подразделение SoftBank Group, ранее известное сервисным гуманоидом Pepper (производство остановлено в 2021 году). В 2020 году совместно с американским стартапом Bear Robotics (в который SoftBank инвестировал $32 млн в раунде A) выпустила сервисного робота Servi для ресторанов — доставку блюд, уборку посуды, патрулирование зала. В Японии робот в первую очередь внедрён в сети Denny's Japan (200+ ресторанов).",
       "country": "jp",
       "logo": "/logos/softbank-robotics.png"
     },
@@ -8379,8 +8379,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "'DeliRo' delivery robots.",
-      "desc_ru": "Роботы доставки DeliRo.",
+      "desc_en": "ZMP Inc., founded in Tokyo in January 2001 by Hisashi Taniguchi, grew out of the Kitano Symbiotic Systems Project backed by Japan's education ministry (MEXT), and later diversified into autonomous-driving research and delivery robots. Its sidewalk delivery robot DeliRo, designed with expressive 'eyes,' has been piloted in public trials in Tokyo with Japan Post Holdings, addressing Japan's aging population and courier shortages in underserved areas.",
+      "desc_ru": "ZMP Inc. основана в январе 2001 года в Токио Хисаси Танигути на базе результатов проекта Kitano Symbiotic Systems (при поддержке японского Минобрнауки). Компания диверсифицировалась в автономное вождение и роботов-курьеров. Тротуарный робот доставки DeliRo с выразительными «глазами» испытывался совместно с Japan Post Holdings в публичных пилотах в Токио — ответ на проблему старения населения и нехватки курьеров в удалённых районах.",
       "country": "jp"
     },
     {
@@ -8407,8 +8407,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Courier-robot trials.",
-      "desc_ru": "Испытания роботов-курьеров.",
+      "desc_en": "Panasonic has been trialing its 'Hakobo' delivery robot at the Fujisawa Sustainable Smart Town in Kanagawa Prefecture. Phase one, from November 2020, tested autonomous driving on public roads; phase two, from February 2021, provided actual home delivery to residents. The robot autonomously judges turns and detects obstacles like construction sites and approaching bikes, stopping as needed, while one operator remotely monitors up to four robots at once. The project responds to Japan's shortage of delivery workers.",
+      "desc_ru": "Panasonic испытывает робота доставки «Hakobo» в «умном городе» Fujisawa Sustainable Smart Town (префектура Канагава). Первая фаза — автономное движение по общественным дорогам с ноября 2020 года; вторая — доставка товаров жителям с февраля 2021 года. Робот самостоятельно принимает решения о поворотах, распознаёт препятствия (стройки, велосипеды) и останавливается; один оператор дистанционно контролирует до четырёх роботов одновременно. Проект отвечает на нехватку курьеров в Японии.",
       "country": "jp"
     },
     {
