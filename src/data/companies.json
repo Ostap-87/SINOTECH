@@ -1378,8 +1378,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "State ICT research institute.",
-      "desc_ru": "Государственный НИИ ICT.",
+      "desc_en": "China Academy of Information and Communications Technology (CAICT, formerly CATR) is a state-run research institute founded in 1957, directly under China's Ministry of Industry and Information Technology (MIIT), headquartered in Beijing. It develops ICT industry standards, conducts testing and certification for 5G and industrial internet technologies, and advises on China's digital economy policy. Its Industrial Internet and IoT Research Institute focuses specifically on smart manufacturing and connected industry.",
+      "desc_ru": "Китайская академия информационных и коммуникационных технологий (CAICT, бывш. CATR) — государственный научно-исследовательский институт, основанный в 1957 году и подчинённый Министерству промышленности и информатизации КНР (MIIT). Штаб-квартира в Пекине. Институт разрабатывает отраслевые стандарты, проводит испытания и сертификацию в сфере ICT, 5G и промышленного интернета, а также поддерживает госполитику в области цифровой экономики Китая. В его структуре действует Институт промышленного интернета и IoT.",
       "country": "cn"
     },
     {
@@ -2009,8 +2009,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Telecom equipment (Sweden).",
-      "desc_ru": "Телеком-оборудование (Швеция).",
+      "desc_en": "Ericsson (Telefonaktiebolaget LM Ericsson) is a Swedish telecommunications equipment and software provider, one of the world's leading suppliers of 5G network technology. Headquartered in Kista, Stockholm, it reported 2025 revenue of roughly SEK 236.7 billion (about $24.9 billion) with approximately 89,000 employees worldwide. Ericsson supplies mobile operators with radio access hardware, software platforms and cloud-native network infrastructure.",
+      "desc_ru": "Ericsson (Telefonaktiebolaget LM Ericsson) — шведский производитель телекоммуникационного оборудования и ПО, один из мировых лидеров в области сетей 5G. Штаб-квартира в Кисте (Стокгольм). По итогам 2025 года выручка компании составила около 236,7 млрд шведских крон (~24,9 млрд долларов США), штат — около 89 000 сотрудников по всему миру. Компания поставляет операторам связи радиооборудование, программные платформы и решения для облачных сетей.",
       "country": "cn",
       "logo": "/logos/ericsson.png"
     },
@@ -5267,8 +5267,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "China Mobile IoT unit.",
-      "desc_ru": "IoT-подразделение China Mobile.",
+      "desc_en": "China Mobile IoT Company (中移物联网) is a wholly owned subsidiary of China Mobile, established in September 2012 in Chongqing with registered capital of RMB 3.5 billion — the first dedicated IoT operating entity founded by a Chinese carrier. It builds core IoT platforms and solutions spanning video IoT (VIoT), AIoT and industrial IoT (IIoT), with branch offices in Beijing, Nanjing, Guangzhou, Shenzhen and other cities, and employs more than 3,200 people.",
+      "desc_ru": "China Mobile IoT Company (中移物联网) — 100%-я дочерняя компания China Mobile, основанная в сентябре 2012 года в Чунцине с уставным капиталом 3,5 млрд юаней. Это первое специализированное IoT-подразделение, созданное китайским оператором связи. Компания разрабатывает базовые платформы интернета вещей, решения для видео-IoT, AIoT и промышленного IoT, имеет филиалы в Пекине, Нанкине, Гуанчжоу, Шэньчжэне и других городах, штат — свыше 3200 сотрудников.",
       "country": "cn"
     },
     {
@@ -5835,8 +5835,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Server & cloud provider.",
-      "desc_ru": "Серверы и облако.",
+      "desc_en": "Inspur (浪潮) is a Chinese server manufacturer and cloud solutions provider founded in 1983, headquartered in Jinan, Shandong province. It ranks among the world's top three server makers according to Gartner and IDC. Cloud services revenue reached RMB 2.76 billion in 2024, up 38.1% year-on-year. Inspur was placed on the US Entity List in 2023 and faced additional US export restrictions in March 2025 over concerns about military end-use of its technology.",
+      "desc_ru": "Inspur (浪潮) — китайский производитель серверов и поставщик облачных решений, основанный в 1983 году, штаб-квартира в Цзинани (провинция Шаньдун). По данным Gartner и IDC, входит в тройку крупнейших производителей серверов в мире. Выручка от облачных услуг достигла 2,76 млрд юаней в 2024 году (+38,1% год к году). В 2023 году компания была включена в санкционный список США (Entity List), а в марте 2025 года попала под дополнительные экспортные ограничения США.",
       "country": "cn"
     },
     {
@@ -7667,8 +7667,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "SK Telecom's flagship technology museum: 5G, autonomous vehicles, drones, AI and robotics — a 'city of the future' exhibition. Online booking required.",
-      "desc_ru": "Флагманский технологический музей SK Telecom: 5G, автономные авто, дроны, ИИ, робототехника — экспозиция «города будущего». Бронь онлайн обязательна.",
+      "desc_en": "T.um (Technology, U-topia, Museum) is SK Telecom's flagship technology exhibition center at the company's Euljiro headquarters in Seoul. Spread across two floors, it showcases 5G, autonomous vehicles, drones, AI, big data, VR/AR, robotics and 3D printing through themed zones such as Hyperloop, Space Control Center and Hologram Conference. Advance online reservation (via tum.sktelecom.com) is required for the second-floor experience, while the ground floor can be visited without booking. The center is closed on weekends and public holidays.",
+      "desc_ru": "T.um (Technology, U-topia, Museum) — флагманский технологический выставочный центр SK Telecom в штаб-квартире компании в районе Ыльджиро, Сеул. Экспозиция на двух этажах демонстрирует 5G, автономный транспорт, дроны, ИИ, big data, VR/AR, робототехнику и 3D-печать, включая зоны Hyperloop, Space Control Center и Hologram Conference. Посещение второго этажа требует онлайн-бронирования заранее (tum.sktelecom.com); первый этаж доступен без записи. Центр закрыт по выходным и праздникам.",
       "country": "kr"
     },
     {
@@ -8551,8 +8551,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "The 'tsuzumi' large language model.",
-      "desc_ru": "Языковая модель tsuzumi.",
+      "desc_en": "NTT (Nippon Telegraph and Telephone) is Japan's largest telecommunications holding company, formed in 1985 through the privatization of the state telephone corporation, headquartered in Tokyo. The group includes NTT Docomo, NTT East/West, NTT Communications and NTT Data, employs roughly 340,000 people, and reported about ¥13.7 trillion in revenue for fiscal 2025. Since 2023 NTT has developed tsuzumi, its own large language model available in compact 0.6B and 7B parameter versions, optimized for Japanese-language processing, low power consumption and single-GPU on-premise deployment; an upgraded tsuzumi 2 was released in 2025.",
+      "desc_ru": "NTT (Nippon Telegraph and Telephone) — крупнейшая японская телекоммуникационная холдинговая компания, образованная в 1985 году в результате приватизации государственной телефонной корпорации; штаб-квартира в Токио. В группу входят NTT Docomo, NTT East/West, NTT Communications и NTT Data; штат — около 340 000 сотрудников, выручка за 2025 финансовый год — порядка 13,7 трлн иен. С 2023 года NTT развивает собственную языковую модель tsuzumi — компактную (0,6–7 млрд параметров) LLM с упором на японский язык, низкое энергопотребление и возможность работы on-premise на одном GPU; в 2025 году представлена версия tsuzumi 2.",
       "country": "jp"
     },
     {
@@ -10277,8 +10277,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Telecom and digital services.",
-      "desc_ru": "Телеком и цифровые сервисы.",
+      "desc_en": "Viettel is a Vietnamese state-owned telecom and defense-industry conglomerate, founded in 1989 under the Ministry of National Defence (originally built as an antenna-tower construction unit). It is Vietnam's largest telecom operator and operates in 10 countries. In 2025 the group reported record consolidated revenue of VND 220.4 trillion (about $8.3 billion), up 13.8% year-on-year. Beyond telecommunications, Viettel operates in digital services, cybersecurity and defense manufacturing.",
+      "desc_ru": "Viettel — вьетнамский государственный телеком- и оборонно-промышленный конгломерат, основанный в 1989 году под управлением Министерства национальной обороны Вьетнама (изначально строил антенные вышки). Крупнейший оператор связи страны, работает в 10 странах мира. По итогам 2025 года консолидированная выручка группы достигла рекордных 220,4 трлн донгов (~8,3 млрд долларов США), что на 13,8% больше, чем годом ранее. Помимо телекома, Viettel развивает цифровые сервисы, кибербезопасность и оборонную промышленность.",
       "country": "vn",
       "logo": "/logos/viettel.svg"
     },
@@ -14898,8 +14898,8 @@
       "sector": "telecom",
       "city": "jakarta",
       "country": "id",
-      "desc_en": "One of Indonesia's largest mobile network operators, formed by the 2022 merger of Indosat Ooredoo and Hutchison 3 Indonesia (Tri).",
-      "desc_ru": "Один из крупнейших операторов мобильной связи Индонезии, образован в 2022 году слиянием Indosat Ooredoo и Hutchison 3 Indonesia (Tri).",
+      "desc_en": "Indosat Ooredoo Hutchison is one of Indonesia's largest mobile operators, formed in January 2022 through the roughly $6 billion merger of PT Indosat Ooredoo and Hutchison 3 Indonesia (Tri). The combined entity became the country's second-largest carrier by subscribers, surpassing 100 million subscribers by the end of 2022; as of Q1 2025 it served about 95.4 million mobile subscribers. Q1 2025 revenue reached IDR 13.58 trillion.",
+      "desc_ru": "Indosat Ooredoo Hutchison — один из крупнейших операторов мобильной связи Индонезии, образован в январе 2022 года в результате слияния PT Indosat Ooredoo и Hutchison 3 Indonesia (Tri) стоимостью около 6 млрд долларов США. После объединения компания заняла второе место на рынке по числу абонентов, превысив 100 млн подписчиков в конце 2022 года; по состоянию на I квартал 2025 года у оператора около 95,4 млн мобильных абонентов. Выручка за I квартал 2025 года составила 13,58 трлн индонезийских рупий.",
       "logo": "/logos/indosat-logo_brandlogos.net_bujhf.png",
       "status": "catalog",
       "own_supplier": false,
