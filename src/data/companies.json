@@ -1364,8 +1364,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Games and internet services.",
-      "desc_ru": "Игры и интернет-сервисы.",
+      "desc_en": "NetEase (NASDAQ: NTES, secondary listing HKEX) was founded in 1997 by William Ding, headquartered in Hangzhou. It is one of China's largest game publishers (Fantasy Westward Journey, Identity V, Naraka: Bladepoint) and formerly localized Blizzard titles for China. It also runs NetEase Cloud Music, the Youdao education platform, and 163.com email services. Annual revenue exceeds RMB 100 billion, with gaming as the primary profit driver.",
+      "desc_ru": "NetEase (NASDAQ: NTES, вторичный листинг HKEX) основана в 1997 году Дин Лэем, штаб-квартира в Ханчжоу. Один из крупнейших издателей видеоигр Китая (Fantasy Westward Journey, Identity V, Naraka: Bladepoint), ранее локализовала игры Blizzard. Также развивает музыкальный сервис NetEase Cloud Music и образовательную платформу Youdao. Годовая выручка превышает 100 млрд юаней, основной источник прибыли — игровое направление.",
       "country": "cn"
     },
     {
@@ -1595,8 +1595,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Parent of TikTok / Douyin.",
-      "desc_ru": "Владелец TikTok / Douyin.",
+      "desc_en": "ByteDance was founded in 2012 by Zhang Yiming, headquartered in Beijing. A private company, it owns TikTok and its Chinese counterpart Douyin, the Toutiao news aggregator, CapCut video editor, and the Lark workplace platform. It is regarded as one of the world's most valuable startups, with valuations reportedly exceeding $300 billion. Since 2024-2025 it has faced US legislation forcing a sale of TikTok's American operations.",
+      "desc_ru": "ByteDance основана в 2012 году Чжан Имином, штаб-квартира в Пекине. Частная компания, владеющая TikTok и его китайским аналогом Douyin, агрегатором новостей Toutiao, редактором CapCut и мессенджером Lark. Считается одним из самых дорогих стартапов мира, оценки превышали 300 млрд долларов. С 2024–2025 годов под давлением закона США, требующего продажи американского бизнеса TikTok непитайскому владельцу.",
       "country": "cn",
       "logo": "/logos/bytedance-seeklogo.png"
     },
@@ -1624,8 +1624,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Internet security company.",
-      "desc_ru": "Компания интернет-безопасности.",
+      "desc_en": "Qihoo 360 was founded in 2005 by Zhou Hongyi, headquartered in Beijing. It became known for its free 360 Security Guard antivirus and browser, which dominated China's PC security market. Delisted from the NYSE in 2016, it went public again via reverse merger on the Shanghai Stock Exchange in 2018 (601360.SH). Today it focuses on enterprise cybersecurity, big data, and AI development for government and corporate clients.",
+      "desc_ru": "Qihoo 360 основана в 2005 году Чжоу Хунъи, штаб-квартира в Пекине. Компания стала известна благодаря бесплатному антивирусу 360 Security Guard и одноимённому браузеру, доминировавшим на рынке ПК-безопасности Китая. В 2016 году делистинговалась с NYSE, а в 2018-м провела обратное слияние и вышла на Шанхайскую биржу (601360.SH). Сегодня фокусируется на кибербезопасности и разработках в области ИИ для госсектора и бизнеса.",
       "country": "cn"
     },
     {
@@ -1769,8 +1769,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Ride-hailing platform.",
-      "desc_ru": "Платформа заказа поездок.",
+      "desc_en": "Didi Chuxing was founded in 2012 by Cheng Wei, headquartered in Beijing. It is China's dominant ride-hailing platform, having absorbed Uber China's operations in 2016, and also operates in Latin America under the 99 brand in Brazil. Didi listed on the NYSE in June 2021 but was soon subjected to a Chinese cybersecurity review and delisted; its app was restored in 2023, and the company has explored a Hong Kong relisting.",
+      "desc_ru": "Didi Chuxing основана в 2012 году Чэн Вэем, штаб-квартира в Пекине. Крупнейшая платформа заказа поездок в Китае, занимающая доминирующую долю рынка после слияния с Uber China в 2016 году. Также работает в Латинской Америке через бренд 99 (Бразилия). Вышла на NYSE в июне 2021 года, но вскоре подверглась проверке кибербезопасности регуляторов и была делистингована; приложение восстановлено в 2023 году.",
       "country": "cn"
     },
     {
@@ -1826,8 +1826,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Short-video platform.",
-      "desc_ru": "Платформа коротких видео.",
+      "desc_en": "Kuaishou was founded in 2011 as a GIF-sharing app, headquartered in Beijing. It is one of China's two dominant short-video and livestreaming platforms alongside Douyin, with over 400 million daily active users. Revenue comes from advertising, live-streaming virtual gifts, and e-commerce. It listed on the Hong Kong Stock Exchange in February 2021 (HKEX: 1024), one of the largest tech IPOs of that period.",
+      "desc_ru": "Kuaishou основана в 2011 году как приложение для обмена GIF-анимациями, штаб-квартира в Пекине. Одна из двух крупнейших платформ коротких видео и прямых трансляций в Китае наряду с Douyin, с более чем 400 млн ежедневных активных пользователей. Компания монетизирует контент через рекламу, подарки в live-стримах и e-commerce. Провела IPO на Гонконгской бирже в феврале 2021 года (HKEX: 1024).",
       "country": "cn"
     },
     {
@@ -1896,8 +1896,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Enterprise management software.",
-      "desc_ru": "ПО для управления предприятием.",
+      "desc_en": "Yonyou (also known as UFIDA) was founded in 1988 by Wang Wenjing, headquartered in Beijing. It is one of China's largest enterprise software developers, providing ERP, financial, and HR management systems, shifting toward cloud services through its YonBIP platform. Shares trade on the Shanghai Stock Exchange (600588.SH). Its main domestic rival is Kingdee, alongside SAP and Oracle.",
+      "desc_ru": "Yonyou (用友), также известная как UFIDA, основана в 1988 году Ван Вэньцзином, штаб-квартира в Пекине. Один из крупнейших разработчиков корпоративного ПО в Китае — систем ERP, финансового и HR-софта. Компания переходит на облачную модель через платформу YonBIP. Акции торгуются на Шанхайской бирже (600588.SH). Конкурирует с Kingdee, а также SAP и Oracle на китайском рынке.",
       "country": "cn"
     },
     {
@@ -2024,8 +2024,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online wine & spirits retailer.",
-      "desc_ru": "Онлайн-ритейлер алкоголя.",
+      "desc_en": "Jiuxian was founded in 2009 and is headquartered in Beijing. It is one of China's earliest and largest online alcohol retailers, specializing in baijiu (traditional Chinese spirits), wine, and imported beverages. The company sources directly from producers and partners with major baijiu brands including Moutai and Wuliangye, selling through its own website, mobile app, and third-party marketplaces.",
+      "desc_ru": "Jiuxian (酒仙网) основана в 2009 году, штаб-квартира в Пекине. Один из первых и крупнейших онлайн-ритейлеров алкогольной продукции в Китае, специализирующийся на байцзю (традиционном китайском крепком алкоголе), вине и импортных напитках. Компания работает по модели прямых поставок от производителей и сотрудничает с известными брендами байцзю, включая Moutai и Wuliangye, продавая продукцию через собственный сайт, мобильное приложение и маркетплейсы.",
       "country": "cn"
     },
     {
@@ -2052,8 +2052,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online bookstore & retail.",
-      "desc_ru": "Онлайн-книжный и ритейл.",
+      "desc_en": "Dangdang was founded in 1999 by Li Guoqing and Peggy Yu, headquartered in Beijing. A pioneer of online bookselling in China, often called an early 'Chinese Amazon,' it later expanded into general e-commerce. It listed on the NYSE in 2010 and was taken private by its founders in 2016. The company retains a strong position in online book sales, competing with JD.com and Alibaba.",
+      "desc_ru": "Dangdang основана в 1999 году Ли Гоцином и Юй Юй (Пегги Юй), штаб-квартира в Пекине. Один из пионеров онлайн-книготорговли в Китае, часто называемый «китайским Amazon» первой волны, позже расширился на общий e-commerce. Провёл IPO на NYSE в 2010 году, а в 2016 году был выкуплен основателями и делистингован. Компания сохраняет сильные позиции на рынке онлайн-продажи книг, конкурируя с JD.com и Alibaba.",
       "country": "cn"
     },
     {
@@ -2094,8 +2094,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Internet portal & media.",
-      "desc_ru": "Интернет-портал и медиа.",
+      "desc_en": "Sohu.com was founded in 1996 by Charles Zhang, headquartered in Beijing. It is one of China's oldest internet portals, combining a news portal, email service, and media divisions. The company spun off subsidiaries in separate IPOs: search engine Sogou (later sold to Tencent in 2021) and gaming unit Changyou. Sohu itself trades on NASDAQ (SOHU) and today focuses on news content, video, and games.",
+      "desc_ru": "Sohu.com основана в 1996 году Чарльзом Чжаном, штаб-квартира в Пекине. Один из старейших интернет-порталов Китая, включающий новостной портал, почтовый сервис и медиаподразделения. Компания вывела на отдельные IPO дочерние структуры: поисковик Sogou (продан Tencent в 2021 году) и игровое подразделение Changyou. Акции материнской Sohu торгуются на NASDAQ (SOHU). Сегодня фокусируется на новостном контенте, видео и играх.",
       "country": "cn"
     },
     {
@@ -2108,8 +2108,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Classifieds & local-services platform.",
-      "desc_ru": "Платформа объявлений и услуг.",
+      "desc_en": "58.com was founded in 2005 by Yao Jinbo, headquartered in Beijing. It is China's largest classified ads platform — often compared to Craigslist — covering real estate, jobs, cars, and local services. It merged with rival Ganji in 2015. Previously NYSE-listed, the company was taken private in 2020 by an investor consortium including Ocean Link, General Atlantic, and Warburg Pincus for about $8.7 billion.",
+      "desc_ru": "58.com основана в 2005 году Яо Цзиньбо, штаб-квартира в Пекине. Крупнейшая в Китае платформа классифицированных объявлений — аналог Craigslist — по недвижимости, вакансиям, авто и услугам. В 2015 году объединилась с конкурентом Ganji. Компания разместила акции на NYSE, а в 2020 году была выкуплена консорциумом инвесторов, включая Ocean Link, General Atlantic и Warburg Pincus, примерно за 8,7 млрд долларов, и делистингована.",
       "country": "cn"
     },
     {
@@ -2382,8 +2382,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Video community platform.",
-      "desc_ru": "Видео-сообщество.",
+      "desc_en": "Bilibili was founded in 2009 by Xu Yi as an anime and comics fan site, headquartered in Shanghai. It grew into a major video platform known for its 'danmu' scrolling-comment culture, covering anime, gaming, education, and entertainment content. It listed on NASDAQ in 2018 with a secondary Hong Kong listing in 2021. Monthly active users exceed 300 million, and the company also operates a game publishing business.",
+      "desc_ru": "Bilibili основана в 2009 году Сюй И как сайт для фанатов аниме и комиксов, штаб-квартира в Шанхае. Крупная видео-платформа с культурой «данму» (плавающих комментариев поверх видео), охватывающая аниме, игры, образовательный и развлекательный контент. Провела IPO на NASDAQ в 2018 году и вторичный листинг в Гонконге в 2021-м. Аудитория превышает 300 млн пользователей в месяц.",
       "country": "cn"
     },
     {
@@ -2953,8 +2953,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online-game developer.",
-      "desc_ru": "Разработчик онлайн-игр.",
+      "desc_en": "Youzu Interactive was founded in 2009 by Lin Qi, headquartered in Shanghai. It develops and publishes mobile and online games, notable for titles such as Game of Sultans and various SLG strategy games for both domestic and international markets. Shares trade on the Shenzhen Stock Exchange. Founder Lin Qi died in 2020 after being poisoned, a case that drew widespread public attention in China.",
+      "desc_ru": "Youzu Interactive (游族网络) основана в 2009 году Линь Ци, штаб-квартира в Шанхае. Разработчик и издатель мобильных и онлайн-игр, известный такими проектами, как «Game of Sultans» и стратегии в жанре SLG для международного и китайского рынков. Акции компании торгуются на Шэньчжэньской фондовой бирже. Основатель Линь Ци погиб в 2020 году в результате отравления, дело получило широкий общественный резонанс в Китае.",
       "country": "cn"
     },
     {
@@ -3454,8 +3454,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Enterprise management software.",
-      "desc_ru": "ПО для управления предприятием.",
+      "desc_en": "Kingdee International was founded in 1993 by Xu Shaochun, headquartered in Shenzhen. It is a leading Chinese developer of enterprise management and ERP software, including the Kingdee Cloud Cosmic platform. Shares trade on the Hong Kong Stock Exchange (0268.HK). Its main domestic rival is Yonyou, while it also competes with SAP and Oracle for mid-market and large enterprise clients.",
+      "desc_ru": "Kingdee International (金蝶软件) основана в 1993 году Сюй Шаочунем, штаб-квартира в Шэньчжэне. Один из ведущих китайских разработчиков корпоративного управленческого ПО и ERP-систем, включая облачную платформу Kingdee Cloud Cosmic. Акции котируются на Гонконгской фондовой бирже (0268.HK). Основной конкурент на внутреннем рынке — Yonyou, компания также соперничает с SAP и Oracle за клиентов среднего и крупного бизнеса.",
       "country": "cn"
     },
     {
@@ -3496,8 +3496,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online travel service.",
-      "desc_ru": "Онлайн-сервис путешествий.",
+      "desc_en": "Mango.com (芒果网) is an early Chinese online travel booking platform, established in the late 1990s/early 2000s and headquartered in Beijing. It offers flight, hotel, package tour, and visa booking services. It has at various times been affiliated with major conglomerates, including HNA Group. Mango operates in China's highly competitive online travel market alongside Ctrip (Trip.com) and Tuniu.",
+      "desc_ru": "Mango (芒果网) — одна из ранних китайских онлайн-платформ бронирования путешествий, основанная в конце 1990-х – начале 2000-х годов, штаб-квартира в Пекине. Сервис предлагает бронирование авиабилетов, отелей, туристических пакетов и виз. В разное время был связан с крупными холдингами, включая HNA Group. Работает на высококонкурентном рынке онлайн-туризма Китая наряду с Ctrip (Trip.com) и Tuniu.",
       "country": "cn"
     },
     {
@@ -3598,8 +3598,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Messaging super-app (Tencent).",
-      "desc_ru": "Мессенджер-супер-приложение (Tencent).",
+      "desc_en": "WeChat was launched by Tencent in 2011, developed by a team led by Allen Zhang (Zhang Xiaolong) in Guangzhou. The super-app combines messaging, the Moments social feed, third-party Mini Programs, and the WeChat Pay payment system. With over 1.3 billion monthly active users, WeChat functions as core digital infrastructure for daily life in China, spanning communication, payments, and government services.",
+      "desc_ru": "WeChat (微信) запущен Tencent в 2011 году командой под руководством Аллена Чжана (Zhang Xiaolong), разработка велась в Гуанчжоу. Супер-приложение объединяет мессенджер, соцсеть «Моменты», мини-программы для сторонних сервисов и платёжную систему WeChat Pay. Ежемесячная аудитория превышает 1,3 млрд пользователей, что делает WeChat центральной цифровой инфраструктурой повседневной жизни в Китае — от общения до оплаты и госуслуг.",
       "country": "cn"
     },
     {
@@ -3626,8 +3626,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Discount e-commerce platform.",
-      "desc_ru": "Дисконтная e-commerce платформа.",
+      "desc_en": "VIP.com was founded in 2008 by Shen Ya and Hong Xiaobo, headquartered in Guangzhou. It operates a flash-sale e-commerce platform for discounted branded apparel, footwear, and cosmetics, functioning as an 'online outlet.' It listed on the NYSE in 2012 (ticker VIPS). The company pursues a focused discount-retail niche distinct from Alibaba's and JD.com's general marketplaces, maintaining profitability through specialization.",
+      "desc_ru": "VIP.com (唯品会) основана в 2008 году Шэнь Я и Хун Сяобо, штаб-квартира в Гуанчжоу. Платформа флэш-распродаж брендовой одежды, обуви и косметики со скидками, работающая по модели «онлайн-аутлета». Провела IPO на NYSE в 2012 году (тикер VIPS). Компания фокусируется на нишевой стратегии скидочной торговли, в отличие от универсальных маркетплейсов Alibaba и JD.com, и сохраняет прибыльность за счёт узкой специализации.",
       "country": "cn"
     },
     {
@@ -4077,8 +4077,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Internet, E-commerce & Platforms · Hangzhou.",
-      "desc_ru": "Интернет, e-commerce и платформы, Ханчжоу.",
+      "desc_en": "The 'Douyin base' refers to the cluster of ByteDance/Douyin office complexes in Hangzhou, one of China's key internet-industry hubs alongside Beijing and Shenzhen. Around the Douyin ecosystem, the city has developed a cluster of e-commerce firms, MCN agencies, and live-commerce service providers, including Youzan and Wuyou Media. Hangzhou is also Alibaba's headquarters city, making the region a major e-commerce and internet-technology hub.",
+      "desc_ru": "«База Douyin» — кластер офисов и деловых комплексов ByteDance/Douyin в Ханчжоу, одном из ключевых центров интернет-индустрии Китая наряду с Пекином и Шэньчжэнем. Вокруг экосистемы Douyin в городе сформировался кластер компаний e-commerce, MCN-агентств и провайдеров live-коммерции, включая Youzan и Wuyou Media. Ханчжоу также является штаб-квартирой Alibaba, что делает регион крупным технологическим хабом.",
       "country": "cn",
       "logo": "/logos/douyin-base.png"
     },
@@ -4218,8 +4218,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "SaaS tools for merchants.",
-      "desc_ru": "SaaS-инструменты для продавцов.",
+      "desc_en": "Youzan was founded in 2012 by Zhu Ning (White), headquartered in Hangzhou. It is a SaaS platform providing tools for online merchants, including storefront builders, CRM, marketing modules, and integration with WeChat Mini Programs. The company helps small and medium businesses build direct-to-consumer sales channels outside major marketplaces. Shares trade on the Hong Kong Stock Exchange's GEM board (8083.HK).",
+      "desc_ru": "Youzan (有赞) основана в 2012 году Чжу Нином, штаб-квартира в Ханчжоу. SaaS-платформа, предоставляющая инструменты для онлайн-продавцов: конструктор магазинов, CRM, маркетинговые модули, интеграцию с WeChat и мини-программами. Компания помогает малому и среднему бизнесу выстраивать собственные каналы продаж вне крупных маркетплейсов. Акции котируются на Гонконгской бирже (GEM, тикер 8083.HK).",
       "country": "cn"
     },
     {
@@ -4246,8 +4246,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "MCN / creator agency.",
-      "desc_ru": "MCN / агентство блогеров.",
+      "desc_en": "Wuyou Media is an MCN (multi-channel network) agency founded in 2017, headquartered in Hangzhou. It is one of China's largest influencer management agencies, specializing in short-video and livestreaming content on Douyin and Kuaishou. The company handles content production, influencer incubation, and live-commerce operations, working with thousands of content creators and advertising brands.",
+      "desc_ru": "Wuyou Media (无忧传媒) — MCN-агентство, основанное в 2017 году, штаб-квартира в Ханчжоу. Одно из крупнейших агентств по управлению блогерами и лидерами мнений в Китае, специализирующееся на коротких видео и прямых трансляциях на платформах Douyin и Kuaishou. Компания занимается созданием контента, продюсированием инфлюенсеров и организацией live-коммерции, сотрудничая с тысячами создателей контента и брендами-рекламодателями.",
       "country": "cn"
     },
     {
@@ -4274,8 +4274,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Social e-commerce platform.",
-      "desc_ru": "Платформа социальной e-commerce.",
+      "desc_en": "Yunji was founded in 2015 by Xiao Sheng and Lin Fei, headquartered in Hangzhou. It launched as a social e-commerce platform built on a membership model, with distributors promoting products through personal social networks. It listed on NASDAQ in 2019 (ticker YJ). The company later pivoted toward curated product selection and supply-chain services under the Yunji Youxuan brand, moving away from direct social selling.",
+      "desc_ru": "Yunji (云集) основана в 2015 году Сяо Шэном и Линь Фэем, штаб-квартира в Ханчжоу. Платформа социальной коммерции, изначально работавшая по членской модели с дистрибьюторами, продвигающими товары через личные социальные сети. Провела IPO на NASDAQ в 2019 году (тикер YJ). Позже компания трансформировалась в сервис курируемого отбора товаров и цепочки поставок под брендом Yunji Youxuan, сместив фокус с прямых продаж.",
       "country": "cn"
     },
     {
@@ -4316,8 +4316,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online used-car platform.",
-      "desc_ru": "Онлайн-платформа авто с пробегом.",
+      "desc_en": "Souche was founded in 2011 by Yang Fan, headquartered in Hangzhou. It is a technology platform for China's used-car market, providing SaaS tools for dealers, transaction financing, and vehicle valuation data. Positioning itself as an 'internet+' infrastructure provider for the auto industry, it has received investment from Alibaba, Tencent, and GGV Capital, and works with a broad network of dealerships nationwide.",
+      "desc_ru": "Souche (大搜车) основана в 2011 году Ян Фанем, штаб-квартира в Ханчжоу. Технологическая платформа для рынка подержанных автомобилей, предоставляющая SaaS-решения дилерам, финансирование сделок и данные для оценки автомобилей. Компания позиционирует себя как поставщик «интернет+» инфраструктуры для автопрома, получив инвестиции от Alibaba, Tencent и GGV Capital. Работает с широкой сетью дилерских центров по всему Китаю.",
       "country": "cn"
     },
     {
@@ -4431,8 +4431,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Live-commerce studio.",
-      "desc_ru": "Студия лайв-коммерции.",
+      "desc_en": "Jiaogepengyou (literally 'Make Friends') is a live-commerce studio founded in 2020 by entrepreneur and comedian Luo Yonghao, originally created to repay his large personal debt through livestream selling on Douyin. Headquartered in Beijing, it rapidly grew into one of China's leading live-commerce agencies, selling electronics, home goods, and consumer products through in-house and partner streamers.",
+      "desc_ru": "Jiaogepengyou («交个朋友», буквально «Давай дружить») — студия live-коммерции, основанная в 2020 году предпринимателем и комиком Ло Юнхао для погашения крупного личного долга через прямые трансляции продаж на Douyin. Штаб-квартира в Пекине. Быстро стала одним из ведущих live-commerce агентств Китая, продавая электронику, товары для дома и потребительские товары через собственных и партнёрских стримеров.",
       "country": "cn"
     },
     {
@@ -4728,8 +4728,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online travel agency.",
-      "desc_ru": "Онлайн-турагентство.",
+      "desc_en": "Tuniu was founded in 2006 by Yu Dunde, headquartered in Nanjing. It is an online travel agency specializing in packaged tours, including both group and individual travel within China and abroad. It listed on NASDAQ in 2014 (ticker TOUR). Tuniu competes with Ctrip (Trip.com) and Mango, emphasizing bundled tour packages that combine flights, hotels, and guided excursions.",
+      "desc_ru": "Tuniu (途牛) основана в 2006 году Юй Дундэ, штаб-квартира в Нанкине. Онлайн-турагентство, специализирующееся на организованных пакетных турах, групповых и индивидуальных путешествиях по Китаю и за рубежом. Провела IPO на NASDAQ в 2014 году (тикер TOUR). Компания конкурирует с Ctrip (Trip.com) и Mango, делая акцент на комплексных турпакетах, включающих перелёты, отели и экскурсионные программы.",
       "country": "cn"
     },
     {
@@ -5239,8 +5239,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Freelance-services marketplace.",
-      "desc_ru": "Биржа фриланс-услуг.",
+      "desc_en": "Zhubajie (formerly Witmart) was founded in 2006 by Zhu Mingyue, headquartered in Chongqing. It is one of China's largest freelance and crowdsourcing marketplaces, comparable to Fiverr or Upwork, connecting clients with providers of design, software development, legal, and marketing services. The platform serves millions of registered users and positions itself as service infrastructure for small businesses.",
+      "desc_ru": "Zhubajie (猪八戒网, ранее Witmart) основана в 2006 году Чжу Минъюэ, штаб-квартира в Чунцине. Одна из крупнейших в Китае бирж фриланс-услуг и краудсорсинга, аналог Fiverr или Upwork, соединяющая заказчиков с исполнителями в сферах дизайна, разработки ПО, юридических и маркетинговых услуг. Платформа обслуживает миллионы зарегистрированных пользователей и позиционируется как инфраструктура для сферы услуг малого бизнеса.",
       "country": "cn"
     },
     {
@@ -8162,8 +8162,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Online-to-offline integration across Japan's largest e-commerce ecosystem.",
-      "desc_ru": "Онлайн-офлайн интеграция крупнейшей e-commerce экосистемы Японии.",
+      "desc_en": "Rakuten Group was founded in 1997 by Hiroshi Mikitani, headquartered in Tokyo. It runs Japan's largest e-commerce ecosystem, anchored by the Rakuten Ichiba marketplace, alongside fintech services (Rakuten Bank, Card, Pay), the Rakuten Points loyalty program, and Rakuten Mobile, launched 2020 as Japan's fourth carrier. Listed on the Tokyo Stock Exchange, it integrates online and offline services around unified points.",
+      "desc_ru": "Rakuten Group основана в 1997 году Хироси Микитани, штаб-квартира в Токио. Крупнейшая e-commerce экосистема Японии: маркетплейс Rakuten Ichiba, финтех-сервисы (Rakuten Bank, Rakuten Card, Rakuten Pay), программа лояльности Rakuten Points, а также мобильный оператор Rakuten Mobile, запущенный в 2020 году как четвёртый оператор страны. Акции торгуются на Токийской бирже; компания интегрирует онлайн- и офлайн-сервисы вокруг единой системы баллов.",
       "country": "jp",
       "logo": "/logos/rakuten-group.svg"
     },
@@ -8307,8 +8307,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "HQ of Japan's largest food-delivery platform.",
-      "desc_ru": "Штаб-квартира крупнейшей платформы доставки еды в Японии.",
+      "desc_en": "Demae-can was founded in 2000, headquartered in Tokyo. It is Japan's largest food delivery platform, operating a marketplace model that connects restaurants with couriers and consumers. Since 2020 its majority shareholder has been LINE (part of Z Holdings / LY Corporation), deepening integration with the LINE messaging app. Demae-can competes with Uber Eats and Wolt in Japan's food delivery market.",
+      "desc_ru": "Demae-can (出前館) основана в 2000 году, штаб-квартира в Токио. Крупнейшая платформа доставки еды в Японии, работающая по модели маркетплейса, соединяющего рестораны с курьерами и потребителями. С 2020 года основным акционером выступает LINE (входит в состав Z Holdings / LY Corporation), что усилило интеграцию сервиса с мессенджером LINE. Demae-can конкурирует с Uber Eats и Wolt на японском рынке доставки еды.",
       "country": "jp"
     },
     {
@@ -8321,8 +8321,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Demonstration of autonomous delivery robots in Nihonbashi.",
-      "desc_ru": "Демонстрация автономных роботов доставки в районе Нихонбаси.",
+      "desc_en": "Uber Eats launched in Japan in September 2016, its first Asian market, operated by US-based Uber Technologies. It serves Tokyo, Osaka, Nagoya and other major cities, partnering with tens of thousands of restaurants. Since 2022 it has piloted autonomous sidewalk delivery robots (with Mitsubishi Electric and Cartken) in Tokyo's Nihonbashi district — among Japan's first public-road robot delivery trials of this kind.",
+      "desc_ru": "Uber Eats запустился в Японии в сентябре 2016 года — первый азиатский рынок сервиса, принадлежащего американской Uber Technologies. Работает в Токио, Осаке, Нагое и других крупных городах, сотрудничая с десятками тысяч ресторанов. С 2022 года компания тестирует автономных роботов доставки (совместно с Mitsubishi Electric и Cartken) на тротуарах района Нихонбаси в Токио — один из первых подобных пилотов на уровне общественных дорог в стране.",
       "country": "jp",
       "logo": "/logos/uber-eats-japan.svg"
     },
@@ -8393,8 +8393,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium food-delivery platform.",
-      "desc_ru": "Премиальная платформа доставки еды.",
+      "desc_en": "Wolt is a Finnish food-delivery company founded in Helsinki in 2014; since 2022 it has been part of DoorDash under an $8.1 billion all-stock deal. Wolt launched in Japan in November 2020 in Yokohama, its first East Asian market, and now operates in Tokyo, Sapporo and Osaka. It positions itself as a premium platform emphasizing curated restaurant selection, service quality and the Wolt+ subscription rather than sheer scale.",
+      "desc_ru": "Wolt — финский сервис доставки еды, основанный в Хельсинки в 2014 году; с 2022 года входит в состав DoorDash по сделке на $8,1 млрд акциями. В Японии Wolt запустился в ноябре 2020-го в Иокогаме — первый рынок в Восточной Азии — и теперь работает в Токио, Саппоро и Осаке. Позиционируется как премиальная платформа с курируемым выбором ресторанов, подпиской Wolt+ и упором на качество сервиса, а не масштаб.",
       "country": "jp"
     },
     {
@@ -8421,8 +8421,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery platform and restaurant-data business.",
-      "desc_ru": "Платформа доставки и данные ресторанного рынка.",
+      "desc_en": "Gurunavi is Japan's largest restaurant guide and reservation platform, founded in 1996 and listed on the Tokyo Stock Exchange in 2000. Rakuten became its top shareholder in 2019 and in 2021 transferred its own delivery business, \"Rakuten Delivery\" (Rakuten Demae), to Gurunavi via a corporate split. The combined platform covers over 30,000 delivery restaurants and 100,000+ listings, generating data on Japan's restaurant market.",
+      "desc_ru": "Gurunavi — крупнейший в Японии сервис-путеводитель по ресторанам, основан в 1996 году, вышел на биржу в 2000-м. С 2019 года Rakuten — крупнейший акционер компании, а в 2021-м передал ей бизнес доставки «Rakuten Delivery» (Rakuten Demae) путём выделения. Платформа охватывает свыше 30 000 ресторанов с доставкой и более 100 000 заведений в общем каталоге, давая рынку данные о ресторанной индустрии Японии.",
       "country": "jp",
       "logo": "/logos/rakuten-delivery-gurunavi.svg"
     },
@@ -8436,8 +8436,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "KDDI-backed delivery platform; closing networking session.",
-      "desc_ru": "Платформа доставки от KDDI; итоговая встреча и networking.",
+      "desc_en": "menu is a Japanese food-delivery app launched in 2019-2020 by Reazon Holdings; telecom carrier KDDI invested in 2021, integrating it with its au, Ponta and Lawson ecosystem and pushing menu into the country's top three delivery platforms. However, in August 2026 KDDI announced the service would end on September 30, 2026, with the operating company to be dissolved, amid intensifying competition from Uber Eats, Wolt and Demae-can.",
+      "desc_ru": "menu — сервис доставки еды, запущенный в Японии в 2019–2020 годах группой Reazon Holdings; в 2021 году оператор связи KDDI стал инвестором, интегрировав сервис с экосистемой au, Ponta и Lawson, что вывело menu в тройку крупнейших платформ доставки страны. Однако в августе 2026 года KDDI объявила о прекращении сервиса 30 сентября 2026 года и ликвидации компании-оператора на фоне обострившейся конкуренции с Uber Eats, Wolt и Demae-can.",
       "country": "jp"
     },
     {
@@ -8478,8 +8478,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Japan's dominant messenger and payments ecosystem.",
-      "desc_ru": "Доминирующий в Японии мессенджер и платёжная экосистема.",
+      "desc_en": "LY Corporation was formed in October 2023 through the merger of LINE Corporation and Yahoo! Japan (Z Holdings), controlled by A Holdings, a joint venture of SoftBank and Naver. LINE is Japan's dominant messaging app with tens of millions of monthly active users, integrated with LINE Pay, news and mini-apps. Yahoo! Japan adds search, portal and e-commerce, while affiliate PayPay is the country's largest QR wallet.",
+      "desc_ru": "LY Corporation образована в октябре 2023 года слиянием LINE Corporation и Yahoo! Japan (Z Holdings) под контролем совместного предприятия SoftBank и южнокорейской Naver. Мессенджер LINE — доминирующая платформа общения в Японии с десятками миллионов активных пользователей ежемесячно, интегрированная с LINE Pay, новостями и мини-приложениями. Yahoo! Japan добавляет поиск, портал и e-commerce, а аффилированный PayPay — крупнейший QR-кошелёк страны.",
       "country": "jp",
       "logo": "/logos/ly-corporation.svg"
     },
@@ -8507,8 +8507,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI + e-commerce campus, two sessions on one site.",
-      "desc_ru": "Кампус AI и e-commerce, две сессии на одной площадке.",
+      "desc_en": "Rakuten Crimson House is Rakuten Group's global headquarters in Futako-Tamagawa, Setagaya, Tokyo, where the company relocated in 2015. Rakuten was founded by Hiroshi Mikitani in 1997 and grew from the Rakuten Ichiba marketplace into a conglomerate of dozens of services spanning fintech (Card, Bank, Pay), the Rakuten Mobile carrier, and AI development. The campus includes a cafeteria, gym and daycare and hosts events bridging e-commerce and AI.",
+      "desc_ru": "Rakuten Crimson House — глобальная штаб-квартира Rakuten Group в районе Футако-Тамагава (Сэтагая, Токио), куда компания переехала в 2015 году. Rakuten основана Хироси Микитани в 1997 году и выросла из магазина Rakuten Ichiba в конгломерат из десятков сервисов: финтех (Card, Bank, Pay), связь Rakuten Mobile и разработки в области ИИ. Кампус включает столовую, спортзал и детский сад — площадку для мероприятий, объединяющих e-commerce и AI.",
       "country": "jp",
       "logo": "/logos/rakuten-crimson-house.svg"
     },
@@ -8522,8 +8522,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "C2C marketplace and its ML technology stack.",
-      "desc_ru": "C2C-маркетплейс, ML-технологии.",
+      "desc_en": "Mercari is a Japanese C2C flea-market marketplace app founded by Shintaro Yamada in Tokyo in 2013. It went public on the Tokyo Stock Exchange in 2018 in one of Japan's largest tech IPOs and expanded into the US market. The app has over 20 million monthly active users and relies on machine learning for photo-based item recognition, price suggestions and fraud detection. Its subsidiary Merpay runs a mobile payments and lending business.",
+      "desc_ru": "Mercari — японский C2C-маркетплейс подержанных товаров, основанный Синтаро Ямадой в 2013 году в Токио. В 2018-м компания провела IPO на Tokyo Stock Exchange — одно из крупнейших технологических размещений в истории Японии — и вышла на рынок США. Сервис насчитывает свыше 20 млн активных пользователей в месяц и применяет ML для распознавания товаров по фото, подсказки цены и борьбы с мошенничеством. Merpay развивает мобильные платежи.",
       "country": "jp"
     },
     {
@@ -8565,8 +8565,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Fashion-tech and the ZOZOSUIT body-scanning technology.",
-      "desc_ru": "Фэшн-tech и технология сканирования тела ZOZOSUIT.",
+      "desc_en": "ZOZO is Japan's largest fashion-tech platform, founded by Yusaku Maezawa in 1998 (originally Start Today), which launched the ZOZOTOWN fashion marketplace in 2004. In 2018 it introduced ZOZOSUIT, a sensor-dotted bodysuit for 3D body scanning enabling made-to-measure clothing under its own ZOZO label. Yahoo! Japan (SoftBank) acquired a controlling stake in 2019. Headquartered in Chiba, it partners with thousands of fashion brands.",
+      "desc_ru": "ZOZO — крупнейшая японская fashion-tech платформа, основанная Юсаку Маэдзавой в 1998 году (как Start Today); в 2004-м запущен маркетплейс ZOZOTOWN. В 2018 году компания представила ZOZOSUIT — костюм с сенсорными метками для 3D-сканирования тела и подбора одежды под собственный бренд ZOZO. В 2019-м Yahoo! Japan (SoftBank) приобрела контрольный пакет ZOZO. Штаб-квартира — в Тибе, платформа сотрудничает с тысячами брендов.",
       "country": "jp"
     },
     {
@@ -9214,8 +9214,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "HQ of the dominant delivery super-app.",
-      "desc_ru": "Штаб-квартира доминирующего супер-приложения доставки.",
+      "desc_en": "LINE MAN Wongnai formed in 2020 by merging the LINE MAN delivery service and Wongnai restaurant-review platform, backed by LY Corporation (LINE) and investors like BRV Capital. It raised $265 million at a $1 billion valuation in 2022. Based in Bangkok, it serves over 10 million users, 500,000 merchants and 250,000 riders, holding roughly 40% of food delivery, trailing leader Grab. It turned profitable in 2025, targeting a 2027 IPO.",
+      "desc_ru": "LINE MAN Wongnai образована в 2020 году слиянием сервиса LINE MAN и платформы отзывов Wongnai при поддержке LY Corporation (LINE) и фондов вроде BRV Capital. В 2022-м компания привлекла $265 млн при оценке $1 млрд. Бангкокская штаб-квартира обслуживает свыше 10 млн пользователей, 500 000 точек и 250 000 курьеров, занимая около 40% рынка доставки — вплотную к лидеру Grab. В 2025-м компания вышла на прибыль, готовясь к IPO в 2027-м.",
       "country": "th"
     },
     {
@@ -9228,8 +9228,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Regional super-app, GrabFood.",
-      "desc_ru": "Региональный супер-апп.",
+      "desc_en": "Grab is a Singapore-based super-app founded in 2012 by Anthony Tan and Tan Hooi Ling, listed on Nasdaq since 2021 via SPAC merger. GrabFood launched in Thailand in 2018 and, as of 2025, holds the country's largest food-delivery market share (around 47%), ahead of LINE MAN Wongnai. Grab's Thai ecosystem also includes ride-hailing, GrabMart grocery delivery and the GrabPay e-wallet, part of a network spanning eight Southeast Asian countries.",
+      "desc_ru": "Grab — сингапурский супер-апп, основанный в 2012 году Энтони Тэном и Тан Хой Лин; с 2021 года торгуется на Nasdaq после SPAC-слияния. GrabFood запущен в Таиланде в 2018-м и, по данным на 2025 год, занимает крупнейшую долю рынка доставки еды (около 47%), опережая LINE MAN Wongnai. Экосистема Grab в Таиланде включает райдхейлинг, GrabMart и кошелёк GrabPay — часть сети сервиса в восьми странах Юго-Восточной Азии.",
       "country": "th",
       "logo": "/logos/grab-thailand.svg"
     },
@@ -9243,8 +9243,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery platform.",
-      "desc_ru": "Платформа доставки.",
+      "desc_en": "foodpanda is a food and grocery delivery platform owned by Germany's Delivery Hero (Berlin); the brand launched in 2012 and operates in more than a dozen Asian markets. In Thailand foodpanda started in 2013 but by the mid-2020s had lost ground to leaders Grab and LINE MAN Wongnai, holding a smaller niche position. Delivery Hero has scaled back foodpanda's footprint across Asia amid unprofitable operations and rising competition.",
+      "desc_ru": "foodpanda — платформа доставки еды и товаров, принадлежащая немецкой Delivery Hero (Берлин); бренд основан в 2012 году и работает более чем в десятке азиатских стран. В Таиланде foodpanda запустилась в 2013-м, но к середине 2020-х уступила лидерство Grab и LINE MAN Wongnai, оставаясь нишевым игроком. Delivery Hero в последние годы сокращала присутствие foodpanda в Азии на фоне убыточности операций и роста конкуренции.",
       "country": "th",
       "logo": "/logos/foodpanda-thailand.svg"
     },
@@ -9258,8 +9258,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Non-profit delivery model backed by SCB.",
-      "desc_ru": "Некоммерческая модель доставки от SCB.",
+      "desc_en": "Robinhood is a food-delivery app launched in 2020 by Siam Commercial Bank (SCB) via subsidiary Purple Ventures as a not-for-profit initiative charging restaurants no commission, meant to support small businesses during COVID-19. By 2024 losses reached 2.1 billion baht; SCB shut related services (ride-hailing, mart, express) on July 31, 2024, and sold the food-delivery business to Yip In Tsoi for 2 billion baht in a deal signed September 30, 2024.",
+      "desc_ru": "Robinhood — приложение доставки еды, запущенное в 2020 году банком SCB через дочернюю Purple Ventures как проект без комиссии с ресторанов для поддержки бизнеса в пандемию COVID-19. К 2024 году убытки достигли 2,1 млрд бат: SCB закрыл сопутствующие сервисы (такси, товары, экспресс) 31 июля 2024-го, а направление еды продал компании Yip In Tsoi за 2 млрд бат по сделке от 30 сентября 2024 года.",
       "country": "th"
     },
     {
@@ -9272,8 +9272,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "B2B food supply-chain platform.",
-      "desc_ru": "B2B цепочка поставок продуктов.",
+      "desc_en": "Freshket is a Thai B2B fresh-food supply platform for restaurants, founded in Bangkok in 2016 by Ponglada Paniangwet and Saran Chiwtanasuntorn. It connects farmers directly with more than 26,000 restaurant clients. The firm has raised over $34 million across five rounds, including a $3 million Series A in 2020 (Openspace) and a $23.5 million Series B in 2021 (PTT OR), plus $8 million in 2024 from Thai President Foods and Kliff Capital.",
+      "desc_ru": "Freshket — таиландская B2B-платформа поставок свежих продуктов для ресторанов, основана в Бангкоке в 2016 году Понгладой Паниангвет и Сараном Чивтанасунторном. Сервис связывает фермеров и поставщиков напрямую с более чем 26 000 ресторанов. Компания привлекла свыше $34 млн за пять раундов, включая Series A $3 млн (2020, Openspace) и Series B $23,5 млн (2021, PTT OR), а в 2024-м — $8 млн от Thai President Foods и Kliff Capital.",
       "country": "th"
     },
     {
@@ -9286,8 +9286,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud-kitchen operator.",
-      "desc_ru": "Оператор облачных кухонь.",
+      "desc_en": "CloudEats is a cloud-kitchen and virtual-restaurant-brand operator founded in 2019 and headquartered in Makati City, Philippines. It builds delivery-only brands (Burger Beast, 24/7 Eats, Sulit Chicken and others — over 30 in the Philippines, 20+ in Vietnam) and has expanded into Thailand, Malaysia and Singapore. It raised a $1.4 million seed round and a $7 million Series A extension in 2022, led by Nordstar Capital.",
+      "desc_ru": "CloudEats — оператор облачных кухонь и виртуальных ресторанных брендов, основанный в 2019 году со штаб-квартирой в Макати (Филиппины). Компания создаёт бренды для доставки (Burger Beast, 24/7 Eats, Sulit Chicken — более 30 в Филиппинах, свыше 20 во Вьетнаме) и вышла в Таиланд, Малайзию и Сингапур. Привлекла $1,4 млн на посевной стадии и $7 млн в раунде Series A extension (2022, Nordstar Capital).",
       "country": "th"
     },
     {
@@ -9300,8 +9300,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "CP Group's cloud kitchens.",
-      "desc_ru": "Облачные кухни CP Group.",
+      "desc_en": "CP Cloud Kitchen is a cloud-kitchen initiative within Charoen Pokphand Group (CP Group), Thailand's largest agribusiness and retail conglomerate, founded in 1921 by the Chearavanont family. CP Group spans livestock and food production (CP Foods), retail (7-Eleven via CP All, Lotus's hypermarkets) and telecom, and its cloud kitchens plug into this chain to prepare delivery-only meals from the group's own production and partner brands.",
+      "desc_ru": "CP Cloud Kitchen — проект в сфере облачных кухонь структур конгломерата Charoen Pokphand (CP Group) — крупнейшей тайской агропромышленной и розничной группы, основанной в 1921 году семьёй Чиараванонт. CP Group управляет активами от животноводства и пищевого производства (CP Foods) до розницы (7-Eleven через CP All, Lotus's) и телекома, а облачные кухни встраиваются в цепочку, готовя блюда под доставку из продукции группы и партнёров.",
       "country": "th"
     },
     {
@@ -9314,8 +9314,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery platform.",
-      "desc_ru": "Платформа доставки.",
+      "desc_en": "Shopee Food is the food-delivery feature within the Shopee app, owned by Singapore's Sea Limited (NYSE: SE, founded by Forrest Li in 2009 as Garena's parent company). Shopee launched in Thailand in 2015 as an e-commerce marketplace, and the Shopee Food delivery function was added in 2021, integrating restaurant ordering directly into the Shopee super-app alongside shopping and ShopeePay, sharing a unified loyalty program and promo-code system.",
+      "desc_ru": "Shopee Food — сервис доставки еды в приложении Shopee, принадлежащем сингапурской Sea Limited (NYSE: SE, основана Форрестом Ли в 2009 году как материнская компания Garena). Shopee запустился в Таиланде в 2015 году, а функция Shopee Food добавлена в 2021-м, интегрируя заказ блюд в супер-приложение наряду с покупками и ShopeePay, с единой программой лояльности и промокодами.",
       "country": "th",
       "logo": "/logos/shopee-food-th.svg"
     },
@@ -9329,8 +9329,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery and digital services; closing meeting follows.",
-      "desc_ru": "Доставка и цифровые сервисы; далее — итоговая встреча.",
+      "desc_en": "True Digital Group is the digital arm of True Corporation, Thailand's largest telecom operator, formed in 2023 through the merger of True and dtac. The group runs an ecosystem of services including the TrueMoney payment wallet, the TrueID media platform (more than 35 million daily users), and delivery and digital-retail initiatives integrated with its parent's retail network and telecom infrastructure to reach millions of subscribers nationwide.",
+      "desc_ru": "True Digital Group — цифровое подразделение True Corporation, крупнейшего телеком-оператора Таиланда, образованного в 2023 году слиянием True и dtac. Группа развивает кошелёк TrueMoney, медиаплатформу TrueID (свыше 35 млн пользователей ежедневно), а также инициативы в доставке и цифровом ретейле, интегрированные с розничной сетью и инфраструктурой материнской компании.",
       "country": "th"
     },
     {
@@ -9371,8 +9371,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Dominant messenger.",
-      "desc_ru": "Доминирующий мессенджер.",
+      "desc_en": "LINE is the messaging app of Japan's LY Corporation, which entered the Thai market in the early 2010s and became the country's near-ubiquitous communication platform, with an estimated user base exceeding 50 million out of roughly 70 million people. Beyond chat, LINE Thailand runs the LINE TODAY news aggregator, LINE Pay payments and LINE Shopping social commerce; its delivery arm, LINE MAN, was later spun off into LINE MAN Wongnai.",
+      "desc_ru": "LINE — мессенджер японской LY Corporation, вышедший на тайский рынок в начале 2010-х и ставший практически повсеместным средством общения: аудитория оценивается свыше 50 млн при населении страны около 70 млн. Помимо чатов, LINE Thailand развивает агрегатор LINE TODAY, платёжный LINE Pay и соцкоммерцию LINE Shopping; ранее в экосистему входил сервис доставки LINE MAN, выделенный позже в LINE MAN Wongnai.",
       "country": "th",
       "logo": "/logos/line-thailand.svg"
     },
@@ -9400,8 +9400,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce platform.",
-      "desc_ru": "E-commerce платформа.",
+      "desc_en": "Lazada is a Southeast Asian e-commerce platform founded by Berlin incubator Rocket Internet in 2012; since 2016 it has been controlled by China's Alibaba Group, which raised its stake to full ownership by 2018. Lazada Thailand is one of six regional markets (with Indonesia, Malaysia, the Philippines, Singapore and Vietnam), offering a marketplace, the Lazada Express logistics network and payments integrated with Alibaba's infrastructure.",
+      "desc_ru": "Lazada — юго-восточноазиатская e-commerce платформа, основанная берлинским Rocket Internet в 2012 году; с 2016-го контролируется Alibaba Group, доведшей долю до полного владения к 2018-му. Lazada Thailand — один из шести региональных рынков сервиса (с Индонезией, Малайзией, Филиппинами, Сингапуром, Вьетнамом), с маркетплейсом, логистикой Lazada Express и платежами на инфраструктуре Alibaba.",
       "country": "th",
       "logo": "/logos/lazada-thailand.svg"
     },
@@ -9415,8 +9415,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce platform.",
-      "desc_ru": "E-commerce платформа.",
+      "desc_en": "Shopee is Southeast Asia's highest-traffic e-commerce platform, launched in 2015 by Singapore's Sea Limited (NYSE: SE, founded by Forrest Li in 2009). In Thailand, Shopee has competed head-to-head with Lazada since launch, leveraging gamification (mini-games, flash sales), its own ShopeePay payment service and a logistics network; it gained significant market share during the pandemic and remains one of the country's two dominant marketplaces.",
+      "desc_ru": "Shopee — крупнейшая по трафику e-commerce платформа Юго-Восточной Азии, запущенная в 2015 году сингапурской Sea Limited (NYSE: SE, основана Форрестом Ли в 2009-м). В Таиланде Shopee активно конкурирует с Lazada, используя геймификацию (мини-игры, флэш-распродажи), сервис ShopeePay и логистику; во время пандемии сервис нарастил долю рынка и остаётся одним из двух доминирующих маркетплейсов страны.",
       "country": "th",
       "logo": "/logos/shopee-thailand.svg"
     },
@@ -9430,8 +9430,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce joint venture.",
-      "desc_ru": "Совместное предприятие e-commerce.",
+      "desc_en": "Central JD Fintech and the JD Central marketplace were joint ventures between Thailand's Central Group and China's JD.com, established in September 2017 with roughly $500 million invested across e-commerce and fintech. JD Central ceased operations in Thailand on March 3, 2023, after six years, as JD.com refocused on supply-chain and cross-border logistics rather than Southeast Asian retail JVs; the Dolfin fintech venture also wound down.",
+      "desc_ru": "Central JD Fintech и маркетплейс JD Central — совместные предприятия Central Group и китайской JD.com, созданные в сентябре 2017 года с инвестициями около $500 млн в e-commerce и финтех. JD Central прекратил работу в Таиланде 3 марта 2023-го после шести лет — JD.com решила сосредоточиться на цепочках поставок вместо розничных СП в регионе; финтех-СП Dolfin также свернулось.",
       "country": "th"
     },
     {
@@ -9444,8 +9444,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Social commerce.",
-      "desc_ru": "Социальная коммерция.",
+      "desc_en": "TikTok Shop is the social-commerce feature within ByteDance's TikTok app, launched in Thailand in 2022 as part of the platform's Southeast Asian expansion. It emphasizes livestream selling and shoppable short-form video, competing directly with Shopee and Lazada. After TikTok's e-commerce business in Indonesia was forced to restructure in 2023 (merging with Tokopedia after a ban), Thailand has remained a key growth market for TikTok Shop.",
+      "desc_ru": "TikTok Shop — сервис социальной коммерции внутри TikTok (ByteDance); запущен в Таиланде в 2022 году в рамках экспансии по Юго-Восточной Азии. Делает ставку на live-стриминг-продажи и короткие видео с прямыми ссылками на покупку, конкурируя с Shopee и Lazada. После вынужденной реструктуризации бизнеса в Индонезии в 2023-м (слияние с Tokopedia из-за запрета) Таиланд остаётся ключевым рынком роста сервиса.",
       "country": "th"
     },
     {
@@ -10106,8 +10106,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Market leader, AI logistics.",
-      "desc_ru": "Лидер рынка, AI-логистика.",
+      "desc_en": "GrabFood is the food-delivery service of Singapore-based super-app Grab (founded 2012, Nasdaq-listed since 2021), launched in Vietnam in 2018 on top of the GrabTaxi/GrabBike ride-hailing business that had operated there since 2014. GrabFood is a market leader in Vietnamese food delivery alongside ShopeeFood and Be, using AI-driven algorithms for courier routing, dynamic pricing and demand forecasting across dozens of Vietnamese cities.",
+      "desc_ru": "GrabFood — сервис доставки еды сингапурского супер-приложения Grab (основано в 2012 году, на Nasdaq с 2021-го), запущенный во Вьетнаме в 2018 году поверх райдхейлинга GrabTaxi/GrabBike, работающего с 2014-го. GrabFood занимает лидирующие позиции на вьетнамском рынке доставки еды наряду с ShopeeFood и Be, используя алгоритмы ИИ для маршрутизации курьеров, динамического ценообразования и прогнозирования спроса в масштабе десятков городов страны.",
       "country": "vn",
       "logo": "/logos/grabfood-vietnam.svg"
     },
@@ -10121,8 +10121,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery platform.",
-      "desc_ru": "Платформа доставки.",
+      "desc_en": "ShopeeFood is a Vietnamese food-delivery service owned by Singapore's Sea Limited; it grew out of Now.vn (formerly the Foody-owned Now service), acquired by Sea in 2017, and was rebranded ShopeeFood in 2021 with integration into the main Shopee app. It is one of Vietnam's two or three leading food-delivery platforms alongside GrabFood and Be, leveraging shared Shopee logistics, ShopeePay payments and super-app promotions.",
+      "desc_ru": "ShopeeFood — сервис доставки еды во Вьетнаме, принадлежащий сингапурской Sea Limited; вырос из платформы Now.vn (бывшего сервиса компании Foody), приобретённой Sea в 2017 году, и в 2021-м был ребрендирован в ShopeeFood с интеграцией в основное приложение Shopee. Сервис — один из двух-трёх лидеров рынка доставки еды Вьетнама наряду с GrabFood и Be, опираясь на общую с Shopee логистику, платежи ShopeePay и промоакции супер-приложения.",
       "country": "vn",
       "logo": "/logos/shopeefood-vietnam.svg"
     },
@@ -10136,8 +10136,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Vietnamese super-app.",
-      "desc_ru": "Вьетнамский супер-апп.",
+      "desc_en": "Be (beGroup) is a Vietnamese super-app founded in 2018 in Ho Chi Minh City as a ride-hailing service competing with Grab. The company raised about $30.3 million (VND 740 billion) from VPBank Securities and in 2021 partnered with VPBank to launch the digital bank Cake — the first embedded banking offer inside a Vietnamese ride-hailing app. Beyond transport, Be has expanded into delivery and beFinancial services.",
+      "desc_ru": "Be (beGroup) — вьетнамский супер-апп, основанный в 2018 году в Хошимине как райдхейлинг-сервис, конкурирующий с Grab. Компания привлекла около $30,3 млн (740 млрд донгов) от VPBank Securities и в 2021-м вместе с VPBank запустила цифровой банк Cake — первое встроенное банковское предложение внутри такси-приложения во Вьетнаме. Помимо перевозок, Be развивает доставку и сервисы beFinancial.",
       "country": "vn"
     },
     {
@@ -10150,8 +10150,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Local delivery platform.",
-      "desc_ru": "Локальная доставка.",
+      "desc_en": "Loship (formerly Lozi) is a Vietnamese one-hour delivery service founded in 2017, covering food, goods, medicine and B2B supplies in Hanoi, HCMC, Da Nang, Can Tho and Bien Hoa. By its own figures, the platform involves more than 70,000 drivers and 200,000 merchants serving roughly 2 million customers. In 2021 Loship raised $12 million pre-Series C, backed by Ant Group-affiliated BAce Capital and Sun Hung Kai, aiming to list on the NYSE.",
+      "desc_ru": "Loship (ранее Lozi) — вьетнамский сервис быстрой доставки «за один час», основанный в 2017 году: еда, товары, лекарства и B2B-поставки в Ханое, Хошимине, Дананге, Кантхо и Бьенхоа. По данным компании, платформа задействует свыше 70 000 курьеров и 200 000 продавцов и обслуживает около 2 млн клиентов. В 2021-м Loship привлёк $12 млн в раунде pre-Series C при участии BAce Capital (связан с Ant Group) и Sun Hung Kai, заявив цель выйти на NYSE.",
       "country": "vn"
     },
     {
@@ -10164,8 +10164,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "EV delivery and ride-hailing.",
-      "desc_ru": "EV-доставка и такси.",
+      "desc_en": "Xanh SM (rebranded Green SM in 2025) is an all-electric taxi and ride-hailing operator launched in April 2023 by billionaire Pham Nhat Vuong (also founder of VinFast) through Green and Smart Mobility (GSM), capitalized at VND 3 trillion. Its fleet consists exclusively of VinFast EVs. Since 2023 it has expanded beyond Vietnam into Laos, Indonesia and the Philippines, becoming Southeast Asia's first cross-border electric ride-hailing company.",
+      "desc_ru": "Xanh SM (с 2025 г. — Green SM) — оператор электротакси и каршеринга, основанный в апреле 2023 г. миллиардером Фам Нят Выонгом (владельцем VinFast) через компанию GSM (Green and Smart Mobility) с уставным капиталом 3 трлн донгов. Парк состоит исключительно из электромобилей VinFast. С 2023 г. компания вышла за пределы Вьетнама — в Лаос, Индонезию, Филиппины, став первым международным электротакси-оператором региона.",
       "country": "vn",
       "logo": "/logos/xanh-sm-gsm-vinfast.svg"
     },
@@ -10179,8 +10179,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Logistics platform.",
-      "desc_ru": "Логистическая платформа.",
+      "desc_en": "Ahamove is a Vietnamese on-demand logistics platform founded in 2015 in Ho Chi Minh City, connecting shippers with motorbike, van and truck drivers via real-time order matching, GPS tracking and driver ratings. Alongside GHN, it is a core last-mile delivery partner for Vietnam's largest e-commerce platforms — Shopee, Tiki, Lazada and Sendo — as well as over 100,000 small and medium online merchants.",
+      "desc_ru": "Ahamove — вьетнамская логистическая платформа, основанная в 2015 г. в Хошимине (спин-офф Scommerce/Lomogo), соединяющая отправителей с водителями мотоциклов, вэнов и грузовиков по модели on-demand с матчингом заказов в реальном времени, GPS-трекингом и рейтингами водителей. Наряду с GHN входит в число ключевых логистических партнёров для крупнейших e-commerce площадок Вьетнама — Shopee, Tiki, Lazada, Sendo — и более 100 тыс. онлайн-продавцов.",
       "country": "vn"
     },
     {
@@ -10193,8 +10193,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Zalo + Zalo AI campus (79.6M MAU, ~2.1bn messages/day).",
-      "desc_ru": "Кампус Zalo + Zalo AI (79,6 млн MAU, ~2,1 млрд сообщений/день).",
+      "desc_en": "VNG Corporation, founded in 2004, is Vietnam's largest internet company, operator of the Zalo messaging app, ZaloPay and gaming unit Zing. In 2025 Zalo reached 79.6 million MAU and disclosed revenue for the first time (VND 1,718 billion, up 38% YoY); VNG's consolidated revenue hit VND 10.9 trillion (+17%). It is pushing AI into Zalo — by Q2 2026 roughly 24 million users used AI messaging/calling monthly, up 33% YoY.",
+      "desc_ru": "VNG Corporation, основана в 2004 г., крупнейшая вьетнамская интернет-компания, оператор мессенджера Zalo, платёжного сервиса ZaloPay и игрового подразделения Zing. В 2025 г. Zalo достиг 79,6 млн MAU и впервые раскрыл выручку (1,718 трлн донгов, +38% г/г); консолидированная выручка VNG — 10,9 трлн донгов (+17%). Компания активно внедряет ИИ в Zalo: к II кв. 2026 г. функции ИИ-мессенджинга и звонков ежемесячно использовали ок. 24 млн человек (+33% г/г).",
       "country": "vn"
     },
     {
@@ -10207,8 +10207,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Vietnamese e-commerce platform.",
-      "desc_ru": "Вьетнамский e-commerce.",
+      "desc_en": "Tiki is a Vietnamese e-commerce platform founded in 2010 by Tran Ngoc Thai Son as an online bookstore in Ho Chi Minh City, later growing into a full marketplace with its own NOW/TikiNOW logistics arm. It raised $258 million in a 2021 Series E round (AIA, UBS, Mirae Asset), nearing a $1 billion valuation. By 2024–2025 it lost significant ground to Shopee and TikTok Shop, with market share sliding to roughly 0.9% and Q1 2025 GMV plunging 57% YoY.",
+      "desc_ru": "Tiki — вьетнамская e-commerce платформа, основанная в 2010 г. Чан Нгок Тхай Соном как книжный онлайн-магазин в Хошимине; выросла в универсальный маркетплейс с логистикой NOW и TikiNOW. В 2021 г. привлекла $258 млн (раунд Series E, AIA, UBS, Mirae Asset), приблизившись к оценке $1 млрд. Однако к 2024–2025 гг. компания резко сдала позиции конкурентам Shopee и TikTok Shop: доля рынка упала до ~0,9%, а GMV в I кв. 2025 г. рухнул на 57% г/г.",
       "country": "vn"
     },
     {
@@ -10306,8 +10306,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "E-commerce platforms.",
-      "desc_ru": "E-commerce платформы.",
+      "desc_en": "Shopee (a unit of Singapore's Sea Ltd, entered Vietnam in 2016) and Lazada (launched in 2012, majority-owned by Alibaba since 2016) are Vietnam's two largest e-commerce platforms. In 2025 Shopee holds a dominant ~56% market share, while Lazada and Tiki together account for only about 3% of sales as TikTok Shop surges to roughly 41%. Combined 2025 revenue of Vietnam's top four e-commerce platforms is estimated at $16.5 billion.",
+      "desc_ru": "Shopee (подразделение сингапурской Sea Ltd, вышла на рынок Вьетнама в 2016 г.) и Lazada (запущена в 2012 г., с 2016 г. контролируется Alibaba) — две крупнейшие e-commerce платформы Вьетнама. В 2025 г. Shopee удерживает доминирующую долю рынка (~56%), тогда как Lazada вместе с Tiki делят лишь около 3% продаж на фоне стремительного роста TikTok Shop (~41%). Совокупная выручка топ-4 платформ Вьетнама в 2025 г. оценивается в $16,5 млрд.",
       "country": "vn"
     },
     {
@@ -10756,8 +10756,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "O2O e-commerce integration; backed by Djarum/GDP.",
-      "desc_ru": "O2O интеграция; за брендом стоит Djarum/GDP.",
+      "desc_en": "Blibli (PT Global Digital Niaga) is an Indonesian e-commerce platform founded August 15, 2011 as a subsidiary of the Djarum tobacco conglomerate, backed by venture arm GDP Venture (Martin Hartono, 2010). It runs an O2O model spanning B2C, B2B and B2B2C with over 100,000 partners. It IPO'd on the Indonesia Stock Exchange in late 2022 at roughly $509 million, becoming the country's third unicorn; its portfolio includes tiket.com and Ranch Market.",
+      "desc_ru": "Blibli (PT Global Digital Niaga) — индонезийская e-commerce платформа, основанная 15 августа 2011 г. как «дочка» табачного конгломерата Djarum через венчурное подразделение GDP Venture (Мартин Хартоно, 2010 г.). Работает по модели O2O (B2C, B2B, B2B2C), объединяя более 100 тыс. партнёров. В конце 2022 г. провела IPO на бирже Индонезии (оценка ок. $509 млн), став третьим «единорогом» страны; в портфель также входят tiket.com и сеть Ranch Market.",
       "country": "id",
       "logo": "/logos/blibli.svg"
     },
@@ -10884,8 +10884,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "HQ: AI demand forecasting and dynamic pricing.",
-      "desc_ru": "Штаб-квартира, AI-прогноз спроса и динамическое ценообразование.",
+      "desc_en": "GoFood is the food-delivery arm of Indonesia's GoTo (Gojek) ecosystem, launched alongside Gojek in 2015 and now one of the country's largest O2O delivery platforms alongside GrabFood and ShopeeFood. It leverages behavioral data from millions of users and driver-partners for algorithmic demand forecasting and dynamic pricing, and works with cloud-kitchen partners under the GoKitchen model to help restaurant partners scale production to meet peak demand.",
+      "desc_ru": "GoFood — сервис доставки еды экосистемы GoTo (Gojek), запущенный вместе с Gojek в 2015 г. и ставший одной из крупнейших O2O food-delivery платформ Индонезии наряду с GrabFood и ShopeeFood. Использует данные о поведении миллионов пользователей и партнёров-водителей для алгоритмического прогнозирования спроса и динамического ценообразования, а через сеть GoKitchen/cloud-kitchen партнёрств помогает ресторанам-партнёрам масштабировать производство под пиковый спрос.",
       "country": "id"
     },
     {
@@ -10898,8 +10898,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "GrabFood delivery.",
-      "desc_ru": "GrabFood.",
+      "desc_en": "Grab is a Singapore-headquartered super-app founded in 2012 by Anthony Tan and Tan Hooi Ling (originally MyTeksi in Malaysia), entering Jakarta in June 2014. GrabFood, launched in Indonesia around 2016–2018, is a market leader alongside GoFood and ShopeeFood. In ride-hailing, Grab and Gojek/GoTo split Indonesia roughly 50/50, while across Southeast Asia's combined mobility-and-delivery segment Grab holds around a 72% share.",
+      "desc_ru": "Grab — сингапурский супер-апп, основанный в 2012 г. Энтони Таном и Тан Хуэй Лин (изначально MyTeksi в Малайзии); вышел на рынок Джакарты в июне 2014 г. GrabFood запущен в Индонезии в 2016–2018 гг. и стал одним из лидеров наряду с GoFood и ShopeeFood. В райд-хейлинге Grab делит с Gojek/GoTo индонезийский рынок примерно поровну (~50/50), а по всей Юго-Восточной Азии совокупная доля Grab в мобильности и доставке достигает ~72%.",
       "country": "id",
       "logo": "/logos/grab-indonesia.svg"
     },
@@ -10913,8 +10913,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Indonesia's largest cloud-kitchen operator.",
-      "desc_ru": "Крупнейший оператор облачных кухонь Индонезии.",
+      "desc_en": "Yummy Corp is Indonesia's largest cloud-kitchen operator, founded in 2017 as a venture of the Ismaya F&B group by brothers Marbio, Mario and Marius Suntanu with Deasy Harjanto and former Foodpanda Indonesia head Juan Chene. Its Yummykitchen brand (June 2019) runs over 70 kitchens serving 50+ partner brands, raised a $12 million Series B from SoftBank Ventures Asia in 2020, and acts as a full operating partner, not just a space-rental provider.",
+      "desc_ru": "Yummy Corp — крупнейший оператор облачных кухонь Индонезии, основан в 2017 г. как проект F&B-группы Ismaya братьями Марбио, Марио и Мариусом Сунтану совместно с Диаси Харджанто и экс-главой Foodpanda Indonesia Хуаном Чене. Бренд Yummykitchen (запущен в июне 2019 г.) управляет 70+ кухнями и обслуживает более 50 партнёрских брендов; в 2020 г. привлёк $12 млн Series B от SoftBank Ventures Asia. Выступает полноценным операционным партнёром, а не просто арендодателем.",
       "country": "id"
     },
     {
@@ -10927,8 +10927,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud-kitchen infrastructure.",
-      "desc_ru": "Инфраструктура cloud kitchen.",
+      "desc_en": "Everplate Kitchens is an Indonesian cloud-kitchen infrastructure operator founded in January 2020, running a network of kitchens across Jakarta on a fixed-rent model (from roughly IDR 6 million/month) and serving more than 150 F&B partners, from established chains like Wingstop to brands that exist purely as delivery-only virtual restaurants. It onboards partners across all major delivery platforms — GrabFood, GoFood, ShopeeFood and Traveloka Eats.",
+      "desc_ru": "Everplate Kitchens — индонезийский оператор инфраструктуры облачных кухонь, основанный в январе 2020 г.; управляет сетью кухонь в Джакарте (арендная модель с фиксированной ставкой от ~6 млн рупий/мес.) и обслуживает более 150 F&B-партнёров, от крупных сетей вроде Wingstop до брендов, существующих исключительно как виртуальные рестораны. Помогает партнёрам выходить на все ключевые платформы доставки — GrabFood, GoFood, ShopeeFood, Traveloka Eats.",
       "country": "id"
     },
     {
@@ -10941,8 +10941,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Multi-brand cloud-kitchen startup.",
-      "desc_ru": "Мультибрендовый cloud-kitchen стартап.",
+      "desc_en": "Hangry is an Indonesian multi-brand cloud-kitchen startup founded in late 2019 by Abraham Viktor, Robin Tan and Andreas Resha, operating a network of 18 brands across 117 outlets nationwide and ranking among the top 10 operators on GrabFood, GoFood and ShopeeFood. In October 2025 it raised $10.5 million in a Series A5 round led by Alpha JWC to upgrade kitchen infrastructure and enter its first overseas market, Malaysia; total funding to date exceeds $49 million.",
+      "desc_ru": "Hangry — индонезийский мультибрендовый cloud-kitchen стартап, основанный в конце 2019 г. Абрахамом Виктором, Робином Таном и Андреасом Решей; управляет сетью из 18 брендов и 117 точек по стране, входя в топ-10 операторов на GrabFood, GoFood и ShopeeFood. В октябре 2025 г. привлёк $10,5 млн (раунд A5, лид — Alpha JWC) на модернизацию кухонь и выход на первый зарубежный рынок — Малайзию; совокупное финансирование превышает $49 млн.",
       "country": "id"
     },
     {
@@ -10955,8 +10955,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud-kitchen consolidator.",
-      "desc_ru": "Консолидатор облачных кухонь.",
+      "desc_en": "Legit Group is an Indonesian cloud-kitchen consolidator founded in 2021 by Bram Hendrata, Sumarno Ngadiman and Monica Evanti Andriani, partnered with Ismaya Group, Yummy Corp and GK Hebat. It runs four delivery-only F&B brands (Pastaria, Sei'Tan, Sek Fan, Ryujin) across 30+ locations, mostly in Jakarta, with no offline footprint. It raised a $3 million seed round (East Ventures, 2021) and a $13.7 million Series A (MDI Ventures and others).",
+      "desc_ru": "Legit Group — индонезийский консолидатор облачных кухонь, основанный в 2021 г. Брамом Хендратой, Сумарно Нгадиманом и Моникой Эванти Андриани в партнёрстве с Ismaya Group, Yummy Corp и GK Hebat. Управляет четырьмя delivery-only F&B-брендами (Pastaria, Sei'Tan, Sek Fan, Ryujin) в 30+ локациях, преимущественно в Джакарте, без офлайн-точек. Привлёк $3 млн seed (East Ventures, 2021) и $13,7 млн Series A (MDI Ventures и др.).",
       "country": "id"
     },
     {
@@ -10969,8 +10969,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tech-enabled F&B.",
-      "desc_ru": "Tech-enabled F&B.",
+      "desc_en": "Dailybox Group is an Indonesian tech-enabled F&B operator founded in 2018 in Jakarta, starting as a rice-box provider before pivoting to a cloud-kitchen model built around delivery partnerships. Its portfolio spans three brands — Dailybox, the sushi-burrito fusion concept Shirato, and the Breadlife bakery chain — operating over 150 outlets across 20+ cities. It closed a $24 million Series B in 2022 (Northstar Group, Vertex Growth) and expanded into Singapore.",
+      "desc_ru": "Dailybox Group — индонезийский tech-enabled оператор F&B, основанный в 2018 г. в Джакарте; стартовал как поставщик рисовых боксов, затем перешёл на модель облачных кухонь в партнёрстве с сервисами доставки. Портфель включает три бренда — Dailybox, Shirato (fusion sushi-burrito) и сеть пекарен Breadlife; работает в 20+ городах, свыше 150 точек. В 2022 г. привлёк Series B на $24 млн (Northstar Group, Vertex Growth) и вышел на рынок Сингапура.",
       "country": "id"
     },
     {
@@ -10983,8 +10983,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Delivery platform.",
-      "desc_ru": "Платформа доставки.",
+      "desc_en": "ShopeeFood is Singapore-based Sea Ltd's food-delivery service, built into the Shopee app and launched in Indonesia in 2020–2021 into a market long dominated by GrabFood and GoFood. Leveraging Shopee's large existing user base, it scaled rapidly: by 2024 its market share reached roughly 18%, and its GMV overtook GoFood's ($2.3 billion vs $1.9 billion), growing more than 50% year-over-year.",
+      "desc_ru": "ShopeeFood — сервис доставки еды сингапурской Sea Ltd, интегрированный в приложение Shopee; запущен в Индонезии в 2020–2021 гг. на рынок, где доминировали GrabFood и GoFood. Благодаря доступу к обширной пользовательской базе Shopee платформа быстро набрала обороты: к 2024 г. её доля рынка достигла ~18%, а GMV превысил показатели GoFood ($2,3 млрд против $1,9 млрд), выросл более чем на 50% год к году.",
       "country": "id",
       "logo": "/logos/shopeefood-indonesia.svg"
     },
@@ -10998,8 +10998,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Digitalization of street-food warungs; closing meeting follows.",
-      "desc_ru": "Цифровизация уличных варунгов; далее — итоговая встреча.",
+      "desc_en": "Wahyoo is an Indonesian street-food-stall (warteg/warung) digitalization startup founded in 2017 by Peter Shearer in Jakarta. It helps small eatery owners with marketing, loyalty programs, online ingredient ordering, cash-flow management and training via Wahyoo Academy; investors include Coca-Cola. After a seed round (Agaeti Ventures, Kinesys), it raised a $5 million Series A in 2020 (Intudo Ventures) and a $6.5 million Series B at a valuation of roughly $38.9 million.",
+      "desc_ru": "Wahyoo — индонезийский стартап цифровизации уличных варунгов (warteg/warung), основанный в 2017 г. Питером Ширером в Джакарте. Помогает владельцам небольших закусочных через маркетинг, программы лояльности, онлайн-заказ ингредиентов, управление финансами и обучение (Wahyoo Academy); в проект инвестировала в том числе Coca-Cola. После seed-раунда (Agaeti Ventures, Kinesys) привлёк $5 млн Series A (2020, Intudo Ventures) и $6,5 млн Series B при оценке около $38,9 млн.",
       "country": "id"
     },
     {
@@ -11012,8 +11012,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "The unified campus: AI, super-app and e-commerce (two sessions on one site).",
-      "desc_ru": "Единый кампус: AI, супер-приложение и e-commerce (две сессии на одной площадке).",
+      "desc_en": "GoTo Group was formed on May 17, 2021 by the merger of Gojek (founded 2010 as a motorbike-taxi/ojek service) and Tokopedia (founded 2009) — Indonesia's largest-ever business combination, valued at roughly $18 billion. It went public in April 2022, raising $1.1 billion. In 2024 the e-commerce business (Tokopedia) was folded into a joint venture with TikTok Shop, with ByteDance investing $1.5 billion for a 75.01% stake, while transport, delivery (GoFood) and fintech (GoPay) remained under GoTo.",
+      "desc_ru": "GoTo Group образован 17 мая 2021 г. слиянием Gojek (основан в 2010 г. как сервис мото-такси ojek) и Tokopedia (основан в 2009 г.) — крупнейшей сделкой в истории Индонезии, оценённой примерно в $18 млрд. В апреле 2022 г. компания провела IPO, привлёкшее $1,1 млрд. В 2024 г. e-commerce бизнес (Tokopedia) передан в СП с TikTok Shop (ByteDance инвестировала $1,5 млрд за 75,01% доли), а транспорт, доставка (GoFood) и финтех (GoPay) остались под GoTo.",
       "country": "id"
     },
     {
@@ -11082,8 +11082,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Merged with Tokopedia in 2024.",
-      "desc_ru": "Объединены с Tokopedia в 2024.",
+      "desc_en": "In January 2024, ByteDance invested $1.5 billion for a 75.01% stake in Tokopedia, merging it with TikTok Shop into a joint venture branded 'TikTok Shop by Tokopedia' — a response to Indonesia's September 2023 ban on social-commerce sales. The integration came with roughly 450 job cuts and seller complaints about falling revenue. Its chief rival is Shopee (a Sea Ltd unit), which continues to lead Indonesian e-commerce by GMV.",
+      "desc_ru": "В январе 2024 г. ByteDance вложила $1,5 млрд и получила 75,01% в Tokopedia, объединив её с TikTok Shop в СП под брендом «TikTok Shop by Tokopedia» — ответ на запрет соцсетям вести торговлю в Индонезии (сентябрь 2023 г.). Интеграция сопровождалась сокращением около 450 рабочих мест и жалобами продавцов на падение выручки. Основной конкурент на рынке — Shopee (подразделение Sea Ltd), удерживающее лидерство по GMV в индонезийском e-commerce.",
       "country": "id",
       "logo": "/logos/shopee-tiktok-shop-indonesia.svg"
     },
@@ -11097,8 +11097,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Closing meeting.",
-      "desc_ru": "Итоговая встреча.",
+      "desc_en": "Bukalapak was one of Indonesia's e-commerce pioneers, staging the country's largest-ever IPO in 2021, raising $1.5 billion. Under pressure from Shopee and TikTok Shop, its stock collapsed over 85% from the IPO price, and physical-goods sales fell to under 3% of revenue (down 14.8% YoY in Q3 2024). In early 2025 it shut down its physical-goods marketplace entirely (completed March 2, 2025) to pivot fully to digital products like bill and utility payments.",
+      "desc_ru": "Bukalapak — один из пионеров индонезийского e-commerce; в 2021 г. провёл крупнейшее в истории страны IPO ($1,5 млрд). Под давлением Shopee и TikTok Shop акции обвалились более чем на 85% от цены размещения, а доля физических товаров упала до менее 3% выручки (–14,8% г/г в III кв. 2024 г.). В начале 2025 г. компания полностью свернула маркетплейс физических товаров (закрыт к 2 марта 2025 г.), перейдя на цифровые продукты — оплату счетов и услуг.",
       "country": "id",
       "logo": "/logos/bukalapak.svg"
     },
@@ -11518,8 +11518,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "10-minute quick-commerce dark stores.",
-      "desc_ru": "Dark store, 10-минутная quick-commerce.",
+      "desc_en": "Zepto is an Indian quick-commerce platform founded in 2021 by Stanford dropouts Aadit Palicha and Kaivalya Vohra (originally KiranaKart), delivering groceries within 10 minutes via a dark-store network. By 2025 it had surpassed 1,000 dark stores across 80+ Indian cities. It became India's fastest unicorn in 2023, raised $665 million at a $3.6 billion valuation in June 2024, and reached $5–7 billion by October 2025. Zepto has confidentially filed for an IPO seeking up to $1.2 billion.",
+      "desc_ru": "Zepto — индийский сервис quick-commerce, основанный в 2021 г. выпускниками Stanford Аадитом Паличей и Кайвалья Вохрой (изначально KiranaKart); доставляет продукты за 10 минут через сеть дарксторов. К 2025 г. сеть превысила 1000 точек в 80+ городах Индии. В 2023 г. стал самым быстрым «единорогом» страны; в июне 2024 г. привлёк $665 млн при оценке $3,6 млрд, к октябрю 2025 г. — $5–7 млрд. Подал конфиденциальную заявку на IPO до $1,2 млрд.",
       "country": "in"
     },
     {
@@ -11547,8 +11547,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "HQ visit.",
-      "desc_ru": "Штаб-квартира.",
+      "desc_en": "Flipkart is an Indian e-commerce platform founded in October 2007 by Sachin Bansal and Binny Bansal in Bangalore, starting as an online bookstore. In 2018, US retailer Walmart acquired a 77% stake for $16 billion — its largest-ever acquisition. Flipkart's corporate headquarters was moved to Singapore in 2011, but in April 2025 the company announced it was relocating back to India ahead of an anticipated 2026 IPO.",
+      "desc_ru": "Flipkart — индийская e-commerce платформа, основанная в октябре 2007 г. Сачином и Бинни Бансалами в Бангалоре как книжный онлайн-магазин. В 2018 г. американский Walmart приобрёл 77% компании за $16 млрд — крупнейшая сделка Walmart в истории. В 2011 г. штаб-квартира была формально перенесена в Сингапур, однако в апреле 2025 г. Flipkart объявила о возвращении головного офиса в Индию в преддверии готовящегося IPO, ожидаемого в 2026 г.",
       "country": "in",
       "logo": "/logos/flipkart-walmart.svg"
     },
@@ -11562,8 +11562,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Quick-commerce grocery.",
-      "desc_ru": "Q-commerce.",
+      "desc_en": "BigBasket is India's largest online grocery retailer, founded in 2011 by Hari Menon, V.S. Sudhakar and others. In 2015 it became the first Indian company to adopt the dark-store model for faster delivery. In May 2021, Tata Group acquired a controlling ~64% stake for $1.5–2 billion from Alibaba and Actis. Since 2024 it has pivoted fully to quick commerce via its BB Now service (15–30 minute delivery), also using its dark stores to fast-deliver Tata brands like Croma, Titan and 1mg.",
+      "desc_ru": "BigBasket — крупнейший онлайн-продуктовый ритейлер Индии, основан в 2011 г. (Хари Менон, В.С. Судхакар и др.). В 2015 г. первым в стране внедрил модель dark store для ускорения доставки. В мае 2021 г. Tata Group приобрела контрольный пакет (~64%) за $1,5–2 млрд у Alibaba и Actis. С 2024 г. компания перешла на quick-commerce (сервис BB Now, доставка за 15–30 минут), используя дарксторы также для быстрой доставки Tata-брендов — Croma, Titan, 1mg.",
       "country": "in",
       "logo": "/logos/bigbasket-tata.svg"
     },
@@ -11577,8 +11577,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Quick-commerce; also Swiggy's core delivery + Instamart business.",
-      "desc_ru": "Quick-commerce; также основной бизнес доставки Swiggy + Instamart.",
+      "desc_en": "Swiggy Instamart is the quick-commerce arm of India's Swiggy platform, alongside Swiggy's core restaurant food-delivery business. As of 2025 it ranks third with roughly 20–25% share (behind leader Blinkit at ~48% and Zepto at ~22%). Its annualized gross order value is around $1.8 billion versus $3.7 billion for Blinkit and $3 billion for Zepto, though it is aggressively expanding its dark-store network — GOV more than doubled year-over-year in Q4 FY25.",
+      "desc_ru": "Swiggy Instamart — сервис quick-commerce индийской платформы Swiggy (наряду с классической доставкой еды из ресторанов — основной бизнес компании). На 2025 г. Instamart занимает третье место с долей ~20–25% (лидер — Blinkit, ~48%, далее Zepto, ~22%). Годовой объём заказов (GOV) Instamart — около $1,8 млрд против $3,7 млрд у Blinkit и $3 млрд у Zepto, но сеть дарксторов активно расширяется — GOV удвоился г/г в IV кв. FY25.",
       "country": "in",
       "logo": "/logos/swiggy-instamart.svg"
     },
@@ -11592,8 +11592,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Dark-store tech; also HQ visit and the Hyperpure B2B supply business (with Zomato/Eternal).",
-      "desc_ru": "Dark-store tech; также штаб-квартира и B2B-поставки Hyperpure (совместно с Zomato/Eternal).",
+      "desc_en": "Blinkit (formerly Grofers, founded December 2013 by Albinder Dhindsa and Saurabh Kumar) leads India's quick-commerce market with roughly 48% share in 2025 and over 1,000 dark stores (targeting 2,000 by end-2025). Zomato (later renamed Eternal) acquired it in 2022 for $568 million in an all-stock deal. Eternal's ecosystem also includes Hyperpure, launched in 2018, a B2B supply platform delivering ingredients directly to restaurant partners.",
+      "desc_ru": "Blinkit (бывший Grofers, основан в декабре 2013 г. Альбиндером Дхиндсой и Саурабхом Кумаром) — лидер quick-commerce Индии с долей рынка ~48% (2025 г.) и более 1000 дарксторов (цель — 2000 к концу 2025 г.). В 2022 г. Zomato (позже переименован в Eternal) приобрёл компанию за $568 млн акциями. В экосистему Eternal также входит Hyperpure (запущен в 2018 г.) — B2B-платформа поставок ингредиентов для ресторанов-партнёров.",
       "country": "in",
       "logo": "/logos/blinkit-eternal.svg"
     },
@@ -11733,8 +11733,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "HQ and kitchen of the world's largest dark-kitchen operator; AI demand forecasting.",
-      "desc_ru": "Штаб-квартира и кухня крупнейшего в мире оператора dark kitchen, AI-прогноз спроса.",
+      "desc_en": "Rebel Foods was founded in India in 2011 and has grown into the world's largest multi-brand cloud-kitchen operator: roughly 450 kitchens and over 5,000 virtual restaurants across brands such as Faasos, Behrouz Biryani, Oven Story Pizza and Lunchbox, spanning more than 70 cities in India, the UAE and the UK, serving over two million customers. It runs a proprietary tech stack for AI-driven demand forecasting, brand launches and quality control. KKR invested in the company in December 2024.",
+      "desc_ru": "Rebel Foods — индийская компания, основанная в 2011 г., крупнейший в мире оператор мультибрендовых облачных кухонь: около 450 кухонь и более 5000 виртуальных ресторанов под брендами Faasos, Behrouz Biryani, Oven Story Pizza, Lunchbox в 70+ городах Индии, ОАЭ и Великобритании, свыше 2 млн клиентов. Использует проприетарный стек для ИИ-прогнозирования спроса, запуска брендов и контроля качества. В декабре 2024 г. фонд KKR инвестировал в компанию.",
       "country": "in"
     },
     {
@@ -11747,8 +11747,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud-kitchen brand.",
-      "desc_ru": "Бренд облачной кухни.",
+      "desc_en": "EatClub Brands (formerly Box8/Poncho Hospitality) is an Indian tech-driven cloud-kitchen operator founded in 2012 by Amit Raj and Anshul Gupta as Box8, a meal-box delivery service. In December 2021 the company raised $40 million led by Tiger Global and rebranded as EatClub Brands, now running one of Asia's largest cloud-kitchen networks under brands including MOJO Pizza, BOX8, Itminaan Biryani and LeanCrust Pizza.",
+      "desc_ru": "EatClub Brands (ранее Box8/Poncho Hospitality) — индийский технологичный оператор облачных кухонь, основанный в 2012 г. Амитом Раджем и Аншулом Гуптой как сервис доставки мил-боксов Box8. В декабре 2021 г. компания привлекла $40 млн (лид — Tiger Global) и провела ребрендинг в EatClub Brands, управляя одной из крупнейших сетей облачных кухонь Азии с брендами MOJO Pizza, BOX8, Itminaan Biryani, LeanCrust Pizza и другими.",
       "country": "in"
     },
     {
@@ -11761,8 +11761,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud-kitchen consolidator.",
-      "desc_ru": "Консолидатор cloud kitchen.",
+      "desc_en": "Curefoods is an Indian cloud-kitchen consolidator founded in 2020 by Ankit Nagori (a Cure.fit co-founder) as a spin-off of healthy-eating brand EatFit. It runs more than 500 kitchens and a 10+ brand portfolio (EatFit, CakeZone, Frozen Bottle, MasalaBox, Sharief Bhai, Nomad Pizza), built through active acquisitions of niche F&B companies. It has raised $167 million (Chiratae Ventures, Accel) and won SEBI approval in October 2025 for a ₹800 crore IPO.",
+      "desc_ru": "Curefoods — индийский консолидатор облачных кухонь, основанный в 2020 г. Анкитом Нагори (сооснователь Cure.fit) как спин-офф бренда здорового питания EatFit. Управляет более чем 500 кухнями и портфелем из 10+ брендов (EatFit, CakeZone, Frozen Bottle, MasalaBox, Sharief Bhai, Nomad Pizza), активно скупая нишевые F&B-компании. Привлёк $167 млн финансирования (Chiratae Ventures, Accel); в октябре 2025 г. получил одобрение SEBI на IPO объёмом ₹800 крор.",
       "country": "in"
     },
     {
@@ -11789,8 +11789,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cloud kitchen.",
-      "desc_ru": "Cloud kitchen.",
+      "desc_en": "FreshMenu, founded in 2014 in Bengaluru by Rashmi Daga, was one of India's pioneering cloud-kitchen brands, cooking exclusively for delivery with no dine-in space. It raised over $45 million across multiple rounds from investors including Lightspeed Ventures and Zodius Capital, reaching roughly INR 150 crore in annual revenue. After a funding crunch, in 2024–2025 the FreshMenu brand was licensed to operator Dil Foods to restart operations at its kitchens.",
+      "desc_ru": "FreshMenu — пионер облачных кухонь Индии, основан в 2014 в Бангалоре Рашми Дага. Работает без обеденных залов, готовя блюда на собственных кухнях под заказ через приложение и агрегаторы. Привлёк свыше $45 млн инвестиций (Lightspeed, Zodius Capital и др.), достиг выручки около 150 крор рупий. В 2020-х пережил кризис финансирования; в 2024–2025 бренд лицензирован оператору Dil Foods для перезапуска кухонь.",
       "country": "in"
     },
     {
@@ -11803,8 +11803,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "In-house kitchens.",
-      "desc_ru": "Собственные кухни.",
+      "desc_en": "Biryani By Kilo (BBK), founded in 2015 in Gurugram by Kaushik Roy and Vishal Jindal, specializes in dum-style biryani cooked and served in clay handis. Its hybrid model pairs flagship dine-in restaurants with a network of delivery-focused cloud kitchens; by 2023 it had passed 100 outlets across 25+ Indian cities. BBK raised over $67 million from 113 investors and was acquired by restaurant conglomerate Devyani International in April 2025.",
+      "desc_ru": "Biryani By Kilo (BBK) основана в 2015 году в Гуруграме Каушиком Роем и Вишалом Джиндалом, готовит бирьяни в глиняных горшках дум-стиля. Гибридная модель совмещает флагманские рестораны с сетью облачных кухонь для доставки; к 2023 превысила 100 точек более чем в 25 городах Индии. Привлекла свыше $67 млн от 113 инвесторов; в апреле 2025 куплена ресторанным холдингом Devyani International.",
       "country": "in"
     },
     {
@@ -11817,8 +11817,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Q-commerce food vertical.",
-      "desc_ru": "Q-commerce еда.",
+      "desc_en": "Zepto Café is a 10-minute ready-food and beverage delivery service from Indian quick-commerce unicorn Zepto, launched in April 2022 inside the main Zepto app. It spun off into a standalone app in December 2024, offering 140+ items including coffee, pastries and light meals. It runs from Zepto's existing dark stores fitted with dedicated mini-kitchens (speed ovens, coffee machines); at launch it handled about 30,000 daily orders across six cities, with plans to reach all 600 dark stores.",
+      "desc_ru": "Zepto Café — сервис доставки готовой еды и напитков за 10 минут от индийского квик-коммерс единорога Zepto, запущен в апреле 2022 как раздел основного приложения. В декабре 2024 выделен в отдельное приложение с более чем 140 позициями меню — кофе, выпечка, лёгкие блюда. Работает из дарксторов Zepto с выделенными мини-кухнями (спид-печи, кофемашины); к запуску обрабатывал около 30 000 заказов в день в 6 городах, план — охватить все 600 дарксторов.",
       "country": "in"
     },
     {
@@ -11859,8 +11859,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Social commerce.",
-      "desc_ru": "Социальная коммерция.",
+      "desc_en": "Meesho is an Indian social-commerce platform founded in December 2015 by IIT Delhi alumni Vidit Aatrey and Sanjeev Barnwal, originally built around resellers sharing product catalogs via WhatsApp and Facebook. By 2025–2026 it counted well over 150 million annual transacting users and roughly $6.2 billion in FY25 GMV. Meesho listed on the NSE and BSE on December 10, 2025, raising over $600 million, with shares surging 95% post-listing to a near-$11 billion valuation.",
+      "desc_ru": "Meesho — индийская платформа социальной коммерции, основана в декабре 2015 выпускниками IIT Дели Видитом Атреем и Санджеевом Барнвалом; изначально опиралась на перепродажу товаров через WhatsApp и Facebook. По данным 2025–2026 годов платформа насчитывает более 150–230 млн годовых покупателей, GMV достигал $6,2 млрд (FY25). 10 декабря 2025 Meesho провела IPO на NSE/BSE, привлекла свыше $600 млн, акции выросли на 95% после листинга при оценке около $11 млрд.",
       "country": "in"
     },
     {
@@ -11957,8 +11957,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Beauty marketplace, AI.",
-      "desc_ru": "Бьюти-маркетплейс, AI.",
+      "desc_en": "Purplle is an Indian beauty and personal-care marketplace founded in 2012 in Mumbai by Manish Taneja, Rahul Dash, Suyash Katyayani and Anurag Neema. It lists over 50,000 products from 1,000+ brands to about 7 million monthly active users, using AI/ML for personalized skincare and makeup recommendations. Purplle has raised over $560 million from investors including ADIA, Sequoia, Goldman Sachs, Kedaara and Premji Invest, reaching a $1.25 billion valuation after a $120 million round in October 2024.",
+      "desc_ru": "Purplle — индийский бьюти-маркетплейс, основан в 2012 году в Мумбаи Манишем Танеджей, Рахулом Дашем, Суяшем Катьяяни и Анурагом Ниимой. Продаёт свыше 50 000 товаров 1000+ брендов, около 7 млн активных пользователей в месяц; использует ИИ и ML для персонализированных рекомендаций по уходу за кожей и макияжу. Привлёк свыше $560 млн инвестиций (ADIA, Sequoia, Goldman Sachs, Kedaara, Premji Invest); в октябре 2024 оценён в $1,25 млрд после раунда в $120 млн.",
       "country": "in"
     },
     {
@@ -12535,8 +12535,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "GrabFood delivery platform plus the GrabKitchen cloud-kitchen concept — part of Grab's ride-hailing/delivery/fintech super-app.",
-      "desc_ru": "Платформа доставки GrabFood и концепция облачной кухни GrabKitchen — часть супер-приложения Grab (райдхейлинг/доставка/финтех).",
+      "desc_en": "Grab Holdings is Singapore-headquartered Southeast Asia's leading superapp, operating ride-hailing, delivery and fintech services across eight countries. GrabFood is its food-delivery arm, complemented by GrabMart for daily essentials, with the GrabKitchen cloud-kitchen format extending its deliveries segment. In Malaysia, GrabFood ranks among the largest food-delivery operators. For 2026 Grab guided adjusted EBITDA of $700–740 million, representing 40–44% year-on-year growth.",
+      "desc_ru": "Grab Holdings — сингапурское супер-приложение Юго-Восточной Азии, работающее в восьми странах в сферах райдхейлинга, доставки и финтеха. GrabFood — сервис доставки еды, дополненный GrabMart для товаров повседневного спроса; вместе с форматом облачных кухонь GrabKitchen формирует доставочный сегмент компании. В Малайзии GrabFood — один из крупнейших операторов доставки еды. На 2026 год Grab прогнозирует скорректированную EBITDA $700–740 млн, рост на 40–44% год к году.",
       "country": "my",
       "logo": "/logos/grab-food-kitchen-malaysia.svg"
     },
@@ -12550,8 +12550,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Major delivery platform (Delivery Hero group); operates 'pandamart' dark-store and cloud-kitchen infrastructure across Malaysia.",
-      "desc_ru": "Крупная платформа доставки (группа Delivery Hero); dark-store инфраструктура 'pandamart' и облачные кухни по всей Малайзии.",
+      "desc_en": "foodpanda Malaysia is a major food-delivery platform owned by Berlin-based Delivery Hero, which acquired foodpanda in December 2016, making it its flagship Asian brand. It launched the pandamart grocery service in July 2020, promising roughly 20-minute delivery, and grew to around 25 dark stores nationwide, concentrated in Selangor, Penang and Johor. A planned Southeast Asia-wide sale of foodpanda to Grab was explored in 2023–2024 but excluded Malaysia; in March 2026 Grab acquired only foodpanda's Taiwan business.",
+      "desc_ru": "foodpanda Malaysia — крупная платформа доставки еды, входящая в берлинскую группу Delivery Hero, которая приобрела foodpanda в декабре 2016 года, сделав её флагманским азиатским брендом. В июле 2020 запущен сервис бакалеи pandamart с доставкой за ~20 минут; сеть выросла до порядка 25 дарксторов по стране, в основном в Селангоре, Пенанге и Джохоре. В 2023–2024 обсуждалась продажа foodpanda в Юго-Восточной Азии Grab, но малайзийский бизнес в неё не вошёл — в марте 2026 Grab купил лишь тайваньское подразделение foodpanda.",
       "country": "my",
       "logo": "/logos/foodpanda-malaysia.svg"
     },
@@ -12579,8 +12579,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Shared/cloud-kitchen enabler in the Klang Valley — plug-and-play kitchen infrastructure for F&B brands.",
-      "desc_ru": "Провайдер shared/cloud-kitchen инфраструктуры в Клэнг-Вэлли — 'kitchen as a service' для F&B-брендов.",
+      "desc_en": "Cookhouse is Malaysia's first independent shared/cloud-kitchen facility, founded by chef Huen Su San in Petaling Jaya, Klang Valley. Its roughly 10,000-sq-ft space houses five private kitchen studios, a shared bakery, Asian and Western kitchens, cold storage, and rider pickup stations — a \"kitchen as a service\" model letting food entrepreneurs run delivery and online brands without leasing their own premises. The company has planned expansion to around 10 outlets across the Klang Valley.",
+      "desc_ru": "Cookhouse — первая в Малайзии независимая площадка совместных/облачных кухонь, основана шеф-поваром Хюэн Су Саном в Петалинг-Джае (Клэнг-Вэлли). На 10 000 кв. футов расположены пять частных кухонных студий, общая пекарня, азиатская и западная кухни, зоны хранения и пункты выдачи для курьеров — модель «kitchen as a service» для фуд-предпринимателей, работающих на доставку без затрат на собственную аренду. Компания планировала расширение до 10 точек по Клэнг-Вэлли.",
       "country": "my"
     },
     {
@@ -12593,8 +12593,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Grab's dedicated cloud-kitchen format co-locating multiple virtual restaurants on one site.",
-      "desc_ru": "Собственный формат облачной кухни Grab — несколько виртуальных ресторанов на одной площадке.",
+      "desc_en": "GrabKitchen is Grab's own cloud-kitchen format, housing multiple restaurant brands under one roof to streamline delivery logistics; the first site opened in Jakarta in 2018, followed by Singapore in January 2020 and other markets. It grew into Southeast Asia's largest cloud-kitchen network, with roughly 56 locations — 48 in Indonesia and smaller clusters in Thailand, Vietnam, Singapore and the Philippines — helping small, family-run food stalls expand without the cost of a physical outlet.",
+      "desc_ru": "GrabKitchen — собственный формат облачных кухонь Grab, объединяющий несколько ресторанных брендов под одной крышей для оптимизации доставки; первая площадка открыта в Джакарте в 2018 году, затем в Сингапуре (январь 2020) и других странах. Формат стал крупнейшей сетью облачных кухонь в Юго-Восточной Азии — около 56 точек, из них 48 в Индонезии, по несколько в Таиланде, Вьетнаме, Сингапуре и на Филиппинах. Помогает малым и семейным закусочным выходить в новые районы без затрат на аренду отдельных помещений.",
       "country": "my"
     },
     {
@@ -12607,8 +12607,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Launched cloud kitchens (2019) in partnership with GrabFood — a brand cloud-kitchen case study.",
-      "desc_ru": "Запустил облачные кухни (2019) в партнёрстве с GrabFood — кейс брендовой облачной кухни.",
+      "desc_en": "KyoChon Malaysia, the local franchise of the Korean halal fried-chicken chain, became one of the country's earliest adopters of the cloud-kitchen model, launching three delivery-only kitchens in partnership with GrabFood in September 2019 — at Wisma Central, Damansara Uptown and Damansara Perdana in the Klang Valley. These sites accept no walk-in customers and run a menu reconfigured for courier-friendly portions, making KyoChon a notable branded cloud-kitchen case that predates the COVID-19 pandemic.",
+      "desc_ru": "KyoChon Malaysia — местный оператор корейской сети халяльной жареной курицы KyoChon, в сентябре 2019 года одним из первых в стране запустил облачные кухни в партнёрстве с GrabFood — три точки в Wisma Central, Damansara Uptown и Damansara Perdana (Клэнг-Вэлли). Эти кухни работают только на доставку, без зала для гостей, с адаптированным под курьерские порции меню — ранний и показательный кейс брендовой облачной кухни в Малайзии, реализованный ещё до пандемии COVID-19.",
       "country": "my"
     },
     {
@@ -12621,8 +12621,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Klang Valley homegrown burger chain with strong digital ordering/delivery and data-driven operations.",
-      "desc_ru": "Локальная бургерная сеть Клэнг-Вэлли с сильным цифровым заказом/доставкой и data-driven операциями.",
+      "desc_en": "MyBurgerLab is a Malaysian gourmet burger chain founded in 2012 by three friends — Chin Ren Yi, Teoh Wee Kiat and Cheah Chang Ming — inspired by boutique burger joints they encountered in the US. A pioneer of the Klang Valley's gourmet burger scene, it was among the first in the industry to use charcoal buns. What began as tasting sessions in a friend's café grew, through social-media buzz, into a multi-outlet chain known for strong digital ordering, delivery integration and data-driven operations.",
+      "desc_ru": "MyBurgerLab — малайзийская бургерная сеть, основана в 2012 году тремя друзьями — Чин Рэн И, Тео Ви Кят и Чиа Чанг Мин, вдохновлёнными бутик-бургерными США. Один из пионеров рынка гурмэ-бургеров Клэнг-Вэлли, первым в индустрии внедрил булочки с активированным углём. Начинала с дегустаций в кафе друга, набрала популярность через соцсети и блогеров, выросла до сети из нескольких точек с сильным цифровым заказом и доставкой, ориентированной на data-driven операции.",
       "country": "my"
     },
     {
@@ -12705,8 +12705,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Global personal-development platform using AI for personalized learning — consumer-AI/edtech.",
-      "desc_ru": "Глобальная платформа личностного развития с AI-персонализацией обучения — consumer-AI/edtech.",
+      "desc_en": "Mindvalley is a personal-growth and education platform founded by Vishen Lakhiani in New York in December 2002, relocating its headquarters to Kuala Lumpur, Malaysia in 2004. It offers courses on self-development, meditation, productivity and health through an app and global community reaching more than 195 countries, with a claimed base of over 20 million students and followers. The platform uses AI to personalize learning paths, recommending courses based on users' goals and interests.",
+      "desc_ru": "Mindvalley — платформа личностного развития и образования, основана Вишеном Лакхиани в декабре 2002 года в Нью-Йорке, но уже в 2004 году перенесла штаб-квартиру в Куала-Лумпур, Малайзия. Предлагает курсы по саморазвитию, медитации, продуктивности и здоровью через приложение и сообщество, доступное более чем в 195 странах; заявляет свыше 20 млн учеников/подписчиков. Использует ИИ для персонализации учебных программ — рекомендации курсов на основе целей и интересов пользователя.",
       "country": "my"
     },
     {
@@ -12747,8 +12747,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Regional e-commerce platform with Malaysian fulfilment centres, warehouse automation, crossbelt/tilt-tray sortation.",
-      "desc_ru": "Региональная e-commerce платформа с малайзийскими фулфилмент-центрами, автоматизацией склада, сортировкой crossbelt/tilt-tray.",
+      "desc_en": "Shopee Malaysia is the local arm of the regional e-commerce platform owned by Singapore-based, NYSE-listed Sea Group. It operates a national network of fulfillment centers with growing automation — robotic sorting and cross-belt sorters capable of up to 14,000 parcels per hour — under a hybrid model where machines handle standardized packages while staff manage exceptions. This infrastructure underpins its Fulfilled by Shopee program and same-day delivery rollout in the market.",
+      "desc_ru": "Shopee Malaysia — местное подразделение региональной e-commerce платформы Shopee, принадлежащей сингапурской Sea Group (листинг NYSE). Использует сеть фулфилмент-центров по стране с растущей автоматизацией — роботизированной сортировкой, кросс-белт-сортерами (пропускная способность до 14 000 посылок/час) и гибридной моделью, где машины обрабатывают стандартные упаковки, а люди — исключения. Программа Fulfilled by Shopee и запуск доставки день-в-день опираются на эту инфраструктуру.",
       "country": "my",
       "logo": "/logos/shopee-malaysia.svg"
     },
@@ -12762,8 +12762,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Alibaba-owned; high-speed fulfilment ecosystem — robotics/automated sortation, micro-fulfilment, Fulfilment by Lazada.",
-      "desc_ru": "Принадлежит Alibaba; высокоскоростная фулфилмент-экосистема — робототехника/автоматическая сортировка, микро-фулфилмент, Fulfilment by Lazada.",
+      "desc_en": "Lazada Malaysia is part of the regional e-commerce group that became Alibaba's flagship Southeast Asian platform in 2016. Lazada operates fulfillment and sorting centers across 17 cities in the region, investing in RFID tagging, warehouse automation and expanding robotics for order sorting and picking. Its Fulfilment by Lazada (FBL) service in Malaysia gives sellers real-time inventory tracking and faster returns processing, part of a broader push toward a high-speed fulfillment ecosystem.",
+      "desc_ru": "Lazada Malaysia — часть регионального e-commerce оператора Lazada Group, ставшего в 2016 году флагманской платформой Alibaba в Юго-Восточной Азии. Компания владеет сетью фулфилмент- и сортировочных центров в 17 городах региона, инвестирует в RFID-маркировку, автоматизацию складов и внедрение робототехники для сортировки и комплектации заказов. Сервис Fulfilment by Lazada (FBL) в Малайзии предлагает продавцам отслеживание запасов в реальном времени и ускоренную обработку возвратов и доставки.",
       "country": "my",
       "logo": "/logos/lazada-malaysia.svg"
     },
@@ -14330,8 +14330,8 @@
       "city": "beijing",
       "sector": "internet",
       "status": "gov",
-      "desc_ru": "Главная государственная киностудия страны, монопольное право на импорт иностранных фильмов.",
-      "desc_en": "The country's leading state-owned film studio, holding a monopoly on importing foreign films.",
+      "desc_ru": "China Film Group Corporation (CFGC) — крупнейшая государственная киностудия Китая, создана в 1999 году под управлением SARFT путём объединения восьми организаций, включая China Film Corporation (основана в 1949) и Beijing Film Studio. Подчиняется Отделу пропаганды ЦК КПК. Через дочернюю China Film Import & Export Corporation десятилетиями оставалась единственным официальным импортёром иностранных фильмов; с 1993 года ряд других студий получил право самостоятельного проката, но CFGC сохраняет ведущую роль в производстве и импортных квотах.",
+      "desc_en": "China Film Group Corporation (CFGC) is China's largest state-owned film enterprise, formed in 1999 under SARFT by merging eight entities, including China Film Corporation (established 1949) and Beijing Film Studio. It answers to the Communist Party's Central Publicity Department. Through its China Film Import & Export Corporation subsidiary, CFGC held a decades-long monopoly as the sole authorized importer of foreign films; since 1993 other studios gained self-distribution rights, but CFGC remains dominant in production, distribution and import quotas.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14344,8 +14344,8 @@
       "city": "beijing",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "Крупная цифровая платформа экосистемы Alibaba; операционный офис фактически находится в Пекине (р-н Чаоян, Ванцзин), а не в Ханчжоу.",
-      "desc_en": "A major streaming platform within Alibaba's ecosystem; its operational office is actually in Beijing (Chaoyang district, Wangjing), not Hangzhou.",
+      "desc_ru": "Youku — одна из ведущих китайских видеоплатформ, запущена в публичной бета-версии 21 июня 2006 года основателем Виктором Ку; изначально ориентировалась на пользовательский контент по образцу YouTube, затем перешла на лицензированные шоу и профессиональный контент. В декабре 2010 стала первым независимым видеосайтом, вышедшим на NYSE. С 2015 года входит в состав Alibaba Group; операционный офис фактически расположен в Пекине, район Чаоян, Ванцзин, а не в Ханчжоу — штаб-квартире Alibaba.",
+      "desc_en": "Youku is one of China's leading video platforms, launched in public beta on June 21, 2006, by founder Victor Koo; it began as a YouTube-style user-generated content site before pivoting to licensed shows and professional content. In December 2010 it became the first independent video site to list on the NYSE. Youku has been part of Alibaba Group since 2015; its operating office is actually based in Beijing's Chaoyang district, Wangjing area, rather than in Alibaba's Hangzhou headquarters.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14358,8 +14358,8 @@
       "city": "beijing",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "Лидер патриотического и коммерческого блокбастерного кино, публичная компания (SZSE: 001330).",
-      "desc_en": "A leader in patriotic and commercial blockbuster filmmaking, publicly listed (SZSE: 001330).",
+      "desc_ru": "Bona Film Group — один из лидеров патриотического и коммерческого блокбастерного кино Китая, основана в августе 2003 года Юй Дуном. Компания охватывает производство, дистрибуцию и сеть кинотеатров; выпустила свыше 300 фильмов с совокупными сборами более 60 млрд юаней. По состоянию на июнь 2024 управляла 107 собственными и 131 партнёрским кинотеатром с 888 экранами. В августе 2022 года акции компании начали торговаться на Шэньчжэньской фондовой бирже (тикер 001330).",
+      "desc_en": "Bona Film Group is a leading Chinese producer of patriotic and commercial blockbuster films, founded in August 2003 by Yu Dong. The company spans production, distribution and cinema operations, having released over 300 films with combined box office exceeding RMB 60 billion. As of June 2024 it operated 107 self-owned and 131 affiliated cinemas totaling 888 screens. Bona listed its A-shares on the Shenzhen Stock Exchange in August 2022 under ticker 001330.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14372,8 +14372,8 @@
       "city": "beijing",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "Одна из первых и самых успешных частных кинокомпаний Китая, пионер рынка с 1994 года.",
-      "desc_en": "One of China's first and most successful private film companies, a market pioneer since 1994.",
+      "desc_ru": "Huayi Brothers — одна из первых и наиболее успешных частных кинокомпаний Китая, основана в Пекине в 1994 году братьями Ван Чжунцзюнем и Ван Чжунлэем как рекламное агентство; с 1998 года занялась кино- и телепроизводством, дистрибуцией и продюсированием. В 2009 году стала первой в отрасли компанией, вышедшей на IPO на площадке GEM Шэньчжэньской биржи. За три десятилетия выросла в крупный медиахолдинг с направлениями кинопроизводства, управления талантами и цифровых медиа.",
+      "desc_en": "Huayi Brothers is one of China's earliest and most successful private film companies, founded in Beijing in 1994 by brothers Wang Zhongjun and Wang Zhonglei, initially as an advertising agency before entering film and TV production, distribution and talent management in 1998. In 2009 it became the first company in China's film and TV industry to IPO, listing on the Shenzhen GEM board. Over three decades it grew into a major entertainment conglomerate spanning production, artist management and digital media.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14386,8 +14386,8 @@
       "city": "beijing",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "Ведущий видеосервис и продюсер хитов, входит в экосистему Baidu.",
-      "desc_en": "A leading video streaming service and hit-show producer, part of the Baidu ecosystem.",
+      "desc_ru": "iQiyi — ведущий китайский видеосервис, часто называемый «китайским Netflix», основан Гун Юем 6 января 2010 года и входит в экосистему Baidu. По данным 2026 года насчитывает свыше 100 млн платных подписчиков (около 102,7 млн домохозяйств) и более 500 млн зрителей премиального контента; выручка во II квартале 2026 составила около 6,3 млрд юаней ($927 млн). Является одним из трёх доминирующих стриминговых сервисов Китая наряду с Youku и Tencent Video; международное направление — второй драйвер роста.",
+      "desc_en": "iQiyi, often called \"China's Netflix,\" is a leading Chinese video-streaming service founded by Gong Yu on January 6, 2010, and operated within the Baidu ecosystem. As of 2026 it counts over 100 million paying subscribers (about 102.7 million households) and more than 500 million viewers of premium content; Q2 2026 revenue was roughly RMB 6.3 billion ($927 million). iQiyi ranks among China's three dominant streaming platforms alongside Youku and Tencent Video, with overseas business as a key growth engine.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14400,8 +14400,8 @@
       "city": "shanghai",
       "sector": "internet",
       "status": "gov",
-      "desc_ru": "Крупное гособразование с историческими традициями (с 1949 года), полный цикл — производство, прокат, кинотеатры.",
-      "desc_en": "A major state institution with a long history (since 1949), covering the full cycle — production, distribution and cinemas.",
+      "desc_ru": "Shanghai Film Group (SFG) — одна из трёх крупнейших государственных киностудий Китая, ведёт историю от Shanghai Film Studio, основанной 16 ноября 1949 года; в 1953 году сформирована путём слияния частных кинокомпаний в единую государственную структуру. Полный цикл включает кинопроизводство, анимацию, дубляж, дистрибуцию и киносеть; выпустила свыше 870 игровых и более 600 анимационных фильмов, а также дублировала свыше 1500 иностранных лент. Входит в состав медиахолдинга Shanghai Media & Entertainment Group.",
+      "desc_en": "Shanghai Film Group (SFG) is one of China's three major state-owned film studios, tracing its roots to Shanghai Film Studio, founded on November 16, 1949, and consolidated from merged private studios into a unified state entity in 1953. It runs a full production cycle spanning filmmaking, animation, dubbing, distribution and cinema exhibition, having produced over 870 feature films and 600-plus animated works, and dubbed more than 1,500 foreign films. SFG operates under the Shanghai Media & Entertainment Group conglomerate.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14414,8 +14414,8 @@
       "city": "shanghai",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "Контент-подразделение Tencent Video — сериалы, шоу, фильмы; юридическое лицо зарегистрировано в Шанхае, а не в Шэньчжэне.",
-      "desc_en": "Tencent Video's content division — series, shows, films; legally registered in Shanghai rather than Shenzhen.",
+      "desc_ru": "Tencent Penguin Pictures (企鹅影视) — контент-подразделение Tencent Video, создано в 2015 году в рамках Tencent Pictures для производства онлайн-сериалов, шоу и минорных инвестиций в кинопроекты. Юридическое лицо зарегистрировано как «Shanghai Tencent Penguin Pictures Culture Communication Co., Ltd» в Шанхае, а не в Шэньчжэне, где расположена штаб-квартира Tencent. Ответственно за значительную часть оригинального контента платформы Tencent Video, одного из трёх ведущих стриминговых сервисов Китая.",
+      "desc_en": "Tencent Penguin Pictures (企鹅影视) is Tencent Video's content-production arm, established in 2015 under the Tencent Pictures umbrella to produce web dramas, variety shows and minority investments in film projects. Its legal entity is registered as Shanghai Tencent Penguin Pictures Culture Communication Co., Ltd, based in Shanghai rather than in Shenzhen, where Tencent's headquarters sits. It drives a substantial share of original content for Tencent Video, one of China's three leading streaming platforms.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14428,8 +14428,8 @@
       "city": "hangzhou",
       "sector": "internet",
       "status": "catalog",
-      "desc_ru": "«Первая акция телесериалов Китая» — крупнейший частный производитель контента, полный цикл включая ИИ-разработки.",
-      "desc_en": "\"China's first TV-series stock\" — the largest private content producer, covering the full cycle including AI development.",
+      "desc_ru": "Zhejiang Huace Film & TV — крупнейший частный производитель телесериалов в Китае, основана в 2005 году в Ханчжоу; в октябре 2010 стала первой отечественной компанией теледрам, вышедшей на IPO на площадке ChiNext Шэньчжэньской биржи, за что получила прозвище «первая акция телесериалов Китая». Контролирует около 15% производства прайм-тайм драм в стране, обладает библиотекой более 30 000 серий; охватывает полный цикл — от инвестиций и производства до дистрибуции, включая внедрение ИИ-инструментов.",
+      "desc_en": "Zhejiang Huace Film & TV is China's largest private TV-drama producer, founded in 2005 in Hangzhou; in October 2010 it became the first domestic TV-drama company to IPO, listing on the Shenzhen ChiNext board and earning the nickname \"China's first TV-drama stock.\" It commands roughly 15% of China's prime-time drama output and holds a library of over 30,000 episodes, covering the full cycle from investment and production to distribution, including growing integration of AI-driven production tools.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14673,8 +14673,8 @@
       "sector": "internet",
       "city": "hangzhou",
       "country": "cn",
-      "desc_en": "Alibaba's B2C e-commerce platform for brand-owned flagship stores in China, the counterpart to Alibaba's C2C marketplace Taobao.",
-      "desc_ru": "B2C-платформа Alibaba для официальных брендовых интернет-магазинов в Китае — B2C-аналог маркетплейса Taobao (C2C) в экосистеме Alibaba.",
+      "desc_en": "Tmall (天猫) is Alibaba's Chinese B2C platform for officially branded online storefronts, spun off from Taobao in April 2008 as Taobao Mall and renamed Tmall in January 2012. Unlike Taobao's open C2C marketplace, Tmall requires sellers to hold corporate registration and verified trademark rights. It surpassed 500 million monthly active users as of February 2018 and, in 2009, launched Singles' Day (November 11), now the world's largest shopping event, generating tens of billions of dollars in 24-hour GMV.",
+      "desc_ru": "Tmall (天猫) — китайская B2C-платформа для официальных брендовых интернет-магазинов, выделена из Taobao в апреле 2008 года как Taobao Mall, переименована в Tmall в январе 2012 года. Часть экосистемы Alibaba, требует от продавцов корпоративной регистрации и подтверждения прав на товарный знак — в отличие от открытого C2C-рынка Taobao. По данным на февраль 2018 года превышала 500 млн активных пользователей в месяц; в 2009 году положила начало «Дню холостяков» (11.11) — крупнейшему в мире шопинг-событию.",
       "logo": "/logos/tmall-logo-brandlogos.net.png",
       "status": "catalog",
       "own_supplier": false,
@@ -14883,8 +14883,8 @@
       "sector": "internet",
       "city": "seoul",
       "country": "kr",
-      "desc_en": "Food-delivery arm of Korean e-commerce giant Coupang, competing with Baemin/Woowa in Korea's fast-consolidating delivery-app market.",
-      "desc_ru": "Сервис доставки еды от корейского гиганта электронной коммерции Coupang, конкурирует с Baemin/Woowa на быстро консолидирующемся рынке доставки Кореи.",
+      "desc_en": "Coupang Eats is the food-delivery arm of South Korean e-commerce giant Coupang, launched in 2019; it initially held modest market share but surged after introducing single-order (non-batched) delivery. By 2020 it held about 17% of the market; after Coupang launched free delivery for Coupang Wow subscribers in April 2024, Eats' transaction-value share doubled to 35.3% while leader Baemin (Woowa) fell from over 70% to 57.6%. Together Coupang Eats and Baemin now control over 88% of Korea's rapidly consolidating food-delivery market.",
+      "desc_ru": "Coupang Eats — сервис доставки еды южнокорейского e-commerce гиганта Coupang, запущен в 2019 году; поначалу занимал скромную долю рынка, но после введения одиночной доставки заказов резко нарастил обороты. К 2020 году контролировал около 17% рынка; после запуска в апреле 2024 бесплатной доставки для подписчиков Coupang Wow доля сервиса по обороту удвоилась до 35,3%, тогда как доля лидера Baemin (Woowa) упала с более 70% до 57,6%. Вместе Coupang Eats и Baemin контролируют свыше 88% быстро консолидирующегося рынка доставки еды Кореи.",
       "logo": "/logos/coupang_eats-logo_brandlogos.net_wyb7y.png",
       "status": "catalog",
       "own_supplier": false,
