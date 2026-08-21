@@ -1349,8 +1349,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI and computer-vision firm.",
-      "desc_ru": "ИИ и компьютерное зрение.",
+      "desc_en": "Founded in Hong Kong in 2014 by CUHK researchers led by Tang Xiao'ou, SenseTime is a global leader in vision AI — facial recognition, video analytics, autonomous driving. Listed on the Hong Kong Stock Exchange (SEHK: 20) since December 2021. Develops the SenseNova generative AI suite and has expanded offices across Southeast Asia, including Bangkok and Kuala Lumpur.",
+      "desc_ru": "Основана в 2014 году в Гонконге выпускниками Китайского университета Гонконга во главе с Тан Сяоу. Один из мировых лидеров рынка компьютерного зрения (распознавание лиц, видеоаналитика, автономное вождение). С 2021 года акции торгуются на Гонконгской бирже (SEHK: 20). Развивает генеративные модели SenseNova и офисы в Юго-Восточной Азии, включая Бангкок и Куала-Лумпур.",
       "country": "cn",
       "logo": "/logos/SENSETIME.png"
     },
@@ -1436,8 +1436,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Speech and language AI.",
-      "desc_ru": "ИИ распознавания речи и языка.",
+      "desc_en": "Founded in 1999 in Hefei by Liu Qingfeng and USTC graduates, iFlyTek is China's dominant speech-recognition, speech-synthesis and machine-translation company, listed on the Shenzhen Stock Exchange since 2008 (SZSE: 002230). Developer of the Spark (Xinghuo) large language model. China Mobile is a major shareholder, and the Hefei municipal government holds a significant stake.",
+      "desc_ru": "Основана в 1999 году в Хэфэе Лю Цинфэном и группой выпускников Университета науки и технологий Китая. Ведущий в Китае разработчик технологий распознавания и синтеза речи, машинного перевода. С 2008 года акции торгуются на Шэньчжэньской бирже (SZSE: 002230). Создатель большой языковой модели «Синхо» (Spark). Крупный акционер — China Mobile; частично контролируется властями Хэфэя.",
       "country": "cn",
       "logo": "/logos/IFLYTEK.png"
     },
@@ -1812,8 +1812,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI chip designer.",
-      "desc_ru": "Разработчик ИИ-чипов.",
+      "desc_en": "Founded in 2016 in Beijing by brothers Chen Yunji and Chen Tianshi, spun out of the Chinese Academy of Sciences' Institute of Computing Technology, Cambricon is a fabless designer of AI accelerator chips (the Siyuan/MLU series, MLU 290–690). Listed on Shanghai's STAR Market in 2020 as China's first dedicated AI chip stock; posted its first full-year profit in 2025 amid China's push for chip self-sufficiency.",
+      "desc_ru": "Разработчик ИИ-чипов, основанный в 2016 году в Пекине братьями Чэнь Юньцзи и Чэнь Тяньши, выходцами из Института вычислительной техники Академии наук Китая. Фаблесс-компания, выпускающая линейку ускорителей Siyuan (MLU 290–690). В 2020 году провела IPO на площадке STAR Market Шанхайской биржи. В 2025 году впервые вышла на годовую прибыль на фоне ставки Китая на технологический суверенитет в чипах.",
       "country": "cn"
     },
     {
@@ -6871,8 +6871,8 @@
       "own_supplier": true,
       "category_en": "LLM / AI brain",
       "category_ru": "LLM / ИИ",
-      "desc_en": "Kimi LLM; the \"brain\" for service & humanoid robots.",
-      "desc_ru": "LLM Kimi; «мозг» для сервисных и человекоподобных роботов.",
+      "desc_en": "Founded in Beijing in March 2023 by Yang Zhilin, Zhang Yuhui and Wu Yuxin, Moonshot AI develops the Kimi assistant, launched in October 2023 with an industry-leading ~200,000-character context window at the time, later expanded to a 1-million-token window in the Kimi K2 model. Backed by Alibaba, Tencent, Meituan and HongShan (formerly Sequoia China); valuation topped $20 billion by 2025.",
+      "desc_ru": "Основана в марте 2023 года в Пекине Ян Чжилинем, Чжан Юйхуэем и У Юйсинем. Разработчик ассистента Kimi, запущенного в октябре 2023 года с рекордным для того времени контекстным окном (около 200 000 иероглифов), позже расширенным до 1 млн токенов в модели Kimi K2. Инвесторы — Alibaba, Tencent, Meituan, HongShan. К 2025 году оценка компании превысила 20 млрд долларов.",
       "country": "cn",
       "logo": "/logos/moonshot-ai-kimi.png"
     },
@@ -7295,8 +7295,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Compute infrastructure, cloud platforms, AI (Sugon ecosystem).",
-      "desc_ru": "Вычислительная инфраструктура, облачные платформы, ИИ (экосистема Sugon).",
+      "desc_en": "Linked to Sugon (中科曙光, Dawning Information Industry), one of China's oldest supercomputer makers, founded in 1996 and listed on the Shanghai Stock Exchange (SSE: 603019). Within the Sugon ecosystem it builds end-to-end AI infrastructure — deep-learning servers, AI accelerator chips (CPU/GPU/FPGA/ASIC), liquid-cooling systems and data centers serving major state and enterprise computing projects.",
+      "desc_ru": "Связана с Sugon (中科曙光, Dawning Information Industry), одним из старейших производителей суперкомпьютеров Китая, основанным в 1996 году и торгующимся на Шанхайской бирже (SSE: 603019). В рамках экосистемы Sugon развивается комплексная ИИ-инфраструктура: серверы для глубокого обучения, ИИ-чипы (CPU/GPU/FPGA/ASIC), системы жидкостного охлаждения и дата-центры, обслуживающие крупные государственные и корпоративные проекты.",
       "country": "cn"
     },
     {
@@ -8450,8 +8450,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Deep-learning frontier lab: the MN-Core chip and the Matlantis materials-simulation platform.",
-      "desc_ru": "Глубокое обучение: чип MN-Core, платформа симуляции материалов Matlantis.",
+      "desc_en": "Spun off from Preferred Infrastructure in March 2014 in Tokyo by co-founders Toru Nishikawa and Daisuke Okanohara, Preferred Networks built its own MN-Core AI processor and the MN-3 supercomputer, which topped the Green500 energy-efficiency ranking three times. With ENEOS it developed Matlantis, a universal atomistic simulator for materials discovery. Key investors include Toyota and Fanuc.",
+      "desc_ru": "Основана в марте 2014 года в Токио как отделение Preferred Infrastructure сооснователями Тору Нисикавой и Дайсукэ Оканохарой. Разработала собственный ИИ-процессор MN-Core и суперкомпьютер MN-3, трижды возглавлявший рейтинг энергоэффективности Green500. Совместно с ENEOS создала платформу симуляции материалов Matlantis. Среди ключевых инвесторов — Toyota и Fanuc.",
       "country": "jp"
     },
     {
@@ -8464,8 +8464,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Japanese frontier LLM lab (unicorn).",
-      "desc_ru": "Фронтир-лаборатория LLM, единорог.",
+      "desc_en": "Founded in Tokyo in July 2023 by former Google Brain researchers David Ha and Llion Jones (a co-author of \"Attention Is All You Need\") together with Ren Ito, Sakana AI builds generative models optimized for Japanese language and culture using evolutionary-computation methods. It raised a $135 million Series B round in November 2025 at a $2.65 billion valuation, becoming Japan's fastest unicorn and its most valuable AI startup.",
+      "desc_ru": "Основана в июле 2023 года в Токио бывшими исследователями Google Brain Дэвидом Ха и Ллионом Джонсом (соавтором статьи «Attention Is All You Need») вместе с Рэн Ито. Разрабатывает генеративные модели, оптимизированные под японский язык и культуру, используя подходы эволюционных вычислений. В ноябре 2025 года привлекла раунд Series B на 135 млн долларов при оценке 2,65 млрд — самый быстрый выход в единороги среди японских стартапов.",
       "country": "jp"
     },
     {
@@ -8579,8 +8579,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Closing meeting at Sony's AI research arm.",
-      "desc_ru": "Итоговая встреча в подразделении AI-исследований Sony.",
+      "desc_en": "Established April 1, 2020 as Sony Group's AI research subsidiary, headquartered in Tokyo with hubs in New York and San Diego. Organized around \"Grand Challenge\" projects in gaming, imaging, robotics and scientific discovery. Known for Gran Turismo Sophy, a reinforcement-learning racing agent built into Gran Turismo 7, and Project Ace, a real-world table-tennis robot competitive with elite human players.",
+      "desc_ru": "Создана 1 апреля 2020 года как исследовательское подразделение Sony Group со штаб-квартирой в Токио и центрами в Нью-Йорке и Сан-Диего. Работает по модели «больших вызовов» в играх, обработке изображений, робототехнике и научных открытиях. Известна проектом Gran Turismo Sophy — ИИ-агентом для гонок в Gran Turismo 7, а также системой Project Ace для настольного тенниса, конкурирующей с профессиональными игроками-людьми.",
       "country": "jp"
     },
     {
@@ -9343,8 +9343,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "The Thai LLM 'Typhoon'.",
-      "desc_ru": "Тайская LLM Typhoon.",
+      "desc_en": "SCB 10X is the deep-tech venture arm of SCBX, the financial group behind Siam Commercial Bank, launched in January 2020 as a \"Moonshot Mission\" investing in AI/ML and Web3. It built the Thai-language Typhoon LLM (versions 1.5, 1.5X, 2), integrated into SambaNova's Samba-1 model composition. SCB Abacus is a related SCBX company focused on AI-driven credit scoring and data-based fintech.",
+      "desc_ru": "SCB 10X — подразделение технологических инвестиций финансовой группы SCBX (материнская структура Siam Commercial Bank), созданное в январе 2020 года как «Moonshot Mission». Разработало тайскую большую языковую модель Typhoon (версии 1.5, 1.5X, 2), включённую в композицию моделей SambaNova Samba-1. SCB Abacus — дочерняя структура SCBX, занимающаяся ИИ-скорингом и финтех-решениями на основе данных.",
       "country": "th"
     },
     {
@@ -9357,8 +9357,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI and big-data consultancy.",
-      "desc_ru": "AI и большие данные.",
+      "desc_en": "Founded in 2014 in Bangkok by Tee Vachiramon, Sertis is a leading Thai AI and big-data provider delivering analytics, machine learning and computer-vision solutions for retail, manufacturing and finance. It employs about 130 people, including a data science and engineering team of over 80, and has completed 400+ enterprise engagements, with offices also in Indonesia, Hong Kong and Singapore.",
+      "desc_ru": "Основана в 2014 году в Бангкоке Ти Вачирамоном. Один из ведущих поставщиков ИИ и больших данных в Таиланде: аналитика, машинное обучение, компьютерное зрение для ритейла, производства и финансов. Штат около 130 человек, включая команду дата-сайентистов свыше 80 специалистов. Реализовала более 400 корпоративных проектов, работает также в Индонезии, Гонконге и Сингапуре.",
       "country": "th"
     },
     {
@@ -9386,8 +9386,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI communications platform.",
-      "desc_ru": "Платформа AI-коммуникаций.",
+      "desc_en": "Founded in Bangkok in 2012, Amity Solutions builds enterprise generative-AI and chatbot platforms (Amity Bots, the Eko platform) for HR, customer support, retail and finance. It has raised over $160 million, including a $100 million Series D led by EDBI and Asia Partners, and in 2026 opened an AI Research & Application Center in Singapore as its regional AI hub.",
+      "desc_ru": "Основана в 2012 году в Бангкоке; развивает платформы генеративного ИИ и чат-ботов для бизнеса (Amity Bots, платформа Eko) в сферах HR, поддержки клиентов, ритейла и финансов. Привлекла свыше 160 млн долларов инвестиций, включая раунд Series D на 100 млн долларов при участии EDBI и Asia Partners. В 2026 году открыла в Сингапуре региональный центр исследований и разработки ИИ (ARAC).",
       "country": "th"
     },
     {
@@ -9472,8 +9472,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Thai voice AI.",
-      "desc_ru": "Тайский голосовой AI.",
+      "desc_en": "Founded in 2019 in Bangkok by Dr. Winn Viravuthikul, Botnoi Group builds AI chatbots, voicebots, digital humans and speech recognition/synthesis technology, serving over 70 organizations including Central Pattana and Bangkok Hospital, with more than 10 million users interacting with its AI assistants. An AWS partner for multilingual generative AI assistants tailored to Southeast Asia.",
+      "desc_ru": "Тайская компания, основанная в 2019 году доктором Вином Виравутхикулом в Бангкоке. Разрабатывает ИИ-чат-ботов, голосовых помощников, цифровых людей и технологии распознавания/синтеза речи для более чем 70 организаций, включая Central Pattana и Bangkok Hospital; сервисами воспользовались свыше 10 млн пользователей. Партнёр AWS по многоязычным генеративным ИИ-ассистентам для Юго-Восточной Азии.",
       "country": "th"
     },
     {
@@ -10235,8 +10235,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Fintech AI.",
-      "desc_ru": "Финтех AI.",
+      "desc_en": "Founded in 2013 with headquarters in Singapore and Vietnam, Trusting Social applies AI and big data — social, web and mobile signals — to credit-score consumers lacking traditional bureau data. It serves roughly 170 financial institutions across Vietnam, Indonesia, India and the Philippines, and has raised over $214 million total, including $65 million from Vietnam's Masan Group for a joint AI consumer-finance platform.",
+      "desc_ru": "Основана в 2013 году, штаб-квартиры в Сингапуре и Вьетнаме. Использует ИИ и большие данные для кредитного скоринга заёмщиков без традиционной кредитной истории на основе социальных, веб- и мобильных сигналов. Обслуживает около 170 финансовых организаций во Вьетнаме, Индонезии, Индии и на Филиппинах. Привлекла свыше 214 млн долларов инвестиций, включая 65 млн от Masan Group для совместной ИИ-платформы.",
       "country": "vn"
     },
     {
@@ -10249,8 +10249,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Automotive AI, the PhoGPT model (acquired by Qualcomm in 2025).",
-      "desc_ru": "Автомобильный AI, PhoGPT (приобретён Qualcomm в 2025).",
+      "desc_en": "Founded in 2019 by ex-DeepMind researcher Bui Hai Hung with backing from conglomerate Vingroup, VinAI focused on automotive AI (computer vision for self-driving) and generative models, including the open Vietnamese-language PhoGPT (2023). Its generative-AI unit was spun off as MovianAI in 2024; in March 2025 Vingroup sold a 65% stake in MovianAI to Qualcomm for $66.9 million, with Bui Hai Hung joining Qualcomm.",
+      "desc_ru": "Основана в 2019 году бывшим научным сотрудником DeepMind Буи Хай Хунгом при поддержке конгломерата Vingroup. Занимается автомобильным ИИ (компьютерное зрение для беспилотного вождения) и генеративными моделями, в том числе открытой вьетнамоязычной LLM PhoGPT (2023). В 2024 году генеративное направление выделено в MovianAI; в марте 2025 года Vingroup продал 65% MovianAI компании Qualcomm за 66,9 млн долларов, а Буи Хай Хунг перешёл в Qualcomm.",
       "country": "vn"
     },
     {
@@ -10263,8 +10263,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Enterprise AI, GPU cloud with NVIDIA.",
-      "desc_ru": "Корпоративный AI, GPU-облако с NVIDIA.",
+      "desc_en": "FPT Software, Vietnam's largest IT company and part of FPT Corporation, announced a strategic partnership with NVIDIA in April 2024 and a $200 million investment to build an AI factory — a sovereign cloud powered by thousands of NVIDIA H100/H200 GPUs. Vietnam's first AI factory went live in January 2025, with a similar facility launched in Japan; the FPT AI Factory platform offers enterprise-grade AI development tools.",
+      "desc_ru": "FPT Software — крупнейшая ИТ-компания Вьетнама, часть корпорации FPT. В апреле 2024 года объявила о стратегическом партнёрстве с NVIDIA и инвестициях в 200 млн долларов в строительство ИИ-фабрики — суверенного облака на базе тысяч GPU NVIDIA H100/H200. Первая ИИ-фабрика во Вьетнаме заработала в январе 2025 года, аналогичный проект запущен и в Японии; платформа FPT AI Factory предоставляет корпоративные инструменты для разработки ИИ.",
       "country": "vn"
     },
     {
@@ -10320,8 +10320,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Speech AI.",
-      "desc_ru": "Речевой AI.",
+      "desc_en": "Founded in 2015 by Vietnamese entrepreneur Vu Van with speech-recognition expert Xavier Anguera, ELSA uses AI to assess and correct English pronunciation for language learners. Winner of the SXSW 2016 startup competition. Has raised over $60 million from investors including Google, Monk's Hill Ventures and SIG, and launched the generative-AI-powered ELSA AI Tutor in 2023.",
+      "desc_ru": "Основана в 2015 году вьетнамской предпринимательницей Ву Ван совместно со специалистом по распознаванию речи Хавьером Ангерой. Приложение ELSA использует ИИ для оценки и коррекции английского произношения у изучающих язык. Победитель конкурса стартапов SXSW 2016. Привлекла свыше 60 млн долларов инвестиций, включая раунды от Google, Monk's Hill Ventures и SIG; в 2023 году запустила ELSA AI Tutor на основе генеративного ИИ.",
       "country": "vn"
     },
     {
@@ -11026,8 +11026,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Indonesian NLP.",
-      "desc_ru": "Индонезийский NLP.",
+      "desc_en": "An Indonesian NLP company founded in Jakarta in 2015–2016 by Irzan Raditya and co-founders, growing out of the earlier YesBoss assistant project. Kata.ai builds Indonesian-language chatbots for major corporate clients including Unilever and Telkomsel. It acquired Philippine startup HeyKuya in 2016 and partnered with Kanari AI in 2024 to expand across Southeast Asia and the Middle East.",
+      "desc_ru": "Индонезийская компания в области обработки естественного языка, основанная в 2015–2016 годах в Джакарте Ирзаном Радитьей и партнёрами на базе более раннего проекта YesBoss. Строит NLP-чат-ботов на индонезийском языке для крупных корпоративных клиентов, включая Unilever и Telkomsel. В 2016 году приобрела филиппинский стартап HeyKuya; в 2024 году заключила партнёрство с Kanari AI для расширения в Юго-Восточной Азии и на Ближнем Востоке.",
       "country": "id"
     },
     {
@@ -11040,8 +11040,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Computer vision.",
-      "desc_ru": "Компьютерное зрение.",
+      "desc_en": "Founded in 2016 in Jakarta by Meidy Fitranto and Faris Rahman, alumni of the Bandung Institute of Technology, Nodeflux is Indonesia's first and largest vision-AI company, providing facial and license-plate recognition and video analytics for banks and the public sector. It became the first Indonesian company to pass NIST's Face Recognition Vendor Test, ranking in the top 15% among 140+ global vendors.",
+      "desc_ru": "Основана в 2016 году в Джакарте Мейди Фитранто и Фарисом Раманом, выпускниками Бандунгского технологического института. Первая и крупнейшая индонезийская компания в области компьютерного зрения (Vision AI): распознавание лиц, номерных знаков, видеоаналитика для банков и госсектора. Первой из индонезийских компаний прошла тест NIST по распознаванию лиц (FRVT), войдя в топ-15% среди 140+ участников мирового рейтинга.",
       "country": "id"
     },
     {
@@ -11054,8 +11054,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Speech AI/NLP.",
-      "desc_ru": "Речевой AI/NLP.",
+      "desc_en": "Founded in 2018 in Bandung by AI and speech-recognition experts Dessi Puji Lestari and Dr. Ayu Purwarianti together with Teguh Eko Budiarto, Prosa.ai builds NLP and speech technologies specifically for Bahasa Indonesia — chatbots, text and speech processing, and voice-biometric authentication. It partnered with Indonesia's communications ministry to launch the AntiHoaks chatbot to counter misinformation.",
+      "desc_ru": "Основана в 2018 году в Бандунге экспертами по ИИ и распознаванию речи Десси Пуджи Лестари и доктором Аю Пурварианти совместно с Тегу Эко Будиарто. Разрабатывает NLP- и речевые технологии специально для языка бахаса Индонезия: чат-боты, обработку текста и речи, голосовую биометрию для аутентификации. Совместно с Министерством связи Индонезии запустила чат-бот AntiHoaks для борьбы с дезинформацией.",
       "country": "id"
     },
     {
@@ -11068,8 +11068,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Indonesian LLM, an Indosat/GoTo consortium.",
-      "desc_ru": "Индонезийская LLM, консорциум Indosat/GoTo.",
+      "desc_en": "An open-source Indonesian LLM ecosystem launched November 14, 2024 at Indonesia AI Day by a consortium of telecom operator Indosat Ooredoo Hutchison and GoTo (Gojek-Tokopedia), with NVIDIA's involvement. Trained with AI Singapore and Tech Mahindra using NVIDIA NeMo, Sahabat-AI targets Bahasa Indonesia and the country's regional languages, aiming to advance Indonesia's digital sovereignty and open AI ecosystem.",
+      "desc_ru": "Индонезийская открытая экосистема больших языковых моделей, запущенная 14 ноября 2024 года на Indonesia AI Day консорциумом операторов Indosat Ooredoo Hutchison и GoTo (Gojek-Tokopedia) при участии NVIDIA. Модель обучена с помощью AI Singapore и Tech Mahindra на базе NVIDIA NeMo и рассчитана на бахаса Индонезия и региональные языки страны. Цель проекта — цифровой суверенитет и развитие открытого ИИ-сообщества Индонезии.",
       "country": "id"
     },
     {
@@ -11831,8 +11831,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Sovereign Indian LLMs (unicorn).",
-      "desc_ru": "Суверенные индийские LLM (единорог).",
+      "desc_en": "Sarvam AI was founded in Bengaluru in August 2023 by Vivek Raghavan and Pratyush Kumar, alumni of AI4Bharat at IIT Madras. In 2025 the Indian government picked it from 67 applicants to build the nation's sovereign LLM. In June 2026 it raised $234M (Series B, HCLTech, Bessemer), reaching unicorn status at $1.5B valuation. Products: the Sarvam-30B/105B models, a speech platform for 22 Indian languages, and Kaze smart glasses.",
+      "desc_ru": "Sarvam AI основана в августе 2023 г. в Бангалоре Вивеком Рагхаваном и Пратьюшем Кумаром (выходцы из AI4Bharat, IIT Мадрас). В 2025 г. выбрана правительством Индии из 67 претендентов для создания суверенной LLM. В июне 2026 г. привлекла $234 млн (Series B, HCLTech, Bessemer), став единорогом с оценкой $1,5 млрд. Выпустила модели Sarvam-30B/105B, речевую платформу на 22 языках и очки Kaze.",
       "country": "in"
     },
     {
@@ -11845,8 +11845,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI cloud, unicorn.",
-      "desc_ru": "AI-облако, единорог.",
+      "desc_en": "Krutrim (Sanskrit for \"artificial\") launched in 2024 by Bhavish Aggarwal, founder of Ola, to build an Indian LLM and AI cloud. In January 2024 it raised $50M (Matrix Partners India), becoming India's first AI unicorn at a $1B valuation — the fastest unicorn run in the country. Its model understands about 22 Indian languages and generates text in 10. Aggarwal has personally committed roughly ₹2,000 crore to the venture.",
+      "desc_ru": "Krutrim (санскр. «искусственный») запущена в 2024 г. Бхавишем Агарвалом, основателем Ola, для создания индийской LLM и облачной AI-инфраструктуры. В январе 2024 г. привлекла $50 млн (Matrix Partners India) и стала первым AI-единорогом Индии с оценкой $1 млрд — самый быстрый путь к статусу единорога в стране. Модель понимает около 22 языков Индии, генерирует текст на 10. Агарвал лично вложил около ₹2000 крор.",
       "country": "in"
     },
     {
@@ -11873,8 +11873,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "AI in 135+ languages.",
-      "desc_ru": "AI на 135+ языках.",
+      "desc_en": "Yellow.ai (formerly Yellow Messenger) was founded in 2016 by Raghu Ravinutala, Jaya Kishore and Rashid Khan. Its multi-LLM conversational AI platform serves over 1,300 enterprises in 85+ countries in 135+ languages, handling more than 16 billion conversations yearly. Clients include Sony, Domino's, Hyundai, Volkswagen. A $78M Series C (WestBridge, Salesforce Ventures, Lightspeed) brought total funding to $102M at roughly a $500M valuation.",
+      "desc_ru": "Yellow.ai (ранее Yellow Messenger) основана в 2016 г. Рагху Равинуталой, Джаей Кишором и Рашидом Ханом. Платформа разговорного AI на мульти-LLM архитектуре обслуживает более 1300 компаний в 85+ странах на 135+ языках, обрабатывая свыше 16 млрд диалогов в год. Клиенты — Sony, Domino's, Hyundai, Volkswagen. Раунд Series C на $78 млн (WestBridge, Salesforce Ventures, Lightspeed) довёл финансирование до $102 млн при оценке около $500 млн.",
       "country": "in"
     },
     {
@@ -11887,8 +11887,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Computer vision for retail.",
-      "desc_ru": "Компьютерное зрение для ритейла.",
+      "desc_en": "Mad Street Den was founded in 2016 as a computer-vision company for retail, headquartered in Chennai and Redwood City. Its flagship Vue.ai is an AI stack spanning the whole retail chain, from personalized storefronts to marketing and warehouse ops. It raised over $57M across 7 rounds (Sequoia Capital India, Falcon Edge, Alpha Wave). On March 4, 2025, it was acquired by Indian fintech M2P Fintech.",
+      "desc_ru": "Mad Street Den основана в 2016 г. как компания компьютерного зрения для ритейла (штаб-квартиры в Ченнаи и Редвуд-Сити). Флагман Vue.ai — AI-стек, охватывающий весь цикл ритейла: от персонализации витрины до маркетинга и склада. Привлекла свыше $57 млн за 7 раундов (Sequoia Capital India, Falcon Edge, Alpha Wave). 4 марта 2025 г. компания приобретена индийским финтехом M2P Fintech.",
       "country": "in"
     },
     {
@@ -11901,8 +11901,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Publicly listed AI company.",
-      "desc_ru": "Листинговая AI-компания.",
+      "desc_en": "Fractal Analytics was founded in 2000 and pivoted from data analytics to AI in 2022, becoming India's leading pure-play enterprise AI firm serving financial services, retail and healthcare. Revenue rose 26% to ₹27.65 billion (~$305M) for the year to March 2025. In February 2026 it completed India's first AI-company IPO, raising $312.5M at ₹900/share, though the stock had a muted debut, sliding below its issue price.",
+      "desc_ru": "Fractal Analytics основана в 2000 г. и с 2022 г. переориентировалась с аналитики данных на AI, став ведущей индийской чисто AI-компанией для финансов, ритейла и здравоохранения. Выручка выросла на 26% до ₹27,65 млрд (~$305 млн) за год до марта 2025 г. В феврале 2026 г. провела первое в Индии AI-IPO объёмом $312,5 млн по ₹900 за акцию, но дебют оказался слабым — акции упали ниже цены размещения.",
       "country": "in"
     },
     {
@@ -11915,8 +11915,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Medical imaging AI.",
-      "desc_ru": "Медицинский imaging AI.",
+      "desc_en": "Qure.ai was founded in 2016 in Mumbai, with offices also in New York, London and Dubai. It builds AI diagnostics for medical imaging (chest X-rays, head CT scans), holding 18 FDA clearances and EU MDR CE certification. Solutions run in 100+ countries across 3,000+ sites, reaching over 40 million patients. It has raised roughly $120M (Novo Holdings, Lightspeed). In 2025, Time magazine named it among the world's most influential companies.",
+      "desc_ru": "Qure.ai основана в 2016 г. в Мумбаи, офисы также в Нью-Йорке, Лондоне и Дубае. Разрабатывает AI-диагностику по медицинским снимкам (рентген грудной клетки, КТ головы) с 18 одобрениями FDA и сертификацией CE по EU MDR. Решения работают в 100+ странах на 3000+ площадках, охватывая свыше 40 млн пациентов. Привлекла около $120 млн (Novo Holdings, Lightspeed). В 2025 г. вошла в список самых влиятельных компаний мира по версии Time.",
       "country": "in"
     },
     {
@@ -11929,8 +11929,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Conversational AI.",
-      "desc_ru": "Разговорный AI.",
+      "desc_en": "Haptik was founded in Mumbai in August 2013 by Aakrit Vaish and Swapan Rajdev, initially as a consumer chat assistant before pivoting to enterprise conversational AI. In April 2019, Reliance Jio acquired it for about ₹700 crore (~$100M), taking roughly 87% on a diluted basis. By then Haptik had processed over 2 billion interactions for Samsung, Coca-Cola, KFC and Tata Group. It now focuses on agentic AI and WhatsApp Business API integration.",
+      "desc_ru": "Haptik основана в августе 2013 г. в Мумбаи Аакритом Ваишем и Свапаном Раджде как чат-ассистент, позже переориентированный на корпоративный разговорный AI. В апреле 2019 г. Reliance Jio приобрела компанию за ₹700 крор (~$100 млн), получив около 87% на разводнённой основе. К моменту сделки Haptik обработала более 2 млрд диалогов для Samsung, Coca-Cola, KFC и Tata Group. Сегодня развивает agentic AI и интеграцию с WhatsApp Business API.",
       "country": "in"
     },
     {
@@ -12663,8 +12663,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Global drone-as-a-service / AI aerial-analytics leader (near-unicorn): AI-driven asset inspection, smart-city surveillance, AWS partnership.",
-      "desc_ru": "Глобальный лидер drone-as-a-service / AI-аэроаналитики (почти единорог): AI-инспекция объектов, видеонаблюдение умного города, партнёрство с AWS.",
+      "desc_en": "Aerodyne Group is a Malaysia-based drone-as-a-service company providing AI-powered aerial analytics for telecom, agriculture, surveillance, logistics and energy across 45 countries. Its DRONOS platform runs on AWS (partnership since November 2023); its Agrimor solution has boosted crop yields by up to 67%. A 2021 valuation put the company at $200-300M, a near-unicorn candidate. Its work spans industrial inspection and smart-city video analytics.",
+      "desc_ru": "Aerodyne Group — малайзийская компания drone-as-a-service, поставляющая AI-аналитику дронов для телекома, сельского хозяйства, наблюдения, логистики и энергетики в 45 странах. Платформа DRONOS работает на AWS (партнёрство с 2023 г.); решение Agrimor повышает урожайность до 67%. По оценке 2021 г. компания стоила $200–300 млн — кандидат в единороги. Занимается инспекцией объектов и видеоаналитикой умных городов.",
       "country": "my"
     },
     {
@@ -13237,8 +13237,8 @@
       "city": "abu-dhabi",
       "sector": "ai",
       "status": "gov",
-      "desc_ru": "Ведущая ИИ-компания Абу-Даби, работает в облачных технологиях, здравоохранении и умных городах.",
-      "desc_en": "Abu Dhabi's leading AI company, active in cloud technology, healthcare and smart cities.",
+      "desc_ru": "G42 основана в Абу-Даби в 2018 г., работает в облачных технологиях, здравоохранении, умных городах и AI для энергетики и госсектора. Возглавляется председателем шейхом Тахнуном бин Заедом Аль Нахайяном и CEO Пенгом Сяо. В апреле 2024 г. Microsoft объявила инвестицию $1,5 млрд с местом в совете директоров; G42 переносит инфраструктуру данных на Azure. Компания также разработала арабоязычную LLM Jais совместно с MBZUAI и Cerebras.",
+      "desc_en": "G42 was founded in Abu Dhabi in 2018, working across cloud computing, healthcare, smart cities and AI for energy and government. It is chaired by Sheikh Tahnoon bin Zayed Al Nahyan and led by CEO Peng Xiao. In April 2024, Microsoft announced a $1.5 billion investment with a board seat, and G42 is moving its data infrastructure to Azure. The company also co-developed the Arabic-language Jais LLM with MBZUAI and Cerebras.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13251,8 +13251,8 @@
       "city": "abu-dhabi",
       "sector": "ai",
       "status": "gov",
-      "desc_ru": "Государственный технологический хаб Абу-Даби для стартапов.",
-      "desc_en": "Abu Dhabi's state-backed technology hub for startups.",
+      "desc_ru": "Hub71 — государственный технологический хаб Абу-Даби, основанный в 2019 г. правительством эмирата совместно с Mubadala, Abu Dhabi Global Market, Microsoft и SoftBank. Даёт стартапам гранты, льготы на визы и жильё, доступ к капиталу и корпоративным партнёрам. К июню 2026 г. экосистема насчитывает 525 международных стартапов в AI, климатических технологиях и финтехе; за первые пять лет резиденты привлекли свыше AED 5,4 млрд финансирования.",
+      "desc_en": "Hub71 is Abu Dhabi's government-backed tech hub, established in 2019 by the emirate's government with Mubadala, Abu Dhabi Global Market, Microsoft and SoftBank. It offers startups grants, visa and housing incentives, capital access and corporate partnerships. By June 2026 the ecosystem hosted 525 international startups across AI, climate tech and fintech; within five years, residents had raised over AED 5.4 billion collectively.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13265,8 +13265,8 @@
       "city": "abu-dhabi",
       "sector": "ai",
       "status": "gov",
-      "desc_ru": "Исследовательский институт передовых технологий Абу-Даби.",
-      "desc_en": "Abu Dhabi's advanced-technology research institute.",
+      "desc_ru": "Technology Innovation Institute (TII) — прикладное исследовательское подразделение Совета по передовым технологиям Абу-Даби (ATRC). В марте 2023 г. представил Falcon LLM — модель на 40 млрд параметров, превзошедшую GPT-3 при обучении на 1 трлн токенов с меньшими вычислениями. Позже вышли компактные Falcon 3, работающие на ноутбуках, и Falcon H1 Arabic — арабоязычная AI-модель. TII также исследует квантовые технологии, робототехнику и биотех.",
+      "desc_en": "The Technology Innovation Institute (TII) is the applied-research arm of Abu Dhabi's Advanced Technology Research Council (ATRC). In March 2023 it launched Falcon LLM, a 40B-parameter model trained on 1 trillion tokens that beat GPT-3 using far less compute. It later released the compact Falcon 3 series, efficient enough for laptops, and Falcon H1 Arabic. TII also researches quantum tech, robotics and biotech.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13279,8 +13279,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональная штаб-квартира Google для Ближнего Востока и Северной Африки, Дубай.",
-      "desc_en": "Google's regional headquarters for the Middle East and North Africa, Dubai.",
+      "desc_ru": "Региональная штаб-квартира Google для Ближнего Востока и Северной Африки открылась в Дубае (Dubai Internet City) в 2008 г., начав со штата в пять человек. Сегодня офис насчитывает сотни сотрудников и координирует поиск, онлайн-рекламу, Google Cloud и аппаратные продукты по всему региону MENA. Google также инвестирует в цифровизацию ОАЭ совместно с властями Дубая, включая программы обучения цифровым навыкам и развития местной AI-экосистемы.",
+      "desc_en": "Google's MENA regional headquarters opened in Dubai Internet City in 2008, starting with a staff of just five. Today the office employs hundreds and coordinates search, online advertising, Google Cloud and hardware across the MENA region. Google has also partnered with Dubai's government on digital-transformation efforts, including digital-skills training and support for the region's growing AI ecosystem.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13293,8 +13293,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональный офис облачного подразделения Amazon, Дубай.",
-      "desc_en": "The regional office of Amazon's cloud division, Dubai.",
+      "desc_ru": "Региональная зона AWS Middle East (UAE) в Дубае заработала 29 августа 2022 г. — второй облачный регион Amazon на Ближнем Востоке после Бахрейна (2019 г.). Запущена с тремя зонами доступности, позволяя клиентам размещать данные локально с низкой задержкой. По прогнозам AWS, регион принесёт экономике ОАЭ около $11 млрд за 15 лет и создаст тысячи рабочих мест, поддерживая цифровую трансформацию госсектора и бизнеса.",
+      "desc_en": "The AWS Middle East (UAE) Region in Dubai went live on August 29, 2022, becoming Amazon's second cloud region in the Middle East after Bahrain (2019). It launched with three availability zones, letting customers host data and apps locally with low latency. AWS projects the region will add roughly $11 billion to the UAE economy over 15 years and create thousands of jobs, supporting digital transformation across government and business.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13307,8 +13307,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональный офис Meta (Facebook/Instagram/WhatsApp) для Ближнего Востока и Африки.",
-      "desc_en": "Meta's (Facebook/Instagram/WhatsApp) regional office for the Middle East and Africa.",
+      "desc_ru": "Региональная штаб-квартира Meta (Facebook, Instagram, WhatsApp) для Ближнего Востока и Северной Африки открылась в марте 2022 г. в Dubai Internet City. Офис координирует работу с рекламодателями, партнёрами и разработчиками по всему региону MENA, а также поддерживает инициативы по цифровой грамотности и малому бизнесу на платформах компании. Открытие стало частью стратегии Meta по расширению присутствия в цифровых экономиках Персидского залива.",
+      "desc_en": "Meta's regional MENA headquarters (covering Facebook, Instagram and WhatsApp) opened in March 2022 at Dubai Internet City. The office coordinates advertiser, partner and developer relations across MENA and supports local digital-literacy and small-business initiatives on Meta's platforms. The launch was part of Meta's broader push to deepen its footprint in the fast-growing digital economies of the Gulf region.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13321,8 +13321,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональная штаб-квартира Microsoft для Ближнего Востока и Африки.",
-      "desc_en": "Microsoft's regional headquarters for the Middle East and Africa.",
+      "desc_ru": "Microsoft Gulf открыл штаб-квартиру в Дубае ещё в 1991 г.; сегодня это региональный центр Microsoft для Ближнего Востока и Африки (MEA). Офис курирует продажи Azure, партнёрскую экосистему и корпоративные проекты цифровой трансформации в десятках стран региона. Microsoft также инвестирует в дата-центры и AI-инфраструктуру Ближнего Востока, включая стратегическую инвестицию $1,5 млрд в эмиратскую AI-компанию G42 (2024 г.).",
+      "desc_en": "Microsoft opened its Dubai headquarters back in 1991, and it now serves as the regional hub for the Middle East and Africa (MEA). The office oversees Azure cloud sales, the partner ecosystem, and enterprise digital-transformation projects across dozens of countries in the region. Microsoft has also invested heavily in Middle East data centers and AI infrastructure, including its $1.5 billion investment in UAE-based AI company G42 (2024).",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13335,8 +13335,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональная штаб-квартира облачного подразделения Alibaba, Дубай.",
-      "desc_en": "The regional headquarters of Alibaba's cloud division, Dubai.",
+      "desc_ru": "Alibaba Cloud вышла на ближневосточный рынок в 2016 г., открыв первый дата-центр в Дубае. 14 октября 2025 г. на выставке GITEX Global компания представила второй дата-центр в Дубае, расширяя мощности для AI-сервисов на фоне растущего спроса. Экспансия — часть плана Alibaba по инвестированию 380 млрд юаней (~$53 млрд) в облачную и AI-инфраструктуру за три года; объявлены партнёрства с региональными компаниями в финансах и здравоохранении.",
+      "desc_en": "Alibaba Cloud entered the Middle East market in 2016 with its first Dubai data center. On October 14, 2025, at GITEX Global, it opened a second Dubai data center, expanding capacity for AI services amid surging regional demand. The expansion is part of Alibaba's plan to invest RMB 380 billion (~$53 billion) in cloud and AI infrastructure over three years, alongside new regional partnerships in finance and healthcare.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13349,8 +13349,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Региональный офис TikTok (ByteDance) для Ближнего Востока и Северной Африки.",
-      "desc_en": "TikTok's (ByteDance) regional office for the Middle East and North Africa.",
+      "desc_ru": "TikTok, принадлежащий китайской ByteDance (запущен в 2016–2018 гг.), открыл региональный офис для Ближнего Востока и Северной Африки в Dubai Internet City. Офис отвечает за работу с брендами, локальный контент, live-операции и партнёрства с креаторами и правительствами региона MENA. Глобально платформа насчитывает более 1 млрд активных пользователей, а MENA остаётся одним из самых быстрорастущих рынков TikTok.",
+      "desc_en": "TikTok, owned by China's ByteDance (launched 2016-2018, going global from 2018), runs its MENA regional office from Dubai Internet City. The Dubai office handles brand partnerships, local content, live operations, and creator and government relations across the MENA region. Globally the platform has more than 1 billion active users, and MENA remains one of TikTok's fastest-growing markets worldwide.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13363,8 +13363,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "catalog",
-      "desc_ru": "Суперапп (такси, доставка, платежи), один из первых «единорогов» региона.",
-      "desc_en": "A super-app (ride-hailing, delivery, payments), one of the region's first unicorns.",
+      "desc_ru": "Careem основана в Дубае в 2012 г. Мудассиром Шейхой и Магнусом Олссоном как такси-сервис, ставший первым технологическим единорогом региона. В 2019 г. Uber купил компанию за $3,1 млрд — рекорд для ближневосточного стартапа. С апреля 2020 г. супераппер Careem включает доставку еды, микромобильность, кошелёк и финтех-сервисы в 80+ городах девяти стран. В 2023 г. эмиратская e& вложила $400 млн за 50,03% в спин-оффе Careem Technologies.",
+      "desc_en": "Careem was founded in Dubai in 2012 by Mudassir Sheikha and Magnus Olsson as a ride-hailing service, becoming the region's first tech unicorn. Uber acquired it in 2019 for $3.1 billion — a record deal for a Middle Eastern startup. From April 2020 the Careem Super App added food delivery, micro-mobility, a wallet and fintech services across 80+ cities in nine countries. In 2023, UAE's e& invested $400M for 50.03% of spun-off Careem Technologies.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
@@ -13377,8 +13377,8 @@
       "city": "dubai",
       "sector": "ai",
       "status": "gov",
-      "desc_ru": "Государственный институт, отвечающий за инновационную повестку Дубая.",
-      "desc_en": "A government institute responsible for Dubai's innovation agenda.",
+      "desc_ru": "Dubai Future Foundation учреждён в 2016 г. по инициативе шейха Мохаммеда бин Рашида Аль Мактума для работы над будущим Дубая. Фонд управляет акселераторами, инкубаторами и регуляторными песочницами по стратегии «экспоненциального правительства». Ключевой проект — Museum of the Future, открытый 22 февраля 2022 г.: семиэтажное здание с выставками о космосе, биоинженерии и экосистемах, ставшее визитной карточкой города.",
+      "desc_en": "Dubai Future Foundation was established in 2016 at the initiative of Sheikh Mohammed bin Rashid Al Maktoum to institutionalize future-focused planning. It runs accelerators, incubators and regulatory sandboxes under an \"exponential government\" strategy. Its flagship project is the Museum of the Future, opened February 22, 2022 — a seven-floor building with immersive exhibitions on space, bioengineering and ecosystems, now a city landmark.",
       "name_zh": null,
       "own_supplier": false,
       "category_en": null,
