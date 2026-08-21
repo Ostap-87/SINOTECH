@@ -1451,8 +1451,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "World's largest display-panel maker.",
-      "desc_ru": "Крупнейший в мире производитель дисплеев.",
+      "desc_en": "BOE Technology Group, founded in Beijing in 1993, is the world's largest manufacturer of display panels by shipment volume, producing LCD, AMOLED and flexible OLED screens for smartphones, TVs, laptops and automotive displays. Listed on the Shenzhen Stock Exchange, it operates major fabs in Hefei, Chengdu, Chongqing and Mianyang and supplies Apple, Samsung and Huawei, with annual revenue exceeding 190 billion yuan.",
+      "desc_ru": "BOE Technology Group, основанная в Пекине в 1993 году, — крупнейший в мире производитель дисплейных панелей по объёму поставок: ЖК-, AMOLED- и гибкие OLED-экраны для смартфонов, телевизоров, ноутбуков и автомобилей. Компания торгуется на Шэньчжэньской бирже, имеет заводы в Хэфэе, Чэнду, Чунцине и Мяньяне, поставляет продукцию Apple, Samsung и Huawei; выручка превышает 190 млрд юаней.",
       "country": "cn"
     },
     {
@@ -1653,8 +1653,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "World's largest PC maker.",
-      "desc_ru": "Крупнейший в мире производитель ПК.",
+      "desc_en": "Lenovo Group, headquartered in Beijing and Hong Kong, traces its roots to 1984 as Legend Holdings. It became the world's largest PC vendor by shipments after acquiring IBM's PC division in 2005 and Motorola Mobility in 2014. Listed on the Hong Kong Stock Exchange, Lenovo also makes servers, smartphones and data-center hardware, reporting revenue around $57 billion in fiscal 2024.",
+      "desc_ru": "Lenovo Group со штаб-квартирами в Пекине и Гонконге ведёт историю с 1984 года (Legend Holdings). После покупки подразделения ПК IBM в 2005 году и Motorola Mobility в 2014-м стала крупнейшим в мире производителем персональных компьютеров по объёму поставок. Акции торгуются на Гонконгской бирже; компания также выпускает серверы и смартфоны, выручка — около $57 млрд (2024 финансовый год).",
       "country": "cn",
       "logo": "/logos/lenovo.png"
     },
@@ -2066,8 +2066,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "PC and printing maker.",
-      "desc_ru": "Производитель ПК и печатной техники.",
+      "desc_en": "HP Inc., based in Palo Alto, California, originated from Hewlett-Packard, founded in a garage in 1939 by Bill Hewlett and David Packard. Following the 2015 split from Hewlett Packard Enterprise, HP Inc. retained the PC and printing businesses, ranking among the world's top PC vendors alongside Lenovo. Listed on the NYSE, it reports annual revenue near $53 billion and sells laptops, desktops, printers and 3D-printing systems.",
+      "desc_ru": "HP Inc. со штаб-квартирой в Пало-Альто (Калифорния) ведёт историю от Hewlett-Packard, основанной в гараже в 1939 году Биллом Хьюлеттом и Дэвидом Паккардом. После разделения с Hewlett Packard Enterprise в 2015 году HP Inc. сохранила бизнес ПК и печатной техники, входя в число мировых лидеров рынка вместе с Lenovo. Акции торгуются на NYSE, выручка — около $53 млрд, компания выпускает ноутбуки, принтеры и 3D-принтеры.",
       "country": "cn"
     },
     {
@@ -2295,8 +2295,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Korean electronics group.",
-      "desc_ru": "Корейский электронный концерн.",
+      "desc_en": "Samsung Electronics, part of South Korea's Samsung Group founded in 1938, was established as an electronics maker in 1969 and is headquartered in Suwon. It is the world's largest maker of smartphones and memory chips (DRAM, NAND), and its Samsung Display unit is a top OLED panel supplier. Listed on the Korea Exchange, the group employs over 260,000 people and posts annual revenue above $200 billion.",
+      "desc_ru": "Samsung Electronics, часть южнокорейской Samsung Group (основана в 1938 году), выделена как производитель электроники в 1969 году, штаб-квартира — в Сувоне. Компания — крупнейший в мире производитель смартфонов и чипов памяти (DRAM, NAND), а подразделение Samsung Display — один из лидеров рынка OLED-панелей. Акции торгуются на Корейской бирже, штат превышает 260 тыс. человек, выручка — свыше $200 млрд в год.",
       "country": "cn",
       "logo": "/logos/samsung.svg"
     },
@@ -2426,8 +2426,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Smart cameras & imaging.",
-      "desc_ru": "Умные камеры и обработка изображений.",
+      "desc_en": "YI Technology (Xiaoyi), founded in Shanghai in February 2014 by Shengwei 'Sean' Da, began as a Xiaomi-ecosystem partner making the Xiaomi Yi action camera before splitting off its own Xiaoyi brand in 2016 (Xiaomi remains a shareholder). The company develops smart home cameras, dash cams and action cameras built on in-house computer-vision and image-processing chips and AI algorithms, sold in China and internationally under the YI brand.",
+      "desc_ru": "YI Technology (小蚁科技, Xiaoyi), основанная в Шанхае в феврале 2014 года Дэ Шэнвэем, начинала как партнёр экосистемы Xiaomi, выпускавший экшн-камеру Xiaomi Yi, а в 2016 году выделила собственный бренд Xiaoyi (Xiaomi остаётся акционером). Компания разрабатывает умные домашние камеры, видеорегистраторы и экшн-камеры на базе собственных чипов компьютерного зрения и алгоритмов обработки изображений, продаёт продукцию в Китае и за рубежом под брендом YI.",
       "country": "cn"
     },
     {
@@ -3053,8 +3053,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Largest electronics contract manufacturer.",
-      "desc_ru": "Крупнейший контрактный производитель электроники.",
+      "desc_en": "Foxconn, formally Hon Hai Precision Industry, was founded in Taipei in 1974 by Terry Gou and is the world's largest contract electronics manufacturer (EMS). It is Apple's primary iPhone assembler, operating giant plants including the Zhengzhou 'iPhone City,' and also makes servers, EVs (via Foxtron) and semiconductors. Listed on the Taiwan Stock Exchange, it employs roughly one million workers worldwide and reported revenue above $220 billion in 2023.",
+      "desc_ru": "Foxconn (официально Hon Hai Precision Industry), основанная в Тайбэе в 1974 году Терри Гоу, — крупнейший в мире контрактный производитель электроники (EMS). Компания собирает большинство iPhone для Apple, в том числе на заводе-«городе iPhone» в Чжэнчжоу, а также выпускает серверы, электромобили (бренд Foxtron) и полупроводники. Акции торгуются на Тайваньской бирже, штат — около миллиона человек, выручка в 2023 году превысила $220 млрд.",
       "country": "cn",
       "logo": "/logos/FOXCONN.png"
     },
@@ -3125,8 +3125,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "TCL's display-panel arm.",
-      "desc_ru": "Дисплейное подразделение TCL.",
+      "desc_en": "CSOT (China Star Optoelectronics Technology, 华星光电), founded in Shenzhen in November 2009, is the display-panel subsidiary of TCL Technology. It produces LCD, OLED, quantum-dot and MicroLED panels for TVs, monitors and mobile devices at fabs in Shenzhen, Wuhan, Guangzhou and a joint venture in India, ranking among the world's top three TV-panel makers and a key supplier to global brands including Samsung and LG.",
+      "desc_ru": "CSOT (China Star Optoelectronics Technology, 华星光电), основанная в Шэньчжэне в ноябре 2009 года, — подразделение дисплейных панелей TCL Technology. Компания выпускает ЖК-, OLED-, квантово-точечные и MicroLED-панели для телевизоров, мониторов и мобильных устройств на заводах в Шэньчжэне, Ухане, Гуанчжоу и совместном предприятии в Индии, входит в тройку крупнейших производителей ТВ-панелей и поставляет продукцию Samsung, LG и другим брендам.",
       "country": "cn"
     },
     {
@@ -3298,8 +3298,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Consumer electronics & displays.",
-      "desc_ru": "Бытовая электроника и дисплеи.",
+      "desc_en": "TCL, founded in Huizhou, Guangdong in 1981 as a cassette-tape maker, has grown into a global consumer-electronics group ranking among the world's top two TV brands by shipments. Its businesses span two listed entities: TCL Technology, which owns the CSOT display-panel maker and semiconductor materials operations, and TCL Electronics, which sells TVs, appliances and smart devices in over 160 countries, with group revenue above 150 billion yuan.",
+      "desc_ru": "TCL, основанная в Хуэйчжоу (провинция Гуандун) в 1981 году как производитель кассет, выросла в глобальную группу бытовой электроники, входящую в двойку крупнейших производителей телевизоров в мире по поставкам. Бизнес разделён на две публичные структуры: TCL Technology, владеющую производителем дисплеев CSOT, и TCL Electronics, продающую телевизоры и технику более чем в 160 странах; выручка группы превышает 150 млрд юаней.",
       "country": "cn",
       "logo": "/logos/tcl-seeklogo.png"
     },
@@ -3397,8 +3397,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Photomask manufacturer.",
-      "desc_ru": "Производитель фотошаблонов.",
+      "desc_en": "Shenzhen Qingyi Photomask (清溢光电), founded in 1997 in Shenzhen's Nanshan district, is one of China's earliest and largest domestic photomask manufacturers, supplying masks for LCD/OLED panel production, touch panels, printed circuit boards and semiconductor chips, including LTPS, IGZO and AMOLED processes. Listed on Shanghai's STAR Market (688138) since 2020, it plays a key role in localizing China's semiconductor and display supply chains.",
+      "desc_ru": "Shenzhen Qingyi Photomask (清溢光电), основанная в 1997 году в районе Наньшань Шэньчжэня, — один из первых и крупнейших китайских производителей фотошаблонов для производства ЖК/OLED-панелей, сенсорных панелей, печатных плат и полупроводниковых чипов, включая процессы LTPS, IGZO и AMOLED. С 2020 года акции торгуются на площадке STAR Market в Шанхае (тикер 688138); компания играет ключевую роль в локализации китайских цепочек поставок дисплеев и чипов.",
       "country": "cn"
     },
     {
@@ -3426,8 +3426,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Flexible-display developer.",
-      "desc_ru": "Разработчик гибких дисплеев.",
+      "desc_en": "Royole Corporation, founded in Shenzhen in 2012 by Stanford-trained engineer Liu Zihong, pioneered flexible AMOLED displays and released the FlexPai, the world's first commercial foldable smartphone, in 2018. Once valued near $6 billion, it collapsed under wage arrears and debt from 2021; a Shenzhen court ordered Royole and its subsidiaries into bankruptcy liquidation in November 2024, with the founder now under consumption restrictions.",
+      "desc_ru": "Royole Corporation, основанная в Шэньчжэне в 2012 году выпускником Стэнфорда Лю Цзыхуном, первой разработала гибкие AMOLED-дисплеи и в 2018 году выпустила FlexPai — первый в мире серийный складной смартфон. Когда-то оценивавшаяся почти в $6 млрд, компания с 2021 года столкнулась с долгами и задержками зарплат; в ноябре 2024 года суд Шэньчжэня признал Royole и её «дочки» банкротами, а основателя ограничили в потреблении.",
       "country": "cn"
     },
     {
@@ -3440,8 +3440,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Industrial-computer maker.",
-      "desc_ru": "Производитель промышленных компьютеров.",
+      "desc_en": "EVOC Intelligent Technology (研祥), founded in Shenzhen in 1993, is China's largest maker of specialized and embedded industrial computers, covering embedded single-board computers, panel PCs, rugged laptops and fanless rack- and wall-mount industrial computers. Listed on the Hong Kong Stock Exchange since 2003 (stock code 8285), it supplies rail transport, energy, defense, telecom and industrial-automation customers across China.",
+      "desc_ru": "EVOC Intelligent Technology (研祥), основанная в Шэньчжэне в 1993 году, — крупнейший в Китае производитель специализированных встраиваемых промышленных компьютеров: одноплатных модулей, панельных ПК, защищённых ноутбуков и безвентиляторных стоечных и настенных промышленных компьютеров. С 2003 года акции торгуются на Гонконгской бирже (код 8285); компания поставляет оборудование для железных дорог, энергетики, обороны, телекома и промышленной автоматизации.",
       "country": "cn"
     },
     {
@@ -3724,8 +3724,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics, Semiconductors & Appliances · Guangzhou.",
-      "desc_ru": "Электроника, полупроводники и бытовая техника, Гуанчжоу.",
+      "desc_en": "CVTE (Guangzhou Shiyuan Electronic Technology, 视源股份), founded in Guangzhou in 2005 and listed on the Shenzhen Stock Exchange since 2017, designs LCD mainboards for TVs and monitors and produces two flagship brands: Seewo, China's top-selling interactive flat panel for classrooms, installed in over a million rooms worldwide, and MAXHUB, an enterprise videoconferencing and collaboration platform. Group revenue exceeds 20 billion yuan annually.",
+      "desc_ru": "CVTE (Guangzhou Shiyuan Electronic Technology, 视源股份), основанная в Гуанчжоу в 2005 году и торгующаяся на Шэньчжэньской бирже с 2017-го, разрабатывает платы для ЖК-телевизоров и мониторов, а также выпускает продукцию под двумя брендами: Seewo — лидер китайского рынка интерактивных панелей для школ, установленных более чем в миллионе классов по всему миру, и MAXHUB — платформу для видеоконференций. Выручка группы превышает 20 млрд юаней в год.",
       "country": "cn"
     },
     {
@@ -3836,8 +3836,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Japanese electronics & HVAC.",
-      "desc_ru": "Японская электроника и HVAC.",
+      "desc_en": "Panasonic Holdings, founded in Osaka in 1918 by Konosuke Matsushita as Matsushita Electric and renamed Panasonic in 2008, is a diversified Japanese electronics group spanning home appliances, air conditioning and HVAC, avionics, and automotive and industrial batteries, including a long-running EV-battery partnership with Tesla. Listed on the Tokyo Stock Exchange, it employs around 230,000 people and reports annual revenue of roughly 8 trillion yen.",
+      "desc_ru": "Panasonic Holdings, основанная в Осаке в 1918 году Коносукэ Мацуситой как Matsushita Electric и переименованная в Panasonic в 2008-м, — диверсифицированный японский концерн электроники: бытовая техника, кондиционирование и HVAC, авионика, автомобильные и промышленные аккумуляторы, включая многолетнее партнёрство с Tesla по батареям для электромобилей. Акции торгуются на Токийской бирже, штат — около 230 тыс. человек, выручка — порядка 8 трлн иен в год.",
       "country": "cn"
     },
     {
@@ -4005,8 +4005,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics, Semiconductors & Appliances · Zhuhai.",
-      "desc_ru": "Электроника, полупроводники и бытовая техника, Чжухай.",
+      "desc_en": "Gree Electric Appliances, founded in Zhuhai, Guangdong in 1991 and long led by chairwoman Dong Mingzhu, is the world's largest maker of residential air conditioners by volume, also producing compressors, small appliances and industrial equipment. Listed on the Shenzhen Stock Exchange, Gree operates major manufacturing bases in Zhuhai and other Chinese cities, holds thousands of HVAC patents, and reports annual revenue around 200 billion yuan.",
+      "desc_ru": "Gree Electric Appliances, основанная в Чжухае (провинция Гуандун) в 1991 году и долгое время возглавляемая председателем Дун Минчжу, — крупнейший в мире производитель бытовых кондиционеров по объёму выпуска, также выпускает компрессоры, малую бытовую технику и промышленное оборудование. Акции торгуются на Шэньчжэньской бирже, основные заводы расположены в Чжухае и других городах Китая, компания владеет тысячами патентов в области HVAC, выручка — около 200 млрд юаней в год.",
       "country": "cn",
       "logo": "/logos/gree-2.svg"
     },
@@ -4049,8 +4049,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Video surveillance & machine vision.",
-      "desc_ru": "Видеонаблюдение и машинное зрение.",
+      "desc_en": "Hangzhou Hikvision Digital Technology, founded in 2001 and partly state-owned through China Electronics Technology Group, is the world's largest maker of video-surveillance equipment, covering CCTV cameras, NVRs, AIoT platforms and machine-vision systems. Listed on the Shenzhen Stock Exchange, it generates annual revenue near 90 billion yuan, but has faced US Entity List sanctions and export restrictions since 2019 over human-rights concerns in Xinjiang.",
+      "desc_ru": "Hangzhou Hikvision Digital Technology, основанная в 2001 году и частично принадлежащая государственной China Electronics Technology Group, — крупнейший в мире производитель оборудования для видеонаблюдения: камер, видеорегистраторов, AIoT-платформ и систем машинного зрения. Акции торгуются на Шэньчжэньской бирже, выручка — около 90 млрд юаней в год; с 2019 года компания под санкциями США (Entity List) из-за претензий к правам человека в Синьцзяне.",
       "country": "cn"
     },
     {
@@ -4106,8 +4106,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Premium kitchen appliances.",
-      "desc_ru": "Премиальная кухонная техника.",
+      "desc_en": "Fotile (Ningbo Fotile Kitchen Ware), founded in Ningbo, Zhejiang in 1996 by Mao Zhongqun, built its business on a smoke-detecting range hood and grew into China's leading premium kitchen-appliance maker, selling range hoods, built-in cooktops, steam ovens, dishwashers and integrated kitchen systems. Privately held, it surpassed 10 billion yuan in annual sales in 2017, holds one of the industry's largest patent portfolios, and has expanded into the US and Canada.",
+      "desc_ru": "Fotile (Ningbo Fotile Kitchen Ware), основанная в Нинбо (провинция Чжэцзян) в 1996 году Мао Чжунцюнем, начала с вытяжки с функцией обнаружения утечки газа и выросла в ведущего китайского производителя премиальной кухонной техники: вытяжки, встраиваемые варочные панели, пароварки, посудомоечные машины, интегрированные кухонные системы. Частная компания, в 2017 году превысила по продажам 10 млрд юаней, владеет одним из крупнейших патентных портфелей отрасли, выходит на рынки США и Канады.",
       "country": "cn"
     },
     {
@@ -4134,8 +4134,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Small kitchen appliances.",
-      "desc_ru": "Малая кухонная техника.",
+      "desc_en": "Joyoung, founded in Jinan, Shandong in 1994 by Wang Xuning, pioneered China's automatic soybean-milk maker in 1996 and grew into a leading small-kitchen-appliance brand covering blenders, rice cookers, air fryers and food processors. Listed on the Shanghai Stock Exchange, it has been majority-owned since 2017 by JS Global Lifestyle (also SharkNinja's parent), and reports annual revenue of roughly 8-10 billion yuan.",
+      "desc_ru": "Joyoung, основанная в Цзинане (провинция Шаньдун) в 1994 году Ван Сюйнином, в 1996 году выпустила первую в Китае автоматическую соеварку и выросла в ведущий бренд малой кухонной техники: блендеры, рисоварки, аэрогрили, кухонные комбайны. Акции торгуются на Шанхайской бирже; с 2017 года контрольный пакет принадлежит JS Global Lifestyle (также владеет SharkNinja), выручка составляет примерно 8-10 млрд юаней в год.",
       "country": "cn"
     },
     {
@@ -4530,8 +4530,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "German industrial connectors.",
-      "desc_ru": "Немецкие промышленные разъёмы.",
+      "desc_en": "Phoenix Contact is a German family-owned electrical engineering group founded in 1923 in Essen, headquartered since 1958 in Blomberg. It makes terminal blocks, industrial connectors, automation technology and components for renewable energy and EV charging. Privately held, not publicly traded, the group reported revenue above EUR 3.4 billion in 2023, employs over 22,000 people, and operates in more than 100 countries.",
+      "desc_ru": "Phoenix Contact — немецкий семейный концерн, основанный в 1923 году в Эссене, штаб-квартира с 1958 года в Бломберге. Выпускает клеммные блоки, промышленные разъёмы, автоматизацию, компоненты для энергетики и зарядной инфраструктуры электромобилей. Остаётся частной, не котируется на бирже. Выручка группы превышает 3,4 млрд евро (2023), свыше 22 000 сотрудников, офисы более чем в 100 странах.",
       "country": "cn"
     },
     {
@@ -4559,8 +4559,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Water-heater manufacturer.",
-      "desc_ru": "Производитель водонагревателей.",
+      "desc_en": "A. O. Smith is a US maker of residential and commercial water heaters and water treatment systems, founded in 1874 and headquartered in Milwaukee, Wisconsin. Listed on the NYSE (AOS), it is North America's largest water heater manufacturer and, via A. O. Smith China (established 1998), a leading water heater brand in China. Group revenue was about USD 3.8 billion in 2023, with more than 12,000 employees worldwide.",
+      "desc_ru": "A. O. Smith — американский производитель водонагревателей и систем водоочистки, основанный в 1874 году, штаб-квартира в Милуоки (Висконсин). Котируется на NYSE (AOS). Крупнейший производитель водонагревателей в Северной Америке, также лидер рынка КНР через дочернюю A. O. Smith China (с 1998 года). Выручка группы — около 3,8 млрд долларов США (2023), штат — свыше 12 000 сотрудников.",
       "country": "cn"
     },
     {
@@ -4601,8 +4601,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Japanese HVAC manufacturer.",
-      "desc_ru": "Японский производитель систем HVAC.",
+      "desc_en": "Daikin Industries is a Japanese climate-control manufacturer founded in 1924 in Osaka, still headquartered there. It is the world's largest HVAC equipment maker by revenue, also producing refrigeration systems and fluorochemicals. Listed on the Tokyo Stock Exchange, the group reported annual revenue exceeding JPY 4 trillion (roughly USD 27 billion), with more than 96,000 employees and operations in over 170 countries.",
+      "desc_ru": "Daikin Industries — японский производитель систем кондиционирования, основанный в 1924 году в Осаке, где до сих пор находится штаб-квартира. Крупнейший в мире производитель оборудования HVAC по выручке, также выпускает холодильную технику и фторхимию. Акции торгуются на Токийской бирже. Годовая выручка превышает 4 трлн иен (~27 млрд долларов США), штат — свыше 96 000 сотрудников в 170+ странах.",
       "country": "cn"
     },
     {
@@ -4629,8 +4629,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Taiwanese display maker.",
-      "desc_ru": "Тайваньский производитель дисплеев.",
+      "desc_en": "AUO (AU Optronics, 友達光電) is a Taiwanese display maker formed in 2001 through the merger of Acer Display Technology and Unipac Optoelectronics, headquartered in Hsinchu. It produces TFT-LCD, mini-LED and micro-LED panels for TVs, monitors, notebooks and automotive displays. Listed on the Taiwan Stock Exchange and NYSE (as ADRs), it posts annual revenue of roughly NT$300 billion (about USD 9-10 billion).",
+      "desc_ru": "AUO (友达光电) — тайваньский производитель дисплеев, образованный в 2001 году слиянием Acer Display Technology и Unipac Optoelectronics; штаб-квартира в Синьчжу. Выпускает панели TFT-LCD, mini-LED и микро-LED для телевизоров, мониторов, ноутбуков и автомобильных дисплеев. Котируется на Тайваньской бирже и NYSE (ADR). Выручка группы — около 300 млрд новых тайваньских долларов (~9-10 млрд USD) в год.",
       "country": "cn"
     },
     {
@@ -4686,8 +4686,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Korean display-panel maker.",
-      "desc_ru": "Корейский производитель дисплеев.",
+      "desc_en": "LG Display is a South Korean display maker spun off from LG Electronics in 1999 as LG.Philips LCD, a joint venture with Philips, renamed LG Display in 2008. Headquartered in Seoul, it is a global leader in OLED panels for smartphones, TVs, laptops and cars alongside LCD. Listed on the Korea Exchange and NYSE (ADR), it reported revenue of about KRW 21 trillion (roughly USD 16 billion) in 2023 with 27,000+ employees.",
+      "desc_ru": "LG Display — южнокорейский производитель дисплеев, выделенный из LG Electronics в 1999 году как LG.Philips LCD (СП с Philips), переименован в LG Display в 2008 году. Штаб-квартира в Сеуле. Мировой лидер по OLED-панелям для смартфонов, телевизоров, ноутбуков и авто наряду с LCD. Котируется на Корейской бирже и NYSE (ADR). Выручка — около 21 трлн вон (~16 млрд USD, 2023), штат — свыше 27 000 человек.",
       "country": "cn"
     },
     {
@@ -4756,8 +4756,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Japanese electronics maker.",
-      "desc_ru": "Японский производитель электроники.",
+      "desc_en": "Sharp Corporation is a Japanese electronics maker founded in 1912 in Osaka, originally a metalworks that invented the \"Ever-Sharp\" mechanical pencil; headquartered in Sakai. It produces AQUOS TVs, LCD panels, home appliances and solar panels. Since 2016 it has been majority-owned by Taiwan's Foxconn. Listed on the Tokyo Stock Exchange, it posts annual revenue of about JPY 2 trillion (roughly USD 13-14 billion).",
+      "desc_ru": "Sharp Corporation — японский производитель электроники, основанный в 1912 году в Осаке (изобрёл механический карандаш «Ever-Sharp»); штаб-квартира в Сакаи. Выпускает телевизоры AQUOS, ЖК-дисплеи, бытовую технику и солнечные панели. С 2016 года контрольный пакет принадлежит тайваньской Foxconn. Акции торгуются на Токийской бирже. Выручка — около 2 трлн иен (~13-14 млрд USD), штат — свыше 40 000 сотрудников.",
       "country": "cn"
     },
     {
@@ -4854,8 +4854,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Korean electronics group.",
-      "desc_ru": "Корейский электронный концерн.",
+      "desc_en": "Samsung Electronics is a South Korean electronics conglomerate founded in 1969, headquartered in Suwon and Seoul (Digital City campus). It is the world's largest maker of DRAM/NAND memory, smartphones and TVs, and also runs a semiconductor foundry business alongside displays. Listed on the Korea Exchange as the country's largest firm by market cap, it posted revenue above KRW 300 trillion (roughly USD 230 billion) in 2023 with 267,000+ employees.",
+      "desc_ru": "Samsung Electronics — южнокорейский электронный концерн, основанный в 1969 году; штаб-квартира в Сувоне и Сеуле (Digital City). Крупнейший в мире производитель памяти DRAM/NAND, смартфонов и телевизоров, выпускает также полупроводники по заказу (foundry) и дисплеи. Котируется на Корейской бирже как крупнейшая компания страны. Выручка группы превысила 300 трлн вон (~230 млрд USD, 2023), штат — свыше 267 000 сотрудников.",
       "country": "cn",
       "logo": "/logos/samsung-electronics.svg"
     },
@@ -4883,8 +4883,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics contract manufacturer.",
-      "desc_ru": "Контрактный производитель электроники.",
+      "desc_en": "Flex Ltd. (formerly Flextronics) is a contract electronics maker founded in 1969 in San Jose, California; now incorporated in Singapore with an operational hub in Austin, Texas. One of the world's largest EMS providers, it builds products for consumer electronics, automotive, medical and data-center clients across 100+ factories in about 30 countries. Listed on Nasdaq (FLEX), revenue was about USD 26 billion in fiscal 2024.",
+      "desc_ru": "Flex Ltd. (бывшая Flextronics) — контрактный производитель электроники, основанный в 1969 году в Сан-Хосе; сегодня зарегистрирован в Сингапуре, операционный центр в Остине (Техас). Один из крупнейших в мире EMS-провайдеров: выпускает продукцию для клиентов из электроники, автопрома, медтехники и дата-центров на 100+ заводах в 30 странах. Котируется на Nasdaq (FLEX). Выручка — около 26 млрд USD (2024), штат — свыше 160 000 человек.",
       "country": "cn"
     },
     {
@@ -4941,8 +4941,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Cables & wire manufacturer.",
-      "desc_ru": "Производитель кабелей и проводов.",
+      "desc_en": "Far East Holding Group is a Chinese industrial conglomerate founded in 1985 by Jiang Xipei in Wuxi, Jiangsu province. Its core business, Far East Cable, has ranked #1 in China's cable and wire industry by sales for 18 straight years, alongside a \"smart energy\" arm run through listed subsidiary Far East Smarter Energy (SSE: 600869). Far East Cable's annual turnover is estimated at about USD 3.3 billion.",
+      "desc_ru": "Far East Holding Group (远东控股) — китайский промышленный конгломерат, основанный в 1985 году Цзян Сипэем в Уси (провинция Цзянсу). Ключевой актив — Far East Cable, крупнейший по продажам производитель кабельно-проводниковой продукции в Китае 18 лет подряд; развивает также «умную энергетику» через листинговую дочернюю Far East Smarter Energy (SSE: 600869). Оборот кабельного бизнеса — около 3,3 млрд USD в год.",
       "country": "cn"
     },
     {
@@ -5126,8 +5126,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics, Semiconductors & Appliances · Chengdu.",
-      "desc_ru": "Электроника, полупроводники и бытовая техника, Чэнду.",
+      "desc_en": "Sichuan Changhong Electric is a Chinese electronics maker founded in October 1958 in Mianyang, Sichuan, originally a military radar factory before pivoting to consumer electronics. It produces TVs (CHiQ brand), refrigerators, air conditioners and semiconductor components. The listed parent trades on the Shanghai Stock Exchange (600839.SH). Revenue exceeded CNY 100 billion (about USD 14 billion) in 2024, with over 45,000 employees.",
+      "desc_ru": "Sichuan Changhong Electric (四川长虹) — китайский производитель электроники, основанный в октябре 1958 года в Мяньяне (Сычуань) как военный радиолокационный завод, позже переориентированный на бытовую технику. Выпускает телевизоры (бренд CHiQ), холодильники, кондиционеры и полупроводники. Головная компания котируется на бирже (SSE: 600839). Выручка группы превысила 100 млрд юаней (~14 млрд USD, 2024), штат — свыше 45 000 сотрудников.",
       "country": "cn"
     },
     {
@@ -5464,8 +5464,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics, Semiconductors & Appliances · Xi'an.",
-      "desc_ru": "Электроника, полупроводники и бытовая техника, Сиань.",
+      "desc_en": "IRICO Group is a Chinese electronics maker founded in 1978 in Xianyang, Shaanxi province (near Xi'an), originally producing cathode ray tubes. A 2007-2008 restructuring shifted it to LCD glass substrates and display components, fully exiting CRT by 2012. Its listed unit, IRICO Group Electronics, has traded on the Hong Kong Stock Exchange (0438.HK) since December 2004. The group has since expanded into solar photovoltaic glass production.",
+      "desc_ru": "IRICO Group (彩虹集团, «Радуга») — китайский производитель электроники, основанный в 1978 году в Сяньяне (Шэньси, район Сианя) как завод электронно-лучевых трубок. После реорганизации 2007–2008 годов перешёл на выпуск стеклянных подложек для ЖК-дисплеев; в 2012 году свернул производство CRT. Дочерняя IRICO Group Electronics котируется на бирже Гонконга (HK: 0438) с 2004 года. Сейчас группа развивает также солнечные фотоэлектрические стёкла.",
       "country": "cn"
     },
     {
@@ -6149,8 +6149,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "PC and server maker.",
-      "desc_ru": "Производитель ПК и серверов.",
+      "desc_en": "Dell Technologies is a US computer and server maker founded by Michael Dell in 1984 in Austin, Texas (originally as PC's Limited), headquartered in Round Rock, Texas. It is one of the world's largest PC, laptop, server and storage vendors, with a growing focus on data-center and AI infrastructure (PowerEdge servers). Listed on the NYSE (DELL), revenue was about USD 88.4 billion in fiscal 2024, with over 120,000 employees.",
+      "desc_ru": "Dell Technologies — американский производитель компьютеров и серверов, основанный Майклом Деллом в 1984 году в Остине (первоначально PC's Limited); штаб-квартира в Раунд-Роке, Техас. Один из крупнейших в мире поставщиков ПК, ноутбуков, серверов и СХД, развивает решения для дата-центров и ИИ-инфраструктуры (серверы PowerEdge). Котируется на NYSE (DELL). Выручка — около 88,4 млрд USD (2024 фин. год), штат — свыше 120 000 сотрудников.",
       "country": "cn"
     },
     {
@@ -8017,8 +8017,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "World leader in OLED display manufacturing. Its 'Display City' cluster in Paju is the world's largest display-production hub — 8+ plants across 170 hectares.",
-      "desc_ru": "Мировой лидер в производстве OLED-дисплеев. Кластер «Display City» в Пхаджу — крупнейший в мире хаб по производству дисплеев (8+ корпусов на 170 га).",
+      "desc_en": "LG Display's Paju campus, in Gyeonggi province, is known as \"Display City\" — the world's largest display cluster, with 8+ building complexes over 170+ hectares, including P8/P10-generation LCD and OLED fabs. Construction began in 2004, integrating panel and module production with on-site supplier plants. LG Display leads globally in OLED panels for TVs, phones and cars; its parent trades on the Korea Exchange and NYSE (ADR).",
+      "desc_ru": "Кампус LG Display в Пхаджу (Кёнгидо) — «Display City», крупнейший в мире кластер по производству дисплеев: свыше 8 корпусов на площади более 170 га, включая заводы поколений P8/P10 для LCD и OLED. Строительство началось в 2004 году, комплекс объединяет производство панелей, модулей и предприятия поставщиков. LG Display — мировой лидер по OLED-панелям для ТВ, смартфонов и авто; компания котируется на Корейской бирже и NYSE (ADR).",
       "country": "kr"
     },
     {
@@ -8536,8 +8536,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "The Fugaku supercomputer and the Takane LLM.",
-      "desc_ru": "Суперкомпьютер Fugaku, языковая модель Takane.",
+      "desc_en": "Fujitsu Limited is a Japanese IT corporation founded in 1935 in Kawasaki as a spin-off of Fuji Electric, now headquartered in Tokyo. Japan's largest computer systems and IT services firm, it co-developed the Fugaku supercomputer with RIKEN — among the world's most powerful — and its own LLM, Takane. Listed on the Tokyo Stock Exchange, revenue was about JPY 3.7 trillion (roughly USD 25 billion), with 124,000+ employees across 100+ countries.",
+      "desc_ru": "Fujitsu Limited — японская ИТ-корпорация, основанная в 1935 году в Кавасаки как подразделение Fuji Electric; штаб-квартира в Токио. Крупнейший в Японии производитель компьютерных систем и ИТ-услуг, разработчик суперкомпьютера Fugaku (совместно с RIKEN), одного из мощнейших в мире, а также собственной языковой модели Takane. Котируется на Токийской бирже. Выручка — около 3,7 трлн иен (~25 млрд USD), штат — свыше 124 000 сотрудников в 100+ странах.",
       "country": "jp",
       "logo": "/logos/fujitsu.svg"
     },
@@ -8678,8 +8678,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "nanoe devices and ultrasonic beauty appliances.",
-      "desc_ru": "nanoe-устройства и ультразвуковые бьюти-приборы.",
+      "desc_en": "Panasonic Beauty is the personal-care line of Panasonic Holdings (headquartered in Osaka; founded in 1918 as Matsushita Electric). It makes hair dryers, stylers, and ultrasonic and ionic skincare devices built around Panasonic's nanoe technology — moisture-rich nano-sized particles, first used in the 2005 Ionity nanocare hair dryer. By 2024, cumulative global shipments of nanoe-equipped devices had surpassed 100 million units.",
+      "desc_ru": "Panasonic Beauty — направление техники для красоты и ухода концерна Panasonic Holdings (штаб-квартира в Осаке; основан в 1918 году как Matsushita Electric). Выпускает фены, стайлеры, ультразвуковые и ионные приборы для ухода за кожей и волосами на базе технологии nanoe — наночастиц, насыщенных влагой, впервые применённых в 2005 году в фене Ionity nanocare. К 2024 году поставки устройств с nanoe превысили 100 млн единиц по всему миру.",
       "country": "jp"
     },
     {
@@ -10671,8 +10671,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electronics retail, omnichannel.",
-      "desc_ru": "Электроника, омниканальность.",
+      "desc_en": "Erajaya Group is an Indonesian electronics retail conglomerate founded in 1996 and headquartered in Jakarta. Its Erafone chain (PT Erafone Artha Retailindo, est. 2002) is a top Indonesian smartphone distributor, running over 1,000 stores under formats including Erafone, iBox (Apple) and Samsung Experience Store. Erajaya runs an omnichannel model blending physical and online retail; the parent is listed on the Indonesia Stock Exchange (IDX: ERAA).",
+      "desc_ru": "Erajaya Group — индонезийский ритейл-конгломерат электроники, основанный в 1996 году, головной офис в Джакарте. Сеть Erafone (PT Erafone Artha Retailindo, создана в 2002 году) — один из крупнейших дистрибьюторов смартфонов в Индонезии, свыше 1000 магазинов под форматами Erafone, iBox (Apple), Samsung Experience Store и другими. Развивает омниканальную модель офлайн- и онлайн-продаж. Головная компания котируется на бирже Индонезии (IDX: ERAA).",
       "country": "id"
     },
     {
