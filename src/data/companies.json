@@ -1755,8 +1755,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Forbidden City museum.",
-      "desc_ru": "Музей Запретного города.",
+      "desc_en": "The Palace Museum occupies the Forbidden City in central Beijing, the former imperial palace of the Ming and Qing dynasties, built in 1406–1420 and home to 24 emperors. It opened as a public museum on 10 October 1925 and became a UNESCO World Heritage Site in 1987. It is one of the world's most-visited museums, drawing a record roughly 19.3 million visitors in 2019 and consistently more than 17 million visits in recent years.",
+      "desc_ru": "Музей Гугун (Запретный город) в центре Пекина — бывший императорский дворец династий Мин и Цин, построенный в 1406–1420 гг. и служивший резиденцией 24 императорам. Как музей открыт 10 октября 1925 года; с 1987 года — объект Всемирного наследия ЮНЕСКО. Один из самых посещаемых музеев мира: в 2019 году, рекордном для площадки, его посетили около 19,3 млн человек, в последние годы поток стабильно превышает 17 млн визитов в год.",
       "country": "cn"
     },
     {
@@ -1939,8 +1939,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Smart-city data platform.",
-      "desc_ru": "Платформа данных умного города.",
+      "desc_en": "The Haidian City Brain is a big-data smart-city platform for Haidian District in Beijing, home to Zhongguancun and the capital's leading universities. Its core \"spatiotemporal map\" module went live in December 2020, followed by an Intelligent Operations Command Center (IOCC) in early 2021. According to district government disclosures, the system aggregates data from over 200,000 sensors, covers more than 170,000 buildings (about 190 million square meters), and runs on roughly 20 quadrillion operations per second of computing power.",
+      "desc_ru": "«Городской мозг Хайдяня» — платформа больших данных для управления районом Хайдянь в Пекине, где расположены Чжунгуаньцунь и ведущие университеты. Ключевой модуль «единая карта пространства и времени» запущен в декабре 2020 года, а в начале 2021-го заработал операционный центр IOCC. По открытым данным властей района, система сводит воедино показания свыше 200 тысяч датчиков, охватывает более 170 тысяч зданий (около 190 млн кв. м) и работает на вычислительной мощности порядка 20 квадриллионов операций в секунду.",
       "country": "cn"
     },
     {
@@ -2582,8 +2582,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Free-trade zone.",
-      "desc_ru": "Зона свободной торговли.",
+      "desc_en": "The China (Shanghai) Pilot Free Trade Zone was formally established on 29 September 2013 with an initial area of 28.78 sq km (covering Waigaoqiao, Yangshan Port and Pudong Airport) — China's first free trade zone and a testbed for investment, trade and financial reforms. Lujiazui, Jinqiao and Zhangjiang were added in 2015, and in August 2019 the Lingang New Area was launched with a start-up zone of about 119.5 sq km, making the FTZ Shanghai's largest platform for economic opening-up.",
+      "desc_ru": "Пилотная зона свободной торговли Китая (Шанхай) была официально учреждена 29 сентября 2013 года на площади 28,78 кв. км (Вайгаоцяо, порт Яншань, аэропорт Пудун) — это первая зона свободной торговли КНР, ставшая полигоном для реформ в сфере инвестиций, торговли и финансов. В 2015 году в неё включили Луцзяцзуй, Цзиньцяо и Чжанцзян, а в августе 2019 года — новый район Линган, добавивший стартовую площадку около 119,5 кв. км и превративший ЗСТ в крупнейшую площадку открытости Шанхая.",
       "country": "cn"
     },
     {
@@ -2596,8 +2596,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Government, Smart City & Tourism · Shanghai.",
-      "desc_ru": "Госуправление, умный город и туризм, Шанхай.",
+      "desc_en": "There is no single, universally recognized site officially called a \"benchmark community/subdistrict\" — this is a generic label Shanghai uses for model residential communities and subdistrict (street) offices that the city showcases to visiting delegations as examples of grassroots governance. Such visits typically take place in districts such as Hongkou, Pudong or Putuo and cover the \"One Network for Urban Governance\" (yiwang tongguan) digital platform, the \"Community Cloud\" information system, and party-led neighborhood management models; the exact site and itinerary are chosen by the host for each individual delegation.",
+      "desc_ru": "Единого общепризнанного объекта под названием «эталонное сообщество/квартал» не существует — это собирательное обозначение для показательных жилых кварталов и уличных комитетов Шанхая, которые город демонстрирует делегациям как образцы низового управления. Такие визиты обычно проходят на площадках районов вроде Хункоу, Пудуна или Путо и знакомят с цифровой платформой «Одна сеть управления» («и ван тун гуань»), системой «Облако сообщества» и моделью партийного руководства кварталом; конкретный маршрут и название объекта определяются принимающей стороной под каждую делегацию.",
       "country": "cn"
     },
     {
@@ -2925,8 +2925,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Theme-park resort (Shanghai).",
-      "desc_ru": "Тематический парк (Шанхай).",
+      "desc_en": "Shanghai Disney Resort opened on 16 June 2016 as a joint venture between The Walt Disney Company and the state-owned Shanghai Shendi Group (roughly 57% Chinese ownership, 43% Disney). It is the first Disney park on mainland China and the ninth Disney park in the world, with the project representing an investment of about US$5.5 billion. The resort's first phase covers roughly 963 acres (about 390 hectares) in Pudong, making it one of the largest foreign investment projects in Shanghai's history.",
+      "desc_ru": "Шанхайский Диснейленд открылся 16 июня 2016 года как совместное предприятие The Walt Disney Company и государственной Shanghai Shendi Group (доля China Tourism Group ~57%, Disney ~43%). Это первый парк Disney на материковом Китае и девятый в мире, инвестиции в проект оценивались примерно в 5,5 млрд долларов США. Территория первой очереди курорта занимает около 390 га (963 акра) в районе Пудун, что делает его одним из крупнейших иностранных инвестпроектов в истории Шанхая.",
       "country": "cn"
     },
     {
@@ -3327,8 +3327,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tourism & cultural developer.",
-      "desc_ru": "Девелопер туризма и культуры.",
+      "desc_en": "Overseas Chinese Town (OCT Group) is a major state-owned cultural-tourism conglomerate founded in Shenzhen in 1985 and supervised by China's State Council SASAC. The company built China's first theme park, Splendid China (1989), followed by Window of the World and the multi-city Happy Valley theme park chain. According to the group, its attractions draw about 50 million visitors annually and have received nearly 400 million visitors cumulatively, ranking OCT first in Asia among tourism operators by that measure.",
+      "desc_ru": "Overseas Chinese Town (OCT Group, «Хуацяочэн») — крупный государственный конгломерат в сфере культуры и туризма, основан в 1985 году в Шэньчжэне под контролем Комиссии по контролю и управлению государственным имуществом при Госсовете КНР. Компания построила первый в стране тематический парк «Великолепный Китай» (1989), а также «Окно мира» и сеть парков Happy Valley в нескольких городах. По данным группы, её объекты ежегодно принимают порядка 50 млн туристов, а суммарная посещаемость превысила 400 млн человек — по этому показателю OCT занимает первое место в Азии среди туристических операторов.",
       "country": "cn"
     },
     {
@@ -5450,8 +5450,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Red-tourism heritage site.",
-      "desc_ru": "Объект «красного туризма».",
+      "desc_en": "Yan'an in Shaanxi Province served as the headquarters of the Chinese Communist Party from 1935 to 1948: the Red Army settled there in October 1935 after completing the Long March, and the CPC Central Committee relocated to the city in January 1937, making it the command center of the resistance against Japan and the subsequent civil war, through the Party's 7th National Congress. Today Yan'an is one of China's leading \"red tourism\" destinations, preserving more than 440 revolutionary-era sites and roughly 30 party-history museums that regularly host cadres and visitors for revolutionary-education tours.",
+      "desc_ru": "Яньань в провинции Шэньси был базой руководства Компартии Китая с 1935 по 1948 год: после завершения Великого похода Красная армия обосновалась здесь в октябре 1935 года, а в январе 1937-го сюда переехал ЦК КПК, сделав город центром сопротивления Японии и последующей гражданской войны, вплоть до VII съезда партии. Сегодня Яньань — один из главных центров «красного туризма» в Китае: в городе сохранилось свыше 440 памятных революционных мест и действует около 30 музеев, посвящённых истории партии, куда регулярно приезжают на «красное воспитание» партийные делегации и туристы.",
       "country": "cn"
     },
     {
@@ -6020,8 +6020,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Film-production studio.",
-      "desc_ru": "Киностудия.",
+      "desc_en": "Changying (Changchun Film Studio) traces its history to the Northeast Film Company, founded on 1 October 1945 on the site of the former Japanese-era Manchuria Film Association studio; it was renamed Northeast Film Studio in 1946 and took its current name, Changchun Film Studio, in 1955. It is China's oldest film studio, credited with producing the new China's first feature film, first animated film, first science-education film and first dubbed film — earning it the title \"cradle of Chinese cinema.\"",
+      "desc_ru": "Чанъинь (Changchun Film Studio) ведёт историю от Северо-Восточной кинокомпании, основанной 1 октября 1945 года на базе японской студии «Маньин» довоенного периода; в 1946 году она была переименована в Северо-Восточную киностудию, а в 1955-м получила нынешнее название — Чанчуньская киностудия. Это старейшая киностудия КНР, на которой были сняты первая полнометражная игровая картина, первый мультфильм, первый научно-популярный и первый дублированный фильм новой страны, за что студию называют колыбелью китайского кино.",
       "country": "cn"
     },
     {
