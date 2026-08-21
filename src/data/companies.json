@@ -1407,8 +1407,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "German industrial technology group.",
-      "desc_ru": "Немецкий промышленно-технологический концерн.",
+      "desc_en": "Founded 1847 by Werner von Siemens in Berlin; headquartered in Munich. One of the world's largest industrial technology conglomerates, spanning factory automation, digital twins (Siemens Xcelerator), rail systems, and medical technology via its Siemens Healthineers unit. Annual revenue exceeds €75 billion; listed on the Frankfurt Stock Exchange as a DAX component. Present in China since 1872, operating dozens of factories and R&D centers nationwide.",
+      "desc_ru": "Основана в 1847 году Вернером фон Сименсом в Берлине, штаб-квартира в Мюнхене. Один из крупнейших в мире промышленно-технологических концернов: автоматизация производства, цифровые двойники (Siemens Xcelerator), железнодорожная техника, медицинское оборудование (Siemens Healthineers), электрификация зданий. Годовая выручка превышает 75 млрд евро. Акции торгуются на Франкфуртской бирже, входит в индекс DAX. В Китае работает с 1872 года, десятки заводов и R&D-центров.",
       "country": "cn"
     },
     {
@@ -1465,8 +1465,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Energy management & automation.",
-      "desc_ru": "Управление энергией и автоматизация.",
+      "desc_en": "French company founded in 1836 (originally the Schneider brothers' steel and shipbuilding firm), today a global leader in energy management and industrial automation. Headquartered in Rueil-Malmaison near Paris. Revenue exceeds €38 billion (2024); listed on Euronext Paris and a CAC 40 component. Portfolio includes electrical distribution equipment, the EcoStruxure software platform, and data-center solutions. Operating in China since 1987 with major manufacturing and R&D facilities.",
+      "desc_ru": "Французская компания, основанная в 1836 году (изначально металлургия и судостроение братьев Шнайдер), сегодня — мировой лидер в области управления энергией и промышленной автоматизации. Штаб-квартира в Рюэй-Мальмезоне под Парижем. Выручка превышает 38 млрд евро (2024), листинг на Euronext Paris, входит в индекс CAC 40. Портфель включает системы электрораспределения, ПО EcoStruxure, решения для дата-центров. В Китае работает с 1987 года, крупные производственные и R&D-мощности.",
       "country": "cn"
     },
     {
@@ -1479,8 +1479,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Pneumatics & automation (Japan).",
-      "desc_ru": "Пневматика и автоматизация (Япония).",
+      "desc_en": "Japanese corporation founded in Tokyo in 1959, originally producing sintered-metal filters, moving into pneumatic components from 1961. Global market leader in industrial pneumatics, holding roughly 30-40% worldwide share and up to 65% in Japan; listed on the Tokyo Stock Exchange. Manufactures cylinders, valves, and automation components across 36 plants serving sales offices in 83 countries. Maintains significant production and sales operations in China serving electronics and automotive industries.",
+      "desc_ru": "Японская корпорация, основанная в Токио в 1959 году как производитель металлокерамических фильтров; с 1961 года выпускает пневматическое оборудование. Мировой лидер рынка промышленной пневматики с долей около 30-40% глобально и до 65% в Японии. Листинг на Токийской бирже. Продукция — пневмоцилиндры, клапаны, компоненты автоматизации — поставляется в 83 страны через 36 заводов по всему миру. Крупное производство и продажи в Китае, обслуживающие электронную и автомобильную отрасли.",
       "country": "cn"
     },
     {
@@ -1551,8 +1551,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction-machinery leader.",
-      "desc_ru": "Лидер строительной техники.",
+      "desc_en": "Founded in 1989 by Liang Wengen in Changsha, Hunan, SANY is China's largest and the world's third-largest construction machinery manufacturer. Products include excavators, concrete pumps, cranes, road and mining equipment, and wind turbines. Its core listed entity, Sany Heavy Industry (SH:600031), trades on the Shanghai Stock Exchange, with 2024 revenue of about US$10.9 billion. Exports to over 150 countries, with overseas plants in India, Germany, the US, and Indonesia.",
+      "desc_ru": "Основана в 1989 году Лян Вэньгэнем в Чанша (провинция Хунань), крупнейший в Китае и третий в мире производитель строительной техники. Выпускает экскаваторы, бетононасосы, краны, дорожную и горную технику, а также ветроэнергетическое оборудование. Головная структура SANY Heavy Industry (SH:600031) торгуется на Шанхайской бирже, выручка за 2024 год составила около 10,9 млрд долларов США. Продукция экспортируется более чем в 150 стран, заводы работают в Индии, Германии, США и Индонезии.",
       "country": "cn"
     },
     {
@@ -1953,8 +1953,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Steel producer.",
-      "desc_ru": "Производитель стали.",
+      "desc_en": "State-owned steel group founded in 1919 in Beijing, one of China's oldest steelmakers. Steel production capacity exceeds 30 million tonnes annually; 2024 revenue was about US$13.4 billion with roughly 90,000 employees. Beyond steel, it has diversified into mining, real estate, and environmental technology. Its historic Shougang industrial site in Beijing was redeveloped into a park that served as part of the 2022 Winter Olympics venue cluster. A listed subsidiary trades on the Hong Kong exchange.",
+      "desc_ru": "Государственная сталелитейная группа, основанная в 1919 году в Пекине, одна из старейших в Китае. Мощности по производству стали превышают 30 млн тонн в год, выручка за 2024 год — около 13,4 млрд долларов США, штат около 90 тысяч человек. Помимо металлургии диверсифицирована в горнодобычу, недвижимость и экологические технологии. Историческая площадка Шоуцзинмэнь в Пекине переоборудована в индустриальный парк — часть олимпийского наследия Игр-2022. Дочерняя компания торгуется на бирже Гонконга.",
       "country": "cn"
     },
     {
@@ -2310,8 +2310,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Largest steelmaker.",
-      "desc_ru": "Крупнейший производитель стали.",
+      "desc_en": "Founded in 1978 in Shanghai's Baoshan district, Baosteel merged with Wuhan Iron and Steel in 2016 to form China Baowu Steel Group, now the world's largest steel producer. Group revenue reached roughly US$157 billion in 2023, with assets near US$192 billion and over 380,000 employees. A state-owned enterprise headquartered in the Baosteel Tower in Pudong, it supplies flat steel products to the automotive, shipbuilding, and energy sectors worldwide.",
+      "desc_ru": "Основана в 1978 году в районе Баошань (Шанхай); в 2016 году, объединившись с Wuhan Iron and Steel, образовала China Baowu Steel Group — крупнейшего в мире производителя стали. Выручка группы за 2023 год составила около 157 млрд долларов США, активы — почти 192 млрд, штат — более 380 тысяч человек. Государственное предприятие, головной офис в башне Baosteel Tower в Пудуне. Выпускает листовой прокат для автопрома, судостроения и энергетики, поставляет продукцию по всему миру.",
       "country": "cn"
     },
     {
@@ -2554,8 +2554,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Power-equipment manufacturer.",
-      "desc_ru": "Производитель энергооборудования.",
+      "desc_en": "Tracing its roots to the late 19th century, Shanghai Electric's modern group is headquartered in Shanghai and listed in Hong Kong (since 2005) and on the Shanghai exchange (since 2008). It is the world's largest steam-turbine manufacturer, also producing coal and gas power units, nuclear equipment, wind turbines, elevators, power distribution gear, and industrial automation. 2024 operating revenue was about RMB 116.2 billion (US$16.1bn), with new orders up 11.9% year-on-year to RMB 153.6bn.",
+      "desc_ru": "Ведёт историю с конца XIX века, современная структура сформирована в Шанхае; листинг на биржах Гонконга (с 2005) и Шанхая (с 2008). Крупнейший в мире производитель паровых турбин, выпускает также энергоблоки на угле и газе, атомное оборудование, ветрогенераторы, лифты, оборудование для распределения электроэнергии и промышленную автоматику. Операционная выручка за 2024 год — около 116 млрд юаней (16,1 млрд долларов США), портфель новых заказов вырос на 11,9% год к году, до 153,6 млрд юаней.",
       "country": "cn"
     },
     {
@@ -2967,8 +2967,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Shipbuilding enterprise.",
-      "desc_ru": "Судостроительное предприятие.",
+      "desc_en": "One of China's oldest shipyards, founded in 1865 in Shanghai as the Kiangnan Arsenal during the Self-Strengthening Movement. Renamed Jiangnan Shipyard in 1949, restructured into a state-owned group in 1996, and absorbed into China State Shipbuilding Corporation (CSSC) in 2000. It builds civilian and naval vessels, including large container ships, LNG carriers, and warships for the Chinese navy. Main operations were relocated to Changxing Island northeast of Shanghai.",
+      "desc_ru": "Одна из старейших судостроительных верфей Китая, основана в 1865 году в Шанхае как арсенал Цзяннань в период Движения самоусиления. В 1949 году получила современное название, в 1996 году преобразована в государственную группу, а в 2000 году вошла в состав China State Shipbuilding Corporation (CSSC). Строит гражданские и военные суда, включая крупнотоннажные контейнеровозы, СПГ-танкеры и корабли ВМС Китая. Основные мощности перенесены на остров Чанси к северо-востоку от Шанхая.",
       "country": "cn"
     },
     {
@@ -3239,8 +3239,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Containers & logistics equipment.",
-      "desc_ru": "Контейнеры и логистическое оборудование.",
+      "desc_en": "China International Marine Containers was founded in 1980 in Shenzhen as a joint venture between China Merchants Group and the East Asiatic Company, among China's earliest foreign-invested enterprises. It has been the world's largest container manufacturer since 1996, holding roughly 45% of the global market for dry, reefer, and tank containers, alongside semi-trailers, offshore equipment, and logistics machinery. Parent company CIMC (000039.SZ) is listed on the Shenzhen Stock Exchange.",
+      "desc_ru": "China International Marine Containers создана в 1980 году в Шэньчжэне как совместное предприятие China Merchants Group и East Asiatic Company — одна из первых иностранных инвестиций после начала реформ. С 1996 года — крупнейший в мире производитель контейнеров, контролирует около 45% мирового рынка. Помимо стандартных, рефрижераторных и танк-контейнеров выпускает полуприцепы, offshore-оборудование, логистическую технику. Головная компания CIMC (000039.SZ) торгуется на Шэньчжэньской бирже.",
       "country": "cn"
     },
     {
@@ -3878,8 +3878,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Industrial technology (Japan).",
-      "desc_ru": "Промышленная техника (Япония).",
+      "desc_en": "Founded in 1921 as a spin-off of Mitsubishi Shipbuilding, headquartered in Tokyo. One of Japan's largest industrial corporations, producing industrial robots and factory automation controllers (the MELSEC line), elevators and escalators, railway electrical systems, HVAC equipment, semiconductors, and space systems. Listed on the Tokyo Stock Exchange with revenue exceeding ¥5 trillion. Present in China since the 1970s through manufacturing plants and joint ventures.",
+      "desc_ru": "Основана в 1921 году как выделенное подразделение Mitsubishi Shipbuilding, штаб-квартира в Токио. Одна из крупнейших японских промышленных корпораций: производит промышленные роботы и контроллеры для автоматизации заводов (линейка MELSEC), лифты и эскалаторы, электрооборудование для железных дорог, климатическую технику, полупроводники и системы для космической отрасли. Листинг на Токийской бирже, выручка превышает 5 трлн иен. В Китае работает с 1970-х годов, имеет заводы и совместные предприятия.",
       "country": "cn"
     },
     {
@@ -4092,8 +4092,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Heavy Industry, Machinery & Chemicals · Hangzhou.",
-      "desc_ru": "Тяжпром, машиностроение и химия, Ханчжоу.",
+      "desc_en": "A Zhejiang provincial state-owned metallurgical group tracing back to 1957, when a steel plant was established at the foot of Banshan Mountain in Hangzhou (renamed Hangzhou Iron and Steel in 1966); the modern group was formed in 1994. In 2015 it shut down roughly 4 million tonnes of steelmaking capacity at the Banshan site, reassigning 12,000 workers, and pivoted toward digital economy, energy conservation, and environmental businesses. Renamed Hangzhou Iron and Steel Group Co., Ltd. in 2017.",
+      "desc_ru": "Государственная металлургическая группа провинции Чжэцзян, история ведётся с 1957 года, когда у горы Баньшань в Ханчжоу был заложен металлургический завод (переименован в Hangzhou Iron and Steel в 1966 году). Современная группа сформирована в 1994 году. В 2015 году остановлены мощности сталеплавильного производства на площадке Баньшань (около 4 млн тонн в год), 12 тысяч работников переведены на новые направления — цифровую экономику, энергосбережение и экологию. Переименована в 2017 году.",
       "country": "cn"
     },
     {
@@ -4162,8 +4162,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Elevator manufacturer.",
-      "desc_ru": "Производитель лифтов.",
+      "desc_en": "Founded in 1853 by Elisha Otis in the US, inventor of the safety brake that made multi-story elevators viable. Headquartered in Connecticut, an independent NYSE-listed company (OTIS) since its 2020 spin-off from United Technologies. World's largest elevator and escalator company by service portfolio, maintaining over 2.4 million units, with revenue exceeding US$14 billion. China is Otis's largest market for new equipment installations, supported by localized manufacturing.",
+      "desc_ru": "Основана в 1853 году Элишей Отисом в США — изобретателем предохранительного тормоза, сделавшего многоэтажные лифты безопасными. Штаб-квартира в Коннектикуте, с 2020 года — самостоятельная публичная компания на Нью-Йоркской бирже (NYSE: OTIS) после выделения из United Technologies. Мировой лидер по установленной базе лифтов и эскалаторов — свыше 2,4 млн единиц обслуживания. Выручка превышает 14 млрд долларов США. Китай — крупнейший рынок новых установок компании, производство локализовано.",
       "country": "cn"
     },
     {
@@ -4176,8 +4176,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Chemicals & logistics group.",
-      "desc_ru": "Химия и логистика.",
+      "desc_en": "Founded in 1986 in Xiaoshan, Hangzhou, Transfar is a diversified private conglomerate spanning chemicals and new materials, agriculture, logistics, and industrial real estate. In 2024 group revenue exceeded RMB 140 billion, ranking it among China's top 60 private enterprises, with about 16,000 employees and products and services reaching over 130 countries. Its logistics arm, Transfar Zhilian, operates a nationwide network of freight terminals and supply-chain services.",
+      "desc_ru": "Основана в 1986 году в уезде Сяошань под Ханчжоу, диверсифицированная частная группа, охватывающая химию и новые материалы, сельское хозяйство, логистику и промышленную недвижимость. В 2024 году выручка группы превысила 140 млрд юаней, что делает её одним из 60 крупнейших частных предприятий Китая; штат — около 16 тысяч сотрудников, продукция и сервисы поставляются более чем в 130 стран. Дочерняя логистическая платформа Transfar Zhilian развивает сеть грузовых терминалов по всей стране.",
       "country": "cn"
     },
     {
@@ -4344,8 +4344,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Electric meters & instruments.",
-      "desc_ru": "Электросчётчики и приборы.",
+      "desc_en": "Founded on September 28, 1970 in Hangzhou as an electricity metering equipment manufacturer, Huali Group's metering subsidiary Holley is among China's largest producers of energy meters, exporting to more than 60 countries. Over time the group diversified into pharmaceuticals, electronic and new materials, international power engineering, real estate, modern agriculture, and mineral development. Headquartered near the Xixi Wetland park in Hangzhou.",
+      "desc_ru": "Основана 28 сентября 1970 года в Ханчжоу как производитель приборов учёта электроэнергии. Дочерняя структура Holley (Huali Meter) — один из крупнейших в Китае производителей электросчётчиков, поставляющий продукцию более чем в 60 стран мира. Со временем группа диверсифицировалась в фармацевтику, электронные и новые материалы, международные энергетические проекты, недвижимость, современное сельское хозяйство и добычу полезных ископаемых. Штаб-квартира расположена у Западного заболоченного парка Сиси в Ханчжоу.",
       "country": "cn"
     },
     {
@@ -4587,8 +4587,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Petrochemical producer.",
-      "desc_ru": "Нефтехимическое производство.",
+      "desc_en": "A major Sinopec petrochemical complex located in Nanjing, Jiangsu — one of the corporation's five ethylene production hubs in China. Ethylene capacity was expanded in stages, from 400,000 to 650,000 tonnes per year around 2002. Joint ventures with BASF (BASF-YPC) produce a broad range of petrochemicals including ethylene oxide, aromatics, and polymers. A new 1-million-tonne-per-year ethylene unit with BASF has been under discussion for the Nanjing site.",
+      "desc_ru": "Крупный нефтехимический комплекс Sinopec, расположенный в Нанкине (провинция Цзянсу) — один из пяти этиленовых кластеров корпорации в Китае. Мощности по производству этилена наращивались поэтапно: с 400 тыс. тонн в год до 650 тыс. тонн после расширения около 2002 года. Совместные предприятия с BASF (BASF-YPC) выпускают широкий спектр нефтехимической продукции — этиленоксид, ароматику, полимеры. Обсуждается строительство нового этиленового блока мощностью 1 млн тонн в год совместно с BASF.",
       "country": "cn"
     },
     {
@@ -4658,8 +4658,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction & villa builder.",
-      "desc_ru": "Строительство и виллы.",
+      "desc_en": "Tecsun (Desheng Yanglou) was established in 1997 as a wholly owned subsidiary of American Federal Tecsun, Inc., based in Suzhou Industrial Park. It specializes in designing and building American-style wood-frame houses and villas, covering the full cycle from structural framing to interior finishing. Its roughly 30-acre Suzhou headquarters includes a themed \"Portland Street\" garden, with the Desheng Tower office complex in the Dushu Lake higher-education district; its Kunshan industrial base spans 181 acres.",
+      "desc_ru": "Tecsun (Desheng Yanglou) основана в 1997 году, дочерняя компания американской Federal Tecsun, Inc., базируется в промышленном парке Сучжоу. Специализируется на проектировании и строительстве деревянных домов и вилл в американском стиле — от каркасных технологий до полного цикла отделки. Штаб-квартира занимает территорию около 30 акров с фирменным садом «Портлендская улочка», офисный комплекс «Башня Дэшэн» расположен в университетском районе озера Дули. Индустриальный парк в Куньшане — 181 акр.",
       "country": "cn"
     },
     {
@@ -4812,8 +4812,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Chemicals & materials (US).",
-      "desc_ru": "Химия и материалы (США).",
+      "desc_en": "Founded in 1802 by Éleuthère Irénée du Pont as a gunpowder mill in Delaware, DuPont is one of the world's oldest chemical companies, inventor of nylon, Teflon, Kevlar, and other materials that reshaped industry and consumer goods. After a series of mergers and spin-offs — including its 2017 merger with Dow Chemical and subsequent split — today's DuPont de Nemours focuses on specialty materials, electronics, water, and safety solutions. Listed on the NYSE (DD), with revenue around US$12 billion.",
+      "desc_ru": "Основана в 1802 году Элетером Иренэ дю Поном как пороховое производство в Делавэре, США. Один из старейших химических концернов мира, изобретатель нейлона, тефлона, кевлара и других материалов, изменивших промышленность и потребительские товары. После череды слияний и разделений (включая крупную сделку с Dow Chemical в 2017 году) современная DuPont de Nemours фокусируется на специальных материалах, электронике, воде и защитных решениях. Листинг на Нью-Йоркской бирже (NYSE: DD), выручка около 12 млрд долларов США.",
       "country": "cn"
     },
     {
@@ -4826,8 +4826,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction machinery (US).",
-      "desc_ru": "Строительная техника (США).",
+      "desc_en": "Formed in 1925 through the merger of Holt Manufacturing and C. L. Best Tractor Company, Caterpillar is headquartered in Irving, Texas. It is the world's largest manufacturer of construction and mining equipment, diesel and natural gas engines, and industrial gas turbines — its yellow bulldozers and excavators are globally recognizable. Revenue exceeds US$64 billion; listed on the NYSE and a Dow Jones Industrial Average component. Operating in China since 1975 with manufacturing and R&D centers.",
+      "desc_ru": "Образована в 1925 году слиянием Holt Manufacturing и C. L. Best Tractor Company, штаб-квартира в Ирвинге (штат Техас, США). Крупнейший в мире производитель строительной и горнодобывающей техники, дизельных и газовых двигателей, газовых турбин — бренд Caterpillar (CAT) известен благодаря жёлтым бульдозерам и экскаваторам. Выручка превышает 64 млрд долларов США, листинг на Нью-Йоркской бирже, входит в индекс Dow Jones. В Китае присутствует с 1975 года, имеет заводы и центры НИОКР.",
       "country": "cn"
     },
     {
@@ -4840,8 +4840,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Machinery maker (Japan).",
-      "desc_ru": "Производитель техники (Япония).",
+      "desc_en": "Founded in 1890 by Gonshiro Kubota in Osaka, Japan, Kubota is a global leader in tractors and agricultural machinery, alongside construction equipment, engines, pipes, pumps, and water treatment systems. Annual revenue exceeds ¥3 trillion, with about 79% of sales generated overseas, primarily in North America and Europe. It has produced over 5.9 million tractors and 35 million engines historically. Present in more than 120 countries, listed on the Tokyo Stock Exchange.",
+      "desc_ru": "Основана в 1890 году Кубота Гонширо в Осаке, Япония. Один из мировых лидеров в производстве тракторов и сельскохозяйственной техники, а также строительного оборудования, двигателей, труб, насосов и систем очистки воды. Годовая выручка превышает 3 трлн иен, около 79% продаж приходится на зарубежные рынки, прежде всего Северную Америку и Европу. За свою историю выпустила более 5,9 млн тракторов и 35 млн двигателей. Компания представлена более чем в 120 странах, листинг на Токийской бирже.",
       "country": "cn"
     },
     {
@@ -4869,8 +4869,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Diversified materials & products.",
-      "desc_ru": "Диверсифицированные материалы и продукты.",
+      "desc_en": "Founded in 1902 in Minnesota as the Minnesota Mining and Manufacturing Company, 3M pivoted from mining into diversified materials and consumer products. Known for brands like Post-it and Scotch tape, plus respirators, abrasives, industrial films, adhesives, and electrical solutions. Revenue exceeds US$24 billion; listed on the NYSE (MMM) as a Dow Jones Industrial Average component. Holds thousands of patents and operates in more than 70 countries.",
+      "desc_ru": "Основана в 1902 году в Миннесоте (США) как горнодобывающая компания Minnesota Mining and Manufacturing, позднее переориентировалась на диверсифицированные материалы и потребительские товары. Известна такими брендами, как Post-it, Scotch, респираторы и абразивные материалы, а также промышленными плёнками, клеями и электротехническими решениями. Выручка превышает 24 млрд долларов США, листинг на Нью-Йоркской бирже (NYSE: MMM), входит в индекс Dow Jones. Владеет тысячами патентов, работает в более чем 70 странах.",
       "country": "cn"
     },
     {
@@ -4927,8 +4927,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Private steel producer.",
-      "desc_ru": "Частный производитель стали.",
+      "desc_en": "Jiangsu Shagang Group (沙钢集团) is China's largest privately owned steelmaker, founded in 1975 in Zhangjiagang, Jiangsu, with initial capital of just 450,000 yuan. A 2008 ACFIC survey named it China's largest private company. It runs steel plants in Jiangsu and Henan. On the 2026 Fortune China 500 list it ranked 109th, with revenue of roughly $37 billion, producing steel products under the Shagang brand.",
+      "desc_ru": "Цзянсу Шаган (沙钢集团) — крупнейший частный производитель стали в Китае, основан в 1975 году в Чжанцзяган (Цзянсу) с капиталом всего 450 тыс. юаней. По опросу ВКФПТ 2008 года признан крупнейшей частной компанией страны. Имеет заводы в Цзянсу и Хэнани. В Fortune China 500 (2026) занял 109-е место с выручкой около 37 млрд долларов. Выпускает прокат под брендом Shagang.",
       "country": "cn"
     },
     {
@@ -4955,8 +4955,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction-machinery maker.",
-      "desc_ru": "Производитель строительной техники.",
+      "desc_en": "XCMG (徐工) traces its roots to the Huaxing Iron Works, founded in 1943, and was formally established as a group in Xuzhou in 1989. Its shares listed on the Shenzhen Stock Exchange in 1996, with a full group listing in 2009. In 2012 it became the first Chinese construction-machinery firm to top 100 billion yuan in revenue. XCMG is now the world's third-largest construction equipment maker, producing cranes, loaders, excavators and road machinery.",
+      "desc_ru": "XCMG (徐工) ведёт историю от завода Huaxing Iron Works (1943); как группа оформлена в Сюйчжоу в 1989 году. Акции на Шэньчжэньской бирже с 1996 года, полное IPO — в 2009-м. В 2012 году стала первой компанией отрасли с выручкой свыше 100 млрд юаней. Сегодня XCMG — третий по величине производитель строительной техники в мире: краны, погрузчики, экскаваторы, дорожные машины.",
       "country": "cn"
     },
     {
@@ -5253,8 +5253,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Doors & building products.",
-      "desc_ru": "Двери и стройматериалы.",
+      "desc_en": "Meixin Group (美心集团) is a major private maker of doors and window systems, registered in 1995 (operating since 1989), headquartered in Nanping, Chongqing. It leads the national door market with anti-theft, fire-rated and smart doors. Its Nan'an factory runs 16 production lines turning out over 20,000 doors daily for China and 40-plus countries; US exports alone reached about 50 million yuan in the first half of 2024.",
+      "desc_ru": "Meixin Group (美心集团) — крупный частный производитель дверей и оконных систем, зарегистрирован в 1995 году (работает с 1989-го), штаб-квартира в Наньпине, Чунцин. Лидер национального рынка дверей: противопожарные, антивзломные, «умные». На заводе в районе Наньань 16 линий выпускают свыше 20 тыс. дверей в сутки для Китая и 40+ стран. В первой половине 2024 года экспорт в США составил около 50 млн юаней.",
       "country": "cn"
     },
     {
@@ -5281,8 +5281,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Turbine manufacturer.",
-      "desc_ru": "Производитель турбин.",
+      "desc_en": "Dongfang Turbine (东方汽轮机) was founded in 1966 in Mianzhu, Sichuan, and is based in Deyang. It is a subsidiary of state-owned Dongfang Electric, whose lineage traces to a 1958 plant. The company builds steam and gas turbines for coal-fired, gas-fired and nuclear power plants, plus wind turbine generator sets, making it one of China's principal power-generation equipment suppliers, serving projects nationwide and abroad.",
+      "desc_ru": "Dongfang Turbine (东方汽轮机) основана в 1966 году в Мяньчжу (Сычуань), базируется в Дэяне. Входит в госконцерн Dongfang Electric, чья история восходит к площадке 1958 года. Компания выпускает паровые и газовые турбины для угольных, газовых и атомных станций, а также ветроустановки — один из ключевых поставщиков энергооборудования Китая, обеспечивающий заказы для энергосистемы всей страны.",
       "country": "cn"
     },
     {
@@ -5309,8 +5309,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Chemicals & fertilizer group.",
-      "desc_ru": "Химия и удобрения.",
+      "desc_en": "Yuntianhua Group (云天化) is a Yunnan state enterprise formed on March 18, 1997; its predecessor plant, built in 1974, was among China's first 13 large nitrogen-fertilizer producers. Headquartered in Kunming since 2000, it focuses on fertilizers, fiberglass and composites, and new chemical materials. The group employs over 21,000 people across 50-plus subsidiaries in 10-plus provinces, reporting 2024 revenue of 61.54 billion yuan.",
+      "desc_ru": "Yuntianhua Group (云天化) — госпредприятие Юньнани, образованное 18 марта 1997 года; предшественник — завод 1974 года, один из первых 13 крупных азотных производств Китая. С 2000 года штаб-квартира в Куньмине. Направления — удобрения, стекловолокно и композиты, химматериалы. Свыше 21 тыс. сотрудников, более 50 предприятий в 10+ провинциях; выручка за 2024 год — 61,54 млрд юаней.",
       "country": "cn"
     },
     {
@@ -5393,8 +5393,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Turbomachinery manufacturer.",
-      "desc_ru": "Производитель турбомашин.",
+      "desc_en": "Shaanxi Blower Group (陕鼓), branded ShaanGu, was founded in 1968 in Xi'an, began production in 1975, and became a group in 1996. Its listed unit, Xi'an Shaangu Power, was set up in 1999 and IPO'd on the Shanghai Stock Exchange in 2010 (ticker 601369). It makes axial and centrifugal compressors, energy-recovery turbines, blowers and fans — nearly 2,000 models — serving metallurgy, petrochemicals and power generation.",
+      "desc_ru": "Shaanxi Blower Group (陕鼓), бренд ShaanGu, основана в 1968 году в Сиане, производство запущено в 1975-м, статус группы — с 1996 года. Дочерняя публичная Xi'an Shaangu Power создана в 1999-м, IPO на Шанхайской бирже в 2010-м (тикер 601369). Выпускает осевые и центробежные компрессоры, турбины утилизации энергии, вентиляторы и воздуходувки — около 2000 моделей — для металлургии и нефтехимии.",
       "country": "cn"
     },
     {
@@ -5492,8 +5492,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Steel producer.",
-      "desc_ru": "Производитель стали.",
+      "desc_en": "Shaanxi Iron & Steel Group is a provincial state holding headquartered in Xi'an, formed in the late 2000s–early 2010s as part of a regional steel-industry restructuring. It combines several plants, including Hanzhong Steel (commissioned 2010, planned capacity above 3 million tonnes, revenue around 20 billion yuan). The group produces long and flat steel products for construction and machinery manufacturing across Northwest China.",
+      "desc_ru": "Shaanxi Iron & Steel Group — госхолдинг провинции Шэньси со штаб-квартирой в Сиане, сформированный в конце 2000-х – начале 2010-х в рамках реструктуризации сталелитейной отрасли региона. Объединяет несколько заводов, включая Hanzhong Steel (открыт в 2010 году, мощность свыше 3 млн тонн, выручка около 20 млрд юаней). Группа выпускает сортовой и листовой прокат для строительства и машиностроения Северо-Западного Китая.",
       "country": "cn"
     },
     {
@@ -5506,8 +5506,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Coal-mining group.",
-      "desc_ru": "Угольная группа.",
+      "desc_en": "Shaanxi Coal and Chemical Industry Group (陕煤) is a state-owned conglomerate headquartered in Xi'an, established in 2004, spanning coal mining, coal processing, petrochemicals and coal-chemicals. It has ranked among China's top three coal producers. For 2023 it reported revenue of about $74.8 billion and assets exceeding $100.9 billion, with over 140,000 employees, and is a key energy supplier for Northwest China.",
+      "desc_ru": "Shaanxi Coal and Chemical Industry Group (陕煤) — госхолдинг со штаб-квартирой в Сиане, образован в 2004 году. Объединяет угледобычу, углепереработку, нефтехимию и углехимию; ранее входил в тройку крупнейших угольных компаний Китая. За 2023 год выручка — около 74,8 млрд долларов, активы — свыше 100,9 млрд, штат — более 140 тыс. человек. Ключевой поставщик энергоресурсов Северо-Западного Китая.",
       "country": "cn"
     },
     {
@@ -5520,8 +5520,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Coal-to-chemicals producer.",
-      "desc_ru": "Производитель углехимии.",
+      "desc_en": "Ningxia Baofeng Energy Group (宝丰能源) was founded on November 2, 2005, headquartered at the Ningdong Energy and Chemical Base in Yinchuan, Ningxia. It specializes in coal chemicals — coal-to-olefins, coking and fine chemicals — holding roughly a third of China's coal-to-chemicals capacity. It listed on the Shanghai Stock Exchange in May 2019 (ticker 600989); revenue now exceeds $7 billion, ranking 414th on the 2025 Fortune China 500.",
+      "desc_ru": "Ningxia Baofeng Energy Group (宝丰能源) основана 2 ноября 2005 года, штаб-квартира — в базе Ningdong в Иньчуане (Нинся). Специализируется на угольной химии: олефины из угля (CTO), кокс, спецхимикаты — около трети мощностей угле-химической отрасли Китая. В мае 2019 года провела IPO на Шанхайской бирже (тикер 600989), привлекла ~8,1 млрд юаней. Выручка превышает 7 млрд долларов; 414-е место в Fortune China 500 (2025).",
       "country": "cn"
     },
     {
@@ -5534,8 +5534,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Rail rolling-stock giant.",
-      "desc_ru": "Гигант ж/д подвижного состава.",
+      "desc_en": "CRRC Corporation (中车) was formed on June 1, 2015, through the merger of China CNR and CSR Corporation, formerly rival rolling-stock makers. The combination created the world's largest railway rolling stock manufacturer, holding over 90% of China's domestic market. Headquartered in Beijing, CRRC employs roughly 175,700 people, producing high-speed trains, locomotives, metro cars and trams, and exporting to more than 100 countries.",
+      "desc_ru": "CRRC Corporation (中车) образована 1 июня 2015 года слиянием China CNR и CSR Corporation — прежних конкурентов на рынке подвижного состава. Возникла крупнейшая в мире компания по производству железнодорожной техники, контролирующая свыше 90% рынка Китая. Штаб-квартира — в Пекине, штат — около 175,7 тыс. человек. CRRC выпускает высокоскоростные поезда, локомотивы, вагоны метро и трамваи, экспортируя технику в 100+ стран.",
       "country": "cn"
     },
     {
@@ -5663,8 +5663,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tractor & machinery maker.",
-      "desc_ru": "Производитель тракторов и техники.",
+      "desc_en": "YTO Group (一拖, First Tractor) was founded in 1955 in Luoyang, Henan, as one of 156 key projects of China's first Five-Year Plan. In 1958 it built the Dongfanghong-54, China's first domestic tractor, based on the Soviet DT-54. The group makes farm and construction machinery, with a tractor lineup of 25-400 hp and output above 4 million units. Its unit First Tractor is the only Chinese farm-machinery maker listed in Hong Kong.",
+      "desc_ru": "YTO Group (一拖, First Tractor) основана в 1955 году в Лояне (Хэнань) как один из 156 ключевых проектов первой пятилетки КНР. В 1958-м выпустила первый отечественный трактор Dongfanghong-54 на базе советского DT-54. Группа производит сельхозтехнику, стройтехнику, силовые агрегаты; линейка тракторов 25–400 л.с., выпущено свыше 4 млн единиц. First Tractor Company — единственный производитель сельхозтехники из Китая на Гонконгской бирже.",
       "country": "cn"
     },
     {
@@ -5706,8 +5706,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tunnel-boring machine maker.",
-      "desc_ru": "Производитель тоннелепроходческих машин.",
+      "desc_en": "China Railway Construction Heavy Industry (中铁装备, CRCHI) was founded in 2007 as a CRCC subsidiary, headquartered with industrial parks in Changsha and bases in Zhuzhou, Kunming, Urumqi and Baotou. It is the world's largest maker of full-face tunnel boring machines, plus shield machines and drilling jumbos for metro, rail, mining and hydropower projects. CRCHI equipment has been deployed in 30-plus countries, including the US, Canada and Russia.",
+      "desc_ru": "China Railway Construction Heavy Industry (中铁装备, CRCHI) основана в 2007 году как дочерняя структура CRCC, штаб-квартира и парки — в Чанша, площадки — в Чжучжоу, Куньмине, Урумчи и Баотоу. Крупнейший в мире производитель тоннелепроходческих комплексов (ТПМК), а также щитовых машин, буровых установок и техники для метро, дорог, шахт и ГЭС. Техника CRCHI поставлена в 30+ стран, включая США, Канаду, Россию и Турцию.",
       "country": "cn"
     },
     {
@@ -5720,8 +5720,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Coal-mining machinery maker.",
-      "desc_ru": "Производитель горной техники.",
+      "desc_en": "Zhengzhou Coal Mining Machinery Group (郑煤机, ZMJ) was founded in 1958 and is the world's largest developer and maker of hydraulic powered roof supports for mechanized coal mining, alongside an automotive components business. 2025 revenue reached 41.39 billion yuan, up 11.78% year-on-year. In October 2025 the group renamed itself ZCZL Industrial Technology Group; its shares trade in both Shenzhen and Hong Kong (HKG:0564).",
+      "desc_ru": "Zhengzhou Coal Mining Machinery Group (郑煤机, ZMJ) основана в 1958 году — крупнейший в мире разработчик и производитель гидравлических крепей для механизированной угледобычи, выпускает также автокомпоненты. Выручка за 2025 год — 41,39 млрд юаней (+11,78% год к году). В октябре 2025 года группа переименована в ZCZL Industrial Technology Group. Акции торгуются в Шэньчжэне и Гонконге (HKG:0564).",
       "country": "cn"
     },
     {
@@ -5807,8 +5807,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tires and robotics.",
-      "desc_ru": "Шины и робототехника.",
+      "desc_en": "Doublestar Group (双星集团) is a state holding company in Qingdao, Shandong, founded in 1921; once focused on footwear and apparel, it pivoted fully to tires after a 2008 restructuring, having acquired Huaqing Tire (2001) and Dongfeng Tire (2005). Since 2014 it has pursued smart manufacturing, building the world's first fully automated 'Industry 4.0' tire factory in 2016. The group has also expanded into robotics and holds stakes in Kumho Tire.",
+      "desc_ru": "Doublestar Group (双星集团) — госхолдинг в Циндао (Шаньдун), основан в 1921 году; исторически выпускал обувь и одежду, но после реструктуризации 2008 года переориентировался на шины (Huaqing Tire — 2001, Dongfeng Tire — 2005). С 2014 года реализует интеллектуальную трансформацию: в 2016-м построил первый в мире полностью автоматизированный завод шин формата «Индустрия 4.0». Развивает также робототехнику; владеет долями в Kumho Tire.",
       "country": "cn"
     },
     {
@@ -5849,8 +5849,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Fertilizer manufacturer.",
-      "desc_ru": "Производитель удобрений.",
+      "desc_en": "Kingenta Ecological Engineering (金正大) was founded in 1998 in Linshu County, Linyi, Shandong, specializing in compound, slow- and controlled-release, and water-soluble fertilizers. It is the world's largest controlled-release fertilizer production base, employing over 8,000 people with about 6 million tonnes of annual capacity. Kingenta listed on the Shenzhen Stock Exchange in 2010 (ticker 002470), with revenue reaching 13 billion yuan in 2014.",
+      "desc_ru": "Kingenta Ecological Engineering (金正大) основана в 1998 году в уезде Линьшу (Линьи, Шаньдун), специализируется на компаундированных, медленно- и контролируемо-высвобождающихся, водорастворимых удобрениях. Крупнейшая в мире производственная база удобрений с контролируемым высвобождением, штат свыше 8000 человек, мощность — около 6 млн тонн. В 2010 году листинг на Шэньчжэньской бирже (код 002470); выручка достигала 13 млрд юаней (2014).",
       "country": "cn"
     },
     {
@@ -5863,8 +5863,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Compound-fertilizer maker.",
-      "desc_ru": "Производитель комплексных удобрений.",
+      "desc_en": "Stanley Agriculture Group (史丹利) was founded in 1992 in Linyi, Shandong, making compound and bulk-blending fertilizers under the Stanley brand. It operates China's largest tower-process compound fertilizer plant, with total assets of 6.3 billion yuan and annual capacity of 5.2 million tonnes. The company listed on the Shenzhen Stock Exchange in 2011 (ticker 002588) and won China's National Technology Invention Award in 2017.",
+      "desc_ru": "Stanley Agriculture Group (史丹利) основана в 1992 году в Линьи (Шаньдун), выпускает компаундированные и смесевые удобрения под брендом Stanley. Эксплуатирует крупнейшую в Китае башенную установку по производству компаундированных удобрений, активы — 6,3 млрд юаней, мощность — 5,2 млн тонн в год. В 2011 году IPO на Шэньчжэньской бирже (код 002588). В 2017 году получила Государственную премию КНР за изобретения.",
       "country": "cn"
     },
     {
@@ -5877,8 +5877,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Engines & powertrain maker.",
-      "desc_ru": "Производитель двигателей и трансмиссий.",
+      "desc_en": "Weichai Power (潍柴动力) traces to a 1946 factory; the modern joint-stock company was set up in 2002 in Weifang, Shandong. Beyond its own diesel engines, the group controls Shacman trucks, Lovol farm machinery, Fast transmissions, Hande axles, France's Baudouin (acquired 2009), and a major stake in Germany's KION Group, including Dematic (since 2012). In 2024 it reported revenue of 215.69 billion yuan and net profit of 11.4 billion yuan.",
+      "desc_ru": "Weichai Power (潍柴动力) ведёт историю от завода 1946 года; современная компания создана в 2002-м в Вэйфане (Шаньдун). Помимо дизельных двигателей, группа контролирует Shacman (грузовики), Lovol (сельхозтехника), Fast (КПП), Hande (мосты), французский Baudouin (с 2009-го) и крупный пакет германского KION, включая Dematic (с 2012-го). Выручка за 2024 год — 215,69 млрд юаней, чистая прибыль — 11,4 млрд юаней.",
       "country": "cn"
     },
     {
@@ -5905,8 +5905,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Steel producer.",
-      "desc_ru": "Производитель стали.",
+      "desc_en": "Laiwu Steel Group (莱钢) was founded in January 1970 in Laiwu, Shandong, growing into a producer with capacity above 18 million tonnes a year, making pig iron, billets and finished steel. In 2008, amid industry restructuring, it merged with Jinan Iron and Steel — then China's sixth- and seventh-largest steelmakers — to form the state-owned Shandong Iron and Steel Group. Laigang remains one of that group's core production sites today.",
+      "desc_ru": "Laiwu Steel Group (莱钢) основана в январе 1970 года в Лайу (Шаньдун), выросла в холдинг мощностью свыше 18 млн тонн стали в год, выпускающий чугун, заготовки и прокат. В 2008 году в рамках отраслевой реструктуризации объединена с Jinan Iron and Steel в холдинг Shandong Iron and Steel Group — тогда шестой и седьмой по величине производители страны вошли в единую госкорпорацию. Laigang остаётся ключевой площадкой группы.",
       "country": "cn"
     },
     {
@@ -5919,8 +5919,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Construction-machinery maker.",
-      "desc_ru": "Производитель строительной техники.",
+      "desc_en": "Lingong Group / SDLG (临工集团) was founded in 1972 in Linyi, Shandong. In 2006 Volvo CE acquired a 70% stake, forming the SDLG joint venture, which brought technology transfer and international expansion, including a Brazil plant opened in 2013. In 2025, after 19 years of partnership, Volvo CE sold its stake to a fund controlled by Lingong Group. The company makes wheel loaders, excavators and backhoe loaders under the SDLG and Lingong brands.",
+      "desc_ru": "Lingong Group / SDLG (临工集团) основана в 1972 году в Линьи (Шаньдун). В 2006 году Volvo CE приобрела 70% акций, образовав СП SDLG с передачей технологий и выходом на международные рынки, включая завод в Бразилии (2013). В 2025 году, после 19 лет сотрудничества, Volvo CE продала долю фонду Lingong Group. Компания производит фронтальные погрузчики, экскаваторы и экскаваторы-погрузчики под брендами SDLG и Lingong.",
       "country": "cn"
     },
     {
@@ -5933,8 +5933,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Machine-tool manufacturer.",
-      "desc_ru": "Производитель станков.",
+      "desc_en": "Shenyang Machine Tool (沈阳机床) was established in May 1993 from the merger of Shenyang No.1 Machine Tool Plant, the Sino-Czech Friendship Factory and the Liaoning Precision Instrument Plant; by 2011 it was the world's largest machine tool maker by revenue. It built the i5 CNC system (2012) and launched the i5 machine series in 2014. Weighed by debt, it went through bankruptcy in 2019 under China National General Technology Group.",
+      "desc_ru": "Shenyang Machine Tool (沈阳机床) создана в мае 1993 года на базе завода №1, китайско-чехословацкого завода и завода точных приборов Ляонина; в 2011 году стала крупнейшим в мире производителем станков по выручке. Разработала интеллектуальную ЧПУ-систему i5 (2012) и запустила линейку станков i5 в 2014-м. Из-за долговой нагрузки в 2019 году прошла банкротство и реструктуризацию под контролем China National General Technology Group.",
       "country": "cn"
     },
     {
@@ -5977,8 +5977,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Shipbuilding enterprise.",
-      "desc_ru": "Судостроительное предприятие.",
+      "desc_en": "State-owned shipyard in Dalian, tracing its roots to 1898; the modern entity formed in 2005 by merging Dalian Shipbuilding Industry Co. and Dalian New Shipbuilding Industry Co. Part of CSSC, the world's largest shipbuilding group. DSIC builds large tankers, bulk carriers, container ships and LNG carriers, and is a key builder of PLA Navy warships, including aircraft carriers. Revenue is roughly RMB 20 billion, assets around RMB 100 billion.",
+      "desc_ru": "Государственная судоверфь в Даляне, история с 1898 г.; современная структура образована в 2005 г. слиянием Dalian Shipbuilding Industry Co. и Dalian New Shipbuilding Industry Co. Входит в CSSC — крупнейшую судостроительную группу мира. Строит крупнотоннажные танкеры, балкеры, контейнеровозы, газовозы СПГ, а также военные корабли ВМС КНР, включая авианосцы. Выручка ~20 млрд юаней, активы ~100 млрд юаней.",
       "country": "cn"
     },
     {
@@ -6006,8 +6006,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Major oilfield operator.",
-      "desc_ru": "Оператор крупного нефтяного месторождения.",
+      "desc_en": "China's largest oil field, discovered 26 September 1959 (well Songji-3) in Heilongjiang; operated by CNPC. From 1976 to 2002 it sustained annual output above 50 million tonnes, a record in oilfield history. By 2019 cumulative production exceeded 2.5 billion tonnes, about 36% of China's onshore crude output. In 2021 the Gulong block became a national shale-oil demonstration zone; in 2025 its output topped 1 million tonnes for the first time.",
+      "desc_ru": "Крупнейшее нефтяное месторождение Китая, открыто 26 сентября 1959 г. (скважина Сунцзи-3) в пров. Хэйлунцзян; эксплуатируется CNPC. С 1976 по 2002 гг. ежегодно давало свыше 50 млн т нефти — рекорд отрасли. К 2019 г. суммарная добыча превысила 2,5 млрд т — около 36% сухопутной нефтедобычи Китая. В 2021 г. на блоке Гулун создана зона сланцевой нефти; в 2025 г. её добыча впервые превысила 1 млн т в год.",
       "country": "cn"
     },
     {
@@ -6107,8 +6107,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Tungsten producer.",
-      "desc_ru": "Производитель вольфрама.",
+      "desc_en": "Publicly listed firm (SSE: 600549) tracing roots to the Xiamen Alumina Plant (1958); switched to tungsten in 1982 and listed on the Shanghai exchange in 2002. Three segments: tungsten-molybdenum (mining to cemented carbide), rare earths (mining, separation, magnets) and new energy materials (lithium-battery cathodes). Holds roughly 10% of global tungsten output; subsidiary Xiamen Tungsten New Energy listed on the STAR Market in 2021.",
+      "desc_ru": "Публичная компания (SSE: 600549) от Сямэньского глинозёмного завода (1958 г.); в 1982 г. перепрофилирована на вольфрам, в 2002 г. вышла на биржу Шанхая. Три направления: вольфрам-молибден (от добычи до твёрдых сплавов), редкоземельные металлы (добыча, разделение, магниты) и энергоматериалы (катодные материалы для батарей). Контролирует около 10% мирового производства вольфрама; дочка вышла на STAR Market в 2021 г.",
       "country": "cn"
     },
     {
@@ -6121,8 +6121,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Forklift & material handling.",
-      "desc_ru": "Погрузчики и складская техника.",
+      "desc_en": "Linde (China) Forklift Truck Corp. is the Asian manufacturing base of Linde Material Handling (now part of KION Group), established in Xiamen in 1993. The 220,000+ sq m plant, built for RMB 1.7 billion, combines production, sales, a training centre and an R&D centre. It makes electric and diesel forklifts and warehouse equipment, covering the full range of industrial trucks. The network employs over 2,900 people across 150+ locations in China.",
+      "desc_ru": "Linde (China) Forklift Truck Corp. — азиатская производственная база концерна Linde Material Handling (часть KION Group), создана в Сямэне в 1993 г. Завод свыше 220 000 м² построен при инвестициях 1,7 млрд юаней, объединяет производство, продажи, обучение и R&D-центр. Выпускает электрические и дизельные вилочные погрузчики, складскую технику, весь спектр промышленных тягачей. Штат свыше 2900 человек, более 150 сервисных точек по Китаю.",
       "country": "cn"
     },
     {
@@ -6135,8 +6135,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Sanitary & kitchen hardware.",
-      "desc_ru": "Сантехническая и кухонная фурнитура.",
+      "desc_en": "Xiamen Lota International Co. (brand \"路达\"/Runner) has made faucets and plumbing hardware since 1982. In 1990 Taiwanese entrepreneur Wu Caipan invested US$148.25 million to found Luda (Xiamen) Industrial Co. for high-end faucets, bathroom accessories, and cabinet and lock hardware. Headquartered in Xiamen with manufacturing also in the US, UK and Vietnam, the group employs over 8,000 people and makes both its own and OEM brands for North America.",
+      "desc_ru": "Xiamen Lota International Co. (бренд «路达»/Runner) — производитель смесителей и сантехнической фурнитуры, работает с 1982 г. В 1990 г. тайваньский предприниматель У Цайпань вложил 148,25 млн долл. в Luda (Xiamen) Industrial Co. для выпуска смесителей премиум-класса, аксессуаров, фурнитуры для шкафов и замков. Штаб-квартира в Сямэне, производство также в США, Британии, Вьетнаме; штат свыше 8000 человек, продукция под своими и партнёрскими брендами.",
       "country": "cn"
     },
     {
@@ -6205,8 +6205,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Stainless-steel producer.",
-      "desc_ru": "Производитель нержавеющей стали.",
+      "desc_en": "Taiyuan Iron & Steel (Group) Co. dates to 1934 as the Northwest Steel Mill; after 1949 it specialised in special steels, producing China's first heat of stainless steel. With annual output above 2 million tonnes, it became the world's largest flat-stainless producer in 2009, the first Chinese firm so ranked. In 2021 it made 12.73 million tonnes of steel, 4.47 million stainless. Since 2020-21 TISCO is part of China Baowu Steel Group.",
+      "desc_ru": "Taiyuan Iron & Steel (Group) Co. ведёт историю с 1934 г. (Северо-Западный сталелитейный завод); после 1949 г. специализировалась на спецсталях и первой в Китае выплавила нержавеющую сталь. При выпуске нержавейки свыше 2 млн т/год в 2009 г. стала крупнейшим в мире производителем плоского нержавеющего проката. В 2021 г. выпустила 12,73 млн т стали, включая 4,47 млн т нержавеющей. С 2020–21 гг. входит в China Baowu Steel Group.",
       "country": "cn"
     },
     {
@@ -6248,8 +6248,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Steel & rare-earth producer.",
-      "desc_ru": "Сталь и редкоземельные металлы.",
+      "desc_en": "Baotou Iron & Steel (Group) Co. was founded in 1954 and inaugurated in 1959 with Premier Zhou Enlai attending; based in Inner Mongolia. It controls the Bayan Obo deposit — the world's largest rare-earth deposit, holding roughly 83.7% of China's proven reserves and about 37.8% of global reserves (over 35 million tonnes of rare-earth oxides). It is the world's largest rare-earth base while also producing rail, plate and bar steel.",
+      "desc_ru": "Baotou Iron & Steel (Group) Co. основана в 1954 г., запущена в 1959 г. при участии премьера Чжоу Эньлая; расположена во Внутренней Монголии. Контролирует месторождение Баян-Обо — крупнейшее в мире месторождение редкоземельных металлов, около 83,7% разведанных запасов Китая и порядка 37,8% мировых запасов (свыше 35 млн т оксидов РЗМ). Крупнейшая в мире редкоземельная база, выпускает также рельсы, листовой и сортовой прокат.",
       "country": "cn"
     },
     {
@@ -6333,8 +6333,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "desc_en": "Rubber-products maker.",
-      "desc_ru": "Производитель резиновых изделий.",
+      "desc_en": "Hengshui Rubber Co. (now Hengxiang Technology) traces to 1954, when 12 craftsmen founded a cart-repair cooperative; renamed Hengshui Rubber Factory in 1971. In 1988 it became the first Chinese firm to pass the Transport Ministry's standard for bridge rubber bearings, becoming a joint-stock firm in 1993. A pioneer in Hengshui, dubbed \"China's capital of rubber sealing products\": bridge bearings, expansion joints, seismic isolation.",
+      "desc_ru": "Hengshui Rubber Co. (ныне Hengxiang Technology) ведёт историю с 1954 г., когда 12 ремесленников на реке Фуян основали кооператив по ремонту телег; в 1971 г. переименован в Hengshui Rubber Factory. В 1988 г. первым в Китае прошёл аттестацию Минтранса по мостовым резиновым опорным частям, в 1993 г. стал АО. Пионер и крупный производитель РТИ Хэншуя — «столицы резиновых уплотнителей Китая»: мостовые опоры, компенсаторы, сейсмоизоляция.",
       "country": "cn"
     },
     {
@@ -14162,8 +14162,8 @@
       "city": "zhanjiang",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Знаковый интегрированный НПЗ-нефтехимический проект Sinopec нового поколения на острове Дунхай, Чжаньцзян.",
-      "desc_en": "Sinopec's flagship next-generation integrated refining-petrochemical project on Donghai Island, Zhanjiang.",
+      "desc_ru": "Sinopec Zhongke — интегрированный НПЗ-нефтехимический комплекс на острове Дунхай в Чжаньцзяне (Гуандун), около 6 км². СП Sinopec и Kuwait Petroleum Corp. (50:50), инвестиции около 9 млрд долл. Мощность переработки нефти — 10 млн т/год, этилена — 800 тыс. т/год. При комплексе построен крупнейший нефтехимический порт Китая — восемь терминалов, пропускная способность 34 млн т/год.",
+      "desc_en": "Sinopec Zhongke is a new-generation integrated refining-petrochemical complex on Donghai Island in Zhanjiang, Guangdong, covering about 6 km2. A 50:50 joint venture of Sinopec and Kuwait Petroleum Corporation, investment roughly $9 billion. It processes 10 million tonnes of crude and 800,000 tonnes of ethylene annually. The complex includes China's largest petrochemical port, with eight terminals and 34 million tonnes/year throughput.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14176,8 +14176,8 @@
       "city": "zhanjiang",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "Новейший западный Steam Cracker в Китае (пуск январь 2026 г.), мощность 1 млн т/год этилена.",
-      "desc_en": "The newest Western-built steam cracker in China (launched January 2026), with capacity of 1 million tonnes of ethylene per year.",
+      "desc_ru": "BASF Zhanjiang Verbund — седьмая интегрированная площадка BASF в мире и третья по величине после Людвигсхафена и Антверпена; проект заявлен в 2018 г., камень заложен в 2019 г. Пуск парового крекинга состоялся в январе 2026 г. — первая в мире установка, чьи компрессоры работают на 100% возобновляемой энергии. Мощность по этилену — 1 млн т/год. Инвестиции — около 8,7 млрд евро, ниже первоначального бюджета; штат превышает 2000 человек.",
+      "desc_en": "BASF's Zhanjiang Verbund site is BASF's seventh integrated complex worldwide and third-largest after Ludwigshafen and Antwerp; announced 2018, foundation laid 2019. Its steam cracker started up in January 2026 — the world's first cracker whose main compressors run entirely on renewable electricity. Ethylene capacity is 1 million tonnes/year. Total investment is about EUR 8.7 billion, under budget; the site employs over 2,000 people.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14190,8 +14190,8 @@
       "city": "maoming",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Один из крупнейших и старейших НПЗ Sinopec, ключевое звено нефтехимического кластера Гуандуна, этилен 1,1 млн т/год.",
-      "desc_en": "One of Sinopec's largest and oldest refineries, a key link in Guangdong's petrochemical cluster, with 1.1 million tonnes/year of ethylene capacity.",
+      "desc_ru": "Sinopec Maoming основана в мае 1955 г. как один из 156 ключевых проектов первой пятилетки КНР; изначально добывала нефть из горючих сланцев. В 1996 г. запущена этиленовая установка 300 тыс. т/год, ознаменовав переход к нефтехимии. Сегодня перерабатывает до 20 млн т нефти в год — первый в Китае десятимиллионный НПЗ, мощность по этилену достигла 1,08 млн т/год (2011 г.). Ключевое звено нефтехимического кластера Гуандуна.",
+      "desc_en": "Sinopec Maoming was founded May 1955 as one of the 156 key projects of China's First Five-Year Plan, initially processing oil shale. In 1996 it commissioned a 300,000-tonne/year ethylene unit, shifting into petrochemicals. It now processes up to 20 million tonnes of crude yearly — China's first ten-million-tonne refinery — with ethylene capacity hitting a record 1.08 million tonnes in 2011. A key node of Guangdong's petrochemical cluster.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14204,8 +14204,8 @@
       "city": "guangzhou",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Базовое предприятие Sinopec в дельте Жемчужной реки, современная площадка стандарта Госстандарт VI, производство ПЭ/ПП/ПС.",
-      "desc_en": "Sinopec's core facility in the Pearl River Delta, a modern China VI-standard site producing PE/PP/PS.",
+      "desc_ru": "Sinopec Guangzhou Company — базовое предприятие Sinopec в дельте Жемчужной реки, район Хуанпу; НПЗ работает с 1956 г., позднее расширен для импортной нефти. Мощность переработки — 13,2 млн т/год, этилена — 220 тыс. т/год; на площадке 50 крупных установок, своя ТЭЦ 305 МВт и два нефтеналивных причала в порту Хуэйчжоу. Выпускает топливо и полимеры (ПЭ/ПП/ПС) по стандарту «Госстандарт VI».",
+      "desc_en": "Sinopec Guangzhou Company is Sinopec's core facility in the Pearl River Delta, Huangpu district; the refinery has run since 1956 and was later expanded for imported crude. Crude capacity is 13.2 million tonnes/year with ethylene capacity of 220,000 tonnes; the site runs 50 major units, a captive 305 MW power plant and two crude jetties at Huizhou Port. It makes fuels and polymers (PE/PP/PS) to China VI standards.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14218,8 +14218,8 @@
       "city": "huizhou",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "Крупнейшее китайско-иностранное совместное предприятие в нефтехимии, промзона Даявань, активное расширение мощностей.",
-      "desc_en": "The largest China-foreign joint venture in petrochemicals, in the Daya Bay industrial zone, undergoing active capacity expansion.",
+      "desc_ru": "CSPC — созданное в 2000 г. паритетное СП Shell Nanhai B.V. и CNOOC Petrochemicals Investment в промзоне Даявань (Хуэйчжоу, Гуандун), одно из крупнейших китайско-иностранных нефтехимических предприятий страны. В январе 2025 г. одобрено строительство третьего крекинга мощностью 1,6 млн т этилена/год и производств спецхимии (320 тыс. т/год); проект завершится к 2028 г., увеличив выпуск нефтехимии до более 10 млн т/год.",
+      "desc_en": "CSPC, established in 2000 as a 50:50 joint venture of Shell Nanhai B.V. and CNOOC Petrochemicals Investment in the Daya Bay zone (Huizhou, Guangdong), is one of China's largest Sino-foreign petrochemical ventures. In January 2025 partners approved a third ethylene cracker (1.6 million tonnes/year) plus specialty-chemicals units (320,000 tonnes/year); due by 2028, lifting total output above 10 million tonnes/year.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14232,8 +14232,8 @@
       "city": "huizhou",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "Новейший 100%-ный проект ExxonMobil в Китае ($10 млрд инвестиций, пуск 2025 г.), 1,6 млн т/год этилена, та же промзона Даявань, что и CSPC.",
-      "desc_en": "ExxonMobil's newest wholly-owned project in China ($10 billion invested, launched 2025), with 1.6 million tonnes/year of ethylene capacity, in the same Daya Bay zone as CSPC.",
+      "desc_ru": "ExxonMobil Huizhou — первый в Китае крупный нефтехимический проект на 100% американской компании; расположен в промзоне Даявань, той же, что и CSPC. Начал работу 15 июля 2025 г. при инвестициях свыше 10 млрд долл. Первая фаза включает крекинг 1,6 млн т этилена/год, установки ЛПЭНП на 1,2 млн т/год, крупнейшую в мире установку ПЭНП на 500 тыс. т/год и установки ПП на 950 тыс. т/год. От переговоров до старта строительства прошло всего 18 месяцев.",
+      "desc_en": "ExxonMobil Huizhou is the first major China petrochemical project wholly US-owned, in the same Daya Bay zone as CSPC. Operations began 15 July 2025, investment over $10 billion. Phase one has a steam cracker with 1.6 million tonnes/year ethylene, LLDPE units totalling 1.2 million tonnes/year, the world's largest LDPE unit at 500,000 tonnes/year, and PP units totalling 950,000 tonnes/year. It went from talks to groundbreaking in just 18 months.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14246,8 +14246,8 @@
       "city": "shenzhen",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "Технологический лидер переработки электронных отходов и батарей NEV, производство прекурсоров NCM/NCA.",
-      "desc_en": "A technology leader in e-waste and NEV battery recycling, producing NCM/NCA precursor materials.",
+      "desc_ru": "GEM Co., Ltd. основана 28 декабря 2001 г. в Шэньчжэне, с 2010 г. торгуется на Шэньчжэньской бирже. Профиль — переработка отработанных литий-ионных батарей, электронного лома и кобальто-никелевого сырья с производством прекурсоров NCM/NCA и оксида кобальта. В 2017–2019 гг. занимала первое место в мире по продажам прекурсоров (около 20% рынка). Мощности: до 230 тыс. т/год прекурсоров, переработка до 200 тыс. тяговых батарей и 3 ГВт·ч в год.",
+      "desc_en": "GEM Co., Ltd. was founded 28 December 2001 in Shenzhen and listed in Shenzhen in January 2010. It recycles spent lithium-ion batteries, e-waste and cobalt-nickel materials into NCM/NCA precursors and cobalt oxide. From 2017-2019 it ranked first worldwide in precursor sales, holding roughly 20% of the global market. Capacity includes up to 230,000 tonnes/year of precursors and remanufacturing of up to 200,000 EV battery packs and 3 GWh yearly.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14260,8 +14260,8 @@
       "city": "shenzhen",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Образцовый завод энергоутилизации отходов (WtE) в парке «Яньтянь», известен архитектурным решением — «самый красивый мусоросжигательный завод Китая».",
-      "desc_en": "A showcase waste-to-energy plant in the Yantian park, known for its architecture — often called \"China's most beautiful incineration plant.\"",
+      "desc_ru": "Shenzhen Energy Environmental Protection Co. — оператор сети заводов энергоутилизации отходов (WtE) в Шэньчжэне. Парк «Яньтянь» введён в 2003 г. как национальный демонстрационный проект, перерабатывает около 2300 т отходов в сутки на локализованном оборудовании. Компания также построила Shenzhen East WtE — один из крупнейших в мире заводов кольцевой архитектуры, сочетающий промышленную функцию с образовательным пространством для посетителей.",
+      "desc_en": "Shenzhen Energy Environmental Protection Co. operates waste-to-energy (WtE) plants in Shenzhen. Its Yantian Energy Ecological Park opened in 2003 as a national demonstration project, processing about 2,300 tonnes of waste daily on localised technology. The company also built Shenzhen East WtE, one of the world's largest incinerators with a ring-shaped architecture, combining its industrial function with public education and leisure spaces.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14274,8 +14274,8 @@
       "city": "foshan",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "№1 по мощностям мусоросжигания среди публичных компаний Китая (после 2025 г.).",
-      "desc_en": "The largest waste-incineration capacity among China's publicly listed companies (as of 2025).",
+      "desc_ru": "Grandblue Environment Co. (瀚蓝环境, SSE: 600323) — публичная компания из Наньхая (Фошань, Гуандун), работающая в водоснабжении, водоотведении, обращении с твёрдыми отходами и энергетике, включая мусоросжигание с выработкой электроэнергии и утилизацию осадка. Входит в топ-10 экологических компаний Китая и топ-10 операторов WtE. По данным компании, после 2025 г. заняла первое место по мощности мусоросжигания среди публичных компаний.",
+      "desc_en": "Grandblue Environment Co. (600323.SH) is a listed company from Nanhai (Foshan, Guangdong) working in water supply, drainage, solid-waste management and energy, including waste-to-energy incineration, sludge disposal and fly-ash treatment. It ranks among China's top 10 environmental firms and top 10 waste-to-energy operators. According to the company, after 2025 it became the largest listed waste-incineration operator in China by capacity.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14288,8 +14288,8 @@
       "city": "guangzhou",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Крупнейший в мире оператор WtE, управляет проектами в 220+ районах Китая; конкретный завод для визита в Гуандуне уточняется по согласованию.",
-      "desc_en": "The world's largest waste-to-energy operator, managing projects across 220+ districts in China; the specific Guangdong facility for a visit is confirmed individually.",
+      "desc_ru": "China Everbright Environment Group (HKEX: 257) — крупнейший в мире инвестор и оператор в сфере энергоутилизации отходов (WtE), листингован в Гонконге. По состоянию на середину 2026 г. управляет более чем 600 экопроектами по всему Китаю, охватывая свыше 220 районов страны: заводы WtE, очистку сточных вод и сопутствующую инфраструктуру. Конкретный завод для визита в Гуандуне уточняется по согласованию с принимающей стороной.",
+      "desc_en": "China Everbright Environment Group (HKEX: 257) is the world's largest waste-to-energy (WtE) investor and operator, listed on the Hong Kong exchange. As of mid-2026 it manages over 600 environmental projects across China, spanning more than 220 districts, including WtE plants, wastewater treatment and related infrastructure. The specific facility for a Guangdong visit is to be confirmed with the host in advance.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14302,8 +14302,8 @@
       "city": "shanghai",
       "sector": "heavy",
       "status": "gov",
-      "desc_ru": "Крупнейший в мире моно-завод по энергоутилизации бытовых отходов — комплекс «Лаоган», 9000 т/сутки.",
-      "desc_en": "The world's largest single-site household waste-to-energy plant — the Laogang complex, processing 9,000 tonnes per day.",
+      "desc_ru": "Shanghai Environment Group управляет комплексом Laogang («Лаоган») на востоке Шанхая — крупнейшим в мире моно-заводом энергоутилизации бытовых отходов, мощностью до 11 000 т в сутки (фазы I–II дают около 9000 т/сутки). Комплекс перерабатывает примерно треть мусора Шанхая и вырабатывает около 1,6 млрд кВт·ч электроэнергии в год, экономя порядка 500 тыс. т угля. Бывшая крупнейшая свалка города преобразована в образцовый эко-парк.",
+      "desc_en": "Shanghai Environment Group operates the Laogang complex east of Shanghai — the world's largest single-site waste-to-energy facility, capacity up to 11,000 tonnes daily (Phases I-II combined reach about 9,000 tonnes/day). It processes roughly a third of Shanghai's waste and generates about 1.6 billion kWh of electricity yearly, offsetting around 500,000 tonnes of coal use. Once the city's biggest landfill, Laogang is now a model eco-park.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
@@ -14316,8 +14316,8 @@
       "city": "haian",
       "sector": "heavy",
       "status": "catalog",
-      "desc_ru": "Международный охват через дочернюю компанию Urbaser — присутствие в 30+ странах, крупнейшая география среди китайских игроков отрасли.",
-      "desc_en": "International reach through its Urbaser subsidiary — present in 30+ countries, the broadest global footprint among Chinese waste-management players.",
+      "desc_ru": "China Tianying Inc. — китайский оператор отходов; в 2018 г. приобрёл мадридскую Urbaser за 8,9 млрд юаней (~1,4 млрд долл.) — крупнейшую зарубежную сделку отрасли на тот момент. Urbaser обслуживала свыше 70 млн человек в 25 странах, включая Вьетнам и Сингапур, свыше 50 тыс. сотрудников. В 2021 г. продана фонду Platinum Equity за ~4,2 млрд долл., завершив период самого широкого международного присутствия среди китайских игроков отрасли.",
+      "desc_en": "China Tianying Inc. is a Chinese waste operator that in 2018 acquired Madrid-based Urbaser for RMB 8.9 billion (about $1.4 billion) — the sector's largest overseas deal at the time. Urbaser served over 70 million people in 25 countries, including new markets Vietnam and Singapore, with 50,000+ staff. In 2021 Tianying sold Urbaser to Platinum Equity for roughly $4.2 billion, ending its run as the most internationally present Chinese waste firm.",
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
