@@ -41,6 +41,18 @@ const PAGE_TIMEOUT_MS = 45000
 const RETRY_PAGE_TIMEOUT_MS = 20000
 const RETRY_BUDGET_MS = 8 * 60 * 1000
 
+// /cases and /consulting run heavier client-side work (canvas particle
+// animation, image carousels) than the rest of the site and have been
+// observed timing out under memory pressure on this box more often than
+// other routes, intermittently dropping out of Yandex's index when a given
+// deploy's prerender snapshot for them fails (see comment near the bottom
+// of this file on failed-route handling). They get a longer timeout and go
+// first in the queue, before pool contention from ~1000 other routes builds
+// up — this doesn't fix the underlying resource constraint, but gives these
+// two routes the best chance of succeeding on every deploy.
+const HEAVY_ROUTES = new Set(['/cases', '/consulting'])
+const HEAVY_PAGE_TIMEOUT_MS = 90000
+
 const companies = JSON.parse(readFileSync(join(root, 'src/data/companies.json'), 'utf8'))
 const tours = JSON.parse(readFileSync(join(root, 'src/data/tours.json'), 'utf8'))
 const siteContent = JSON.parse(readFileSync(join(root, 'src/data/site_content.example.json'), 'utf8'))
@@ -63,7 +75,18 @@ const ruRoutes = [
 // client-side. This doubles the route count and therefore the prerender
 // wall-clock at the fixed low concurrency above — accepted tradeoff, since
 // hreflang without a real second URL per page is not real hreflang.
-const routes = [...ruRoutes, ...ruRoutes.map((r) => (r === '/' ? '/en' : `/en${r}`))]
+const allRoutes = [...ruRoutes, ...ruRoutes.map((r) => (r === '/' ? '/en' : `/en${r}`))]
+
+function isHeavyRoute(routePath) {
+  const bare = routePath.startsWith('/en/') ? routePath.slice(3) : routePath
+  return HEAVY_ROUTES.has(bare)
+}
+
+// Heavy routes go first, ahead of pool contention — see HEAVY_ROUTES above.
+const routes = [
+  ...allRoutes.filter((r) => isHeavyRoute(r)),
+  ...allRoutes.filter((r) => !isHeavyRoute(r)),
+]
 
 function outputPathFor(routePath) {
   if (routePath === '/') return join(distDir, 'index.html')
@@ -126,7 +149,11 @@ async function main() {
   await context.route('https://get.geojs.io/**', (route) => route.abort())
 
   console.log(`Prerendering ${routes.length} routes (concurrency ${CONCURRENCY})...`)
-  const results = await runPool(routes, (r) => renderRoute(context, r), CONCURRENCY)
+  const results = await runPool(
+    routes,
+    (r) => renderRoute(context, r, isHeavyRoute(r) ? HEAVY_PAGE_TIMEOUT_MS : PAGE_TIMEOUT_MS),
+    CONCURRENCY,
+  )
 
   // A route can time out simply because it landed while the preview server
   // was busy with the other concurrent requests, not because it's actually
@@ -144,7 +171,10 @@ async function main() {
         console.log(`Retry budget exhausted after ${retried}/${failedRoutes.length} routes — moving on.`)
         break
       }
-      const r = await renderRoute(context, routePath, RETRY_PAGE_TIMEOUT_MS)
+      const retryTimeout = isHeavyRoute(routePath)
+        ? Math.max(RETRY_PAGE_TIMEOUT_MS, HEAVY_PAGE_TIMEOUT_MS / 2)
+        : RETRY_PAGE_TIMEOUT_MS
+      const r = await renderRoute(context, routePath, retryTimeout)
       retried++
       const idx = results.findIndex((x) => x.routePath === r.routePath)
       results[idx] = r
