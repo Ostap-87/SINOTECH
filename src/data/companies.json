@@ -9965,7 +9965,8 @@
       "category_ru": null,
       "desc_en": "Gong Cha Thailand is the local franchise arm of Gong Cha, the bubble-tea brand founded in 2006 in Kaohsiung, Taiwan, meaning \"tribute tea for the emperor.\" The brand pushed to strengthen its Thailand footprint through the early 2020s as part of an aggressive global expansion that, across Asia, the Americas and the Middle East, has grown Gong Cha's network to nearly 2,200 stores in roughly 33 countries under a master-franchise model.",
       "desc_ru": "Gong Cha Thailand — локальное франчайзинговое подразделение Gong Cha, бренда чая с тапиокой, основанного в 2006 году в Гаосюне (Тайвань) и означающего «чай в дань императору». Бренд усиливал присутствие в Таиланде в начале 2020-х в рамках агрессивной глобальной экспансии, которая довела международную сеть Gong Cha до почти 2200 точек примерно в 33 странах по модели мастер-франшизы.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Gong Cha.png"
     },
     {
       "id": "mwg-the-gioi-di-dong",
@@ -10108,7 +10109,8 @@
       "category_ru": null,
       "desc_en": "Nutifood, founded in 2000 by physicians aiming to fight child malnutrition in Vietnam, has grown into one of the country's top-three dairy and nutrition companies with about 5,300 employees and 6 factories nationwide. It runs in-house R&D from formula research through production and distribution, collaborates with more than ten global nutrition groups, and operates the Nutifood Nutrition Research Institute in Sweden (NNRIS).",
       "desc_ru": "Nutifood, основанная в 2000 году врачами для борьбы с недоеданием детей во Вьетнаме, выросла в одну из трёх крупнейших молочно-нутрициологических компаний страны с около 5300 сотрудниками и 6 заводами. Ведёт собственную R&D-цепочку от разработки рецептур до производства и дистрибуции, сотрудничает более чем с десятью мировыми нутрициологическими группами и управляет Nutifood Nutrition Research Institute в Швеции (NNRIS).",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Nutrifood.png"
     },
     {
       "id": "masan-consumer",
@@ -10668,7 +10670,8 @@
       "category_ru": null,
       "desc_en": "Cộng Cà Phê opened in 2007 on Triệu Việt Vương street in Hanoi, founded by former singer Linh Dung. Its retro-military decor — green subsidy-era hues, wooden school desks, old certificates — evokes Vietnam's 'bao cấp' subsidy period (1976-1986). Its signature drink is coconut-milk coffee. By 2025 the chain had grown to more than 100 cafés across three continents, including outlets in Toronto (opened 2023) and Paris (opened 2025).",
       "desc_ru": "Cộng Cà Phê открыта в 2007 году бывшей певицей Линь Зунг на улице Чиеу Вьет Выонг в Ханое. Название и оформление отсылают к периоду 'бао кап' (1976–1986) — эпохе субсидий и госраспределения в социалистическом Вьетнаме: зелёные армейские тона, школьные парты, старые дипломы. Фирменный напиток — кофе с кокосовым молоком. К 2025 году сеть выросла до более 100 кафе на трёх континентах, включая точки в Торонто (2023) и Париже (2025).",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Cong coffee.png"
     },
     {
       "id": "tocotoco",
@@ -10697,7 +10700,8 @@
       "category_ru": null,
       "desc_en": "Phê La was founded in March 2021 in Vietnam under the slogan 'We sell specialty oolong tea,' built around a single-ingredient focus: Đà Lạt oolong from Phước Lạc Farm in Lâm Đồng province. Launched mid-pandemic, it gained traction quickly, selling over 210,000 drinks in its first five months (about 42,000 monthly). The chain now has more than 30 outlets in Hanoi, Ho Chi Minh City, Đà Lạt, and Đà Nẵng, priced at VND 55,000-65,000 per cup.",
       "desc_ru": "Phê La основана в марте 2021 года во Вьетнаме под слоганом 'Мы продаём высококачественный улун', сделав ставку на монопродукт — далатский улун с фермы Phước Lạc в провинции Лам Донг. Несмотря на запуск в разгар пандемии, бренд быстро набрал популярность: за первые пять месяцев продано свыше 210 тыс. напитков (около 42 тыс. в месяц). Сеть насчитывает более 30 точек в Ханое, Хошимине, Далате и Дананге, цены — 55–65 тыс. донгов за напиток.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/PheLa.png"
     },
     {
       "id": "king-coffee-tni",
@@ -11749,7 +11753,8 @@
       "category_ru": null,
       "desc_en": "Amul Fed Dairy is located in Bhat, Gandhinagar, and was established in 1973 as one of the largest milk-processing plants in the Amul (GCMMF) network — by some accounts the largest in Asia — spanning about 20 acres. The facility runs large-scale lines for milk packaging alongside cheese, butter, and ice-cream production, employing over 6,000 people. It serves as a key regional processing hub within Amul's cooperative network across Gujarat.",
       "desc_ru": "Amul Fed Dairy расположен в Бхате, Гандинагар, и основан в 1973 году как одна из крупнейших молокоперерабатывающих площадок Amul (GCMMF) — по ряду оценок, крупнейшая в Азии, площадь около 20 акров. Завод располагает мощными линиями розлива и упаковки молока, производства сыра, масла и мороженого; работает свыше 6000 сотрудников. Один из региональных перерабатывающих узлов кооперативной сети Amul в Гуджарате.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Amul.png"
     },
     {
       "id": "mother-dairy",
@@ -12333,7 +12338,8 @@
       "category_ru": null,
       "desc_en": "abcoffee, founded in 2022 by Abhijeet Anand in Mumbai, is a tech-first 'grab-and-go' coffee chain with 90+ outlets across Mumbai, Delhi-NCR and Bengaluru. About 54% of takeaway orders go through its app, whose subscription ecosystem reportedly pre-sells over 40,000 cups monthly. The startup raised ₹61 crore in a pre-Series B round led by Kliff Ventures to expand its offline footprint.",
       "desc_ru": "abcoffee, основанная в 2022 году Абхиджитом Анандом в Мумбаи, — технологичная сеть кофеен формата 'grab-and-go' с 90+ точками в Мумбаи, Дели-NCR и Бангалоре. Около 54% заказов навынос оформляются через приложение, подписочная модель которого предпродаёт свыше 40 000 чашек в месяц. Стартап привлёк 61 крор рупий в раунде pre-Series B во главе с Kliff Ventures для расширения офлайн-сети.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Abcofee.png"
     },
     {
       "id": "third-wave-coffee",
@@ -12565,7 +12571,8 @@
       "category_ru": null,
       "desc_en": "Dutch Lady Milk Industries Berhad, majority-owned by Netherlands-based FrieslandCampina, inaugurated an RM540 million Industry 4.0 manufacturing and logistics hub in Bandar Enstek, Negeri Sembilan, in May 2024. The facility consolidates production and logistics under one roof — a model common in FrieslandCampina's European plants but new to Malaysia's dairy sector — cutting waste, energy and water use.",
       "desc_ru": "Dutch Lady Milk Industries Berhad, контролируемая нидерландской FrieslandCampina, открыла в мае 2024 года производственно-логистический комплекс стандарта Industry 4.0 стоимостью RM540 млн в Бандар-Энстеке, Негери-Сембилан. Объект объединяет производство и логистику под одной крышей — модель, распространённая на европейских заводах FrieslandCampina, но новая для молочной отрасли Малайзии — снижая отходы, расход энергии и воды.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Dutch Lady.png"
     },
     {
       "id": "nestle-malaysia",
@@ -13181,7 +13188,8 @@
       "category_ru": null,
       "desc_en": "Chatime Malaysia, run under Taiwan's La Kaffa International (founded by Henry Wang in 2005), opened its first Malaysian outlet in August 2010, with Malaysia briefly accounting for nearly half of Chatime's global revenue. After La Kaffa terminated its franchise agreement with local operator Loob Holding in January 2017, roughly 160 outlets were rebranded as Tealive; Chatime has since re-entered Malaysia independently with app-based ordering and loyalty.",
       "desc_ru": "Chatime Malaysia работает под управлением тайваньской La Kaffa International (основана Генри Вангом в 2005 году), первая точка в Малайзии открылась в августе 2010 года, страна одно время давала почти половину глобальной выручки Chatime. После расторжения франчайзингового соглашения с Loob Holding в январе 2017 года около 160 точек были переименованы в Tealive; Chatime позже вернулась в Малайзию самостоятельно с заказом и программой лояльности через приложение.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Chatime.png"
     },
     {
       "id": "gigi-coffee",
