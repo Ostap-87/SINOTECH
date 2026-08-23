@@ -1366,7 +1366,8 @@
       "category_ru": null,
       "desc_en": "NetEase (NASDAQ: NTES, secondary listing HKEX) was founded in 1997 by William Ding, headquartered in Hangzhou. It is one of China's largest game publishers (Fantasy Westward Journey, Identity V, Naraka: Bladepoint) and formerly localized Blizzard titles for China. It also runs NetEase Cloud Music, the Youdao education platform, and 163.com email services. Annual revenue exceeds RMB 100 billion, with gaming as the primary profit driver.",
       "desc_ru": "NetEase (NASDAQ: NTES, вторичный листинг HKEX) основана в 1997 году Дин Лэем, штаб-квартира в Ханчжоу. Один из крупнейших издателей видеоигр Китая (Fantasy Westward Journey, Identity V, Naraka: Bladepoint), ранее локализовала игры Blizzard. Также развивает музыкальный сервис NetEase Cloud Music и образовательную платформу Youdao. Годовая выручка превышает 100 млрд юаней, основной источник прибыли — игровое направление.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/NetEasy.png"
     },
     {
       "id": "caict",
@@ -1453,7 +1454,8 @@
       "category_ru": null,
       "desc_en": "BOE Technology Group, founded in Beijing in 1993, is the world's largest manufacturer of display panels by shipment volume, producing LCD, AMOLED and flexible OLED screens for smartphones, TVs, laptops and automotive displays. Listed on the Shenzhen Stock Exchange, it operates major fabs in Hefei, Chengdu, Chongqing and Mianyang and supplies Apple, Samsung and Huawei, with annual revenue exceeding 190 billion yuan.",
       "desc_ru": "BOE Technology Group, основанная в Пекине в 1993 году, — крупнейший в мире производитель дисплейных панелей по объёму поставок: ЖК-, AMOLED- и гибкие OLED-экраны для смартфонов, телевизоров, ноутбуков и автомобилей. Компания торгуется на Шэньчжэньской бирже, имеет заводы в Хэфэе, Чэнду, Чунцине и Мяньяне, поставляет продукцию Apple, Samsung и Huawei; выручка превышает 190 млрд юаней.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/BOE.png"
     },
     {
       "id": "schneider-electric",
@@ -1626,7 +1628,8 @@
       "category_ru": null,
       "desc_en": "Qihoo 360 was founded in 2005 by Zhou Hongyi, headquartered in Beijing. It became known for its free 360 Security Guard antivirus and browser, which dominated China's PC security market. Delisted from the NYSE in 2016, it went public again via reverse merger on the Shanghai Stock Exchange in 2018 (601360.SH). Today it focuses on enterprise cybersecurity, big data, and AI development for government and corporate clients.",
       "desc_ru": "Qihoo 360 основана в 2005 году Чжоу Хунъи, штаб-квартира в Пекине. Компания стала известна благодаря бесплатному антивирусу 360 Security Guard и одноимённому браузеру, доминировавшим на рынке ПК-безопасности Китая. В 2016 году делистинговалась с NYSE, а в 2018-м провела обратное слияние и вышла на Шанхайскую биржу (601360.SH). Сегодня фокусируется на кибербезопасности и разработках в области ИИ для госсектора и бизнеса.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Qihoo 360.png"
     },
     {
       "id": "mengniu",
@@ -1759,7 +1762,8 @@
       "category_ru": null,
       "desc_en": "The Palace Museum occupies the Forbidden City in central Beijing, the former imperial palace of the Ming and Qing dynasties, built in 1406–1420 and home to 24 emperors. It opened as a public museum on 10 October 1925 and became a UNESCO World Heritage Site in 1987. It is one of the world's most-visited museums, drawing a record roughly 19.3 million visitors in 2019 and consistently more than 17 million visits in recent years.",
       "desc_ru": "Музей Гугун (Запретный город) в центре Пекина — бывший императорский дворец династий Мин и Цин, построенный в 1406–1420 гг. и служивший резиденцией 24 императорам. Как музей открыт 10 октября 1925 года; с 1987 года — объект Всемирного наследия ЮНЕСКО. Один из самых посещаемых музеев мира: в 2019 году, рекордном для площадки, его посетили около 19,3 млн человек, в последние годы поток стабильно превышает 17 млн визитов в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Palace Museum.png"
     },
     {
       "id": "didi",
@@ -1773,7 +1777,8 @@
       "category_ru": null,
       "desc_en": "Didi Chuxing was founded in 2012 by Cheng Wei, headquartered in Beijing. It is China's dominant ride-hailing platform, having absorbed Uber China's operations in 2016, and also operates in Latin America under the 99 brand in Brazil. Didi listed on the NYSE in June 2021 but was soon subjected to a Chinese cybersecurity review and delisted; its app was restored in 2023, and the company has explored a Hong Kong relisting.",
       "desc_ru": "Didi Chuxing основана в 2012 году Чэн Вэем, штаб-квартира в Пекине. Крупнейшая платформа заказа поездок в Китае, занимающая доминирующую долю рынка после слияния с Uber China в 2016 году. Также работает в Латинской Америке через бренд 99 (Бразилия). Вышла на NYSE в июне 2021 года, но вскоре подверглась проверке кибербезопасности регуляторов и была делистингована; приложение восстановлено в 2023 году.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Didi.png"
     },
     {
       "id": "meituan",
@@ -1830,7 +1835,8 @@
       "category_ru": null,
       "desc_en": "Kuaishou was founded in 2011 as a GIF-sharing app, headquartered in Beijing. It is one of China's two dominant short-video and livestreaming platforms alongside Douyin, with over 400 million daily active users. Revenue comes from advertising, live-streaming virtual gifts, and e-commerce. It listed on the Hong Kong Stock Exchange in February 2021 (HKEX: 1024), one of the largest tech IPOs of that period.",
       "desc_ru": "Kuaishou основана в 2011 году как приложение для обмена GIF-анимациями, штаб-квартира в Пекине. Одна из двух крупнейших платформ коротких видео и прямых трансляций в Китае наряду с Douyin, с более чем 400 млн ежедневных активных пользователей. Компания монетизирует контент через рекламу, подарки в live-стримах и e-commerce. Провела IPO на Гонконгской бирже в феврале 2021 года (HKEX: 1024).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Kuaishou.png"
     },
     {
       "id": "li-ning",
@@ -1858,7 +1864,8 @@
       "category_ru": null,
       "desc_en": "Venture capital firm and startup incubator founded in Beijing in 2009 by Kai-Fu Lee, former head of Google China. Manages roughly $2-3 billion across multiple funds, having backed over 300 startups with 5 unicorns, 12 IPOs and 30+ acquisitions. Focused on AI-driven ventures; spun off 01.AI, a large language model company, in 2023. Combines venture capital with in-house AI research and incubation.",
       "desc_ru": "Венчурный фонд и бизнес-инкубатор, основанный в Пекине в 2009 году Кай-Фу Ли, экс-главой Google China. Управляет капиталом около $2–3 млрд, профинансировал более 300 стартапов (5 единорогов, 12 IPO, свыше 30 поглощений). Специализируется на ИИ-проектах; в 2023 году основал 01.AI — разработчика больших языковых моделей. Сочетает венчурные инвестиции с ИИ-исследованиями и инкубацией стартапов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Sinovation Ventures.png"
     },
     {
       "id": "longfor",
@@ -1901,7 +1908,8 @@
       "category_ru": null,
       "desc_en": "Yonyou (also known as UFIDA) was founded in 1988 by Wang Wenjing, headquartered in Beijing. It is one of China's largest enterprise software developers, providing ERP, financial, and HR management systems, shifting toward cloud services through its YonBIP platform. Shares trade on the Shanghai Stock Exchange (600588.SH). Its main domestic rival is Kingdee, alongside SAP and Oracle.",
       "desc_ru": "Yonyou (用友), также известная как UFIDA, основана в 1988 году Ван Вэньцзином, штаб-квартира в Пекине. Один из крупнейших разработчиков корпоративного ПО в Китае — систем ERP, финансового и HR-софта. Компания переходит на облачную модель через платформу YonBIP. Акции торгуются на Шанхайской бирже (600588.SH). Конкурирует с Kingdee, а также SAP и Oracle на китайском рынке.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Yonyou.png"
     },
     {
       "id": "pop-mart",
@@ -2000,7 +2008,8 @@
       "category_ru": null,
       "desc_en": "Beijing-based operator of kindergartens and early-childhood centers, listed on NYSE in 2017. Later that year a scandal at a Beijing branch — allegations of child abuse, including staff using sewing needles on children — triggered nationwide outrage and a stock collapse. A teacher was jailed. The company survived, but its reputation and share price never recovered; NYSE delisted its ADS around 2022 after prices stayed below $1.",
       "desc_ru": "Пекинский оператор сети детских садов и центров раннего развития, вышедший на NYSE в 2017 году. В том же году скандал в одном из филиалов — обвинения в жестоком обращении с детьми, включая использование швейных игл персоналом, — вызвал общенациональное возмущение и обвал акций. Воспитательницу приговорили к тюрьме. Компания продолжила работу, но репутация и котировки не восстановились; около 2022 года NYSE делистинговала её акции.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/RYB Education.png"
     },
     {
       "id": "ericsson",
@@ -2029,7 +2038,8 @@
       "category_ru": null,
       "desc_en": "Jiuxian was founded in 2009 and is headquartered in Beijing. It is one of China's earliest and largest online alcohol retailers, specializing in baijiu (traditional Chinese spirits), wine, and imported beverages. The company sources directly from producers and partners with major baijiu brands including Moutai and Wuliangye, selling through its own website, mobile app, and third-party marketplaces.",
       "desc_ru": "Jiuxian (酒仙网) основана в 2009 году, штаб-квартира в Пекине. Один из первых и крупнейших онлайн-ритейлеров алкогольной продукции в Китае, специализирующийся на байцзю (традиционном китайском крепком алкоголе), вине и импортных напитках. Компания работает по модели прямых поставок от производителей и сотрудничает с известными брендами байцзю, включая Moutai и Wuliangye, продавая продукцию через собственный сайт, мобильное приложение и маркетплейсы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Jiuxian.png"
     },
     {
       "id": "yeepay",
@@ -2057,7 +2067,8 @@
       "category_ru": null,
       "desc_en": "Dangdang was founded in 1999 by Li Guoqing and Peggy Yu, headquartered in Beijing. A pioneer of online bookselling in China, often called an early 'Chinese Amazon,' it later expanded into general e-commerce. It listed on the NYSE in 2010 and was taken private by its founders in 2016. The company retains a strong position in online book sales, competing with JD.com and Alibaba.",
       "desc_ru": "Dangdang основана в 1999 году Ли Гоцином и Юй Юй (Пегги Юй), штаб-квартира в Пекине. Один из пионеров онлайн-книготорговли в Китае, часто называемый «китайским Amazon» первой волны, позже расширился на общий e-commerce. Провёл IPO на NYSE в 2010 году, а в 2016 году был выкуплен основателями и делистингован. Компания сохраняет сильные позиции на рынке онлайн-продажи книг, конкурируя с JD.com и Alibaba.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Dangdang.png"
     },
     {
       "id": "hp",
@@ -2071,7 +2082,8 @@
       "category_ru": null,
       "desc_en": "HP Inc., based in Palo Alto, California, originated from Hewlett-Packard, founded in a garage in 1939 by Bill Hewlett and David Packard. Following the 2015 split from Hewlett Packard Enterprise, HP Inc. retained the PC and printing businesses, ranking among the world's top PC vendors alongside Lenovo. Listed on the NYSE, it reports annual revenue near $53 billion and sells laptops, desktops, printers and 3D-printing systems.",
       "desc_ru": "HP Inc. со штаб-квартирой в Пало-Альто (Калифорния) ведёт историю от Hewlett-Packard, основанной в гараже в 1939 году Биллом Хьюлеттом и Дэвидом Паккардом. После разделения с Hewlett Packard Enterprise в 2015 году HP Inc. сохранила бизнес ПК и печатной техники, входя в число мировых лидеров рынка вместе с Lenovo. Акции торгуются на NYSE, выручка — около $53 млрд, компания выпускает ноутбуки, принтеры и 3D-принтеры.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/HP.png"
     },
     {
       "id": "red-star",
@@ -2100,7 +2112,8 @@
       "category_ru": null,
       "desc_en": "Sohu.com was founded in 1996 by Charles Zhang, headquartered in Beijing. It is one of China's oldest internet portals, combining a news portal, email service, and media divisions. The company spun off subsidiaries in separate IPOs: search engine Sogou (later sold to Tencent in 2021) and gaming unit Changyou. Sohu itself trades on NASDAQ (SOHU) and today focuses on news content, video, and games.",
       "desc_ru": "Sohu.com основана в 1996 году Чарльзом Чжаном, штаб-квартира в Пекине. Один из старейших интернет-порталов Китая, включающий новостной портал, почтовый сервис и медиаподразделения. Компания вывела на отдельные IPO дочерние структуры: поисковик Sogou (продан Tencent в 2021 году) и игровое подразделение Changyou. Акции материнской Sohu торгуются на NASDAQ (SOHU). Сегодня фокусируется на новостном контенте, видео и играх.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Sohu.png"
     },
     {
       "id": "58-com",
@@ -2114,7 +2127,8 @@
       "category_ru": null,
       "desc_en": "58.com was founded in 2005 by Yao Jinbo, headquartered in Beijing. It is China's largest classified ads platform — often compared to Craigslist — covering real estate, jobs, cars, and local services. It merged with rival Ganji in 2015. Previously NYSE-listed, the company was taken private in 2020 by an investor consortium including Ocean Link, General Atlantic, and Warburg Pincus for about $8.7 billion.",
       "desc_ru": "58.com основана в 2005 году Яо Цзиньбо, штаб-квартира в Пекине. Крупнейшая в Китае платформа классифицированных объявлений — аналог Craigslist — по недвижимости, вакансиям, авто и услугам. В 2015 году объединилась с конкурентом Ganji. Компания разместила акции на NYSE, а в 2020 году была выкуплена консорциумом инвесторов, включая Ocean Link, General Atlantic и Warburg Pincus, примерно за 8,7 млрд долларов, и делистингована.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/58.com.png"
     },
     {
       "id": "pony-ai",
@@ -2230,7 +2244,8 @@
       "category_ru": null,
       "desc_en": "Established in Tianjin in 1980 as the Sino-French Joint Venture Dynasty Winery — between Tianjin City Grape Garden and cognac house Rémy Martin — Dynasty was China's first large-scale foreign wine joint venture. It farms roughly 2,000 hectares of vineyards, processes about 40,000 tonnes of grapes annually, and has developed over 90 wine, brandy and sparkling wine brands under the listed Dynasty Fine Wines Group.",
       "desc_ru": "Основанная в Тяньцзине в 1980 году как китайско-французское совместное предприятие Dynasty Winery — между Tianjin City Grape Garden и коньячным домом Rémy Martin — Dynasty стала первым крупным иностранным винодельческим СП в Китае. Компания возделывает около 2000 га виноградников, перерабатывает порядка 40 000 тонн винограда в год и выпускает свыше 90 брендов вин, бренди и игристых вин под маркой Dynasty Fine Wines.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Dynasty Wine.png"
     },
     {
       "id": "tingyi",
@@ -2244,7 +2259,8 @@
       "category_ru": null,
       "desc_en": "Founded by Taiwan's Wei brothers, Tingyi began its instant-noodle business in 1991-92 under the Master Kong (Kang Shifu) brand, dual-headquartered in Tianjin and Taipei. It has long held China's number-one market share in both instant noodles (around 40%) and ready-to-drink tea, and also bottles and distributes PepsiCo's carbonated drinks and Gatorade across mainland China.",
       "desc_ru": "Основанная тайваньскими братьями Вэй компания Tingyi начала бизнес быстрорастворимой лапши в 1991-92 годах под брендом Master Kong (Kang Shifu), штаб-квартиры — в Тяньцзине и Тайбэе. Компания много лет удерживает первое место в Китае по доле рынка быстрорастворимой лапши (около 40%) и готового чая, а также разливает и дистрибутирует газированные напитки PepsiCo и Gatorade на материковом Китае.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Tingyi.png"
     },
     {
       "id": "teda",
@@ -2389,7 +2405,8 @@
       "category_ru": null,
       "desc_en": "Bilibili was founded in 2009 by Xu Yi as an anime and comics fan site, headquartered in Shanghai. It grew into a major video platform known for its 'danmu' scrolling-comment culture, covering anime, gaming, education, and entertainment content. It listed on NASDAQ in 2018 with a secondary Hong Kong listing in 2021. Monthly active users exceed 300 million, and the company also operates a game publishing business.",
       "desc_ru": "Bilibili основана в 2009 году Сюй И как сайт для фанатов аниме и комиксов, штаб-квартира в Шанхае. Крупная видео-платформа с культурой «данму» (плавающих комментариев поверх видео), охватывающая аниме, игры, образовательный и развлекательный контент. Провела IPO на NASDAQ в 2018 году и вторичный листинг в Гонконге в 2021-м. Аудитория превышает 300 млн пользователей в месяц.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bilibili.png"
     },
     {
       "id": "xiaohongshu-red",
@@ -2433,7 +2450,8 @@
       "category_ru": null,
       "desc_en": "YI Technology (Xiaoyi), founded in Shanghai in February 2014 by Shengwei 'Sean' Da, began as a Xiaomi-ecosystem partner making the Xiaomi Yi action camera before splitting off its own Xiaoyi brand in 2016 (Xiaomi remains a shareholder). The company develops smart home cameras, dash cams and action cameras built on in-house computer-vision and image-processing chips and AI algorithms, sold in China and internationally under the YI brand.",
       "desc_ru": "YI Technology (小蚁科技, Xiaoyi), основанная в Шанхае в феврале 2014 года Дэ Шэнвэем, начинала как партнёр экосистемы Xiaomi, выпускавший экшн-камеру Xiaomi Yi, а в 2016 году выделила собственный бренд Xiaoyi (Xiaomi остаётся акционером). Компания разрабатывает умные домашние камеры, видеорегистраторы и экшн-камеры на базе собственных чипов компьютерного зрения и алгоритмов обработки изображений, продаёт продукцию в Китае и за рубежом под брендом YI.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/YI Technology.png"
     },
     {
       "id": "l-or-al",
@@ -2491,7 +2509,8 @@
       "category_ru": null,
       "desc_en": "Design and innovation consultancy founded in 1969 in Mutlangen, Germany, by Hartmut Esslinger as \"esslinger design\"; renamed frog, it opened its main California office in 1982. Known for shaping Apple's early industrial design language (the \"Snow White\" line) plus work for Sony, Louis Vuitton, Microsoft and NEC. Now part of Capgemini Invent, combining product design, branding and digital strategy.",
       "desc_ru": "Дизайн-консалтинг, основанный в 1969 году в немецком Мутлангене Хартмутом Эсслингером как «esslinger design»; переименован во frog, в 1982 году открыл офис в Калифорнии. Известен формированием раннего индустриального дизайна Apple (концепция «Snow White»), а также работой для Sony, Louis Vuitton, Microsoft и NEC. Сегодня входит в Capgemini Invent, сочетая продуктовый дизайн, брендинг и цифровую стратегию.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/frog design.png"
     },
     {
       "id": "ideo",
@@ -2505,7 +2524,8 @@
       "category_ru": null,
       "desc_en": "Human-centered design consultancy formed in 1991 through the merger of David Kelley Design, ID Two (Bill Moggridge) and Matrix Product Design (Mike Nuttall), headquartered in Palo Alto, California. Pioneered \"design thinking,\" later taught at Stanford's d.school, co-founded by David Kelley. Notable projects include the first Apple mouse, the Palm V, and P&G's Swiffer sweeper.",
       "desc_ru": "Дизайн-консалтинг, ориентированный на человека, образован в 1991 году слиянием David Kelley Design, ID Two (Билл Моггридж) и Matrix Product Design (Майк Наттолл); штаб-квартира в Пало-Альто. Пионер методологии «дизайн-мышления», позже преподаваемой в Stanford d.school, соучредителем которой стал Дэвид Келли. Среди проектов — первая мышь Apple, Palm V и швабра Swiffer для P&G.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/IDEO.png"
     },
     {
       "id": "bright-dairy",
@@ -2549,7 +2569,8 @@
       "category_ru": null,
       "desc_en": "State-linked developer and operator of Shanghai's Zhangjiang Hi-Tech Park (established 1992, part of Zhangjiang Science City in Pudong), publicly listed as Shanghai Zhangjiang Hi-Tech Park Development Co. (SSE: 600895) since 1996. The park hosts over 18,000 enterprises, including 53 multinational regional HQs, focused on integrated circuits, biomedicine and AI — home to SMIC, Hutchmed and Shanghai MicroPort.",
       "desc_ru": "Оператор технопарка Zhangjiang в Шанхае (основан в 1992 году, часть «Науки-города» Zhangjiang в Пудуне), публичная компания Shanghai Zhangjiang Hi-Tech Park Development (SSE: 600895) с 1996 года. В парке работает свыше 18 000 предприятий, включая 53 региональных штаб-квартиры ТНК, специализирующихся на микроэлектронике, биомедицине и ИИ — здесь расположены SMIC, Hutchmed, Shanghai MicroPort.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Zhangjiang Hi-Tech.png"
     },
     {
       "id": "shanghai-electric",
@@ -2606,7 +2627,8 @@
       "category_ru": null,
       "desc_en": "There is no single, universally recognized site officially called a \"benchmark community/subdistrict\" — this is a generic label Shanghai uses for model residential communities and subdistrict (street) offices that the city showcases to visiting delegations as examples of grassroots governance. Such visits typically take place in districts such as Hongkou, Pudong or Putuo and cover the \"One Network for Urban Governance\" (yiwang tongguan) digital platform, the \"Community Cloud\" information system, and party-led neighborhood management models; the exact site and itinerary are chosen by the host for each individual delegation.",
       "desc_ru": "Единого общепризнанного объекта под названием «эталонное сообщество/квартал» не существует — это собирательное обозначение для показательных жилых кварталов и уличных комитетов Шанхая, которые город демонстрирует делегациям как образцы низового управления. Такие визиты обычно проходят на площадках районов вроде Хункоу, Пудуна или Путо и знакомят с цифровой платформой «Одна сеть управления» («и ван тун гуань»), системой «Облако сообщества» и моделью партийного руководства кварталом; конкретный маршрут и название объекта определяются принимающей стороной под каждую делегацию.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Benchmark.png"
     },
     {
       "id": "deepblue-technology",
@@ -2723,7 +2745,8 @@
       "category_ru": null,
       "desc_en": "A milk-tea and fruit-tea chain founded in Shanghai around 2010–2012 as a mainland China brand linked to Taiwan's 50嵐 (\"50 Lan\") chain, created because the \"50 Lan\" name was already registered in mainland China. By 2021 it had grown to over 4,000 stores across China (891 new stores opened in 2019 alone), operates via multiple franchise formats (takeout kiosks, standard stores, flagship stores), and has also expanded to the US, South Korea, and Japan.",
       "desc_ru": "Сеть чайных напитков (молочный чай/фруктовый чай), основана в Шанхае в 2010–2012 гг. как материковый бренд, связанный с тайваньской сетью 50嵐 («50 Lan»), поскольку название 50嵐 было уже зарегистрировано в материковом Китае. К 2021 году насчитывала свыше 4000 точек по Китаю (в 2019 году открыто 891 новая точка), работает по нескольким франчайзинговым форматам (киоски навынос, стандартные точки, флагманские магазины), также вышла на рынки США, Южной Кореи и Японии.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ALittleTea.png"
     },
     {
       "id": "luckin-coffee",
@@ -2937,7 +2960,8 @@
       "category_ru": null,
       "desc_en": "Shanghai Disney Resort opened on 16 June 2016 as a joint venture between The Walt Disney Company and the state-owned Shanghai Shendi Group (roughly 57% Chinese ownership, 43% Disney). It is the first Disney park on mainland China and the ninth Disney park in the world, with the project representing an investment of about US$5.5 billion. The resort's first phase covers roughly 963 acres (about 390 hectares) in Pudong, making it one of the largest foreign investment projects in Shanghai's history.",
       "desc_ru": "Шанхайский Диснейленд открылся 16 июня 2016 года как совместное предприятие The Walt Disney Company и государственной Shanghai Shendi Group (доля China Tourism Group ~57%, Disney ~43%). Это первый парк Disney на материковом Китае и девятый в мире, инвестиции в проект оценивались примерно в 5,5 млрд долларов США. Территория первой очереди курорта занимает около 390 га (963 акра) в районе Пудун, что делает его одним из крупнейших иностранных инвестпроектов в истории Шанхая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Disney.png"
     },
     {
       "id": "bwi-group",
@@ -2965,7 +2989,8 @@
       "category_ru": null,
       "desc_en": "Youzu Interactive was founded in 2009 by Lin Qi, headquartered in Shanghai. It develops and publishes mobile and online games, notable for titles such as Game of Sultans and various SLG strategy games for both domestic and international markets. Shares trade on the Shenzhen Stock Exchange. Founder Lin Qi died in 2020 after being poisoned, a case that drew widespread public attention in China.",
       "desc_ru": "Youzu Interactive (游族网络) основана в 2009 году Линь Ци, штаб-квартира в Шанхае. Разработчик и издатель мобильных и онлайн-игр, известный такими проектами, как «Game of Sultans» и стратегии в жанре SLG для международного и китайского рынков. Акции компании торгуются на Шэньчжэньской фондовой бирже. Основатель Линь Ци погиб в 2020 году в результате отравления, дело получило широкий общественный резонанс в Китае.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Youzu.png"
     },
     {
       "id": "jiangnan-shipyard",
@@ -3138,7 +3163,8 @@
       "category_ru": null,
       "desc_en": "CSOT (China Star Optoelectronics Technology, 华星光电), founded in Shenzhen in November 2009, is the display-panel subsidiary of TCL Technology. It produces LCD, OLED, quantum-dot and MicroLED panels for TVs, monitors and mobile devices at fabs in Shenzhen, Wuhan, Guangzhou and a joint venture in India, ranking among the world's top three TV-panel makers and a key supplier to global brands including Samsung and LG.",
       "desc_ru": "CSOT (China Star Optoelectronics Technology, 华星光电), основанная в Шэньчжэне в ноябре 2009 года, — подразделение дисплейных панелей TCL Technology. Компания выпускает ЖК-, OLED-, квантово-точечные и MicroLED-панели для телевизоров, мониторов и мобильных устройств на заводах в Шэньчжэне, Ухане, Гуанчжоу и совместном предприятии в Индии, входит в тройку крупнейших производителей ТВ-панелей и поставляет продукцию Samsung, LG и другим брендам.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/CSOT.png"
     },
     {
       "id": "dji",
@@ -3238,7 +3264,8 @@
       "category_ru": null,
       "desc_en": "Global professional services firm headquartered in Dublin, Ireland, tracing its roots to 1951 as the consulting arm of accounting firm Arthur Andersen. Operated as Andersen Consulting from 1989 until splitting from Andersen and rebranding as Accenture in 2001. Today it employs roughly 770,000-780,000 people across 120+ countries, with FY2024 revenue near $65 billion, spanning strategy, technology and digital transformation.",
       "desc_ru": "Глобальная консалтинговая компания со штаб-квартирой в Дублине, берущая начало в 1951 году как подразделение Arthur Andersen. С 1989 года работала как Andersen Consulting, а в 2001 году после разрыва с Andersen получила название Accenture. Сегодня в компании около 770–780 тыс. сотрудников в более чем 120 странах, выручка за 2024 финансовый год — около $65 млрд; направления — стратегия, технологии, цифровая трансформация.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/accenture.png"
     },
     {
       "id": "cimc",
@@ -3340,7 +3367,8 @@
       "category_ru": null,
       "desc_en": "Overseas Chinese Town (OCT Group) is a major state-owned cultural-tourism conglomerate founded in Shenzhen in 1985 and supervised by China's State Council SASAC. The company built China's first theme park, Splendid China (1989), followed by Window of the World and the multi-city Happy Valley theme park chain. According to the group, its attractions draw about 50 million visitors annually and have received nearly 400 million visitors cumulatively, ranking OCT first in Asia among tourism operators by that measure.",
       "desc_ru": "Overseas Chinese Town (OCT Group, «Хуацяочэн») — крупный государственный конгломерат в сфере культуры и туризма, основан в 1985 году в Шэньчжэне под контролем Комиссии по контролю и управлению государственным имуществом при Госсовете КНР. Компания построила первый в стране тематический парк «Великолепный Китай» (1989), а также «Окно мира» и сеть парков Happy Valley в нескольких городах. По данным группы, её объекты ежегодно принимают порядка 50 млн туристов, а суммарная посещаемость превысила 400 млн человек — по этому показателю OCT занимает первое место в Азии среди туристических операторов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/OCT.png"
     },
     {
       "id": "shenzhen-stock-exchange",
@@ -3382,7 +3410,8 @@
       "category_ru": null,
       "desc_en": "Skyworth (创维), founded in 1988 in Shenzhen, makes televisions, set-top boxes and consumer electronics, exporting to over 100 countries. It also produces monitors, displays, automotive electronics and smart-home solutions, with manufacturing facilities in Shenzhen, Guangzhou, Ningbo and Wuhan, plus plants in Mexico and Indonesia (the latter acquired from Toshiba's former TV plant).",
       "desc_ru": "Skyworth (创维), основана в 1988 году в Шэньчжэне, — производитель телевизоров, приставок и бытовой электроники, экспортирующий продукцию более чем в 100 стран. Компания также выпускает мониторы, дисплеи, автомобильную электронику и решения для умного дома; производственные площадки расположены в Шэньчжэне, Гуанчжоу, Нинбо, Уханьи, а также в Мексике и Индонезии (завод куплен у Toshiba).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Skyworth.png"
     },
     {
       "id": "vanke",
@@ -3439,7 +3468,8 @@
       "category_ru": null,
       "desc_en": "Royole Corporation, founded in Shenzhen in 2012 by Stanford-trained engineer Liu Zihong, pioneered flexible AMOLED displays and released the FlexPai, the world's first commercial foldable smartphone, in 2018. Once valued near $6 billion, it collapsed under wage arrears and debt from 2021; a Shenzhen court ordered Royole and its subsidiaries into bankruptcy liquidation in November 2024, with the founder now under consumption restrictions.",
       "desc_ru": "Royole Corporation, основанная в Шэньчжэне в 2012 году выпускником Стэнфорда Лю Цзыхуном, первой разработала гибкие AMOLED-дисплеи и в 2018 году выпустила FlexPai — первый в мире серийный складной смартфон. Когда-то оценивавшаяся почти в $6 млрд, компания с 2021 года столкнулась с долгами и задержками зарплат; в ноябре 2024 года суд Шэньчжэня признал Royole и её «дочки» банкротами, а основателя ограничили в потреблении.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Royole.png"
     },
     {
       "id": "evoc",
@@ -3453,7 +3483,8 @@
       "category_ru": null,
       "desc_en": "EVOC Intelligent Technology (研祥), founded in Shenzhen in 1993, is China's largest maker of specialized and embedded industrial computers, covering embedded single-board computers, panel PCs, rugged laptops and fanless rack- and wall-mount industrial computers. Listed on the Hong Kong Stock Exchange since 2003 (stock code 8285), it supplies rail transport, energy, defense, telecom and industrial-automation customers across China.",
       "desc_ru": "EVOC Intelligent Technology (研祥), основанная в Шэньчжэне в 1993 году, — крупнейший в Китае производитель специализированных встраиваемых промышленных компьютеров: одноплатных модулей, панельных ПК, защищённых ноутбуков и безвентиляторных стоечных и настенных промышленных компьютеров. С 2003 года акции торгуются на Гонконгской бирже (код 8285); компания поставляет оборудование для железных дорог, энергетики, обороны, телекома и промышленной автоматизации.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/EVOC.png"
     },
     {
       "id": "kingdee",
@@ -3467,7 +3498,8 @@
       "category_ru": null,
       "desc_en": "Kingdee International was founded in 1993 by Xu Shaochun, headquartered in Shenzhen. It is a leading Chinese developer of enterprise management and ERP software, including the Kingdee Cloud Cosmic platform. Shares trade on the Hong Kong Stock Exchange (0268.HK). Its main domestic rival is Yonyou, while it also competes with SAP and Oracle for mid-market and large enterprise clients.",
       "desc_ru": "Kingdee International (金蝶软件) основана в 1993 году Сюй Шаочунем, штаб-квартира в Шэньчжэне. Один из ведущих китайских разработчиков корпоративного управленческого ПО и ERP-систем, включая облачную платформу Kingdee Cloud Cosmic. Акции котируются на Гонконгской фондовой бирже (0268.HK). Основной конкурент на внутреннем рынке — Yonyou, компания также соперничает с SAP и Oracle за клиентов среднего и крупного бизнеса.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Kingdee.png"
     },
     {
       "id": "fiyta",
@@ -3509,7 +3541,8 @@
       "category_ru": null,
       "desc_en": "Mango.com (芒果网) is an early Chinese online travel booking platform, established in the late 1990s/early 2000s and headquartered in Beijing. It offers flight, hotel, package tour, and visa booking services. It has at various times been affiliated with major conglomerates, including HNA Group. Mango operates in China's highly competitive online travel market alongside Ctrip (Trip.com) and Tuniu.",
       "desc_ru": "Mango (芒果网) — одна из ранних китайских онлайн-платформ бронирования путешествий, основанная в конце 1990-х – начале 2000-х годов, штаб-квартира в Пекине. Сервис предлагает бронирование авиабилетов, отелей, туристических пакетов и виз. В разное время был связан с крупными холдингами, включая HNA Group. Работает на высококонкурентном рынке онлайн-туризма Китая наряду с Ctrip (Trip.com) и Tuniu.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Mango.png"
     },
     {
       "id": "gac-toyota",
@@ -3613,7 +3646,8 @@
       "category_ru": null,
       "desc_en": "WeChat was launched by Tencent in 2011, developed by a team led by Allen Zhang (Zhang Xiaolong) in Guangzhou. The super-app combines messaging, the Moments social feed, third-party Mini Programs, and the WeChat Pay payment system. With over 1.3 billion monthly active users, WeChat functions as core digital infrastructure for daily life in China, spanning communication, payments, and government services.",
       "desc_ru": "WeChat (微信) запущен Tencent в 2011 году командой под руководством Аллена Чжана (Zhang Xiaolong), разработка велась в Гуанчжоу. Супер-приложение объединяет мессенджер, соцсеть «Моменты», мини-программы для сторонних сервисов и платёжную систему WeChat Pay. Ежемесячная аудитория превышает 1,3 млрд пользователей, что делает WeChat центральной цифровой инфраструктурой повседневной жизни в Китае — от общения до оплаты и госуслуг.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/WeChat.png"
     },
     {
       "id": "by-health",
@@ -3641,7 +3675,8 @@
       "category_ru": null,
       "desc_en": "VIP.com was founded in 2008 by Shen Ya and Hong Xiaobo, headquartered in Guangzhou. It operates a flash-sale e-commerce platform for discounted branded apparel, footwear, and cosmetics, functioning as an 'online outlet.' It listed on the NYSE in 2012 (ticker VIPS). The company pursues a focused discount-retail niche distinct from Alibaba's and JD.com's general marketplaces, maintaining profitability through specialization.",
       "desc_ru": "VIP.com (唯品会) основана в 2008 году Шэнь Я и Хун Сяобо, штаб-квартира в Гуанчжоу. Платформа флэш-распродаж брендовой одежды, обуви и косметики со скидками, работающая по модели «онлайн-аутлета». Провела IPO на NYSE в 2012 году (тикер VIPS). Компания фокусируется на нишевой стратегии скидочной торговли, в отличие от универсальных маркетплейсов Alibaba и JD.com, и сохраняет прибыльность за счёт узкой специализации.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/VIP.com.png"
     },
     {
       "id": "shangpin-home",
@@ -3741,7 +3776,8 @@
       "category_ru": null,
       "desc_en": "CVTE (Guangzhou Shiyuan Electronic Technology, 视源股份), founded in Guangzhou in 2005 and listed on the Shenzhen Stock Exchange since 2017, designs LCD mainboards for TVs and monitors and produces two flagship brands: Seewo, China's top-selling interactive flat panel for classrooms, installed in over a million rooms worldwide, and MAXHUB, an enterprise videoconferencing and collaboration platform. Group revenue exceeds 20 billion yuan annually.",
       "desc_ru": "CVTE (Guangzhou Shiyuan Electronic Technology, 视源股份), основанная в Гуанчжоу в 2005 году и торгующаяся на Шэньчжэньской бирже с 2017-го, разрабатывает платы для ЖК-телевизоров и мониторов, а также выпускает продукцию под двумя брендами: Seewo — лидер китайского рынка интерактивных панелей для школ, установленных более чем в миллионе классов по всему миру, и MAXHUB — платформу для видеоконференций. Выручка группы превышает 20 млрд юаней в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/CVTE.png"
     },
     {
       "id": "wens-foodstuff",
@@ -3856,7 +3892,8 @@
       "category_ru": null,
       "desc_en": "Panasonic Holdings, founded in Osaka in 1918 by Konosuke Matsushita as Matsushita Electric and renamed Panasonic in 2008, is a diversified Japanese electronics group spanning home appliances, air conditioning and HVAC, avionics, and automotive and industrial batteries, including a long-running EV-battery partnership with Tesla. Listed on the Tokyo Stock Exchange, it employs around 230,000 people and reports annual revenue of roughly 8 trillion yen.",
       "desc_ru": "Panasonic Holdings, основанная в Осаке в 1918 году Коносукэ Мацуситой как Matsushita Electric и переименованная в Panasonic в 2008-м, — диверсифицированный японский концерн электроники: бытовая техника, кондиционирование и HVAC, авионика, автомобильные и промышленные аккумуляторы, включая многолетнее партнёрство с Tesla по батареям для электромобилей. Акции торгуются на Токийской бирже, штат — около 230 тыс. человек, выручка — порядка 8 трлн иен в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Panasonic.png"
     },
     {
       "id": "pg-logistics",
@@ -3999,7 +4036,8 @@
       "category_ru": null,
       "desc_en": "Galanz (格兰仕) is a Chinese home-appliance manufacturer headquartered in Shunde, Foshan, founded in 1978 and focused on microwave ovens since 1992. In 1998 it became the world's largest microwave oven manufacturer (around 40% global market share) and later expanded into air conditioners as a first-tier global brand. Its products are sold in nearly 200 countries, with production bases in Shunde and Zhongshan.",
       "desc_ru": "Galanz (格兰仕) — китайский производитель бытовой техники со штаб-квартирой в Шуньдэ, Фошань, основанный в 1978 году; с 1992 года специализируется на СВЧ-печах. В 1998 году стал крупнейшим в мире производителем микроволновых печей (около 40% мирового рынка) и позже вошёл в число ведущих мировых брендов кондиционеров. Продукция компании поставляется почти в 200 стран, а производственные мощности расположены в Шуньдэ и Чжуншане.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Galanz.png"
     },
     {
       "id": "oppein",
@@ -4071,7 +4109,8 @@
       "category_ru": null,
       "desc_en": "Hangzhou Hikvision Digital Technology, founded in 2001 and partly state-owned through China Electronics Technology Group, is the world's largest maker of video-surveillance equipment, covering CCTV cameras, NVRs, AIoT platforms and machine-vision systems. Listed on the Shenzhen Stock Exchange, it generates annual revenue near 90 billion yuan, but has faced US Entity List sanctions and export restrictions since 2019 over human-rights concerns in Xinjiang.",
       "desc_ru": "Hangzhou Hikvision Digital Technology, основанная в 2001 году и частично принадлежащая государственной China Electronics Technology Group, — крупнейший в мире производитель оборудования для видеонаблюдения: камер, видеорегистраторов, AIoT-платформ и систем машинного зрения. Акции торгуются на Шэньчжэньской бирже, выручка — около 90 млрд юаней в год; с 2019 года компания под санкциями США (Entity List) из-за претензий к правам человека в Синьцзяне.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Hikvision.png"
     },
     {
       "id": "wahaha",
@@ -4129,7 +4168,8 @@
       "category_ru": null,
       "desc_en": "Fotile (Ningbo Fotile Kitchen Ware), founded in Ningbo, Zhejiang in 1996 by Mao Zhongqun, built its business on a smoke-detecting range hood and grew into China's leading premium kitchen-appliance maker, selling range hoods, built-in cooktops, steam ovens, dishwashers and integrated kitchen systems. Privately held, it surpassed 10 billion yuan in annual sales in 2017, holds one of the industry's largest patent portfolios, and has expanded into the US and Canada.",
       "desc_ru": "Fotile (Ningbo Fotile Kitchen Ware), основанная в Нинбо (провинция Чжэцзян) в 1996 году Мао Чжунцюнем, начала с вытяжки с функцией обнаружения утечки газа и выросла в ведущего китайского производителя премиальной кухонной техники: вытяжки, встраиваемые варочные панели, пароварки, посудомоечные машины, интегрированные кухонные системы. Частная компания, в 2017 году превысила по продажам 10 млрд юаней, владеет одним из крупнейших патентных портфелей отрасли, выходит на рынки США и Канады.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Fotile.png"
     },
     {
       "id": "robam",
@@ -4143,7 +4183,8 @@
       "category_ru": null,
       "desc_en": "Hangzhou Robam Appliances Co., Ltd. (老板电器), founded in 2000 and based in Hangzhou, develops and manufactures household kitchen appliances, primarily range hoods, gas stoves, dishwashers, steam ovens and disinfection cabinets. It is known for range hoods engineered specifically for Chinese-style cooking and is a leading player in that category in China; the company is publicly listed on the Shenzhen Stock Exchange (ticker 002508). It also sells through subsidiaries in markets such as the US, Canada, Australia and Southeast Asia.",
       "desc_ru": "Ляньчжоуская компания Robam Appliances (老板电器), основанная в 2000 году, разрабатывает и производит кухонную бытовую технику: кухонные вытяжки, газовые плиты, посудомоечные машины, паровые печи и другую технику. Компания специализируется на вытяжках, адаптированных под особенности китайской кухни, и является одним из ведущих производителей этой категории в Китае; акции торгуются на Шэньчжэньской бирже (тикер 002508). Присутствует на международных рынках, включая США, Канаду, Австралию и Юго-Восточную Азию.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Robam.png"
     },
     {
       "id": "joyoung",
@@ -4157,7 +4198,8 @@
       "category_ru": null,
       "desc_en": "Joyoung, founded in Jinan, Shandong in 1994 by Wang Xuning, pioneered China's automatic soybean-milk maker in 1996 and grew into a leading small-kitchen-appliance brand covering blenders, rice cookers, air fryers and food processors. Listed on the Shanghai Stock Exchange, it has been majority-owned since 2017 by JS Global Lifestyle (also SharkNinja's parent), and reports annual revenue of roughly 8-10 billion yuan.",
       "desc_ru": "Joyoung, основанная в Цзинане (провинция Шаньдун) в 1994 году Ван Сюйнином, в 1996 году выпустила первую в Китае автоматическую соеварку и выросла в ведущий бренд малой кухонной техники: блендеры, рисоварки, аэрогрили, кухонные комбайны. Акции торгуются на Шанхайской бирже; с 2017 года контрольный пакет принадлежит JS Global Lifestyle (также владеет SharkNinja), выручка составляет примерно 8-10 млрд юаней в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Joyoung.png"
     },
     {
       "id": "kuka-home",
@@ -4241,7 +4283,8 @@
       "category_ru": null,
       "desc_en": "Youzan was founded in 2012 by Zhu Ning (White), headquartered in Hangzhou. It is a SaaS platform providing tools for online merchants, including storefront builders, CRM, marketing modules, and integration with WeChat Mini Programs. The company helps small and medium businesses build direct-to-consumer sales channels outside major marketplaces. Shares trade on the Hong Kong Stock Exchange's GEM board (8083.HK).",
       "desc_ru": "Youzan (有赞) основана в 2012 году Чжу Нином, штаб-квартира в Ханчжоу. SaaS-платформа, предоставляющая инструменты для онлайн-продавцов: конструктор магазинов, CRM, маркетинговые модули, интеграцию с WeChat и мини-программами. Компания помогает малому и среднему бизнесу выстраивать собственные каналы продаж вне крупных маркетплейсов. Акции котируются на Гонконгской бирже (GEM, тикер 8083.HK).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Youzan.png"
     },
     {
       "id": "greentown",
@@ -4269,7 +4312,8 @@
       "category_ru": null,
       "desc_en": "Wuyou Media is an MCN (multi-channel network) agency founded in 2017, headquartered in Hangzhou. It is one of China's largest influencer management agencies, specializing in short-video and livestreaming content on Douyin and Kuaishou. The company handles content production, influencer incubation, and live-commerce operations, working with thousands of content creators and advertising brands.",
       "desc_ru": "Wuyou Media (无忧传媒) — MCN-агентство, основанное в 2017 году, штаб-квартира в Ханчжоу. Одно из крупнейших агентств по управлению блогерами и лидерами мнений в Китае, специализирующееся на коротких видео и прямых трансляциях на платформах Douyin и Kuaishou. Компания занимается созданием контента, продюсированием инфлюенсеров и организацией live-коммерции, сотрудничая с тысячами создателей контента и брендами-рекламодателями.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Wuyou Media.png"
     },
     {
       "id": "hupan-university",
@@ -4297,7 +4341,8 @@
       "category_ru": null,
       "desc_en": "Yunji was founded in 2015 by Xiao Sheng and Lin Fei, headquartered in Hangzhou. It launched as a social e-commerce platform built on a membership model, with distributors promoting products through personal social networks. It listed on NASDAQ in 2019 (ticker YJ). The company later pivoted toward curated product selection and supply-chain services under the Yunji Youxuan brand, moving away from direct social selling.",
       "desc_ru": "Yunji (云集) основана в 2015 году Сяо Шэном и Линь Фэем, штаб-квартира в Ханчжоу. Платформа социальной коммерции, изначально работавшая по членской модели с дистрибьюторами, продвигающими товары через личные социальные сети. Провела IPO на NASDAQ в 2019 году (тикер YJ). Позже компания трансформировалась в сервис курируемого отбора товаров и цепочки поставок под брендом Yunji Youxuan, сместив фокус с прямых продаж.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Yunji.png"
     },
     {
       "id": "wensli",
@@ -4340,7 +4385,8 @@
       "category_ru": null,
       "desc_en": "Souche was founded in 2011 by Yang Fan, headquartered in Hangzhou. It is a technology platform for China's used-car market, providing SaaS tools for dealers, transaction financing, and vehicle valuation data. Positioning itself as an 'internet+' infrastructure provider for the auto industry, it has received investment from Alibaba, Tencent, and GGV Capital, and works with a broad network of dealerships nationwide.",
       "desc_ru": "Souche (大搜车) основана в 2011 году Ян Фанем, штаб-квартира в Ханчжоу. Технологическая платформа для рынка подержанных автомобилей, предоставляющая SaaS-решения дилерам, финансирование сделок и данные для оценки автомобилей. Компания позиционирует себя как поставщик «интернет+» инфраструктуры для автопрома, получив инвестиции от Alibaba, Tencent и GGV Capital. Работает с широкой сетью дилерских центров по всему Китаю.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Souche.png"
     },
     {
       "id": "zhejiang-university",
@@ -4354,7 +4400,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1897 in Hangzhou as the Qiushi Academy, one of China's first modern institutions of higher learning; took the name Zhejiang University in 1928 and merged with three sister institutions in 1998. Spans seven campuses with roughly 3,600 faculty (including 41 members of China's national academies) and over 53,000 students. Consistently ranks among China's top three universities and world top 50-100 (QS, THE).",
       "desc_ru": "Основан в 1897 году в Ханчжоу как академия Цюши — одно из первых современных высших заведений Китая; название «Чжэцзянский университет» получил в 1928 году, в 1998 году объединился с тремя родственными вузами. Семь кампусов, около 3600 преподавателей (включая 41 академика) и более 53 000 студентов. Стабильно входит в тройку лучших вузов Китая и в мировой топ-50–100 (QS, THE), силён в инженерии, медицине и информатике.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Zhejiang University.png"
     },
     {
       "id": "huali-group",
@@ -4554,7 +4601,8 @@
       "category_ru": null,
       "desc_en": "Phoenix Contact is a German family-owned electrical engineering group founded in 1923 in Essen, headquartered since 1958 in Blomberg. It makes terminal blocks, industrial connectors, automation technology and components for renewable energy and EV charging. Privately held, not publicly traded, the group reported revenue above EUR 3.4 billion in 2023, employs over 22,000 people, and operates in more than 100 countries.",
       "desc_ru": "Phoenix Contact — немецкий семейный концерн, основанный в 1923 году в Эссене, штаб-квартира с 1958 года в Бломберге. Выпускает клеммные блоки, промышленные разъёмы, автоматизацию, компоненты для энергетики и зарядной инфраструктуры электромобилей. Остаётся частной, не котируется на бирже. Выручка группы превышает 3,4 млрд евро (2023), свыше 22 000 сотрудников, офисы более чем в 100 странах.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Phoenix Contact.png"
     },
     {
       "id": "saic-maxus",
@@ -4583,7 +4631,8 @@
       "category_ru": null,
       "desc_en": "A. O. Smith is a US maker of residential and commercial water heaters and water treatment systems, founded in 1874 and headquartered in Milwaukee, Wisconsin. Listed on the NYSE (AOS), it is North America's largest water heater manufacturer and, via A. O. Smith China (established 1998), a leading water heater brand in China. Group revenue was about USD 3.8 billion in 2023, with more than 12,000 employees worldwide.",
       "desc_ru": "A. O. Smith — американский производитель водонагревателей и систем водоочистки, основанный в 1874 году, штаб-квартира в Милуоки (Висконсин). Котируется на NYSE (AOS). Крупнейший производитель водонагревателей в Северной Америке, также лидер рынка КНР через дочернюю A. O. Smith China (с 1998 года). Выручка группы — около 3,8 млрд долларов США (2023), штат — свыше 12 000 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/A.O. Smith.png"
     },
     {
       "id": "suning",
@@ -4625,7 +4674,8 @@
       "category_ru": null,
       "desc_en": "Daikin Industries is a Japanese climate-control manufacturer founded in 1924 in Osaka, still headquartered there. It is the world's largest HVAC equipment maker by revenue, also producing refrigeration systems and fluorochemicals. Listed on the Tokyo Stock Exchange, the group reported annual revenue exceeding JPY 4 trillion (roughly USD 27 billion), with more than 96,000 employees and operations in over 170 countries.",
       "desc_ru": "Daikin Industries — японский производитель систем кондиционирования, основанный в 1924 году в Осаке, где до сих пор находится штаб-квартира. Крупнейший в мире производитель оборудования HVAC по выручке, также выпускает холодильную технику и фторхимию. Акции торгуются на Токийской бирже. Годовая выручка превышает 4 трлн иен (~27 млрд долларов США), штат — свыше 96 000 сотрудников в 170+ странах.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Daikin.png"
     },
     {
       "id": "gcl",
@@ -4653,7 +4703,8 @@
       "category_ru": null,
       "desc_en": "AUO (AU Optronics, 友達光電) is a Taiwanese display maker formed in 2001 through the merger of Acer Display Technology and Unipac Optoelectronics, headquartered in Hsinchu. It produces TFT-LCD, mini-LED and micro-LED panels for TVs, monitors, notebooks and automotive displays. Listed on the Taiwan Stock Exchange and NYSE (as ADRs), it posts annual revenue of roughly NT$300 billion (about USD 9-10 billion).",
       "desc_ru": "AUO (友达光电) — тайваньский производитель дисплеев, образованный в 2001 году слиянием Acer Display Technology и Unipac Optoelectronics; штаб-квартира в Синьчжу. Выпускает панели TFT-LCD, mini-LED и микро-LED для телевизоров, мониторов, ноутбуков и автомобильных дисплеев. Котируется на Тайваньской бирже и NYSE (ADR). Выручка группы — около 300 млрд новых тайваньских долларов (~9-10 млрд USD) в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/AUO.png"
     },
     {
       "id": "ecovacs",
@@ -4710,7 +4761,8 @@
       "category_ru": null,
       "desc_en": "LG Display is a South Korean display maker spun off from LG Electronics in 1999 as LG.Philips LCD, a joint venture with Philips, renamed LG Display in 2008. Headquartered in Seoul, it is a global leader in OLED panels for smartphones, TVs, laptops and cars alongside LCD. Listed on the Korea Exchange and NYSE (ADR), it reported revenue of about KRW 21 trillion (roughly USD 16 billion) in 2023 with 27,000+ employees.",
       "desc_ru": "LG Display — южнокорейский производитель дисплеев, выделенный из LG Electronics в 1999 году как LG.Philips LCD (СП с Philips), переименован в LG Display в 2008 году. Штаб-квартира в Сеуле. Мировой лидер по OLED-панелям для смартфонов, телевизоров, ноутбуков и авто наряду с LCD. Котируется на Корейской бирже и NYSE (ADR). Выручка — около 21 трлн вон (~16 млрд USD, 2023), штат — свыше 27 000 человек.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/LG Display.png"
     },
     {
       "id": "glp",
@@ -4752,7 +4804,8 @@
       "category_ru": null,
       "desc_en": "Tuniu was founded in 2006 by Yu Dunde, headquartered in Nanjing. It is an online travel agency specializing in packaged tours, including both group and individual travel within China and abroad. It listed on NASDAQ in 2014 (ticker TOUR). Tuniu competes with Ctrip (Trip.com) and Mango, emphasizing bundled tour packages that combine flights, hotels, and guided excursions.",
       "desc_ru": "Tuniu (途牛) основана в 2006 году Юй Дундэ, штаб-квартира в Нанкине. Онлайн-турагентство, специализирующееся на организованных пакетных турах, групповых и индивидуальных путешествиях по Китаю и за рубежом. Провела IPO на NASDAQ в 2014 году (тикер TOUR). Компания конкурирует с Ctrip (Trip.com) и Mango, делая акцент на комплексных турпакетах, включающих перелёты, отели и экскурсионные программы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Tuniu.png"
     },
     {
       "id": "nanjing-metro",
@@ -4780,7 +4833,8 @@
       "category_ru": null,
       "desc_en": "Sharp Corporation is a Japanese electronics maker founded in 1912 in Osaka, originally a metalworks that invented the \"Ever-Sharp\" mechanical pencil; headquartered in Sakai. It produces AQUOS TVs, LCD panels, home appliances and solar panels. Since 2016 it has been majority-owned by Taiwan's Foxconn. Listed on the Tokyo Stock Exchange, it posts annual revenue of about JPY 2 trillion (roughly USD 13-14 billion).",
       "desc_ru": "Sharp Corporation — японский производитель электроники, основанный в 1912 году в Осаке (изобрёл механический карандаш «Ever-Sharp»); штаб-квартира в Сакаи. Выпускает телевизоры AQUOS, ЖК-дисплеи, бытовую технику и солнечные панели. С 2016 года контрольный пакет принадлежит тайваньской Foxconn. Акции торгуются на Токийской бирже. Выручка — около 2 трлн иен (~13-14 млрд USD), штат — свыше 40 000 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Sharp.png"
     },
     {
       "id": "bayer",
@@ -4907,7 +4961,8 @@
       "category_ru": null,
       "desc_en": "Flex Ltd. (formerly Flextronics) is a contract electronics maker founded in 1969 in San Jose, California; now incorporated in Singapore with an operational hub in Austin, Texas. One of the world's largest EMS providers, it builds products for consumer electronics, automotive, medical and data-center clients across 100+ factories in about 30 countries. Listed on Nasdaq (FLEX), revenue was about USD 26 billion in fiscal 2024.",
       "desc_ru": "Flex Ltd. (бывшая Flextronics) — контрактный производитель электроники, основанный в 1969 году в Сан-Хосе; сегодня зарегистрирован в Сингапуре, операционный центр в Остине (Техас). Один из крупнейших в мире EMS-провайдеров: выпускает продукцию для клиентов из электроники, автопрома, медтехники и дата-центров на 100+ заводах в 30 странах. Котируется на Nasdaq (FLEX). Выручка — около 26 млрд USD (2024), штат — свыше 160 000 человек.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Flex.png"
     },
     {
       "id": "dreame-magic-lab",
@@ -4965,7 +5020,8 @@
       "category_ru": null,
       "desc_en": "Far East Holding Group is a Chinese industrial conglomerate founded in 1985 by Jiang Xipei in Wuxi, Jiangsu province. Its core business, Far East Cable, has ranked #1 in China's cable and wire industry by sales for 18 straight years, alongside a \"smart energy\" arm run through listed subsidiary Far East Smarter Energy (SSE: 600869). Far East Cable's annual turnover is estimated at about USD 3.3 billion.",
       "desc_ru": "Far East Holding Group (远东控股) — китайский промышленный конгломерат, основанный в 1985 году Цзян Сипэем в Уси (провинция Цзянсу). Ключевой актив — Far East Cable, крупнейший по продажам производитель кабельно-проводниковой продукции в Китае 18 лет подряд; развивает также «умную энергетику» через листинговую дочернюю Far East Smarter Energy (SSE: 600869). Оборот кабельного бизнеса — около 3,3 млрд USD в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Far East Holding.png"
     },
     {
       "id": "xcmg",
@@ -5154,7 +5210,8 @@
       "category_ru": null,
       "desc_en": "Sichuan Changhong Electric is a Chinese electronics maker founded in October 1958 in Mianyang, Sichuan, originally a military radar factory before pivoting to consumer electronics. It produces TVs (CHiQ brand), refrigerators, air conditioners and semiconductor components. The listed parent trades on the Shanghai Stock Exchange (600839.SH). Revenue exceeded CNY 100 billion (about USD 14 billion) in 2024, with over 45,000 employees.",
       "desc_ru": "Sichuan Changhong Electric (四川长虹) — китайский производитель электроники, основанный в октябре 1958 года в Мяньяне (Сычуань) как военный радиолокационный завод, позже переориентированный на бытовую технику. Выпускает телевизоры (бренд CHiQ), холодильники, кондиционеры и полупроводники. Головная компания котируется на бирже (SSE: 600839). Выручка группы превысила 100 млрд юаней (~14 млрд USD, 2024), штат — свыше 45 000 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Changhong.png"
     },
     {
       "id": "coca-cola",
@@ -5271,7 +5328,8 @@
       "category_ru": null,
       "desc_en": "Zhubajie (formerly Witmart) was founded in 2006 by Zhu Mingyue, headquartered in Chongqing. It is one of China's largest freelance and crowdsourcing marketplaces, comparable to Fiverr or Upwork, connecting clients with providers of design, software development, legal, and marketing services. The platform serves millions of registered users and positions itself as service infrastructure for small businesses.",
       "desc_ru": "Zhubajie (猪八戒网, ранее Witmart) основана в 2006 году Чжу Минъюэ, штаб-квартира в Чунцине. Одна из крупнейших в Китае бирж фриланс-услуг и краудсорсинга, аналог Fiverr или Upwork, соединяющая заказчиков с исполнителями в сферах дизайна, разработки ПО, юридических и маркетинговых услуг. Платформа обслуживает миллионы зарегистрированных пользователей и позиционируется как инфраструктура для сферы услуг малого бизнеса.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Zhubajie.png"
     },
     {
       "id": "meixin",
@@ -5486,7 +5544,8 @@
       "category_ru": null,
       "desc_en": "Yan'an in Shaanxi Province served as the headquarters of the Chinese Communist Party from 1935 to 1948: the Red Army settled there in October 1935 after completing the Long March, and the CPC Central Committee relocated to the city in January 1937, making it the command center of the resistance against Japan and the subsequent civil war, through the Party's 7th National Congress. Today Yan'an is one of China's leading \"red tourism\" destinations, preserving more than 440 revolutionary-era sites and roughly 30 party-history museums that regularly host cadres and visitors for revolutionary-education tours.",
       "desc_ru": "Яньань в провинции Шэньси был базой руководства Компартии Китая с 1935 по 1948 год: после завершения Великого похода Красная армия обосновалась здесь в октябре 1935 года, а в январе 1937-го сюда переехал ЦК КПК, сделав город центром сопротивления Японии и последующей гражданской войны, вплоть до VII съезда партии. Сегодня Яньань — один из главных центров «красного туризма» в Китае: в городе сохранилось свыше 440 памятных революционных мест и действует около 30 музеев, посвящённых истории партии, куда регулярно приезжают на «красное воспитание» партийные делегации и туристы.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Yan'an (red tourism).png"
     },
     {
       "id": "irico-rainbow",
@@ -5500,7 +5559,8 @@
       "category_ru": null,
       "desc_en": "IRICO Group is a Chinese electronics maker founded in 1978 in Xianyang, Shaanxi province (near Xi'an), originally producing cathode ray tubes. A 2007-2008 restructuring shifted it to LCD glass substrates and display components, fully exiting CRT by 2012. Its listed unit, IRICO Group Electronics, has traded on the Hong Kong Stock Exchange (0438.HK) since December 2004. The group has since expanded into solar photovoltaic glass production.",
       "desc_ru": "IRICO Group (彩虹集团, «Радуга») — китайский производитель электроники, основанный в 1978 году в Сяньяне (Шэньси, район Сианя) как завод электронно-лучевых трубок. После реорганизации 2007–2008 годов перешёл на выпуск стеклянных подложек для ЖК-дисплеев; в 2012 году свернул производство CRT. Дочерняя IRICO Group Electronics котируется на бирже Гонконга (HK: 0438) с 2004 года. Сейчас группа развивает также солнечные фотоэлектрические стёкла.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/IRICO.png"
     },
     {
       "id": "xac",
@@ -6062,7 +6122,8 @@
       "category_ru": null,
       "desc_en": "Changying (Changchun Film Studio) traces its history to the Northeast Film Company, founded on 1 October 1945 on the site of the former Japanese-era Manchuria Film Association studio; it was renamed Northeast Film Studio in 1946 and took its current name, Changchun Film Studio, in 1955. It is China's oldest film studio, credited with producing the new China's first feature film, first animated film, first science-education film and first dubbed film — earning it the title \"cradle of Chinese cinema.\"",
       "desc_ru": "Чанъинь (Changchun Film Studio) ведёт историю от Северо-Восточной кинокомпании, основанной 1 октября 1945 года на базе японской студии «Маньин» довоенного периода; в 1946 году она была переименована в Северо-Восточную киностудию, а в 1955-м получила нынешнее название — Чанчуньская киностудия. Это старейшая киностудия КНР, на которой были сняты первая полнометражная игровая картина, первый мультфильм, первый научно-популярный и первый дублированный фильм новой страны, за что студию называют колыбелью китайского кино.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Changying Film.png"
     },
     {
       "id": "hayao",
@@ -6192,7 +6253,8 @@
       "category_ru": null,
       "desc_en": "Dell Technologies is a US computer and server maker founded by Michael Dell in 1984 in Austin, Texas (originally as PC's Limited), headquartered in Round Rock, Texas. It is one of the world's largest PC, laptop, server and storage vendors, with a growing focus on data-center and AI infrastructure (PowerEdge servers). Listed on the NYSE (DELL), revenue was about USD 88.4 billion in fiscal 2024, with over 120,000 employees.",
       "desc_ru": "Dell Technologies — американский производитель компьютеров и серверов, основанный Майклом Деллом в 1984 году в Остине (первоначально PC's Limited); штаб-квартира в Раунд-Роке, Техас. Один из крупнейших в мире поставщиков ПК, ноутбуков, серверов и СХД, развивает решения для дата-центров и ИИ-инфраструктуры (серверы PowerEdge). Котируется на NYSE (DELL). Выручка — около 88,4 млрд USD (2024 фин. год), штат — свыше 120 000 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Dell.png"
     },
     {
       "id": "xiangyu",
@@ -6993,7 +7055,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1994 in Hangzhou, Supor is China's leading maker of cookware and small kitchen appliances, and has been controlled by France's Groupe SEB since 2006. It became the first publicly listed company in China's cookware industry in 2004 (Shenzhen Stock Exchange, code 002032) and holds the top market share in 14 product categories, exporting to over 50 countries.",
       "desc_ru": "Основанная в 1994 году в Ханчжоу компания Supor — крупнейший в Китае производитель посуды и мелкой кухонной бытовой техники, с 2006 года контролируется французской Groupe SEB. В 2004 году стала первой публичной компанией китайской индустрии посуды (Shenzhen Stock Exchange, код 002032) и удерживает первое место по доле рынка в 14 товарных категориях, экспортируя продукцию более чем в 50 стран.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Supor.png"
     },
     {
       "id": "xtalpi",
@@ -7441,7 +7504,8 @@
       "category_ru": null,
       "desc_en": "SMIC (Semiconductor Manufacturing International Corporation) is China's largest contract chip manufacturer (foundry), founded in 2000 and headquartered in Shanghai's Zhangjiang Hi-Tech Park, with shares listed in Hong Kong and Shanghai. It produces chips at various process nodes, including 14nm and more advanced processes, and has been placed on the US Entity List over ties to China's military sector.",
       "desc_ru": "SMIC (Semiconductor Manufacturing International Corporation) — крупнейший контрактный производитель чипов (foundry) Китая, основан в 2000 году, штаб-квартира в Шанхае (Zhangjiang Hi-Tech Park), акции торгуются на биржах Гонконга и Шанхая. Компания выпускает чипы по различным технологическим нормам, включая 14 нм и более совершенные процессы, и находится под экспортными ограничениями США из-за связей с оборонным сектором Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/SMIC.png"
     },
     {
       "id": "wuxi-apptec",
@@ -7556,7 +7620,8 @@
       "category_ru": null,
       "desc_en": "Chinese online ticketing platform (maoyan.com) for films and live entertainment (concerts, festivals, talk shows, dramas, exhibitions), operated by Beijing Maoyan Culture Media and part of Hong Kong-listed Maoyan Entertainment. Formed via a 2017 merger with Weiying Times (with Enlight Media as a strategic shareholder brought in in 2016), it expanded beyond ticketing into film promotion/distribution, content production, and box-office data/analytics services.",
       "desc_ru": "Китайская платформа онлайн-продажи билетов на фильмы и живые мероприятия (maoyan.com), крупнейший подобный сервис в Китае; оперируется Beijing Maoyan Culture Media, входящей в состав публичной Maoyan Entertainment (Гонконгская биржа). В 2017 году компания образовалась слиянием с Weiying Times при поддержке Enlight Media как стратегического акционера, после чего расширилась в продвижение и дистрибуцию фильмов, производство контента и биг-дату по кассовым сборам.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Maoyan.png"
     },
     {
       "id": "tongcheng",
@@ -7570,7 +7635,8 @@
       "category_ru": null,
       "desc_en": "Online travel agency (OTA) listed as Tongcheng Travel (00780.HK), deeply integrated with WeChat Mini Programs — reportedly around 80% of its traffic comes through this channel, backed by a near decade-long partnership with Tencent. It ranks among China's top OTAs alongside Ctrip and Meituan, focuses on lower-tier city markets, and offers rail/bus ticketing, hotel bookings, and event tickets; its major shareholders are Tencent and Trip.com Group.",
       "desc_ru": "Онлайн-турагентство (OTA), listed as Tongcheng Travel (00780.HK), с сильной интеграцией в WeChat Mini Program — по данным отраслевых обзоров эта площадка обеспечивает до 80% трафика компании благодаря давнему партнёрству с Tencent. Компания входит в тройку крупнейших OTA Китая наряду с Ctrip и Meituan, специализируется на нижнеуровневых (low-tier) городах и предлагает бронирование ж/д и автобусных билетов, отелей и билетов на мероприятия; крупнейшие акционеры — Tencent и Trip.com Group.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Tongcheng.png"
     },
     {
       "id": "fliggy",
@@ -7584,7 +7650,8 @@
       "category_ru": null,
       "desc_en": "Fliggy (飞猪) is Alibaba Group's travel services platform, headquartered in Hangzhou, offering flights, hotels, visa services, and travel shopping. Launched in 2016 as Alitrip before rebranding to Fliggy, it is deeply integrated with Alipay for payments, Taobao for marketing exposure, and Alibaba Cloud for infrastructure, distinguishing it from rivals like Ctrip and Qunar.",
       "desc_ru": "Fliggy (飞猪) — платформа travel-услуг Alibaba Group со штаб-квартирой в Ханчжоу: авиабилеты, отели, визовые услуги и туристический шопинг. Изначально запущена в 2016 году как Alitrip, затем переименована в Fliggy; глубоко интегрирована с Alipay (платежи), Taobao (маркетинг) и Alibaba Cloud (инфраструктура), что отличает её от конкурентов вроде Ctrip и Qunar.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Fliggy.png"
     },
     {
       "id": "tme",
@@ -7598,7 +7665,8 @@
       "category_ru": null,
       "desc_en": "Tencent Music Entertainment (TME) is China's leading online music and audio streaming platform, part of the Tencent ecosystem, operating QQ Music, Kugou Music, Kuwo Music, and the karaoke app WeSing. It has roughly 528 million monthly active users and monetizes content beyond subscriptions through livestreaming (TME Live) and karaoke services; it is listed on the NYSE (TME) and the Hong Kong Stock Exchange (1698).",
       "desc_ru": "Tencent Music Entertainment (TME) — ведущая онлайн-платформа музыкального и аудио-стриминга в Китае, часть экосистемы Tencent; управляет сервисами QQ Music, Kugou Music, Kuwo Music и караоке-приложением WeSing. Компания насчитывает около 528 млн активных пользователей в месяц и, помимо стриминга, монетизирует контент через живые трансляции (TME Live) и караоке; акции торгуются на NYSE (TME) и Гонконгской бирже (1698).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/TME.png"
     },
     {
       "id": "samsung-dlight",
@@ -7701,7 +7769,8 @@
       "category_ru": null,
       "desc_en": "Operator of Baedal Minjok, Korea's largest food-delivery service (the country's counterpart to Meituan). Headquartered in Lotte World Tower; visits arranged by official request.",
       "desc_ru": "Оператор Baedal Minjok — крупнейшего сервиса доставки еды в Корее (аналог Meituan). Штаб-квартира — в Lotte World Tower; визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Woowa Brothers.png"
     },
     {
       "id": "sk-telecom-tum",
@@ -7729,7 +7798,8 @@
       "category_ru": null,
       "desc_en": "Korea's largest search engine and internet holding (search, maps, webtoons, cloud, AI). Its '1784' campus in Seongnam is a building-scale robotics testbed — NVIDIA's Jensen Huang visited in 2026 to sign an AI Factory partnership. Visits arranged by official request.",
       "desc_ru": "Крупнейший поисковик и интернет-холдинг Кореи (поиск, карты, вебтун, облако, ИИ). Кампус «1784» в Соннаме — здание-полигон с интегрированной робототехникой, куда в 2026 г. приезжал глава NVIDIA Дженсен Хуанг на подписание AI Factory партнёрства. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Naver.png"
     },
     {
       "id": "kakao",
@@ -7743,7 +7813,8 @@
       "category_ru": null,
       "desc_en": "Operator of KakaoTalk, Korea's #1 messenger, plus games, payments and mobility. Headquartered in the Pangyo tech park; visits arranged by official request.",
       "desc_ru": "Оператор мессенджера KakaoTalk №1 в Корее, также игры, платежи, такси, контент. Штаб-квартира — в технопарке Пангё; визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Kakao.png"
     },
     {
       "id": "ncsoft",
@@ -7757,7 +7828,8 @@
       "category_ru": null,
       "desc_en": "One of Korea's largest video-game publishers (Lineage, Blade & Soul), headquartered in Pangyo Techno Valley. Visits arranged by official request.",
       "desc_ru": "Один из крупнейших корейских издателей видеоигр (Lineage, Blade & Soul); штаб-квартира — в Пангё Techno Valley. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/NCSoft.png"
     },
     {
       "id": "doosan-robotics",
@@ -8074,7 +8146,8 @@
       "category_ru": null,
       "desc_en": "LG Display's Paju campus, in Gyeonggi province, is known as \"Display City\" — the world's largest display cluster, with 8+ building complexes over 170+ hectares, including P8/P10-generation LCD and OLED fabs. Construction began in 2004, integrating panel and module production with on-site supplier plants. LG Display leads globally in OLED panels for TVs, phones and cars; its parent trades on the Korea Exchange and NYSE (ADR).",
       "desc_ru": "Кампус LG Display в Пхаджу (Кёнгидо) — «Display City», крупнейший в мире кластер по производству дисплеев: свыше 8 корпусов на площади более 170 га, включая заводы поколений P8/P10 для LCD и OLED. Строительство началось в 2004 году, комплекс объединяет производство панелей, модулей и предприятия поставщиков. LG Display — мировой лидер по OLED-панелям для ТВ, смартфонов и авто; компания котируется на Корейской бирже и NYSE (ADR).",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/LG Display - Paju.png"
     },
     {
       "id": "seven-eleven-japan",
@@ -8369,7 +8442,8 @@
       "category_ru": null,
       "desc_en": "Demae-can was founded in 2000, headquartered in Tokyo. It is Japan's largest food delivery platform, operating a marketplace model that connects restaurants with couriers and consumers. Since 2020 its majority shareholder has been LINE (part of Z Holdings / LY Corporation), deepening integration with the LINE messaging app. Demae-can competes with Uber Eats and Wolt in Japan's food delivery market.",
       "desc_ru": "Demae-can (出前館) основана в 2000 году, штаб-квартира в Токио. Крупнейшая платформа доставки еды в Японии, работающая по модели маркетплейса, соединяющего рестораны с курьерами и потребителями. С 2020 года основным акционером выступает LINE (входит в состав Z Holdings / LY Corporation), что усилило интеграцию сервиса с мессенджером LINE. Demae-can конкурирует с Uber Eats и Wolt на японском рынке доставки еды.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Demae-can.png"
     },
     {
       "id": "uber-eats-japan",
@@ -8455,7 +8529,8 @@
       "category_ru": null,
       "desc_en": "Wolt is a Finnish food-delivery company founded in Helsinki in 2014; since 2022 it has been part of DoorDash under an $8.1 billion all-stock deal. Wolt launched in Japan in November 2020 in Yokohama, its first East Asian market, and now operates in Tokyo, Sapporo and Osaka. It positions itself as a premium platform emphasizing curated restaurant selection, service quality and the Wolt+ subscription rather than sheer scale.",
       "desc_ru": "Wolt — финский сервис доставки еды, основанный в Хельсинки в 2014 году; с 2022 года входит в состав DoorDash по сделке на $8,1 млрд акциями. В Японии Wolt запустился в ноябре 2020-го в Иокогаме — первый рынок в Восточной Азии — и теперь работает в Токио, Саппоро и Осаке. Позиционируется как премиальная платформа с курируемым выбором ресторанов, подпиской Wolt+ и упором на качество сервиса, а не масштаб.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Wolt Japan.png"
     },
     {
       "id": "panasonic-robotics",
@@ -8498,7 +8573,8 @@
       "category_ru": null,
       "desc_en": "menu is a Japanese food-delivery app launched in 2019-2020 by Reazon Holdings; telecom carrier KDDI invested in 2021, integrating it with its au, Ponta and Lawson ecosystem and pushing menu into the country's top three delivery platforms. However, in August 2026 KDDI announced the service would end on September 30, 2026, with the operating company to be dissolved, amid intensifying competition from Uber Eats, Wolt and Demae-can.",
       "desc_ru": "menu — сервис доставки еды, запущенный в Японии в 2019–2020 годах группой Reazon Holdings; в 2021 году оператор связи KDDI стал инвестором, интегрировав сервис с экосистемой au, Ponta и Lawson, что вывело menu в тройку крупнейших платформ доставки страны. Однако в августе 2026 года KDDI объявила о прекращении сервиса 30 сентября 2026 года и ликвидации компании-оператора на фоне обострившейся конкуренции с Uber Eats, Wolt и Demae-can.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/menu (KDDI).png"
     },
     {
       "id": "preferred-networks",
@@ -8584,7 +8660,8 @@
       "category_ru": null,
       "desc_en": "Mercari is a Japanese C2C flea-market marketplace app founded by Shintaro Yamada in Tokyo in 2013. It went public on the Tokyo Stock Exchange in 2018 in one of Japan's largest tech IPOs and expanded into the US market. The app has over 20 million monthly active users and relies on machine learning for photo-based item recognition, price suggestions and fraud detection. Its subsidiary Merpay runs a mobile payments and lending business.",
       "desc_ru": "Mercari — японский C2C-маркетплейс подержанных товаров, основанный Синтаро Ямадой в 2013 году в Токио. В 2018-м компания провела IPO на Tokyo Stock Exchange — одно из крупнейших технологических размещений в истории Японии — и вышла на рынок США. Сервис насчитывает свыше 20 млн активных пользователей в месяц и применяет ML для распознавания товаров по фото, подсказки цены и борьбы с мошенничеством. Merpay развивает мобильные платежи.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Mercari.png"
     },
     {
       "id": "fujitsu",
@@ -8627,7 +8704,8 @@
       "category_ru": null,
       "desc_en": "ZOZO is Japan's largest fashion-tech platform, founded by Yusaku Maezawa in 1998 (originally Start Today), which launched the ZOZOTOWN fashion marketplace in 2004. In 2018 it introduced ZOZOSUIT, a sensor-dotted bodysuit for 3D body scanning enabling made-to-measure clothing under its own ZOZO label. Yahoo! Japan (SoftBank) acquired a controlling stake in 2019. Headquartered in Chiba, it partners with thousands of fashion brands.",
       "desc_ru": "ZOZO — крупнейшая японская fashion-tech платформа, основанная Юсаку Маэдзавой в 1998 году (как Start Today); в 2004-м запущен маркетплейс ZOZOTOWN. В 2018 году компания представила ZOZOSUIT — костюм с сенсорными метками для 3D-сканирования тела и подбора одежды под собственный бренд ZOZO. В 2019-м Yahoo! Japan (SoftBank) приобрела контрольный пакет ZOZO. Штаб-квартира — в Тибе, платформа сотрудничает с тысячами брендов.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Zozo.png"
     },
     {
       "id": "sony-ai",
@@ -8740,7 +8818,8 @@
       "category_ru": null,
       "desc_en": "Panasonic Beauty is the personal-care line of Panasonic Holdings (headquartered in Osaka; founded in 1918 as Matsushita Electric). It makes hair dryers, stylers, and ultrasonic and ionic skincare devices built around Panasonic's nanoe technology — moisture-rich nano-sized particles, first used in the 2005 Ionity nanocare hair dryer. By 2024, cumulative global shipments of nanoe-equipped devices had surpassed 100 million units.",
       "desc_ru": "Panasonic Beauty — направление техники для красоты и ухода концерна Panasonic Holdings (штаб-квартира в Осаке; основан в 1918 году как Matsushita Electric). Выпускает фены, стайлеры, ультразвуковые и ионные приборы для ухода за кожей и волосами на базе технологии nanoe — наночастиц, насыщенных влагой, впервые применённых в 2005 году в фене Ionity nanocare. К 2024 году поставки устройств с nanoe превысили 100 млн единиц по всему миру.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Panasonic Beauty.png"
     },
     {
       "id": "mandom",
@@ -8853,7 +8932,8 @@
       "category_ru": null,
       "desc_en": "Center for iPS Cell Research and Application (CiRA), established at Kyoto University in 2010, led by Shinya Yamanaka, who first generated induced pluripotent stem (iPS) cells from mouse cells in 2006 and human cells in 2007 — work awarded the 2012 Nobel Prize in Physiology or Medicine. CiRA is a world-leading hub for iPS cell reprogramming research, developing regenerative-medicine applications and immune-matched cell banks.",
       "desc_ru": "Центр исследований и применения iPS-клеток (CiRA) Киотского университета, основанный в 2010 году, возглавляемый Синъей Яманакой, впервые получившим индуцированные плюрипотентные стволовые (iPS) клетки мыши в 2006 году и человека — в 2007-м; за это открытие он удостоен Нобелевской премии по физиологии и медицине 2012 года. CiRA — мировой центр исследований репрограммирования клеток и регенеративной медицины.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Kyoto University.png"
     },
     {
       "id": "riken-wako",
@@ -8867,7 +8947,8 @@
       "category_ru": null,
       "desc_en": "Wako campus (Saitama Prefecture, near Tokyo) is the historic main site of RIKEN, Japan's largest comprehensive research institution, founded in 1917 and relocated to Wako in 1967. It hosts dozens of laboratories under RIKEN's Center for Integrative Medical Sciences. Researchers there, led by immunologist Kenya Honda, published landmark 2021 findings linking centenarians' distinctive gut microbiome to exceptional longevity.",
       "desc_ru": "Кампус Вако (префектура Сайтама, близ Токио) — исторический главный кампус RIKEN, крупнейшего научно-исследовательского института Японии, основанного в 1917 году и переехавшего в Вако в 1967-м. Здесь работают десятки лабораторий Центра интегративных медицинских наук RIKEN. В 2021 году команда иммунолога Кэнъя Хонды опубликовала исследование, связавшее кишечный микробиом долгожителей с их феноменальным долголетием.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Riken Wako.png"
     },
     {
       "id": "cellusion",
@@ -9292,7 +9373,8 @@
       "category_ru": null,
       "desc_en": "LINE MAN Wongnai formed in 2020 by merging the LINE MAN delivery service and Wongnai restaurant-review platform, backed by LY Corporation (LINE) and investors like BRV Capital. It raised $265 million at a $1 billion valuation in 2022. Based in Bangkok, it serves over 10 million users, 500,000 merchants and 250,000 riders, holding roughly 40% of food delivery, trailing leader Grab. It turned profitable in 2025, targeting a 2027 IPO.",
       "desc_ru": "LINE MAN Wongnai образована в 2020 году слиянием сервиса LINE MAN и платформы отзывов Wongnai при поддержке LY Corporation (LINE) и фондов вроде BRV Capital. В 2022-м компания привлекла $265 млн при оценке $1 млрд. Бангкокская штаб-квартира обслуживает свыше 10 млн пользователей, 500 000 точек и 250 000 курьеров, занимая около 40% рынка доставки — вплотную к лидеру Grab. В 2025-м компания вышла на прибыль, готовясь к IPO в 2027-м.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/LINE MAN Wongnai.png"
     },
     {
       "id": "grab-thailand",
@@ -9336,7 +9418,8 @@
       "category_ru": null,
       "desc_en": "Robinhood is a food-delivery app launched in 2020 by Siam Commercial Bank (SCB) via subsidiary Purple Ventures as a not-for-profit initiative charging restaurants no commission, meant to support small businesses during COVID-19. By 2024 losses reached 2.1 billion baht; SCB shut related services (ride-hailing, mart, express) on July 31, 2024, and sold the food-delivery business to Yip In Tsoi for 2 billion baht in a deal signed September 30, 2024.",
       "desc_ru": "Robinhood — приложение доставки еды, запущенное в 2020 году банком SCB через дочернюю Purple Ventures как проект без комиссии с ресторанов для поддержки бизнеса в пандемию COVID-19. К 2024 году убытки достигли 2,1 млрд бат: SCB закрыл сопутствующие сервисы (такси, товары, экспресс) 31 июля 2024-го, а направление еды продал компании Yip In Tsoi за 2 млрд бат по сделке от 30 сентября 2024 года.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Robinhood.png"
     },
     {
       "id": "freshket",
@@ -9350,7 +9433,8 @@
       "category_ru": null,
       "desc_en": "Freshket is a Thai B2B fresh-food supply platform for restaurants, founded in Bangkok in 2016 by Ponglada Paniangwet and Saran Chiwtanasuntorn. It connects farmers directly with more than 26,000 restaurant clients. The firm has raised over $34 million across five rounds, including a $3 million Series A in 2020 (Openspace) and a $23.5 million Series B in 2021 (PTT OR), plus $8 million in 2024 from Thai President Foods and Kliff Capital.",
       "desc_ru": "Freshket — таиландская B2B-платформа поставок свежих продуктов для ресторанов, основана в Бангкоке в 2016 году Понгладой Паниангвет и Сараном Чивтанасунторном. Сервис связывает фермеров и поставщиков напрямую с более чем 26 000 ресторанов. Компания привлекла свыше $34 млн за пять раундов, включая Series A $3 млн (2020, Openspace) и Series B $23,5 млн (2021, PTT OR), а в 2024-м — $8 млн от Thai President Foods и Kliff Capital.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Freshket.png"
     },
     {
       "id": "cloudeats",
@@ -9364,7 +9448,8 @@
       "category_ru": null,
       "desc_en": "CloudEats is a cloud-kitchen and virtual-restaurant-brand operator founded in 2019 and headquartered in Makati City, Philippines. It builds delivery-only brands (Burger Beast, 24/7 Eats, Sulit Chicken and others — over 30 in the Philippines, 20+ in Vietnam) and has expanded into Thailand, Malaysia and Singapore. It raised a $1.4 million seed round and a $7 million Series A extension in 2022, led by Nordstar Capital.",
       "desc_ru": "CloudEats — оператор облачных кухонь и виртуальных ресторанных брендов, основанный в 2019 году со штаб-квартирой в Макати (Филиппины). Компания создаёт бренды для доставки (Burger Beast, 24/7 Eats, Sulit Chicken — более 30 в Филиппинах, свыше 20 во Вьетнаме) и вышла в Таиланд, Малайзию и Сингапур. Привлекла $1,4 млн на посевной стадии и $7 млн в раунде Series A extension (2022, Nordstar Capital).",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/CloudEats.png"
     },
     {
       "id": "cp-cloud-kitchen",
@@ -9378,7 +9463,8 @@
       "category_ru": null,
       "desc_en": "CP Cloud Kitchen is a cloud-kitchen initiative within Charoen Pokphand Group (CP Group), Thailand's largest agribusiness and retail conglomerate, founded in 1921 by the Chearavanont family. CP Group spans livestock and food production (CP Foods), retail (7-Eleven via CP All, Lotus's hypermarkets) and telecom, and its cloud kitchens plug into this chain to prepare delivery-only meals from the group's own production and partner brands.",
       "desc_ru": "CP Cloud Kitchen — проект в сфере облачных кухонь структур конгломерата Charoen Pokphand (CP Group) — крупнейшей тайской агропромышленной и розничной группы, основанной в 1921 году семьёй Чиараванонт. CP Group управляет активами от животноводства и пищевого производства (CP Foods) до розницы (7-Eleven через CP All, Lotus's) и телекома, а облачные кухни встраиваются в цепочку, готовя блюда под доставку из продукции группы и партнёров.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/CP Cloud Kitchen.png"
     },
     {
       "id": "shopee-food-th",
@@ -9407,7 +9493,8 @@
       "category_ru": null,
       "desc_en": "True Digital Group is the digital arm of True Corporation, Thailand's largest telecom operator, formed in 2023 through the merger of True and dtac. The group runs an ecosystem of services including the TrueMoney payment wallet, the TrueID media platform (more than 35 million daily users), and delivery and digital-retail initiatives integrated with its parent's retail network and telecom infrastructure to reach millions of subscribers nationwide.",
       "desc_ru": "True Digital Group — цифровое подразделение True Corporation, крупнейшего телеком-оператора Таиланда, образованного в 2023 году слиянием True и dtac. Группа развивает кошелёк TrueMoney, медиаплатформу TrueID (свыше 35 млн пользователей ежедневно), а также инициативы в доставке и цифровом ретейле, интегрированные с розничной сетью и инфраструктурой материнской компании.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/True Digital.png"
     },
     {
       "id": "scb-10x-abacus",
@@ -9508,7 +9595,8 @@
       "category_ru": null,
       "desc_en": "Central JD Fintech and the JD Central marketplace were joint ventures between Thailand's Central Group and China's JD.com, established in September 2017 with roughly $500 million invested across e-commerce and fintech. JD Central ceased operations in Thailand on March 3, 2023, after six years, as JD.com refocused on supply-chain and cross-border logistics rather than Southeast Asian retail JVs; the Dolfin fintech venture also wound down.",
       "desc_ru": "Central JD Fintech и маркетплейс JD Central — совместные предприятия Central Group и китайской JD.com, созданные в сентябре 2017 года с инвестициями около $500 млн в e-commerce и финтех. JD Central прекратил работу в Таиланде 3 марта 2023-го после шести лет — JD.com решила сосредоточиться на цепочках поставок вместо розничных СП в регионе; финтех-СП Dolfin также свернулось.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Central JD.png"
     },
     {
       "id": "tiktok-shop-thailand",
@@ -9522,7 +9610,8 @@
       "category_ru": null,
       "desc_en": "TikTok Shop is the social-commerce feature within ByteDance's TikTok app, launched in Thailand in 2022 as part of the platform's Southeast Asian expansion. It emphasizes livestream selling and shoppable short-form video, competing directly with Shopee and Lazada. After TikTok's e-commerce business in Indonesia was forced to restructure in 2023 (merging with Tokopedia after a ban), Thailand has remained a key growth market for TikTok Shop.",
       "desc_ru": "TikTok Shop — сервис социальной коммерции внутри TikTok (ByteDance); запущен в Таиланде в 2022 году в рамках экспансии по Юго-Восточной Азии. Делает ставку на live-стриминг-продажи и короткие видео с прямыми ссылками на покупку, конкурируя с Shopee и Lazada. После вынужденной реструктуризации бизнеса в Индонезии в 2023-м (слияние с Tokopedia из-за запрета) Таиланд остаётся ключевым рынком роста сервиса.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/TikTok Shop Thailand.png"
     },
     {
       "id": "truemoney-ascend",
@@ -10230,7 +10319,8 @@
       "category_ru": null,
       "desc_en": "Be (beGroup) is a Vietnamese super-app founded in 2018 in Ho Chi Minh City as a ride-hailing service competing with Grab. The company raised about $30.3 million (VND 740 billion) from VPBank Securities and in 2021 partnered with VPBank to launch the digital bank Cake — the first embedded banking offer inside a Vietnamese ride-hailing app. Beyond transport, Be has expanded into delivery and beFinancial services.",
       "desc_ru": "Be (beGroup) — вьетнамский супер-апп, основанный в 2018 году в Хошимине как райдхейлинг-сервис, конкурирующий с Grab. Компания привлекла около $30,3 млн (740 млрд донгов) от VPBank Securities и в 2021-м вместе с VPBank запустила цифровой банк Cake — первое встроенное банковское предложение внутри такси-приложения во Вьетнаме. Помимо перевозок, Be развивает доставку и сервисы beFinancial.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Be .png"
     },
     {
       "id": "loship",
@@ -10244,7 +10334,8 @@
       "category_ru": null,
       "desc_en": "Loship (formerly Lozi) is a Vietnamese one-hour delivery service founded in 2017, covering food, goods, medicine and B2B supplies in Hanoi, HCMC, Da Nang, Can Tho and Bien Hoa. By its own figures, the platform involves more than 70,000 drivers and 200,000 merchants serving roughly 2 million customers. In 2021 Loship raised $12 million pre-Series C, backed by Ant Group-affiliated BAce Capital and Sun Hung Kai, aiming to list on the NYSE.",
       "desc_ru": "Loship (ранее Lozi) — вьетнамский сервис быстрой доставки «за один час», основанный в 2017 году: еда, товары, лекарства и B2B-поставки в Ханое, Хошимине, Дананге, Кантхо и Бьенхоа. По данным компании, платформа задействует свыше 70 000 курьеров и 200 000 продавцов и обслуживает около 2 млн клиентов. В 2021-м Loship привлёк $12 млн в раунде pre-Series C при участии BAce Capital (связан с Ant Group) и Sun Hung Kai, заявив цель выйти на NYSE.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Loship.png"
     },
     {
       "id": "xanh-sm-gsm-vinfast",
@@ -10273,7 +10364,8 @@
       "category_ru": null,
       "desc_en": "Ahamove is a Vietnamese on-demand logistics platform founded in 2015 in Ho Chi Minh City, connecting shippers with motorbike, van and truck drivers via real-time order matching, GPS tracking and driver ratings. Alongside GHN, it is a core last-mile delivery partner for Vietnam's largest e-commerce platforms — Shopee, Tiki, Lazada and Sendo — as well as over 100,000 small and medium online merchants.",
       "desc_ru": "Ahamove — вьетнамская логистическая платформа, основанная в 2015 г. в Хошимине (спин-офф Scommerce/Lomogo), соединяющая отправителей с водителями мотоциклов, вэнов и грузовиков по модели on-demand с матчингом заказов в реальном времени, GPS-трекингом и рейтингами водителей. Наряду с GHN входит в число ключевых логистических партнёров для крупнейших e-commerce площадок Вьетнама — Shopee, Tiki, Lazada, Sendo — и более 100 тыс. онлайн-продавцов.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Ahamove.png"
     },
     {
       "id": "vng-corporation",
@@ -10287,7 +10379,8 @@
       "category_ru": null,
       "desc_en": "VNG Corporation, founded in 2004, is Vietnam's largest internet company, operator of the Zalo messaging app, ZaloPay and gaming unit Zing. In 2025 Zalo reached 79.6 million MAU and disclosed revenue for the first time (VND 1,718 billion, up 38% YoY); VNG's consolidated revenue hit VND 10.9 trillion (+17%). It is pushing AI into Zalo — by Q2 2026 roughly 24 million users used AI messaging/calling monthly, up 33% YoY.",
       "desc_ru": "VNG Corporation, основана в 2004 г., крупнейшая вьетнамская интернет-компания, оператор мессенджера Zalo, платёжного сервиса ZaloPay и игрового подразделения Zing. В 2025 г. Zalo достиг 79,6 млн MAU и впервые раскрыл выручку (1,718 трлн донгов, +38% г/г); консолидированная выручка VNG — 10,9 трлн донгов (+17%). Компания активно внедряет ИИ в Zalo: к II кв. 2026 г. функции ИИ-мессенджинга и звонков ежемесячно использовали ок. 24 млн человек (+33% г/г).",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/VNG Corporation.png"
     },
     {
       "id": "tiki",
@@ -10301,7 +10394,8 @@
       "category_ru": null,
       "desc_en": "Tiki is a Vietnamese e-commerce platform founded in 2010 by Tran Ngoc Thai Son as an online bookstore in Ho Chi Minh City, later growing into a full marketplace with its own NOW/TikiNOW logistics arm. It raised $258 million in a 2021 Series E round (AIA, UBS, Mirae Asset), nearing a $1 billion valuation. By 2024–2025 it lost significant ground to Shopee and TikTok Shop, with market share sliding to roughly 0.9% and Q1 2025 GMV plunging 57% YoY.",
       "desc_ru": "Tiki — вьетнамская e-commerce платформа, основанная в 2010 г. Чан Нгок Тхай Соном как книжный онлайн-магазин в Хошимине; выросла в универсальный маркетплейс с логистикой NOW и TikiNOW. В 2021 г. привлекла $258 млн (раунд Series E, AIA, UBS, Mirae Asset), приблизившись к оценке $1 млрд. Однако к 2024–2025 гг. компания резко сдала позиции конкурентам Shopee и TikTok Shop: доля рынка упала до ~0,9%, а GMV в I кв. 2025 г. рухнул на 57% г/г.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Tiki.png"
     },
     {
       "id": "momo",
@@ -10400,7 +10494,8 @@
       "category_ru": null,
       "desc_en": "Shopee (a unit of Singapore's Sea Ltd, entered Vietnam in 2016) and Lazada (launched in 2012, majority-owned by Alibaba since 2016) are Vietnam's two largest e-commerce platforms. In 2025 Shopee holds a dominant ~56% market share, while Lazada and Tiki together account for only about 3% of sales as TikTok Shop surges to roughly 41%. Combined 2025 revenue of Vietnam's top four e-commerce platforms is estimated at $16.5 billion.",
       "desc_ru": "Shopee (подразделение сингапурской Sea Ltd, вышла на рынок Вьетнама в 2016 г.) и Lazada (запущена в 2012 г., с 2016 г. контролируется Alibaba) — две крупнейшие e-commerce платформы Вьетнама. В 2025 г. Shopee удерживает доминирующую долю рынка (~56%), тогда как Lazada вместе с Tiki делят лишь около 3% продаж на фоне стремительного роста TikTok Shop (~41%). Совокупная выручка топ-4 платформ Вьетнама в 2025 г. оценивается в $16,5 млрд.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Shopee:Lazada Vietnam.png"
     },
     {
       "id": "elsa",
@@ -10568,7 +10663,8 @@
       "category_ru": null,
       "desc_en": "Private, not-for-profit university in Hanoi founded in 2019 by Vietnamese conglomerate Vingroup, which partnered with Cornell and the University of Pennsylvania in designing its academic programs. Its College of Health Sciences runs an \"Innovation in Health Sciences\" cluster of research centers covering stem cell and regenerative medicine and smart-health technology, including a joint smart-health research center with the University of Illinois.",
       "desc_ru": "Частный некоммерческий университет в Ханое, основанный в 2019 году вьетнамским конгломератом Vingroup при партнёрстве с Cornell и Университетом Пенсильвании. College of Health Sciences развивает кластер исследовательских центров «Innovation in Health Sciences», охватывающий стволовые клетки, регенеративную медицину и «умные» медицинские технологии, включая VinUni-Illinois Smart Health Center — совместную инициативу с Университетом Иллинойса.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/VinUniversity.png"
     },
     {
       "id": "medeze-vietnam",
@@ -10773,7 +10869,8 @@
       "category_ru": null,
       "desc_en": "Erajaya Group is an Indonesian electronics retail conglomerate founded in 1996 and headquartered in Jakarta. Its Erafone chain (PT Erafone Artha Retailindo, est. 2002) is a top Indonesian smartphone distributor, running over 1,000 stores under formats including Erafone, iBox (Apple) and Samsung Experience Store. Erajaya runs an omnichannel model blending physical and online retail; the parent is listed on the Indonesia Stock Exchange (IDX: ERAA).",
       "desc_ru": "Erajaya Group — индонезийский ритейл-конгломерат электроники, основанный в 1996 году, головной офис в Джакарте. Сеть Erafone (PT Erafone Artha Retailindo, создана в 2002 году) — один из крупнейших дистрибьюторов смартфонов в Индонезии, свыше 1000 магазинов под форматами Erafone, iBox (Apple), Samsung Experience Store и другими. Развивает омниканальную модель офлайн- и онлайн-продаж. Головная компания котируется на бирже Индонезии (IDX: ERAA).",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Erajaya.png"
     },
     {
       "id": "transmart-ct-corp",
@@ -10993,7 +11090,8 @@
       "category_ru": null,
       "desc_en": "GoFood is the food-delivery arm of Indonesia's GoTo (Gojek) ecosystem, launched alongside Gojek in 2015 and now one of the country's largest O2O delivery platforms alongside GrabFood and ShopeeFood. It leverages behavioral data from millions of users and driver-partners for algorithmic demand forecasting and dynamic pricing, and works with cloud-kitchen partners under the GoKitchen model to help restaurant partners scale production to meet peak demand.",
       "desc_ru": "GoFood — сервис доставки еды экосистемы GoTo (Gojek), запущенный вместе с Gojek в 2015 г. и ставший одной из крупнейших O2O food-delivery платформ Индонезии наряду с GrabFood и ShopeeFood. Использует данные о поведении миллионов пользователей и партнёров-водителей для алгоритмического прогнозирования спроса и динамического ценообразования, а через сеть GoKitchen/cloud-kitchen партнёрств помогает ресторанам-партнёрам масштабировать производство под пиковый спрос.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/GoFood:GoKitchen).png"
     },
     {
       "id": "grab-indonesia",
@@ -11022,7 +11120,8 @@
       "category_ru": null,
       "desc_en": "Yummy Corp is Indonesia's largest cloud-kitchen operator, founded in 2017 as a venture of the Ismaya F&B group by brothers Marbio, Mario and Marius Suntanu with Deasy Harjanto and former Foodpanda Indonesia head Juan Chene. Its Yummykitchen brand (June 2019) runs over 70 kitchens serving 50+ partner brands, raised a $12 million Series B from SoftBank Ventures Asia in 2020, and acts as a full operating partner, not just a space-rental provider.",
       "desc_ru": "Yummy Corp — крупнейший оператор облачных кухонь Индонезии, основан в 2017 г. как проект F&B-группы Ismaya братьями Марбио, Марио и Мариусом Сунтану совместно с Диаси Харджанто и экс-главой Foodpanda Indonesia Хуаном Чене. Бренд Yummykitchen (запущен в июне 2019 г.) управляет 70+ кухнями и обслуживает более 50 партнёрских брендов; в 2020 г. привлёк $12 млн Series B от SoftBank Ventures Asia. Выступает полноценным операционным партнёром, а не просто арендодателем.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Yummy Corp.png"
     },
     {
       "id": "everplate",
@@ -11064,7 +11163,8 @@
       "category_ru": null,
       "desc_en": "Legit Group is an Indonesian cloud-kitchen consolidator founded in 2021 by Bram Hendrata, Sumarno Ngadiman and Monica Evanti Andriani, partnered with Ismaya Group, Yummy Corp and GK Hebat. It runs four delivery-only F&B brands (Pastaria, Sei'Tan, Sek Fan, Ryujin) across 30+ locations, mostly in Jakarta, with no offline footprint. It raised a $3 million seed round (East Ventures, 2021) and a $13.7 million Series A (MDI Ventures and others).",
       "desc_ru": "Legit Group — индонезийский консолидатор облачных кухонь, основанный в 2021 г. Брамом Хендратой, Сумарно Нгадиманом и Моникой Эванти Андриани в партнёрстве с Ismaya Group, Yummy Corp и GK Hebat. Управляет четырьмя delivery-only F&B-брендами (Pastaria, Sei'Tan, Sek Fan, Ryujin) в 30+ локациях, преимущественно в Джакарте, без офлайн-точек. Привлёк $3 млн seed (East Ventures, 2021) и $13,7 млн Series A (MDI Ventures и др.).",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Legit Group.png"
     },
     {
       "id": "dailybox-group",
@@ -11078,7 +11178,8 @@
       "category_ru": null,
       "desc_en": "Dailybox Group is an Indonesian tech-enabled F&B operator founded in 2018 in Jakarta, starting as a rice-box provider before pivoting to a cloud-kitchen model built around delivery partnerships. Its portfolio spans three brands — Dailybox, the sushi-burrito fusion concept Shirato, and the Breadlife bakery chain — operating over 150 outlets across 20+ cities. It closed a $24 million Series B in 2022 (Northstar Group, Vertex Growth) and expanded into Singapore.",
       "desc_ru": "Dailybox Group — индонезийский tech-enabled оператор F&B, основанный в 2018 г. в Джакарте; стартовал как поставщик рисовых боксов, затем перешёл на модель облачных кухонь в партнёрстве с сервисами доставки. Портфель включает три бренда — Dailybox, Shirato (fusion sushi-burrito) и сеть пекарен Breadlife; работает в 20+ городах, свыше 150 точек. В 2022 г. привлёк Series B на $24 млн (Northstar Group, Vertex Growth) и вышел на рынок Сингапура.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Dailybox.png"
     },
     {
       "id": "shopeefood-indonesia",
@@ -11107,7 +11208,8 @@
       "category_ru": null,
       "desc_en": "Wahyoo is an Indonesian street-food-stall (warteg/warung) digitalization startup founded in 2017 by Peter Shearer in Jakarta. It helps small eatery owners with marketing, loyalty programs, online ingredient ordering, cash-flow management and training via Wahyoo Academy; investors include Coca-Cola. After a seed round (Agaeti Ventures, Kinesys), it raised a $5 million Series A in 2020 (Intudo Ventures) and a $6.5 million Series B at a valuation of roughly $38.9 million.",
       "desc_ru": "Wahyoo — индонезийский стартап цифровизации уличных варунгов (warteg/warung), основанный в 2017 г. Питером Ширером в Джакарте. Помогает владельцам небольших закусочных через маркетинг, программы лояльности, онлайн-заказ ингредиентов, управление финансами и обучение (Wahyoo Academy); в проект инвестировала в том числе Coca-Cola. После seed-раунда (Agaeti Ventures, Kinesys) привлёк $5 млн Series A (2020, Intudo Ventures) и $6,5 млн Series B при оценке около $38,9 млн.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Wahyoo.png"
     },
     {
       "id": "goto-campus",
@@ -11121,7 +11223,8 @@
       "category_ru": null,
       "desc_en": "GoTo Group was formed on May 17, 2021 by the merger of Gojek (founded 2010 as a motorbike-taxi/ojek service) and Tokopedia (founded 2009) — Indonesia's largest-ever business combination, valued at roughly $18 billion. It went public in April 2022, raising $1.1 billion. In 2024 the e-commerce business (Tokopedia) was folded into a joint venture with TikTok Shop, with ByteDance investing $1.5 billion for a 75.01% stake, while transport, delivery (GoFood) and fintech (GoPay) remained under GoTo.",
       "desc_ru": "GoTo Group образован 17 мая 2021 г. слиянием Gojek (основан в 2010 г. как сервис мото-такси ojek) и Tokopedia (основан в 2009 г.) — крупнейшей сделкой в истории Индонезии, оценённой примерно в $18 млрд. В апреле 2022 г. компания провела IPO, привлёкшее $1,1 млрд. В 2024 г. e-commerce бизнес (Tokopedia) передан в СП с TikTok Shop (ByteDance инвестировала $1,5 млрд за 75,01% доли), а транспорт, доставка (GoFood) и финтех (GoPay) остались под GoTo.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/GoTo.png"
     },
     {
       "id": "kata-ai",
@@ -11636,7 +11739,8 @@
       "category_ru": null,
       "desc_en": "Zepto is an Indian quick-commerce platform founded in 2021 by Stanford dropouts Aadit Palicha and Kaivalya Vohra (originally KiranaKart), delivering groceries within 10 minutes via a dark-store network. By 2025 it had surpassed 1,000 dark stores across 80+ Indian cities. It became India's fastest unicorn in 2023, raised $665 million at a $3.6 billion valuation in June 2024, and reached $5–7 billion by October 2025. Zepto has confidentially filed for an IPO seeking up to $1.2 billion.",
       "desc_ru": "Zepto — индийский сервис quick-commerce, основанный в 2021 г. выпускниками Stanford Аадитом Паличей и Кайвалья Вохрой (изначально KiranaKart); доставляет продукты за 10 минут через сеть дарксторов. К 2025 г. сеть превысила 1000 точек в 80+ городах Индии. В 2023 г. стал самым быстрым «единорогом» страны; в июне 2024 г. привлёк $665 млн при оценке $3,6 млрд, к октябрю 2025 г. — $5–7 млрд. Подал конфиденциальную заявку на IPO до $1,2 млрд.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Zepto.png"
     },
     {
       "id": "nykaa",
@@ -11859,7 +11963,8 @@
       "category_ru": null,
       "desc_en": "Rebel Foods was founded in India in 2011 and has grown into the world's largest multi-brand cloud-kitchen operator: roughly 450 kitchens and over 5,000 virtual restaurants across brands such as Faasos, Behrouz Biryani, Oven Story Pizza and Lunchbox, spanning more than 70 cities in India, the UAE and the UK, serving over two million customers. It runs a proprietary tech stack for AI-driven demand forecasting, brand launches and quality control. KKR invested in the company in December 2024.",
       "desc_ru": "Rebel Foods — индийская компания, основанная в 2011 г., крупнейший в мире оператор мультибрендовых облачных кухонь: около 450 кухонь и более 5000 виртуальных ресторанов под брендами Faasos, Behrouz Biryani, Oven Story Pizza, Lunchbox в 70+ городах Индии, ОАЭ и Великобритании, свыше 2 млн клиентов. Использует проприетарный стек для ИИ-прогнозирования спроса, запуска брендов и контроля качества. В декабре 2024 г. фонд KKR инвестировал в компанию.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Rebel Foods.png"
     },
     {
       "id": "eatclub-box8",
@@ -11873,7 +11978,8 @@
       "category_ru": null,
       "desc_en": "EatClub Brands (formerly Box8/Poncho Hospitality) is an Indian tech-driven cloud-kitchen operator founded in 2012 by Amit Raj and Anshul Gupta as Box8, a meal-box delivery service. In December 2021 the company raised $40 million led by Tiger Global and rebranded as EatClub Brands, now running one of Asia's largest cloud-kitchen networks under brands including MOJO Pizza, BOX8, Itminaan Biryani and LeanCrust Pizza.",
       "desc_ru": "EatClub Brands (ранее Box8/Poncho Hospitality) — индийский технологичный оператор облачных кухонь, основанный в 2012 г. Амитом Раджем и Аншулом Гуптой как сервис доставки мил-боксов Box8. В декабре 2021 г. компания привлекла $40 млн (лид — Tiger Global) и провела ребрендинг в EatClub Brands, управляя одной из крупнейших сетей облачных кухонь Азии с брендами MOJO Pizza, BOX8, Itminaan Biryani, LeanCrust Pizza и другими.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/EatClub.png"
     },
     {
       "id": "curefoods-eatfit",
@@ -11916,7 +12022,8 @@
       "category_ru": null,
       "desc_en": "FreshMenu, founded in 2014 in Bengaluru by Rashmi Daga, was one of India's pioneering cloud-kitchen brands, cooking exclusively for delivery with no dine-in space. It raised over $45 million across multiple rounds from investors including Lightspeed Ventures and Zodius Capital, reaching roughly INR 150 crore in annual revenue. After a funding crunch, in 2024–2025 the FreshMenu brand was licensed to operator Dil Foods to restart operations at its kitchens.",
       "desc_ru": "FreshMenu — пионер облачных кухонь Индии, основан в 2014 в Бангалоре Рашми Дага. Работает без обеденных залов, готовя блюда на собственных кухнях под заказ через приложение и агрегаторы. Привлёк свыше $45 млн инвестиций (Lightspeed, Zodius Capital и др.), достиг выручки около 150 крор рупий. В 2020-х пережил кризис финансирования; в 2024–2025 бренд лицензирован оператору Dil Foods для перезапуска кухонь.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/FreshMenu.png"
     },
     {
       "id": "biryani-by-kilo",
@@ -11930,7 +12037,8 @@
       "category_ru": null,
       "desc_en": "Biryani By Kilo (BBK), founded in 2015 in Gurugram by Kaushik Roy and Vishal Jindal, specializes in dum-style biryani cooked and served in clay handis. Its hybrid model pairs flagship dine-in restaurants with a network of delivery-focused cloud kitchens; by 2023 it had passed 100 outlets across 25+ Indian cities. BBK raised over $67 million from 113 investors and was acquired by restaurant conglomerate Devyani International in April 2025.",
       "desc_ru": "Biryani By Kilo (BBK) основана в 2015 году в Гуруграме Каушиком Роем и Вишалом Джиндалом, готовит бирьяни в глиняных горшках дум-стиля. Гибридная модель совмещает флагманские рестораны с сетью облачных кухонь для доставки; к 2023 превысила 100 точек более чем в 25 городах Индии. Привлекла свыше $67 млн от 113 инвесторов; в апреле 2025 куплена ресторанным холдингом Devyani International.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Biryani By Kilo.png"
     },
     {
       "id": "zepto-cafe",
@@ -11944,7 +12052,8 @@
       "category_ru": null,
       "desc_en": "Zepto Café is a 10-minute ready-food and beverage delivery service from Indian quick-commerce unicorn Zepto, launched in April 2022 inside the main Zepto app. It spun off into a standalone app in December 2024, offering 140+ items including coffee, pastries and light meals. It runs from Zepto's existing dark stores fitted with dedicated mini-kitchens (speed ovens, coffee machines); at launch it handled about 30,000 daily orders across six cities, with plans to reach all 600 dark stores.",
       "desc_ru": "Zepto Café — сервис доставки готовой еды и напитков за 10 минут от индийского квик-коммерс единорога Zepto, запущен в апреле 2022 как раздел основного приложения. В декабре 2024 выделен в отдельное приложение с более чем 140 позициями меню — кофе, выпечка, лёгкие блюда. Работает из дарксторов Zepto с выделенными мини-кухнями (спид-печи, кофемашины); к запуску обрабатывал около 30 000 заказов в день в 6 городах, план — охватить все 600 дарксторов.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Zepto Cafe.png"
     },
     {
       "id": "sarvam-ai",
@@ -11986,7 +12095,8 @@
       "category_ru": null,
       "desc_en": "Meesho is an Indian social-commerce platform founded in December 2015 by IIT Delhi alumni Vidit Aatrey and Sanjeev Barnwal, originally built around resellers sharing product catalogs via WhatsApp and Facebook. By 2025–2026 it counted well over 150 million annual transacting users and roughly $6.2 billion in FY25 GMV. Meesho listed on the NSE and BSE on December 10, 2025, raising over $600 million, with shares surging 95% post-listing to a near-$11 billion valuation.",
       "desc_ru": "Meesho — индийская платформа социальной коммерции, основана в декабре 2015 выпускниками IIT Дели Видитом Атреем и Санджеевом Барнвалом; изначально опиралась на перепродажу товаров через WhatsApp и Facebook. По данным 2025–2026 годов платформа насчитывает более 150–230 млн годовых покупателей, GMV достигал $6,2 млрд (FY25). 10 декабря 2025 Meesho провела IPO на NSE/BSE, привлекла свыше $600 млн, акции выросли на 95% после листинга при оценке около $11 млрд.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Meesho.png"
     },
     {
       "id": "yellow-ai",
@@ -12084,7 +12194,8 @@
       "category_ru": null,
       "desc_en": "Purplle is an Indian beauty and personal-care marketplace founded in 2012 in Mumbai by Manish Taneja, Rahul Dash, Suyash Katyayani and Anurag Neema. It lists over 50,000 products from 1,000+ brands to about 7 million monthly active users, using AI/ML for personalized skincare and makeup recommendations. Purplle has raised over $560 million from investors including ADIA, Sequoia, Goldman Sachs, Kedaara and Premji Invest, reaching a $1.25 billion valuation after a $120 million round in October 2024.",
       "desc_ru": "Purplle — индийский бьюти-маркетплейс, основан в 2012 году в Мумбаи Манишем Танеджей, Рахулом Дашем, Суяшем Катьяяни и Анурагом Ниимой. Продаёт свыше 50 000 товаров 1000+ брендов, около 7 млн активных пользователей в месяц; использует ИИ и ML для персонализированных рекомендаций по уходу за кожей и макияжу. Привлёк свыше $560 млн инвестиций (ADIA, Sequoia, Goldman Sachs, Kedaara, Premji Invest); в октябре 2024 оценён в $1,25 млрд после раунда в $120 млн.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Purplle.png"
     },
     {
       "id": "plum-goodness",
@@ -12707,7 +12818,8 @@
       "category_ru": null,
       "desc_en": "Homegrown 'full-stack' cloud-kitchen pioneer since 2015; AI/ML operating system automating ~80% of workflow from recipe development to last-mile; Y Combinator-backed.",
       "desc_ru": "Локальный пионер 'full-stack' облачных кухонь с 2015 года; AI/ML-операционная система автоматизирует ~80% процессов от разработки рецептов до последней мили; резидент Y Combinator.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Pop Meals.png"
     },
     {
       "id": "cookhouse-malaysia",
@@ -12749,7 +12861,8 @@
       "category_ru": null,
       "desc_en": "KyoChon Malaysia, the local franchise of the Korean halal fried-chicken chain, became one of the country's earliest adopters of the cloud-kitchen model, launching three delivery-only kitchens in partnership with GrabFood in September 2019 — at Wisma Central, Damansara Uptown and Damansara Perdana in the Klang Valley. These sites accept no walk-in customers and run a menu reconfigured for courier-friendly portions, making KyoChon a notable branded cloud-kitchen case that predates the COVID-19 pandemic.",
       "desc_ru": "KyoChon Malaysia — местный оператор корейской сети халяльной жареной курицы KyoChon, в сентябре 2019 года одним из первых в стране запустил облачные кухни в партнёрстве с GrabFood — три точки в Wisma Central, Damansara Uptown и Damansara Perdana (Клэнг-Вэлли). Эти кухни работают только на доставку, без зала для гостей, с адаптированным под курьерские порции меню — ранний и показательный кейс брендовой облачной кухни в Малайзии, реализованный ещё до пандемии COVID-19.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/KyoChon Malaysia.png"
     },
     {
       "id": "myburgerlab",
@@ -12763,7 +12876,8 @@
       "category_ru": null,
       "desc_en": "MyBurgerLab is a Malaysian gourmet burger chain founded in 2012 by three friends — Chin Ren Yi, Teoh Wee Kiat and Cheah Chang Ming — inspired by boutique burger joints they encountered in the US. A pioneer of the Klang Valley's gourmet burger scene, it was among the first in the industry to use charcoal buns. What began as tasting sessions in a friend's café grew, through social-media buzz, into a multi-outlet chain known for strong digital ordering, delivery integration and data-driven operations.",
       "desc_ru": "MyBurgerLab — малайзийская бургерная сеть, основана в 2012 году тремя друзьями — Чин Рэн И, Тео Ви Кят и Чиа Чанг Мин, вдохновлёнными бутик-бургерными США. Один из пионеров рынка гурмэ-бургеров Клэнг-Вэлли, первым в индустрии внедрил булочки с активированным углём. Начинала с дегустаций в кафе друга, набрала популярность через соцсети и блогеров, выросла до сети из нескольких точек с сильным цифровым заказом и доставкой, ориентированной на data-driven операции.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/MyBurgerLab.png"
     },
     {
       "id": "inside-scoop",
@@ -12834,7 +12948,8 @@
       "category_ru": null,
       "desc_en": "Southeast Asia's largest used-car e-commerce platform (unicorn): AI pricing engine, 175-point inspection, fraud detection, inspection centres to tour.",
       "desc_ru": "Крупнейшая в ЮВА e-commerce платформа подержанных авто (единорог): AI-ценообразование, 175-пунктная инспекция, антифрод, инспекционные центры для визитов.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Carsome Group.png"
     },
     {
       "id": "mindvalley",
@@ -12848,7 +12963,8 @@
       "category_ru": null,
       "desc_en": "Mindvalley is a personal-growth and education platform founded by Vishen Lakhiani in New York in December 2002, relocating its headquarters to Kuala Lumpur, Malaysia in 2004. It offers courses on self-development, meditation, productivity and health through an app and global community reaching more than 195 countries, with a claimed base of over 20 million students and followers. The platform uses AI to personalize learning paths, recommending courses based on users' goals and interests.",
       "desc_ru": "Mindvalley — платформа личностного развития и образования, основана Вишеном Лакхиани в декабре 2002 года в Нью-Йорке, но уже в 2004 году перенесла штаб-квартиру в Куала-Лумпур, Малайзия. Предлагает курсы по саморазвитию, медитации, продуктивности и здоровью через приложение и сообщество, доступное более чем в 195 странах; заявляет свыше 20 млн учеников/подписчиков. Использует ИИ для персонализации учебных программ — рекомендации курсов на основе целей и интересов пользователя.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Mindvalley.png"
     },
     {
       "id": "grab-malaysia-rce",
@@ -13130,7 +13246,8 @@
       "category_ru": null,
       "desc_en": "Malaysian academic and clinical research hub for stem cell and tissue engineering science, associated with Universiti Kebangsaan Malaysia (UKM). UKM's Centre for Tissue Engineering and Regenerative Medicine (CTERM), founded by Prof. Ruszymah Idrus, and UKM's Cell Therapy Centre (established 2006) develop cell-based therapies — including cartilage, skin and bone regeneration — for patients with degenerative and blood disorders.",
       "desc_ru": "Малайзийский академический и клинический исследовательский центр в области стволовых клеток и тканевой инженерии при Национальном университете Малайзии (UKM). Центр тканевой инженерии и регенеративной медицины UKM (CTERM), основанный проф. Рузимах Идрус, и Центр клеточной терапии UKM (создан в 2006 году) разрабатывают клеточные методы лечения — регенерацию хряща, кожи и кости — для пациентов с дегенеративными и гематологическими заболеваниями.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/National Stem Cell Centre.png"
     },
     {
       "id": "zus-coffee",
@@ -14481,7 +14598,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/China Film Group Corporation.png"
     },
     {
       "id": "youku",
@@ -14495,7 +14613,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Youku.png"
     },
     {
       "id": "bona-film-group",
@@ -14509,7 +14628,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bona Film Group.png"
     },
     {
       "id": "huayi-brothers",
@@ -14523,7 +14643,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Huayi Brothers.png"
     },
     {
       "id": "iqiyi",
@@ -14537,7 +14658,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/iQiyi.png"
     },
     {
       "id": "shanghai-film-group",
@@ -14551,7 +14673,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Shanghai Film Group (SFG).png"
     },
     {
       "id": "tencent-penguin-pictures",
@@ -14579,7 +14702,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Zhejiang Huace Film & TV.png"
     },
     {
       "id": "anta-sports",
