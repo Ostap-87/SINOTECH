@@ -1715,7 +1715,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2016 in Beijing by entrepreneur Tang Binsen, Genki Forest pioneered China's sugar-free sparkling water category using erythritol instead of aspartame, quickly building offline retail dominance. It has since expanded into flavored teas, milk teas, electrolyte and probiotic drinks, with beverage sales estimated near RMB 8.3 billion, positioning it as a fast-rising rival to Nongfu Spring.",
       "desc_ru": "Основанная в 2016 году в Пекине предпринимателем Тан Биньсэнем, Genki Forest первой в Китае вывела на рынок газированную воду без сахара на эритрите вместо аспартама и быстро завоевала оффлайн-розницу. Позже бренд расширился на чаи, молочные чаи, электролитные и пробиотические напитки; выручка от напитков оценивается примерно в 8,3 млрд юаней — компания стремительно догоняет Nongfu Spring.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Genki Forest.png"
     },
     {
       "id": "mars",
@@ -1729,7 +1730,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1911 by Frank C. Mars in Tacoma, Washington, Mars, Incorporated remains entirely family-owned, headquartered in McLean, Virginia. Beyond confectionery brands like M&M's, Snickers and Twix, it is a global leader in pet care through Pedigree, Whiskas and Royal Canin, plus veterinary services. Mars generated roughly $50 billion in revenue in 2024 across more than 130 brands in over 80 countries.",
       "desc_ru": "Основанная в 1911 году Фрэнком Марсом в Такоме (Вашингтон), Mars, Incorporated по сей день полностью принадлежит семье Марс, штаб-квартира — в Маклине (Виргиния). Помимо кондитерских брендов M&M's, Snickers и Twix, компания — мировой лидер в товарах для животных (Pedigree, Whiskas, Royal Canin) и ветеринарных услугах. Выручка Mars в 2024 году составила около $50 млрд, компания владеет более чем 130 брендами в свыше 80 странах.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/MARS.png"
     },
     {
       "id": "beijing-public-transport",
@@ -2514,7 +2516,8 @@
       "category_ru": null,
       "desc_en": "Founded in Shanghai in 1996 and listed on the Shanghai exchange since 2002, Bright Dairy is a state-owned enterprise under Bright Food Group, supervised by Shanghai's SASAC. Long the leading player in China's chilled fresh-milk segment, it produces milk, yogurt and lactic-acid drinks under brands including Bright and Youbeisi; parent Bright Food Group's overall revenue exceeds $20 billion.",
       "desc_ru": "Основанная в Шанхае в 1996 году и торгующаяся на Шанхайской бирже с 2002-го, Bright Dairy — государственное предприятие в составе Bright Food Group под контролем комитета по госимуществу Шанхая. Долгое время лидер сегмента охлаждённого свежего молока в Китае, выпускает молоко, йогурты и кисломолочные напитки под брендами Bright и Youbeisi; выручка материнской Bright Food Group превышает $20 млрд.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bright Dairy.png"
     },
     {
       "id": "totole",
@@ -3512,7 +3515,8 @@
       "category_ru": null,
       "desc_en": "A 50-50 Sino-Japanese joint venture between GAC Group and Toyota Motor Corporation, established on September 1, 2004 in Guangzhou, with the first Camry rolling off the line in 2006. GAC Toyota builds Toyota-badged sedans and crossovers (Camry, Levin, Highlander and others) as well as bZ electric vehicles for the Chinese market; its plant complex covers over 1.8 million square meters and employs around 5,600 people.",
       "desc_ru": "Китайско-японское совместное предприятие GAC Group и Toyota Motor Corporation, основанное 1 сентября 2004 года в Гуанчжоу с равными долями по 50%; первые автомобили (Camry) сошли с конвейера в 2006 году. Выпускает седаны и кроссоверы под маркой Toyota (Camry, Levin, Highlander и др.), а также электромобили bZ для китайского рынка; площадь предприятия превышает 1,8 млн кв. м, штат — около 5,6 тысячи сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/GAC Toyota.png"
     },
     {
       "id": "gac-aion",
@@ -3586,7 +3590,8 @@
       "category_ru": null,
       "desc_en": "A Sino-German joint venture between FAW Group and Volkswagen Group established on February 6, 1991, with headquarters and main plants in Changchun, Jilin Province, plus a plant in Chengdu and one under construction in Foshan. It manufactures Volkswagen and Audi vehicles, including long-wheelbase versions; ownership is split roughly 60% FAW and 40% Volkswagen-affiliated entities, making it one of China's highest-volume automotive joint ventures.",
       "desc_ru": "Китайско-германское совместное предприятие FAW Group и Volkswagen Group, учреждённое 6 февраля 1991 года, штаб-квартира и основные заводы — в Чанчуне (провинция Цзилинь), дополнительные производства в Чэнду и строящиеся в Фошане. Выпускает автомобили Volkswagen и Audi (в т.ч. удлинённые версии для КНР); доли распределены между FAW (60%) и структурами Volkswagen (40%); одно из крупнейших автомобильных СП Китая по объёму выпуска.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/FAW-VW.png"
     },
     {
       "id": "wechat",
@@ -3684,7 +3689,8 @@
       "category_ru": null,
       "desc_en": "Hong Kong-based JDB Group licensed the herbal-tea trademark Wong Lo Kat (dating to 1828) from Guangzhou Pharmaceutical from 1995, building it via its trademark red-can packaging into one of China's best-selling drinks before losing the naming rights in a 2012 arbitration ruling. It then relaunched the same herbal tea under its own JDB brand; a 2017 Supreme Court ruling let both companies keep using the red-can design.",
       "desc_ru": "Гонконгская JDB Group с 1995 года лицензировала у Guangzhou Pharmaceutical бренд травяного чая Wong Lo Kat (основан в 1828 году) и с фирменной красной банкой превратила его в один из самых продаваемых напитков Китая, но в 2012 году по решению арбитража утратила права на название. После этого компания перезапустила тот же травяной чай под собственным брендом JDB; по решению Верховного суда 2017 года дизайн красной банки остался в общем пользовании обеих компаний.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/JDB.png"
     },
     {
       "id": "lee-kum-kee",
@@ -3698,7 +3704,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1888 in Nanshui, Guangdong, after Lee Kum Sheung accidentally invented oyster sauce while overcooking an oyster broth, Lee Kum Kee remains a family-owned business now in its fourth-plus generation, based in Hong Kong. It has grown into a global condiment maker with over 300 sauces and seasonings — including oyster, hoisin and XO sauces — and more than 10,000 employees worldwide.",
       "desc_ru": "Основанная в 1888 году в Наньшуе (провинция Гуандун) после того, как Ли Цзиньшан случайно изобрёл устричный соус, переварив устричный бульон, Lee Kum Kee остаётся семейным бизнесом уже более четырёх поколений, штаб-квартира — в Гонконге. Компания выросла в глобального производителя соусов и приправ с более чем 300 наименованиями — включая устричный, хойсин и XO — и свыше 10 000 сотрудников по всему миру.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Lee Kum Kee.png"
     },
     {
       "id": "phnix",
@@ -3768,7 +3775,8 @@
       "category_ru": null,
       "desc_en": "Formed in 1955 through the merger of 25 Foshan condiment producers, Haitian Flavouring & Food is the world's largest soy sauce maker and the leading Chinese producer of soy and oyster sauces, holding roughly 18% of the domestic soy sauce market. Headquartered in Foshan, Guangdong, it listed on the Shanghai exchange in 2012 and added a Hong Kong H-share listing in 2025.",
       "desc_ru": "Образованная в 1955 году слиянием 25 фошаньских производителей приправ, Haitian Flavouring & Food — крупнейший в мире производитель соевого соуса и лидер Китая по соевому и устричному соусам с долей рынка около 18%. Штаб-квартира — в Фошане (провинция Гуандун); акции торгуются на Шанхайской бирже с 2012 года, а в 2025-м добавился листинг H-акций в Гонконге.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Haitian.png"
     },
     {
       "id": "blue-moon",
@@ -3824,7 +3832,8 @@
       "category_ru": null,
       "desc_en": "A 50-50 Sino-Japanese joint venture between GAC Group and Honda Motor, established on July 1, 1998 in Guangzhou for a 30-year term — Honda's first automobile manufacturing joint venture in China. GAC Honda produces the Accord, Odyssey, Fit, City and other models across two plants, in Huangpu and Zengcheng, with a combined annual capacity of 360,000 vehicles.",
       "desc_ru": "Китайско-японское совместное предприятие GAC Group и Honda Motor, основанное 1 июля 1998 года в Гуанчжоу с равными долями по 50% на срок 30 лет — первое совместное предприятие Honda по производству автомобилей в Китае. Выпускает седаны и минивэны Accord, Odyssey, Fit, City и другие модели на двух заводах (Хуанпу и Цзэнчэн) суммарной мощностью 360 тысяч автомобилей в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/GAC Honda.png"
     },
     {
       "id": "panasonic",
@@ -3866,7 +3875,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1999 in Guangzhou by brothers Luo Fei and Luo Yun, Biostime pioneered probiotic sachets for infant gut health before launching a premium France-sourced infant formula in 2008 amid China's domestic milk-safety crises. After acquiring Australian wellness brand Swisse in 2015, the company rebranded as H&H Group, evolving into a multinational spanning infant nutrition, probiotics and adult supplements.",
       "desc_ru": "Основанная в 1999 году в Гуанчжоу братьями Ло Фэем и Ло Юнем, Biostime первой в Китае вывела на рынок пробиотические саше для здоровья кишечника младенцев, а в 2008 году, на фоне кризисов безопасности молочной продукции в стране, запустила премиальную детскую смесь из Франции. После покупки австралийского бренда БАД Swisse в 2015 году компания переименовалась в H&H Group и превратилась в транснациональную группу в сферах детского питания, пробиотиков и добавок для взрослых.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Biostime.png"
     },
     {
       "id": "mitsubishi-electric",
@@ -4304,7 +4314,8 @@
       "category_ru": null,
       "desc_en": "Be & Cheery opened its first offline snack store in Hangzhou in 2003 and moved onto Taobao in 2010, growing into one of China's largest online-native snack brands covering nuts, dried fruit, meat snacks and baked goods. Haoxiangni Health Food acquired it for RMB 960 million in 2016, before PepsiCo bought it in 2020 for about $705 million, marking one of the largest foreign buyouts of a Chinese snack brand.",
       "desc_ru": "Be & Cheery открыла первый оффлайн-магазин снеков в Ханчжоу в 2003 году, а в 2010-м вышла на Taobao, превратившись в один из крупнейших онлайн-брендов снеков Китая — орехи, сухофрукты, мясные снеки, выпечка. В 2016 году компанию за 960 млн юаней приобрела Haoxiangni Health Food, а в 2020-м её купила PepsiCo примерно за $705 млн — одна из крупнейших покупок китайского бренда снеков иностранной компанией.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Be&Cherry.png"
     },
     {
       "id": "souche",
@@ -5014,7 +5025,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2003 in Hefei, Anhui, by chicken farmer Shu Congxuan under the name Feixi Old Hen, the chain rebranded as Laoxiangji (Home Original Chicken) in 2012 to support national expansion. Specializing in chicken-based Chinese fast food, it has grown to more than 1,800 outlets across Anhui, Beijing, Shanghai, Shenzhen and other cities, and has filed for a Hong Kong IPO at an estimated valuation near RMB 18 billion.",
       "desc_ru": "Основанная в 2003 году в Хэфэе (провинция Аньхой) птицеводом Шу Цунсюанем под названием «Фэйси старая курица», сеть в 2012 году переименовалась в Laoxiangji (Home Original Chicken) для национальной экспансии. Специализируясь на китайском фастфуде из курицы, она выросла до свыше 1800 точек в Аньхое, Пекине, Шанхае, Шэньчжэне и других городах и подала заявку на IPO в Гонконге с оценкой около 18 млрд юаней.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/LaoXiangJi.png"
     },
     {
       "id": "qiaqia-food",
@@ -5028,7 +5040,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2001 in Hefei, Anhui, Qiaqia Food (ChaCheer) is China's largest producer of roasted seeds and nuts, known for its sunflower, watermelon and pumpkin seeds alongside pistachios and pecans. It runs five raw-material bases and five production facilities turning out more than 175,000 tonnes of product annually, is listed on the Shenzhen exchange, and exports to nearly 50 countries and regions.",
       "desc_ru": "Основанная в 2001 году в Хэфэе (провинция Аньхой), Qiaqia Food (бренд ChaCheer) — крупнейший в Китае производитель жареных семечек и орехов: подсолнечных, тыквенных, арбузных семечек, а также фисташек и пекана. Компания управляет пятью базами сырья и пятью производственными площадками, выпускающими свыше 175 000 тонн продукции в год, торгуется на Шэньчжэньской бирже и экспортирует продукцию почти в 50 стран и регионов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Qiaqia Food.png"
     },
     {
       "id": "sungrow",
@@ -5085,7 +5098,8 @@
       "category_ru": null,
       "desc_en": "Launched in 2012 by Jiangji Distillery in Chongqing's Jiangjin District, Jiang Xiaobai is a light-aroma baijiu brand built specifically for young drinkers, offering small, affordable bottles — including fruit-infused variants under 10% ABV — printed with confessional, youth-oriented captions. Through youth-focused marketing it has been widely credited with rejuvenating baijiu's image among millennials and Gen Z.",
       "desc_ru": "Запущенный в 2012 году винокурней Jiangji в районе Цзянцзинь (Чунцин), Jiang Xiaobai — бренд байцзю лёгкого аромата, созданный специально для молодых потребителей: маленькие недорогие бутылки, включая фруктовые варианты крепостью до 10%, с исповедальными молодёжными подписями на этикетках. Благодаря маркетингу, ориентированному на молодёжь, бренду приписывают заметную роль в обновлении имиджа байцзю среди миллениалов и поколения Z.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Jiang Xiaobai.png"
     },
     {
       "id": "volvo",
@@ -5157,7 +5171,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1982 in Sichuan when Liu Yonghao and his three brothers began breeding quail and chickens, New Hope Group has grown into one of China's largest agribusiness conglomerates, spanning feed, livestock and dairy. Its core subsidiary New Hope Liuhe posted RMB 103 billion in 2024 revenue and ranks second worldwide in feed output (25.96 million tonnes); the group runs 600-plus subsidiaries and nearly 100,000 employees.",
       "desc_ru": "Основанная в 1982 году в Сычуани, когда Лю Юнхао с тремя братьями начали разведение перепелов и кур, New Hope Group выросла в один из крупнейших агрохолдингов Китая, охватывающий корма, животноводство и молочную продукцию. Ключевая дочерняя компания New Hope Liuhe получила в 2024 году выручку 103 млрд юаней и заняла второе место в мире по производству кормов (25,96 млн тонн); в группе свыше 600 дочерних компаний и почти 100 000 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/New Hope.png"
     },
     {
       "id": "luzhou-laojiao",
@@ -5171,7 +5186,8 @@
       "category_ru": null,
       "desc_en": "Rooted in Luzhou, Sichuan, Luzhou Laojiao operates the '1573 National Treasure Cellar,' continuously used since the Ming dynasty's Wanli era and protected as a national cultural relic, alongside more than 1,600 other century-old fermentation pits. Regarded as the originator of strong-aroma (nongxiang) baijiu, the company listed on the Shenzhen exchange in 1994 (000568), and its brewing craft joined China's first national intangible-heritage list in 2006.",
       "desc_ru": "Базирующаяся в Лучжоу (провинция Сычуань), Luzhou Laojiao эксплуатирует «Погреб национального достояния 1573 года», непрерывно используемый с эпохи Ваньли династии Мин и охраняемый как культурная реликвия, а также более 1600 других столетних ферментационных ям. Считаясь основоположником байцзю крепкого аромата (нунсян), компания вышла на Шэньчжэньскую биржу в 1994 году (000568), а её технология брожения вошла в первый национальный список нематериального наследия Китая в 2006 году.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Luzhou Laojia.png"
     },
     {
       "id": "hongta-tobacco",
@@ -5185,7 +5201,8 @@
       "category_ru": null,
       "desc_en": "Established in Yuxi, Yunnan, in 1956 as a tobacco redrying factory and moving into cigarette manufacturing in 1958, Hongta Tobacco Group launched its flagship Hongtashan cigarette brand in 1959, named after a Yuan-dynasty pagoda. Using flue-cured Yunnan tobacco leaf and production bases in Yuxi, Chuxiong and Dali, Hongtashan remains one of China's most valuable cigarette brands, once led for two decades by Chu Shijian.",
       "desc_ru": "Основанный в Юйси (провинция Юньнань) в 1956 году как табачная перерабатывающая фабрика и перешедший к производству сигарет в 1958-м, Hongta Tobacco Group в 1959 году запустил флагманский бренд сигарет Hongtashan, названный в честь пагоды эпохи Юань. Используя жёлтый вирджинский табак из Юньнани и производственные площадки в Юйси, Чусюне и Дали, Hongtashan остаётся одним из самых дорогих сигаретных брендов Китая; компанию около двадцати лет возглавлял Чу Шицзянь.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Hongta Tobacco.png"
     },
     {
       "id": "yunnan-baiyao",
@@ -5213,7 +5230,8 @@
       "category_ru": null,
       "desc_en": "Chu Orange is the premium citrus brand of Chu Shijian, once known as China's 'tobacco king' for turning Hongta Group's Hongtashan cigarette into a national brand before an embezzlement conviction in 1999. Released on medical parole in 2002, Chu started an orange orchard in Yunnan at age 74; the fruit, originally named Yun Guan, was renamed 'Chu orange' by consumers after his redemption story went viral in 2012, selling 20 tonnes in four days.",
       "desc_ru": "Chu Orange — премиальный бренд апельсинов Чу Шицзяня, некогда известного как «табачный король» Китая за превращение сигарет Hongtashan группы Hongta в общенациональный бренд, прежде чем в 1999 году он был осуждён за растрату. Освобождённый по состоянию здоровья в 2002 году, Чу в 74 года начал разводить апельсины в Юньнани; фрукты, изначально названные Yun Guan, потребители переименовали в «апельсины Чу» после того, как в 2012 году его история искупления стала вирусной — 20 тонн раскупили за четыре дня.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Chu Orange.png"
     },
     {
       "id": "taiji-group",
@@ -5325,7 +5343,8 @@
       "category_ru": null,
       "desc_en": "Kweichow Moutai is a state-owned baijiu producer founded in 1951 in Moutai Town, Guizhou province, from the merger of three private distilleries. Its flagship 53% ABV Feitian Moutai is China's ceremonial liquor for business and state banquets. By market capitalization (over $240 billion) it is the world's most valuable liquor company, with annual revenue exceeding $24 billion.",
       "desc_ru": "Kweichow Moutai — государственный производитель премиального байцзю, основанный в 1951 году в городке Маотай, провинция Гуйчжоу, на базе трёх частных винокурен. Флагманский продукт — 53-градусный Feitian Moutai, символ деловой культуры и государственных банкетов Китая. Крупнейший в мире производитель крепкого алкоголя по рыночной капитализации (свыше 240 млрд долларов), годовая выручка превышает 24 млрд долларов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Moutai.png"
     },
     {
       "id": "dong-liquor",
@@ -5339,7 +5358,8 @@
       "category_ru": null,
       "desc_en": "Dong Liquor (Dongjiu) is a distillery in Zunyi, Guizhou province, one of China's 'eight great' historic baijiu brands. Local brewing traces to the Wei and Jin dynasties; the modern enterprise was formalized in 1957 near the Donggong Temple, which gave the liquor its name. Its process combines small and large fermentation starters with dozens of herbs, producing a distinctive floral-herbal aroma unlike other baijiu styles.",
       "desc_ru": "Dong Liquor (董酒) — винокурня из Цзуньи, провинция Гуйчжоу, один из «восьми великих» сортов байцзю Китая. Производство здесь восходит к эпохам Вэй и Цзинь; современное предприятие создано в 1957 году у храма Дунгун, давшего название напитку. Технология сочетает малые и большие закваски (сяоцюй и дацюй) с десятками трав, формируя цветочно-травяной аромат, отличающий бренд от других байцзю.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Dong Liquor.png"
     },
     {
       "id": "xijiu",
@@ -5550,7 +5570,8 @@
       "category_ru": null,
       "desc_en": "Bestore is a Wuhan-based snack retailer founded in August 2010 by Yang Hongchun. The company integrates R&D, manufacturing, packaging and retail of branded snack foods, and listed on the Shanghai Stock Exchange on 24 February 2020. Its products are sold through thousands of stores across China and its own e-commerce channels, spanning categories from nuts and dried fruit to meat snacks and baked goods.",
       "desc_ru": "Bestore (良品铺子) — ритейлер снеков из Уханя, основанный в августе 2010 года Ян Хунчунем. Компания объединяет разработку, производство, упаковку и розничные продажи закусок под собственным брендом и вышла на Шанхайскую биржу 24 февраля 2020 года. Продукция продаётся через тысячи магазинов по всему Китаю и онлайн-платформы; выручка — миллиарды юаней в год, категории — от орехов до мясных снеков и выпечки.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bestore.png"
     },
     {
       "id": "pang-dong-lai",
@@ -5694,7 +5715,8 @@
       "category_ru": null,
       "desc_en": "Jinxing Beer is Henan province's largest brewing group, headquartered in Zhengzhou; sources date its founding to either 1982 or 1995. The group produces over 60 beer varieties, ranked among China's top four brewers for five consecutive years, with annual output of about 2 million tons. It employs more than 6,000 people and runs 18 production bases across nine Chinese provinces.",
       "desc_ru": "Jinxing Beer — крупнейший пивоваренный бренд провинции Хэнань со штаб-квартирой в Чжэнчжоу; по разным данным, история компании начинается в 1982 или 1995 году. Группа выпускает свыше 60 видов продукции и на протяжении пяти лет подряд входила в четвёрку крупнейших пивоварен Китая, с годовым производством около 2 млн тонн. Компания насчитывает свыше 6000 сотрудников и 18 производственных площадок в стране.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Jinxing Beer.png"
     },
     {
       "id": "crchi",
@@ -5893,7 +5915,8 @@
       "category_ru": null,
       "desc_en": "Joyvio Group is an agri-food holding established in 2010 by Legend Holdings (Lenovo's parent company), initially focused on blueberries and kiwifruit; it is now China's largest kiwifruit grower and held about 32% of the premium imported blueberry and durian market by late 2025, with roughly RMB 23.5 billion in revenue. Its Joyvio Food unit handles animal protein, notably salmon farming via Chile's Australis Seafoods.",
       "desc_ru": "Joyvio Group — агрохолдинг, созданный в 2010 году Legend Holdings (материнской компанией Lenovo) с фокусом на голубику и киви; сегодня — крупнейший производитель киви в Китае, к концу 2025 года держал около 32% рынка премиальной импортной голубики и дуриана при выручке около 23,5 млрд юаней. Дочерняя Joyvio Food занимается животным белком: в 2019 году группа купила 94,47% чилийской Australis Seafoods за 880 млн долларов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Joyvio.png"
     },
     {
       "id": "laigang",
@@ -6050,7 +6073,8 @@
       "category_ru": null,
       "desc_en": "Beidahuang Group is China's largest state-owned agricultural conglomerate, headquartered in Harbin, Heilongjiang province. Its origins trace to state farms established by demobilized soldiers after 1947; the Heilongjiang Land Reclamation Bureau, founded in 1976, was reorganized into today's corporate group in 2018. It comprises 9 subsidiaries and 113 state farms across roughly 3 million hectares, yielding over 20 million tons of grain annually.",
       "desc_ru": "Beidahuang Group — крупнейший государственный агрохолдинг Китая со штаб-квартирой в Харбине, провинция Хэйлунцзян; корни компании восходят к госхозам, основанным демобилизованными военными после 1947 года, а в 1976 году создано Хэйлунцзянское управление сельхозосвоения, преобразованное в 2018 году в современную группу. Объединяет 9 дочерних компаний, 113 госхозов на площади около 3 млн га, обеспечивая свыше 20 млн тонн зерна ежегодно.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Beidahuang.png"
     },
     {
       "id": "anta",
@@ -6193,7 +6217,8 @@
       "category_ru": null,
       "desc_en": "Fenjiu is a baijiu from Xinghuacun, Shanxi province, with roughly 1,500 years of history and imperial-court status under the Northern Qi dynasty; the modern state distillery was established in 1948 after Fenyang's liberation. It is the sole 'light-aroma' (qingxiang) representative among China's 'eight great' historic baijiu and won a State Council gold medal in 1980. Group revenue exceeded RMB 45 billion in 2025.",
       "desc_ru": "Fenjiu — байцзю из Синхуацуня, провинция Шаньси, с историей около 1500 лет и статусом императорского напитка эпохи Северная Ци; современный госзавод создан в 1948 году после освобождения Фэньяна. Единственный представитель светлого («цинсян») аромата среди «восьми великих» байцзю Китая, лауреат золотой медали Госсовета 1980 года. Выручка группы за 2025 год превысила 45 млрд юаней — четвёртое место по продажам среди производителей байцзю страны.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/fenjiu.png"
     },
     {
       "id": "tisco",
@@ -6236,7 +6261,8 @@
       "category_ru": null,
       "desc_en": "Little Sheep is a Mongolian hot pot restaurant chain founded in 1999 in Baotou, Inner Mongolia, by Zhang Gang and Chen Hongkai; at its peak it ran 375 restaurants across China, Hong Kong, Japan, Canada and the US. Yum! Brands bought a 20% stake for $63 million in 2009 and acquired the company outright for $586 million in 2011. The brand is now owned by Yum China, spun off from Yum! Brands in 2016.",
       "desc_ru": "Little Sheep — сеть ресторанов монгольского хого (火锅), основанная в 1999 году в Баотоу (Внутренняя Монголия) Чжан Ганом и Чэнь Хункаем; на пике насчитывала 375 ресторанов в Китае, Гонконге, Японии, Канаде и США. В 2009 году Yum! Brands приобрела 20% компании за 63 млн долларов, а в 2011 году выкупила её полностью за 586 млн долларов. Сегодня бренд принадлежит Yum China, выделенной из Yum! Brands в 2016 году.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Little Sheep.png"
     },
     {
       "id": "baotou-steel",
@@ -6292,7 +6318,8 @@
       "category_ru": null,
       "desc_en": "Coconut Palm is China's largest plant-protein beverage maker, tracing back to the Haikou Canned Food Factory founded on Hainan Island in 1956. Near bankruptcy in 1985, the company was reformed under director Wang Guangxing and in 1988 developed an oil-water separation technology that became the basis of its coconut juice brand, registered in 1998. Since 1991 the drink has been an official Chinese state-banquet beverage.",
       "desc_ru": "Coconut Palm (椰树) — крупнейший в Китае производитель напитков на растительном белке, ведущий историю от Хайкоуского консервного завода 1956 года на острове Хайнань. Почти обанкротившаяся в 1985 году, компания реформирована Ван Гуансином, а в 1988 году освоила технологию разделения масла и воды — основу бренда кокосового сока, зарегистрированного в 1998 году. С 1991 года напиток официально включён в меню госприёмов Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Coconut Palm.png"
     },
     {
       "id": "haima-auto",
@@ -6888,7 +6915,8 @@
       "category_ru": null,
       "desc_en": "Classy Kiss is a Shenzhen-based premium yogurt maker founded in October 1999 as Green Snow Bioengineering; the CLASSY KISS trademark was registered in 2001. For over two decades it has specialized in European-style chilled yogurt, using premium starter cultures from Denmark's Chr. Hansen and operating its own cold-chain logistics network. The brand leads China's premium chilled-yogurt segment, priced above the market average.",
       "desc_ru": "Classy Kiss (卡士) — шэньчжэньский производитель премиальных йогуртов, основанный в октябре 1999 года как Green Snow Bioengineering; товарный знак CLASSY KISS зарегистрирован в 2001 году. Более 20 лет компания специализируется на низкотемпературных йогуртах европейского стиля, использует заквасочные культуры датской Chr. Hansen и собственную холодовую логистику. Бренд занимает лидирующие позиции в сегменте премиального охлаждённого йогурта Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Classy Kiss.png"
     },
     {
       "id": "xpeng",
@@ -7893,7 +7921,8 @@
       "category_ru": null,
       "desc_en": "CJ CheilJedang was founded in 1953 as Cheil Jedang, Samsung founder Lee Byung-chull's first manufacturing venture; it was spun off into the independent CJ Group between 1993 and 1997. It is now Korea's leading food-tech and biotech holding, home to the Bibigo brand (global sales topped KRW 1.2 trillion in 2024) and the Hetbahn instant-rice line. Its bio business covers amino acids and biopolymers. Site visits require prior arrangement.",
       "desc_ru": "CJ CheilJedang основана в 1953 году как Cheil Jedang в составе Samsung Group — первое производственное предприятие Ли Бён Чхоля; в 1993–1997 годах выделена в независимую CJ Group. Сегодня — ведущий фудтех- и биотех-холдинг Кореи, известный брендами Bibigo (продажи превысили 1,2 трлн вон в 2024 году) и готовым рисом Hetbahn. Биотехнологии охватывают аминокислоты и биополимеры. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/CJ CheilJedang.png"
     },
     {
       "id": "cj-freshway",
@@ -7907,7 +7936,8 @@
       "category_ru": null,
       "desc_en": "Operator of centralized kitchens (Central Kitchen, CK) producing ready meals for 550+ corporate cafeterias, offices and hospitals nationwide — a major B2B food distributor. Visits arranged by official request.",
       "desc_ru": "Оператор централизованных кухонь (Central Kitchen, CK) — производит готовые блюда для 550+ корпоративных столовых, офисов и больниц по всей стране; крупный B2B-дистрибьютор продуктов питания. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/CJ Freshway.png"
     },
     {
       "id": "market-kurly",
@@ -7921,7 +7951,8 @@
       "category_ru": null,
       "desc_en": "Pioneer of Korea's 'dawn delivery' (Saetbyul-delivery) — fresh groceries delivered by 7am for orders placed before 11pm. Automated logistics centers in Gimpo and Pyeongtaek process 300,000+ orders a day; AI demand forecasting keeps write-offs under 1%. Visits arranged by official request.",
       "desc_ru": "Пионер «рассветной доставки» (Saetbyul-delivery) в Корее — свежие продукты доставляются до 7 утра при заказе до 23:00. Автоматизированные логистические центры в Кимпхо и Пхёнтхэке обрабатывают 300 000+ заказов в день, ИИ-прогнозирование спроса держит списание товара ниже 1%. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Market Kurly.png"
     },
     {
       "id": "nongshim-farm",
@@ -7935,7 +7966,8 @@
       "category_ru": null,
       "desc_en": "Nongshim's vertical-farming (hydroponics/agtech) division, exporting smart-farm solutions to Saudi Arabia, Oman and Qatar. Visits arranged by official request.",
       "desc_ru": "Подразделение Nongshim по вертикальному земледелию (гидропоника, agtech); экспортирует smart farm решения в Саудовскую Аравию, Оман, Катар. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Nongshim farm.png"
     },
     {
       "id": "seoul-milk",
@@ -7977,7 +8009,8 @@
       "category_ru": null,
       "desc_en": "Korea Ginseng Corporation's Jungkwanjang brand — the country's largest producer of premium red ginseng. Its Wonju plant is often visited together with Samyang Foods on the same route.",
       "desc_ru": "Крупнейший в Корее производитель красного женьшеня премиум-класса (Korea Ginseng Corporation). Завод в Вонджу часто посещается вместе с Samyang в рамках одного маршрута.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Jungkwanjiang.png"
     },
     {
       "id": "fresheasy",
@@ -7991,7 +8024,8 @@
       "category_ru": null,
       "desc_en": "Korea's largest maker of meal kits (HMR ready-to-cook sets) — about 70% of the market. Its fresh-HMR factory in Yongin (~26,400 m²) produces both its own products and OEM/ODM lines for major brands. Visits arranged by official request.",
       "desc_ru": "Крупнейший производитель мил-китов (готовых наборов для приготовления) в Корее — около 70% рынка; фабрика свежих HMR-продуктов в Йонъине (~26 400 м²) выпускает и собственные, и OEM/ODM продукты для крупных брендов. Визиты — по официальному согласованию.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Fresh & Easy.png"
     },
     {
       "id": "hy-korea-yakult",
@@ -8209,7 +8243,8 @@
       "category_ru": null,
       "desc_en": "Kikkoman is the world's leading soy sauce producer; brewing in Noda, Chiba Prefecture, dates back over 350 years, and the modern company was formed in 1917 when eight Mogi and Takanashi family brewers merged as Noda Shoyu Co. The current name was adopted in 1980. The company entered the US market in 1957 and now holds over 50% of the American soy sauce market. Its Noda plant hosts a soy sauce history museum open to visitors.",
       "desc_ru": "Kikkoman — крупнейший в мире производитель соевого соуса; традиция варки соуса в Ноде, префектура Тиба, насчитывает свыше 350 лет, а современная компания образована в 1917 году слиянием восьми семейных пивоварен Могi и Такanashi под названием Noda Shoyu. Нынешнее имя закреплено в 1980 году. Компания вышла на рынок США в 1957 году и удерживает свыше 50% американского рынка соевого соуса. Завод в Ноде включает музей истории соевого соуса.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Kikkoman.png"
     },
     {
       "id": "kewpie",
@@ -8223,7 +8258,8 @@
       "category_ru": null,
       "desc_en": "Kewpie was founded in 1919 by Toichiro Nakashima as Shokuhin Kogyo Co.; in 1925 it launched KEWPIE Mayonnaise, Japan's first commercially sold mayonnaise, packed in glass jars. Today Kewpie is Japan's leading maker of mayonnaise, dressings and processed vegetables, recognizable by its cherub 'Kewpie doll' mascot. Its factories deploy computer-vision and AI inspection to sort raw vegetables, a process shown on the 'Mayo Terrace' visitor route.",
       "desc_ru": "Kewpie основана в 1919 году Тоитиро Накасимой как Shokuhin Kogyo Co.; в 1925 году выпустила яичный майонез KEWPIE — первый майонез в продаже в Японии, в стеклянной банке. Сегодня Kewpie — ведущий японский производитель майонеза, соусов и обработанных овощей, узнаваемый по маскоту-кукле. На заводах применяются компьютерное зрение и ИИ для инспекции овощей — направление, показанное на маршруте «Mayo Terrace».",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Kewpie.png"
     },
     {
       "id": "ajinomoto",
@@ -8252,7 +8288,8 @@
       "category_ru": null,
       "desc_en": "Fuji Oil was incorporated in October 1950 in Osaka, backed by Itochu, taking over the Fuji Sanshi oil mill. It developed defatted soy protein 'Fuji Takaramame' in 1961 and soy isolate Fujipro for processed meats in 1966; its 1963 coating chocolate Choco Fancy founded its industrial chocolate business. In 2015 it acquired a stake in Brazil's Harald. Its portfolio spans vegetable oils, soy ingredients and industrial chocolate.",
       "desc_ru": "Fuji Oil учреждена в октябре 1950 года в Осаке при участии Itochu на базе маслозавода Fuji Sanshi. В 1961 году компания разработала обезжиренный соевый белок «Fuji Takaramame», а в 1966 году — изолят Fujipro для мясопереработки; в 1963 году выпустила заменитель какао-масла Choco Fancy, заложив основу промышленного шоколадного направления. В 2015 году приобрела долю в бразильской Harald. Портфель — масла, соевые ингредиенты и промышленный шоколад.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Fuji Oil.png"
     },
     {
       "id": "nissin-foods",
@@ -8266,7 +8303,8 @@
       "category_ru": null,
       "desc_en": "Nissin Foods was founded in 1948 by Momofuku Ando, who in 1958 invented Chicken Ramen — the world's first instant noodle — developing the flash-frying method in a backyard shed. In 1971 he created Cup Noodles, introduced in the US in 1972 as Cup O'Noodles. The CupNoodles Museum in Ikeda, Osaka, is devoted to the history of instant noodle invention, letting visitors design their own custom cup.",
       "desc_ru": "Nissin Foods основана в 1948 году Момофуку Андо; в 1958 году он изобрёл «Chicken Ramen» — первую в мире лапшу быстрого приготовления, разработав на заднем дворе технологию обжарки во фритюре. В 1971 году появилась лапша в стаканчике Cup Noodles, представленная в США в 1972 году как Cup O'Noodles. Музей CupNoodles в Икэде (Осака) посвящён истории изобретения лапши быстрого приготовления и позволяет создать собственную упаковку.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Nissin.png"
     },
     {
       "id": "morinaga-milk",
@@ -8295,7 +8333,8 @@
       "category_ru": null,
       "desc_en": "Megmilk Snow Brand was formed in 2009 through the merger of Snow Brand Milk Products and Nippon Milk Community, but its roots go back to 1925 and the Hokkaido Cooperative Creamery Association, founded to support the island's dairy farming. A cheese plant built in Toasa, Hokkaido, in 1933 launched Japan's cheese production in 1934, which sold out almost immediately. Today the company is one of Japan's largest dairy makers.",
       "desc_ru": "Megmilk Snow Brand образована в 2009 году слиянием Snow Brand Milk Products и Nippon Milk Community, но её история восходит к 1925 году и Хоккайдской кооперативной сыроварне, созданной для поддержки молочного животноводства острова. В 1933 году построен сырный завод в Тоасе, а сыр 1934 года мгновенно стал дефицитным, положив начало крупному сыроварению в Японии. Сегодня компания — один из крупнейших производителей молочной продукции страны.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Meg Milk Snowbrand.png"
     },
     {
       "id": "demae-can",
@@ -8877,7 +8916,8 @@
       "category_ru": null,
       "desc_en": "%Arabica is a specialty coffee chain founded by Kenneth Shoji after the 2011 earthquake destroyed his home in Fukushima Prefecture; he relocated to Hong Kong, bought a coffee farm in Hawaii, and opened the brand's first store there in 2013. By June 2025 it had grown to 242 locations worldwide, with its largest overseas presence in mainland China. Its minimalist stores pair Japanese design with local elements and consistent, tech-driven roasting.",
       "desc_ru": "%Arabica — сеть кофеен, основанная Кеннетом Сёдзи после землетрясения 2011 года, разрушившего его дом в Фукусиме; он переехал в Гонконг, купил кофейную ферму на Гавайях и открыл первую точку в Гонконге в 2013 году. К июню 2025 года бренд насчитывал 242 точки по миру, включая крупнейшее присутствие в материковом Китае. Минималистичный дизайн под слоганом «See the World through Coffee» сочетает японскую эстетику с локальными элементами.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/arabica.png"
     },
     {
       "id": "ogawa-coffee",
@@ -8891,7 +8931,8 @@
       "category_ru": null,
       "desc_en": "Ogawa Coffee is a specialty roaster founded in 1952 in Kyoto, ranked among the city's three legendary old coffee houses alongside Inoda and Maeda. Over 70+ years it built an integrated roasting operation supplying cafes in Kyoto, Tokyo and Boston. Its 2022 Sakaimachi Nishiki shop, in a restored Kyo-machiya townhouse near the original roastery site, blends traditional craftsmanship with modern specialty-coffee standards.",
       "desc_ru": "Ogawa Coffee — специализированная обжарочная компания, основанная в 1952 году в Киото, одна из трёх легендарных старейших кофеен города наряду с Inoda и Maeda. За 70+ лет построила интегрированное производство, поставляющее кофе в кафе Киото, Токио и Бостона. Открытый в 2022 году магазин Sakaimachi Nishiki в отреставрированном традиционном доме мачия близ первоначальной обжарочной площадки сочетает ремесло и стандарты third-wave кофе.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Ogawa Coffee.png"
     },
     {
       "id": "starbucks-reserve-roastery-nakameguro",
@@ -8919,7 +8960,8 @@
       "category_ru": null,
       "desc_en": "Blue Bottle Coffee entered Japan on February 6, 2015 with its first overseas store in Kiyosumi-Shirakawa, Tokyo, drawing long opening-day queues and helping turn the district into a third-wave coffee hub. The store doubled as an on-site roastery from day one; a 2019 Schemata Architects renovation expanded seating to 47 and added district-exclusive desserts. Blue Bottle Japan has since grown to multiple cafes across Tokyo and beyond.",
       "desc_ru": "Blue Bottle Coffee вышла в Японию 6 февраля 2015 года, открыв первый зарубежный магазин в токийском районе Киёсуми-Сиракава — с огромными очередями, превратившими район в центр third-wave кофе. С самого начала магазин совмещал функции обжарочного цеха; реконструкция 2019 года по проекту Schemata Architects расширила зал до 47 мест и добавила эксклюзивные десерты. С тех пор сеть выросла до нескольких кафе в Токио и других городах.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Blue Bottle Coffee.png"
     },
     {
       "id": "doutor-coffee",
@@ -8933,7 +8975,8 @@
       "category_ru": null,
       "desc_en": "Doutor Coffee, founded by Hiromichi Toriba (registered 1962, brand launched 1980), opened Japan's first self-service espresso-style cafe in Harajuku, named after a Sao Paulo street where the founder once worked on a coffee plantation. Now under Doutor Nichires Holdings, it runs roughly 900 Doutor shops in Japan and over 1,200 including sister brands, one of the country's largest, oldest coffee-shop chains, known for affordable quality.",
       "desc_ru": "Doutor Coffee, основанная Хиромити Торибой (компания зарегистрирована в 1962-м, бренд запущен в 1980-м), открыла в Харадзюку первое в Японии кафе формата самообслуживания; название взято от улицы в Сан-Паулу, где основатель работал на кофейной плантации. Сегодня в составе Doutor Nichires Holdings сеть насчитывает около 900 точек Doutor в Японии и свыше 1200 с учётом смежных брендов — одна из крупнейших и старейших сетей кофеен страны.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Doutor Coffee.png"
     },
     {
       "id": "gong-cha-japan",
@@ -8947,7 +8990,8 @@
       "category_ru": null,
       "desc_en": "Gong Cha, a bubble-tea brand founded in 2006 in Kaohsiung, Taiwan, whose name means \"tribute tea for the emperor,\" opened its first Japan store in Harajuku in September 2015, reportedly selling around 3,000 cups on opening day and igniting the country's tapioca-tea boom. Run in Japan under a master-franchise structure, it has expanded to many outlets nationwide, part of Gong Cha's global network of nearly 2,000 stores in over 20 countries.",
       "desc_ru": "Gong Cha — бренд чая с тапиокой, основанный в 2006 году в Гаосюне (Тайвань); название переводится как «чай в дань императору». Первый магазин в Японии открылся в Харадзюку в сентябре 2015 года и, по данным СМИ, в день открытия продал около 3000 стаканов, положив начало буму бабл-ти в стране. Японское подразделение работает по мастер-франшизе и расширилось до многих точек в рамках глобальной сети Gong Cha из почти 2000 магазинов в 20+ странах.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Gong Cha.png"
     },
     {
       "id": "cp-all",
@@ -9089,7 +9133,8 @@
       "category_ru": null,
       "desc_en": "Charoen Pokphand Foods (CPF), founded January 17, 1978 and headquartered in Bangkok, is an agro-industrial and food conglomerate within CP Group, covering feed, livestock breeding, aquaculture and processed foods across dozens of countries with revenue exceeding 500 billion baht. Its R&D-driven Meat Zero line, built on proprietary \"Plant-Tec\" technology, is a plant-based meat substitute sold via 7-Eleven and modern-trade retailers nationwide.",
       "desc_ru": "Charoen Pokphand Foods (CPF), основанная 17 января 1978 года со штаб-квартирой в Бангкоке, — глобальный агропромышленный конгломерат в составе CP Group, охватывающий комбикорма, животноводство, аквакультуру и переработку продуктов в десятках стран с выручкой свыше 500 млрд бат в год. Разработанная R&D-центром линейка Meat Zero на базе технологии Plant-Tec — растительный заменитель мяса, продающийся через 7-Eleven и сети современной торговли.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Charoen Pokphand Foods.png"
     },
     {
       "id": "thai-union-group",
@@ -9131,7 +9176,8 @@
       "category_ru": null,
       "desc_en": "Betagro, founded in 1967 starting with animal feed production, is a leading integrated Thai agro-food group spanning feed, swine and poultry farming, animal health products, processed foods and pet food. Its S-Pure brand was the first in Thailand certified \"Raised Without Antibiotics\" by NSF USA, and the company built Betagro E-Traceability, the country's first full farm-to-table traceability system, alongside a dedicated Food Innovation Center.",
       "desc_ru": "Betagro, основанная в 1967 году с производства комбикормов, — ведущая интегрированная тайская агропродовольственная группа: корма, свиноводство и птицеводство, ветпрепараты, переработанные продукты. Бренд S-Pure стал первым в Таиланде, сертифицированным NSF USA по стандарту «выращено без антибиотиков», а компания создала Betagro E-Traceability — первую в стране систему прослеживаемости «от фермы до стола» и собственный Food Innovation Center.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Betagro.png"
     },
     {
       "id": "dutch-mill",
@@ -9145,7 +9191,8 @@
       "category_ru": null,
       "desc_en": "Dutch Mill, established January 27, 1984 (initially as Pro Food Co., renamed 1991), is Thailand's dominant drinking-yogurt producer, historically capturing over 90% of that segment via affordable small-pack (90ml/180ml) UHT yogurt and still holding roughly 40% of the wider yogurt category. It also makes UHT milk and dairy drinks, exporting the Dutchmill brand across nearly every ASEAN country including Singapore, Vietnam and Indonesia.",
       "desc_ru": "Dutch Mill, основанная 27 января 1984 года (первоначально Pro Food Co., переименована в 1991-м), — доминирующий производитель питьевого йогурта в Таиланде: исторически занимал свыше 90% сегмента за счёт малых упаковок UHT-йогурта (90/180 мл) и удерживает около 40% всей категории йогуртов. Также выпускает UHT-молоко и молочные напитки под брендом Dutchmill, экспортируемые почти во все страны АСЕАН — Сингапур, Вьетнам, Индонезию.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Dutch Mill.png"
     },
     {
       "id": "nr-instant-produce",
@@ -9159,7 +9206,8 @@
       "category_ru": null,
       "desc_en": "NR Instant Produce (NRF), listed on the Stock Exchange of Thailand in October 2020, became the first Thai-listed company in plant-based food, raising about USD 51.4 million in an IPO that doubled on debut. The group makes instant food and seasonings for export, investing roughly 408 million baht in plant-based manufacturing, including a Thai plant and joint-venture plants in the UK (Plant and Bean) and US.",
       "desc_ru": "NR Instant Produce (NRF), вышедшая на Фондовую биржу Таиланда в октябре 2020 года, стала первой листинговой тайской компанией в сегменте растительной еды, привлекшей на IPO около 51,4 млн долларов — акции удвоились в первый день торгов. Группа производит быстрорастворимые продукты и приправы на экспорт, инвестировав около 408 млн бат в производство растительных продуктов, включая завод в Таиланде и СП в Великобритании (Plant and Bean) и США.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/NR Instant Produce.png"
     },
     {
       "id": "more-meat",
@@ -9173,7 +9221,8 @@
       "category_ru": null,
       "desc_en": "More Meat is a Thai plant-based meat brand founded around 2019 by Vorakan Tanachotevorapong, who began importing plant-based products in 2017 before launching his own mushroom-based meat-alternative line. Products sell in over 80 outlets of chains including Tesco Lotus, Rimping and Gourmet Market, and the startup won the Plant Protein award at Future Food Asia 2020, drawing strategic investment from Thai Union.",
       "desc_ru": "More Meat — тайский бренд растительного мяса, основанный около 2019 года Воракан Танашотеворапонгом, который с 2017 года импортировал растительные продукты, прежде чем запустить линейку аналогов мяса на основе грибов. Продукция продаётся более чем в 80 точках сетей Tesco Lotus, Rimping и Gourmet Market; стартап получил награду Plant Protein на Future Food Asia 2020 и привлёк стратегические инвестиции Thai Union.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/More Meat.png"
     },
     {
       "id": "foremost-frieslandcampina-thailand",
@@ -9187,7 +9236,8 @@
       "category_ru": null,
       "desc_en": "Foremost Dairy Products (Bangkok) was registered in 1956 to make ice cream, later expanding into condensed milk via a Samut Prakan factory built in 1967; it became Royal Friesland Foods in 2004 and, after the 2008 Friesland-Campina merger, FrieslandCampina (Thailand) from 2011. Part of the Dutch cooperative FrieslandCampina, it has produced the Foremost brand in Thailand for over 65 years, exporting to Singapore, Hong Kong and Taiwan.",
       "desc_ru": "Foremost Dairy Products (Бангкок) была зарегистрирована в 1956 году как производитель мороженого, позже расширившись до сгущённого молока на заводе в Самутпракане (1967 год); в 2004-м стала Royal Friesland Foods, а после слияния Friesland и Campina в 2008-м — FrieslandCampina (Thailand) с 2011 года. Часть нидерландского кооператива FrieslandCampina выпускает бренд Foremost в Таиланде свыше 65 лет, экспортируя в Сингапур, Гонконг и Тайвань.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Foremost.png"
     },
     {
       "id": "meiji-thailand",
@@ -9755,7 +9805,8 @@
       "category_ru": null,
       "desc_en": "Inthanin, founded in 2006 by Bangchak Corporation and named after Thailand's queen's-flower tree, began as a coffee-shop concept at Bangchak service stations to compete with rival forecourt cafes. Positioned as Thailand's \"green coffee shop\" chain around sustainability themes, it crossed 1,000 branches in December 2022 and has since expanded past 1,400 locations across Thailand and Laos, ranking among the country's top five coffee-shop brands.",
       "desc_ru": "Inthanin, основанная в 2006 году корпорацией Bangchak и названная в честь тайского «королевского цветочного дерева», начиналась как формат кофеен на АЗС Bangchak для конкуренции с соседними сетями. Позиционируясь как «зелёная» сеть кофеен с акцентом на устойчивое развитие, она преодолела отметку в 1000 точек в декабре 2022 года и превысила 1400 точек в Таиланде и Лаосе — одна из пяти крупнейших сетей кофеен страны.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Inthanin.png"
     },
     {
       "id": "chatramue",
@@ -9769,7 +9820,8 @@
       "category_ru": null,
       "desc_en": "ChaTraMue traces its roots to a Chinese-immigrant family tea shop, Lim Meng Keeat, opened in Bangkok's Chinatown in 1925; the ChaTraMue brand dates to 1945, when wartime supply disruptions pushed the family toward Thai-style iced milk tea. Run by Cha Thai International/Tiptari, its distinctive orange Thai tea holds roughly 70% of Thailand's branded tea market and has expanded into franchises across Asia, the UK and US.",
       "desc_ru": "История ChaTraMue восходит к чайной лавке китайских иммигрантов Lim Meng Keeat, открытой в китайском квартале Бангкока в 1925 году; сам бренд ChaTraMue появился в 1945-м, когда военные перебои с поставками подтолкнули семью к тайскому холодному молочному чаю. Под управлением Cha Thai International/Tiptari культовый оранжевый тайский чай занимает около 70% брендированного рынка чая Таиланда и развился в международную франчайзинговую сеть.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/ChaTraMue.png"
     },
     {
       "id": "karun-thai-tea",
@@ -9783,7 +9835,8 @@
       "category_ru": null,
       "desc_en": "Karun Thai Tea is a Bangkok-founded premium Thai-tea brand built on a refined family recipe, positioned to preserve authentic Thai tea flavor via strict ingredient quality and recipe consistency, including signature gold-dusted toppings. Reported 2025 figures put revenue around 160 million baht, and the brand has been expanding beyond Bangkok's major malls toward regional markets, including a planned Hong Kong entry alongside a new tea sub-brand.",
       "desc_ru": "Karun Thai Tea — премиальный бренд тайского чая из Бангкока, построенный на отточенном семейном рецепте с акцентом на аутентичный вкус, строгий контроль ингредиентов и фирменные топпинги с золотой пудрой. По данным 2025 года, выручка бренда составила около 160 млн бат; сеть расширяется за пределы торговых центров Бангкока на региональные рынки, включая запланированный выход в Гонконг и запуск нового суббренда.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Karun.png"
     },
     {
       "id": "pacamara",
@@ -9797,7 +9850,8 @@
       "category_ru": null,
       "desc_en": "Pacamara Coffee Roasters, founded by Warong \"Koong\" Chalanuchpong — Thailand's only lead instructor certified by the Specialty Coffee Association of America — grew from importing beans and brewing gear into a specialty chain with its own milling, roasting and green-coffee processing plant. It has expanded to over 15 locations in Bangkok and Chiang Mai, including a flagship Specialty Coffee Lab combining a cafe with a barista academy.",
       "desc_ru": "Pacamara Coffee Roasters, основанная Варонгом «Кунгом» Чаланучпонгом — единственным в Таиланде инструктором, сертифицированным Specialty Coffee Association of America, — выросла из импорта зёрен и оборудования в сеть кофеен с собственным заводом помола, обжарки и переработки зелёного кофе. Сеть насчитывает свыше 15 точек в Бангкоке и Чиангмае, включая флагманскую Specialty Coffee Lab с образовательной академией для бариста.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Pacamara.png"
     },
     {
       "id": "roots-coffee",
@@ -9825,7 +9879,8 @@
       "category_ru": null,
       "desc_en": "Class Café was founded by Marut Chumkhuntod, a former tech-marketing executive at GMM Grammy, Hutch and Nokia, who applied a data-driven startup approach to the coffee business he built from Nakhon Ratchasima. The chain grew into a tech-forward Thai coffee brand emphasizing data analytics, digital ordering and co-working-style branches, evolving during COVID-19 into what its founder calls a technology-first hospitality company.",
       "desc_ru": "Class Café основана Марутом Чумкунтодом, бывшим топ-менеджером по технологическому маркетингу в GMM Grammy, Hutch и Nokia, применившим data-driven стартап-подход к кофейному бизнесу, начатому в провинции Накхонратчасима. Сеть выросла в tech-ориентированный кофейный бренд с акцентом на аналитику данных, цифровой заказ и коворкинг-формат, а во время пандемии превратилась, по словам основателя, в технологическую компанию гостеприимства.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Class Cafe.png"
     },
     {
       "id": "true-coffee",
@@ -9853,7 +9908,8 @@
       "category_ru": null,
       "desc_en": "Fire Tiger, launched in March 2018 by Nunthanut Eursirisub's Ruay Sabai Sabai Co. under the Seoulcial Club brand, is a homegrown Thai bubble-tea chain known for brulee cream-cheese foam over Thai and pandan teas plus flamboyant tiger-themed kiosk branding. It captured local popularity ahead of Taiwanese entrants like Tiger Sugar, expanded rapidly from 2019 onward, and pushed abroad with locations including Grand Indonesia Mall in Jakarta.",
       "desc_ru": "Fire Tiger, запущенная в марте 2018 года компанией Ruay Sabai Sabai Нунтанута Эрсирисуба под брендом Seoulcial Club, — тайская сеть бабл-ти, известная топпингом из карамелизированной сырной пенки поверх тайского и панданового чая и яркой тигриной эстетикой киосков. Бренд завоевал популярность раньше выхода тайваньских сетей вроде Tiger Sugar, быстро расширялся с 2019 года и вышел за рубеж, включая точку в Jakarta.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Fire Tiger.png"
     },
     {
       "id": "koi-the-thailand",
@@ -9867,7 +9923,8 @@
       "category_ru": null,
       "desc_en": "KOI Thé, founded by Khloé Ma as KOI Café in Singapore in 2006 (renamed KOI Thé in 2015 to emphasize tea), runs its Thailand business within a franchise network now spanning 16 countries and regions with over 600 directly operated stores, alongside markets like Vietnam, mainland China, Japan and Malaysia. Thailand followed KOI's original direct-operation model, shifted globally toward a combined direct-plus-franchise approach from 2023.",
       "desc_ru": "KOI Thé, основанная Хлоэ Ма как KOI Café в Сингапуре в 2006 году (переименована в KOI Thé в 2015-м с акцентом на чай), ведёт бизнес в Таиланде в рамках сети, охватывающей 16 стран и регионов и насчитывающей свыше 600 собственных точек, наряду с рынками Вьетнама, Китая, Японии и Малайзии. Тайское подразделение изначально работало по модели прямого управления, дополненной франчайзингом с 2023 года.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/KOI the.png"
     },
     {
       "id": "gong-cha-thailand",
@@ -10038,7 +10095,8 @@
       "category_ru": null,
       "desc_en": "Masan Consumer, founded in 1996 and part of Masan Group, is one of Vietnam's leading branded food and beverage makers, known for Chin-Su sauces (2002) and Nam Ngu fish sauce (2007). Its FSSC/ISO/HACCP-certified factories in Ho Chi Minh City, Binh Duong, Dong Thap, Binh Thuan, Hung Yen and Bac Ninh run automated lines with real-time quality control and QR traceability, including the world's first automated fish-sauce line.",
       "desc_ru": "Masan Consumer, основанная в 1996 году и входящая в Masan Group, — один из ведущих производителей брендированных продуктов и напитков во Вьетнаме, известный соусами Chin-Su (2002) и рыбным соусом Nam Ngu (2007). Сеть сертифицированных по FSSC/ISO/HACCP заводов в Хошимине, Бинь Зыонге, Донгтхапе, Биньтхуане, Хынгйене и Бакнине оснащена автоматизированными линиями с QR-прослеживаемостью, включая первую в мире автоматическую линию рыбного соуса.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Masan Consumer.png"
     },
     {
       "id": "vissan",
@@ -10066,7 +10124,8 @@
       "category_ru": null,
       "desc_en": "FrieslandCampina Vietnam, established in 1995 as a joint venture between Binh Duong Import Export Company (Protrade) and Royal FrieslandCampina, operates its main dairy factory in Thuan An, Binh Duong, producing condensed milk, UHT milk, drinking yogurt, lactic-acid drinks and milk powder under the Dutch Lady brand. After 20-plus years, Dutch Lady became a leading Vietnamese dairy brand, backed by FrieslandCampina's global expertise.",
       "desc_ru": "FrieslandCampina Vietnam, созданная в 1995 году как совместное предприятие Binh Duong Import Export Company (Protrade) и Royal FrieslandCampina, эксплуатирует основной молочный завод в Тхуанане провинции Бинь Зыонг, выпуская сгущённое молоко, UHT-молоко, питьевой йогурт, кисломолочные напитки и сухое молоко под брендом Dutch Lady. За более чем 20 лет Dutch Lady стал одним из ведущих молочных брендов Вьетнама при поддержке экспертизы FrieslandCampina.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Dutch Lady.png"
     },
     {
       "id": "th-true-milk",
@@ -10094,7 +10153,8 @@
       "category_ru": null,
       "desc_en": "Acecook Vietnam was founded in 1993 (opened 1995) as a joint venture bringing Japanese instant-noodle technology to Vietnam. Headquartered in Ho Chi Minh City, it runs 11 factories and 7 branches nationwide. It leads the market with roughly 40% share, selling over 3 billion packs a year under 20+ brands, led by flagship Hảo Hảo, plus Đệ Nhất, Modern, and Udon Sukisuki. FY2023 revenue was about VND 15 trillion.",
       "desc_ru": "Acecook Vietnam основана в 1993 году (открытие в 1995-м) как совместное предприятие, принесшее японские технологии лапши быстрого приготовления во Вьетнам. Штаб-квартира в Хошимине, 11 заводов и 7 филиалов по стране. Лидер рынка с долей около 40%, свыше 3 млрд пачек в год под 20+ брендами, включая флагманский Hảo Hảo, Đệ Nhất, Modern, Udon Sukisuki. Выручка FY2023 — около 15 трлн донгов.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Acecook.png"
     },
     {
       "id": "grabfood-vietnam",
@@ -10504,7 +10564,8 @@
       "category_ru": null,
       "desc_en": "Phúc Long is a Vietnamese tea and coffee brand founded in 1968 in Bảo Lộc. In 2021 Masan Group bought a 20% stake for $15 million and rolled out Phúc Long kiosks inside WinMart+ stores (971 kiosks within one year), valuing the chain at $355 million. Masan later raised its stake to 84% at a valuation near $455 million, but the kiosk model underdelivered and was discontinued in Q4 2023 in favor of standalone flagship stores.",
       "desc_ru": "Phúc Long — вьетнамский чайно-кофейный бренд, основанный в 1968 году в Бао Лок. В 2021 Masan Group купила 20% за 15 млн долл. и запустила киоски Phúc Long в сети WinMart+ (971 киоск за первый год) при оценке компании в 355 млн долл. К 2022 доля Masan выросла до 84% (355–455 млн долл. оценки), однако проект киосков не оправдал ожиданий и был свёрнут в IV квартале 2023-го в пользу отдельных флагманских магазинов.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Phuc Long .png"
     },
     {
       "id": "the-coffee-house",
@@ -10547,7 +10608,8 @@
       "category_ru": null,
       "desc_en": "Katinat Saigon Kafé was founded in 2016, named after Catinat Street, a historic artery of old Saigon. Growth accelerated sharply after 2021, from 10 outlets at end-2021 to 50 by early 2023 and around 73 by 2024, mostly in prime locations across Ho Chi Minh City and neighboring provinces. Revenue jumped 403% in 2022 to over VND 300 billion and reached about VND 470 billion in 2023, giving it roughly 1.35% of the nationwide chain-coffee market.",
       "desc_ru": "Katinat Saigon Kafé основана в 2016 году, название отсылает к улице Catinat — исторической артерии старого Сайгона. После 2021 года сеть резко ускорила рост: с 10 точек в конце 2021-го до 50 в начале 2023-го и около 73 к 2024 году, преимущественно в премиальных локациях Хошимина и соседних провинций. Выручка выросла на 403% в 2022 году, достигнув более 300 млрд донгов, а в 2023-м — около 470 млрд донгов; доля рынка сетевых кофеен — около 1,35%.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Katinat.png"
     },
     {
       "id": "trung-nguyen-legend",
@@ -10617,7 +10679,8 @@
       "category_ru": null,
       "desc_en": "King Coffee is the brand of TNI, founded in 2015 by Lê Hoàng Diệp Thảo, co-founder of Trung Nguyên (ran its operations 1998-2014) and known as Vietnam's 'coffee queen.' It used a 'reverse internationalization' strategy, launching first in the US rather than Vietnam, reaching 61 countries within three years, including China, Russia, South Korea, and Australia. The company grows, processes, and exports Vietnamese coffee.",
       "desc_ru": "King Coffee — бренд TNI, основанной в 2015 году Ле Хоанг Зьеп Тхао, сооснователем Trung Nguyên (управляла операциями в 1998–2014 гг.), известной как 'кофейная королева' Вьетнама. Компания применила стратегию 'обратной интернационализации' — вывела бренд сначала на рынок США, а не Вьетнама, и за три года вышла в 61 страну, включая Китай, Россию, Корею, Австралию. Занимается выращиванием, переработкой и экспортом вьетнамского кофе.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/King Coffee.png"
     },
     {
       "id": "indomaret",
@@ -10788,7 +10851,8 @@
       "category_ru": null,
       "desc_en": "Frisian Flag Indonesia is a subsidiary of Dutch cooperative FrieslandCampina, present in Indonesia since 1922 (under the 'Frisia' brand). In July 2024 it opened a new 25.4-hectare factory in Cikarang, West Java — FrieslandCampina's largest-ever single production-facility investment, at €257 million. It can process up to 400,000 kg of milk daily (700 million kg yearly), with room to expand to 1 billion kg, producing liquid and condensed milk.",
       "desc_ru": "Frisian Flag Indonesia — дочерняя компания FrieslandCampina, на рынке Индонезии с 1922 года (бренд 'Frisia'). В июле 2024-го открыт завод в Чикаранге (Западная Ява) площадью 25,4 га — крупнейшая инвестиция FrieslandCampina в новое производство за всю историю, €257 млн. Мощность — до 400 000 кг молока в сутки (700 млн кг продукции в год) с потенциалом до 1 млрд кг; выпускает жидкое и сгущённое молоко.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Frisian Flag.png"
     },
     {
       "id": "kalbe-nutritionals",
@@ -10802,7 +10866,8 @@
       "category_ru": null,
       "desc_en": "Kalbe Nutritionals is a division of Kalbe Farma, tracing back to 1982 with its first product, prenatal brand Prenagen. In 1994 it licensed Morinaga infant formula for Indonesia, and in 1996 the business came under full Kalbe Farma control. Its portfolio spans life-stage nutrition — Prenagen, Morinaga, Zee, Hydro Coco, Fitbar, Entrasol, Diabetasol — covering pregnancy, infancy, and dietary nutrition for medical conditions.",
       "desc_ru": "Kalbe Nutritionals — подразделение Kalbe Farma, ведёт историю с 1982 года, начав с продукта пренатального питания Prenagen. В 1994-м получена лицензия на производство смесей Morinaga в Индонезии, в 1996-м бизнес перешёл под контроль Kalbe Farma. Портфель охватывает питание для всех этапов жизни: Prenagen, Morinaga, Zee, Hydro Coco, Fitbar, Entrasol и Diabetasol — от беременности до диетического питания при заболеваниях.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/kalbe.png"
     },
     {
       "id": "cimory",
@@ -10816,7 +10881,8 @@
       "category_ru": null,
       "desc_en": "Cimory (PT Cisarua Mountain Dairy Tbk) was founded in 1992 by Bambang Sutantio in Cisarua, West Java, initially to help local farmers sell fresh milk. In 2006 the company effectively created the yogurt category in Indonesia. Its 'Cimory Dairyland' concept combines dairy processing with agritourism, letting visitors see the farm and yogurt production up close. Now publicly listed, Cimory makes yogurt, flavored milk, and consumer food products.",
       "desc_ru": "Cimory (PT Cisarua Mountain Dairy Tbk) основана в 1992 году Бамбангом Сутантио в Чисаруа, Западная Ява, как способ помочь местным фермерам сбывать свежее молоко. В 2006 году компания фактически создала категорию йогурта в Индонезии. Проект 'Cimory Dairyland' сочетает переработку молока с агротуризмом — посетители наблюдают за фермой и производством йогурта. Компания вышла на биржу и выпускает йогурты, ароматизированное молоко и продукты питания.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Cimory.png"
     },
     {
       "id": "ultrajaya",
@@ -10844,7 +10910,8 @@
       "category_ru": null,
       "desc_en": "Mayora traces back to 1948, when a family of Chinese immigrants began making Marie biscuits in their home kitchen; formally founded 17 February 1977 by Jogi Hendra Atmadja, listed in Jakarta since 1990. It makes biscuits, wafers, candy, coffee, noodles, and drinks. Through its Kopiko brand (1982) Mayora is the world's largest coffee-candy maker; instant coffee Torabika launched 1990. 2022 group revenue was about Rp 30.7 trillion.",
       "desc_ru": "Mayora ведёт историю с 1948 года, когда семья китайских иммигрантов начала печь печенье Marie на домашней кухне; официально основана 17 февраля 1977 года Джоги Хендра Атмаджи, на бирже Джакарты с 1990-го. Выпускает печенье, вафли, конфеты, кофе, лапшу, напитки. Через бренд Kopiko (1982) Mayora — крупнейший в мире производитель кофейных леденцов; в 1990-м запущен Torabika. Выручка группы за 2022 год — около 30,7 трлн рупий.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Mayora.png"
     },
     {
       "id": "nestle-indonesia",
@@ -10858,7 +10925,8 @@
       "category_ru": null,
       "desc_en": "Nestlé has operated in Indonesia since 1971 and now runs four factories: Kejayan (East Java) for dairy products DANCOW and Bear Brand; Panjang (Lampung, built 1970) for Nescafé instant coffee; Cikupa (Banten) for confectionery Fox's, Polo, and Crunch; and Karawang (West Java) for DANCOW, Milo, and Cerelac. The company also produces KitKat and infant-nutrition products, employing around 3,400 people in Indonesia.",
       "desc_ru": "Nestlé работает в Индонезии с 1971 года и сегодня управляет четырьмя заводами: Kejayan (Восточная Ява) — молочные продукты DANCOW и Bear Brand; Panjang (Лампунг, построен в 1970-м) — растворимый кофе Nescafé; Cikupa (Бантен) — кондитерские изделия Fox's, Polo, Crunch; Karawang (Западная Ява) — DANCOW, Milo, Cerelac. Компания также выпускает KitKat и продукты для детского питания, в Индонезии занято около 3400 сотрудников.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Nestle.png"
     },
     {
       "id": "garudafood",
@@ -10872,7 +10940,8 @@
       "category_ru": null,
       "desc_en": "Garudafood traces back to 1979, when founder Darmo Putro started the business via PT Tudung Putra Jaya in Pati, Central Java; formally established 31 August 1990. Listed as PT Garudafood Putra Putri Jaya Tbk (ticker GOOD), it markets six flagship brands — Garuda, Gery, Chocolatos, Clevo, Prochiz, TopChiz — spanning biscuits, nuts, snacks, milk drinks, and cheese, exporting to over 20 countries including ASEAN, China, and India.",
       "desc_ru": "Garudafood ведёт историю с 1979 года, когда Дармо Путро запустил бизнес через PT Tudung Putra Jaya в Пати, Центральная Ява; официально зарегистрирована 31 августа 1990-го. PT Garudafood Putra Putri Jaya Tbk (тикер GOOD) листингована на бирже, выпускает продукцию под шестью брендами — Garuda, Gery, Chocolatos, Clevo, Prochiz, TopChiz: печенье, орехи, снеки, молочные напитки, сыр. Экспорт — более 20 стран, включая АСЕАН, Китай и Индию.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Garuda Food.png"
     },
     {
       "id": "goto-gofood-gokitchen",
@@ -11366,7 +11435,8 @@
       "category_ru": null,
       "desc_en": "Kopi Kenangan was founded in 2017 by Edward Tirtanata, James Prananto, and Cynthia Chaerunnisa, starting from a tiny outlet in Standard Chartered Tower, Jakarta. In December 2021 it became Southeast Asia's first food-tech unicorn, raising $96 million in a Series C round at a valuation over $1 billion (backers Tybourne Capital, Horizons Ventures). The chain has over 850 outlets in 64 cities, its own app, and a grab-and-go model.",
       "desc_ru": "Kopi Kenangan основана в 2017 году Эдвардом Тиртанатой, Джеймсом Прананто и Синтией Чаэруннисой, начав с крошечной точки в Standard Chartered Tower в Джакарте. В декабре 2021-го стала первым фудтех-единорогом Юго-Восточной Азии, привлекя 96 млн долл. в раунде Series C при оценке свыше 1 млрд долл. (Tybourne Capital, Horizons Ventures). Сеть — свыше 850 точек в 64 городах, собственное приложение, формат grab-and-go.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Kopi Kenangan.png"
     },
     {
       "id": "fore-coffee",
@@ -11380,7 +11450,8 @@
       "category_ru": null,
       "desc_en": "Fore Coffee was founded in August 2018 as a spin-off of the Otten Coffee bean-and-equipment retail business (founders Robin Boe and Jhoni Kusno), with current CEO Vico Lomar central to its launch. From a small counter on the second floor of an Otten Coffee shop, it grew to over 300 outlets, including its first overseas store in Singapore (2023). In March 2025 it listed on the Indonesia Stock Exchange, raising over IDR 353 billion.",
       "desc_ru": "Fore Coffee основана в августе 2018 года как развитие бизнеса Otten Coffee по продаже зёрен и оборудования (Робин Бо, Джони Кусно); ключевую роль сыграл нынешний CEO Вико Ломар. Из прилавка на втором этаже магазина Otten Coffee сеть выросла до более 300 точек, включая первый зарубежный магазин в Сингапуре (2023). В марте 2025-го компания провела IPO на бирже Индонезии, привлекя свыше 353 млрд рупий.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Fore Coffee.png"
     },
     {
       "id": "kopi-janji-jiwa",
@@ -11394,7 +11465,8 @@
       "category_ru": null,
       "desc_en": "Kopi Janji Jiwa was founded by Billy Kurniawan on 15 May 2018 in Jakarta; its first outlet at ITC Kuningan mall sold only about 10 cups a day. The chain rapidly became Indonesia's largest coffee chain by outlet count — around 800-900 locations in 2020-2022, across more than 100 cities. It is run by Jiwa Group (PT Luna Boga Narayan), which also owns toast and tea brands, with a grab-and-go format built around local flavors like palm-sugar coffee.",
       "desc_ru": "Kopi Janji Jiwa основана Билли Курниаваном 15 мая 2018 года в Джакарте — первая точка в ТЦ ITC Kuningan продавала около 10 стаканов в день. Сеть быстро выросла до крупнейшей по числу точек кофейной сети Индонезии — около 800–900 точек в 2020–2022 гг., свыше 100 городов. Управляется группой Jiwa Group (PT Luna Boga Narayan), владеющей также брендами тостов и чая; формат — grab-and-go с локальным вкусом (кофе с пальмовым сахаром).",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Kopi Janji Jiwa.png"
     },
     {
       "id": "tomoro-coffee",
@@ -11422,7 +11494,8 @@
       "category_ru": null,
       "desc_en": "Chatime is a Taiwanese bubble-tea brand founded in 2005 by Henry Wang (La Kaffa International). It entered Indonesia in 2011 via PT Foods Beverages Indonesia (F&B ID), part of retail group Kawan Lama Group (also owner of ACE Hardware Indonesia and Informa). Its first outlet opened at Living World Alam Sutera mall. The chain runs over 460 outlets in more than 60 cities and was Indonesia's most popular bubble-tea brand in a 2022 survey, at 39.3%.",
       "desc_ru": "Chatime — тайваньский бренд бабл-ти, основанный в 2005 году Генри Вангом (La Kaffa International). В Индонезию пришёл в 2011-м через PT Foods Beverages Indonesia (F&B ID), структуру ритейл-конгломерата Kawan Lama Group (владеет также ACE Hardware Indonesia, Informa). Первая точка открылась в ТЦ Living World Alam Sutera. Сеть — свыше 460 точек в более чем 60 городах, по опросам 2022 года — самый популярный бренд бабл-ти в стране (39,3%).",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Chatime.png"
     },
     {
       "id": "esteh-indonesia",
@@ -11436,7 +11509,8 @@
       "category_ru": null,
       "desc_en": "Es Teh Indonesia was founded in 2018 by Haidhar Hibatullah Wurjanto, Dihya Nur Rifqy, Aussie Andry, and Edwin Widya, starting from a small 1x2-meter booth in Jakarta's Kemang Village and Blok M areas, with drinks like Es Teh Manis, Es Teh Lemon, and Thai Tea. The brand centers on locally sourced 'Nusantara tea' in varied flavor lines. Within a few years it scaled from a single stall into a national chain with thousands of outlets.",
       "desc_ru": "Es Teh Indonesia основана в 2018 году Хайдаром Хибатуллой Вурджанто, Дихья Нур Рифки, Осси Андри и Эдвином Видьей, начав с точки 1×2 м в районах Кемманг-Виллидж и Блок М в Джакарте с ассортиментом Es Teh Manis, Es Teh Lemon, Thai Tea. Бренд делает акцент на местном 'чае Нусантара' с разными вкусами. За несколько лет из маленькой палатки сеть выросла в национальную розничную сеть с тысячами точек по Индонезии.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Esteh.png"
     },
     {
       "id": "haus-drinks",
@@ -11450,7 +11524,8 @@
       "category_ru": null,
       "desc_en": "Haus! was founded in 2018 in Indonesia as a made-to-order beverage chain (tea, milk tea, chocolate, coffee) for mass-market millennials and Gen Z, with affordable pricing. It raised $2 million in a 2020 Series A round from BRI Ventures, then a Series B1 round from Atlas Global Ventures, Hong Kong's Strategic Holdings, and Prasetia Dwidharma. The chain runs over 220 outlets across 18 cities on Java, growing outlet count over 120% in a year.",
       "desc_ru": "Haus! основана в 2018 году в Индонезии как сеть напитков make-to-order (чай, молочный чай, шоколад, кофе) для массового сегмента миллениалов и поколения Z с доступной ценой и масштабируемой моделью. В 2020-м привлекла 2 млн долл. в раунде Series A от BRI Ventures, позже — Series B1 от Atlas Global Ventures, Strategic Holdings (Гонконг) и Prasetia Dwidharma. Сеть — свыше 220 точек в 18 городах острова Ява, рост числа точек более 120% за год.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Haus!.png"
     },
     {
       "id": "point-coffee-indomaret",
@@ -11464,7 +11539,8 @@
       "category_ru": null,
       "desc_en": "Point Coffee launched on 30 May 2016 by PT Indomarco Prismatama (parent of the Indomaret convenience-store chain); in 2015 barista Hendri Kurniawan proposed integrating specialty coffee directly into thousands of Indomaret stores rather than separate cafés. It rebranded as Point Coffee in 2019. The made-to-order format reached even remote areas; by 2022 it had grown to 1,000-1,200 outlets and has since entered the ready-to-drink coffee market.",
       "desc_ru": "Point Coffee запущена 30 мая 2016 года компанией PT Indomarco Prismatama (сеть Indomaret); в 2015-м к проекту подключили бариста Хендри Курниавана, предложившего интегрировать специализированный кофе прямо в сеть тысяч магазинов Indomaret вместо отдельных кофеен. Ребрендинг в Point Coffee — 2019 год. Формат 'на заказ' охватил и удалённые регионы; к 2022-му сеть выросла до 1000–1200 точек, недавно вышла и на рынок готовых напитков (RTD).",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/point Coffee.png"
     },
     {
       "id": "kenangan-coffee-chigo",
@@ -11478,7 +11554,8 @@
       "category_ru": null,
       "desc_en": "Kenangan Coffee is the international expansion of the Kopi Kenangan brand (founded 2017 by Edward Tirtanata and partners), entering Malaysia, the Philippines, and India as Kenangan Coffee. In 2021 Kopi Kenangan launched companion fast-food brand Chigo (Chicken on the Go), a fried-chicken chain across Jabodetabek and Medan with locally flavored items, rounding out Kenangan Brands alongside Cerita Roti and Kenangan Manis.",
       "desc_ru": "Kenangan Coffee — международное развитие бренда Kopi Kenangan (основан в 2017-м Эдвардом Тиртанатой и партнёрами), выходящее на зарубежные рынки — Малайзию, Филиппины, Индию — под именем Kenangan Coffee. В 2021 году Kopi Kenangan запустила смежный бренд Chigo (Chicken on the Go) — сеть жареной курицы в Джаботабеке и Медане с локальным меню, дополняющую портфель Kenangan Brands наряду с Cerita Roti и Kenangan Manis.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Kenangan Coffee.png"
     },
     {
       "id": "reliance-retail",
@@ -11623,7 +11700,8 @@
       "category_ru": null,
       "desc_en": "Amul (GCMMF) was founded in 1946 in Anand, Gujarat by Tribhuvandas Patel with Sardar Vallabhbhai Patel's support, formed to counter middleman monopolies such as Polson Dairy; it now represents roughly 3.6 million farmer-shareholders. The Anand plant offers a guided tour of its butter and milk-powder operations. Its headquarters houses the Dr. Verghese Kurien Museum, opened in 2000 on his 80th birthday, chronicling India's White Revolution.",
       "desc_ru": "Amul (GCMMF) основан в 1946 году в Ананде Трибхуванадасом Пателем при поддержке Сардара Валлабхаи Патела как ответ на монополию посредников (Polson Dairy); объединяет около 3,6 млн фермеров-пайщиков. Завод в Ананде предлагает экскурсию по производству масла и сухого молока. При штаб-квартире работает музей доктора Вергезе Курьена, открытый в 2000-м к его 80-летию, посвящённый истории 'белой революции' Индии.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Amul.png"
     },
     {
       "id": "amul-fed-dairy",
@@ -11651,7 +11729,8 @@
       "category_ru": null,
       "desc_en": "Mother Dairy was set up in 1974 as a subsidiary of India's National Dairy Development Board (NDDB) under Operation Flood, aimed at making the country self-sufficient in milk. It was among the first in the industry to adopt fully automated, microprocessor-controlled processing for quality assurance. Certified to ISO 9001, ISO 22000, and ISO 14001, it sells about 3.2 million liters of milk daily across Delhi, Mumbai, Saurashtra, and Hyderabad.",
       "desc_ru": "Mother Dairy создана в 1974 году как структура Национального совета развития молочного животноводства Индии (NDDB) в рамках 'Операции Потоп', призванной сделать страну самодостаточной по молоку. Компания одной из первых внедрила автоматизацию переработки на микропроцессорных системах для контроля качества. Сертифицирована по ISO 9001, ISO 22000 и ISO 14001; продаёт около 3,2 млн литров молока в сутки в Дели, Мумбаи, Саураштре и Хайдарабаде.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Mother Dairy.png"
     },
     {
       "id": "nestle-india",
@@ -11665,7 +11744,8 @@
       "category_ru": null,
       "desc_en": "Nestlé has been present in India since 1912, opening its first factory in Moga, Punjab, in 1961. Nestlé India's headquarters is in Gurugram, and nearby in Manesar it opened an R&D Centre in 2012 — a CHF 50 million global innovation hub for noodles and spices. Nestlé India now operates seven factories across the country. Its Maggi noodle brand, launched in 1983, grew into one of India's leading packaged-food categories.",
       "desc_ru": "Nestlé присутствует в Индии с 1912 года, первый завод открыла в Моге (Пенджаб) в 1961-м. Штаб-квартира Nestlé India — в Гуруграме; неподалёку, в Манесаре, в 2012-м открыт научно-исследовательский центр — глобальный инновационный хаб по лапше и специям стоимостью 50 млн швейцарских франков. Сегодня компания управляет семью заводами по стране. Бренд Maggi, запущенный в 1983-м, вырос в одну из ведущих категорий продуктов питания страны.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Nestle.png"
     },
     {
       "id": "nandini-kmf",
@@ -11679,7 +11759,8 @@
       "category_ru": null,
       "desc_en": "Nandini is the retail brand of the Karnataka Co-operative Milk Producers' Federation (KMF), established 1974 (renamed 1984), run on India's three-tier 'Anand Pattern' cooperative model. It draws milk from over 2.6 million farmer-members statewide, procuring roughly 8.3 million litres daily. With turnover near ₹14,000 crore (2022-23), KMF is India's second-largest dairy cooperative after Amul, owned by the Karnataka state government.",
       "desc_ru": "Nandini — розничный бренд Кооператива производителей молока штата Карнатака (KMF), основанного в 1974 году (переименован в 1984) по трёхуровневой кооперативной модели 'Anand Pattern'. Молоко поступает от более чем 2,6 млн фермеров-пайщиков, ежедневная закупка — около 8,3 млн литров. При обороте ~14 000 крор рупий (2022-23) KMF — второй по величине молочный кооператив Индии после Amul, принадлежит правительству штата.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Nandini.png"
     },
     {
       "id": "itc-foods-aashirvaad",
@@ -11693,7 +11774,8 @@
       "category_ru": null,
       "desc_en": "ITC Foods is the food division of Indian conglomerate ITC Limited, home to Aashirvaad (atta, spices), Sunfeast, Bingo! and Yippee!. Aashirvaad alone has surpassed ₹8,000 crore (over $1bn) in annual revenue, with roughly 28% share of India's branded atta market. ITC Foods posted consolidated sales of ₹17,194 crore in FY2024 and has pushed into food-tech with ready-to-eat lines like Aashirvaad Soul Creations.",
       "desc_ru": "ITC Foods — продовольственное подразделение индийского конгломерата ITC Limited, владеет брендами Aashirvaad (мука, специи), Sunfeast, Bingo! и Yippee!. Только Aashirvaad превысил 8000 крор рупий (более $1 млрд) годовой выручки, занимая около 28% рынка фасованной муки в Индии. Выручка ITC Foods составила 17 194 крор рупий в FY2024; развивает фудтех-линейку готовых блюд Aashirvaad Soul Creations.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/ITC Foods.png"
     },
     {
       "id": "britannia",
@@ -11707,7 +11789,8 @@
       "category_ru": null,
       "desc_en": "Britannia Industries, founded in Kolkata in 1892, is one of India's oldest food companies and now a leading biscuit, bread and dairy maker with roughly 38% share of the domestic bakery market. Highly automated plants give it annual production capacity of about 433,000 tonnes, distributing to over 600,000 outlets across India and 30+ countries; revenue reached ₹18,169 crore ($2.1bn) in FY2025.",
       "desc_ru": "Britannia Industries, основанная в Калькутте в 1892 году, — одна из старейших продовольственных компаний Индии, ныне лидер рынка печенья, хлеба и молочных продуктов с долей около 38% на рынке выпечки страны. Высокоавтоматизированные заводы дают мощность около 433 000 тонн в год, продукция поставляется на более чем 600 000 торговых точек в Индии и 30+ странах; выручка — 18 169 крор рупий ($2,1 млрд) в FY2025.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Britannia.png"
     },
     {
       "id": "hatsun-agro",
@@ -11721,7 +11804,8 @@
       "category_ru": null,
       "desc_en": "Hatsun Agro Product, founded in 1970 by R. G. Chandramogan in Tamil Nadu, is India's largest private-sector dairy company. It sources from over 300,000 milk producers via 68+ chilling centres and 1,300+ contract vehicles across Tamil Nadu, Karnataka and neighbouring states. Its brands include Arun Ice Creams and Arokya milk; annual revenue is around ₹9,900-10,000 crore ($1.1-1.2bn).",
       "desc_ru": "Hatsun Agro Product, основанная Р. Г. Чандрамоганом в 1970 году в Тамилнаде, — крупнейшая частная молочная компания Индии. Закупает молоко у более чем 300 000 производителей через 68+ пунктов охлаждения и 1300+ контрактных машин в Тамилнаде, Карнатаке и соседних штатах. Бренды — Arun Ice Creams и Arokya; годовая выручка около 9900-10 000 крор рупий ($1,1-1,2 млрд).",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Hatsun.png"
     },
     {
       "id": "rebel-foods",
@@ -11777,7 +11861,8 @@
       "category_ru": null,
       "desc_en": "Licious, founded in 2015 by Abhay Hanjura and Vivek Gupta in Bengaluru, became India's first D2C meat-and-seafood unicorn, raising roughly $490m from investors including Temasek and Vertex Ventures. It runs a farm-to-fork model, owning its cold chain through five processing facilities and delivering across 28+ Indian cities; revenue reached ₹685 crore in FY2024.",
       "desc_ru": "Licious, основанная в 2015 году Абхаем Ханджурой и Вивеком Гуптой в Бангалоре, стала первым индийским D2C-единорогом на рынке мяса и морепродуктов, привлекла около $490 млн от инвесторов, включая Temasek и Vertex Ventures. Работает по модели 'от фермы до стола', владея холодной цепью через пять перерабатывающих предприятий, доставляет в 28+ городов Индии; выручка — 685 крор рупий в FY2024.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Licious.png"
     },
     {
       "id": "freshmenu",
@@ -12169,7 +12254,8 @@
       "category_ru": null,
       "desc_en": "Blue Tokai Coffee Roasters, founded in 2012-13 by Matt Chitharanjan, Namrata Asthana and Shivam Shahi, pioneered India's specialty 'farm-to-cup' coffee movement, sourcing directly from 80+ Indian estates, mainly in Karnataka. It operates roasteries in Delhi, Mumbai, Bengaluru and Tokyo plus 100+ cafés, and offers public roastery tours letting visitors trace beans from estate to cup.",
       "desc_ru": "Blue Tokai Coffee Roasters, основанная в 2012-13 годах Мэттом Читаранджаном, Намратой Астаной и Шивамом Шахи, стала пионером специализированного кофе 'farm-to-cup' в Индии, закупая зерно напрямую у 80+ хозяйств, преимущественно в Карнатаке. Компания управляет обжарочными производствами в Дели, Мумбаи, Бангалоре и Токио, а также 100+ кофейнями, предлагая экскурсии, где можно проследить путь зерна от фермы до чашки.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Blue Tokai Cofee.png"
     },
     {
       "id": "sleepy-owl-rage-coffee",
@@ -12197,7 +12283,8 @@
       "category_ru": null,
       "desc_en": "Chaayos, founded in 2012 by Nitin Saluja and Raghav Verma in Gurugram, is a tech-enabled Indian tea café chain with 200+ outlets nationwide. Its proprietary IoT brewing machine, 'Chai Monk,' automates roughly 80% of the brewing process and supports about 80,000 flavour combinations. Chaayos posted ₹310.6 crore revenue in FY2025, up 25% year-on-year, while cutting losses by over half.",
       "desc_ru": "Chaayos, основанная в 2012 году Нитином Салуджей и Рагхавом Верма в Гургаоне, — технологичная сеть чайных кафе Индии с 200+ точками по стране. Фирменный IoT-аппарат для заваривания 'Chai Monk' автоматизирует около 80% процесса и поддерживает около 80 000 комбинаций вкусов. Выручка Chaayos составила 310,6 крор рупий в FY2025 (+25% год к году), убытки сократились более чем вдвое.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Chaayos.png"
     },
     {
       "id": "abcoffee",
@@ -12239,7 +12326,8 @@
       "category_ru": null,
       "desc_en": "Araku Coffee, launched in 2010 as the for-profit arm of the Naandi Foundation (active in the region since 1999), sources single-origin, GI-tagged Arabica from over 150,000 tribal farmers across roughly 250,000 acres of the Eastern Ghats' Araku Valley, Andhra Pradesh. Individual micro-plots were mapped for soil and shade, making Araku the world's first terroir-mapped coffee, grown on India's largest certified-organic, fair-trade plantation.",
       "desc_ru": "Araku Coffee, запущенная в 2010 году как коммерческое подразделение фонда Naandi (работает в регионе с 1999 года), поставляет односортовую арабику с географической защитой от более чем 150 000 фермеров из племенных общин на ~250 000 акрах долины Араку в Восточных Гатах, Андхра-Прадеш. Отдельные микроучастки картографированы по почве и затенению — первый в мире 'terroir-mapped' кофе, выращенный на крупнейшей в Индии сертифицированной органической и fair-trade плантации.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Araku Coffee.png"
     },
     {
       "id": "tata-coffee-starbucks-india",
@@ -12267,7 +12355,8 @@
       "category_ru": null,
       "desc_en": "Boba Bhai, founded in 2023 by Dhruv Kohli, is an Indian bubble-tea and Korean-inspired burger startup that gained visibility on Shark Tank India. It has raised roughly $7m across seed and Series A rounds from investors including Titan Capital and 8i Ventures, operates 40+ outlets across nine cities including Bengaluru and Mumbai, and processes over 85,000 orders monthly.",
       "desc_ru": "Boba Bhai, основанная в 2023 году Дхрувом Коли, — индийский стартап бабл-ти и бургеров в корейском стиле, получивший известность после шоу Shark Tank India. Привлёк около $7 млн на посевном и Series A раундах от Titan Capital и 8i Ventures, управляет 40+ точками в девяти городах, включая Бангалор и Мумбаи, обрабатывает более 85 000 заказов в месяц.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/boba bhai.png"
     },
     {
       "id": "senheng-new-retail",
@@ -12453,7 +12542,8 @@
       "category_ru": null,
       "desc_en": "Nestlé (Malaysia) Berhad operates several halal-certified plants, including its Chembong factory in Negeri Sembilan (established 1993, RM90m investment) — the world's largest MILO manufacturing site and a global centre of excellence — plus its Shah Alam Sri Muda facility, producing UHT drinks and, since 2021, plant-based meals. Malaysia serves as Nestlé's global Halal Centre of Excellence, with all local output halal-certified.",
       "desc_ru": "Nestlé (Malaysia) Berhad эксплуатирует несколько халяль-сертифицированных заводов, включая предприятие в Чембонге, штат Негери-Сембилан (основано в 1993 году, инвестиции RM90 млн) — крупнейшее в мире производство MILO и глобальный центр компетенций; а также завод Sri Muda в Шах-Аламе, выпускающий UHT-напитки и, с 2021 года, растительные блюда. Малайзия — глобальный халяль-хаб Nestlé, вся местная продукция халяльная.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Nestle.png"
     },
     {
       "id": "sime-darby-oils",
@@ -12481,7 +12571,8 @@
       "category_ru": null,
       "desc_en": "Phuture Foods Sdn Bhd, founded in 2018 by Jack Yap and Lim Jin Yin in Klang, Selangor, makes plant-based meat using a proprietary rice-based protein-and-fibre matrix processed with thermal treatment to mimic the texture and juiciness of pork and chicken. Its line — including High Fibre Chick'n and Invincible Mince — targets both retail and around 70% B2B foodservice channels, with expansion plans covering roughly 1,000 outlets.",
       "desc_ru": "Phuture Foods Sdn Bhd, основанная в 2018 году Джеком Япом и Лим Джин Ин в Кланге, Селангор, производит растительное мясо на основе собственной протеиново-волоконной матрицы из риса с термообработкой, имитирующей текстуру и сочность свинины и курицы. Линейка (High Fibre Chick'n, Invincible Mince и др.) ориентирована на ритейл и на ~70% на B2B-сегмент фудсервиса, планируется расширение примерно до 1000 торговых точек.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Phuture Foods.png"
     },
     {
       "id": "mamee-double-decker",
@@ -12495,7 +12586,8 @@
       "category_ru": null,
       "desc_en": "Mamee-Double Decker (M) Berhad, founded by Datuk Pang Chin Hin in Malacca in 1971, began instant-noodle production in 1972 and turned its 'Lucky' noodles into the now-iconic Mamee Monster snack. Listed on Bursa Malaysia, it makes instant noodles, snacks, confectionery and beverages on automated production lines, offers OEM manufacturing services, and exports to over 100 countries.",
       "desc_ru": "Mamee-Double Decker (M) Berhad, основанная Датуком Панг Чин Хином в Малакке в 1971 году, начала выпуск лапши быстрого приготовления в 1972 году и превратила лапшу 'Lucky' в культовый снек Mamee Monster. Компания, котирующаяся на Bursa Malaysia, производит лапшу, снеки, кондитерские изделия и напитки на автоматизированных линиях, оказывает OEM-услуги и экспортирует продукцию в более чем 100 стран.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Mamee.png"
     },
     {
       "id": "farm-fresh-berhad",
@@ -12509,7 +12601,8 @@
       "category_ru": null,
       "desc_en": "Malaysia's largest fresh-milk producer: seven farms, four processing facilities, UHT lines, and an Industry Centre of Excellence + Agro/Edu-Tourism Centre with Universiti Putra Malaysia (UPM).",
       "desc_ru": "Крупнейший производитель свежего молока в Малайзии: семь ферм, четыре завода, линии UHT, а также Industry Centre of Excellence + агро/образовательный туристический центр с Universiti Putra Malaysia (UPM).",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/farm Fresh.png"
     },
     {
       "id": "jemaluang-dairy-valley",
@@ -12523,7 +12616,8 @@
       "category_ru": null,
       "desc_en": "Jemaluang Dairy Valley (JDV) is a state-backed integrated dairy farm project in Mersing, Johor, developed with the Johor state government and the ECER Development Council, with total investment exceeding RM200 million, including an RM95.8m loan from MBSB. Starting from roughly 1,900 cows, JDV targets 4,000 dairy cows and 12 million litres of annual fresh-milk output by 2027, backed by modern breeding and automation.",
       "desc_ru": "Jemaluang Dairy Valley (JDV) — интегрированный молочный проект с господдержкой в Мерсинге, Джохор, реализуемый с правительством штата Джохор и ECER Development Council, общие инвестиции превышают RM200 млн, включая кредит MBSB на RM95,8 млн. Стартовав примерно со стада в 1900 голов, JDV нацелен на 4000 коров и 12 млн литров молока в год к 2027 году, опираясь на современную селекцию и автоматизацию.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Jemaluang Dairy Walley.png"
     },
     {
       "id": "grab-food-kitchen-malaysia",
@@ -12637,7 +12731,8 @@
       "category_ru": null,
       "desc_en": "Inside Scoop, founded in 2013 by Edmund Tan and Lim Shiew Li in Bangsar, Kuala Lumpur, is a Malaysian premium ice-cream and dessert café chain built to challenge international brands in a market they once dominated. All ice cream is made fresh locally from a central commercial kitchen supplying its multiple retail outlets, which have since expanded regionally, including a Singapore location near Bugis.",
       "desc_ru": "Inside Scoop, основанная в 2013 году Эдмундом Таном и Лим Шью Ли в Бангсаре, Куала-Лумпур, — малайзийская сеть кафе премиального мороженого и десертов, созданная как альтернатива международным брендам, доминировавшим на рынке. Всё мороженое готовится свежим на центральной коммерческой кухне, снабжающей несколько торговых точек; сеть расширилась и на регион, включая точку в Сингапуре у Bugis.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/inside Scoop.png"
     },
     {
       "id": "ytl-ai-cloud",
@@ -13031,7 +13126,8 @@
       "category_ru": null,
       "desc_en": "Bask Bear Coffee, launched around 2021 by Loob Holding (founded 2010 by Bryan Loo, also owner of bubble-tea chain Tealive), is one of Malaysia's fastest-growing coffee-and-toastie chains, passing 100 outlets by September 2023 and now exceeding 150, including drive-thru formats in East Malaysia. Its app has over 500,000 members, integrating ordering and loyalty across the Loob Holding ecosystem.",
       "desc_ru": "Bask Bear Coffee, запущенная около 2021 года холдингом Loob Holding (основан в 2010 году Брайаном Лоо, также владеет сетью бабл-ти Tealive), — одна из самых быстрорастущих сетей кофеен-тостерий Малайзии, к сентябрю 2023 года превысила 100 точек, сейчас более 150, включая формат drive-thru в Восточной Малайзии. Приложение насчитывает свыше 500 000 участников, объединяя заказы и лояльность в экосистеме Loob Holding.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Bask Bear Coffee.png"
     },
     {
       "id": "chatime-malaysia",
@@ -13059,7 +13155,8 @@
       "category_ru": null,
       "desc_en": "Gigi Coffee, founded in 2019 and based in Petaling Jaya, is a fast-growing, self-funded Malaysian coffee chain with 160+ grab-and-go outlets across Selangor, Kuala Lumpur, Penang and Johor by FY2023, generating RM53.9 million revenue and RM4 million net profit. Its app-based loyalty and personalisation system positions it as a direct low-price rival to ZUS Coffee.",
       "desc_ru": "Gigi Coffee, основанная в 2019 году в Петалинг-Джая, — быстрорастущая, без внешних инвестиций малайзийская сеть кофеен, к FY2023 насчитывала 160+ точек формата 'grab-and-go' в Селангоре, Куала-Лумпуре, Пенанге и Джохоре, выручка составила RM53,9 млн, чистая прибыль — RM4 млн. Приложение с системой лояльности и персонализации делает её прямым низкоценовым конкурентом сети ZUS Coffee.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Gigi Coffee.png"
     },
     {
       "id": "luckin-coffee-malaysia",
