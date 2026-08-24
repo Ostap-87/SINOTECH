@@ -2171,7 +2171,8 @@
       "category_ru": null,
       "desc_en": "Peking University (founded 1898, China's first modern national university) and Tsinghua University (founded 1911, funded by returned Boxer Indemnity money) are China's top two research universities, both in Beijing. Both rank consistently in the world's top 20-30 (QS, THE). Tsinghua, dubbed \"China's MIT,\" excels in engineering, AI and semiconductors; PKU leads in humanities and basic sciences. Alumni include Xi Jinping (Tsinghua).",
       "desc_ru": "Пекинский университет (основан в 1898 году, первый современный госуниверситет Китая) и Университет Цинхуа (основан в 1911 году на средства «боксёрской контрибуции») — два ведущих исследовательских университета Китая в Пекине. Оба стабильно входят в мировой топ-20–30 (QS, THE). Цинхуа, «китайский MIT», силён в инженерии, ИИ и полупроводниках; Пекинский — в гуманитарных и фундаментальных науках. Среди выпускников — Си Цзиньпин.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/PKU:Tsinghua.png"
     },
     {
       "id": "toyota",
@@ -7562,7 +7563,8 @@
       "category_ru": null,
       "desc_en": "Alibaba Group's instant-delivery platform, founded in 2008 as Ele.me (饿了么) and rebranded in 2025 to Taobao Shangou / Taobao Instant Commerce (淘宝闪购) as part of a merger into a unified Taobao shopping experience. It combines food delivery, instant retail and in-store/offline merchant fulfillment, targeting 30–60 minute delivery via Ele.me's rider network (\"city knights\"), and surpassed 40 million daily orders within a month of the 2025 relaunch. It competes with Meituan and JD.com in China's instant-retail/local-services market.",
       "desc_ru": "Платформа мгновенной доставки еды и товаров группы Alibaba, основана в 2008 году как Ele.me (饿了么), в 2025 году переименована в Taobao Shangou / Taobao Instant Commerce (淘宝闪购) в рамках интеграции в единую экосистему Taobao. Объединяет доставку еды, товаров повседневного спроса и продукции офлайн-магазинов с целевым временем доставки до 30–60 минут, используя курьерскую сеть Ele.me («city knights»); в 2025 году сервис превысил 40 млн заказов в день. Конкурирует с Meituan и JD.com на рынке мгновенной розницы Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Ele.me:Taobao Instant.png"
     },
     {
       "id": "sams-club",
@@ -11135,7 +11137,8 @@
       "category_ru": null,
       "desc_en": "Everplate Kitchens is an Indonesian cloud-kitchen infrastructure operator founded in January 2020, running a network of kitchens across Jakarta on a fixed-rent model (from roughly IDR 6 million/month) and serving more than 150 F&B partners, from established chains like Wingstop to brands that exist purely as delivery-only virtual restaurants. It onboards partners across all major delivery platforms — GrabFood, GoFood, ShopeeFood and Traveloka Eats.",
       "desc_ru": "Everplate Kitchens — индонезийский оператор инфраструктуры облачных кухонь, основанный в январе 2020 г.; управляет сетью кухонь в Джакарте (арендная модель с фиксированной ставкой от ~6 млн рупий/мес.) и обслуживает более 150 F&B-партнёров, от крупных сетей вроде Wingstop до брендов, существующих исключительно как виртуальные рестораны. Помогает партнёрам выходить на все ключевые платформы доставки — GrabFood, GoFood, ShopeeFood, Traveloka Eats.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Everplate.png"
     },
     {
       "id": "hangry-id",
@@ -11149,7 +11152,8 @@
       "category_ru": null,
       "desc_en": "Hangry is an Indonesian multi-brand cloud-kitchen startup founded in late 2019 by Abraham Viktor, Robin Tan and Andreas Resha, operating a network of 18 brands across 117 outlets nationwide and ranking among the top 10 operators on GrabFood, GoFood and ShopeeFood. In October 2025 it raised $10.5 million in a Series A5 round led by Alpha JWC to upgrade kitchen infrastructure and enter its first overseas market, Malaysia; total funding to date exceeds $49 million.",
       "desc_ru": "Hangry — индонезийский мультибрендовый cloud-kitchen стартап, основанный в конце 2019 г. Абрахамом Виктором, Робином Таном и Андреасом Решей; управляет сетью из 18 брендов и 117 точек по стране, входя в топ-10 операторов на GrabFood, GoFood и ShopeeFood. В октябре 2025 г. привлёк $10,5 млн (раунд A5, лид — Alpha JWC) на модернизацию кухонь и выход на первый зарубежный рынок — Малайзию; совокупное финансирование превышает $49 млн.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Hangry.png"
     },
     {
       "id": "legit-group",
@@ -11993,7 +11997,8 @@
       "category_ru": null,
       "desc_en": "Curefoods is an Indian cloud-kitchen consolidator founded in 2020 by Ankit Nagori (a Cure.fit co-founder) as a spin-off of healthy-eating brand EatFit. It runs more than 500 kitchens and a 10+ brand portfolio (EatFit, CakeZone, Frozen Bottle, MasalaBox, Sharief Bhai, Nomad Pizza), built through active acquisitions of niche F&B companies. It has raised $167 million (Chiratae Ventures, Accel) and won SEBI approval in October 2025 for a ₹800 crore IPO.",
       "desc_ru": "Curefoods — индийский консолидатор облачных кухонь, основанный в 2020 г. Анкитом Нагори (сооснователь Cure.fit) как спин-офф бренда здорового питания EatFit. Управляет более чем 500 кухнями и портфелем из 10+ брендов (EatFit, CakeZone, Frozen Bottle, MasalaBox, Sharief Bhai, Nomad Pizza), активно скупая нишевые F&B-компании. Привлёк $167 млн финансирования (Chiratae Ventures, Accel); в октябре 2025 г. получил одобрение SEBI на IPO объёмом ₹800 крор.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Curefoods.png"
     },
     {
       "id": "licious",
@@ -12833,7 +12838,8 @@
       "category_ru": null,
       "desc_en": "Cookhouse is Malaysia's first independent shared/cloud-kitchen facility, founded by chef Huen Su San in Petaling Jaya, Klang Valley. Its roughly 10,000-sq-ft space houses five private kitchen studios, a shared bakery, Asian and Western kitchens, cold storage, and rider pickup stations — a \"kitchen as a service\" model letting food entrepreneurs run delivery and online brands without leasing their own premises. The company has planned expansion to around 10 outlets across the Klang Valley.",
       "desc_ru": "Cookhouse — первая в Малайзии независимая площадка совместных/облачных кухонь, основана шеф-поваром Хюэн Су Саном в Петалинг-Джае (Клэнг-Вэлли). На 10 000 кв. футов расположены пять частных кухонных студий, общая пекарня, азиатская и западная кухни, зоны хранения и пункты выдачи для курьеров — модель «kitchen as a service» для фуд-предпринимателей, работающих на доставку без затрат на собственную аренду. Компания планировала расширение до 10 точек по Клэнг-Вэлли.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Cookhouse.png"
     },
     {
       "id": "grabkitchen-format",
@@ -14688,7 +14694,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Tencent Penguin Pictures.png"
     },
     {
       "id": "zhejiang-huace",
