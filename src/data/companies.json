@@ -12853,7 +12853,8 @@
       "category_ru": null,
       "desc_en": "GrabKitchen is Grab's own cloud-kitchen format, housing multiple restaurant brands under one roof to streamline delivery logistics; the first site opened in Jakarta in 2018, followed by Singapore in January 2020 and other markets. It grew into Southeast Asia's largest cloud-kitchen network, with roughly 56 locations — 48 in Indonesia and smaller clusters in Thailand, Vietnam, Singapore and the Philippines — helping small, family-run food stalls expand without the cost of a physical outlet.",
       "desc_ru": "GrabKitchen — собственный формат облачных кухонь Grab, объединяющий несколько ресторанных брендов под одной крышей для оптимизации доставки; первая площадка открыта в Джакарте в 2018 году, затем в Сингапуре (январь 2020) и других странах. Формат стал крупнейшей сетью облачных кухонь в Юго-Восточной Азии — около 56 точек, из них 48 в Индонезии, по несколько в Таиланде, Вьетнаме, Сингапуре и на Филиппинах. Помогает малым и семейным закусочным выходить в новые районы без затрат на аренду отдельных помещений.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/grab-food-kitchen-malaysia.svg"
     },
     {
       "id": "kyochon-malaysia",
@@ -12984,7 +12985,8 @@
       "category_ru": null,
       "desc_en": "54,000 sq ft Regional Centre of Excellence (Petaling Jaya) + Malaysia R&D centre — Grab's 7th global R&D site (ML, trust & safety, GrabChat/VOIP).",
       "desc_ru": "Региональный Centre of Excellence на 54 000 кв. футов (Петалинг-Джая) + R&D-центр в Малайзии — 7-я глобальная R&D-площадка Grab (ML, доверие и безопасность, GrabChat/VOIP).",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/grab-food-kitchen-malaysia.svg"
     },
     {
       "id": "touch-n-go-ewallet",
