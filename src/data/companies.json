@@ -7383,20 +7383,6 @@
       "logo": "/logos/Huajian Holdings.png"
     },
     {
-      "id": "bojiang-robotics",
-      "name_en": "Bojiang Robotics",
-      "name_zh": "博疆机器人",
-      "sector": "realestate",
-      "city": "shenzhen",
-      "status": "plan",
-      "own_supplier": false,
-      "category_en": null,
-      "category_ru": null,
-      "desc_en": "\"Bojiang Robotics\" (博疆机器人) could not be verified as a distinct company through public sources; no confirmed founding date, headquarters, or products were found. It should not be confused with the real construction-robotics maker Bright Dream Robotics (\"Bozhilin\", 博智林), founded 2018 and backed by Country Garden, which builds bricklaying, plastering and painting robots for construction sites. This entry needs verification.",
-      "desc_ru": "«Bojiang Robotics» (博疆机器人) не удалось подтвердить как реально существующую компанию — открытые источники не содержат данных о дате основания, штаб-квартире или продукции. Не путать с реальной Bright Dream Robotics («Бочжилинь», 博智林), основанной в 2018 году при поддержке Country Garden — она выпускает роботов для кладки кирпича, штукатурки и покраски. Запись требует проверки.",
-      "country": "cn"
-    },
-    {
       "id": "zhongtian-jingzhuang",
       "name_en": "Zhongtian Jingzhuang",
       "name_zh": "中天精装",
