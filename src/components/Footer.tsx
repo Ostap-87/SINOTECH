@@ -12,7 +12,6 @@ const FOOTER_LINKS = [
   { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
   { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
-  { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
   { to: '/contacts', label_ru: 'Контакты', label_en: 'Contacts' },
 ]
 
