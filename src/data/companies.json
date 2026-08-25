@@ -1486,7 +1486,8 @@
       "category_ru": null,
       "desc_en": "Japanese corporation founded in Tokyo in 1959, originally producing sintered-metal filters, moving into pneumatic components from 1961. Global market leader in industrial pneumatics, holding roughly 30-40% worldwide share and up to 65% in Japan; listed on the Tokyo Stock Exchange. Manufactures cylinders, valves, and automation components across 36 plants serving sales offices in 83 countries. Maintains significant production and sales operations in China serving electronics and automotive industries.",
       "desc_ru": "Японская корпорация, основанная в Токио в 1959 году как производитель металлокерамических фильтров; с 1961 года выпускает пневматическое оборудование. Мировой лидер рынка промышленной пневматики с долей около 30-40% глобально и до 65% в Японии. Листинг на Токийской бирже. Продукция — пневмоцилиндры, клапаны, компоненты автоматизации — поставляется в 83 страны через 36 заводов по всему миру. Крупное производство и продажи в Китае, обслуживающие электронную и автомобильную отрасли.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/SMC.png"
     },
     {
       "id": "ge-healthcare",
@@ -1965,7 +1966,8 @@
       "category_ru": null,
       "desc_en": "The Haidian City Brain is a big-data smart-city platform for Haidian District in Beijing, home to Zhongguancun and the capital's leading universities. Its core \"spatiotemporal map\" module went live in December 2020, followed by an Intelligent Operations Command Center (IOCC) in early 2021. According to district government disclosures, the system aggregates data from over 200,000 sensors, covers more than 170,000 buildings (about 190 million square meters), and runs on roughly 20 quadrillion operations per second of computing power.",
       "desc_ru": "«Городской мозг Хайдяня» — платформа больших данных для управления районом Хайдянь в Пекине, где расположены Чжунгуаньцунь и ведущие университеты. Ключевой модуль «единая карта пространства и времени» запущен в декабре 2020 года, а в начале 2021-го заработал операционный центр IOCC. По открытым данным властей района, система сводит воедино показания свыше 200 тысяч датчиков, охватывает более 170 тысяч зданий (около 190 млн кв. м) и работает на вычислительной мощности порядка 20 квадриллионов операций в секунду.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Haidian City Brain.png"
     },
     {
       "id": "shougang",
@@ -1994,7 +1996,8 @@
       "category_ru": null,
       "desc_en": "Procter & Gamble was founded in 1837 by William Procter and James Gamble and is headquartered in Cincinnati, Ohio, USA. It is one of the world's largest consumer-goods corporations, with a multi-category brand portfolio spanning home care, personal care, beauty and health (including Pampers, Gillette, Head & Shoulders and Tide). Fiscal year 2024 revenue was $84.3 billion. P&G is listed on the New York Stock Exchange and is a component of the Dow Jones Industrial Average.",
       "desc_ru": "Procter & Gamble основана в 1837 году Уильямом Проктером и Джеймсом Гэмблом, штаб-квартира — в Цинциннати, США. Один из крупнейших в мире концернов потребительских товаров, владеющий портфелем брендов в категориях по уходу за домом, личной гигиене, красоте и здоровье (Pampers, Gillette, Head & Shoulders, Tide и др.). Выручка компании за 2024 финансовый год составила 84,3 млрд долларов США. Акции торгуются на Нью-Йоркской фондовой бирже, компания входит в индекс Dow Jones.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/P&G.png"
     },
     {
       "id": "gome",
@@ -2173,7 +2176,8 @@
       "category_ru": null,
       "desc_en": "China Academy of Launch Vehicle Technology (CALT), China's premier rocket maker, traces its roots to 1957 under Qian Xuesen and is headquartered in Fengtai, Beijing. A core subsidiary of CASC, it designed and built the Long March 1 rocket that launched China's first satellite, Dongfanghong-1, in 1970, and continues developing the Long March family, including newer Long March 5, 8 and 10 variants. CALT employs over 33,000 people.",
       "desc_ru": "Китайская академия технологии ракет-носителей (CALT) — ведущий разработчик ракет Китая, история которой восходит к 1957 году и связана с именем Цянь Сюэсэня; штаб-квартира в районе Фэнтай, Пекин. Ключевое подразделение CASC, создавшее ракету «Чанчжэн-1», выведшую в 1970 году первый китайский спутник «Дунфанхун-1». Продолжает разработку семейства «Чанчжэн», включая новые модели Long March 5, 8 и 10. В CALT работает свыше 33 000 человек.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/CALT.png"
     },
     {
       "id": "pku-tsinghua",
@@ -2292,7 +2296,8 @@
       "category_ru": null,
       "desc_en": "TEDA (泰达集团, Tianjin Economic-Technological Development Area) is the state-owned investment holding arm managing one of China's first national-level development zones, established in Tianjin in 1984 as part of the country's early opening-up policy. TEDA Investment Holding oversees industrial park infrastructure, utilities, environmental services, logistics, and finance within the zone, which has since grown into a major manufacturing and petrochemical hub hosting numerous multinational and domestic industrial tenants along the Bohai coast.",
       "desc_ru": "TEDA (泰达集团, Тяньцзиньская зона экономико-технологического развития) — государственная инвестиционная холдинговая структура, управляющая одной из первых зон развития национального уровня в Китае, созданной в Тяньцзине в 1984 году в рамках ранней политики открытости. TEDA Investment Holding отвечает за инфраструктуру промышленных парков, коммунальные услуги, экологию, логистику и финансы зоны, которая выросла в крупный промышленный и нефтехимический узел на побережье Бохайского залива с множеством иностранных и китайских резидентов.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/TEDA.png"
     },
     {
       "id": "tianjin-port",
@@ -2411,7 +2416,8 @@
       "category_ru": null,
       "desc_en": "Asia No.1 is JD.com's (JD Logistics) flagship network of highly automated mega fulfillment centers, the first of which opened in Shanghai in 2014. The facilities rely on sorting robots, AGVs and automated storage/retrieval systems to process orders with minimal manual handling, and have since been rolled out across dozens of Chinese cities including Shanghai, Wuhan and Kunshan as JD's showcase for smart-warehouse technology.",
       "desc_ru": "«亚洲一号» (Asia No.1) — сеть флагманских автоматизированных логистических парков JD.com (JD Logistics), первый из которых открылся в Шанхае в 2014 году. Комплексы используют роботов-сортировщиков, AGV и системы AS/RS для обработки заказов с минимальным участием человека, развёрнуты в десятках городов Китая, включая Шанхай, Ухань и Куньшань, и являются витриной технологий умного склада JD.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/JD Asia № 1.png"
     },
     {
       "id": "bilibili",
@@ -2485,7 +2491,8 @@
       "category_ru": null,
       "desc_en": "L'Oréal was founded on 30 July 1909 by Eugène Schueller and is headquartered in Clichy, France. It is the world's largest cosmetics company, spanning luxury, mass-market, professional and dermatological beauty brands (including Lancôme, Yves Saint Laurent Beauté, Maybelline, La Roche-Posay and Vichy). 2024 revenue was €43.48 billion. The company is listed on Euronext Paris.",
       "desc_ru": "L'Oréal основана 30 июля 1909 года Эженом Шуэллером, штаб-квартира — в Клиши, Франция. Крупнейший в мире косметический концерн, объединяющий бренды в сегментах люксовой, массовой, профессиональной косметики и дерматологии (Lancôme, Yves Saint Laurent Beauté, Maybelline, La Roche-Posay, Vichy и др.). Выручка компании в 2024 году составила 43,48 млрд евро. Акции торгуются на бирже Euronext Paris.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/L'Oreal.png"
     },
     {
       "id": "pinduoduo",
@@ -2634,7 +2641,8 @@
       "category_ru": null,
       "desc_en": "The China (Shanghai) Pilot Free Trade Zone was formally established on 29 September 2013 with an initial area of 28.78 sq km (covering Waigaoqiao, Yangshan Port and Pudong Airport) — China's first free trade zone and a testbed for investment, trade and financial reforms. Lujiazui, Jinqiao and Zhangjiang were added in 2015, and in August 2019 the Lingang New Area was launched with a start-up zone of about 119.5 sq km, making the FTZ Shanghai's largest platform for economic opening-up.",
       "desc_ru": "Пилотная зона свободной торговли Китая (Шанхай) была официально учреждена 29 сентября 2013 года на площади 28,78 кв. км (Вайгаоцяо, порт Яншань, аэропорт Пудун) — это первая зона свободной торговли КНР, ставшая полигоном для реформ в сфере инвестиций, торговли и финансов. В 2015 году в неё включили Луцзяцзуй, Цзиньцяо и Чжанцзян, а в августе 2019 года — новый район Линган, добавивший стартовую площадку около 119,5 кв. км и превративший ЗСТ в крупнейшую площадку открытости Шанхая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Shanghai FTZ.png"
     },
     {
       "id": "benchmark-community",
@@ -2873,7 +2881,8 @@
       "category_ru": null,
       "desc_en": "Linqingxuan (formerly Shanghai Forest Cabin Cosmetics), founded in 2003 in Songjiang, Shanghai, is a Chinese premium skincare brand that pivoted in 2012 to oil-based skincare built around red camellia. Its flagship Camellia Essential Oil has ranked first in China's facial-oil retail sales for over a decade, and the company filed for a Hong Kong IPO in 2025, positioned as the sole domestic brand among China's top 15 high-end skincare players.",
       "desc_ru": "林清轩 (Linqingxuan, ранее Shanghai Forest Cabin Cosmetics) — китайский премиальный бренд ухода за кожей, основанный в 2003 году в районе Сунцзян, Шанхай, с 2012 года специализирующийся на масляном уходе на основе красной камелии. Флагманский продукт, камелиевое эссенц-масло, более 10 лет подряд занимает первое место по розничным продажам масел для лица в Китае; компания подала заявку на IPO в Гонконге в 2025 году.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Linqingxuan.png"
     },
     {
       "id": "kans",
@@ -3006,7 +3015,8 @@
       "category_ru": null,
       "desc_en": "International chassis-components supplier of dampers, brakes and suspension systems, formed in 2009 through the acquisition of Delphi's chassis division (tracing its technology heritage to Delco in the early 1900s); its China entity is BeijingWest Industries, headquartered in Beijing. Beyond its Chinese plants, BWI Group manufactures in Poland, the UK, the Czech Republic and Mexico, and has recently begun pilot production in China of its iDBC1 brake-by-wire system.",
       "desc_ru": "Международный поставщик компонентов шасси — амортизаторов, тормозных и подвесных систем, основанный в 2009 году после выкупа шассийного подразделения Delphi (наследующего технологии Delco начала XX века); китайское юрлицо — BeijingWest Industries (京西重工), штаб-квартира в Пекине. Помимо заводов в Китае имеет производство в Польше, Великобритании, Чехии и Мексике; недавно начал в Китае пилотное производство систем электронного тормоза (brake-by-wire) iDBC1.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/BWI Group.png"
     },
     {
       "id": "youzu",
@@ -3140,7 +3150,8 @@
       "category_ru": null,
       "desc_en": "CGN (中广核) was founded in 1994 as China Guangdong Nuclear Power Group, renamed in 2013; headquartered in Shenzhen. It is China's largest nuclear operator, holding over 50% of the domestic market with about 28 operating reactor units totaling more than 31.7 GW as of end-2024, plus 16 units under construction. CGN also runs wind, solar and hydro assets and is regarded as the world's largest nuclear-plant construction company.",
       "desc_ru": "CGN (中广核) основана в 1994 году как China Guangdong Nuclear Power Group, переименована в 2013 году; штаб-квартира в Шэньчжэне. Крупнейший оператор атомной генерации Китая — свыше 50% внутреннего рынка, около 28 действующих энергоблоков суммарной мощностью более 31,7 ГВт на конец 2024 года и ещё 16 в стройке. Также развивает ветровую, солнечную и гидроэнергетику; считается крупнейшей в мире компанией по строительству АЭС.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/CGN.png"
     },
     {
       "id": "china-merchants-group",
@@ -3259,7 +3270,8 @@
       "category_ru": null,
       "desc_en": "One of the world's largest genomics companies, founded in 1999 in Beijing and now headquartered in Shenzhen; it works in DNA sequencing, genetic testing, and bioinformatics. Its subsidiary MGI develops and manufactures its own gene sequencers, and during the COVID-19 pandemic BGI became a major global supplier of PCR test kits. BGI Genomics is listed on the Shenzhen Stock Exchange.",
       "desc_ru": "Одна из крупнейших в мире геномных компаний, основана в 1999 году в Пекине (сейчас штаб-квартира в Шэньчжэне); занимается секвенированием ДНК, генетическим тестированием и биоинформатикой. Через дочернюю компанию MGI производит собственные секвенаторы, а во время пандемии COVID-19 стала крупным поставщиком ПЦР-тестов по всему миру. Акции BGI Genomics торгуются на бирже Shenzhen Stock Exchange.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/BGI.png"
     },
     {
       "id": "muji",
@@ -3858,7 +3870,8 @@
       "category_ru": null,
       "desc_en": "Rossini (罗西尼) was founded in 1984 in Zhuhai (not Shenzhen, as sometimes stated) as China's first Sino-foreign joint-venture watch manufacturer. From 1996 to 2000 it was the only Chinese exhibitor at Baselworld in Switzerland. In 2008 the company was acquired by Citychamp Watch & Jewelry Group Ltd. Today it produces over a million finished watches annually, spanning mid-range and higher-end quartz and mechanical models.",
       "desc_ru": "Rossini (罗西尼) основана в 1984 году в Чжухае как первое китайско-иностранное совместное часовое предприятие в Китае (не в Шэньчжэне, как иногда указывают). С 1996 по 2000 год оставалась единственным китайским участником выставки Baselworld в Швейцарии. В 2008 году компания была приобретена Citychamp Watch & Jewelry Group Ltd. Сегодня выпускает свыше миллиона готовых часов в год, охватывая как кварцевые, так и механические модели среднего и высокого сегмента.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Rossini.png"
     },
     {
       "id": "haitian",
@@ -3887,7 +3900,8 @@
       "category_ru": null,
       "desc_en": "Blue Moon (蓝月亮) traces to 1992, with Guangzhou Blue Moon Industrial Co., Ltd. formally established in 2001 and headquartered in Guangzhou. It is China's leading liquid laundry detergent maker, holding the largest share of the domestic liquid detergent market for 11 consecutive years (2009-2019). The company completed a Hong Kong IPO in 2020 (ticker 6993.HK), raising up to $1.3 billion. It was founded by chairwoman Pan Dong and her husband, CEO Luo Qiuping.",
       "desc_ru": "Blue Moon (蓝月亮) основана в 1992 году; Guangzhou Blue Moon Industrial Co., Ltd. учреждена в 2001 году, штаб-квартира — в Гуанчжоу. Крупнейший производитель жидких моющих средств в Китае, удерживавший наибольшую долю на рынке жидких стиральных средств 11 лет подряд (2009–2019). Компания провела IPO на Гонконгской бирже в 2020 году (тикер 6993.HK), привлекая до 1,3 млрд долларов США. Основатели — председатель совета директоров Пань Дун и её муж, гендиректор Ло Цюпин.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Blue Moon.png"
     },
     {
       "id": "liby",
@@ -3991,7 +4005,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1921 as a spin-off of Mitsubishi Shipbuilding, headquartered in Tokyo. One of Japan's largest industrial corporations, producing industrial robots and factory automation controllers (the MELSEC line), elevators and escalators, railway electrical systems, HVAC equipment, semiconductors, and space systems. Listed on the Tokyo Stock Exchange with revenue exceeding ¥5 trillion. Present in China since the 1970s through manufacturing plants and joint ventures.",
       "desc_ru": "Основана в 1921 году как выделенное подразделение Mitsubishi Shipbuilding, штаб-квартира в Токио. Одна из крупнейших японских промышленных корпораций: производит промышленные роботы и контроллеры для автоматизации заводов (линейка MELSEC), лифты и эскалаторы, электрооборудование для железных дорог, климатическую технику, полупроводники и системы для космической отрасли. Листинг на Токийской бирже, выручка превышает 5 трлн иен. В Китае работает с 1970-х годов, имеет заводы и совместные предприятия.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Mitsubishi Elecric.png"
     },
     {
       "id": "cainiao",
@@ -4140,7 +4155,8 @@
       "category_ru": null,
       "desc_en": "Vsman (威丝曼, Zhuhai Wiseman) was founded in 1987 in Zhuhai, Guangdong province, and is described as China's first listed company focused specifically on fashion sweater design. It has been designated China's sole national research base for fashion knitwear and operates as a strategic supplier to international fashion brands including ZARA, VERO MODA, ONLY, JACK & JONES and Cabbeen.",
       "desc_ru": "Vsman (威丝曼, Zhuhai Wiseman) основана в 1987 году в Чжухае, провинция Гуандун, и позиционируется как первая в Китае публичная компания, специализирующаяся на дизайне модных трикотажных свитеров. Признана единственной национальной исследовательской базой модного трикотажа Китая; работает как стратегический поставщик для международных fashion-брендов, включая ZARA, VERO MODA, ONLY, JACK & JONES и Cabbeen.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Vsman.png"
     },
     {
       "id": "geely",
@@ -4319,7 +4335,8 @@
       "category_ru": null,
       "desc_en": "Hodo Group (红豆集团) was founded in 1957 and is headquartered in Wuxi, Jiangsu province, with roughly 30,000 employees today. Originally a knitted-underwear maker, it has diversified into apparel, tire/rubber manufacturing, biopharmaceuticals and commercial real estate. The HOdo trademark was registered internationally across 54 countries and regions in 1985. The group includes two exchange-listed subsidiaries, Hongdou Shares (600400) and GM Shares (601500).",
       "desc_ru": "Hodo Group (红豆集团) основана в 1957 году, штаб-квартира — в Уси, провинция Цзянсу; сегодня в группе занято около 30 тысяч сотрудников. Диверсифицированная группа, выросшая из производства трикотажного нижнего белья и охватывающая одежду, шинное производство (резинотехника), биофармацевтику и коммерческую недвижимость. Товарный знак HOdo зарегистрирован в 1985 году в 54 странах и регионах. В структуре группы — две компании, торгуемые на бирже: Hongdou Shares (600400) и GM Shares (601500).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Hodo.png"
     },
     {
       "id": "youngor",
@@ -4393,7 +4410,8 @@
       "category_ru": null,
       "desc_en": "Entrepreneurship school founded in Hangzhou in 2015 by Alibaba's Jack Ma with nine other business leaders. Admission required at least three years running a company with 30+ employees and roughly $4.5 million in annual revenue; the curriculum emphasized learning from business failure over success. Amid regulatory pressure on Ma's business empire, the school dropped \"University\" from its name in 2021, and Ma stepped back from leading it.",
       "desc_ru": "Школа предпринимательства, основанная в Ханчжоу в 2015 году основателем Alibaba Джеком Ма с девятью другими бизнес-лидерами. Для поступления требовался минимум трёхлетний опыт руководства компанией со штатом от 30 человек и выручкой около $4,5 млн; программа делала упор на анализ неудач, а не успехов. На фоне давления на бизнес-империю Ма в 2021 году школа убрала слово «университет» из названия, а Ма отошёл от руководства.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Hupan University.png"
     },
     {
       "id": "yunji",
@@ -4572,7 +4590,8 @@
       "category_ru": null,
       "desc_en": "Jiaogepengyou (literally 'Make Friends') is a live-commerce studio founded in 2020 by entrepreneur and comedian Luo Yonghao, originally created to repay his large personal debt through livestream selling on Douyin. Headquartered in Beijing, it rapidly grew into one of China's leading live-commerce agencies, selling electronics, home goods, and consumer products through in-house and partner streamers.",
       "desc_ru": "Jiaogepengyou («交个朋友», буквально «Давай дружить») — студия live-коммерции, основанная в 2020 году предпринимателем и комиком Ло Юнхао для погашения крупного личного долга через прямые трансляции продаж на Douyin. Штаб-квартира в Пекине. Быстро стала одним из ведущих live-commerce агентств Китая, продавая электронику, товары для дома и потребительские товары через собственных и партнёрских стримеров.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Jiaogepengyou.png"
     },
     {
       "id": "chint",
@@ -4661,7 +4680,8 @@
       "category_ru": null,
       "desc_en": "Beilun power station is located in the Beilun district of Ningbo, Zhejiang; construction of Phase 1 began in January 1988, partly financed by a World Bank loan, with equipment imported from France and Japan. The plant comprises seven units commissioned between 1994 and 2009 across three phases (1.2 GW, 1.8 GW and 2.0 GW), reaching a total installed capacity of about 7.34 GW — China's largest coal-fired thermal power station by installed capacity.",
       "desc_ru": "Электростанция Бэйлунь (北仑电厂) расположена в районе Бэйлунь города Нинбо, Чжэцзян; строительство первой очереди началось в 1988 году частично на кредит Всемирного банка, оборудование поставлялось из Франции и Японии. Состоит из семи блоков, введённых в 1994–2009 годах тремя очередями (1,2 ГВт, 1,8 ГВт и 2,0 ГВт). Суммарная мощность достигла 7,34 ГВт — крупнейшая угольная тепловая электростанция Китая по установленной мощности.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Beilun Power.png"
     },
     {
       "id": "phoenix-contact",
@@ -4765,7 +4785,8 @@
       "category_ru": null,
       "desc_en": "GCL Group (Golden Concord Holdings) was founded in 1990, registered in Hong Kong, with hubs in Suzhou and Xuzhou, Jiangsu. Starting polysilicon production in 2007, it became China's first firm with annual capacity above 10,000 tons and grew into a leading polysilicon and wafer producer. Its portfolio spans wind, solar, energy storage and IC chips; in 2019 it launched a 100,000-ton-per-year lithium cathode material and storage project.",
       "desc_ru": "GCL Group (协鑫) основана в 1990 году, зарегистрирована в Гонконге, операционные центры — в Сучжоу и Сюйчжоу (Цзянсу). С 2007 года выпускает поликремний и стала первой в Китае компанией с мощностью выпуска свыше 10 000 тонн в год, войдя в число крупнейших мировых производителей поликремния и пластин. Портфель охватывает ветер, солнце, накопители энергии и чипы; в 2019 году запущен проект по катодным материалам мощностью 100 000 тонн в год.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/GCL.png"
     },
     {
       "id": "auo",
@@ -4824,7 +4845,8 @@
       "category_ru": null,
       "desc_en": "HLA (海澜之家, Heilan Home) was founded in 2002, opening its first store in Nanjing; the group is headquartered in Jiangyin, Jiangsu province. Following a restructuring and Shanghai Stock Exchange listing in April 2014 (ticker 600398), it became the largest garment-sector company by market capitalization in China's A-share market; besides the core HLA brand it also operates EICHITOO, BETTSALE and SANCANAL. 2024 revenue was about RMB 20.96 billion, down 2.65% year-on-year.",
       "desc_ru": "HLA (海澜之家, Heilan Home) основана в 2002 году, первый магазин открыт в Нанкине; штаб-квартира группы — в Цзянъине, провинция Цзянсу. Крупнейшая по капитализации компания швейного сектора на фондовом рынке A-акций Китая после реструктуризации и листинга на Шанхайской бирже в апреле 2014 года (код 600398); помимо основного бренда HLA управляет марками EICHITOO, BETTSALE и SANCANAL. Выручка в 2024 году составила около 20,96 млрд юаней (−2,65% г/г).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/HLA.png"
     },
     {
       "id": "lg-display",
@@ -4853,7 +4875,8 @@
       "category_ru": null,
       "desc_en": "GLP is a global logistics real estate operator founded in 2003 in Singapore that built one of the largest modern warehouse portfolios in China as GLP China. A consortium led by Hillhouse Capital took the company private in 2017-2018, splitting its global and China operations. GLP manages an extensive network of modern warehouses and data centers across China, Japan, India, Vietnam and Brazil, ranking among the world's largest logistics real estate developers.",
       "desc_ru": "GLP (普洛斯) — глобальный оператор логистической недвижимости, основанный в 2003 году в Сингапуре и активно развивавшийся на рынке Китая как GLP China. В 2017–2018 годах компанию выкупил консорциум во главе с Hillhouse Capital, разделив глобальные активы и китайский бизнес. GLP управляет обширным портфелем современных складов и дата-центров в Китае, Японии, Индии, Вьетнаме и Бразилии, входя в число крупнейших логистических девелоперов мира.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/GLP.png"
     },
     {
       "id": "sinotrans",
@@ -5032,7 +5055,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1902 in Minnesota as the Minnesota Mining and Manufacturing Company, 3M pivoted from mining into diversified materials and consumer products. Known for brands like Post-it and Scotch tape, plus respirators, abrasives, industrial films, adhesives, and electrical solutions. Revenue exceeds US$24 billion; listed on the NYSE (MMM) as a Dow Jones Industrial Average component. Holds thousands of patents and operates in more than 70 countries.",
       "desc_ru": "Основана в 1902 году в Миннесоте (США) как горнодобывающая компания Minnesota Mining and Manufacturing, позднее переориентировалась на диверсифицированные материалы и потребительские товары. Известна такими брендами, как Post-it, Scotch, респираторы и абразивные материалы, а также промышленными плёнками, клеями и электротехническими решениями. Выручка превышает 24 млрд долларов США, листинг на Нью-Йоркской бирже (NYSE: MMM), входит в индекс Dow Jones. Владеет тысячами патентов, работает в более чем 70 странах.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/3M.png"
     },
     {
       "id": "flex",
@@ -5136,7 +5160,8 @@
       "category_ru": null,
       "desc_en": "Longliqi (隆力奇, internationally branded Longrich) traces to 1986, when Xu Zhiwei founded a snake-products enterprise in Changshu, Jiangsu province (not Nanjing); the current entity, Jiangsu Longliqi Group, was registered on 3 July 1996 and is headquartered at the Longliqi Biological Industrial Park in Changshu. It is a major producer of cosmetics, personal-care and health products derived from snake-based ingredients, and has held a Ministry of Commerce direct-selling license since 2009. Reported revenue was on the order of $1 billion as of 2018.",
       "desc_ru": "Longliqi (隆力奇, международный бренд Longrich) ведёт историю с 1986 года, когда Сюй Чживэй основал в Чаншу (провинция Цзянсу, а не Нанкин) компанию по производству продукции на основе змеиного сырья; современная структура Jiangsu Longliqi Group зарегистрирована 3 июля 1996 года, штаб-квартира — в биопромышленном парке Longliqi в Чаншу. Крупный производитель косметики, товаров личной гигиены и продуктов здорового питания на основе змеиного сырья; с 2009 года имеет лицензию на прямые продажи от Министерства коммерции КНР. По оценкам, выручка компании достигала порядка 1 млрд долларов США (данные за 2018 год).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Longliqi.png"
     },
     {
       "id": "nio",
@@ -5450,7 +5475,8 @@
       "category_ru": null,
       "desc_en": "China Mobile IoT Company (中移物联网) is a wholly owned subsidiary of China Mobile, established in September 2012 in Chongqing with registered capital of RMB 3.5 billion — the first dedicated IoT operating entity founded by a Chinese carrier. It builds core IoT platforms and solutions spanning video IoT (VIoT), AIoT and industrial IoT (IIoT), with branch offices in Beijing, Nanjing, Guangzhou, Shenzhen and other cities, and employs more than 3,200 people.",
       "desc_ru": "China Mobile IoT Company (中移物联网) — 100%-я дочерняя компания China Mobile, основанная в сентябре 2012 года в Чунцине с уставным капиталом 3,5 млрд юаней. Это первое специализированное IoT-подразделение, созданное китайским оператором связи. Компания разрабатывает базовые платформы интернета вещей, решения для видео-IoT, AIoT и промышленного IoT, имеет филиалы в Пекине, Нанкине, Гуанчжоу, Шэньчжэне и других городах, штат — свыше 3200 сотрудников.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/CM IoT.png"
     },
     {
       "id": "dongfang-turbine",
@@ -5569,7 +5595,8 @@
       "category_ru": null,
       "desc_en": "Guizhou Bailing Group Pharmaceutical Co., Ltd. is headquartered in Anshun, Guizhou Province; corporate registration sources date its founding to March 1999 (one source cites an earlier 1970 origin), and it specializes in Miao ethnic-minority traditional medicine R&D, production and sales. It listed on the Shenzhen Stock Exchange in 2010 (ticker 002424) as China's \"first Miao-medicine stock,\" with registered capital of about CNY 1.4 billion, total assets around CNY 7 billion and over 6,000 employees.",
       "desc_ru": "Guizhou Bailing Group Pharmaceutical Co., Ltd. базируется в Аньшуне (пров. Гуйчжоу); по данным регистрационных источников, компания основана в марте 1999 года (по одной версии — ведёт историю с 1970 года), специализируется на разработке, производстве и продаже препаратов традиционной медицины народности мяо. В 2010 году компания вышла на Шэньчжэньскую биржу (тикер 002424) как «первая акция мяоской медицины» в Китае; уставный капитал — около 1,4 млрд юаней, активы — около 7 млрд юаней, штат — свыше 6000 человек.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bailing.png"
     },
     {
       "id": "shaangu",
@@ -5673,7 +5700,8 @@
       "category_ru": null,
       "desc_en": "Xi'an Aircraft Industrial Corporation (XAC), a subsidiary of state-owned AVIC, traces its lineage to the late 1950s, when China began license-producing the Soviet Tu-16 as the H-6 bomber, first fully Chinese-built in 1968; over 150 H-6s have been produced. XAC also builds the Y-20 heavy military transport, nicknamed \"Chubby Girl,\" first flown in 2013, with a max takeoff weight around 220 tonnes and up to 66 tonnes of cargo capacity.",
       "desc_ru": "Xi'an Aircraft Industrial Corporation (XAC), входящая в состав государственной AVIC, ведёт историю с конца 1950-х годов, когда в Китае по советской лицензии начали выпускать Ту-16 под обозначением H-6 (первый полностью китайский экземпляр — 1968 год); построено более 150 машин H-6. XAC также производит военно-транспортный Y-20 «Толстушка», впервые взлетевший в 2013 году, с взлётной массой около 220 тонн и грузоподъёмностью до 66 тонн.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/XAC.png"
     },
     {
       "id": "shaanxi-steel",
@@ -5702,7 +5730,8 @@
       "category_ru": null,
       "desc_en": "Shaanxi Coal and Chemical Industry Group (陕煤) is a state-owned conglomerate headquartered in Xi'an, established in 2004, spanning coal mining, coal processing, petrochemicals and coal-chemicals. It has ranked among China's top three coal producers. For 2023 it reported revenue of about $74.8 billion and assets exceeding $100.9 billion, with over 140,000 employees, and is a key energy supplier for Northwest China.",
       "desc_ru": "Shaanxi Coal and Chemical Industry Group (陕煤) — госхолдинг со штаб-квартирой в Сиане, образован в 2004 году. Объединяет угледобычу, углепереработку, нефтехимию и углехимию; ранее входил в тройку крупнейших угольных компаний Китая. За 2023 год выручка — около 74,8 млрд долларов, активы — свыше 100,9 млрд, штат — более 140 тыс. человек. Ключевой поставщик энергоресурсов Северо-Западного Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Shaanxi Coal.png"
     },
     {
       "id": "baofeng-energy",
@@ -5761,7 +5790,8 @@
       "category_ru": null,
       "desc_en": "Pang Dong Lai (胖东来) was founded in March 1995 by Yu Donglai, who started with a roughly 40 sq m tobacco-and-liquor shop in Xuchang, Henan province (renamed 'Pangdonglai Tobacco and Alcohol Co., Ltd.' in 1997). It has grown into a supermarket and mall chain widely known for exceptional customer service and employee welfare — since 2000 Yu has distributed most company shares to staff, keeping only about 10% himself. 2024 revenue was about RMB 16.96 billion with roughly 7,000 employees; the chain has deliberately stayed within Henan province rather than expanding nationally.",
       "desc_ru": "Pang Dong Lai (胖东来) основана в марте 1995 году Юй Дунлаем, начинавшим с небольшой лавки табака и алкоголя площадью около 40 м² в Сюйчане, провинция Хэнань (в 1997 году переименована в «Pangdonglai Tobacco and Alcohol Co., Ltd.»). Сегодня — сеть супермаркетов и торговых центров, широко известная высоким уровнем сервиса и заботы о сотрудниках (Юй Дунлай с 2000 года распределил основную часть акций среди персонала, оставив себе лишь 10%). По итогам 2024 года выручка составила около 16,96 млрд юаней при штате около 7000 человек; сеть до сих пор работает исключительно в пределах провинции Хэнань, не выходя на другие рынки.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Pang Dong Lai.png"
     },
     {
       "id": "continental",
@@ -5925,7 +5955,8 @@
       "category_ru": null,
       "desc_en": "Zhengzhou Coal Mining Machinery Group (郑煤机, ZMJ) was founded in 1958 and is the world's largest developer and maker of hydraulic powered roof supports for mechanized coal mining, alongside an automotive components business. 2025 revenue reached 41.39 billion yuan, up 11.78% year-on-year. In October 2025 the group renamed itself ZCZL Industrial Technology Group; its shares trade in both Shenzhen and Hong Kong (HKG:0564).",
       "desc_ru": "Zhengzhou Coal Mining Machinery Group (郑煤机, ZMJ) основана в 1958 году — крупнейший в мире разработчик и производитель гидравлических крепей для механизированной угледобычи, выпускает также автокомпоненты. Выручка за 2025 год — 41,39 млрд юаней (+11,78% год к году). В октябре 2025 года группа переименована в ZCZL Industrial Technology Group. Акции торгуются в Шэньчжэне и Гонконге (HKG:0564).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/ZMJ.png"
     },
     {
       "id": "haier",
@@ -6029,7 +6060,8 @@
       "category_ru": null,
       "desc_en": "HSTYLE (韩都衣舍) is a Chinese women's fast-fashion brand in the Korean style that grew up alongside Taobao and Tmall in the late 2000s, headquartered in Jinan, Shandong Province. The company built a data-driven operating model of small trial batches, rapid demand testing and fast restocking, with a roughly 5-day cycle from design to sale. In 2012 HSTYLE ranked first by sales on both Tmall and JD.com; its portfolio includes several sub-brands such as AMH, MiniZaru and Soneed.",
       "desc_ru": "HSTYLE (韩都衣舍) — китайский бренд женской одежды в стиле корейской fast-fashion, выросший вместе с площадками Taobao и Tmall во второй половине 2000-х годов, штаб-квартира в Цзинане (провинция Шаньдун). Компания построила модель управления на основе данных: малые пробные партии, быстрое тестирование спроса и обновление коллекций примерно за 5 дней от дизайна до продажи. В 2012 году HSTYLE занимала первое место по продажам на Tmall и JD.com; портфель включает несколько суббрендов, включая AMH, MiniZaru и Soneed.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/HSTYLE.png"
     },
     {
       "id": "inspur",
@@ -6583,7 +6615,8 @@
       "category_ru": null,
       "desc_en": "Huari Furniture (华日家具, Langfang Huari Furniture Co., Ltd.) was founded in December 1992 in Hebei's Langfang development zone. Since 1998 it has ranked among Hebei's top 100 private enterprises, its trademark was recognized as a \"China Well-known Trademark\" in 2005, and its products earned \"China Famous Brand\" status in 2006. The group runs a production base exceeding 866,000 square meters across three sites (Pizhou in Jiangsu, Ningjin in Dezhou, and Nankang in Jiangxi) plus an automated warehouse of about 80,000 square meters, employing over 5,000 people.",
       "desc_ru": "Huari Furniture (华日家具, Langfang Huari Furniture Co., Ltd.) основана в декабре 1992 года в зоне развития Ланфана провинции Хэбэй. С 1998 года компания входит в топ-100 частных предприятий провинции, в 2005 году товарный знак признан «известным товарным знаком Китая», а в 2006-м продукция получила статус «известного бренда Китая». Группа управляет производственной базой свыше 866 тыс. кв. м с тремя площадками (Пичжоу в Цзянсу, Нинцзинь в Дэчжоу, Наньканг в Цзянси) и автоматизированным складом около 80 тыс. кв. м, в компании работает более 5000 человек.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Huari Furniture.png"
     },
     {
       "id": "evst",
@@ -7301,7 +7334,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1995 in Shenzhen; the only publicly listed architectural decoration company under the Shenzhen State-owned Assets Supervision and Administration Commission (SZSE: 002482). Provides design and construction services for interior decoration, curtain walls/facades, intelligent systems, electromechanical installation, and fire protection engineering for hotels, business complexes, government institutions, and rail transit projects. Has ranked among China's top 2 building decoration enterprises for several consecutive years.",
       "desc_ru": "Основана в 1995 году в Шэньчжэне; единственная публичная компания в сфере архитектурной отделки под контролем Комиссии по надзору за госимуществом Шэньчжэня (тикер SZSE: 002482). Оказывает услуги проектирования и строительства по отделке зданий, фасадам/навесным стенам, интеллектуальным системам, электромонтажу и пожарной защите для отелей, деловых комплексов, госучреждений и транспортной инфраструктуры. Много лет подряд входит в топ-2 крупнейших предприятий архитектурной отделки Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Grandland Group.png"
     },
     {
       "id": "bauing",
@@ -7315,7 +7349,8 @@
       "category_ru": null,
       "desc_en": "Shenzhen Bauing Construction Holding Group (宝鹰集团), founded in 1994, has been publicly listed on the Shenzhen Stock Exchange (ticker 002047) since 2013. It specializes in architectural decoration, including curtain wall and steel-structure engineering, interior design, electromechanical installation and security systems, holding a full set of top-tier (Class I) construction qualifications, including in curtain wall construction — a rare combination among Chinese decoration firms.",
       "desc_ru": "Shenzhen Bauing Construction Holding Group (宝鹰集团), основана в 1994 году, публичная компания на Шэньчжэньской бирже (тикер 002047) с 2013 года. Специализируется на архитектурной отделке, включая фасадное (curtain wall) и стальное строительство, интерьеры, электромеханику и системы безопасности, обладая полным набором строительных квалификаций высшего класса, в том числе Class I по фасадным конструкциям — редкость среди китайских отделочных компаний.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Bauing Group.png"
     },
     {
       "id": "jianyi-decoration",
@@ -7329,7 +7364,8 @@
       "category_ru": null,
       "desc_en": "Shenzhen Jianyi Decoration Group (深圳市建艺装饰集团股份有限公司, SZSE: 002789), founded in 1994 and listed in 2016, does building fit-out, curtain-wall/facade construction, and intelligent/electromechanical installation work. It grew from a decoration contractor into a diversified group spanning the construction supply chain; since December 2021 its controlling shareholder has been Zhuhai Zhengfang Group, a state-owned enterprise of Zhuhai's Xiangzhou district.",
       "desc_ru": "Шэньчжэньская строительно-отделочная компания \"Цзяньи\" (建艺装饰集团, тикер SZSE: 002789), основанная в 1994 году и вышедшая на биржу в 2016 году, специализируется на отделочных и фасадных работах, а также монтаже инженерных и электромеханических систем в строительстве. Из подрядчика по отделке компания выросла в холдинг с полным циклом строительных услуг; с декабря 2021 года контрольный пакет принадлежит государственной группе \"Чжухай Чжэнфан\" (район Сянчжоу, Чжухай).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Jianyi Decoration Group.png"
     },
     {
       "id": "huajian-holdings",
@@ -7372,7 +7408,8 @@
       "category_ru": null,
       "desc_en": "A Shenzhen-based company (founded 2000, listed as 002989.SZ) specializing in mass fine fit-out of residential complexes for property developers, using its \"B-B-C\" and \"B&B-C\" business models. It claims over 100,000 delivered fit-out units and annual capacity of about 25,000 units, with roughly 80% of revenue coming from China's top-20 real estate developers.",
       "desc_ru": "Шэньчжэньская компания (основана в 2000 году, тикер 002989.SZ), специализирующаяся на массовой чистовой отделке жилых комплексов по заказу застройщиков через модели \"B-B-C\" и \"B&B-C\". Заявляет о более чем 100 000 сданных объектов отделки и ежегодной мощности около 25 000 квартир; около 80% выручки приходится на сотрудничество с крупнейшими девелоперами Китая (входящими в топ-20).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Zhongtian Jinzhuang.png"
     },
     {
       "id": "ruihe-construction",
@@ -7386,7 +7423,8 @@
       "category_ru": null,
       "desc_en": "Shenzhen-based building decoration and design-and-build company (full name Shenzhen Ruihe Construction Decoration Co., Ltd., stock code 002620), founded in 1992 and listed on the Shenzhen Stock Exchange since 2011. It has carried out fit-out and construction projects nationwide for offices, hotels, shopping malls, banks, hospitals, airports, and subway stations, alongside secondary business lines in green photovoltaics and home decoration.",
       "desc_ru": "Шэньчжэньская компания по дизайну и отделке зданий (полное название — Shenzhen Ruihe Construction Decoration Co., Ltd., биржевой код 002620), основана в 1992 году и торгуется на Шэньчжэньской фондовой бирже с 2011 года. Выполняет отделочные проекты для офисов, отелей, торговых центров, банков, больниц, аэропортов и метро по всему Китаю; помимо строительной отделки развивает направления зелёной фотоэнергетики и домашнего декора.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Ruihe Construction Decoration.png"
     },
     {
       "id": "mingdiao-decoration",
@@ -7400,7 +7438,8 @@
       "category_ru": null,
       "desc_en": "Shenzhen-based company specializing in premium residential interior fit-out, founded in 1999; listed on the Shenzhen A-share market in 2016 (stock code 002830) as the only publicly listed home-decoration company in South China. It provides integrated services for large apartments and villas — design, construction, materials sourcing, custom furniture and soft furnishings — operating brands including Mingdiao and Dandy Villa Decoration through 30+ branch offices across the Pearl River Delta and other Chinese cities.",
       "desc_ru": "Шэньчжэньская компания по элитной отделке жилых интерьеров, основана в 1999 году; в 2016 году вышла на биржу Shenzhen A-share (код 002830), став единственной публичной компанией домашней отделки в Южном Китае. Предоставляет комплексные услуги для крупногабаритных квартир и вилл — дизайн, строительно-монтажные работы, подбор материалов, мебель на заказ и оформление; работает под брендами Mingdiao, Dandy Villa Decoration и др. через 30+ филиалов в дельте Жемчужной реки и других городах Китая.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Mingdiao Decoration.png"
     },
     {
       "id": "china-construction-science",
@@ -7429,7 +7468,8 @@
       "category_ru": null,
       "desc_en": "\"Changjiang Tunnel Engineering\" (长江隧道工程) could not be verified as a distinct company — the name likely describes a category of projects rather than a specific firm. Many tunnels cross the Yangtze (Changjiang) in China, including the Wuhan Changjiang Tunnel (opened 2008, China's first underwater river tunnel) and Shanghai's twin road/metro tunnels, built by firms such as Shanghai Tunnel Engineering Co. and China Railway. Verification is needed.",
       "desc_ru": "«Changjiang Tunnel Engineering» (长江隧道工程) не удалось подтвердить как отдельную компанию — вероятно, это обозначение категории проектов. Через Янцзы (Чанцзян) в Китае проложено множество тоннелей, включая тоннель Ухань Чанцзян (открыт в 2008, первый подводный речной тоннель КНР) и парные тоннели Шанхая (автодорога и метро), построенные Shanghai Tunnel Engineering Co. и China Railway. Запись требует проверки.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Changjiang Tunnel Engineering.png"
     },
     {
       "id": "leadshine",
@@ -7518,7 +7558,8 @@
       "category_ru": null,
       "desc_en": "Chuangjie Zhilian (创捷智联), a Shenzhen-based company founded by Hong Kong entrepreneur Lun Wenjing, makes unmanned smart-retail kiosks — coffee machines and ice-cream robots (since 2022) that produce a serving in under 30 seconds — deployed across Shenzhen's Guangming, Longgang, Longhua and Futian districts. Verifiable public information on the company's funding, headcount or revenue is very limited, and no such figures could be confirmed; this entry should be treated as incomplete pending further verification.",
       "desc_ru": "Chuangjie Zhilian (创捷智联, Шэньчжэнь) основана гонконгским предпринимателем Лунь Вэньхуанем; выпускает автоматические киоски интеллектуального ретейла — кофейные аппараты и роботы для мороженого (с 2022 года), готовящие порцию менее чем за 30 секунд. Установки развёрнуты в районах Гуанмин, Лунган, Лунхуа и Футянь Шэньчжэня. Независимо проверяемых данных о финансировании, масштабе штата или выручке компании найти не удалось — публичная информация о ней крайне ограничена, поэтому приведённые сведения следует считать неполными.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Chuangjie Zhilian.png"
     },
     {
       "id": "topband",
@@ -7532,7 +7573,8 @@
       "category_ru": null,
       "desc_en": "Founded in 1996 in Shenzhen, Topband became the first publicly listed company in China's intelligent control sector in 2007 (SZSE: 002139). It develops and manufactures smart controllers and control systems for home appliances, power tools, and automotive electronics, along with energy storage systems, inverters, and battery products, operating eight manufacturing bases and employing over 13,000 people worldwide.",
       "desc_ru": "Основана в 1996 году в Шэньчжэне; в 2007 году стала первой публичной компанией Китая в секторе интеллектуального управления (SZSE: 002139). Разрабатывает и производит интеллектуальные контроллеры и системы управления для бытовой техники, электроинструментов, автомобильной электроники, а также решения для накопления энергии, инверторы и аккумуляторные батареи; располагает восемью производственными базами и штатом свыше 13000 человек по всему миру.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Topband.png"
     },
     {
       "id": "shugu",
@@ -7546,7 +7588,8 @@
       "category_ru": null,
       "desc_en": "Linked to Sugon (中科曙光, Dawning Information Industry), one of China's oldest supercomputer makers, founded in 1996 and listed on the Shanghai Stock Exchange (SSE: 603019). Within the Sugon ecosystem it builds end-to-end AI infrastructure — deep-learning servers, AI accelerator chips (CPU/GPU/FPGA/ASIC), liquid-cooling systems and data centers serving major state and enterprise computing projects.",
       "desc_ru": "Связана с Sugon (中科曙光, Dawning Information Industry), одним из старейших производителей суперкомпьютеров Китая, основанным в 1996 году и торгующимся на Шанхайской бирже (SSE: 603019). В рамках экосистемы Sugon развивается комплексная ИИ-инфраструктура: серверы для глубокого обучения, ИИ-чипы (CPU/GPU/FPGA/ASIC), системы жидкостного охлаждения и дата-центры, обслуживающие крупные государственные и корпоративные проекты.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Shugu Intelligent Technology.png"
     },
     {
       "id": "rabbitpre",
@@ -7560,7 +7603,8 @@
       "category_ru": null,
       "desc_en": "RabbitPre (兔展智能), founded in 2014 and headquartered in Shenzhen's Nanshan district, develops its own visual-spatial-intelligence large model (\"TuLing\") and runs an enterprise AI marketing and interaction platform, serving over 41 million enterprise users. It is one of the few Chinese companies doing foundational visual model R&D, and its open-source Open-Sora Plan release has repeatedly topped GitHub's global trending charts. Its product lineup includes SkillsUI, AnyReal, BOOM, and DeiNai, covering AI content generation, intelligent interaction, and overseas digital marketing.",
       "desc_ru": "Компания \"RabbitPre\" (兔展智能), основанная в 2014 году и базирующаяся в Шэньчжэне (Наньшань), разрабатывает собственную визуально-пространственную большую модель (\"TuLing\") и развивает платформу AI-маркетинга и взаимодействия для предприятий, обслуживая свыше 41 млн корпоративных пользователей. Компания — одна из немногих в Китае, ведущих разработку базовых визуальных моделей; её открытая версия Open-Sora Plan неоднократно возглавляла мировые тренды GitHub. Продуктовая линейка включает SkillsUI, AnyReal, BOOM и DeiNai для генерации контента, интерактивного ИИ и зарубежного маркетинга.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/RabbitPre.png"
     },
     {
       "id": "intellifusion",
@@ -7574,7 +7618,8 @@
       "category_ru": null,
       "desc_en": "Intellifusion (云天励飞), founded in Shenzhen in 2014, develops AI inference chips, including its own neural network processor (NNP) core and chip architecture. Its product line includes AI modules, edge intelligent boxes, inference acceleration cards, and large-model inference appliances (e.g. the Shenqiong X6000Mesh acceleration card), compatible with DeepSeek series models and HarmonyOS. The company listed on Shanghai's STAR Market in 2023.",
       "desc_ru": "云天励飞 (Intellifusion) — шэньчжэньская компания, основанная в 2014 году, разрабатывающая ИИ-чипы для инференса, включая собственное ядро нейропроцессора (NNP) и архитектуру чипов. Выпускает модули, edge-боксы, ускорительные карты для ИИ-инференса и решения для инференса больших моделей (в т.ч. ускорительную карту Shenqiong X6000Mesh), совместимые с моделями серии DeepSeek и HarmonyOS. В 2023 году вышла на биржу STAR Market (Шанхай).",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Intellifusion.png"
     },
     {
       "id": "insta360",
@@ -7618,7 +7663,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2003 in Shenzhen, the company is an AIoT solutions provider built on a \"cloud + edge + device\" model for smart home, smart park/community, and smart transportation applications, focusing on video- and radar-sensing technology (AI cameras, AI NVR, IoT gateways, face-recognition access panels). It holds over 500 patents and has integration partnerships with Tencent, Huawei, China Mobile, Amazon, Haier and Midea, and has raised a Series C round totaling $52.9M.",
       "desc_ru": "Компания основана в 2003 году в Шэньчжэне, работает как поставщик AIoT-решений «облако + edge + устройства» для умного дома, умных парков/жилых комплексов и транспорта, специализируясь на видео- и радарной сенсорике (ИИ-камеры, NVR, шлюзы IoT, панели контроля доступа с распознаванием лиц). Владеет более 500 патентами, интегрируется с платформами Tencent, Huawei, China Mobile, Amazon, Haier, Midea и др.; привлекла раунд финансирования на $52,9 млн.",
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/Wanjiaan.png"
     },
     {
       "id": "smartmore",
@@ -8441,7 +8487,8 @@
       "category_ru": null,
       "desc_en": "Fukuoka-headquartered Trial Holdings operates more than 300 supermarkets across Japan selling food, clothing and household goods at low prices. In 2018 the company spun off its tech unit, Retail AI, which develops smart shopping carts with built-in tablets, card scanners and barcode readers that surface product and coupon suggestions based on purchase history. At its flagship Super Center Trial smart store on Island City, about 700 AI-powered cameras analyze shoppers' age and gender to adjust in-store digital advertising displays in real time.",
       "desc_ru": "Trial Holdings, штаб-квартира в Фукуоке, управляет более чем 300 супермаркетами по всей Японии, торгующими продуктами, одеждой и товарами для дома по низким ценам. В 2018 году компания выделила технологическое подразделение Retail AI, разрабатывающее умные тележки со встроенными планшетами, сканерами карт и штрихкодов, которые предлагают товары и купоны исходя из истории покупок. В флагманском смарт-магазине Super Center Trial на Island City установлено около 700 ИИ-камер, анализирующих пол и возраст покупателей для настройки цифровых рекламных экранов в торговом зале в реальном времени.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Trial Holdings.png"
     },
     {
       "id": "rakuten-group",
@@ -8680,7 +8727,8 @@
       "category_ru": null,
       "desc_en": "ZMP Inc., founded in Tokyo in January 2001 by Hisashi Taniguchi, grew out of the Kitano Symbiotic Systems Project backed by Japan's education ministry (MEXT), and later diversified into autonomous-driving research and delivery robots. Its sidewalk delivery robot DeliRo, designed with expressive 'eyes,' has been piloted in public trials in Tokyo with Japan Post Holdings, addressing Japan's aging population and courier shortages in underserved areas.",
       "desc_ru": "ZMP Inc. основана в январе 2001 года в Токио Хисаси Танигути на базе результатов проекта Kitano Symbiotic Systems (при поддержке японского Минобрнауки). Компания диверсифицировалась в автономное вождение и роботов-курьеров. Тротуарный робот доставки DeliRo с выразительными «глазами» испытывался совместно с Japan Post Holdings в публичных пилотах в Токио — ответ на проблему старения населения и нехватки курьеров в удалённых районах.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/ZMP.png"
     },
     {
       "id": "wolt-japan",
@@ -8754,7 +8802,8 @@
       "category_ru": null,
       "desc_en": "Spun off from Preferred Infrastructure in March 2014 in Tokyo by co-founders Toru Nishikawa and Daisuke Okanohara, Preferred Networks built its own MN-Core AI processor and the MN-3 supercomputer, which topped the Green500 energy-efficiency ranking three times. With ENEOS it developed Matlantis, a universal atomistic simulator for materials discovery. Key investors include Toyota and Fanuc.",
       "desc_ru": "Основана в марте 2014 года в Токио как отделение Preferred Infrastructure сооснователями Тору Нисикавой и Дайсукэ Оканохарой. Разработала собственный ИИ-процессор MN-Core и суперкомпьютер MN-3, трижды возглавлявший рейтинг энергоэффективности Green500. Совместно с ENEOS создала платформу симуляции материалов Matlantis. Среди ключевых инвесторов — Toyota и Fanuc.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Prefered Networks.png"
     },
     {
       "id": "sakana-ai",
@@ -8858,7 +8907,8 @@
       "category_ru": null,
       "desc_en": "NTT (Nippon Telegraph and Telephone) is Japan's largest telecommunications holding company, formed in 1985 through the privatization of the state telephone corporation, headquartered in Tokyo. The group includes NTT Docomo, NTT East/West, NTT Communications and NTT Data, employs roughly 340,000 people, and reported about ¥13.7 trillion in revenue for fiscal 2025. Since 2023 NTT has developed tsuzumi, its own large language model available in compact 0.6B and 7B parameter versions, optimized for Japanese-language processing, low power consumption and single-GPU on-premise deployment; an upgraded tsuzumi 2 was released in 2025.",
       "desc_ru": "NTT (Nippon Telegraph and Telephone) — крупнейшая японская телекоммуникационная холдинговая компания, образованная в 1985 году в результате приватизации государственной телефонной корпорации; штаб-квартира в Токио. В группу входят NTT Docomo, NTT East/West, NTT Communications и NTT Data; штат — около 340 000 сотрудников, выручка за 2025 финансовый год — порядка 13,7 трлн иен. С 2023 года NTT развивает собственную языковую модель tsuzumi — компактную (0,6–7 млрд параметров) LLM с упором на японский язык, низкое энергопотребление и возможность работы on-premise на одном GPU; в 2025 году представлена версия tsuzumi 2.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/NTT.png"
     },
     {
       "id": "zozo",
@@ -8932,7 +8982,8 @@
       "category_ru": null,
       "desc_en": "Kao (花王) runs several in-house research platforms spanning material science and skin analysis. In 2019 the company introduced Bio IOS, a sustainable surfactant derived from fatty-alcohol internal olefin that combines high water solubility with strong affinity to oils; the technology underpins its Attack ZERO laundry detergent. For skin diagnostics, Kao uses its own Kirei Skin AI, trained to distinguish different makeup finishes and imperfections, alongside a Sebum RNA Monitoring technology launched in 2022 in partnership with istyle.",
       "desc_ru": "Kao (花王) развивает собственные научно-исследовательские платформы в сфере материаловедения и анализа кожи. В 2019 году компания представила Bio IOS — устойчивый ПАВ на основе внутреннего олефина из жирных спиртов, сочетающий высокую растворимость с сродством к маслам; технология легла в основу средства Attack ZERO. Для диагностики кожи Kao применяет ИИ Kirei Skin AI, распознающий типы макияжа и его дефекты, а также технологию мониторинга РНК кожного сала, запущенную в 2022 году совместно с istyle.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Kao.png"
     },
     {
       "id": "kanebo",
@@ -8976,7 +9027,8 @@
       "category_ru": null,
       "desc_en": "KOSÉ was founded in Tokyo in March 1946 by Kozaburo Kobayashi, built from the start on a \"quality first\" approach to face powders and skincare. From 1963 to 2001 the company had a technology partnership with L'Oréal, and in 1970 it launched its luxury brand COSME DECORTÉ. In 2022 KOSÉ introduced The Color Machine, a 3D-projection makeup simulator, and the company also researches AI applications — including combining AI with quantum computing — to rapidly test and formulate ingredient combinations.",
       "desc_ru": "KOSÉ основана в марте 1946 года в Токио Кодзабуро Кобаяси и с самого начала придерживалась принципа «качество прежде всего» в производстве пудры и средств по уходу за кожей. С 1963 по 2001 год компания сотрудничала с L'Oréal в области технологий, а в 1970 году запустила люксовый бренд COSME DECORTÉ. В 2022 году KOSÉ представила 3D-проекционный симулятор макияжа The Color Machine, а также ведет исследования по применению ИИ — вплоть до сочетания с квантовыми вычислениями — для быстрого тестирования и подбора рецептур ингредиентов.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Kosé.png"
     },
     {
       "id": "panasonic-beauty",
@@ -9140,7 +9192,8 @@
       "category_ru": null,
       "desc_en": "Cellusion Inc. is a Tokyo-based regenerative-medicine startup spun out of the Department of Ophthalmology at Keio University School of Medicine in 2015, developing an iPS-cell-derived corneal endothelial cell substitute (CLS001) to address the global shortage of donor corneas for bullous keratopathy. In March 2023 it announced the first-in-human transplant of CLS001, and raised JPY 1.1 billion in a round led by DBJ Capital, Keio Innovation Initiative and SMBC Venture Capital, later forming an alliance with Toyo Seikan Group Holdings.",
       "desc_ru": "Cellusion Inc. — токийский стартап в сфере регенеративной медицины, выделенный в 2015 году из кафедры офтальмологии медицинской школы Университета Кэйо; разрабатывает заменитель клеток эндотелия роговицы на основе иПСК (CLS001) для решения проблемы дефицита донорских роговиц при буллёзной кератопатии. В марте 2023 года компания объявила о первой в мире трансплантации CLS001 человеку; привлекла 1,1 млрд иен от DBJ Capital, Keio Innovation Initiative и SMBC Venture Capital, позднее заключив альянс с Toyo Seikan Group Holdings.",
-      "country": "jp"
+      "country": "jp",
+      "logo": "/logos/Cellusion.png"
     },
     {
       "id": "metcela",
@@ -9919,7 +9972,8 @@
       "category_ru": null,
       "desc_en": "Divana was founded in 2001 by Pattanapong Ranuraksa and Thaneth Jiraswakedelok with a mission to elevate traditional Thai massage into a full-scale spa service. Marking its 25th anniversary, the brand announced a THB 100 million investment aimed at doubling revenue from around THB 300 million to THB 600 million, with roughly 80% of Divana's clientele international. The company is studying expansion into ASEAN, the Middle East and China as it positions itself as a leading Thai luxury eco-spa brand.",
       "desc_ru": "Divana основана в 2001 году Патанапонгом Ранураксой и Танетом Дзирасвакеделоком с целью превратить традиционный тайский массаж в полноценный спа-сервис. К 25-летию бренд объявил об инвестициях в 100 млн бат с целью удвоить выручку — примерно с 300 до 600 млн бат, при этом около 80% клиентов Divana составляют иностранцы. Компания изучает возможности выхода на рынки АСЕАН, Ближнего Востока и Китая, позиционируя себя как ведущий тайский люксовый эко-спа- и ароматерапевтический бренд.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Divana.png"
     },
     {
       "id": "provamed-greater-pharma",
@@ -10098,7 +10152,8 @@
       "category_ru": null,
       "desc_en": "A private multi-specialty medical center in Bangkok, Thailand, specializing in mesenchymal stem-cell therapy and anti-aging protocols aimed at tissue repair and reduced systemic inflammation. The clinic serves patients mainly from Europe, the US and the Middle East, offering anti-aging and longevity programs under a team of Thai physicians.",
       "desc_ru": "Частный многопрофильный медицинский центр в Бангкоке (Таиланд), специализирующийся на терапии мезенхимальными стволовыми клетками и anti-age-протоколах для восстановления тканей и снижения системного воспаления. Клиника принимает пациентов преимущественно из Европы, США и стран Ближнего Востока, предлагая программы anti-aging и долголетия под наблюдением команды тайских врачей.",
-      "country": "th"
+      "country": "th",
+      "logo": "/logos/Vega Clinic.png"
     },
     {
       "id": "cafe-amazon-ptt",
@@ -10277,7 +10332,8 @@
       "category_ru": null,
       "desc_en": "Mobile World Investment Corporation (MWG), headquartered in Ho Chi Minh City, was founded in 2004 by Nguyen Duc Tai and runs the Thế Giới Di Động, Điện Máy Xanh, Bách Hóa Xanh, An Khang pharmacy, TopZone and AVAKids chains. As of Q3 2025 the company operated over 5,200 stores across all 63 of Vietnam's provinces and cities. In May 2025 MWG launched its own marketplace, MWG Shop, re-entering e-commerce, with a 2025 revenue target of VND 150 trillion under its omnichannel strategy.",
       "desc_ru": "Mobile World Investment Corporation (MWG), штаб-квартира в Хошимине, основана в 2004 году Нгуеном Дык Таем и объединяет сети Thế Giới Di Động, Điện Máy Xanh, Bách Hóa Xanh, аптеки An Khang, TopZone и AVAKids. По итогам 3-го квартала 2025 года компания управляла более чем 5200 магазинами в 63 провинциях страны. В мае 2025 года MWG запустила собственный маркетплейс MWG Shop, вернувшись в e-commerce, при цели на 2025 год в 150 трлн донгов выручки в рамках омниканальной стратегии.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Thế Giới Di Động : MWG.png"
     },
     {
       "id": "fpt-retail-long-chau",
@@ -10381,7 +10437,8 @@
       "category_ru": null,
       "desc_en": "Con Cưng, founded in 2011, is a Vietnamese mother-and-baby retail chain with more than 600 company-owned stores across 45 provinces. In 2022, Quadria Capital invested USD 90 million to support the opening of 2,000 more stores and the development of an all-in-one super-app for around 5 million Vietnamese mothers. Over the prior four years the company had grown at a roughly 70% compound annual rate and targeted USD 2 billion in sales by 2025, with at least 30% expected from e-commerce.",
       "desc_ru": "Con Cưng, основанная в 2011 году, — вьетнамская сеть товаров для мам и детей, насчитывающая более 600 собственных магазинов в 45 провинциях страны. В 2022 году фонд Quadria Capital инвестировал 90 млн долларов, чтобы поддержать открытие ещё 2000 магазинов и создание единого супераппа для примерно 5 млн вьетнамских матерей. За предыдущие четыре года компания росла в среднем на 70% в год и ставила цель достичь 2 млрд долларов продаж к 2025 году, из которых не менее 30% — за счёт e-commerce.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Con Cưng.png"
     },
     {
       "id": "vinamilk",
@@ -10620,7 +10677,8 @@
       "category_ru": null,
       "desc_en": "MoMo (M_Service), founded in Vietnam in 2007, evolved from a SIM-card money-transfer tool into the country's leading e-wallet super-app after its 2014 smartphone relaunch. Backed by Warburg Pincus, Standard Chartered and Goodwater Capital, it raised $200 million in a December 2021 Series E led by Mizuho Bank, pushing valuation past $2 billion — Vietnam's fourth unicorn. MoMo now serves over 40 million users, holding roughly 56% of the market.",
       "desc_ru": "MoMo (M_Service), основана во Вьетнаме в 2007 году, выросла из SIM-приложения для переводов в ведущий супер-кошелёк страны после релиза смартфон-версии в 2014-м. При поддержке Warburg Pincus, Standard Chartered и Goodwater Capital в декабре 2021 года привлекла $200 млн в раунде Series E под руководством Mizuho Bank, превысив оценку $2 млрд — четвёртый единорог Вьетнама. MoMo обслуживает более 40 млн пользователей, около 56% рынка.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/MoMo.png"
     },
     {
       "id": "trusting-social",
@@ -10829,7 +10887,8 @@
       "category_ru": null,
       "desc_en": "Sao Thai Duong is a Hanoi-based Vietnamese pharmaceutical and cosmetics company founded in 2000 by pharmacists Nguyen Huu Thang and Nguyen Thi Huong Lien, specializing in herbal medicine. It offers over 150 products, including about 19 herbal drugs based on ginseng, ginger and betel leaf. It holds 13 patents, has run 70+ pre-clinical and 21 clinical studies, and exports to 20+ countries with WHO-GMP certified plants.",
       "desc_ru": "Sao Thai Duong — вьетнамская фармацевтическая и косметическая компания из Ханоя, основана в 2000 году фармацевтами Нгуен Хыу Тханем и Нгуен Тхи Хыонг Лиен. Выпускает свыше 150 наименований, включая около 19 фитопрепаратов на основе женьшеня, имбиря и листьев бетеля. Имеет 13 патентов, провела 70+ доклинических и 21 клиническое исследование, экспортирует в 20+ стран; производство сертифицировано WHO-GMP.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Sao Thái Dương.png"
     },
     {
       "id": "milaganics",
@@ -10843,7 +10902,8 @@
       "category_ru": null,
       "desc_en": "Milaganics is a Vietnamese natural cosmetics brand launched in 2000, positioning itself around plant-based, preservative-free skin and hair care. Its range spans powder masks, toners, hair oils, shampoos, body-care and cleansers made from grapefruit, chamomile and coconut oil. The brand is distributed via major Vietnamese retail chains including Watsons, Guardian and Hasaki.",
       "desc_ru": "Milaganics — вьетнамский бренд натуральной косметики, вышедший на рынок в 2000 году, позиционирующий себя как средства для кожи и волос на растительной основе без консервантов. В ассортименте — пудровые маски, тоники, масла для волос, шампуни, средства для тела на основе грейпфрута, ромашки, кокосового масла. Представлен в сетях Watsons, Guardian и Hasaki.",
-      "country": "vn"
+      "country": "vn",
+      "logo": "/logos/Milaganics.png"
     },
     {
       "id": "vinmec-vrisg",
@@ -11502,7 +11562,8 @@
       "category_ru": null,
       "desc_en": "Founded in 2018 in Bandung by AI and speech-recognition experts Dessi Puji Lestari and Dr. Ayu Purwarianti together with Teguh Eko Budiarto, Prosa.ai builds NLP and speech technologies specifically for Bahasa Indonesia — chatbots, text and speech processing, and voice-biometric authentication. It partnered with Indonesia's communications ministry to launch the AntiHoaks chatbot to counter misinformation.",
       "desc_ru": "Основана в 2018 году в Бандунге экспертами по ИИ и распознаванию речи Десси Пуджи Лестари и доктором Аю Пурварианти совместно с Тегу Эко Будиарто. Разрабатывает NLP- и речевые технологии специально для языка бахаса Индонезия: чат-боты, обработку текста и речи, голосовую биометрию для аутентификации. Совместно с Министерством связи Индонезии запустила чат-бот AntiHoaks для борьбы с дезинформацией.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Posa ai.png"
     },
     {
       "id": "sahabat-ai",
@@ -11561,7 +11622,8 @@
       "category_ru": null,
       "desc_en": "PT Paragon Technology and Innovation, founded by pharmacist Nurhayati Subakat — whose Wardah brand, Indonesia's first halal cosmetics line, launched in 1995 — is Indonesia's largest cosmetics maker and pioneer of halal beauty, producing 135M+ halal-certified units yearly under Wardah, Make Over, Emina and Kahf. As of early 2025 CEO Salman Subakat confirmed the company remains privately held, with no confirmed IPO.",
       "desc_ru": "PT Paragon Technology and Innovation, основанная фармацевтом Нурхаяти Субакат (бренд Wardah — первая halal-косметика Индонезии — запущен в 1995 году), крупнейший производитель косметики в стране, выпускает 135 млн+ halal-единиц в год под брендами Wardah, Make Over, Emina и Kahf. По состоянию на начало 2025 года CEO Салман Субакат подтвердил, что компания остаётся частной, без подтверждённых планов IPO.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Paragon Technology & Innovation (Wardah:Emina:Make Over).png"
     },
     {
       "id": "kahf-paragon",
@@ -11739,7 +11801,8 @@
       "category_ru": null,
       "desc_en": "PT KalGen DNA is a joint venture between Kalbe Farma subsidiary Bifarma Adiluhung and Malaysia's DNA Laboratories Sdn. Bhd., established in Jakarta in 2012. It manufactures in-vitro diagnostic (IVD) kits for molecular detection of oncological and infectious diseases (including HPV, SARS-CoV-2 and tuberculosis) and offers the consumer GEN-ME saliva-based DNA test for nutrition and disease-risk profiling.",
       "desc_ru": "PT KalGen DNA — совместное предприятие Bifarma Adiluhung (дочерней структуры Kalbe Farma) и малайзийской DNA Laboratories Sdn. Bhd., основанное в 2012 году в Джакарте. Компания производит IVD-тесты для молекулярной диагностики онкологических и инфекционных заболеваний (включая ВПЧ, SARS-CoV-2, туберкулёз), а также предлагает потребительское ДНК-тестирование GEN-ME для оценки индивидуальных предрасположенностей по питанию и здоровью.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/KalGen DNA.png"
     },
     {
       "id": "kg-bio-kalbe",
@@ -11753,7 +11816,8 @@
       "category_ru": null,
       "desc_en": "KG Bio is a clinical-stage biotech company established in 2016 as a joint venture between Southeast Asia's largest listed pharmaceutical company, Kalbe Farma, and South Korea's Genexine Inc. It licenses and commercializes novel oncology biologics outside the US, Western Europe and China; in October 2023 it received first market approval from Indonesia's BPOM regulator for its long-acting erythropoietin, Efepoetin alfa.",
       "desc_ru": "KG Bio — клинико-стадийная биотехнологическая компания, созданная в 2016 году как совместное предприятие крупнейшей публичной фармкомпании Юго-Восточной Азии Kalbe Farma и южнокорейской Genexine Inc. Компания лицензирует и выводит на рынки за пределами США, Западной Европы и Китая инновационные биопрепараты в онкологии; в октябре 2023 года получила от индонезийского регулятора BPOM первое рыночное одобрение для длительно действующего эритропоэтина Efepoetin alfa.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/KG Bio (Kalbe).png"
     },
     {
       "id": "prodia",
@@ -11782,7 +11846,8 @@
       "category_ru": null,
       "desc_en": "Biothera Stem Cell Clinic, located in the PIK2 complex in Jakarta, Indonesia, offers stem-cell, secretome, exosome and NK-cell therapies aimed at tissue repair and 'healthy aging' programs. Medical leadership includes Dr. Adi Wijayanto, a PhD-trained stem-cell specialist, and Dr. Vincentius Febriyanti, a cell-culture and immunomodulation specialist.",
       "desc_ru": "Клиника клеточной терапии Biothera Stem Cell в комплексе PIK2 (Джакарта, Индонезия), предлагающая терапию стволовыми клетками, секретомом, экзосомами и NK-клетками для восстановления тканей и программ 'здорового старения'. Медицинское руководство осуществляют д-р Ади Виджаянто, специалист по стволовым клеткам с PhD, и д-р Винченциус Февриянти, специалист по клеточным культурам и иммуномодуляции.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Biothera Stem Cell Clinic (PIK2).png"
     },
     {
       "id": "bio-farma-kimia-farma",
@@ -11796,7 +11861,8 @@
       "category_ru": null,
       "desc_en": "Bio Farma is Indonesia's state-owned pharmaceutical holding group, overseeing Kimia Farma and Indofarma. In 2026 Kimia Farma launched Stemxera, a stem-cell and secretome product developed since 2013 at the CPOB (GMP)-certified stem-cell laboratory of RSCM (Cipto Mangunkusumo Hospital), as part of the group's push into regenerative medicine and biotechnology.",
       "desc_ru": "Bio Farma — государственный фармацевтический холдинг Индонезии, объединяющий Kimia Farma и Indofarma. В 2026 году Kimia Farma представила Stemxera — продукт на основе стволовых клеток и секретома, разработка которого велась с 2013 года в сертифицированной по CPOB (GMP) лаборатории стволовых клеток больницы RSCM (Cipto Mangunkusumo) в рамках стратегии развития регенеративной медицины и биотехнологий.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Bio Farma :Kimia Farma.png"
     },
     {
       "id": "regeneratia-bali",
@@ -11810,7 +11876,8 @@
       "category_ru": null,
       "desc_en": "Regeneratia Bali is an anti-aging and regenerative center in Bali, Indonesia, where after consultation and blood sampling, samples are sent to the WOCPM-certified CELLTECH laboratory in Jakarta. There, AI-driven, closed-system technology is used to prepare personalized cell therapy over 2-3 days, which is then administered to the patient intravenously.",
       "desc_ru": "Regeneratia Bali — anti-aging и регенеративный центр на Бали (Индонезия), где после консультации и забора крови образец направляется в сертифицированную по WOCPM лабораторию CELLTECH в Джакарте. Там с использованием ИИ-технологий и закрытой системы культивации в течение 2–3 дней готовится персонализированная клеточная терапия, которая затем вводится пациенту внутривенно.",
-      "country": "id"
+      "country": "id",
+      "logo": "/logos/Regeneratia Bali.png"
     },
     {
       "id": "kopi-kenangan",
@@ -12529,7 +12596,8 @@
       "category_ru": null,
       "desc_en": "Lakmé, launched in 1952, was India's first indigenous cosmetics brand, originally created by Tata Oil Mills; a 50:50 joint venture with Hindustan Unilever formed in 1996, and HUL took full ownership in 1998. Lakmé is now wholly owned by HUL, which runs over 730 scientists (more than 100 PhD holders) across three R&D centres in India, including key labs in Bengaluru and Mumbai.",
       "desc_ru": "Lakmé, запущенная в 1952 году, — первый индийский косметический бренд, изначально созданный Tata Oil Mills; в 1996 году образовано СП 50:50 с Hindustan Unilever, а в 1998 году HUL выкупила бренд полностью. Сегодня Lakmé принадлежит HUL, которая располагает более чем 730 учёными (свыше 100 кандидатов наук) в трёх R&D-центрах Индии, включая ключевые лаборатории в Бангалоре и Мумбаи.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Lakmé (HUL).png"
     },
     {
       "id": "good-glamm-myglamm",
@@ -12648,7 +12716,8 @@
       "category_ru": null,
       "desc_en": "The Anti-Aging Centre (TAC) is a longevity clinic network in Gurugram, Pune and Delhi, India, positioning itself as the country's first doctor-led personalized longevity program. It assesses over 160 biomarkers including DNA methylation, telomere length and inflammatory markers such as hs-CRP, building 12-month personalized programs, with some DNA and microbiome tests sent for analysis to the Netherlands.",
       "desc_ru": "The Anti-Aging Centre (TAC) — сеть клиник долголетия в Гуругра­ме, Пуне и Дели (Индия), позиционирующая себя как первая в стране программа персонализированного долголетия под руководством врачей. Оценивает более 160 биомаркеров, включая метилирование ДНК, длину теломер и воспалительные маркеры (в т.ч. hs-CRP), формируя 12-месячные индивидуальные программы; часть ДНК- и микробиомных тестов отправляется на анализ в Нидерланды.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/The Anti-Aging Centre (TAC).png"
     },
     {
       "id": "apollo-nova-regenerative",
@@ -12662,7 +12731,8 @@
       "category_ru": null,
       "desc_en": "Apollo Hospitals, one of India's largest private hospital networks, has built out a regenerative-medicine direction — notably a dedicated Regenerative Medicine department at Apollo Jubilee Hills, Hyderabad, established with traumatology and regenerative-technique specialist Professor Enrico Castellacci, applying PRP therapy and mesenchymal stem-cell treatment for joint and cartilage conditions.",
       "desc_ru": "Apollo Hospitals — одна из крупнейших частных больничных сетей Индии, развивающая направление регенеративной медицины: в частности, в госпитале Apollo Jubilee Hills (Хайдарабад) создано специализированное отделение регенеративной медицины в партнёрстве с травматологом и специалистом по регенеративным техникам профессором Энрико Кастеллаччи, применяющее PRP-терапию и трансплантацию мезенхимальных стволовых клеток при заболеваниях суставов и хрящей.",
-      "country": "in"
+      "country": "in",
+      "logo": "/logos/Apollo:Nova.png"
     },
     {
       "id": "blue-tokai-coffee-roasters",
@@ -12796,7 +12866,8 @@
       "category_ru": null,
       "desc_en": "Malaysia's largest consumer-electronics chain (100+ stores); first E&E retailer to launch a 'Seamless Retail Model' (2017), a PlusOne super-app with S-Coin loyalty, and an Alibaba Cloud (Terminus) omnichannel data lake/ERP/WMS. Publicly listed, flagship 'Grand Senheng Elite' showroom stores.",
       "desc_ru": "Крупнейшая сеть бытовой электроники Малайзии (100+ магазинов); первый E&E-ритейлер с 'Seamless Retail Model' (2017), супер-приложение PlusOne с токеном лояльности S-Coin и омниканальный data lake/ERP/WMS на Alibaba Cloud (Terminus). Публичная компания, флагманские шоурумы 'Grand Senheng Elite'.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Senheng New Retail Berhad.png"
     },
     {
       "id": "mr-diy-robotic-warehouse",
@@ -13320,7 +13391,8 @@
       "category_ru": null,
       "desc_en": "This entry groups leading homegrown players in Malaysia's fintech marketplace layer. Jirnexu, founded in 2012, runs the RinggitPlus comparison platform and in 2024 acquired rival CompareHero from MoneyHero. iPay88 is an established Malaysian online payment gateway serving local e-commerce merchants. Funding Societies is a leading SME digital financing platform, offering conventional and Shariah-compliant lending to underserved businesses.",
       "desc_ru": "Раздел объединяет ведущих локальных игроков малайзийского финтех-маркетплейса. Jirnexu, основана в 2012 году, управляет платформой сравнения финансовых продуктов RinggitPlus и в 2024 году приобрела конкурента CompareHero у MoneyHero. iPay88 — устоявшийся малайзийский платёжный шлюз для местных e-commerce-продавцов. Funding Societies — ведущая платформа цифрового финансирования МСБ с обычным и шариатским кредитованием.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Homegrown Fintech Cluster.png"
     },
     {
       "id": "wipro-unza",
@@ -13424,7 +13496,8 @@
       "category_ru": null,
       "desc_en": "This Selangor halal-OEM cluster brings together several Malaysian contract manufacturers: CL Cosmetic Industries (a private-label/OEM/ODM partner since 2002), TCT Nutraceuticals (skincare, sheet masks, soap bars and aerosols including Bag-on-Valve, GMP/Halal-certified) and Sky Resources (halal OEM skincare, haircare, oral- and baby-care manufacturer with over 34 years' experience since 1991). All three hold GMP and Halal certification.",
       "desc_ru": "Кластер халяль-OEM в Селангоре объединяет несколько малайзийских контрактных производителей косметики и нутрицевтики: CL Cosmetic Industries (частная марка/OEM/ODM-партнёр с 2002 года), TCT Nutraceuticals (skincare, тканевые маски, мыло, аэрозоли, включая Bag-on-Valve, с GMP/Halal-производством) и Sky Resources (халяль-OEM по уходу за кожей, волосами, ротовой полостью и детской косметике с более чем 34-летним опытом с 1991 года). Все три компании сертифицированы по GMP и Halal.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Halal OEM Cluster.png"
     },
     {
       "id": "cryocord",
@@ -13527,7 +13600,8 @@
       "category_ru": null,
       "desc_en": "Elixir Biotech is a company within the CryoCord group — Malaysia's leading stem-cell banking operator since 2002 — established to focus on immune-cell therapy, headquartered at Bio-X Centre, Cyberjaya. The CryoCord group, which also includes StemTech International, works with hematopoietic and mesenchymal stem cells, NK cells and CAR-T cells in a cGMP (PIC/S)-certified laboratory recognized by Malaysia's NPRA (Ministry of Health) regulator.",
       "desc_ru": "Elixir Biotech — компания в составе группы CryoCord (ведущего оператора банкинга стволовых клеток в Малайзии с 2002 года), созданная для специализации на иммуноклеточной терапии, со штаб-квартирой в Bio-X Centre, Cyberjaya. Группа CryoCord, включающая также StemTech International, работает с гемопоэтическими и мезенхимальными стволовыми клетками, NK-клетками и CAR-T-клетками в лаборатории, сертифицированной по стандарту cGMP (PIC/S) регулятором NPRA Минздрава Малайзии.",
-      "country": "my"
+      "country": "my",
+      "logo": "/logos/Elixir Biotech.png"
     },
     {
       "id": "national-stem-cell-centre",
@@ -13736,7 +13810,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/NymCard.png"
     },
     {
       "id": "adcb",
@@ -13810,7 +13885,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/G42.png"
     },
     {
       "id": "hub71",
@@ -13959,7 +14035,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Dubai Future Fondation.png"
     },
     {
       "id": "dp-world",
@@ -14528,7 +14605,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "ae"
+      "country": "ae",
+      "logo": "/logos/Mohammed bin Rashid Al Maktoum.png"
     },
     {
       "id": "noon",
@@ -15216,7 +15294,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/East Money Information.png"
     },
     {
       "id": "noetix",
