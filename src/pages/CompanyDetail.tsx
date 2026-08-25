@@ -54,7 +54,7 @@ export function CompanyDetail() {
       </LocaleLink>
 
       <div className="mt-8 flex items-center gap-5">
-        <CompanyMark company={company} size={72} />
+        <CompanyMark company={company} size={144} />
         <div className="min-w-0">
           <h1 className="text-[32px] font-semibold leading-[1.1] tracking-[-0.02em] text-bone-white sm:text-[40px]">
             <RevealText text={company.name_en} />
