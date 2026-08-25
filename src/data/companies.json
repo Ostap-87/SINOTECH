@@ -8173,7 +8173,8 @@
       "category_ru": null,
       "desc_en": "AMORE SEONGSU is Amorepacific's flagship showroom in Seoul's Seongsu-dong district, housed in a converted former auto repair shop that preserves its uneven concrete floors, brick walls and steel beams. Admission is free, and visitors can test more than 2,000 products from over 30 group brands (Sulwhasoo, Laneige, Innisfree, HERA, IOPE and others), plus use personalized services such as Custom Beauty Service and CUSTOM.ME, which formulates a bespoke essence based on a skin analysis. The space rotates themed exhibitions and brand pop-ups monthly.",
       "desc_ru": "AMORE SEONGSU — флагманский шоурум Amorepacific, открытый в районе Сонсу-дон Сеула в переоборудованном здании бывшей автомастерской: сохранены неровный бетонный пол, кирпичные стены и стальные балки. Вход бесплатный, посетители могут протестировать более 2000 продуктов свыше 30 брендов группы (Sulwhasoo, Laneige, Innisfree, HERA, IOPE и др.), а также воспользоваться персональными сервисами Custom Beauty Service и CUSTOM.ME для создания индивидуальной эссенции по анализу кожи. Пространство ежемесячно обновляет тематические выставки и поп-апы брендов.",
-      "country": "kr"
+      "country": "kr",
+      "logo": "/logos/Amorepacific.png"
     },
     {
       "id": "pharmaresearch",
@@ -15220,7 +15221,8 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null,
-      "country": "cn"
+      "country": "cn",
+      "logo": "/logos/jd-com.svg"
     },
     {
       "id": "du-xiaoman",
