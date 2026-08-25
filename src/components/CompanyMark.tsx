@@ -10,7 +10,7 @@ import type { Company } from '@/types/data'
  * initial, tinted with its sector color, rather than a fake or generic
  * icon.
  */
-export function CompanyMark({ company, size = 48 }: { company: Company; size?: number }) {
+export function CompanyMark({ company, size = 96 }: { company: Company; size?: number }) {
   const sector = getSector(company.sector)
   const color = sector?.color ?? '#2563eb'
   const glyph = company.name_zh?.[0] ?? company.name_en[0]
