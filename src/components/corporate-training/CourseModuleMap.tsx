@@ -96,8 +96,20 @@ export function CourseModuleMap({ programTitle, modules }: { programTitle: strin
         nextPaths.push(`M ${rootBox.centerX} ${rootBox.bottom} L ${rootBox.centerX} ${busY} L ${x} ${busY} L ${x} ${deepest}`)
       })
 
-      setPaths(nextPaths)
-      setViewport({ width: containerRect.width, height: containerRect.height })
+      // Bail out of the state update when nothing actually changed —
+      // ResizeObserver can fire without a real size change (e.g. a
+      // sub-pixel reflow), and every firing otherwise costs a full
+      // re-render plus another getBoundingClientRect sweep. Cheap here,
+      // but this component renders on every one of ~24 corporate-training
+      // routes during prerendering on a memory-constrained VPS where the
+      // build already runs close to its concurrency limit (see
+      // prerender.mjs's own comments on that fragility).
+      setPaths((prev) => (prev.length === nextPaths.length && prev.every((p, i) => p === nextPaths[i]) ? prev : nextPaths))
+      setViewport((prev) =>
+        prev.width === containerRect.width && prev.height === containerRect.height
+          ? prev
+          : { width: containerRect.width, height: containerRect.height },
+      )
     }
 
     measure()
