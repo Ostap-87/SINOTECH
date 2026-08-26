@@ -113,11 +113,7 @@ export function CourseModuleMap({ programTitle, modules }: { programTitle: strin
 
   return (
     <div>
-      <p className="text-sm text-ash-gray">
-        Схема курса: как программа «{programTitle}» распадается на модули.
-      </p>
-
-      <div ref={containerRef} className="relative mt-6">
+      <div ref={containerRef} className="relative">
         <svg
           className="pointer-events-none absolute inset-0 hidden md:block"
           width={viewport.width}
