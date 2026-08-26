@@ -7,11 +7,18 @@ import { getCorporateProgram } from '@/data/corporateTraining'
 import { companiesData, companyNameZh } from '@/data'
 import { heroImagePath, galleryImagePaths } from '@/data/corporateTrainingImages'
 import { StaticImage } from '@/components/corporate-training/StaticImage'
+import { CompanyMark } from '@/components/CompanyMark'
 import { CourseModuleMap } from '@/components/corporate-training/CourseModuleMap'
 import { ApplicationForm } from '@/components/corporate-training/ApplicationForm'
 import { ProgramGallery } from '@/components/corporate-training/ProgramGallery'
 import { PlaceholderText } from '@/components/corporate-training/PlaceholderText'
 import { Placeholder } from './Placeholder'
+
+function chunk<T>(items: T[], size: number): T[][] {
+  const rows: T[][] = []
+  for (let i = 0; i < items.length; i += size) rows.push(items.slice(i, i + size))
+  return rows
+}
 
 export function CorporateTrainingProgram() {
   const { company: slug } = useParams<{ company: string }>()
@@ -53,12 +60,19 @@ export function CorporateTrainingProgram() {
       </h1>
       <p className="mt-6 text-lg text-silver-mist">{program.subtitle}</p>
 
-      <StaticImage
-        src={heroImagePath(program.slug)}
-        alt={program.heroAlt}
-        placeholderLabel="Фото скоро появится"
-        className="mt-10 aspect-[16/9] w-full rounded-2xl object-cover"
-      />
+      <div className="relative mt-10">
+        <StaticImage
+          src={heroImagePath(program.slug)}
+          alt={program.heroAlt}
+          placeholderLabel="Фото скоро появится"
+          className="aspect-[16/9] w-full rounded-2xl object-cover"
+        />
+        {company && (
+          <div className="absolute bottom-4 left-4 shadow-sm">
+            <CompanyMark company={company} size={64} />
+          </div>
+        )}
+      </div>
 
       {/* Почему эта компания */}
       <div className="mt-10 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
@@ -95,15 +109,27 @@ export function CorporateTrainingProgram() {
         </div>
       </div>
 
-      {/* Модули курса — текстом */}
+      {/* Модули курса — текстом, плитки одинакового размера, максимум 3 в
+          ряд (тот же паттерн раскладки, что и у визуальной схемы выше:
+          5 модулей → 3+2 центрированный второй ряд, 6 → 3+3). */}
       <div className="mt-14">
         <h2 className="text-2xl font-semibold text-bone-white">Модули курса</h2>
         <div className="mt-6 flex flex-col gap-5">
-          {program.modules.map((mod, i) => (
-            <div key={mod.id} className="rounded-2xl border border-black/10 bg-surface/60 p-5">
-              <p className="text-sm font-semibold text-ash-gray">Модуль {i + 1}</p>
-              <p className="mt-1 text-base font-semibold text-bone-white">{mod.title}</p>
-              <p className="mt-1.5 text-sm text-silver-mist">{mod.description}</p>
+          {chunk(program.modules, 3).map((row, rowIndex) => (
+            <div
+              key={rowIndex}
+              className={`flex flex-col gap-5 sm:flex-row ${row.length < 3 ? 'sm:justify-center' : ''}`}
+            >
+              {row.map((mod, i) => (
+                <div
+                  key={mod.id}
+                  className="flex flex-1 flex-col rounded-2xl border border-black/10 bg-surface/60 p-5 sm:max-w-[340px]"
+                >
+                  <p className="text-sm font-semibold text-ash-gray">Модуль {rowIndex * 3 + i + 1}</p>
+                  <p className="mt-1 text-base font-semibold text-bone-white">{mod.title}</p>
+                  <p className="mt-1.5 text-sm text-silver-mist">{mod.description}</p>
+                </div>
+              ))}
             </div>
           ))}
         </div>
@@ -123,43 +149,42 @@ export function CorporateTrainingProgram() {
       </div>
 
       {/* Формат и условия */}
-      <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
-        <h2 className="text-2xl font-semibold text-bone-white">Формат и условия</h2>
-        <dl className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-5 sm:p-6">
+        <h2 className="text-lg font-semibold text-bone-white">Формат и условия</h2>
+        <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
           <div>
             <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Длительность</dt>
-            <dd className="mt-1 text-sm text-bone-white">
+            <dd className="mt-0.5 text-sm text-bone-white">
               {program.format.duration} / <PlaceholderText text={program.format.nights} /> ночей
             </dd>
           </div>
           <div>
             <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Размер группы</dt>
-            <dd className="mt-1 text-sm text-bone-white">
+            <dd className="mt-0.5 text-sm text-bone-white">
               <PlaceholderText text={program.format.groupSize} />
             </dd>
           </div>
           <div>
             <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Стоимость</dt>
-            <dd className="mt-1 text-sm text-bone-white">
+            <dd className="mt-0.5 text-sm text-bone-white">
               <PlaceholderText text={program.format.price} /> за участника
             </dd>
           </div>
           <div>
             <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Ближайшие даты</dt>
-            <dd className="mt-1 text-sm text-bone-white">
+            <dd className="mt-0.5 text-sm text-bone-white">
               <PlaceholderText text={program.format.dates} />
             </dd>
           </div>
         </dl>
-        <div className="mt-5">
-          <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">В стоимость входит</p>
-          <ul className="mt-2 flex flex-col gap-1.5">
-            {program.format.included.map((item, i) => (
-              <li key={i} className="text-sm text-bone-white">
-                <PlaceholderText text={item} />
-              </li>
-            ))}
-          </ul>
+        <div className="mt-4 border-t border-black/10 pt-3">
+          <span className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">В стоимость входит: </span>
+          {program.format.included.map((item, i) => (
+            <span key={i} className="text-sm text-bone-white">
+              <PlaceholderText text={item} />
+              {i < program.format.included.length - 1 ? ', ' : ''}
+            </span>
+          ))}
         </div>
       </div>
 
