@@ -42,7 +42,12 @@ process.on('uncaughtException', (err) => {
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
 const distDir = join(root, 'dist')
-const PORT = 4173
+// A fixed port here previously caused repeated EADDRINUSE failures whenever a
+// prior crashed run left a zombie process still holding it (26.08.2026 outage:
+// every deploy that day failed instantly on this). Bound at 0 in main() below
+// so the OS always hands out a free ephemeral port — PORT is set once listen()
+// resolves, before any route is rendered.
+let PORT
 // This runs on a ~1GB RAM VPS shared with several other long-running
 // services (two other Node deploy webhooks, a Next.js server, a poller).
 // Higher concurrency was found to push the box into heavy swapping, which
@@ -174,7 +179,19 @@ async function main() {
   const server = createServer((req, res) =>
     handler(req, res, { public: distDir, cleanUrls: false, rewrites: [{ source: '**', destination: '/index.html' }] }),
   )
-  await new Promise((resolve) => server.listen(PORT, '127.0.0.1', resolve))
+  // Port 0 asks the OS for any free port — avoids EADDRINUSE entirely (see
+  // comment on the PORT declaration above). Reject explicitly on 'error' so a
+  // genuine startup failure fails the build loudly instead of `main()` hanging
+  // on a promise that never settles (which is what silently skipped the whole
+  // prerender pass on 26.08.2026, even though the deploy log said "OK").
+  await new Promise((resolve, reject) => {
+    server.once('error', reject)
+    server.listen(0, '127.0.0.1', () => {
+      server.off('error', reject)
+      resolve()
+    })
+  })
+  PORT = server.address().port
 
   // Sandboxed CI environments in this project pre-install Chromium at a fixed
   // path instead of letting Playwright download its own pinned revision; use
