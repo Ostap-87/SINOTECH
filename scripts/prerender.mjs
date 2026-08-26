@@ -132,7 +132,20 @@ async function renderRoute(browserContext, routePath, timeout = PAGE_TIMEOUT_MS)
     // Give React a moment past networkidle for any deferred client-only work
     // (canvas/particle mounts etc.) — cheap relative to the page load itself.
     await page.waitForTimeout(150)
-    const html = await page.content()
+    // React Router's link-prefetch ("discover") behavior can inject
+    // <link rel="modulepreload"> tags for OTHER routes' chunks while this
+    // page is open — e.g. hovering/viewport-triggering the nav link to a
+    // route that uses React.lazy(). Those tags get resolved against the
+    // page's *current* origin, which during prerendering is this local
+    // static server, not the real site — so the captured snapshot can
+    // literally contain `http://127.0.0.1:${PORT}/assets/...` hardcoded
+    // into a <link> tag. In production that URL is unreachable, so the
+    // browser fails to fetch that chunk — this broke real page rendering
+    // (empty <main>, no hydration) for /blog/ and /corporate-training/
+    // seen 26.08.2026. Strip the local origin so any such link falls back
+    // to the normal relative path (which resolves correctly to the real
+    // domain in production, exactly like every other asset URL here).
+    const html = (await page.content()).replaceAll(`http://127.0.0.1:${PORT}`, '')
     const outPath = outputPathFor(routePath)
     mkdirSync(dirname(outPath), { recursive: true })
     writeFileSync(outPath, html)
