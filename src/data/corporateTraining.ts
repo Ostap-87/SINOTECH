@@ -552,15 +552,18 @@ export function getCorporateProgram(slug: string) {
 /** Predictable static-asset paths for hero/gallery photos, filled in later
  * directly on the VPS via GitHub — see corporateTrainingImages.ts. */
 export const HUB_FAQ: { question: string; answer: string }[] = [
-  { question: 'Сколько человек в группе?', answer: PLACEHOLDER },
+  { question: 'Сколько человек в группе?', answer: 'От 10 человек — группа набирается индивидуально под компанию.' },
   {
     question: 'Нужно ли знание китайского или английского языка?',
     answer: 'Нет, перевод обеспечен на всех мероприятиях программы.',
   },
-  { question: 'Можно ли заказать индивидуальную дату для своей компании?', answer: PLACEHOLDER + ' (условия)' },
+  {
+    question: 'Можно ли заказать индивидуальную дату для своей компании?',
+    answer: 'Да, даты и условия программы под вашу компанию — по запросу.',
+  },
   {
     question: 'Что входит в стоимость?',
-    answer: 'Программа, переводчик, трансфер по программе, ' + PLACEHOLDER + ' (проживание, визовая поддержка).',
+    answer: 'Программа, переводчик, трансфер по программе; проживание и визовая поддержка — по запросу.',
   },
 ]
 
