@@ -90,8 +90,8 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
 
   return (
     <div className="rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
-      <h3 className="text-lg font-medium text-bone-white">Форма заявки</h3>
-      <p className="mt-1 text-sm text-ash-gray">Программа: {programLabel}</p>
+      <h3 className="text-center text-lg font-medium text-bone-white">Форма заявки</h3>
+      <p className="mt-1 text-center text-sm text-ash-gray">Программа: {programLabel}</p>
 
       <div className="mt-5 flex flex-col gap-3">
         {/* Honeypot — hidden from real visitors via CSS, not type="hidden". */}

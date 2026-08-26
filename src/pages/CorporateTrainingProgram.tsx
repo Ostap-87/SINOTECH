@@ -93,7 +93,7 @@ export function CorporateTrainingProgram() {
 
       {/* Почему эта компания */}
       <div className="mt-10 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
-        <h2 className="text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
+        <h2 className="text-center text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
           Почему {company ? companyNameZh(company) : program.companyId}
         </h2>
         <ul className="mt-4 flex flex-col gap-2.5">
@@ -140,7 +140,7 @@ export function CorporateTrainingProgram() {
               {row.map((mod, i) => (
                 <div
                   key={mod.id}
-                  className="flex flex-1 flex-col rounded-2xl border border-black/10 bg-surface/60 p-5 sm:max-w-[340px]"
+                  className="flex flex-1 flex-col items-center rounded-2xl border border-black/10 bg-surface/60 p-5 text-center sm:max-w-[340px]"
                 >
                   <p className="text-sm font-semibold text-ash-gray">Модуль {rowIndex * 3 + i + 1}</p>
                   <p className="mt-1 text-base font-semibold text-bone-white">{mod.title}</p>
@@ -158,7 +158,7 @@ export function CorporateTrainingProgram() {
         <div className="mt-6 flex flex-col gap-5">
           {program.days.map((d) => (
             <div key={d.day} className="rounded-2xl border border-black/10 bg-surface/60 p-5">
-              <p className="text-sm font-semibold text-electric-iris">День {d.day} — {d.title}</p>
+              <p className="text-center text-sm font-semibold text-electric-iris">День {d.day} — {d.title}</p>
               <p className="mt-1.5 text-sm text-silver-mist">{d.description}</p>
             </div>
           ))}
