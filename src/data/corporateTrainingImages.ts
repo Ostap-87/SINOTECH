@@ -13,6 +13,12 @@
 
 export const GALLERY_PHOTOS_PER_PROGRAM = 6
 
+/** Owner request (26.08.2026): hide the "Фото с прошлых заездов" gallery
+ * section entirely until real photos exist — a wall of 6 empty placeholder
+ * tiles per programme page looked unfinished. Flip to true once real files
+ * have been dropped at galleryImagePaths() for at least one programme. */
+export const SHOW_PHOTO_GALLERY = false
+
 export function heroImagePath(slug: string): string {
   return `/corporate-training/${slug}/hero.jpg`
 }

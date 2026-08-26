@@ -6,7 +6,7 @@ import { RevealText } from '@/components/RevealText'
 import { LocaleLink } from '@/i18n/LocaleLink'
 import { getCorporateProgram } from '@/data/corporateTraining'
 import { companiesData, companyNameZh } from '@/data'
-import { heroImagePath, galleryImagePaths } from '@/data/corporateTrainingImages'
+import { heroImagePath, galleryImagePaths, SHOW_PHOTO_GALLERY } from '@/data/corporateTrainingImages'
 import { StaticImage } from '@/components/corporate-training/StaticImage'
 import { CompanyMark } from '@/components/CompanyMark'
 import { CourseModuleMap } from '@/components/corporate-training/CourseModuleMap'
@@ -212,13 +212,18 @@ export function CorporateTrainingProgram() {
         <ApplicationForm programLabel={`${company?.name_en ?? program.companyId} — ${program.cardTitle}`} />
       </div>
 
-      {/* Галерея фото с прошлых заездов */}
-      <div className="mt-14">
-        <h2 className="text-center text-2xl font-semibold text-bone-white">Фото с прошлых заездов</h2>
-        <div className="mt-6">
-          <ProgramGallery paths={galleryImagePaths(program.slug)} programLabel={program.cardTitle} />
+      {/* Галерея фото с прошлых заездов — hidden for now (SHOW_PHOTO_GALLERY
+          in corporateTrainingImages.ts) since no real photos exist yet and
+          a wall of empty placeholder tiles looks unfinished. Flip that flag
+          back to true once real files land at galleryImagePaths(). */}
+      {SHOW_PHOTO_GALLERY && (
+        <div className="mt-14">
+          <h2 className="text-center text-2xl font-semibold text-bone-white">Фото с прошлых заездов</h2>
+          <div className="mt-6">
+            <ProgramGallery paths={galleryImagePaths(program.slug)} programLabel={program.cardTitle} />
+          </div>
         </div>
-      </div>
+      )}
     </section>
   )
 }
