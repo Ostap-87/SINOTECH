@@ -50,7 +50,11 @@ const RETRY_BUDGET_MS = 8 * 60 * 1000
 // first in the queue, before pool contention from ~1000 other routes builds
 // up — this doesn't fix the underlying resource constraint, but gives these
 // two routes the best chance of succeeding on every deploy.
-const HEAVY_ROUTES = new Set(['/cases', '/consulting'])
+// /companies joined this list on 2026-08-26: it renders all ~976 companies
+// in one unpaginated list (Companies.tsx has no slice/virtualization), and
+// after a 300+ file real-logo batch plus doubling logo tile size, it became
+// heavy enough to crash (not just slow-timeout) prerender on this box.
+const HEAVY_ROUTES = new Set(['/cases', '/consulting', '/companies'])
 const HEAVY_PAGE_TIMEOUT_MS = 90000
 
 const companies = JSON.parse(readFileSync(join(root, 'src/data/companies.json'), 'utf8'))
