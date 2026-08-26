@@ -70,8 +70,16 @@ export function CorporateTrainingProgram() {
           onFailedChange={setHeroPhotoMissing}
           placeholderContent={
             company && (
-              <div className="flex flex-col items-center gap-3">
-                <CompanyMark company={company} size={96} />
+              <div className="flex h-full w-full flex-col items-center justify-center gap-4 p-10 sm:p-16">
+                {company.logo ? (
+                  <img
+                    src={company.logo}
+                    alt={`${company.name_en} logo`}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                ) : (
+                  <CompanyMark company={company} size={160} />
+                )}
                 <span className="text-xs font-medium text-ash-gray">Фото скоро появится</span>
               </div>
             )
