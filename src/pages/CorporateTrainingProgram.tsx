@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { usePageMeta } from '@/hooks/usePageMeta'
 import { ShimmerText } from '@/components/ShimmerText'
@@ -24,6 +25,7 @@ export function CorporateTrainingProgram() {
   const { company: slug } = useParams<{ company: string }>()
   const program = slug ? getCorporateProgram(slug) : undefined
   const company = program ? companiesData.companies.find((c) => c.id === program.companyId) : undefined
+  const [heroPhotoMissing, setHeroPhotoMissing] = useState(false)
 
   usePageMeta(`${program?.metaTitle ?? 'Программа'} — Global Tech Tour`, program?.metaDescription, {
     noindex: !program,
@@ -65,9 +67,18 @@ export function CorporateTrainingProgram() {
           src={heroImagePath(program.slug)}
           alt={program.heroAlt}
           placeholderLabel="Фото скоро появится"
+          onFailedChange={setHeroPhotoMissing}
+          placeholderContent={
+            company && (
+              <div className="flex flex-col items-center gap-3">
+                <CompanyMark company={company} size={96} />
+                <span className="text-xs font-medium text-ash-gray">Фото скоро появится</span>
+              </div>
+            )
+          }
           className="aspect-[16/9] w-full rounded-2xl object-cover"
         />
-        {company && (
+        {company && !heroPhotoMissing && (
           <div className="absolute bottom-4 left-4 shadow-sm">
             <CompanyMark company={company} size={64} />
           </div>
@@ -100,7 +111,7 @@ export function CorporateTrainingProgram() {
       {/* Визуальная схема модулей курса — сразу после "Почему эта компания",
           перед текстовыми "Модули курса" / "Программа по дням" (Stage 2.1). */}
       <div className="mt-14">
-        <h2 className="text-2xl font-semibold text-bone-white">Как устроена программа</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">Как устроена программа</h2>
         <div className="mt-6">
           <CourseModuleMap
             programTitle={`${company?.name_en ?? program.companyId} — ${program.cardTitle}`}
@@ -113,7 +124,7 @@ export function CorporateTrainingProgram() {
           ряд (тот же паттерн раскладки, что и у визуальной схемы выше:
           5 модулей → 3+2 центрированный второй ряд, 6 → 3+3). */}
       <div className="mt-14">
-        <h2 className="text-2xl font-semibold text-bone-white">Модули курса</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">Модули курса</h2>
         <div className="mt-6 flex flex-col gap-5">
           {chunk(program.modules, 3).map((row, rowIndex) => (
             <div
@@ -137,7 +148,7 @@ export function CorporateTrainingProgram() {
 
       {/* Пример программы */}
       <div className="mt-14">
-        <h2 className="text-2xl font-semibold text-bone-white">Пример программы</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">Пример программы</h2>
         <div className="mt-6 flex flex-col gap-5">
           {program.days.map((d) => (
             <div key={d.day} className="rounded-2xl border border-black/10 bg-surface/60 p-5">
@@ -150,7 +161,7 @@ export function CorporateTrainingProgram() {
 
       {/* Формат и условия */}
       <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-5 sm:p-6">
-        <h2 className="text-lg font-semibold text-bone-white">Формат и условия</h2>
+        <h2 className="text-center text-lg font-semibold text-bone-white">Формат и условия</h2>
         <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
           <div>
             <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Длительность</dt>
@@ -195,7 +206,7 @@ export function CorporateTrainingProgram() {
 
       {/* Галерея фото с прошлых заездов */}
       <div className="mt-14">
-        <h2 className="text-2xl font-semibold text-bone-white">Фото с прошлых заездов</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">Фото с прошлых заездов</h2>
         <div className="mt-6">
           <ProgramGallery paths={galleryImagePaths(program.slug)} programLabel={program.cardTitle} />
         </div>
