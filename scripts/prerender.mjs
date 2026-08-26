@@ -24,6 +24,21 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join, extname } from 'node:path'
 import handler from 'serve-handler'
 
+// serve-handler (the static file server below) doesn't attach an 'error'
+// listener to the file ReadStreams it creates for each request — when one
+// of those streams errors (seen in production: a transient ENOENT on an
+// asset path containing a space, e.g. a company logo filename, even though
+// the file existed on disk), Node's default "unhandled 'error' event"
+// behavior is to crash the whole process. That took down the entire
+// prerender run over a single asset glitch, and left an orphaned Chromium
+// + HTTP server holding PORT below, which then made every subsequent
+// deploy fail immediately with EADDRINUSE until someone manually killed
+// it. Log and continue instead of dying — one bad asset request should
+// never be able to take out 2000+ otherwise-fine routes.
+process.on('uncaughtException', (err) => {
+  console.error(`[prerender] Uncaught exception, continuing: ${err.stack || err}`)
+})
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
 const distDir = join(root, 'dist')
