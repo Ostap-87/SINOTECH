@@ -15,6 +15,18 @@ const ExpeditionsRecommended = lazy(() =>
   import('@/pages/ExpeditionsRecommended').then((m) => ({ default: m.ExpeditionsRecommended })),
 )
 const ExpeditionDetail = lazy(() => import('@/pages/ExpeditionDetail').then((m) => ({ default: m.ExpeditionDetail })))
+const CorporateTrainingHub = lazy(() =>
+  import('@/pages/CorporateTrainingHub').then((m) => ({ default: m.CorporateTrainingHub })),
+)
+const CorporateTrainingProgram = lazy(() =>
+  import('@/pages/CorporateTrainingProgram').then((m) => ({ default: m.CorporateTrainingProgram })),
+)
+const CorporateTrainingMaterials = lazy(() =>
+  import('@/pages/CorporateTrainingMaterials').then((m) => ({ default: m.CorporateTrainingMaterials })),
+)
+const CorporateTrainingMaterialDetail = lazy(() =>
+  import('@/pages/CorporateTrainingMaterialDetail').then((m) => ({ default: m.CorporateTrainingMaterialDetail })),
+)
 const Companies = lazy(() => import('@/pages/Companies').then((m) => ({ default: m.Companies })))
 const CompanyDetail = lazy(() => import('@/pages/CompanyDetail').then((m) => ({ default: m.CompanyDetail })))
 const Blog = lazy(() => import('@/pages/Blog').then((m) => ({ default: m.Blog })))
@@ -43,6 +55,10 @@ function SiteRoutes() {
       <Route path="/expeditions/recommended" element={<ExpeditionsRecommended />} />
       <Route path="/expeditions/:tourId" element={<ExpeditionDetail />} />
       <Route path="/tours" element={<LocaleNavigate to="/expeditions" replace />} />
+      <Route path="/corporate-training" element={<CorporateTrainingHub />} />
+      <Route path="/corporate-training/materials" element={<CorporateTrainingMaterials />} />
+      <Route path="/corporate-training/materials/:slug" element={<CorporateTrainingMaterialDetail />} />
+      <Route path="/corporate-training/:company" element={<CorporateTrainingProgram />} />
       <Route path="/companies" element={<Companies />} />
       <Route path="/companies/:id" element={<CompanyDetail />} />
       <Route path="/blog" element={<Blog />} />

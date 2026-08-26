@@ -19,7 +19,7 @@
 // first HTML response contains.
 import { chromium } from 'playwright'
 import { createServer } from 'node:http'
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs'
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join, extname } from 'node:path'
 import handler from 'serve-handler'
@@ -61,9 +61,20 @@ const companies = JSON.parse(readFileSync(join(root, 'src/data/companies.json'),
 const tours = JSON.parse(readFileSync(join(root, 'src/data/tours.json'), 'utf8'))
 const siteContent = JSON.parse(readFileSync(join(root, 'src/data/site_content.example.json'), 'utf8'))
 
+// Corporate-training programmes are a fixed list in code (see
+// src/data/corporateTraining.ts); materials are one JSON file per item
+// under src/data/materials/*.json, read directly so a new file needs no
+// edit here (same reasoning as generate-sitemap.mjs).
+const CORPORATE_TRAINING_SLUGS = ['huawei', 'alibaba', 'xiaomi', 'haier', 'bytedance', 'ping-an']
+const materialsDir = join(root, 'src/data/materials')
+const materialSlugs = readdirSync(materialsDir)
+  .filter((f) => f.endsWith('.json'))
+  .map((f) => f.slice(0, -'.json'.length))
+
 const STATIC_ROUTES = [
   '/', '/industries', '/constructor', '/expeditions', '/expeditions/recommended',
   '/consulting', '/companies', '/cases', '/blog', '/faq', '/partners', '/contacts',
+  '/corporate-training', '/corporate-training/materials',
 ]
 
 const ruRoutes = [
@@ -72,6 +83,8 @@ const ruRoutes = [
   ...tours.tours.map((t) => `/expeditions/${t.tour_id}`),
   ...companies.companies.map((c) => `/companies/${c.id}`),
   ...(siteContent.blog ?? []).map((post) => `/blog/${post.slug}`),
+  ...CORPORATE_TRAINING_SLUGS.map((slug) => `/corporate-training/${slug}`),
+  ...materialSlugs.map((slug) => `/corporate-training/materials/${slug}`),
 ]
 
 // English mirror under /en — real, separately-crawlable URLs for hreflang

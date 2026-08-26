@@ -10,6 +10,7 @@ import { Logo } from './Logo'
 // bar — this is what keeps the nav compact as it grows.
 const PRIMARY_LINKS = [
   { to: '/expeditions', label_ru: 'Экспедиции', label_en: 'Expeditions' },
+  { to: '/corporate-training', label_ru: 'Корпоративное обучение', label_en: 'Corporate training' },
   { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/contacts', label_ru: 'Контакты', label_en: 'Contacts' },
 ]

@@ -9,6 +9,7 @@ const FOOTER_LINKS = [
   { to: '/industries', label_ru: 'Индустрии', label_en: 'Industries' },
   { to: '/companies', label_ru: 'Компании', label_en: 'Companies' },
   { to: '/expeditions', label_ru: 'Экспедиции', label_en: 'Expeditions' },
+  { to: '/corporate-training', label_ru: 'Корпоративное обучение', label_en: 'Corporate training' },
   { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
   { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
