@@ -66,11 +66,10 @@ export function CorporateTrainingProgram() {
         <StaticImage
           src={heroImagePath(program.slug)}
           alt={program.heroAlt}
-          placeholderLabel="Фото скоро появится"
           onFailedChange={setHeroPhotoMissing}
           placeholderContent={
             company && (
-              <div className="flex h-full w-full flex-col items-center justify-center gap-4 p-10 sm:p-16">
+              <div className="flex h-full w-full items-center justify-center p-10 sm:p-16">
                 {company.logo ? (
                   <img
                     src={company.logo}
@@ -80,7 +79,6 @@ export function CorporateTrainingProgram() {
                 ) : (
                   <CompanyMark company={company} size={160} />
                 )}
-                <span className="text-xs font-medium text-ash-gray">Фото скоро появится</span>
               </div>
             )
           }

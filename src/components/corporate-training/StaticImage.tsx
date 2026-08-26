@@ -34,7 +34,7 @@ export function StaticImage({
   if (failed) {
     if (placeholderContent) {
       return (
-        <div className={`flex items-center justify-center bg-surface ${className}`} role="img" aria-label={alt}>
+        <div className={`flex items-center justify-center ${className}`} role="img" aria-label={alt}>
           {placeholderContent}
         </div>
       )
