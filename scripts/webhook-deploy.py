@@ -51,6 +51,17 @@ MEDIA_DIR = "/var/www/globaltechtour-media"
 IMAGE_DB_PATH = "/var/lib/content-publish/images-history.db"
 
 deploy_lock = threading.Lock()
+# Set when a valid push arrives while a deploy is already running. The old
+# behavior ("skipping overlapping trigger") just dropped that push on the
+# floor — the site would stay on a stale commit until some later, unrelated
+# push happened to land outside a build window. Now the thread currently
+# holding deploy_lock checks this flag right after it finishes and, if set,
+# clears it and runs again immediately. Since each run starts with
+# `git reset --hard origin/BRANCH`, a rerun always picks up whatever is
+# newest at that point — so several pushes arriving mid-build collapse into
+# exactly one extra rerun, not one rerun per missed push.
+pending_redeploy = False
+pending_lock = threading.Lock()
 
 
 def log(msg):
@@ -152,74 +163,96 @@ def publish_pending():
 
 
 def run_deploy():
+    """Acquire the deploy lock and run one-or-more deploy passes back to
+    back: if a newer push arrives (see `pending_redeploy`) while this pass
+    is still building, loop and run again immediately after, instead of
+    letting that push's changes sit un-deployed until some future push
+    happens to trigger a fresh run."""
+    global pending_redeploy
     if not deploy_lock.acquire(blocking=False):
-        log("Deploy already in progress, skipping overlapping trigger.")
+        with pending_lock:
+            pending_redeploy = True
+        log("Deploy already in progress — queued a rerun for right after it finishes.")
         return
     try:
-        log(f"=== Deploy started ({BRANCH}) ===")
-
-        # Phase 1: sync code, fast enough to never be the bottleneck.
-        sync_steps = [
-            ["git", "fetch", "origin", BRANCH],
-            ["git", "checkout", BRANCH],
-            ["git", "reset", "--hard", f"origin/{BRANCH}"],
-        ]
-        for cmd in sync_steps:
-            result = subprocess.run(cmd, cwd=APP_DIR, capture_output=True, text=True)
-            log(f"$ {' '.join(cmd)}\n{result.stdout}\n{result.stderr}")
-            if result.returncode != 0:
-                log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
-                return
-
-        # Phase 2: publish to Telegram BEFORE the full site rebuild, not
-        # after. The full rebuild (npm ci + vite build + prerendering
-        # ~1050 routes) can take 10-20+ minutes on this VPS and can fail
-        # outright — neither should ever be able to block or delay a
-        # Telegram post. A quick `rsync` of public/ into dist/ (a few
-        # hundred ms, not a real build) is enough to make any new cover
-        # image referenced by a pending post immediately fetchable by
-        # Telegram; the full build further below reproduces the same
-        # files in dist/ again as a normal side effect, so this is purely
-        # a "make it live sooner" step, not a shortcut that skips
-        # anything the real build does.
-        os.makedirs(os.path.join(APP_DIR, "dist"), exist_ok=True)
-        result = subprocess.run(
-            ["rsync", "-a", "public/", "dist/"], cwd=APP_DIR, capture_output=True, text=True
-        )
-        log(f"$ rsync -a public/ dist/\n{result.stdout}\n{result.stderr}")
-        if result.returncode != 0:
-            log("rsync of public/ -> dist/ failed (non-fatal, continuing) — "
-                "brand-new cover images may 404 until the full build finishes")
-
-        try:
-            publish_pending()
-        except Exception as e:
-            log(f"publish_pending() error: {e}")
-
-        try:
-            process_pending_images(PENDING_IMAGES_DIR, MEDIA_DIR, IMAGE_DB_PATH, log=log)
-        except Exception as e:
-            log(f"process_pending_images() error: {e}")
-
-        log("=== Content synced & published, starting full site rebuild ===")
-
-        # Phase 3: the slow part. A failure here no longer takes Telegram
-        # down with it — worst case the site keeps serving the previous
-        # build until the next successful deploy.
-        build_steps = [
-            ["npm", "ci"],
-            ["npm", "run", "build"],
-            ["npm", "cache", "clean", "--force"],
-        ]
-        for cmd in build_steps:
-            result = subprocess.run(cmd, cwd=APP_DIR, capture_output=True, text=True)
-            log(f"$ {' '.join(cmd)}\n{result.stdout}\n{result.stderr}")
-            if result.returncode != 0:
-                log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
-                return
-        log("=== Deploy finished OK ===")
+        while True:
+            _run_deploy_once()
+            with pending_lock:
+                if pending_redeploy:
+                    pending_redeploy = False
+                    rerun = True
+                else:
+                    rerun = False
+            if not rerun:
+                break
+            log("Rerunning deploy — a newer push arrived while the previous deploy was still running.")
     finally:
         deploy_lock.release()
+
+
+def _run_deploy_once():
+    log(f"=== Deploy started ({BRANCH}) ===")
+
+    # Phase 1: sync code, fast enough to never be the bottleneck.
+    sync_steps = [
+        ["git", "fetch", "origin", BRANCH],
+        ["git", "checkout", BRANCH],
+        ["git", "reset", "--hard", f"origin/{BRANCH}"],
+    ]
+    for cmd in sync_steps:
+        result = subprocess.run(cmd, cwd=APP_DIR, capture_output=True, text=True)
+        log(f"$ {' '.join(cmd)}\n{result.stdout}\n{result.stderr}")
+        if result.returncode != 0:
+            log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
+            return
+
+    # Phase 2: publish to Telegram BEFORE the full site rebuild, not
+    # after. The full rebuild (npm ci + vite build + prerendering
+    # ~1050 routes) can take 10-20+ minutes on this VPS and can fail
+    # outright — neither should ever be able to block or delay a
+    # Telegram post. A quick `rsync` of public/ into dist/ (a few
+    # hundred ms, not a real build) is enough to make any new cover
+    # image referenced by a pending post immediately fetchable by
+    # Telegram; the full build further below reproduces the same
+    # files in dist/ again as a normal side effect, so this is purely
+    # a "make it live sooner" step, not a shortcut that skips
+    # anything the real build does.
+    os.makedirs(os.path.join(APP_DIR, "dist"), exist_ok=True)
+    result = subprocess.run(
+        ["rsync", "-a", "public/", "dist/"], cwd=APP_DIR, capture_output=True, text=True
+    )
+    log(f"$ rsync -a public/ dist/\n{result.stdout}\n{result.stderr}")
+    if result.returncode != 0:
+        log("rsync of public/ -> dist/ failed (non-fatal, continuing) — "
+            "brand-new cover images may 404 until the full build finishes")
+
+    try:
+        publish_pending()
+    except Exception as e:
+        log(f"publish_pending() error: {e}")
+
+    try:
+        process_pending_images(PENDING_IMAGES_DIR, MEDIA_DIR, IMAGE_DB_PATH, log=log)
+    except Exception as e:
+        log(f"process_pending_images() error: {e}")
+
+    log("=== Content synced & published, starting full site rebuild ===")
+
+    # Phase 3: the slow part. A failure here no longer takes Telegram
+    # down with it — worst case the site keeps serving the previous
+    # build until the next successful deploy.
+    build_steps = [
+        ["npm", "ci"],
+        ["npm", "run", "build"],
+        ["npm", "cache", "clean", "--force"],
+    ]
+    for cmd in build_steps:
+        result = subprocess.run(cmd, cwd=APP_DIR, capture_output=True, text=True)
+        log(f"$ {' '.join(cmd)}\n{result.stdout}\n{result.stderr}")
+        if result.returncode != 0:
+            log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
+            return
+    log("=== Deploy finished OK ===")
 
 
 class Handler(BaseHTTPRequestHandler):
