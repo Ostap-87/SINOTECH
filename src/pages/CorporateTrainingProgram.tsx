@@ -67,6 +67,15 @@ export function CorporateTrainingProgram() {
       </h1>
       <p className="mt-6 text-lg text-silver-mist">{locale === 'ru' ? program.subtitle : program.subtitle_en}</p>
 
+      {program.methodology === 'three-expeditions' && (
+        <LocaleLink
+          to="/corporate-training/materials"
+          className="mt-4 inline-block rounded-full border border-electric-iris/30 bg-electric-iris/10 px-4 py-1.5 text-sm font-medium text-electric-iris hover:underline"
+        >
+          {locale === 'ru' ? 'Построено по методологии трёх экспедиций →' : 'Built on the three-expeditions methodology →'}
+        </LocaleLink>
+      )}
+
       <div className="relative mt-6">
         <StaticImage
           src={heroImagePath(program.slug)}

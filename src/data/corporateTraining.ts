@@ -89,6 +89,18 @@ export interface CorporateProgram {
   cardTitle_en: string
   cardTeaser: string
   cardTeaser_en: string
+
+  /**
+   * Optional tag linking this programme to a methodology described on
+   * /corporate-training/materials. When set, the programme page shows a
+   * small badge back-linking to that methodology's section. Scaffolding
+   * for the future — not set on any of the current six programmes; see
+   * the "Методология в действии" section on the materials page for the
+   * only place this concept is exercised today (the coffee-retail example
+   * links the other way, from the methodology to a company, not a
+   * programme).
+   */
+  methodology?: 'three-expeditions'
 }
 
 export const corporatePrograms: CorporateProgram[] = [
