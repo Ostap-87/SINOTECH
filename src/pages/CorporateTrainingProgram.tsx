@@ -62,7 +62,7 @@ export function CorporateTrainingProgram() {
       </h1>
       <p className="mt-6 text-lg text-silver-mist">{program.subtitle}</p>
 
-      <div className="relative mt-10">
+      <div className="relative mt-6">
         <StaticImage
           src={heroImagePath(program.slug)}
           alt={program.heroAlt}
@@ -82,7 +82,7 @@ export function CorporateTrainingProgram() {
               </div>
             )
           }
-          className="aspect-[16/9] w-full rounded-2xl object-cover"
+          className={`w-full rounded-2xl object-cover ${heroPhotoMissing ? 'aspect-[3/1]' : 'aspect-[16/9]'}`}
         />
         {company && !heroPhotoMissing && (
           <div className="absolute bottom-4 left-4 shadow-sm">
@@ -92,7 +92,7 @@ export function CorporateTrainingProgram() {
       </div>
 
       {/* Почему эта компания */}
-      <div className="mt-10 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
+      <div className="mt-6 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
         <h2 className="text-center text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
           Почему {company ? companyNameZh(company) : program.companyId}
         </h2>
