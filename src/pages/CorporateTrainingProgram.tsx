@@ -69,7 +69,7 @@ export function CorporateTrainingProgram() {
           onFailedChange={setHeroPhotoMissing}
           placeholderContent={
             company && (
-              <div className="flex h-full w-full items-center justify-center p-10 sm:p-16">
+              <div className="flex h-full w-full items-center justify-center p-3 sm:p-4">
                 {company.logo ? (
                   <img
                     src={company.logo}
@@ -77,7 +77,7 @@ export function CorporateTrainingProgram() {
                     className="max-h-full max-w-full object-contain"
                   />
                 ) : (
-                  <CompanyMark company={company} size={160} />
+                  <CompanyMark company={company} size={320} />
                 )}
               </div>
             )
