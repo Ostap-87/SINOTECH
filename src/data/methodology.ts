@@ -214,6 +214,169 @@ export const seriesLogicColumns: SeriesLogicColumn[] = [
   },
 ]
 
+/**
+ * Content for the second methodology block on the same page —
+ * "Методология анализа робототехники: три технологические экспедиции"
+ * (robotics: hardware / control & sensing / software). Reuses the
+ * `ExpeditionTab` and `SeriesLogicColumn` interfaces above; no callout
+ * icon is specified in the brief for these three tabs, so `calloutIcon`
+ * is null throughout (same as the restaurant block's first tab).
+ */
+export const roboticsExpeditionTabs: ExpeditionTab[] = [
+  {
+    id: 'hardware',
+    numberLabel: '01',
+    tabTitle: 'Аппаратное обеспечение (Hardware)',
+    tabTitle_en: 'Hardware',
+    badge: 'Экспедиция 1',
+    badge_en: 'Expedition 1',
+    title: 'Аппаратное обеспечение (Hardware)',
+    title_en: 'Hardware',
+    lede:
+      'Физическое тело робота — фундамент, без которого не существует ни сенсорики, ни программной логики: именно сюда в первую очередь смотрит покупатель или партнёр, оценивающий готовый продукт.',
+    lede_en:
+      "The robot's physical body is the foundation — without it, neither sensing nor software logic exists. It's the first thing a buyer or partner evaluating a finished product looks at.",
+    whatWeSee: [
+      'Physical body — корпус, форм-фактор, материалы',
+      'Mechanical parts — механические узлы, шестерни, редукторы',
+      'Drives / motors / actuators — приводы и моторы, включая сложные операции (compound operation) и harmonic drive/actuator технологии',
+      'Power sources / wires — источники питания, проводка, энергоэффективность',
+    ],
+    whatWeSee_en: [
+      'Physical body — housing, form factor, materials',
+      'Mechanical parts — mechanical assemblies, gears, reducers',
+      'Drives / motors / actuators — including compound operation and harmonic drive/actuator technology',
+      'Power sources / wires — power supplies, wiring, energy efficiency',
+    ],
+    whoWeMeet: [
+      'Производственные площадки заводов-изготовителей механических узлов и приводов',
+      'Инженеры-механики и производственные менеджеры',
+    ],
+    whoWeMeet_en: [
+      'Production sites of factories manufacturing mechanical assemblies and drives',
+      'Mechanical engineers and production managers',
+    ],
+    calloutTitle: 'Почему это отдельная экспедиция',
+    calloutTitle_en: 'Why this is a separate expedition',
+    calloutText:
+      'Качество аппаратной части определяет физические возможности и надёжность робота в целом — сенсорика и ПО не компенсируют слабую механику. Визит на завод даёт понимание реальных производственных мощностей и цепочки поставок компонентов привода, которое невозможно получить на выставочном стенде.',
+    calloutText_en:
+      "The quality of the hardware determines the robot's physical capabilities and overall reliability — sensing and software can't compensate for weak mechanics. A factory visit gives insight into real production capacity and the drive-component supply chain that you can't get at a trade show booth.",
+    calloutIcon: null,
+    hotspot: { x: 18, y: 45 },
+  },
+  {
+    id: 'control-sensing',
+    numberLabel: '02',
+    tabTitle: 'Системы управления и сенсорика (Control & Sensing)',
+    tabTitle_en: 'Control & Sensing',
+    badge: 'Экспедиция 2',
+    badge_en: 'Expedition 2',
+    title: 'Системы управления и сенсорика (Control & Sensing)',
+    title_en: 'Control & Sensing',
+    lede: '«Нервная система» робота — контур, связывающий физическое тело с внешним миром и с программной логикой.',
+    lede_en:
+      "The robot's \"nervous system\" — the loop connecting the physical body to the outside world and to the software logic.",
+    whatWeSee: [
+      'Sensors / cameras / LiDAR — датчики восприятия среды',
+      'Controllers — контроллеры (Arduino и аналогичные чипы), плата управления',
+      'Контур interaction / feedback — как робот взаимодействует со средой и корректирует ошибку (error) в реальном времени',
+    ],
+    whatWeSee_en: [
+      'Sensors / cameras / LiDAR — environment-perception sensors',
+      'Controllers — controllers (Arduino and similar chips), control boards',
+      'The interaction / feedback loop — how the robot interacts with its environment and corrects error in real time',
+    ],
+    whoWeMeet: ['Производители сенсоров, камер и лидаров', 'Разработчики контроллеров и электроники управления'],
+    whoWeMeet_en: [
+      'Manufacturers of sensors, cameras, and LiDAR',
+      'Developers of controllers and control electronics',
+    ],
+    calloutTitle: 'Почему это отдельная экспедиция',
+    calloutTitle_en: 'Why this is a separate expedition',
+    calloutText:
+      'Это самый недооценённый слой при поверхностном знакомстве с роботом: снаружи видна механика и демонстрация возможностей, но именно точность сенсорики и скорость контура обратной связи определяют, насколько робот пригоден для реальных задач, а не только для видео на выставке.',
+    calloutText_en:
+      "This is the most underrated layer in a surface-level look at a robot: from the outside you see the mechanics and a capability demo, but it's the sensing accuracy and feedback-loop speed that determine whether a robot is fit for real tasks — not just for a trade-show video.",
+    calloutIcon: null,
+    hotspot: { x: 50, y: 10 },
+  },
+  {
+    id: 'software',
+    numberLabel: '03',
+    tabTitle: 'Программное обеспечение (Software)',
+    tabTitle_en: 'Software',
+    badge: 'Экспедиция 3',
+    badge_en: 'Expedition 3',
+    title: 'Программное обеспечение (Software)',
+    title_en: 'Software',
+    lede: '«Мозг» робота — то, что превращает набор механики и датчиков в осмысленное поведение.',
+    lede_en: "The robot's \"brain\" — what turns a set of mechanics and sensors into meaningful behavior.",
+    whatWeSee: [
+      'Brain / algorithms / code — архитектура принятия решений, ключевые алгоритмы',
+      'Operating systems — операционные системы робототехники (ROS и аналоги)',
+      'Интеграция софта с аппаратной частью и сенсорикой — насколько плотно связаны три «кита» в конкретном продукте',
+    ],
+    whatWeSee_en: [
+      'Brain / algorithms / code — decision-making architecture, key algorithms',
+      'Operating systems — robotics operating systems (ROS and equivalents)',
+      'Software integration with hardware and sensing — how tightly the three pillars are tied together in a specific product',
+    ],
+    whoWeMeet: [
+      'Команды разработки ПО и алгоритмов компании-производителя',
+      'R&D-центры, отвечающие за архитектуру «мозга» робота',
+    ],
+    whoWeMeet_en: [
+      "The manufacturer's software and algorithm development teams",
+      "R&D centers responsible for the robot's \"brain\" architecture",
+    ],
+    calloutTitle: 'Почему это отдельная экспедиция',
+    calloutTitle_en: 'Why this is a separate expedition',
+    calloutText:
+      'Софт — самая закрытая от посторонних глаз часть робототехнического продукта: код и алгоритмы почти никогда не показывают на выставочных стендах. Только целевой визит с предварительной договорённостью даёт доступ к пониманию архитектуры «мозга» робота и уровня зрелости ПО.',
+    calloutText_en:
+      "Software is the most closed-off part of a robotics product: code and algorithms are almost never shown at trade-show booths. Only a targeted visit arranged in advance gives access to understanding the \"brain\" architecture and the software's maturity level.",
+    calloutIcon: null,
+    hotspot: { x: 82, y: 45 },
+  },
+]
+
+export const roboticsSeriesLogicColumns: SeriesLogicColumn[] = [
+  {
+    numberLabel: '01',
+    title: 'Hardware',
+    title_en: 'Hardware',
+    audience: 'Инженеры-механики, инвесторы в производство',
+    audience_en: 'Mechanical engineers, investors in manufacturing',
+    accessDifficulty: 'Средне-высокая',
+    accessDifficulty_en: 'Medium-high',
+    brandLink: 'Прямая, физическая основа',
+    brandLink_en: 'Direct, physical foundation',
+  },
+  {
+    numberLabel: '02',
+    title: 'Control & Sensing',
+    title_en: 'Control & Sensing',
+    audience: 'Инженеры по электронике и сенсорике, интеграторы',
+    audience_en: 'Electronics and sensing engineers, integrators',
+    accessDifficulty: 'Средне-высокая',
+    accessDifficulty_en: 'Medium-high',
+    brandLink: 'Через контур взаимодействия робота со средой',
+    brandLink_en: "Through the robot's environment-interaction loop",
+  },
+  {
+    numberLabel: '03',
+    title: 'Software',
+    title_en: 'Software',
+    audience: 'Разработчики ПО, R&D-директора, инвесторы в технологию',
+    audience_en: 'Software developers, R&D directors, technology investors',
+    accessDifficulty: 'Средне-высокая',
+    accessDifficulty_en: 'Medium-high',
+    brandLink: 'Через архитектуру принятия решений',
+    brandLink_en: 'Through the decision-making architecture',
+  },
+]
+
 export interface CaseStudyRow {
   numberLabel: string
   title: string

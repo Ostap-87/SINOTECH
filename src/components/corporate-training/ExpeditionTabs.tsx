@@ -22,10 +22,21 @@ export function ExpeditionTabs({
   tabs,
   diagramSrc,
   diagramAlt,
+  diagramCaptionMask,
+  diagramCaption,
 }: {
   tabs: ExpeditionTab[]
   diagramSrc: string
   diagramAlt: string
+  /**
+   * Optional crop mask (in percent of the diagram image itself) hiding a
+   * baked-in caption strip inside the source image — e.g. the robotics
+   * diagram's untranslated Russian caption. Left undefined for diagrams
+   * with no baked-in text (e.g. the restaurant circle diagram).
+   */
+  diagramCaptionMask?: { left: number; top: number; width: number; height: number }
+  /** HTML caption rendered below the diagram, replacing a masked one. */
+  diagramCaption?: string
 }) {
   const { locale } = useLanguage()
   const [activeIndex, setActiveIndex] = useState(0)
@@ -69,7 +80,21 @@ export function ExpeditionTabs({
     <div>
       {/* Diagram with hotspots, kept in sync with the active tab */}
       <div className="relative mx-auto w-full max-w-[260px] overflow-hidden rounded-2xl border border-black/10 bg-void p-4 shadow-sm sm:max-w-[300px]">
-        <img src={diagramSrc} alt={diagramAlt} className="w-full" />
+        <div className="relative">
+          <img src={diagramSrc} alt={diagramAlt} className="w-full" />
+          {diagramCaptionMask && (
+            <div
+              aria-hidden="true"
+              className="absolute bg-surface"
+              style={{
+                left: `${diagramCaptionMask.left}%`,
+                top: `${diagramCaptionMask.top}%`,
+                width: `${diagramCaptionMask.width}%`,
+                height: `${diagramCaptionMask.height}%`,
+              }}
+            />
+          )}
+        </div>
         {tabs.map((tab, i) => (
           <span
             key={tab.id}
@@ -89,6 +114,7 @@ export function ExpeditionTabs({
           />
         ))}
       </div>
+      {diagramCaption && <p className="mt-2 text-center text-xs text-ash-gray">{diagramCaption}</p>}
 
       {/* Tabs */}
       <div

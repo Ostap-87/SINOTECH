@@ -6,11 +6,24 @@ import { useLanguage } from '@/i18n/LanguageContext'
 import { materials } from '@/data/materials'
 import { MaterialCard } from '@/components/corporate-training/MaterialCard'
 import { ExpeditionTabs } from '@/components/corporate-training/ExpeditionTabs'
-import { expeditionTabs, seriesLogicColumns, caseStudyRows } from '@/data/methodology'
-import { UtensilsCrossed, Wheat, Package } from 'lucide-react'
+import {
+  expeditionTabs,
+  seriesLogicColumns,
+  caseStudyRows,
+  roboticsExpeditionTabs,
+  roboticsSeriesLogicColumns,
+} from '@/data/methodology'
+import { UtensilsCrossed, Wheat, Package, Wrench, ScanEye, Cpu } from 'lucide-react'
 
 const circleDiagramRu = '/logos/circle-diagram-ru.png'
 const circleDiagramEn = '/logos/circle-diagram-en.png'
+const roboticsDiagram = '/logos/robotics-diagram.png'
+
+// Crop mask (percent of the diagram image) hiding the diagram's baked-in,
+// Russian-only bottom caption so the image can be reused on the EN page
+// without an untranslated strip — the equivalent caption is rendered as
+// ordinary, localized HTML text underneath instead (see roboticsDiagramCaption).
+const roboticsCaptionMask = { left: 34.5, top: 80.5, width: 36, height: 19.5 }
 
 const cycleFeatures = [
   {
@@ -36,6 +49,30 @@ const cycleFeatures = [
   },
 ]
 
+const roboticsFeatures = [
+  {
+    icon: Wrench,
+    title: 'Аппаратное обеспечение (Hardware)',
+    title_en: 'Hardware',
+    text: 'Физическое тело робота: механика, приводы, моторы и актуаторы, источники питания и проводка. То, из чего робот собран физически.',
+    text_en: "The robot's physical body: mechanics, drives, motors and actuators, power sources and wiring. What the robot is physically built from.",
+  },
+  {
+    icon: ScanEye,
+    title: 'Системы управления и сенсорика (Control & Sensing)',
+    title_en: 'Control & Sensing',
+    text: '«Нервная система» робота: сенсоры, камеры, лидары, контроллеры, контур обратной связи между роботом и внешней средой.',
+    text_en: "The robot's \"nervous system\": sensors, cameras, LiDAR, controllers, the feedback loop between the robot and its environment.",
+  },
+  {
+    icon: Cpu,
+    title: 'Программное обеспечение (Software)',
+    title_en: 'Software',
+    text: '«Мозг» робота: алгоритмы, код, операционные системы (ROS и аналоги), логика принятия решений.',
+    text_en: "The robot's \"brain\": algorithms, code, operating systems (ROS and equivalents), decision-making logic.",
+  },
+]
+
 export function CorporateTrainingMaterials() {
   const { locale } = useLanguage()
   const diagramSrc = locale === 'ru' ? circleDiagramRu : circleDiagramEn
@@ -43,6 +80,15 @@ export function CorporateTrainingMaterials() {
     locale === 'ru'
       ? 'Схема методологии: продукт в центре, рецепт, сырьё и упаковка образуют цикл'
       : 'Methodology diagram: product at the center, with recipe, raw materials, and packaging forming a cycle'
+
+  const roboticsDiagramAlt =
+    locale === 'ru'
+      ? 'Схема методологии робототехники: робот в центре, аппаратное обеспечение, системы управления и сенсорика, программное обеспечение — три составляющие любого робота'
+      : 'Robotics methodology diagram: a robot at the center, with hardware, control & sensing, and software as its three components'
+  const roboticsDiagramCaption =
+    locale === 'ru'
+      ? 'Робототехника строится на трёх основных компонентах («трёх китах»)'
+      : "Robotics is built on three core components (the 'three pillars')"
 
   usePageMeta(
     locale === 'ru'
@@ -77,6 +123,26 @@ export function CorporateTrainingMaterials() {
           : 'How to plan an industry trip when one industry cannot be covered in a single visit — and it makes more sense to show it through several separate trips across different sectors.'}
       </p>
 
+      {/* ═══ In-page jump nav — two methodology blocks below ═══ */}
+      <nav aria-label={locale === 'ru' ? 'Разделы методологии' : 'Methodology sections'} className="mt-6 flex flex-wrap gap-2">
+        <a
+          href="#restaurant-methodology"
+          className="rounded-full border border-black/10 bg-surface/60 px-3 py-1 text-xs font-semibold text-silver-mist hover:text-bone-white sm:text-sm"
+        >
+          {locale === 'ru' ? 'Рестораны' : 'Restaurants'}
+        </a>
+        <a
+          href="#robotics-methodology"
+          className="rounded-full border border-black/10 bg-surface/60 px-3 py-1 text-xs font-semibold text-silver-mist hover:text-bone-white sm:text-sm"
+        >
+          {locale === 'ru' ? 'Робототехника' : 'Robotics'}
+        </a>
+      </nav>
+
+      {/* ═══════════════════════════════════════════════════════════
+          METHODOLOGY BLOCK 1 — Restaurant brands
+          ═══════════════════════════════════════════════════════════ */}
+      <div id="restaurant-methodology" className="scroll-mt-24">
       {/* ═══ Section 1 — Three parts of one cycle ═══ */}
       <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8 lg:p-10">
         <h2 className="text-2xl font-semibold text-bone-white">
@@ -219,6 +285,196 @@ export function CorporateTrainingMaterials() {
           {locale === 'ru' ? 'Оставить заявку →' : 'Submit a request →'}
         </LocaleLink>
       </div>
+      </div>
+      {/* ═══ end of METHODOLOGY BLOCK 1 — Restaurant brands ═══ */}
+
+      {/* ═══ Divider between the two methodology blocks ═══ */}
+      <div className="mt-16 border-t border-black/10 pt-16" />
+
+      {/* ═══════════════════════════════════════════════════════════
+          METHODOLOGY BLOCK 2 — Robotics
+          ═══════════════════════════════════════════════════════════ */}
+      <div id="robotics-methodology" className="scroll-mt-24">
+        <p className="text-sm font-semibold uppercase tracking-[0.025em]">
+          <ShimmerText variant="saffron" text={locale === 'ru' ? 'Методология · Робототехника' : 'Methodology · Robotics'} />
+        </p>
+        <h2 className="mt-4 max-w-2xl text-[28px] font-normal leading-[1.15] tracking-[-0.02em] sm:text-[36px]">
+          {locale === 'ru'
+            ? 'Методология анализа робототехники: три технологические экспедиции'
+            : 'Robotics Analysis Methodology: Three Technological Expeditions'}
+        </h2>
+
+        {/* ═══ Section 1 — The three pillars of robotics ═══ */}
+        <div className="mt-10 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8 lg:p-10">
+          <h3 className="text-2xl font-semibold text-bone-white">
+            {locale === 'ru' ? 'Три кита робототехники' : 'The three pillars of robotics'}
+          </h3>
+          <div className="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+            <div>
+              <p className="text-base text-silver-mist">
+                {locale === 'ru'
+                  ? 'Любой робот — промышленный манипулятор, сервисный робот, гуманоид или мобильная платформа — с точки зрения технологического анализа раскладывается на три неразрывные, но самостоятельные составные части («три кита» робототехники). Каждая из них заслуживает отдельного, полноценного технологического погружения — а не беглого знакомства в рамках одной экскурсии по шоуруму. Именно поэтому качественный разбор робототехнического бренда или продукта — это не одна поездка, а серия из трёх экспедиций.'
+                  : "Any robot — an industrial manipulator, a service robot, a humanoid, or a mobile platform — breaks down, from a technological standpoint, into three inseparable but self-contained parts (the 'three pillars' of robotics). Each of them deserves its own full technological deep dive — not a quick look during a single showroom visit. That's why a proper teardown of a robotics brand or product isn't one trip, but a series of three expeditions."}
+              </p>
+              <div className="mt-8 flex flex-col gap-5 sm:flex-row sm:gap-6">
+                {roboticsFeatures.map((feature) => (
+                  <div key={feature.title} className="flex flex-1 flex-col gap-2">
+                    <feature.icon size={24} strokeWidth={1.75} className="text-electric-iris" aria-hidden="true" />
+                    <p className="text-sm font-semibold text-bone-white">
+                      {locale === 'ru' ? feature.title : feature.title_en}
+                    </p>
+                    <p className="text-sm text-silver-mist">{locale === 'ru' ? feature.text : feature.text_en}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="mx-auto w-full max-w-[420px]">
+              <div className="relative overflow-hidden rounded-2xl border border-black/10 bg-void p-4 shadow-sm">
+                <div className="relative">
+                  <img src={roboticsDiagram} alt={roboticsDiagramAlt} className="w-full" />
+                  <div
+                    aria-hidden="true"
+                    className="absolute bg-surface"
+                    style={{
+                      left: `${roboticsCaptionMask.left}%`,
+                      top: `${roboticsCaptionMask.top}%`,
+                      width: `${roboticsCaptionMask.width}%`,
+                      height: `${roboticsCaptionMask.height}%`,
+                    }}
+                  />
+                </div>
+              </div>
+              <p className="mt-2 text-center text-xs text-ash-gray">{roboticsDiagramCaption}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ═══ Section 2 — Expeditions don't overlap (interactive tabs) ═══ */}
+        <div className="mt-14">
+          <h3 className="text-center text-2xl font-semibold text-bone-white">
+            {locale === 'ru' ? 'Экспедиции не дублируют друг друга' : "Expeditions don't overlap"}
+          </h3>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-base text-silver-mist">
+            {locale === 'ru'
+              ? 'Экспедиции не дублируют друг друга — каждая закрывает свой пласт вопросов, недоступный при поверхностном визите на шоурум или выставочный стенд.'
+              : "Each expedition covers a layer of questions you can't get from a surface-level showroom or trade-show visit."}
+          </p>
+          <div className="mx-auto mt-8 max-w-3xl">
+            <ExpeditionTabs
+              tabs={roboticsExpeditionTabs}
+              diagramSrc={roboticsDiagram}
+              diagramAlt={roboticsDiagramAlt}
+              diagramCaptionMask={roboticsCaptionMask}
+              diagramCaption={roboticsDiagramCaption}
+            />
+          </div>
+        </div>
+
+        {/* ═══ Section 3 — Overall logic of the series ═══ */}
+        <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-5 sm:p-6">
+          <h3 className="text-center text-lg font-semibold text-bone-white">
+            {locale === 'ru' ? 'Итоговая логика серии' : 'Overall logic of the series'}
+          </h3>
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
+            {roboticsSeriesLogicColumns.map((col) => (
+              <div key={col.numberLabel} className="flex flex-col gap-3">
+                <p className="text-sm font-semibold text-electric-iris">
+                  {col.numberLabel} · {locale === 'ru' ? col.title : col.title_en}
+                </p>
+                <dl className="flex flex-col gap-3">
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                      {locale === 'ru' ? 'Аудитория' : 'Audience'}
+                    </dt>
+                    <dd className="mt-0.5 text-sm text-bone-white">{locale === 'ru' ? col.audience : col.audience_en}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                      {locale === 'ru' ? 'Сложность доступа' : 'Access difficulty'}
+                    </dt>
+                    <dd className="mt-0.5 text-sm text-bone-white">
+                      {locale === 'ru' ? col.accessDifficulty : col.accessDifficulty_en}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                      {locale === 'ru' ? 'Связь с продуктом' : 'Link to the product'}
+                    </dt>
+                    <dd className="mt-0.5 text-sm text-bone-white">{locale === 'ru' ? col.brandLink : col.brandLink_en}</dd>
+                  </div>
+                </dl>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* ═══ Section 4 — Closing statement ═══ */}
+        <div className="mt-14 rounded-2xl bg-electric-iris/10 p-6 sm:p-10">
+          <p className="mx-auto max-w-3xl text-center text-lg font-medium leading-relaxed text-bone-white sm:text-xl">
+            {locale === 'ru'
+              ? '«Три экспедиции — это последовательная деконструкция одного и того же робота на его технологические составляющие, а не три случайных маршрута. Понимание, увиденное при знакомстве с готовым продуктом (демонстрация робота в сборе), становится системой координат, через которую участник смотрит на заводы аппаратной части, лаборатории сенсорики и команды разработки ПО — увидеть код после того, как подержал в руках готового робота, гораздо ценнее, чем увидеть тот же код в отрыве от физического продукта, который он оживляет.»'
+              : '"The three expeditions are a sequential deconstruction of one and the same robot into its technological components, not three random routes. The understanding gained from meeting the finished product (seeing the assembled robot in action) becomes the frame of reference through which a participant views the hardware factories, the sensing labs, and the software teams — seeing the code after having held the finished robot is far more valuable than seeing that same code detached from the physical product it brings to life."'}
+          </p>
+        </div>
+
+        {/* ═══ Section 5 — Flexible format (standalone callout, not a 4th tab) ═══ */}
+        <div className="mt-14 rounded-r-2xl border-l-4 border-electric-iris bg-surface/60 p-6 sm:p-8">
+          <h3 className="text-xl font-semibold text-bone-white">
+            {locale === 'ru' ? 'Гибкий формат: можно смешивать блоки' : 'Flexible format: blocks can be mixed'}
+          </h3>
+          <p className="mt-4 text-sm text-silver-mist">
+            {locale === 'ru'
+              ? 'Три экспедиции не обязаны идти строго последовательно и раздельно — при необходимости их можно смешивать в рамках одной поездки, чтобы дать более полное и цельное погружение в процесс за одну экспедицию. Например, один день может включать завод аппаратной части, а на следующий день — лабораторию сенсорики и презентацию софта той же компании: так участник видит, как три «кита» связаны внутри одного конкретного продукта.'
+              : "The three expeditions don't have to run strictly in sequence and separately — when useful, they can be mixed within a single trip to give a more complete, cohesive immersion in the process in one go. For example, one day might cover a hardware factory, and the next day a sensing lab and a software presentation from the same company — so the participant sees how the three pillars connect within one specific product."}
+          </p>
+          <p className="mt-4 text-sm font-semibold text-bone-white">
+            {locale === 'ru'
+              ? 'Тем не менее базовая рекомендация методологии остаётся прежней: начинать с трёх отдельных блоков и в первую очередь — с первой экспедиции (аппаратное обеспечение). Раздельный формат даёт более глубокое и предсказуемое погружение в каждую составляющую — смешанный формат имеет смысл как следующий шаг, когда участник уже понимает логику всех трёх «китов» по отдельности и хочет увидеть их интеграцию в конкретном продукте или на конкретной производственной площадке.'
+              : "That said, the methodology's baseline recommendation stays the same: start with three separate blocks, beginning with the first expedition (hardware). The separate format gives a deeper, more predictable immersion in each component — the mixed format makes sense as a next step, once a participant already understands the logic of all three pillars individually and wants to see their integration in a specific product or production site."}
+          </p>
+        </div>
+
+        {/* ═══ Section 6 — The methodology in action ═══ */}
+        <div className="mt-14">
+          <h3 className="text-center text-2xl font-semibold text-bone-white">
+            {locale === 'ru' ? 'Методология в действии' : 'The methodology in action'}
+          </h3>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-base text-silver-mist">
+            {locale === 'ru'
+              ? 'Экспедиция Robotics Expedition — практический пример гибридного формата (см. Раздел «Гибкий формат» выше): визиты в рамках одной пятидневной поездки закрывают сразу несколько «китов» на разных площадках — от сборочных линий и демонстрации гуманоидов до презентаций технологий распознавания и управления.'
+              : "The Robotics Expedition is a practical example of the hybrid format (see 'Flexible format' above): within a single five-day trip, visits cover several of the three pillars across different sites — from assembly lines and humanoid demos to presentations on perception and control technology."}
+          </p>
+          <div className="mx-auto mt-8 max-w-3xl text-center">
+            <LocaleLink
+              to="/expeditions/robotics-expedition"
+              className="inline-block rounded-full bg-electric-iris px-6 py-3 text-sm font-semibold text-void hover:opacity-90"
+            >
+              {locale === 'ru' ? 'Смотреть программу Robotics Expedition →' : 'View the Robotics Expedition program →'}
+            </LocaleLink>
+          </div>
+        </div>
+
+        {/* ═══ Section 7 — CTA ═══ */}
+        <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-8 text-center sm:p-10">
+          <h3 className="text-2xl font-semibold text-bone-white">
+            {locale === 'ru'
+              ? 'Хотите разобрать робота или производителя по этой методологии?'
+              : 'Want to break down a robot or manufacturer using this methodology?'}
+          </h3>
+          <p className="mx-auto mt-3 max-w-xl text-base text-silver-mist">
+            {locale === 'ru'
+              ? 'Оставьте заявку — подберём экспедицию или всю серию под задачи вашей команды.'
+              : "Submit a request — we'll put together an expedition or the full series around your team's goals."}
+          </p>
+          <LocaleLink
+            to="/contacts"
+            className="mt-6 inline-block rounded-full bg-electric-iris px-6 py-3 text-sm font-semibold text-void hover:opacity-90"
+          >
+            {locale === 'ru' ? 'Оставить заявку →' : 'Submit a request →'}
+          </LocaleLink>
+        </div>
+      </div>
+      {/* ═══ end of METHODOLOGY BLOCK 2 — Robotics ═══ */}
 
       {materials.length > 0 && (
         <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
