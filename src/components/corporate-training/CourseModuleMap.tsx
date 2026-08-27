@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState, type RefObject } from 'react'
 import type { CourseModule } from '@/data/corporateTraining'
+import { useLanguage } from '@/i18n/LanguageContext'
 
 /**
  * Visual module map (Stage 2.1 of the spec) — an org-chart / mind-map style
@@ -25,6 +26,7 @@ import type { CourseModule } from '@/data/corporateTraining'
  * per the spec's explicit mobile behavior.
  */
 export function CourseModuleMap({ programTitle, modules }: { programTitle: string; modules: CourseModule[] }) {
+  const { locale } = useLanguage()
   const containerRef = useRef<HTMLDivElement>(null)
   const rootRef = useRef<HTMLDivElement>(null)
   const moduleRefs = useRef<(HTMLDivElement | null)[]>([])
@@ -143,7 +145,9 @@ export function CourseModuleMap({ programTitle, modules }: { programTitle: strin
             ref={rootRef}
             className="relative z-10 w-full max-w-sm rounded-2xl border border-black/10 bg-surface px-5 py-4 text-center shadow-sm"
           >
-            <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Программа</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Программа' : 'Programme'}
+            </p>
             <p className="mt-1 text-base font-semibold text-bone-white">{programTitle}</p>
           </div>
 
@@ -156,6 +160,7 @@ export function CourseModuleMap({ programTitle, modules }: { programTitle: strin
                 startIndex={rowIndex * 3}
                 fullRow={rowIndex === 0}
                 moduleRefs={moduleRefs}
+                locale={locale}
               />
             ))}
           </div>
@@ -166,7 +171,7 @@ export function CourseModuleMap({ programTitle, modules }: { programTitle: strin
           visual aid, this is the authoritative list of module names. */}
       <ul className="sr-only">
         {modules.map((m) => (
-          <li key={m.id}>{m.title}</li>
+          <li key={m.id}>{locale === 'ru' ? m.title : m.title_en}</li>
         ))}
       </ul>
     </div>
@@ -178,11 +183,13 @@ function ModuleRow({
   startIndex,
   fullRow,
   moduleRefs,
+  locale,
 }: {
   row: CourseModule[]
   startIndex: number
   fullRow: boolean
   moduleRefs: RefObject<(HTMLDivElement | null)[]>
+  locale: 'ru' | 'en'
 }) {
   return (
     <div className={`flex flex-col gap-3 md:flex-row md:gap-6 ${fullRow ? "" : "md:justify-center"}`}>
@@ -198,8 +205,8 @@ function ModuleRow({
             backgroundColor: 'color-mix(in srgb, var(--color-electric-iris) 6%, var(--color-surface))',
           }}
         >
-          <p className="text-sm font-bold text-bone-white">{mod.title}</p>
-          <p className="mt-1 text-xs text-silver-mist">{mod.short}</p>
+          <p className="text-sm font-bold text-bone-white">{locale === 'ru' ? mod.title : mod.title_en}</p>
+          <p className="mt-1 text-xs text-silver-mist">{locale === 'ru' ? mod.short : mod.short_en}</p>
         </div>
       ))}
     </div>

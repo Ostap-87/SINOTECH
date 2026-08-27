@@ -4,6 +4,7 @@ import { usePageMeta } from '@/hooks/usePageMeta'
 import { ShimmerText } from '@/components/ShimmerText'
 import { RevealText } from '@/components/RevealText'
 import { LocaleLink } from '@/i18n/LocaleLink'
+import { useLanguage } from '@/i18n/LanguageContext'
 import { getCorporateProgram } from '@/data/corporateTraining'
 import { companiesData, companyNameZh } from '@/data'
 import { heroImagePath, galleryImagePaths, SHOW_PHOTO_GALLERY } from '@/data/corporateTrainingImages'
@@ -22,12 +23,16 @@ function chunk<T>(items: T[], size: number): T[][] {
 }
 
 export function CorporateTrainingProgram() {
+  const { locale } = useLanguage()
   const { company: slug } = useParams<{ company: string }>()
   const program = slug ? getCorporateProgram(slug) : undefined
   const company = program ? companiesData.companies.find((c) => c.id === program.companyId) : undefined
   const [heroPhotoMissing, setHeroPhotoMissing] = useState(false)
 
-  usePageMeta(`${program?.metaTitle ?? 'Программа'} — Global Tech Tour`, program?.metaDescription, {
+  const metaTitle = program ? (locale === 'ru' ? program.metaTitle : program.metaTitle_en) : locale === 'ru' ? 'Программа' : 'Programme'
+  const metaDescription = program ? (locale === 'ru' ? program.metaDescription : program.metaDescription_en) : undefined
+
+  usePageMeta(`${metaTitle} — Global Tech Tour`, metaDescription, {
     noindex: !program,
   })
 
@@ -51,21 +56,21 @@ export function CorporateTrainingProgram() {
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M19 12H5M11 18l-6-6 6-6" />
         </svg>
-        Корпоративное обучение
+        {locale === 'ru' ? 'Корпоративное обучение' : 'Corporate training'}
       </LocaleLink>
 
       <p className="mt-6 text-sm font-semibold uppercase tracking-[0.025em]">
-        <ShimmerText variant="saffron" text={program.cardTitle} />
+        <ShimmerText variant="saffron" text={locale === 'ru' ? program.cardTitle : program.cardTitle_en} />
       </p>
       <h1 className="mt-4 text-[32px] font-semibold leading-[1.1] tracking-[-0.02em] text-bone-white sm:text-[40px] lg:text-[46px]">
-        <RevealText text={program.h1} />
+        <RevealText text={locale === 'ru' ? program.h1 : program.h1_en} />
       </h1>
-      <p className="mt-6 text-lg text-silver-mist">{program.subtitle}</p>
+      <p className="mt-6 text-lg text-silver-mist">{locale === 'ru' ? program.subtitle : program.subtitle_en}</p>
 
       <div className="relative mt-6">
         <StaticImage
           src={heroImagePath(program.slug)}
-          alt={program.heroAlt}
+          alt={locale === 'ru' ? program.heroAlt : program.heroAlt_en}
           onFailedChange={setHeroPhotoMissing}
           placeholderContent={
             company && (
@@ -94,10 +99,10 @@ export function CorporateTrainingProgram() {
       {/* Почему эта компания */}
       <div className="mt-6 rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
         <h2 className="text-center text-sm font-semibold uppercase tracking-[0.025em] text-ash-gray">
-          Почему {company ? companyNameZh(company) : program.companyId}
+          {locale === 'ru' ? 'Почему' : 'Why'} {company ? companyNameZh(company) : program.companyId}
         </h2>
         <ul className="mt-4 flex flex-col gap-2.5">
-          {program.whyPoints.map((point, i) => (
+          {(locale === 'ru' ? program.whyPoints : program.whyPoints_en).map((point, i) => (
             <li key={i} className="flex gap-2.5 text-sm text-bone-white">
               <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-electric-iris" aria-hidden="true" />
               {point}
@@ -109,7 +114,7 @@ export function CorporateTrainingProgram() {
             to={`/companies/${company.id}`}
             className="mt-5 inline-block text-sm font-medium text-electric-iris hover:underline"
           >
-            Подробнее о компании →
+            {locale === 'ru' ? 'Подробнее о компании →' : 'More about the company →'}
           </LocaleLink>
         )}
       </div>
@@ -117,10 +122,12 @@ export function CorporateTrainingProgram() {
       {/* Визуальная схема модулей курса — сразу после "Почему эта компания",
           перед текстовыми "Модули курса" / "Программа по дням" (Stage 2.1). */}
       <div className="mt-14">
-        <h2 className="text-center text-2xl font-semibold text-bone-white">Как устроена программа</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">
+          {locale === 'ru' ? 'Как устроена программа' : 'How the programme is structured'}
+        </h2>
         <div className="mt-6">
           <CourseModuleMap
-            programTitle={`${company?.name_en ?? program.companyId} — ${program.cardTitle}`}
+            programTitle={`${company?.name_en ?? program.companyId} — ${locale === 'ru' ? program.cardTitle : program.cardTitle_en}`}
             modules={program.modules}
           />
         </div>
@@ -130,7 +137,9 @@ export function CorporateTrainingProgram() {
           ряд (тот же паттерн раскладки, что и у визуальной схемы выше:
           5 модулей → 3+2 центрированный второй ряд, 6 → 3+3). */}
       <div className="mt-14">
-        <h2 className="text-center text-2xl font-semibold text-bone-white">Модули курса</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">
+          {locale === 'ru' ? 'Модули курса' : 'Course modules'}
+        </h2>
         <div className="mt-6 flex flex-col gap-5">
           {chunk(program.modules, 3).map((row, rowIndex) => (
             <div
@@ -142,9 +151,11 @@ export function CorporateTrainingProgram() {
                   key={mod.id}
                   className="flex flex-1 flex-col items-center rounded-2xl border border-black/10 bg-surface/60 p-5 text-center sm:max-w-[340px]"
                 >
-                  <p className="text-sm font-semibold text-ash-gray">Модуль {rowIndex * 3 + i + 1}</p>
-                  <p className="mt-1 text-base font-semibold text-bone-white">{mod.title}</p>
-                  <p className="mt-1.5 text-sm text-silver-mist">{mod.description}</p>
+                  <p className="text-sm font-semibold text-ash-gray">
+                    {locale === 'ru' ? 'Модуль' : 'Module'} {rowIndex * 3 + i + 1}
+                  </p>
+                  <p className="mt-1 text-base font-semibold text-bone-white">{locale === 'ru' ? mod.title : mod.title_en}</p>
+                  <p className="mt-1.5 text-sm text-silver-mist">{locale === 'ru' ? mod.description : mod.description_en}</p>
                 </div>
               ))}
             </div>
@@ -154,12 +165,16 @@ export function CorporateTrainingProgram() {
 
       {/* Пример программы */}
       <div className="mt-14">
-        <h2 className="text-center text-2xl font-semibold text-bone-white">Пример программы</h2>
+        <h2 className="text-center text-2xl font-semibold text-bone-white">
+          {locale === 'ru' ? 'Пример программы' : 'Sample schedule'}
+        </h2>
         <div className="mt-6 flex flex-col gap-5">
           {program.days.map((d) => (
             <div key={d.day} className="rounded-2xl border border-black/10 bg-surface/60 p-5">
-              <p className="text-center text-sm font-semibold text-electric-iris">День {d.day} — {d.title}</p>
-              <p className="mt-1.5 text-sm text-silver-mist">{d.description}</p>
+              <p className="text-center text-sm font-semibold text-electric-iris">
+                {locale === 'ru' ? `День ${d.day} — ${d.title}` : `Day ${d.day} — ${d.title_en}`}
+              </p>
+              <p className="mt-1.5 text-sm text-silver-mist">{locale === 'ru' ? d.description : d.description_en}</p>
             </div>
           ))}
         </div>
@@ -167,39 +182,60 @@ export function CorporateTrainingProgram() {
 
       {/* Формат и условия */}
       <div className="mt-14 rounded-2xl border border-black/10 bg-surface/60 p-5 sm:p-6">
-        <h2 className="text-center text-lg font-semibold text-bone-white">Формат и условия</h2>
+        <h2 className="text-center text-lg font-semibold text-bone-white">
+          {locale === 'ru' ? 'Формат и условия' : 'Format and terms'}
+        </h2>
         <dl className="mt-4 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-4">
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Длительность</dt>
+            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Длительность' : 'Duration'}
+            </dt>
             <dd className="mt-0.5 text-sm text-bone-white">
-              {program.format.duration} / <PlaceholderText text={program.format.nights} /> ночей
+              {locale === 'ru' ? (
+                <>
+                  {program.format.duration} / <PlaceholderText text={program.format.nights} /> ночей
+                </>
+              ) : (
+                <>
+                  {program.format.duration_en} / {program.format.nights} nights
+                </>
+              )}
             </dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Размер группы</dt>
+            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Размер группы' : 'Group size'}
+            </dt>
             <dd className="mt-0.5 text-sm text-bone-white">
-              <PlaceholderText text={program.format.groupSize} />
+              <PlaceholderText text={locale === 'ru' ? program.format.groupSize : program.format.groupSize_en} />
             </dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Стоимость</dt>
+            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Стоимость' : 'Price'}
+            </dt>
             <dd className="mt-0.5 text-sm text-bone-white">
-              <PlaceholderText text={program.format.price} /> за участника
+              <PlaceholderText text={locale === 'ru' ? program.format.price : program.format.price_en} />{' '}
+              {locale === 'ru' ? 'за участника' : 'per participant'}
             </dd>
           </div>
           <div>
-            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">Ближайшие даты</dt>
+            <dt className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+              {locale === 'ru' ? 'Ближайшие даты' : 'Upcoming dates'}
+            </dt>
             <dd className="mt-0.5 text-sm text-bone-white">
-              <PlaceholderText text={program.format.dates} />
+              <PlaceholderText text={locale === 'ru' ? program.format.dates : program.format.dates_en} />
             </dd>
           </div>
         </dl>
         <div className="mt-4 border-t border-black/10 pt-3">
-          <span className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">В стоимость входит: </span>
-          {program.format.included.map((item, i) => (
+          <span className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+            {locale === 'ru' ? 'В стоимость входит: ' : 'Included in the price: '}
+          </span>
+          {(locale === 'ru' ? program.format.included : program.format.included_en).map((item, i, arr) => (
             <span key={i} className="text-sm text-bone-white">
               <PlaceholderText text={item} />
-              {i < program.format.included.length - 1 ? ', ' : ''}
+              {i < arr.length - 1 ? ', ' : ''}
             </span>
           ))}
         </div>
@@ -207,7 +243,9 @@ export function CorporateTrainingProgram() {
 
       {/* Форма заявки */}
       <div className="mt-14">
-        <ApplicationForm programLabel={`${company?.name_en ?? program.companyId} — ${program.cardTitle}`} />
+        <ApplicationForm
+          programLabel={`${company?.name_en ?? program.companyId} — ${locale === 'ru' ? program.cardTitle : program.cardTitle_en}`}
+        />
       </div>
 
       {/* Галерея фото с прошлых заездов — hidden for now (SHOW_PHOTO_GALLERY
@@ -216,9 +254,14 @@ export function CorporateTrainingProgram() {
           back to true once real files land at galleryImagePaths(). */}
       {SHOW_PHOTO_GALLERY && (
         <div className="mt-14">
-          <h2 className="text-center text-2xl font-semibold text-bone-white">Фото с прошлых заездов</h2>
+          <h2 className="text-center text-2xl font-semibold text-bone-white">
+            {locale === 'ru' ? 'Фото с прошлых заездов' : 'Photos from past cohorts'}
+          </h2>
           <div className="mt-6">
-            <ProgramGallery paths={galleryImagePaths(program.slug)} programLabel={program.cardTitle} />
+            <ProgramGallery
+              paths={galleryImagePaths(program.slug)}
+              programLabel={locale === 'ru' ? program.cardTitle : program.cardTitle_en}
+            />
           </div>
         </div>
       )}

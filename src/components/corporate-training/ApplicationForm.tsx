@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { useLanguage } from '@/i18n/LanguageContext'
+import { LocaleLink } from '@/i18n/LocaleLink'
 
 /**
  * Application form embedded at the bottom of every programme page.
@@ -33,6 +35,7 @@ import { useState } from 'react'
  */
 const PLACEHOLDER_EMAIL = 'phone-lead@globaltechtour.ru'
 export function ApplicationForm({ programLabel }: { programLabel: string }) {
+  const { locale } = useLanguage()
   const [name, setName] = useState('')
   const [company, setCompany] = useState('')
   const [contact, setContact] = useState('')
@@ -51,6 +54,8 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
     // lead-intake.py's FIELD_LABELS already renders `phone` under its own
     // "Телефон:" line in the Telegram message, so the real phone number
     // reaches the operator even when `email` below is the placeholder.
+    // Tag stays in Russian regardless of locale — it's read by the
+    // (Russian-speaking) operator team in Telegram, not shown to the visitor.
     const taggedMessage = `[Программа: ${programLabel}]${comment.trim() ? `\n\n${comment.trim()}` : ''}`
 
     try {
@@ -64,7 +69,7 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
           email: looksLikeEmail ? contact : PLACEHOLDER_EMAIL,
           message: taggedMessage,
           website,
-          locale: 'ru',
+          locale,
         }),
       })
       if (!response.ok) throw new Error(`status ${response.status}`)
@@ -80,9 +85,11 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
   if (status === 'sent') {
     return (
       <div className="rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
-        <p className="text-lg font-medium text-bone-white">Спасибо!</p>
+        <p className="text-lg font-medium text-bone-white">{locale === 'ru' ? 'Спасибо!' : 'Thank you!'}</p>
         <p className="mt-2 text-sm text-silver-mist">
-          Заявка на программу «{programLabel}» отправлена — мы ответим в течение рабочего дня.
+          {locale === 'ru'
+            ? `Заявка на программу «${programLabel}» отправлена — мы ответим в течение рабочего дня.`
+            : `Your application for "${programLabel}" has been sent — we'll get back to you within one business day.`}
         </p>
       </div>
     )
@@ -90,8 +97,13 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
 
   return (
     <div className="rounded-2xl border border-black/10 bg-surface/60 p-6 sm:p-8">
-      <h3 className="text-center text-lg font-medium text-bone-white">Форма заявки</h3>
-      <p className="mt-1 text-center text-sm text-ash-gray">Программа: {programLabel}</p>
+      <h3 className="text-center text-lg font-medium text-bone-white">
+        {locale === 'ru' ? 'Форма заявки' : 'Application form'}
+      </h3>
+      <p className="mt-1 text-center text-sm text-ash-gray">
+        {locale === 'ru' ? 'Программа: ' : 'Programme: '}
+        {programLabel}
+      </p>
 
       <div className="mt-5 flex flex-col gap-3">
         {/* Honeypot — hidden from real visitors via CSS, not type="hidden". */}
@@ -112,27 +124,27 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          placeholder="Имя"
+          placeholder={locale === 'ru' ? 'Имя' : 'Name'}
           className={inputClass}
         />
         <input
           type="text"
           value={company}
           onChange={(e) => setCompany(e.target.value)}
-          placeholder="Компания"
+          placeholder={locale === 'ru' ? 'Компания' : 'Company'}
           className={inputClass}
         />
         <input
           type="text"
           value={contact}
           onChange={(e) => setContact(e.target.value)}
-          placeholder="Телефон или email"
+          placeholder={locale === 'ru' ? 'Телефон или email' : 'Phone or email'}
           className={inputClass}
         />
         <textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          placeholder="Комментарий (необязательно)"
+          placeholder={locale === 'ru' ? 'Комментарий (необязательно)' : 'Comment (optional)'}
           rows={3}
           className={`${inputClass} resize-none`}
         />
@@ -148,16 +160,28 @@ export function ApplicationForm({ programLabel }: { programLabel: string }) {
             : 'cursor-not-allowed bg-black/10 text-ash-gray'
         }`}
       >
-        {status === 'sending' ? 'Отправляем…' : 'Отправить заявку'}
+        {status === 'sending' ? (locale === 'ru' ? 'Отправляем…' : 'Sending…') : locale === 'ru' ? 'Отправить заявку' : 'Send application'}
       </button>
 
       {status === 'error' && (
         <p className="mt-3 text-sm text-red-500">
-          Не получилось отправить — попробуйте ещё раз или напишите напрямую через{' '}
-          <a href="/contacts" className="underline">
-            страницу контактов
-          </a>
-          .
+          {locale === 'ru' ? (
+            <>
+              Не получилось отправить — попробуйте ещё раз или напишите напрямую через{' '}
+              <LocaleLink to="/contacts" className="underline">
+                страницу контактов
+              </LocaleLink>
+              .
+            </>
+          ) : (
+            <>
+              Couldn't send it — please try again or write to us directly via the{' '}
+              <LocaleLink to="/contacts" className="underline">
+                contacts page
+              </LocaleLink>
+              .
+            </>
+          )}
         </p>
       )}
     </div>

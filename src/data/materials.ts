@@ -16,8 +16,14 @@ export interface MaterialBlock {
   type: 'paragraph' | 'heading' | 'list' | 'image'
   /** paragraph/heading text, or image alt text */
   text?: string
+  /** English counterpart of `text`, following the `${key}_en` convention
+   * used across src/data. Optional — until real materials ship with it,
+   * the English page falls back to the Russian text (see MaterialBody.tsx). */
+  text_en?: string
   /** list items, only for type: 'list' */
   items?: string[]
+  /** English counterpart of `items`, same length/order as `items`. */
+  items_en?: string[]
   /** image path under /public, only for type: 'image' */
   src?: string
 }
@@ -26,10 +32,13 @@ export interface Material {
   /** URL slug under /corporate-training/materials/ — must be unique. */
   slug: string
   title: string
+  title_en?: string
   /** Short intro shown on the material page and as the card description on the list page. */
   intro: string
+  intro_en?: string
   /** Optional industry tag, e.g. "Пищевая промышленность". */
   industryTag?: string
+  industryTag_en?: string
   /** ISO date, used for sorting (newest first). */
   date: string
   /** Optional cover image path under /public; falls back to materialCoverPath(slug) convention if omitted. */

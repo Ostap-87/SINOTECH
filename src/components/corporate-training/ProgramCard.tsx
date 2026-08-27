@@ -1,4 +1,5 @@
 import { LocaleLink } from '@/i18n/LocaleLink'
+import { useLanguage } from '@/i18n/LanguageContext'
 import type { CorporateProgram } from '@/data/corporateTraining'
 import { companiesData } from '@/data'
 import { CompanyMark } from '@/components/CompanyMark'
@@ -7,6 +8,7 @@ import { StaticImage } from './StaticImage'
 
 /** One of the six programme cards on the /corporate-training/ hub. */
 export function ProgramCard({ program }: { program: CorporateProgram }) {
+  const { locale } = useLanguage()
   const company = companiesData.companies.find((c) => c.id === program.companyId)
 
   return (
@@ -16,7 +18,7 @@ export function ProgramCard({ program }: { program: CorporateProgram }) {
     >
       <StaticImage
         src={heroImagePath(program.slug)}
-        alt={program.heroAlt}
+        alt={locale === 'ru' ? program.heroAlt : program.heroAlt_en}
         placeholderContent={
           company && (
             <div className="flex h-full w-full items-center justify-center p-6">
@@ -38,10 +40,10 @@ export function ProgramCard({ program }: { program: CorporateProgram }) {
         <p className="text-sm font-semibold uppercase tracking-[0.02em] text-ash-gray">
           {company?.name_en ?? program.companyId}
         </p>
-        <h3 className="text-lg font-semibold text-bone-white">{program.cardTitle}</h3>
-        <p className="text-sm text-silver-mist">{program.cardTeaser}</p>
+        <h3 className="text-lg font-semibold text-bone-white">{locale === 'ru' ? program.cardTitle : program.cardTitle_en}</h3>
+        <p className="text-sm text-silver-mist">{locale === 'ru' ? program.cardTeaser : program.cardTeaser_en}</p>
         <span className="mt-auto pt-2 text-sm font-medium text-electric-iris group-hover:underline">
-          Подробнее о программе →
+          {locale === 'ru' ? 'Подробнее о программе →' : 'More about the programme →'}
         </span>
       </div>
     </LocaleLink>
