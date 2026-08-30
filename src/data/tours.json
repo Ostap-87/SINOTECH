@@ -13104,6 +13104,187 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "hongkong-luxury-legacy",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "hospitality",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Гонконгская школа отельного люкса",
+      "title_en": "Hong Kong's School of Hotel Luxury",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Peninsula · Mandarin Oriental · Rosewood · Shangri-La · Langham · Wharf",
+      "tagline_en": "Peninsula · Mandarin Oriental · Rosewood · Shangri-La · Langham · Wharf",
+      "positioning_ru": "Визиты к семейным гостиничным конгломератам Гонконга — наследие, частный капитал и клубное позиционирование вместо массового франчайзинга: контраст с масштабной франчайзинговой моделью материковых гостиничных гигантов Китая.",
+      "positioning_en": "Visits to Hong Kong's family-controlled hotel conglomerates — heritage, private capital and club-style positioning rather than mass franchising: a deliberate contrast with the franchise-scale model of mainland China's hotel giants.",
+      "stats": {
+        "cities": 1,
+        "days": 5,
+        "nights": 6,
+        "companies": 8,
+        "flights": 0
+      },
+      "route_strategy": "hongkong",
+      "arrival_ru": "Гонконг (прилёт, аэропорт Hong Kong International), начало программы в день прилёта",
+      "arrival_en": "Hong Kong (arrival, Hong Kong International Airport), program starts on arrival day",
+      "departure_ru": "Гонконг, вылет вечером 6-й ночи",
+      "departure_en": "Hong Kong, departure in the evening of night 6",
+      "route_cities": [
+        "hongkong"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "hongkong",
+          "city_ru": "Гонконг, день 1",
+          "city_en": "Hong Kong, day 1",
+          "area_ru": "Гонконг",
+          "area_en": "Hong Kong",
+          "time": "10:00–16:00",
+          "companies": [
+            "hsh-peninsula-hongkong",
+            "mandarin-oriental-hotel-group"
+          ],
+          "transfer_ru": "🛬 Прилёт в Гонконг, трансфер и заселение в отель — программа начинается в день прилёта",
+          "transfer_en": "🛬 Arrival in Hong Kong, transfer and hotel check-in — the program starts on arrival day"
+        },
+        {
+          "day": 2,
+          "city": "hongkong",
+          "city_ru": "Гонконг, день 2",
+          "city_en": "Hong Kong, day 2",
+          "area_ru": "Куорри-Бей",
+          "area_en": "Quarry Bay",
+          "time": "10:00–16:00",
+          "companies": [
+            "rosewood-hotel-group",
+            "shangri-la-asia"
+          ],
+          "note_ru": "Утренний визит — штаб-квартира Rosewood Hotel Group в Куорри-Бей",
+          "note_en": "Morning visit — Rosewood Hotel Group headquarters in Quarry Bay"
+        },
+        {
+          "day": 3,
+          "city": "hongkong",
+          "city_ru": "Гонконг, день 3",
+          "city_en": "Hong Kong, day 3",
+          "area_ru": "Гонконг",
+          "area_en": "Hong Kong",
+          "time": "10:00–16:00",
+          "companies": [
+            "langham-hospitality-great-eagle",
+            "wharf-hotels"
+          ]
+        },
+        {
+          "day": 4,
+          "city": "hongkong",
+          "city_ru": "Гонконг, день 4",
+          "city_en": "Hong Kong, day 4",
+          "area_ru": "Центральный район",
+          "area_en": "Central",
+          "time": "10:00–16:00",
+          "companies": [
+            "rosewood-hotel-group",
+            "the-murray-niccolo-hongkong"
+          ],
+          "note_ru": "Архитектурно-дизайнерский тур: визиты на объекты Rosewood Hong Kong (Victoria Dockside) и The Murray — конверсия исторического Murray Building в люксовый отель, — иллюстрирующие язык дизайна и позиционирование люксовых брендов",
+          "note_en": "Architecture & design tour: visits to Rosewood Hong Kong (Victoria Dockside) and The Murray — the conversion of the historic Murray Building into a luxury hotel — illustrating the design language and positioning of luxury hotel brands"
+        },
+        {
+          "day": 5,
+          "city": "hongkong",
+          "city_ru": "Гонконг, день 5",
+          "city_en": "Hong Kong, day 5",
+          "area_ru": "Гонконг",
+          "area_en": "Hong Kong",
+          "time": "10:00–13:00",
+          "companies": [],
+          "note_ru": "Формат: закрытая сессия — встреча с представителями семейных гостиничных конгломератов Гонконга в первой половине дня (по подтверждению); вторая половина дня — свободный день/резерв",
+          "note_en": "Format: closed session — meeting with representatives of Hong Kong's family hotel conglomerates in the morning (subject to confirmation); the afternoon is free/reserved"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация внутри Гонконга — трансферы между площадками ежедневно, встреча и проводы в аэропорту (внутренние перелёты и поезда не требуются)",
+          "en": "Full navigation within Hong Kong — daily transfers between venues, airport pickup and drop-off (no domestic flights or trains required)"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом семейных гостиничных конгломератов Гонконга — HSH/Peninsula, Mandarin Oriental, Rosewood, Shangri-La, Langham/Great Eagle, Wharf Hotels — плюс архитектурно-дизайнерский день и закрытая сессия (по подтверждению)",
+          "en": "Talks with top management at Hong Kong's family hotel conglomerates — HSH/Peninsula, Mandarin Oriental, Rosewood, Shangri-La, Langham/Great Eagle, Wharf Hotels — plus an architecture & design day and a closed session (subject to confirmation)"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на управление и инвестиции в люксовые гостиничные активы Гонконга",
+          "en": "Deal contacts — direct lines to management and investment in Hong Kong's luxury hotel assets"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Трансферы внутри Гонконга, такси, встреча / проводы в аэропорту",
+            "calc_en": "Transfers within Hong Kong, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Гонконгские семейные конгломераты — Kadoorie, Keswick, Cheng, Kuok, Lo, Woo — десятилетиями строят люксовые гостиничные бренды на наследии и частном капитале, а не на массовом франчайзинге, что делает их клубную модель управления особенно ценной для российских и СНГ инвесторов, ориентированных на премиальный, а не массовый сегмент.",
+      "market_note_en": "Hong Kong's family conglomerates — Kadoorie, Keswick, Cheng, Kuok, Lo, Woo — have built luxury hotel brands over decades on heritage and private capital rather than mass franchising, making their club-style ownership model especially relevant for Russian and CIS investors focused on the premium rather than mass segment.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
