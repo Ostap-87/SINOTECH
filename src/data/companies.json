@@ -8,8 +8,8 @@
       "zh"
     ],
     "counts": {
-      "companies": 976,
-      "sectors": 17,
+      "companies": 982,
+      "sectors": 18,
       "cities": 89,
       "own_supplier": 38,
       "countries": 4,
@@ -222,6 +222,12 @@
       "label_en": "Government, Smart City & Tourism",
       "label_ru": "Госуправление, умный город и туризм",
       "color": "#7A7A7A"
+    },
+    {
+      "code": "hospitality",
+      "label_en": "Hospitality & Hotels",
+      "label_ru": "Гостиничный бизнес и отели",
+      "color": "#A0522D"
     }
   ],
   "cities": [
@@ -15914,6 +15920,111 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null
+    },
+    {
+      "id": "jin-jiang-international",
+      "name_en": "Jin Jiang International",
+      "name_zh": "锦江国际",
+      "sector": "hospitality",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "State-owned hotel group under Shanghai SASAC and one of the world's largest by room count following its acquisition of Louvre Hotels Group and Radisson Hotel Group's EMEA/APAC business; its listed arm Jin Jiang Hotels (SSE: 600754) operates a portfolio spanning Jin Jiang Inn, Vienna Hotels, Metropolo and 7 Days Inn (via Plateno).",
+      "desc_ru": "Государственная гостиничная группа под управлением Shanghai SASAC, одна из крупнейших в мире по числу номеров после приобретения Louvre Hotels Group и бизнеса Radisson Hotel Group в регионе EMEA/APAC; публичное подразделение Jin Jiang Hotels (SSE: 600754) управляет портфелем брендов Jin Jiang Inn, Vienna Hotels, Metropolo и 7 Days Inn (через Plateno).",
+      "country": "cn",
+      "logo": "/logos/jin-jiang-international.png"
+    },
+    {
+      "id": "h-world-group",
+      "name_en": "H World Group",
+      "name_zh": "华住集团",
+      "sector": "hospitality",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Formerly Huazhu Group, dual-listed hotel operator (NASDAQ: HTHT / HKEX: 1179) and one of China's largest hotel groups by hotel count; its portfolio spans Hanting, Orange Hotel, Manxin and Blossom House, the Ibis China joint venture with Accor, and upscale Deutsche Hospitality brands (Steigenberger, Jaz in the City) acquired in Europe.",
+      "desc_ru": "Ранее Huazhu Group — гостиничный оператор с двойным листингом (NASDAQ: HTHT / HKEX: 1179), одна из крупнейших гостиничных групп Китая по числу отелей; портфель включает бренды Hanting, Orange Hotel, Manxin и Blossom House, совместное предприятие Ibis China с Accor, а также приобретённые в Европе премиальные бренды Deutsche Hospitality (Steigenberger, Jaz in the City).",
+      "country": "cn",
+      "logo": "/logos/h-world-group.png"
+    },
+    {
+      "id": "greentree-hospitality",
+      "name_en": "GreenTree Hospitality Group",
+      "name_zh": "格林豪泰",
+      "sector": "hospitality",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "NYSE-listed hotel franchisor (GHG) headquartered in Shanghai, focused on midscale and economy hotels operated primarily through franchising; core brands include GreenTree Inn, GreenTree Eastern and Vatica.",
+      "desc_ru": "Гостиничный франчайзер со штаб-квартирой в Шанхае, листингован на NYSE (GHG); специализируется на отелях среднего и эконом-класса, работающих преимущественно по франшизе; основные бренды — GreenTree Inn, GreenTree Eastern и Vatica.",
+      "country": "cn",
+      "logo": "/logos/greentree-hospitality.png"
+    },
+    {
+      "id": "atour-yaduo-group",
+      "name_en": "Atour (Yaduo Group)",
+      "name_zh": "亚朵集团",
+      "sector": "hospitality",
+      "city": "shanghai",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "NASDAQ-listed hotel group (ATAT) headquartered in Shanghai, known for its mid-upscale \"lifestyle\" hotel positioning under the flagship Atour Hotel brand and for a significant share of revenue coming from retail sales of in-room products (bedding, pillows, sleep-related goods) through its own e-commerce channels.",
+      "desc_ru": "Гостиничная группа со штаб-квартирой в Шанхае, листингована на NASDAQ (ATAT); известна позиционированием отелей верхнего среднего сегмента («lifestyle») под флагманским брендом Atour Hotel, а также значительной долей выручки от розничных продаж товаров для номеров (постельное бельё, подушки, товары для сна) через собственные каналы e-commerce.",
+      "country": "cn",
+      "logo": "/logos/atour-yaduo-group.png"
+    },
+    {
+      "id": "kaiyuan-hotel-group",
+      "name_en": "Kaiyuan Hotel Group",
+      "name_zh": "开元酒店/开元旅业",
+      "sector": "hospitality",
+      "city": "hangzhou",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Zhejiang-based hotel group headquartered in Hangzhou, among the earliest domestically founded high-end hotel operators in China (established in the 1990s); listed in Hong Kong as Kaiyuan Hotels (1158.HK), it operates upscale business and resort hotels across China under the Kaiyuan Hotels & Resorts brand.",
+      "desc_ru": "Гостиничная группа со штаб-квартирой в Ханчжоу (провинция Чжэцзян), одна из первых китайских операторов отелей высокого класса, основанная в 1990-х годах; листингована в Гонконге как Kaiyuan Hotels (1158.HK), управляет бизнес- и курортными отелями верхнего сегмента по всему Китаю под брендом Kaiyuan Hotels & Resorts.",
+      "country": "cn",
+      "logo": "/logos/kaiyuan-hotel-group.png"
+    },
+    {
+      "id": "btg-hotels-group",
+      "name_en": "BTG Hotels Group",
+      "name_zh": "首旅酒店",
+      "sector": "hospitality",
+      "city": "beijing",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Formerly Beijing Tourism Group, a Beijing state-owned hotel group listed in Shanghai (SSE: 600258) with roots in the city's tourism and hospitality state assets; its portfolio includes Home Inn, Yitel and the upscale Nuo Hotels brand.",
+      "desc_ru": "Ранее Beijing Tourism Group — гостиничная группа, принадлежащая государству Пекина, листингована в Шанхае (SSE: 600258), исторически связана с городскими государственными активами в туризме и гостиничном деле; портфель включает бренды Home Inn, Yitel и премиальный бренд Nuo Hotels.",
+      "country": "cn",
+      "logo": "/logos/btg-hotels-group.png"
+    },
+    {
+      "id": "dossen-group",
+      "name_en": "Dossen Group",
+      "name_zh": "多胜",
+      "sector": "hospitality",
+      "city": "guangzhou",
+      "status": "plan",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "A Guangzhou-based hospitality group operating budget and midscale hotel brands concentrated in South China; a more regionally focused player than the nationally listed groups above, with fewer verifiable details in international public sources.",
+      "desc_ru": "Гостиничная группа со штаб-квартирой в Гуанчжоу, управляющая бюджетными и среднеценовыми гостиничными брендами, сосредоточенными на юге Китая; более регионально ориентированный игрок по сравнению с перечисленными выше публичными группами, при этом достоверных данных о компании в открытых международных источниках немного.",
+      "country": "cn",
+      "logo": "/logos/dossen-group.png"
     }
   ]
 }

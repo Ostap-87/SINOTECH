@@ -12734,6 +12734,195 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "hotel-giants-china",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "hospitality",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Китайские гостиничные гиганты",
+      "title_en": "China's Hotel Giants",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Jin Jiang · H World · Atour · BTG",
+      "tagline_en": "Jin Jiang · H World · Atour · BTG",
+      "positioning_ru": "Визиты к семи крупнейшим гостиничным операторам Китая в четырёх городах — от государственных гигантов до биржевых лидеров нового формата.",
+      "positioning_en": "Visits to seven of China's largest hotel operators across four cities — from state-owned giants to publicly listed lifestyle-brand leaders.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 7,
+        "flights": 2
+      },
+      "route_strategy": "shanghai-hangzhou-guangzhou-beijing",
+      "arrival_ru": "Шанхай (прилёт, Pudong / Hongqiao)",
+      "arrival_en": "Shanghai (arrival, Pudong / Hongqiao)",
+      "departure_ru": "Пекин (вылет из аэропорта Beijing Capital / Daxing)",
+      "departure_en": "Beijing (departure from Beijing Capital / Daxing airport)",
+      "route_cities": [
+        "shanghai",
+        "hangzhou",
+        "guangzhou",
+        "beijing"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "10:00–16:00",
+          "companies": [
+            "jin-jiang-international",
+            "h-world-group"
+          ],
+          "note_ru": "Блок «Государственные и биржевые гостиничные гиганты Шанхая»",
+          "note_en": "Block: state-owned and listed hotel giants of Shanghai"
+        },
+        {
+          "day": 2,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "10:00–16:00",
+          "companies": [
+            "greentree-hospitality",
+            "atour-yaduo-group"
+          ],
+          "note_ru": "Ночёвка в Шанхае",
+          "note_en": "Overnight in Shanghai"
+        },
+        {
+          "day": 3,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Ханчжоу",
+          "area_en": "Hangzhou",
+          "time": "14:00–16:00",
+          "companies": [
+            "kaiyuan-hotel-group"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Утром — скоростной поезд Шанхай → Ханчжоу (~1 ч)",
+          "transfer_en": "🚄 Morning — high-speed train Shanghai → Hangzhou (~1h)"
+        },
+        {
+          "day": 4,
+          "city": "guangzhou",
+          "city_ru": "Гуанчжоу",
+          "city_en": "Guangzhou",
+          "area_ru": "Гуанчжоу",
+          "area_en": "Guangzhou",
+          "time": "14:00–16:00",
+          "companies": [
+            "dossen-group"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Утром — перелёт Ханчжоу → Гуанчжоу (~2 ч)",
+          "transfer_en": "✈ Morning — flight Hangzhou → Guangzhou (~2h)"
+        },
+        {
+          "day": 5,
+          "city": "beijing",
+          "city_ru": "Пекин (финал)",
+          "city_en": "Beijing (finale)",
+          "area_ru": "Пекин",
+          "area_en": "Beijing",
+          "time": "14:00–16:00",
+          "companies": [
+            "btg-hotels-group"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Утром — перелёт Гуанчжоу → Пекин (~3 ч). Вечером — вылет из Пекина, завершение программы.",
+          "transfer_en": "✈ Morning — flight Guangzhou → Beijing (~3h). Evening departure from Beijing, end of the program."
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, поезда, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — domestic flights, trains, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом семи гостиничных групп — Jin Jiang International, H World Group, GreenTree Hospitality, Atour (Yaduo Group), Kaiyuan Hotel Group, Dossen Group, BTG Hotels Group",
+          "en": "Talks with top management at seven hotel groups — Jin Jiang International, H World Group, GreenTree Hospitality, Atour (Yaduo Group), Kaiyuan Hotel Group, Dossen Group, BTG Hotels Group"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на франчайзинг, управление и инвестиции в гостиничные активы",
+          "en": "Deal contacts — direct lines to franchising, management and hotel-asset investment"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "Внутренние перелёты, скоростные поезда, трансферы, такси, встреча / проводы в аэропорту",
+            "calc_en": "Domestic flights, high-speed trains, transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Китай — крупнейший в мире гостиничный рынок по числу номеров, где ведущие операторы работают по ассет-лайт франчайзинговым моделям, что делает их опыт масштабирования сети напрямую применимым для российских и СНГ гостиничных инвесторов и операторов.",
+      "market_note_en": "China is the world's largest hotel market by room count, with leading operators running asset-light franchise models — a scaling playbook directly relevant to hotel investors and operators from Russia and the CIS.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
