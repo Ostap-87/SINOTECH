@@ -11,13 +11,13 @@ import { Logo } from './Logo'
 const PRIMARY_LINKS = [
   { to: '/expeditions', label_ru: 'Экспедиции', label_en: 'Expeditions' },
   { to: '/corporate-training', label_ru: 'Корпоративное обучение', label_en: 'Corporate training' },
-  { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
+  { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
   { to: '/contacts', label_ru: 'Контакты', label_en: 'Contacts' },
 ]
 
 const RESOURCE_LINKS = [
   { to: '/blog', label_ru: 'Блог', label_en: 'Blog' },
-  { to: '/cases', label_ru: 'Кейсы', label_en: 'Cases' },
+  { to: '/consulting', label_ru: 'Консалтинг', label_en: 'Consulting' },
   { to: '/faq', label_ru: 'FAQ', label_en: 'FAQ' },
   { to: '/partners', label_ru: 'Партнеры', label_en: 'Partners' },
 ]
