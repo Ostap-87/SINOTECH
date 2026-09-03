@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useLanguage, pick } from '@/i18n/LanguageContext'
-import { toursData, companiesData, companyNameZh } from '@/data'
+import { toursData, companiesData, companyNameZh, eventTestimonials } from '@/data'
 import { ArcGallery } from '@/components/ArcGallery'
 import type { ArcGalleryItem } from '@/components/ArcGallery'
 import { CircularMediaCarousel } from '@/components/CircularMediaCarousel'
@@ -69,6 +69,47 @@ export function Cases() {
           ? 'Прошедшие экспедиции и визиты — наведите на карточку, чтобы выделить её, нажмите, чтобы открыть галерею.'
           : 'Past expeditions and visits — hover a card to bring it forward, click to open its gallery.'}
       </p>
+
+      {eventTestimonials.length > 0 && (
+        <div className="mt-16">
+          <h2 className="text-2xl font-medium tracking-[-0.02em] text-bone-white">
+            {locale === 'ru' ? 'Фото с прошедших мероприятий' : 'Photos from past events'}
+          </h2>
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {eventTestimonials.map((item) => {
+              const photo = item.media.find((m) => m.kind === 'photo' && !m.url.includes('REPLACE'))
+              const testimonial =
+                locale === 'ru' ? item.testimonial_ru || item.testimonial_en : item.testimonial_en || item.testimonial_ru
+              const author = locale === 'ru' ? item.author_ru || item.author_en : item.author_en || item.author_ru
+
+              return (
+                <div
+                  key={item.id}
+                  className="flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-surface/70 backdrop-blur-sm"
+                >
+                  {photo && (
+                    <img
+                      src={photo.url}
+                      alt={locale === 'ru' ? photo.caption_ru : photo.caption_en}
+                      className="aspect-[4/3] w-full object-cover"
+                      loading="lazy"
+                    />
+                  )}
+                  <div className="flex flex-1 flex-col p-5">
+                    <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                      {pick(item, 'title', locale)}
+                    </p>
+                    <p className="mt-3 flex-1 text-sm text-silver-mist">«{testimonial}»</p>
+                    {author && (
+                      <p className="mt-4 text-xs font-medium text-electric-iris">{author}</p>
+                    )}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       <div className="mt-16">
         <ArcGallery items={items} onSelect={(item) => setOpenTourId(item.id)} />

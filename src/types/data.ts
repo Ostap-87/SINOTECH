@@ -74,6 +74,34 @@ export interface BlogPost {
   author: string
 }
 
+export interface CaseStudyMedia {
+  kind: 'photo' | 'video'
+  url: string
+  thumb?: string
+  caption_en: string
+  caption_ru: string
+}
+
+export interface CaseStudy {
+  id: string
+  type: string
+  company?: string
+  sector?: string
+  title_en: string
+  title_ru: string
+  subtitle_en: string
+  subtitle_ru: string
+  date: string
+  cover: string
+  summary_en: string
+  summary_ru: string
+  media: CaseStudyMedia[]
+  testimonial_en?: string
+  testimonial_ru?: string
+  author_en?: string
+  author_ru?: string
+}
+
 export interface CompaniesData {
   meta: {
     project: string

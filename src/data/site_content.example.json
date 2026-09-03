@@ -69,6 +69,206 @@
       ],
       "testimonial_en": "",
       "testimonial_ru": ""
+    },
+    {
+      "id": "poizon-review-2026",
+      "type": "company",
+      "company": "poizon",
+      "title_ru": "Визит на Poizon (得物)",
+      "title_en": "Poizon (得物) visit",
+      "subtitle_ru": "Экспедиция «Новая розница / e-commerce»",
+      "subtitle_en": "‘New Retail / E-commerce’ expedition",
+      "date": "",
+      "cover": "/cases/poizon/1.jpg",
+      "summary_ru": "Делегация посетила Poizon (得物) — систему верификации подлинности товаров и логистику для рынка перепродажи.",
+      "summary_en": "The delegation visited Poizon (得物) to see its authenticity-verification system and resale-market logistics firsthand.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/poizon/1.jpg",
+          "caption_ru": "Визит на Poizon",
+          "caption_en": "Visit to Poizon"
+        }
+      ],
+      "testimonial_ru": "В рамках экспедиции Global Tech Tour посетили Poizon — было интересно увидеть изнутри, как построена система верификации подлинности товаров и логистика для рынка перепродажи. Организация визита была на высоком уровне: удалось пообщаться с представителями команды, отвечающими за развитие платформы, и получить ответы на конкретные вопросы по масштабированию модели на другие рынки. Полезный опыт для переосмысления собственных подходов к работе с маркетплейсом.",
+      "testimonial_en": "As part of the Global Tech Tour expedition, we visited Poizon — it was fascinating to see firsthand how their product-authenticity verification system and resale-market logistics are built. The visit was organized at a high level: we got to talk with the team members responsible for the platform's development and got answers to specific questions about scaling the model to other markets. A valuable experience for rethinking our own approach to working with marketplaces.",
+      "author_ru": "Дарья Чернова, руководитель управления маркетинга, Мегамаркет (Сбер)",
+      "author_en": "Daria Chernova, Head of Marketing Department, Megamarket (Sber)"
+    },
+    {
+      "id": "meituan-review-2026",
+      "type": "company",
+      "company": "meituan",
+      "title_ru": "Визит на Meituan",
+      "title_en": "Meituan visit",
+      "subtitle_ru": "Экспедиция «Новая розница / e-commerce»",
+      "subtitle_en": "‘New Retail / E-commerce’ expedition",
+      "date": "",
+      "cover": "/cases/meituan/1.jpg",
+      "summary_ru": "Визит на Meituan — разбор операционной модели доставки, локальных сервисов и юнит-экономики на больших объёмах.",
+      "summary_en": "A visit to Meituan focused on its delivery and local-services operating model and unit economics at scale.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/meituan/1.jpg",
+          "caption_ru": "Визит на Meituan",
+          "caption_en": "Visit to Meituan"
+        }
+      ],
+      "testimonial_ru": "Визит на Meituan в рамках экспедиции Global Tech Tour стал одним из самых насыщенных за всю поездку — масштаб их операционной модели в доставке и локальных сервисах впечатляет. Особенно ценно было разобрать, как компания выстраивает юнит-экономику на таких объёмах и как технологии интегрированы в каждый этап взаимодействия с клиентом. Отдельно отмечу профессионализм организаторов Global Tech Tour — программа была выстроена так, что мы получили содержательный диалог, а не формальную презентацию.",
+      "testimonial_en": "The Meituan visit during the Global Tech Tour expedition was one of the most content-rich stops of the whole trip — the scale of their delivery and local-services operating model is impressive. It was especially valuable to break down how the company builds unit economics at that scale and how technology is integrated into every stage of the customer interaction. I want to separately note the professionalism of the Global Tech Tour organizers — the program was structured so we got a substantive dialogue, not a formal presentation.",
+      "author_ru": "Егор Рожков, руководитель отдела аналитики, Мегамаркет (Сбер)",
+      "author_en": "Egor Rozhkov, Head of Analytics Department, Megamarket (Sber)"
+    },
+    {
+      "id": "baidu-review-2026",
+      "type": "company",
+      "company": "baidu",
+      "title_ru": "Визит на Baidu",
+      "title_en": "Baidu visit",
+      "subtitle_ru": "Экспедиция «Новая розница / e-commerce»",
+      "subtitle_en": "‘New Retail / E-commerce’ expedition",
+      "date": "2026-05-21",
+      "cover": "/cases/baidu/1.jpg",
+      "summary_ru": "Визит на Baidu — разговор по существу об обработке больших данных, безопасности пользователей и поездка на беспилотном такси.",
+      "summary_en": "A visit to Baidu with a substantive talk on big-data processing, user safety, and a ride in a self-driving taxi.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/baidu/1.jpg",
+          "caption_ru": "Визит на Baidu",
+          "caption_en": "Visit to Baidu"
+        }
+      ],
+      "testimonial_ru": "Если честно, от визита к Baidu не ждал ничего сверх стандартной экскурсии, но реально удивили. Мы ж по большим данным и безопасности работаем, и там как раз было с кем поговорить по делу — не общие слова про «инновации», а конкретика: как у них устроена обработка данных на таких объёмах, как защищают пользователей, какие подходы к безопасности используют. Сидели, разбирали кейсы, задавали вопросы — и получали внятные ответы, а не отписки. 2,5 часа пролетели вообще незаметно. А еще Остап Доценко умудрился договориться, чтобы нас прокатили на беспилотном такси — это отдельный восторг, не каждый день такое видишь вживую. Ребята из Global Tech Tour молодцы, что подобрали именно тех людей, с кем действительно есть о чём поговорить.",
+      "testimonial_en": "Honestly, I didn't expect much more than a standard tour from the Baidu visit, but they really surprised us. We work in big data and security, and there we actually had people to talk shop with — not generic talk about \"innovation\" but specifics: how they handle data processing at that scale, how they protect users, what security approaches they use. We sat down, went through real cases, asked questions, and got clear answers instead of brush-offs. 2.5 hours flew by. Ostap Dotsenko even managed to arrange a ride in a self-driving taxi for us — a real treat, not something you see in person every day. Great job by the Global Tech Tour team picking exactly the people worth talking to.",
+      "author_ru": "Василий Д., руководитель департамента",
+      "author_en": "Vasily D., Department Head"
+    },
+    {
+      "id": "xiaomi-review-2026",
+      "type": "company",
+      "company": "xiaomi",
+      "title_ru": "Визит на завод Xiaomi",
+      "title_en": "Xiaomi factory visit",
+      "subtitle_ru": "Экспедиция «Авто/EV»",
+      "subtitle_en": "‘Auto/EV’ expedition",
+      "date": "2026-04-14",
+      "cover": "/cases/xiaomi/1.jpg",
+      "summary_ru": "Визит на завод Xiaomi по производству электромобилей в Пекине — линия сборки и максимальная роботизация производства.",
+      "summary_en": "A visit to Xiaomi's EV factory in Beijing — the assembly line and near-total production automation.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/xiaomi/1.jpg",
+          "caption_ru": "Завод Xiaomi по производству электромобилей",
+          "caption_en": "Xiaomi's EV factory"
+        }
+      ],
+      "testimonial_ru": "В рамках посещения тура, посетили завод Xiaomi в Пекине — и это был один из самых сильных визитов за всю поездку. Удивил темп, с которым компания зашла в автопром и выстроила производство на уровне, сопоставимом с игроками, работающими в отрасли десятилетиями. Увидели вживую линию сборки и практически максимальную роботизацию, пообщались с представителями инженерной и производственной команды — все по факту. Отдельное спасибо Остапу Доценко за то, что программа была выстроена с реальным понимание процессов, а не как экскурсия по музею.",
+      "testimonial_en": "As part of the tour, we visited Xiaomi's factory in Beijing — one of the strongest visits of the whole trip. The pace at which the company entered the auto industry and built production on par with players who've been in the business for decades was striking. We saw the assembly line and near-total automation firsthand, and talked with the engineering and production team — all substance, no fluff. Special thanks to Ostap Dotsenko for structuring the program around a real understanding of the processes, not a museum-style tour.",
+      "author_ru": "Серик Кадирбаев, генеральный директор, Shanghai Motors",
+      "author_en": "Serik Kadirbayev, CEO, Shanghai Motors"
+    },
+    {
+      "id": "byd-review-2026",
+      "type": "company",
+      "company": "byd",
+      "title_ru": "Визит на завод и R&D центр BYD",
+      "title_en": "BYD factory & R&D center visit",
+      "subtitle_ru": "Экспедиция «Авто/EV»",
+      "subtitle_en": "‘Auto/EV’ expedition",
+      "date": "2026-05-21",
+      "cover": "/cases/byd/1.jpg",
+      "summary_ru": "Визит на завод и R&D центр BYD — полный цикл производства на месте, от батарей до готовой машины.",
+      "summary_en": "A visit to BYD's factory and R&D center — the full production cycle on-site, from batteries to finished car.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/byd/1.jpg",
+          "caption_ru": "Завод и R&D центр BYD",
+          "caption_en": "BYD factory and R&D center"
+        }
+      ],
+      "testimonial_ru": "Посетили завод и R&D центр BYD — честно, впечатлений много. Не ожидал увидеть полный цикл производства прямо на месте: от батарей до готовой машины, всё в одном месте, всё работает как часы. Пообщались с людьми и администрацией, которые реально в теме технологий и локализации — не менеджеры для галочки, а те, кто разбирается в процессах. Задавали вопросы, получали нормальные развёрнутые ответы, без воды. Из мелочей: организация была настолько слаженной, что даже не задумывался о логистике — всё просто происходило вовремя, без задержек и накладок. Казалось бы, почти 2 с лишним часа на общение и демонстрацию, но они пролетели как 10 минут. Видно, что к деталям подход внимательный.",
+      "testimonial_en": "We visited BYD's factory and R&D center — honestly, a lot of impressions. I didn't expect to see the full production cycle on-site: from batteries to a finished car, all in one place, running like clockwork. We talked with people and management who are genuinely knowledgeable about the technology and localization — not box-checking managers, but people who understand the processes. We asked questions and got proper, detailed answers, no filler. As a small detail: the organization was so seamless that I never even thought about logistics — everything just happened on time, no delays or mishaps. Over two hours of conversation and demonstrations flew by like ten minutes. You can tell the attention to detail is real.",
+      "author_ru": "Игорь К., генеральный директор, АвтоИмпортТех",
+      "author_en": "Igor K., CEO, AvtoImportTech"
+    },
+    {
+      "id": "leju-robotics-gtt-review-2026",
+      "type": "company",
+      "company": "leju-robotics",
+      "title_ru": "Визит на Leju Robotics",
+      "title_en": "Leju Robotics visit",
+      "subtitle_ru": "Экспедиция Robotics Expedition",
+      "subtitle_en": "Robotics Expedition",
+      "date": "",
+      "cover": "/cases/leju-robotics/1.jpg",
+      "summary_ru": "Отдельный заезд в Сучжоу на Leju Robotics — разработка гуманоидных роботов и процесс их тестирования.",
+      "summary_en": "A dedicated detour to Suzhou to visit Leju Robotics — humanoid robot development and testing processes.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/leju-robotics/1.jpg",
+          "caption_ru": "Визит на Leju Robotics",
+          "caption_en": "Visit to Leju Robotics"
+        }
+      ],
+      "testimonial_ru": "Заезд на Leju Robotics оказался отдельным пунктом программы, так как это отдельный город и нужно было отклониться от стандартного маршрута и заехать в Сучжоу, но мы не пожалели. Увидели, как компания подходит к разработке гуманоидных роботов — начиная с инженерных решений и заканчивая тем, как выстроен процесс тестирования. Общались напрямую с технической командой, вопросы были предметные — по применению их разработок в промышленных сценариях, что для нас особенно актуально, сейчас активно развиваем коммуникацию и команда Остапа активно помогает в этом. Удивило, что у этой компании максимально гибкий подход к созданию и внедрению роботов, да еще и два завода с огромными мощностями.",
+      "testimonial_en": "The Leju Robotics stop turned into a separate part of the program — it's a different city, so we had to detour from the standard route to Suzhou, but it was worth it. We saw how the company approaches humanoid robot development, from engineering decisions through to how their testing process is structured. We spoke directly with the technical team, and the questions were specific — about applying their developments in industrial scenarios, which is especially relevant for us right now as we're actively building that relationship, and Ostap's team is actively helping with it. What surprised us was how flexible their approach to building and deploying robots is, on top of having two factories with huge capacity.",
+      "author_ru": "Александр Ткачев, технический директор, ГК ИнжТэк",
+      "author_en": "Alexander Tkachev, CTO, InzhTek Group"
+    },
+    {
+      "id": "central-kitchen-besta-review-2026",
+      "type": "company",
+      "company": "central-kitchen-besta",
+      "title_ru": "Визит на Central Kitchen Besta",
+      "title_en": "Central Kitchen Besta visit",
+      "subtitle_ru": "Индивидуальный тур по производствам готовой еды и центральным кухням",
+      "subtitle_en": "Custom tour of ready-meal production and central kitchens",
+      "date": "",
+      "cover": "/cases/central-kitchen-besta/1.jpg",
+      "summary_ru": "Визит на Central Kitchen Besta — производство площадью 20 000 м², максимально автоматизированное от заготовок до готового блюда.",
+      "summary_en": "A visit to Central Kitchen Besta — a 20,000 sqm facility, highly automated from raw ingredients to finished dish.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/central-kitchen-besta/1.jpg",
+          "caption_ru": "Производство Central Kitchen Besta",
+          "caption_en": "Central Kitchen Besta production floor"
+        }
+      ],
+      "testimonial_ru": "Заехали на Central Kitchen Besta всей делегацией. Площадь у них 20 000 квадратных метров, и весь путь от заготовок до готового блюда максимально автоматизирован — людей на производстве практически не видно, всё роботизировано. Есть отдельный цех выпечки, цех мясных блюд — и удивительно, как всё это работает при таком небольшом количестве персонала и насколько быстро можно перестроить процесс. А ещё показали центр управления процессами — выглядит как на космическом корабле. Организовано было легко, без беготни, всё по плану. Остапа и его компанию нам посоветовали друзья из Узбекистана, которым он помогал ранее в организации посещений крупных предприятий, мы остались очень довольны.",
+      "testimonial_en": "We visited Central Kitchen Besta as a full delegation. Their facility spans 20,000 square meters, and the entire path from raw ingredients to a finished dish is highly automated — you barely see any people on the production floor, it's all robotic. There's a dedicated baking shop, a meat-dishes shop — and it's remarkable how it all runs with so little staff and how quickly the process can be reconfigured. They also showed us the process control center, which looks like something out of a spaceship. It was organized smoothly, no rushing around, everything on schedule. Friends of ours from Uzbekistan, whom Ostap had previously helped organize visits to major enterprises, recommended him and his company to us — we were very satisfied.",
+      "author_ru": "Кушан Сатыпбаев, главный технолог, ГлобусФуд (Кыргызстан)",
+      "author_en": "Kushan Satypbayev, Chief Technologist, GlobusFood (Kyrgyzstan)"
+    },
+    {
+      "id": "megamarket-forum-project-2026",
+      "type": "event",
+      "company": "megamarket",
+      "title_ru": "Организация форума для Мегамаркет (Сбер)",
+      "title_en": "Forum organized for Megamarket (Sber)",
+      "subtitle_ru": "Корпоративный форум на 1200 участников · Шэньчжэнь, Китай",
+      "subtitle_en": "Corporate forum for 1,200 attendees · Shenzhen, China",
+      "date": "",
+      "cover": "/cases/megamarket-forum/1.jpg",
+      "summary_ru": "Полный цикл организации корпоративного форума для Мегамаркета (Сбер) в Шэньчжэне — более 1200 участников.",
+      "summary_en": "Full-cycle organization of a corporate forum for Megamarket (Sber) in Shenzhen — over 1,200 attendees.",
+      "media": [
+        {
+          "kind": "photo",
+          "url": "/cases/megamarket-forum/1.jpg",
+          "caption_ru": "Форум для Мегамаркета в Шэньчжэне",
+          "caption_en": "Megamarket forum in Shenzhen"
+        }
+      ],
+      "testimonial_ru": "Организовали и провели масштабный корпоративный форум для команды Мегамаркета — более 1200 участников, полный цикл подготовки и сопровождения на месте: логистика прилёта и размещения делегации, площадка и техническое оснащение, деловая программа с визитами на профильные предприятия Шэньчжэня и встречи с предпринимателями провинции.",
+      "testimonial_en": "We organized and ran a large-scale corporate forum for the Megamarket team — over 1,200 attendees, with a full cycle of preparation and on-site support: arrival and accommodation logistics for the delegation, venue and technical setup, and a business program with visits to relevant Shenzhen enterprises and meetings with local entrepreneurs.",
+      "author_ru": "Команда GlobalTechTour",
+      "author_en": "The GlobalTechTour team"
     }
   ],
   "blog": [

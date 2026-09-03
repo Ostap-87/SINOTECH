@@ -1,7 +1,7 @@
 import companiesRaw from './companies.json'
 import toursRaw from './tours.json'
 import siteContentRaw from './site_content.example.json'
-import type { CompaniesData, Company, BlogPost } from '@/types/data'
+import type { CompaniesData, Company, BlogPost, CaseStudy } from '@/types/data'
 
 export const companiesData = companiesRaw as CompaniesData
 export const toursData = toursRaw
@@ -22,6 +22,22 @@ export const blogPosts: BlogPost[] = [...(siteContentRaw.blog as BlogPost[])].so
 export function getBlogPost(slug: string) {
   return blogPosts.find((post) => post.slug === slug)
 }
+
+/**
+ * Case studies with a real participant testimonial and real (non-placeholder)
+ * photo — powers the "Фото с прошедших мероприятий" section on /cases.
+ * `cases` in site_content.example.json ships with REPLACE-prefixed example
+ * URLs and empty testimonials for entries not yet filled in; those are
+ * filtered out here so the section never shows a broken image or an empty
+ * quote — add real photo URLs + testimonial_ru/en to publish one.
+ */
+export const eventTestimonials: CaseStudy[] = (siteContentRaw.cases as CaseStudy[])
+  .filter(
+    (c) =>
+      (c.testimonial_ru || c.testimonial_en) &&
+      c.media.some((m) => m.kind === 'photo' && !m.url.includes('REPLACE')),
+  )
+  .sort((a, b) => b.date.localeCompare(a.date))
 
 const cityById = new Map(companiesData.cities.map((city) => [city.id, city]))
 const sectorByCode = new Map(companiesData.sectors.map((sector) => [sector.code, sector]))
