@@ -64,11 +64,6 @@ export function Cases() {
       <h1 className="mt-6 max-w-2xl text-[36px] font-normal leading-[1.1] tracking-[-0.03em] sm:text-[48px] lg:text-[56px]">
         <RevealText text={locale === 'ru' ? 'Кейсы' : 'Cases'} />
       </h1>
-      <p className="mt-4 max-w-xl text-lg font-normal text-silver-mist">
-        {locale === 'ru'
-          ? 'Прошедшие экспедиции и визиты — наведите на карточку, чтобы выделить её, нажмите, чтобы открыть галерею.'
-          : 'Past expeditions and visits — hover a card to bring it forward, click to open its gallery.'}
-      </p>
 
       {eventTestimonials.length > 0 && (
         <div className="mt-16">
