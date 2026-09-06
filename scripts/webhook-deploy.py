@@ -10,16 +10,19 @@ On a valid push to BRANCH: fetches, hard-resets to it, npm ci + build.
 Since nginx serves dist/ straight from disk, a successful build IS the
 deploy — no reload/restart needed afterwards.
 
-After a successful build, also publishes any new content/pending/*.json
-files to Telegram (see publish_pending() below) — this is how the
-assistant ships an article/post: write the JSON file, commit, push. The
-assistant's own sandboxed session can't reach api.telegram.org or even
-globaltechtour.ru directly (network policy), but this script runs ON the
-VPS, which has normal outbound internet — so publishing piggybacks on
-the one channel that reliably works end-to-end: a git push.
+Telegram posts are NOT published from here (see claude-control's
+data/editorial-policy.md, "Доставка в канал в момент слота") — that used
+to go through content/pending/*.json + this deploy, but it was replaced
+because a post physically couldn't go out until the (sometimes slow or
+failing) full site rebuild finished. The current path is
+data/tg-queue/<project>/ -> data/tg-publish/<project>/ in the
+claude-control repo, delivered straight to Telegram by
+command-poller.py (a separate systemd service on this same VPS) —
+entirely independent of this deploy. Do not reintroduce a
+content/pending-based Telegram publish step here.
 
-Same reasoning applies to image generation: the assistant's sandbox also
-can't reach Higgsfield's API directly, but this VPS can — see
+Image generation is a separate, still-live mechanism: the assistant's
+sandbox can't reach Higgsfield's API directly, but this VPS can — see
 process_pending_images() / image_gen.py, triggered by pushing a request to
 content/pending-images/*.json.
 """
@@ -27,13 +30,10 @@ import hashlib
 import hmac
 import json
 import os
-import sqlite3
 import subprocess
 import threading
-import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from telegram_client import publish_item
 from image_gen import process_pending_images
 
 SECRET = os.environ["WEBHOOK_SECRET"].encode()
@@ -41,10 +41,6 @@ BRANCH = "claude/sinotech-voyage-setup"
 APP_DIR = "/var/www/globaltechtour"
 LOG_PATH = "/var/log/gh-webhook-deploy.log"
 PORT = 9000
-
-CONTENT_PUBLISH_ENV = "/etc/content-publish.env"
-CONTENT_DB_PATH = "/var/lib/content-publish/history.db"
-PENDING_DIR = os.path.join(APP_DIR, "content", "pending")
 
 PENDING_IMAGES_DIR = os.path.join(APP_DIR, "content", "pending-images")
 MEDIA_DIR = "/var/www/globaltechtour-media"
@@ -67,99 +63,6 @@ pending_lock = threading.Lock()
 def log(msg):
     with open(LOG_PATH, "a") as f:
         f.write(msg.rstrip() + "\n")
-
-
-def load_env_file(path):
-    values = {}
-    if not os.path.exists(path):
-        return values
-    with open(path) as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            key, _, value = line.partition("=")
-            values[key.strip()] = value.strip()
-    return values
-
-
-def publish_pending():
-    """Send any content/pending/*.json files not yet recorded in the
-    shared content-publish history DB. Idempotent across redeploys —
-    `git reset --hard` doesn't touch the untracked SQLite DB, and files
-    stay in content/pending/ (nothing here deletes or moves them), so
-    each slug is only ever sent once."""
-    env = load_env_file(CONTENT_PUBLISH_ENV)
-    bot_token = env.get("TELEGRAM_BOT_TOKEN")
-    chat_id = env.get("TELEGRAM_CHAT_ID")
-    if not bot_token or not chat_id:
-        return  # content-publish not set up yet — nothing to do
-
-    if not os.path.isdir(PENDING_DIR):
-        return
-
-    os.makedirs(os.path.dirname(CONTENT_DB_PATH), exist_ok=True)
-    conn = sqlite3.connect(CONTENT_DB_PATH)
-    conn.execute(
-        """
-        CREATE TABLE IF NOT EXISTS posts (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            project TEXT NOT NULL,
-            channel TEXT NOT NULL,
-            title TEXT,
-            text TEXT NOT NULL,
-            status TEXT NOT NULL,
-            error TEXT,
-            created_at INTEGER NOT NULL,
-            slug TEXT UNIQUE
-        )
-        """
-    )
-
-    for filename in sorted(os.listdir(PENDING_DIR)):
-        if not filename.endswith(".json"):
-            continue
-        slug = filename[: -len(".json")]
-        existing = conn.execute(
-            "SELECT status FROM posts WHERE slug = ? AND channel = 'telegram'", (slug,)
-        ).fetchone()
-        if existing and existing[0] == "published":
-            continue  # only a confirmed success is final; retry anything else
-
-        with open(os.path.join(PENDING_DIR, filename)) as f:
-            item = json.load(f)
-
-        text = item.get("text")
-        if not text:
-            log(f"Skipping {filename}: no 'text' field")
-            continue
-
-        # Optional cover media: "image" or "video" is a fully-qualified
-        # https:// URL (Telegram fetches it itself, so it must already be
-        # live — i.e. committed under public/ in the same push as this
-        # pending file, so the build serves it before this code runs).
-        media_url = item.get("image") or item.get("video")
-        media_kind = "video" if item.get("video") else "photo"
-        ok, detail = publish_item(bot_token, chat_id, text, media_url, media_kind)
-        conn.execute(
-            "INSERT INTO posts (project, channel, title, text, status, error, created_at, slug) "
-            "VALUES (?, 'telegram', ?, ?, ?, ?, ?, ?) "
-            "ON CONFLICT(slug) DO UPDATE SET status = excluded.status, error = excluded.error, "
-            "created_at = excluded.created_at",
-            (
-                item.get("project", "globaltechtour"),
-                item.get("title"),
-                text,
-                "published" if ok else "failed",
-                None if ok else detail,
-                int(time.time()),
-                slug,
-            ),
-        )
-        conn.commit()
-        log(f"content-publish[{slug}]: {'OK' if ok else 'FAILED — ' + detail}")
-
-    conn.close()
 
 
 def run_deploy():
@@ -206,16 +109,11 @@ def _run_deploy_once():
             log(f"=== Deploy FAILED at: {' '.join(cmd)} ===")
             return
 
-    # Phase 2: publish to Telegram BEFORE the full site rebuild, not
-    # after. The full rebuild (npm ci + vite build + prerendering
-    # ~1050 routes) can take 10-20+ minutes on this VPS and can fail
-    # outright — neither should ever be able to block or delay a
-    # Telegram post. A quick `rsync` of public/ into dist/ (a few
-    # hundred ms, not a real build) is enough to make any new cover
-    # image referenced by a pending post immediately fetchable by
-    # Telegram; the full build further below reproduces the same
-    # files in dist/ again as a normal side effect, so this is purely
-    # a "make it live sooner" step, not a shortcut that skips
+    # Phase 2: a quick `rsync` of public/ into dist/ (a few hundred ms,
+    # not a real build) makes any newly-generated media immediately
+    # fetchable before the (slower, occasionally failing) full rebuild
+    # below reproduces the same files as a normal side effect — so this
+    # is purely a "make it live sooner" step, not a shortcut that skips
     # anything the real build does.
     os.makedirs(os.path.join(APP_DIR, "dist"), exist_ok=True)
     result = subprocess.run(
@@ -224,19 +122,14 @@ def _run_deploy_once():
     log(f"$ rsync -a public/ dist/\n{result.stdout}\n{result.stderr}")
     if result.returncode != 0:
         log("rsync of public/ -> dist/ failed (non-fatal, continuing) — "
-            "brand-new cover images may 404 until the full build finishes")
-
-    try:
-        publish_pending()
-    except Exception as e:
-        log(f"publish_pending() error: {e}")
+            "brand-new media may 404 until the full build finishes")
 
     try:
         process_pending_images(PENDING_IMAGES_DIR, MEDIA_DIR, IMAGE_DB_PATH, log=log)
     except Exception as e:
         log(f"process_pending_images() error: {e}")
 
-    log("=== Content synced & published, starting full site rebuild ===")
+    log("=== Content synced, starting full site rebuild ===")
 
     # Phase 3: the slow part. A failure here no longer takes Telegram
     # down with it — worst case the site keeps serving the previous
