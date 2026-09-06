@@ -7,6 +7,14 @@
 # Usage (as root on the VPS):
 #   curl -fsSL https://raw.githubusercontent.com/Ostap-87/SINOTECH/claude/sinotech-voyage-setup/scripts/deploy-vps.sh -o deploy-vps.sh
 #   bash deploy-vps.sh
+#
+# NOTE (2026-09-06): after certbot issues HTTPS (see the reminder printed at
+# the end of this script), run scripts/fix-soft-404-and-www.sh instead of
+# re-running this file again — it carries the same try_files/404 fix PLUS
+# the www/.com -> apex redirect, which this HTTP-only bootstrap template
+# does not include. Re-running this script post-HTTPS would silently drop
+# the www redirect again (that happened once already — see
+# fix-soft-404-and-www.sh's own header comment for the full story).
 set -euo pipefail
 
 PRIMARY_DOMAIN="globaltechtour.ru"
@@ -43,10 +51,12 @@ server {
     index index.html;
 
     location / {
-        try_files \$uri \$uri/ /index.html;
+        try_files \$uri \$uri/ =404;
     }
 
+    error_page 404 /index.html;
     location = /index.html {
+        internal;
         add_header Cache-Control "no-cache, no-store, must-revalidate";
     }
 
