@@ -15,6 +15,18 @@
 # from the live config (media alias, gh-webhook + content-publish proxies)
 # that a from-scratch template would have silently dropped.
 #
+# INCIDENT 07.09.2026: the first run of this exact script (before this
+# fix) DID silently drop one such block — /api/lead (proxy to
+# lead-intake.py on 127.0.0.1:8090, see scripts/lead-intake.py), because
+# whoever wrote the location list here missed it. Result: the Contacts
+# page's "Оставить заявку" form started failing with a generic network
+# error, discovered only when a real user tried to submit a lead — not
+# caught by the script's own post-run checklist (which never checked
+# /api/lead). Re-running this corrected version restores it. If you add
+# ANY new nginx-proxied backend to this site in the future, add its
+# location block here too, or it will vanish the next time this script
+# runs.
+#
 # 1. "Некорректно настроено отображение несуществующих файлов и страниц"
 #    (soft 404s). try_files ... /index.html served the SPA shell with HTTP
 #    200 for ANY unknown path, real or not (verified: curl a nonsense path,
@@ -94,6 +106,12 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 
+    location /api/lead {
+        proxy_pass http://127.0.0.1:8090;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
     listen 443 ssl; # managed by Certbot
     ssl_certificate /etc/letsencrypt/live/globaltechtour.ru/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/globaltechtour.ru/privkey.pem; # managed by Certbot
@@ -129,3 +147,5 @@ echo "Проверка 3 (www -> редирект на апекс):"
 echo "  curl -sI https://www.globaltechtour.ru/ | head -3"
 echo "Проверка 4 (деплой-вебхук всё ещё работает):"
 echo "  curl -s -o /dev/null -w '%{http_code}\n' https://globaltechtour.ru/gh-webhook"
+echo "Проверка 5 (форма заявок /api/lead всё ещё работает, ожидаем НЕ 404):"
+echo "  curl -s -o /dev/null -w '%{http_code}\n' -X POST https://globaltechtour.ru/api/lead -H 'Content-Type: application/json' -d '{}'"
