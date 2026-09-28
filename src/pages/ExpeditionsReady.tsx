@@ -83,43 +83,53 @@ export function ExpeditionsReady() {
               key={tour.tour_id}
               to={`/expeditions/${tour.tour_id}`}
               onClick={(event) => goTo(`/expeditions/${tour.tour_id}`, event)}
-              className="group flex flex-col rounded-2xl border border-black/10 bg-surface/70 p-5 backdrop-blur-sm transition-colors hover:border-electric-iris/60 hover:bg-surface/90"
+              className="group flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-surface/70 backdrop-blur-sm transition-colors hover:border-electric-iris/60 hover:bg-surface/90"
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
-                {pick(tour, 'eyebrow', locale)}
-              </p>
-              <h2 className="mt-2 text-xl font-medium tracking-[-0.02em] text-bone-white">
-                {pick(tour, 'title', locale)}
-              </h2>
-              <p className="mt-1 text-sm text-electric-iris">{pick(tour, 'tagline', locale)}</p>
-              <p className="mt-3 flex-1 text-sm text-silver-mist">{pick(tour, 'positioning', locale)}</p>
+              {tour.cover && (
+                <img
+                  src={tour.cover}
+                  alt=""
+                  loading="lazy"
+                  className="h-40 w-full object-cover object-bottom"
+                />
+              )}
+              <div className="flex flex-1 flex-col p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.025em] text-ash-gray">
+                  {pick(tour, 'eyebrow', locale)}
+                </p>
+                <h2 className="mt-2 text-xl font-medium tracking-[-0.02em] text-bone-white">
+                  {pick(tour, 'title', locale)}
+                </h2>
+                <p className="mt-1 text-sm text-electric-iris">{pick(tour, 'tagline', locale)}</p>
+                <p className="mt-3 flex-1 text-sm text-silver-mist">{pick(tour, 'positioning', locale)}</p>
 
-              <div className="mt-5 flex items-center justify-between border-t border-black/10 pt-4">
-                <div className="flex gap-4 text-xs text-ash-gray">
-                  <span>
-                    <span className="font-semibold text-bone-white">{tour.stats.cities}</span>{' '}
-                    {locale === 'ru' ? 'города' : 'cities'}
-                  </span>
-                  <span>
-                    <span className="font-semibold text-bone-white">{tour.stats.days}</span>{' '}
-                    {locale === 'ru' ? 'дней' : 'days'}
-                  </span>
-                  <span>
-                    <span className="font-semibold text-bone-white">{tour.stats.companies}</span>{' '}
-                    {locale === 'ru' ? 'компаний' : 'companies'}
-                  </span>
+                <div className="mt-5 flex items-center justify-between border-t border-black/10 pt-4">
+                  <div className="flex gap-4 text-xs text-ash-gray">
+                    <span>
+                      <span className="font-semibold text-bone-white">{tour.stats.cities}</span>{' '}
+                      {locale === 'ru' ? 'города' : 'cities'}
+                    </span>
+                    <span>
+                      <span className="font-semibold text-bone-white">{tour.stats.days}</span>{' '}
+                      {locale === 'ru' ? 'дней' : 'days'}
+                    </span>
+                    <span>
+                      <span className="font-semibold text-bone-white">{tour.stats.companies}</span>{' '}
+                      {locale === 'ru' ? 'компаний' : 'companies'}
+                    </span>
+                  </div>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="shrink-0 text-ash-gray transition-transform group-hover:translate-x-1 group-hover:text-electric-iris"
+                  >
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
                 </div>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className="shrink-0 text-ash-gray transition-transform group-hover:translate-x-1 group-hover:text-electric-iris"
-                >
-                  <path d="M5 12h14M13 6l6 6-6 6" />
-                </svg>
               </div>
             </LocaleLink>
           ))}
