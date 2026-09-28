@@ -1308,6 +1308,17 @@
       "lat": 22.3193,
       "lng": 114.1694,
       "country": "cn"
+    },
+    {
+      "id": "jiangmen",
+      "name_en": "Jiangmen",
+      "name_ru": "Цзянмэнь",
+      "province_en": "Guangdong",
+      "province_ru": "Гуандун",
+      "region": "south",
+      "lat": 22.58,
+      "lng": 113.08,
+      "country": "cn"
     }
   ],
   "companies": [
@@ -16276,6 +16287,81 @@
       "desc_ru": "The Murray, a Niccolo Hotel Hong Kong, работающий под брендом Niccolo группы Wharf Hotels, — показательный кейс адаптивного повторного использования: бывшее правительственное здание в стиле брутализм (Murray Building) преобразовано в люксовый отель, иллюстрируя подход к конверсии исторических зданий в современном гостиничном дизайне.",
       "country": "cn",
       "logo": "/logos/the-murray-niccolo-hongkong.png"
+    },
+    {
+      "id": "wedome",
+      "name_en": "Wedome",
+      "name_zh": "味多美",
+      "sector": "food",
+      "city": "beijing",
+      "country": "cn",
+      "desc_en": "Beijing-based bakery-cafe chain, one of the capital's most recognizable cake and pastry brands with a dense network of neighborhood stores.",
+      "desc_ru": "Пекинская сеть пекарен-кафе, один из самых узнаваемых в столице брендов тортов и выпечки с плотной сетью районных магазинов.",
+      "logo": "/logos/Wedome.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null
+    },
+    {
+      "id": "ganso",
+      "name_en": "Ganso",
+      "name_zh": "元祖食品",
+      "sector": "food",
+      "city": "shanghai",
+      "country": "cn",
+      "desc_en": "Shanghai-founded gift-cake and mooncake brand, a pioneer of China's premium gifting confectionery category with decades of retail presence.",
+      "desc_ru": "Шанхайский бренд подарочных тортов и лунных пряников, один из пионеров категории премиальной подарочной кондитерки Китая с десятилетиями присутствия в рознице.",
+      "logo": "/logos/Ganso.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null
+    },
+    {
+      "id": "85c",
+      "name_en": "85°C",
+      "name_zh": "85度C",
+      "sector": "food",
+      "city": "shanghai",
+      "country": "cn",
+      "desc_en": "Taiwan-founded bakery-cafe chain combining coffee and pastry under one roof, with a large mainland China footprint centered on Shanghai.",
+      "desc_ru": "Тайваньская сеть пекарен-кафе, совмещающая кофейню и выпечку под одной крышей, с большой сетью на материковом Китае с центром в Шанхае.",
+      "logo": "/logos/85C.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null
+    },
+    {
+      "id": "xingfu-xibing",
+      "name_en": "Xingfu Xibing",
+      "name_zh": "幸福西饼",
+      "sector": "food",
+      "city": "shenzhen",
+      "country": "cn",
+      "desc_en": "Shenzhen-based online-order cake brand built on a direct-delivery model, one of South China's fastest-growing dessert chains.",
+      "desc_ru": "Шэньчжэньский бренд тортов на заказ онлайн с прямой доставкой, один из самых быстрорастущих десертных брендов Южного Китая.",
+      "logo": "/logos/XingfuXibing.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null
+    },
+    {
+      "id": "maxims-cakes",
+      "name_en": "Maxim's Cakes",
+      "name_zh": "美心西饼",
+      "sector": "food",
+      "city": "jiangmen",
+      "country": "cn",
+      "desc_en": "Hong Kong-founded bakery chain with a major production facility in Jiangmen, Guangdong, one of the best-known cake brands across South China.",
+      "desc_ru": "Гонконгская сеть пекарен с крупным производством в Цзянмэне (провинция Гуандун), один из самых известных брендов тортов Южного Китая.",
+      "logo": "/logos/MaximsCakes.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null
     }
   ]
 }

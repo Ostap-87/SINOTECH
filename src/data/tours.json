@@ -13285,6 +13285,198 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "confectionery-expedition",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Confectionery Expedition",
+      "title_en": "Confectionery Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Recipe · Brand · Scale",
+      "tagline_en": "Recipe · Brand · Scale",
+      "positioning_ru": "Визиты в ведущие сети тортов и десертов Китая и на производство Maxim's. Прямой доступ к брендам, куда не попасть самостоятельно.",
+      "positioning_en": "Visits to China's leading cake and dessert chains and Maxim's production site. Direct access to brands you can't reach on your own.",
+      "stats": {
+        "cities": 5,
+        "days": 5,
+        "nights": 6,
+        "companies": 8,
+        "flights": 2
+      },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (Moscow → Beijing)",
+      "departure_ru": "Гуанчжоу (→ Москва)",
+      "departure_en": "Guangzhou (→ Moscow)",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "shenzhen",
+        "jiangmen",
+        "guangzhou"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Пекин",
+          "area_en": "Beijing",
+          "time": "10:30–16:30",
+          "companies": [
+            "holiland",
+            "wedome"
+          ],
+          "note_ru": "Лидеры рынка тортов и десертов",
+          "note_en": "Cake & dessert market leaders"
+        },
+        {
+          "day": 2,
+          "city": "beijing",
+          "city_ru": "Пекин → Шанхай",
+          "city_en": "Beijing → Shanghai",
+          "area_ru": "Пекин",
+          "area_en": "Beijing",
+          "time": "09:30–11:30",
+          "companies": [
+            "21cake"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ ~15:00 → Шанхай (или 🚆 скоростной поезд, 4,5–5,5 ч)",
+          "transfer_en": "✈ ~15:00 → Shanghai (or 🚆 high-speed train, 4.5–5.5 h)"
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 1",
+          "city_en": "Shanghai, day 1",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "09:30–16:00",
+          "companies": [
+            "ganso",
+            "lecake"
+          ],
+          "note_ru": "Подарочная и премиальная кондитерка",
+          "note_en": "Gift and premium confectionery"
+        },
+        {
+          "day": 4,
+          "city": "shanghai",
+          "city_ru": "Шанхай, день 2",
+          "city_en": "Shanghai, day 2",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "09:30–11:30",
+          "companies": [
+            "85c"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ ~16:00 → Шэньчжэнь",
+          "transfer_en": "✈ ~16:00 → Shenzhen"
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь → Цзянмэнь (финал)",
+          "city_en": "Shenzhen → Jiangmen (final)",
+          "area_ru": "Шэньчжэнь · Цзянмэнь, фабрика Maxim's",
+          "area_en": "Shenzhen · Jiangmen, Maxim's factory",
+          "time": "09:30–17:00",
+          "companies": [
+            "xingfu-xibing",
+            "maxims-cakes"
+          ],
+          "transfer_ru": "🚗 ~13:00 → Цзянмэнь (~2 ч), вечером 🚗 → Гуанчжоу (~1,5 ч)",
+          "transfer_en": "🚗 ~13:00 → Jiangmen (~2 h), evening 🚗 → Guangzhou (~1.5 h)",
+          "note_ru": "Завершение экспедиции",
+          "note_en": "End of the expedition"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — lunch and dinner daily"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full logistics — domestic flights, intercity transfers, airport pick-up and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом восьми компаний — Holiland, Wedome, 21Cake, Ganso, Lecake, 85°C, Xingfu Xibing, Maxim's Cakes",
+          "en": "Meetings with top management of eight companies — Holiland, Wedome, 21Cake, Ganso, Lecake, 85°C, Xingfu Xibing, Maxim's Cakes"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на франчайзинг, партнёрство и дистрибуцию",
+          "en": "Deal contacts — direct access to franchising, partnerships and distribution"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Китай — мировой центр кондитерской индустрии: национальные сети тортов и десертов обгоняют по масштабу международные бренды.",
+      "market_note_en": "China is a global confectionery hub: national cake and dessert chains outscale international brands here.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
