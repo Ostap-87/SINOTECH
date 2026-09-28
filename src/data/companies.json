@@ -16362,6 +16362,36 @@
       "own_supplier": false,
       "category_en": null,
       "category_ru": null
+    },
+    {
+      "id": "zhipu-ai",
+      "name_en": "Zhipu AI",
+      "name_zh": "智谱",
+      "sector": "ai",
+      "city": "beijing",
+      "country": "cn",
+      "desc_en": "Beijing-based large-model developer spun out of Tsinghua University research, behind the GLM family of foundation models — one of China's earliest and most prominent home-grown LLM labs, backed by Alibaba, Tencent and Meituan among others.",
+      "desc_ru": "Пекинский разработчик больших языковых моделей, выросший из исследовательской группы Университета Цинхуа, создатель линейки моделей GLM — одна из первых и самых заметных китайских LLM-лабораторий, среди инвесторов Alibaba, Tencent и Meituan.",
+      "logo": "/logos/ZhipuAI.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": "LLM / AI brain",
+      "category_ru": "LLM / ИИ"
+    },
+    {
+      "id": "deepseek",
+      "name_en": "DeepSeek",
+      "name_zh": "深度求索",
+      "sector": "ai",
+      "city": "hangzhou",
+      "country": "cn",
+      "desc_en": "Hangzhou-based AI lab spun out of the quant fund High-Flyer, whose open-weight reasoning models triggered a global re-pricing of AI compute costs in early 2025 — one of the most closely watched Chinese LLM developers.",
+      "desc_ru": "Ханчжоуская ИИ-лаборатория, выросшая из квантового фонда High-Flyer: открытые модели с рассуждениями спровоцировали в начале 2025 года глобальную переоценку стоимости ИИ-вычислений — одна из самых обсуждаемых китайских LLM-компаний.",
+      "logo": "/logos/DeepSeek.png",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": "LLM / AI brain",
+      "category_ru": "LLM / ИИ"
     }
   ]
 }

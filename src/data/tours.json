@@ -13477,6 +13477,198 @@
         "phone": "+86 137 6171 6355",
         "telegram": "@ostapdotcenko"
       }
+    },
+    {
+      "tour_id": "china-ai-expedition",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "ai",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "China AI Expedition",
+      "title_en": "China AI Expedition",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Models · Platforms · Interfaces",
+      "tagline_en": "Models · Platforms · Interfaces",
+      "positioning_ru": "Закрытые визиты в ведущие ИИ-компании Китая: от разработчиков LLM до технологических гигантов. Прямой доступ к компаниям, куда не попасть самостоятельно.",
+      "positioning_en": "Closed-door visits to China's leading AI companies, from LLM developers to tech giants. Direct access to companies you can't reach on your own.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 10,
+        "flights": 2
+      },
+      "route_strategy": "north-to-south",
+      "arrival_ru": "Пекин (перелёт Москва → Пекин)",
+      "arrival_en": "Beijing (Moscow → Beijing)",
+      "departure_ru": "Шэньчжэнь (→ Москва)",
+      "departure_en": "Shenzhen (→ Moscow)",
+      "route_cities": [
+        "beijing",
+        "shanghai",
+        "hangzhou",
+        "shenzhen"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Хайдянь",
+          "area_en": "Haidian",
+          "time": "10:00–17:00",
+          "companies": [
+            "zhipu-ai",
+            "moonshot-ai-kimi",
+            "kuaishou"
+          ],
+          "note_ru": "LLM и генеративное видео — Kimi, GLM, Kling",
+          "note_en": "LLMs and generative video — Kimi, GLM, Kling"
+        },
+        {
+          "day": 2,
+          "city": "beijing",
+          "city_ru": "Пекин",
+          "city_en": "Beijing",
+          "area_ru": "Пекин",
+          "area_en": "Beijing",
+          "time": "09:30–16:00",
+          "companies": [
+            "bytedance",
+            "baidu"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ ~19:30 → Шанхай",
+          "transfer_en": "✈ ~19:30 → Shanghai"
+        },
+        {
+          "day": 3,
+          "city": "shanghai",
+          "city_ru": "Шанхай → Ханчжоу",
+          "city_en": "Shanghai → Hangzhou",
+          "area_ru": "Шанхай",
+          "area_en": "Shanghai",
+          "time": "10:00–12:00",
+          "companies": [
+            "sensetime"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚆 ~14:30 → Ханчжоу (~1 ч)",
+          "transfer_en": "🚆 ~14:30 → Hangzhou (~1 h)"
+        },
+        {
+          "day": 4,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Кампус Alibaba Сиси (Юйхан)",
+          "area_en": "Alibaba Xixi campus (Yuhang)",
+          "time": "09:30–16:00",
+          "companies": [
+            "alibaba",
+            "deepseek"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ ~20:00 (HGH) → Шэньчжэнь",
+          "transfer_en": "✈ ~20:00 (HGH) → Shenzhen"
+        },
+        {
+          "day": 5,
+          "city": "shenzhen",
+          "city_ru": "Шэньчжэнь (финал)",
+          "city_en": "Shenzhen (final)",
+          "area_ru": "Наньшань",
+          "area_en": "Nanshan",
+          "time": "09:30–16:00",
+          "companies": [
+            "tencent",
+            "brainco"
+          ],
+          "note_ru": "Завершение экспедиции",
+          "note_en": "End of the expedition"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — lunch and dinner daily"
+        },
+        {
+          "ru": "Полная навигация — внутренние перелёты, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full logistics — domestic flights, intercity transfers, airport pick-up and drop-off"
+        },
+        {
+          "ru": "Переговоры с топ-менеджментом десяти компаний — Zhipu AI, Moonshot AI, Kuaishou, ByteDance, Baidu, SenseTime, Alibaba, DeepSeek, Tencent, BrainCo",
+          "en": "Meetings with top management of ten companies — Zhipu AI, Moonshot AI, Kuaishou, ByteDance, Baidu, SenseTime, Alibaba, DeepSeek, Tencent, BrainCo"
+        },
+        {
+          "ru": "Перевод и сопровождение на каждой встрече",
+          "en": "Translation and support at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на партнёрство, интеграцию и дистрибуцию",
+          "en": "Deal contacts — direct access to partnerships, integration and distribution"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "уточняется",
+            "calc_en": "on request",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Китай — один из двух мировых центров разработки больших языковых моделей и генеративного ИИ, наравне с США.",
+      "market_note_en": "China is one of the world's two centres of large-model and generative-AI development, alongside the US.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      }
     }
   ]
 }
