@@ -2598,6 +2598,21 @@
       "logo": "/logos/Bright Dairy.png"
     },
     {
+      "id": "weigang-dairy",
+      "name_en": "Weigang Dairy",
+      "name_zh": "卫岗乳业",
+      "sector": "food",
+      "city": "nanjing",
+      "status": "catalog",
+      "own_supplier": false,
+      "category_en": null,
+      "category_ru": null,
+      "desc_en": "Weigang Dairy (Nanjing Weigang Dairy) is one of China's oldest dairy producers, with a history dating back to 1928. Based in Nanjing, it is among the leading regional producers of fresh milk and yogurt in the Yangtze River Delta and works across the full cycle, from its own farms to cold-chain logistics. Together with China Telecom, the company has built a 5G smart factory: 5G, AI and IoT link the whole chain, from monitoring cow health (5G RedCap modules) to production and delivery.",
+      "desc_ru": "Weigang Dairy (Nanjing Weigang Dairy) — один из старейших молочных производителей Китая, история компании ведётся с 1928 года. Базируется в Нанкине и входит в число ведущих региональных производителей свежего молока и йогуртов в дельте Янцзы, работая по полному циклу — от собственных ферм до холодовой логистики. Совместно с China Telecom компания построила «умный» завод на 5G: технологии 5G, ИИ и IoT связывают всю цепочку от мониторинга здоровья коров (модули 5G RedCap) до производства и доставки.",
+      "country": "cn",
+      "logo": null
+    },
+    {
       "id": "totole",
       "name_en": "Totole",
       "name_zh": "太太乐",

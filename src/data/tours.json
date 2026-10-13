@@ -13690,6 +13690,200 @@
         "telegram": "@ostapdotcenko"
       },
       "cover": "/covers/china-ai-expedition.jpg"
+    },
+    {
+      "tour_id": "china-dairy-smart-factories-expedition",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "food",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Умные молочные заводы Китая",
+      "title_en": "China's Smart Dairy Factories",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Yili · Mengniu · Bright Dairy · Weigang",
+      "tagline_en": "Yili · Mengniu · Bright Dairy · Weigang",
+      "positioning_ru": "Визиты на пять самых автоматизированных молочных производств Китая и роботизированную ферму в пяти городах — от «маяковой фабрики» WEF Mengniu в Нинся до крупнейшего в мире завода охлаждённой продукции Bright Dairy в Шанхае. Маршрут «Север → Восток»: от сырья к потребителю.",
+      "positioning_en": "Visits to five of China's most automated dairy plants and a robotic dairy farm across five cities — from Mengniu's WEF Lighthouse factory in Ningxia to Bright Dairy's world-largest chilled-dairy plant in Shanghai. A North → East route: from raw milk to the consumer.",
+      "stats": {
+        "cities": 5,
+        "days": 5,
+        "nights": 6,
+        "companies": 4,
+        "flights": 2
+      },
+      "route_strategy": "hohhot-yinchuan-wuhan-nanjing-shanghai",
+      "arrival_ru": "Хух-Хото (вечерний прилёт, аэропорт Байта)",
+      "arrival_en": "Hohhot (evening arrival, Baita airport)",
+      "departure_ru": "Шанхай (вылет из аэропорта Пудун утром после 6-й ночи)",
+      "departure_en": "Shanghai (departure from Pudong airport the morning after the 6th night)",
+      "route_cities": [
+        "hohhot",
+        "yinchuan",
+        "wuhan",
+        "nanjing",
+        "shanghai"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "city": "hohhot",
+          "city_ru": "Хух-Хото",
+          "city_en": "Hohhot",
+          "area_ru": "Флагман жидкого молока Yili",
+          "area_en": "Yili's liquid-milk flagship",
+          "time": "10:00–13:00",
+          "companies": [
+            "yili"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Хух-Хото → Иньчуань (~1–1,5 ч). Ночёвка в Иньчуане",
+          "transfer_en": "✈ Evening — flight Hohhot → Yinchuan (~1–1.5h). Overnight in Yinchuan"
+        },
+        {
+          "day": 2,
+          "city": "yinchuan",
+          "city_ru": "Иньчуань (Линъу)",
+          "city_en": "Yinchuan (Lingwu)",
+          "area_ru": "«Маяковая фабрика» WEF",
+          "area_en": "WEF Lighthouse factory",
+          "time": "10:00–13:00",
+          "companies": [
+            "mengniu"
+          ],
+          "leg_mode": "flight",
+          "transfer_ru": "✈ Вечером — перелёт Иньчуань → Ухань (~2,5 ч). Ночёвка в Ухане",
+          "transfer_en": "✈ Evening — flight Yinchuan → Wuhan (~2.5h). Overnight in Wuhan"
+        },
+        {
+          "day": 3,
+          "city": "wuhan",
+          "city_ru": "Ухань",
+          "city_en": "Wuhan",
+          "area_ru": "Крупнейший в мире завод йогуртов",
+          "area_en": "The world's largest yogurt plant",
+          "time": "10:00–13:00",
+          "companies": [
+            "mengniu"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Днём — скоростной поезд Ухань → Нанкин (~3 ч). Ночёвка в Нанкине",
+          "transfer_en": "🚄 Afternoon — high-speed train Wuhan → Nanjing (~3h). Overnight in Nanjing"
+        },
+        {
+          "day": 4,
+          "city": "nanjing",
+          "city_ru": "Нанкин",
+          "city_en": "Nanjing",
+          "area_ru": "Региональный 5G-завод",
+          "area_en": "A regional 5G factory",
+          "time": "10:00–13:00",
+          "companies": [
+            "weigang-dairy"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Днём — скоростной поезд Нанкин → Шанхай (~1–1,5 ч). Ночёвка в Шанхае",
+          "transfer_en": "🚄 Afternoon — high-speed train Nanjing → Shanghai (~1–1.5h). Overnight in Shanghai"
+        },
+        {
+          "day": 5,
+          "city": "shanghai",
+          "city_ru": "Шанхай (финал)",
+          "city_en": "Shanghai (finale)",
+          "area_ru": "Крупнейший в мире завод охлаждённой продукции",
+          "area_en": "The world's largest chilled-dairy plant",
+          "time": "10:00–13:00",
+          "companies": [
+            "bright-dairy"
+          ],
+          "note_ru": "Завершение программы. Ночёвка в Шанхае, вылет на следующее утро из аэропорта Пудун",
+          "note_en": "End of the program. Overnight in Shanghai, departure from Pudong the next morning"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — 2 внутренних перелёта, 2 скоростных поезда, трансферы между городами, встреча и проводы в аэропорту",
+          "en": "Full navigation — 2 domestic flights, 2 high-speed trains, inter-city transfers, airport pickup and drop-off"
+        },
+        {
+          "ru": "Закрытые визиты на 5 заводов и роботизированную ферму — Yili, Mengniu (Нинся и Ухань), Weigang Dairy, Bright Dairy",
+          "en": "Private visits to 5 plants and a robotic farm — Yili, Mengniu (Ningxia and Wuhan), Weigang Dairy, Bright Dairy"
+        },
+        {
+          "ru": "Встречи с технологами и руководством производств — разбор моделей «умного завода», автоматизации и холодной цепи",
+          "en": "Meetings with plant technologists and management — smart-factory models, automation and the cold chain"
+        },
+        {
+          "ru": "Перевод и сопровождение — переводчик-технолог на каждой встрече",
+          "en": "Translation and support — a technical interpreter at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — прямые выходы на производителей и поставщиков оборудования",
+          "en": "Deal contacts — direct lines to producers and equipment suppliers"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "2 внутренних перелёта, 2 скоростных поезда, трансферы между городами, такси, встреча / проводы в аэропорту",
+            "calc_en": "2 domestic flights, 2 high-speed trains, inter-city transfers, taxi, airport transfers",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Маршрут «Север → Восток» без обратных переездов: от фермы и сырья во Внутренней Монголии до завода у потребителя в Шанхае — два внутренних перелёта и два скоростных поезда.",
+      "market_note_en": "A North → East route with no backtracking: from the farm and raw milk in Inner Mongolia to a plant next to the consumer in Shanghai — two domestic flights and two high-speed trains.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      },
+      "cover": "/covers/china-dairy-smart-factories-expedition.jpg"
     }
   ]
 }
