@@ -13738,7 +13738,6 @@
           "companies": [
             "yili"
           ],
-          "leg_mode": "flight",
           "transfer_ru": "✈ Вечером — перелёт Хух-Хото → Иньчуань (~1–1,5 ч). Ночёвка в Иньчуане",
           "transfer_en": "✈ Evening — flight Hohhot → Yinchuan (~1–1.5h). Overnight in Yinchuan"
         },
@@ -13768,7 +13767,7 @@
           "companies": [
             "mengniu"
           ],
-          "leg_mode": "train",
+          "leg_mode": "flight",
           "transfer_ru": "🚄 Днём — скоростной поезд Ухань → Нанкин (~3 ч). Ночёвка в Нанкине",
           "transfer_en": "🚄 Afternoon — high-speed train Wuhan → Nanjing (~3h). Overnight in Nanjing"
         },
@@ -13798,6 +13797,7 @@
           "companies": [
             "bright-dairy"
           ],
+          "leg_mode": "train",
           "note_ru": "Завершение программы. Ночёвка в Шанхае, вылет на следующее утро из аэропорта Пудун",
           "note_en": "End of the program. Overnight in Shanghai, departure from Pudong the next morning"
         }
@@ -13884,6 +13884,227 @@
         "telegram": "@ostapdotcenko"
       },
       "cover": "/covers/china-dairy-smart-factories-expedition.jpg"
+    },
+    {
+      "tour_id": "china-glp1-peptides-expedition",
+      "brand": "Global Tech Tour",
+      "country": "cn",
+      "sector": "medtech",
+      "status": "ready",
+      "published": false,
+      "start_date": null,
+      "title_ru": "Китайский Ozempic: GLP-1 и пептидная фарма Китая",
+      "title_en": "China's Ozempic: GLP-1 and Chinese Peptide Pharma",
+      "eyebrow_ru": "Бизнес-делегации в Китай",
+      "eyebrow_en": "Business delegations to China",
+      "tagline_ru": "Innovent · Huadong · Jiuyuan · Sciwind · WuXi TIDES · Langhua",
+      "tagline_en": "Innovent · Huadong · Jiuyuan · Sciwind · WuXi TIDES · Langhua",
+      "positioning_ru": "Визиты к шести ключевым игрокам китайского рынка GLP-1 в дельте Янцзы — от собственных разработчиков препаратов и первых производителей дженериков семаглутида до CDMO-гигантов, которые производят пептиды для мировых брендов. Фон тура: в марте 2026 года в Китае истёк патент на семаглутид, и вокруг препарата началась гонка.",
+      "positioning_en": "Visits to six key players in China's GLP-1 market in the Yangtze River Delta — from developers of their own drugs and the first semaglutide generics makers to the CDMO giants that produce peptides for global brands. The backdrop: China's semaglutide patent expired in March 2026, and a race around the drug has begun.",
+      "stats": {
+        "cities": 4,
+        "days": 5,
+        "nights": 6,
+        "companies": 6,
+        "flights": 0
+      },
+      "route_strategy": "shanghai-changzhou-suzhou-hangzhou-taizhou-shanghai",
+      "arrival_ru": "Шанхай (вечерний прилёт, Пудун / Хунцяо)",
+      "arrival_en": "Shanghai (evening arrival, Pudong / Hongqiao)",
+      "departure_ru": "Шанхай (аэропорт Пудун), утром после 6-й ночи",
+      "departure_en": "Shanghai (Pudong airport), the morning after the 6th night",
+      "route_cities": [
+        "shanghai",
+        "changzhou",
+        "suzhou",
+        "hangzhou",
+        "taizhou"
+      ],
+      "itinerary": [
+        {
+          "day": 0,
+          "city": "shanghai",
+          "city_ru": "Шанхай",
+          "city_en": "Shanghai",
+          "area_ru": "Прибытие делегации",
+          "area_en": "Delegation arrival",
+          "time": "вечер",
+          "companies": [],
+          "note_ru": "Вечерний прилёт в Шанхай (Пудун / Хунцяо), встреча, трансфер и заселение. Брифинг: рынок GLP-1 в Китае после окончания патента на семаглутид, как устроены оригинаторы, дженерики и CDMO. Ночёвка в Шанхае",
+          "note_en": "Evening arrival in Shanghai (Pudong / Hongqiao), meet-and-greet, transfer and check-in. Briefing: China's GLP-1 market after the semaglutide patent expiry — how originators, generics makers and CDMOs work. Overnight in Shanghai"
+        },
+        {
+          "day": 1,
+          "city": "changzhou",
+          "city_ru": "Чанчжоу",
+          "city_en": "Changzhou",
+          "area_ru": "Фабрика пептидов для мировых брендов",
+          "area_en": "A peptide factory for global brands",
+          "time": "10:00–13:00",
+          "companies": [
+            "wuxi-apptec"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Утром — скоростной поезд Шанхай → Чанчжоу (~1 ч). 🚄 Вечером — Чанчжоу → Сучжоу (~30 мин). Ночёвка в Сучжоу",
+          "transfer_en": "🚄 Morning — high-speed train Shanghai → Changzhou (~1h). 🚄 Evening — Changzhou → Suzhou (~30 min). Overnight in Suzhou"
+        },
+        {
+          "day": 2,
+          "city": "suzhou",
+          "city_ru": "Сучжоу",
+          "city_en": "Suzhou",
+          "area_ru": "Собственный китайский GLP-1",
+          "area_en": "China's own GLP-1",
+          "time": "10:00–13:00",
+          "companies": [
+            "innovent"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Вечером — скоростной поезд Сучжоу → Ханчжоу (~1,5 ч). Ночёвка в Ханчжоу",
+          "transfer_en": "🚄 Evening — high-speed train Suzhou → Hangzhou (~1.5h). Overnight in Hangzhou"
+        },
+        {
+          "day": 3,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу",
+          "city_en": "Hangzhou",
+          "area_ru": "Дженерики семаглутида: два подхода",
+          "area_en": "Semaglutide generics: two approaches",
+          "time": "10:00–17:30",
+          "companies": [
+            "huadong-medicine",
+            "jiuyuan-gene"
+          ],
+          "leg_mode": "train",
+          "note_ru": "10:00–13:00 — Huadong Medicine, 15:00–17:30 — Jiuyuan Gene. Ночёвка в Ханчжоу",
+          "note_en": "10:00–13:00 — Huadong Medicine, 15:00–17:30 — Jiuyuan Gene. Overnight in Hangzhou"
+        },
+        {
+          "day": 4,
+          "city": "taizhou",
+          "city_ru": "Тайчжоу",
+          "city_en": "Taizhou",
+          "area_ru": "Быстрорастущая CDMO нового поколения",
+          "area_en": "A fast-growing new-generation CDMO",
+          "time": "11:00–14:00",
+          "companies": [
+            "langhua"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "🚄 Утром — Ханчжоу → Тайчжоу (~1,5–2 ч). 🚄 Вечером — возвращение в Ханчжоу. Ночёвка в Ханчжоу",
+          "transfer_en": "🚄 Morning — Hangzhou → Taizhou (~1.5–2h). 🚄 Evening — back to Hangzhou. Overnight in Hangzhou"
+        },
+        {
+          "day": 5,
+          "city": "hangzhou",
+          "city_ru": "Ханчжоу (финал)",
+          "city_en": "Hangzhou (finale)",
+          "area_ru": "Оригинальный GLP-1 с глобальным партнёром",
+          "area_en": "An original GLP-1 with a global partner",
+          "time": "10:00–13:00",
+          "companies": [
+            "sciwind"
+          ],
+          "leg_mode": "train",
+          "transfer_ru": "15:00 — итоговая сессия: «оригинатор / дженерик / CDMO». 🚄 Вечером — скоростной поезд Ханчжоу → Шанхай (~1 ч), прощальный ужин на набережной Вайтань. Ночёвка в Шанхае",
+          "transfer_en": "15:00 — wrap-up session: originator / generic / CDMO. 🚄 Evening — high-speed train Hangzhou → Shanghai (~1h), farewell dinner on the Bund. Overnight in Shanghai"
+        },
+        {
+          "day": 6,
+          "city": "shanghai",
+          "city_ru": "Шанхай",
+          "city_en": "Shanghai",
+          "area_ru": "Вылет делегации",
+          "area_en": "Delegation departure",
+          "time": "утро",
+          "companies": [],
+          "leg_mode": "train",
+          "note_ru": "Завершение программы. Трансфер в аэропорт Пудун, вылет в Москву",
+          "note_en": "End of the program. Transfer to Pudong airport, flight to Moscow"
+        }
+      ],
+      "includes": [
+        {
+          "ru": "5 дней / 6 ночей — размещение в отелях 5 звёзд на всём протяжении программы",
+          "en": "5 days / 6 nights — 5-star hotel accommodation throughout the program"
+        },
+        {
+          "ru": "Питание — обед и ужин ежедневно",
+          "en": "Meals — daily lunch and dinner"
+        },
+        {
+          "ru": "Полная навигация — 6 скоростных поездов, трансферы, встреча и проводы в аэропорту; без внутренних перелётов",
+          "en": "Full navigation — 6 high-speed trains, transfers, airport pickup and drop-off; no domestic flights"
+        },
+        {
+          "ru": "Встречи с бизнес-развитием и производственными командами шести компаний — Innovent, Huadong, Jiuyuan, Sciwind, WuXi TIDES, Langhua",
+          "en": "Meetings with the business-development and production teams of six companies — Innovent, Huadong, Jiuyuan, Sciwind, WuXi TIDES, Langhua"
+        },
+        {
+          "ru": "Итоговая сессия — сравнение моделей «оригинатор / дженерик / CDMO»",
+          "en": "Wrap-up session — comparing the originator / generic / CDMO models"
+        },
+        {
+          "ru": "Перевод и сопровождение — переводчик со знанием фармацевтической отрасли на каждой встрече",
+          "en": "Translation and support — an interpreter with pharma-industry knowledge at every meeting"
+        },
+        {
+          "ru": "Контакты для сделок — выходы на лицензирование, дистрибуцию и поставки субстанций",
+          "en": "Deal contacts — leads on licensing, distribution and active-ingredient supply"
+        }
+      ],
+      "pricing": {
+        "currency": "RUB",
+        "basis_ru": "на одного участника",
+        "basis_en": "per participant",
+        "items": [
+          {
+            "n": 1,
+            "title_ru": "Проживание",
+            "title_en": "Accommodation",
+            "calc_ru": "6 ночей, отели 5 звёзд",
+            "calc_en": "6 nights, 5-star hotels",
+            "amount": null
+          },
+          {
+            "n": 2,
+            "title_ru": "Организация питания",
+            "title_en": "Meals",
+            "calc_ru": "5 дней (обед / ужин)",
+            "calc_en": "5 days (lunch / dinner)",
+            "amount": null
+          },
+          {
+            "n": 3,
+            "title_ru": "Транспортное сопровождение",
+            "title_en": "Transport",
+            "calc_ru": "6 скоростных поездов, трансферы, такси, встреча / проводы в аэропорту; без внутренних перелётов",
+            "calc_en": "6 high-speed trains, transfers, taxi, airport transfers; no domestic flights",
+            "amount": null
+          },
+          {
+            "n": 4,
+            "title_ru": "Организационный взнос участника экспедиции",
+            "title_en": "Expedition participation fee",
+            "calc_ru": "Услуги сопровождения и переводчика, посещение площадок, прямые контакты с руководством",
+            "calc_en": "Escort and interpreter services, site visits, direct contacts with leadership",
+            "amount": null
+          }
+        ],
+        "total_excl_flights": null,
+        "total_label_ru": "Стоимость уточняется",
+        "total_label_en": "Price on request",
+        "extras": []
+      },
+      "market_note_ru": "Весь маршрут — в дельте Янцзы на скоростных поездах, без внутренних перелётов: Шанхай → Чанчжоу → Сучжоу → Ханчжоу (⇄ Тайчжоу) → Шанхай. Три модели рынка GLP-1 за одну поездку — оригинатор, дженерик и CDMO.",
+      "market_note_en": "The whole route runs through the Yangtze River Delta by high-speed train, with no domestic flights: Shanghai → Changzhou → Suzhou → Hangzhou (⇄ Taizhou) → Shanghai. Three GLP-1 business models in one trip — originator, generic and CDMO.",
+      "contact": {
+        "name_ru": "Остап Доценко",
+        "name_en": "Ostap Dotsenko",
+        "phone": "+86 137 6171 6355",
+        "telegram": "@ostapdotcenko"
+      },
+      "cover": "/covers/china-glp1-peptides-expedition.jpg"
     }
   ]
 }
