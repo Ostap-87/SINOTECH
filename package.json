@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && tsc -b && vite build && node scripts/prerender.mjs",
+    "build": "node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && tsc -b && vite build && node scripts/dist-assets.mjs repair && node scripts/prerender.mjs && node scripts/dist-assets.mjs prune",
     "lint": "oxlint",
     "preview": "vite preview"
   },
