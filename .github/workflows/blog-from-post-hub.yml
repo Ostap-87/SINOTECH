@@ -1,0 +1,79 @@
+# Блог globaltechtour.ru — сам, без агента и без сервера-публикатора (решение пользователя 07.11.2026:
+# «Утверждаю, делай. И сделай так, чтобы статьи самостоятельно выходили без твоего участия»).
+# Очередь статей — публичный репозиторий Ostap-87/POST-HUB, папка GTT/BLOG/READY (по статье в день, 15:00 МСК).
+# Несколько раз в день workflow берёт очередь, запускает CONTROL/TOOLS/blog_site.py --due (статья и обложка → файлы
+# сайта) и пушит в ветку claude/sinotech-voyage-setup — вебхук сервера пересобирает сайт. Токены не нужны: оба репозитория публичные,
+# пуш — своим GITHUB_TOKEN. Лишние прогоны ничего не делают: уже вышедшая статья пропускается.
+# Стоп-кран — CONTROL/PUBLISHING.yaml в POST-HUB (GTT/BLOG в pause_except). Учёт READY → PUBLISHED — workflow
+# POST-HUB «Блоги сайтов — учёт». Руками: Actions → «Блог из POST-HUB» → Run workflow (папка — одна статья сразу).
+name: Блог из POST-HUB
+
+on:
+  schedule:
+    - cron: "11 12,13,15,18 * * *"   # 15:11, 16:11, 18:11, 21:11 МСК — GitHub запускает расписание с опозданием
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "Одна статья сейчас: папка в GTT/BLOG/READY, например 2026-11-07_1500_<slug> (пусто — по расписанию)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Только показать, что вышло бы"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: blog-from-post-hub
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/sinotech-voyage-setup
+          path: site
+          fetch-depth: 1
+      - uses: actions/checkout@v4
+        with:
+          repository: Ostap-87/POST-HUB
+          ref: main
+          path: hub
+          fetch-depth: 1
+          sparse-checkout: |
+            CONTROL
+            GTT/BLOG/READY
+      - name: Статья из очереди → сайт
+        env:
+          POST: ${{ inputs.post }}
+          DRY: ${{ inputs.dry_run }}
+        run: |
+          set -eo pipefail
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          args="--project GTT --site ."
+          if [ -n "$POST" ]; then args="$args --post $POST"; else args="$args --due"; fi
+          if [ "$DRY" = "true" ]; then python3 ../hub/CONTROL/TOOLS/blog_site.py $args --dry-run; exit 0; fi
+          for attempt in 1 2 3 4; do
+            git fetch -q --depth=1 origin claude/sinotech-voyage-setup
+            git reset -q --hard origin/claude/sinotech-voyage-setup
+            python3 ../hub/CONTROL/TOOLS/blog_site.py $args | tee ../out.txt
+            slugs=$(sed -n 's/^PUBLISHED_SLUG=//p' ../out.txt | tr '\n' ' ' | sed 's/ *$//')
+            if [ -z "$slugs" ]; then echo "публиковать нечего"; exit 0; fi
+            python3 -c "import json; json.load(open('src/data/site_content.example.json'))"
+            git add -A src/data/site_content.example.json public/covers
+            git commit -q -m "Publish blog article: $slugs (POST-HUB)"
+            if git push -q origin HEAD:claude/sinotech-voyage-setup; then
+              echo "### Вышло: $slugs" >> "$GITHUB_STEP_SUMMARY"
+              for s in $slugs; do echo "- https://globaltechtour.ru/blog/$s" >> "$GITHUB_STEP_SUMMARY"; done
+              exit 0
+            fi
+            sleep $((attempt * 10))
+          done
+          exit 1
