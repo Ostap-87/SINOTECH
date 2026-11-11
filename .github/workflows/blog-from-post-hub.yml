@@ -1,44 +1,54 @@
-# Блог globaltechtour.ru — сам, без агента и без сервера-публикатора (решение пользователя 07.11.2026:
-# «Утверждаю, делай. И сделай так, чтобы статьи самостоятельно выходили без твоего участия»).
-# Очередь статей — публичный репозиторий Ostap-87/POST-HUB, папка GTT/BLOG/READY (по статье в день, 15:00 МСК).
-# Несколько раз в день workflow берёт очередь, запускает CONTROL/TOOLS/blog_site.py --due (статья и обложка → файлы
-# сайта) и пушит в ветку claude/sinotech-voyage-setup — вебхук сервера пересобирает сайт. Токены не нужны: оба репозитория публичные,
-# пуш — своим GITHUB_TOKEN. Лишние прогоны ничего не делают: уже вышедшая статья пропускается.
-# Стоп-кран — CONTROL/PUBLISHING.yaml в POST-HUB (GTT/BLOG в pause_except). Учёт READY → PUBLISHED — workflow
-# POST-HUB «Блоги сайтов — учёт». Руками: Actions → «Блог из POST-HUB» → Run workflow (папка — одна статья сразу).
+# Блог globaltechtour.ru — ДЕЖУРНЫЙ РЕЖИМ (без cron-поллинга).
+# Один прогон живёт ~5 ч 40 мин, раз в минуту проверяет очередь, публикует в 15:00 МСК
+# и в конце запускает следующего себя через workflow_dispatch. Планировщик GitHub
+# в цепочке не участвует. Ручной запуск без window — разовая публикация просроченного.
 name: Блог из POST-HUB
 
 on:
-  schedule:
-    - cron: "*/20 * * * *"   # каждые 20 минут: GitHub опаздывает, но 72 попытки в сутки закрывают задержку
   workflow_dispatch:
     inputs:
+      window:
+        description: "Секунд дежурства (пусто — разовая публикация)"
+        required: false
+        default: ""
       post:
-        description: "Одна статья сейчас: папка в GTT/BLOG/READY, например 2026-11-07_1500_<slug> (пусто — по расписанию)"
+        description: "Одна статья сейчас: папка в GTT/BLOG/READY"
         required: false
         default: ""
       dry_run:
         description: "Только показать, что вышло бы"
         type: boolean
         default: false
+  schedule:
+    - cron: "0 13 * * *"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: blog-from-post-hub
   cancel-in-progress: false
 
+env:
+  EVENT: ${{ github.event_name }}
+  INPUT_WINDOW: ${{ inputs.window }}
+  INPUT_POST: ${{ inputs.post }}
+  INPUT_DRY: ${{ inputs.dry_run }}
+  BRANCH: claude/sinotech-voyage-setup
+  PROJECT: GTT
+
 jobs:
-  publish:
+  duty:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: ${{ (github.event_name == 'schedule' || inputs.window != '') && 355 || 20 }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: claude/sinotech-voyage-setup
           path: site
           fetch-depth: 1
+
       - uses: actions/checkout@v4
         with:
           repository: Ostap-87/POST-HUB
@@ -48,32 +58,62 @@ jobs:
           sparse-checkout: |
             CONTROL
             GTT/BLOG/READY
-      - name: Статья из очереди → сайт
-        env:
-          POST: ${{ inputs.post }}
-          DRY: ${{ inputs.dry_run }}
+
+      - name: Публикация
+        id: pub
         run: |
-          set -eo pipefail
+          set -u
           cd site
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          args="--project GTT --site ."
-          if [ -n "$POST" ]; then args="$args --post $POST"; else args="$args --due"; fi
-          if [ "$DRY" = "true" ]; then python3 ../hub/CONTROL/TOOLS/blog_site.py $args --dry-run; exit 0; fi
-          for attempt in 1 2 3 4; do
-            git fetch -q --depth=1 origin claude/sinotech-voyage-setup
-            git reset -q --hard origin/claude/sinotech-voyage-setup
-            python3 ../hub/CONTROL/TOOLS/blog_site.py $args | tee ../out.txt
-            slugs=$(sed -n 's/^PUBLISHED_SLUG=//p' ../out.txt | tr '\n' ' ' | sed 's/ *$//')
-            if [ -z "$slugs" ]; then echo "публиковать нечего"; exit 0; fi
-            python3 -c "import json; json.load(open('src/data/site_content.example.json'))"
-            git add -A src/data/site_content.example.json public/covers
-            git commit -q -m "Publish blog article: $slugs (POST-HUB)"
-            if git push -q origin HEAD:claude/sinotech-voyage-setup; then
-              echo "### Вышло: $slugs" >> "$GITHUB_STEP_SUMMARY"
-              for s in $slugs; do echo "- https://globaltechtour.ru/blog/$s" >> "$GITHUB_STEP_SUMMARY"; done
-              exit 0
-            fi
-            sleep $((attempt * 10))
-          done
-          exit 1
+
+          run_publish() {
+            for attempt in 1 2 3 4; do
+              git fetch -q --depth=1 origin "$BRANCH" || true
+              git reset -q --hard "origin/$BRANCH" || true
+              if [ "$INPUT_DRY" = "true" ]; then
+                python3 ../hub/CONTROL/TOOLS/blog_site.py --project "$PROJECT" --site . --due --dry-run || true
+                return 0
+              fi
+              if [ -n "$INPUT_POST" ]; then
+                args="--project $PROJECT --site . --post $INPUT_POST"
+              else
+                args="--project $PROJECT --site . --due"
+              fi
+              python3 ../hub/CONTROL/TOOLS/blog_site.py $args > ../out.txt 2>&1 || true
+              cat ../out.txt
+              slugs=$(sed -n 's/^PUBLISHED_SLUG=//p' ../out.txt | tr '\n' ' ' | sed 's/ *$//')
+              if [ -z "$slugs" ]; then return 0; fi
+              python3 -c "import json; json.load(open('src/data/site_content.example.json'))" || return 1
+              git add -A src/data/site_content.example.json public/covers
+              git commit -q -m "Publish blog article: $slugs (POST-HUB)"
+              if git push -q origin "HEAD:$BRANCH"; then
+                echo "### Вышло: $slugs" >> "$GITHUB_STEP_SUMMARY"
+                return 0
+              fi
+              sleep $((attempt * 10))
+            done
+            return 1
+          }
+
+          W="$INPUT_WINDOW"
+          if [ -z "$W" ]; then W=0; fi
+          if [ "$EVENT" = "schedule" ]; then W=20400; fi
+          if [ "$W" -gt 0 ]; then
+            echo "duty=1" >> "$GITHUB_OUTPUT"
+            END=$(( $(date +%s) + W ))
+            while [ "$(date +%s)" -lt "$END" ]; do
+              git -C ../hub fetch -q --depth=1 origin main || true
+              git -C ../hub reset -q --hard origin/main || true
+              run_publish || echo "попытка не удалась, повтор"
+              sleep 60
+            done
+          else
+            run_publish
+          fi
+
+      - name: Передать смену следующему дежурному
+        if: ${{ !cancelled() && steps.pub.outputs.duty == '1' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run blog-from-post-hub.yml --repo "$GITHUB_REPOSITORY" --ref main -f window=20400
